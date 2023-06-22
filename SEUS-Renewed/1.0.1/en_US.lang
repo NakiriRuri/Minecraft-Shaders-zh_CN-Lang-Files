@@ -1,0 +1,74 @@
+option.ENABLE_SOFT_SHADOWS=Soft Shadows
+option.VARIABLE_PENUMBRA_SHADOWS=Variable Penumbra Shadows
+option.COLORED_SHADOWS=Colored Shadows
+option.PIXEL_SHADOWS=Pixel-Locked Shadows
+option.TEXTURE_RESOLUTION=Texture Resolution
+option.ATMOSPHERIC_SCATTERING=Atmospheric Scattering
+option.CREPUSCULAR_RAYS=Crepuscular Rays
+option.FORCE_WET_EFFECT=Force Wet Effect
+option.HQ_VOLUMETRIC_CLOUDS=HQ Volumetric Clouds
+option.VOLUMETRIC_CLOUDS=Volumetric Clouds
+option.PARALLAX=Parallax Occlusion Mapping
+option.PARALLAX_SHADOW=Parallax Self-Shadows
+option.ENABLE_SSAO=SSAO
+option.GI=Global Illumination
+option.SMOOTH_CLOUDS=Smooth Clouds
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.GI_ARTIFACT_REDUCTION=GI Artifact Reduction
+option.GI_QUALITY=GI Quality
+option.GI_RENDER_RESOLUTION=GI Resolution
+option.GI_RADIUS=GI Radius
+option.WATER_PARALLAX=Water Parallax
+option.WATER_CAUSTICS=Water Caustics
+option.ATMOSPHERIC_HAZE=Atmospheric Haze
+option.RAYLEIGH_AMOUNT=Atmospheric Density
+option.TORCHLIGHT_BRIGHTNESS=Torchlight Brightness
+option.TORCHLIGHT_COLOR_TEMPERATURE=Torchlight Color Temp
+option.TORCHLIGHT_FILL=Torchlight Fill
+option.HELD_TORCHLIGHT=Held Torchlight
+option.MOTION_BLUR=Motion Blur
+option.TONEMAP_STRENGTH=Tonemap Curve
+
+option.PARALLAX_HQ=High-Precision Parallax
+option.PARALLAX_DEPTH=Parallax Depth
+
+option.SUNLIGHT_INTENSITY=Sunlight Intensity
+
+option.RAIN_SPLASH_EFFECT=Rain Splash Effect
+option.RAIN_SPLASH_BILATERAL=Rain Splash Tex Filter
+option.ENTITY_STATUS_COLOR=Entity Status Color
+
+option.BLOOM_AMOUNT=Bloom Strength
+option.MICRO_BLOOM=Micro Bloom
+option.TONEMAP_CURVE=Tonemapping Curve
+option.EXPOSURE=Exposure
+option.GAMMA=Gamma
+option.LUMA_GAMMA=Luminance Gamma
+option.SATURATION=Saturation
+option.WHITE_CLIP=White Clipping
+
+option.TAA_ENABLED=Temporal Anti-Aliasing
+option.TAA_SOFTNESS=TAA Softness
+option.TAA_AGGRESSIVE=Aggressive TAA
+option.SHARPENING=Image Sharpness
+
+
+option.TONEMAP_OPERATOR=Tonemap Operator
+value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+value.TONEMAP_OPERATOR.HableTonemap=Hable
+value.TONEMAP_OPERATOR.ACESTonemap=ACES
+value.TONEMAP_OPERATOR.ACESTonemap2=ACES2
+
+
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+profile.ULTRA=Ultra
+profile.EXTREME=Extreme
+
+screen.ATMOSPHERICS=Atmospherics Options
+screen.LIGHTING=Lighting & Shadows Options
+screen.SURFACE=Surface Options
+screen.GIADVANCED=Advanced GI Settings
+screen.POSTPROCESSING=Post-Processing Settings

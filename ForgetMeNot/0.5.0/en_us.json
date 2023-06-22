@@ -1,0 +1,78 @@
+{
+    "pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+    "pipeline.forgetmenot.desc": "Semi-realistic immersive shaderpack",
+
+    "config.forgetmenot.category.atmospherics": "Sky & Atmospherics",
+
+    "config.forgetmenot.name.hide_sky_ground": "Hide Sky Ground",
+    "config.forgetmenot.desc.hide_sky_ground": "Hides the sharp line at the horizon",
+    "config.forgetmenot.name.clouds": "Clouds",
+    "config.forgetmenot.desc.clouds": "2D planar clouds that look quite nice",
+    "config.forgetmenot.name.curl_noise": "Cloud Curl Noise",
+    "config.forgetmenot.desc.curl_noise": "Enables curl noise which adds extra detail to the cloud shape and movement. Impacts performance mildly",
+    "config.forgetmenot.name.cloud_light_rays": "Cloud Light Rays",
+    "config.forgetmenot.desc.cloud_light_rays": "Light rays on the cloud plane. Also known as crepuscular rays.",
+    "config.forgetmenot.name.volumetric_lighting": "Volumetric Lighting",
+    "config.forgetmenot.desc.volumetric_lighting": "Light rays on terrain. Are experimental and quite slow and noisy.",
+    "config.forgetmenot.name.atmospheric_fog": "Atmospheric Fog",
+    "config.forgetmenot.desc.atmospheric_fog": "Fog that uses atmospheric scattering",
+    "config.forgetmenot.name.border_fog": "Border Fog",
+    "config.forgetmenot.desc.border_fog": "Fog that hides chunk borders",
+    "config.forgetmenot.name.bloomy_fog": "Fog Scattering",
+    "config.forgetmenot.desc.bloomy_fog": "Also known as bloomy fog. Simulates multiple scattering (blurring) of objects behind thick fog. Screen space only.",
+
+    "config.forgetmenot.category.lighting": "Lighting",
+
+    "config.forgetmenot.name.day_brightness": "Day Brightness",
+    "config.forgetmenot.desc.day_brightness": "Brightness of daylight",
+    "config.forgetmenot.name.night_brightness": "Night Brightness",
+    "config.forgetmenot.desc.night_brightness": "Brightness of nightlight",
+    "config.forgetmenot.name.skylight_leak_fix": "Skylight Leak Fix",
+    "config.forgetmenot.desc.skylight_leak_fix": "Blends the shadow map with the sky lightmap, removing some shadows but preventing incorrect sunlight in caves",
+    "config.forgetmenot.name.raytraced_handheld_light_occlusion": "Raytraced Handheld Light Occlusion",
+    "config.forgetmenot.desc.raytraced_handheld_light_occlusion": "Does a quick screen space raytrace to find shadows for handheld light. Works best in 3rd person",
+    "config.forgetmenot.name.ssgi": "Raytraced Ambient Occlusion",
+    "config.forgetmenot.desc.ssgi": "Raytraced occlusion checks for high quality ambient lighting, very slow",
+
+    "config.forgetmenot.category.post_processing": "Post Processing",
+
+    "config.forgetmenot.name.film_grain": "Film Grain",
+    "config.forgetmenot.desc.film_grain": "Adds a film grain noise effect to the screen.",
+    "config.forgetmenot.name.vibrance": "Vibrance",
+    "config.forgetmenot.desc.vibrance": "Vibrance of the screen. Auto-adjusted for rain",
+
+    "config.forgetmenot.category.shadows": "Shadows",
+
+    "config.forgetmenot.name.variable_penumbra_shadows": "Variable Penumbra Shadows",
+    "config.forgetmenot.desc.variable_penumbra_shadows": "Shadows that soften based on distance. Mild performance impact",
+    "config.forgetmenot.name.vps_size_multiplier": "VPS Size Multiplier",
+    "config.forgetmenot.desc.vps_size_multiplier": "Multiplier for the distance it takes for shadows to get softer",
+    "config.forgetmenot.name.bias_mult": "Bias Multiplier",
+    "config.forgetmenot.desc.bias_mult": "Recommended to leave on unless you turn off VPS",
+    "config.forgetmenot.name.contact_shadows": "Contact Shadows",
+    "config.forgetmenot.desc.contact_shadows": "Raytraces towards the sun in screen space for subsurface scattering and to cover up holes in the shadows.",
+
+    "config.forgetmenot.category.performance": "Performance",
+
+    "config.forgetmenot.name.cloud_detail": "Cloud Detail",
+    "config.forgetmenot.desc.cloud_detail": "Amount of octaves to use for cloud noise. Higher number means more detailed and intricate clouds. Impacts performance greatly",
+    "config.forgetmenot.name.held_light_occlusion_quality": "Raytraced Handheld Light Occlusion Quality",
+    "config.forgetmenot.desc.held_light_occlusion_quality": "Number of steps to use for the held light occlusion raytrace",
+    "config.forgetmenot.name.ssgi_quality": "RTAO Quality",
+    "config.forgetmenot.desc.ssgi_quality": "Number of rays per pixel to cast for the occlusion tests for RTAO",
+    "config.forgetmenot.name.ssr_quality": "Reflection Quality",
+    "config.forgetmenot.desc.ssr_quality": "Number of steps to use for the reflection raytrace",
+    "config.forgetmenot.name.vps_search_samples": "VPS Search Samples",
+    "config.forgetmenot.desc.vps_search_samples": "Recommended to leave at default",
+    "config.forgetmenot.name.shadow_filter_samples": "Shadow Filter Samples",
+    "config.forgetmenot.desc.shadow_filter_samples": "Quality of shadow filtering. Recommended to leave at default",
+
+    "config.forgetmenot.category.debug": "Debug",
+
+    "config.forgetmenot.name.white_world": "White World",
+    "config.forgetmenot.desc.white_world": "Every block is colored white. Used for debugging lighting.",
+    "config.forgetmenot.name.draw_ao": "Draw AO",
+    "config.forgetmenot.desc.draw_ao": "Draw the raw AO result to the screen. Used for debugging ambient lighting.",
+    "config.forgetmenot.name.internal_materials": "Internal Materials",
+    "config.forgetmenot.desc.internal_materials": "Toggle for some material shader effects that only appear when the pipeline is active. Turn off at your own risk"
+}

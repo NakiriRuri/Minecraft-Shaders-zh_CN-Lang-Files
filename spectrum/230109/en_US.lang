@@ -1,0 +1,263 @@
+##--## Option screens ##------------------------------------------------------##
+
+screen.ao=Ambient Occlusion
+screen.camera=Camera
+screen.clouds2d=2D Clouds
+screen.clouds3d=3D Clouds
+screen.fogAir=Air Fog
+screen.fogWater=Water Fog
+screen.parallax=Parallax
+screen.shadowMap=Shadow Map
+screen.ssr=Screen-Space Reflections
+screen.taa=Temporal Anti-Aliasing
+screen.tonemap=Tonemapping
+screen.waterWaves=Water Waves
+screen.waterCaustics=Water Caustics
+screen.misc=Miscellaneous
+screen.misc.comment=Various options that didn't fit anywhere else.
+
+##--## Ambient Occlusion ##---------------------------------------------------##
+
+option.BLOCK_LIGHT_USE_AO=Use AO on blocklight
+option.GLOBAL_LIGHT_USE_AO=Use AO on sunlight
+
+option.HBAO=Horizon-Based AO
+option.HBAO_RADIUS=HBAO Radius
+option.HBAO_DIRECTIONS=HBAO Directions
+option.HBAO_ANGLE_SAMPLES=HBAO Angle Samples
+
+##--## Camera ##--------------------------------------------------------------##
+
+option.CAMERA_AUTOEXPOSURE=Autoexposure Mode
+value.CAMERA_AUTOEXPOSURE.CAMERA_AUTOEXPOSURE_OFF=Off
+value.CAMERA_AUTOEXPOSURE.CAMERA_AUTOEXPOSURE_SIMPLE=Simple
+value.CAMERA_AUTOEXPOSURE.CAMERA_AUTOEXPOSURE_HISTOGRAM=Histogram
+option.CAMERA_AUTOEXPOSURE_BIAS=Autoexposure Bias
+option.CAMERA_FOCUS=Focus
+value.CAMERA_FOCUS.-1=Automatic
+screen.dof=Depth of Field
+
+option.CAMERA_FSTOP=F-Stop
+prefix.CAMERA_FSTOP=ƒ/
+option.CAMERA_ISO=ISO
+option.CAMERA_SHUTTER_SPEED=Shutter Speed
+prefix.CAMERA_SHUTTER_SPEED=1/
+suffix.CAMERA_SHUTTER_SPEED=s
+screen.motionBlur=Motion Blur
+
+option.CAMERA_IRIS_BLADE_COUNT=Iris Blades
+option.CAMERA_IRIS_BLADE_ROTATION=Blade Rotation
+option.CAMERA_IRIS_BLADE_ROUNDING=Blade Rounding
+
+option.CAMERA_ANAMORPHIC_SCALE=Anamorphic Scale
+option.CAMERA_ANAMORPHIC_SCALE.comment=Typical anamorphic lenses are 2:1. Normal lenses are 1:1.
+suffix.CAMERA_ANAMORPHIC_SCALE=:1
+
+option.CAMERA_LENS_DISTORTION=Lens Distortion
+option.CAMERA_CHROMATIC_ABBERATION=Chromatic Abberation
+
+##--## Depth of Field
+
+option.DOF=Depth of Field
+option.DOF_SIMPLE=Simple Dof
+option.DOF_SAMPLES=Samples
+option.DOF_SAMPLES.COMMENT=Does not affect "simple" Dof.
+
+##--## Motion Blur
+
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR_SAMPLES=Samples
+
+##--## 2D Clouds ##-----------------------------------------------------------##
+
+option.CLOUDS2D=2D Clouds
+option.CLOUDS2D_SELFSHADOW_QUALITY=Self-Shadowing Quality
+option.CLOUDS2D_USE_WORLD_TIME=Use World Time
+option.CLOUDS2D_COVERAGE=Coverage
+
+##--## 3D Clouds ##-----------------------------------------------------------##
+
+option.CLOUDS3D=3D Clouds
+option.CLOUDS3D_DETAIL_NOISE_OCTAVES=Detail Noise Octaves
+option.CLOUDS3D_STEPS_VIEW=Visibility Steps
+option.CLOUDS3D_STEPS_SUN=Sunlight Steps
+option.CLOUDS3D_ALTERNATE_SKYLIGHT=Alternate Skylight
+option.CLOUDS3D_ALTERNATE_SKYLIGHT.comment=More realistic but noisier way of doing skylight. Can be very noisy in some cases!
+option.CLOUDS3D_STEPS_SKY=Skylight Steps
+
+option.CLOUDS3D_ALTITUDE=Altitude
+option.CLOUDS3D_THICKNESS_MULT=Thickness
+option.CLOUDS3D_COVERAGE=Coverage
+option.CLOUDS3D_SCALE=Scale
+option.CLOUDS3D_USE_WORLD_TIME=Use World Time
+option.CLOUDS3D_SPEED=Speed
+
+##--## Air Fog ##-------------------------------------------------------------##
+
+option.VL_AIR=Volumetric Lighting
+option.VL_AIR_STEPS=VL Steps
+option.DISTANT_VL=Distant VL
+option.FOG_AIR_DENSITY=Air Density Multiplier
+option.FOG_RAIN_DENSITY=Rain Fog Density
+
+##--## Water Fog ##-----------------------------------------------------------##
+
+option.VL_WATER=Volumetric Lighting
+option.VL_WATER_STEPS=VL Steps
+option.VL_WATER_CAUSTICS=HQ Volumetric Caustics
+option.VL_WATER_CAUSTICS.comment=Allows high-quality caustics in VL. Slow!
+option.UNDERWATER_ADAPTATION=Underwater Adaptation
+option.WATER_REALISTIC_PHASE_FUNCTION=Realistic Phase Function
+option.WATER_REALISTIC_PHASE_FUNCTION.comment=Use a more realistic phase function for water. Not recommended if VL is disabled. Currently causes some artifacts!
+
+option.WATER_SCATTERING_R=Scattered Color R
+option.WATER_SCATTERING_G=Scattered Color G
+option.WATER_SCATTERING_B=Scattered Color B
+
+option.WATER_TRANSMISSION_R=Transmitted Color R
+option.WATER_TRANSMISSION_G=Transmitted Color G
+option.WATER_TRANSMISSION_B=Transmitted Color B
+
+##--## Parallax ##------------------------------------------------------------##
+
+option.PARALLAX=Parallax
+option.PARALLAX_SHADOWS=Parallax Self-Shadows
+option.SMOOTH_PARALLAX=Smooth Parallax
+option.SMART_PARALLAX=Smart Parallax
+
+option.PARALLAX_DEPTH=Depth
+option.PARALLAX_QUALITY=Quality
+
+##--## Shadow Map ##----------------------------------------------------------##
+
+option.shadowMapResolution=Shadow Map Resolution
+option.SHADOW_DISTANCE_EFFECTIVE=Effective Shadow Distance
+option.SHADOW_INFINITE_RENDER_DISTANCE=Infinite Shadow Distance
+option.shadowDistance=Shadow Distance
+
+screen.shadowMapping=Shadow Mapping
+screen.rsm=Reflective Shadow Mapping
+
+option.SHADOW_BACKFACE_CULLING=Backface Culling
+option.SHADOW_DISABLE_ALPHA_MIPMAP=Disable Alpha Mipmap
+
+##--## Shadow Mapping
+
+option.SHADOW_FILTER=Shadow Filter
+value.SHADOW_FILTER.SHADOW_FILTER_NONE=None
+value.SHADOW_FILTER.SHADOW_FILTER_BILINEAR=Bilinear
+value.SHADOW_FILTER.SHADOW_FILTER_PCF=PCF
+value.SHADOW_FILTER.SHADOW_FILTER_PCSS=PCSS
+value.SHADOW_FILTER.SHADOW_FILTER_DUAL_PCSS=Dual PCSS
+option.SHADOW_COLORED=Colored Shadows
+option.SHADOW_FILTER_SAMPLES=Filter Samples
+option.SHADOW_FILTER_SAMPLES.comment=For PCF, PCSS, and Dual PCSS filters.
+option.SHADOW_SEARCH_SAMPLES=Blocker Search Samples
+option.SHADOW_SEARCH_SAMPLES.comment=For PCSS and Dual PCSS filters.
+
+##--## Reflective Shadow Mapping
+
+option.RSM=Reflective Shadow Mapping
+option.RSM_SAMPLES=Samples
+option.RSM_BRIGHTNESS=Brightness
+suffix.RSM_BRIGHTNESS=x
+option.RSM_RADIUS=Radius
+
+option.RSM_LEAK_PREVENTION=Light Leak Prevention
+
+##--## Reflections ##---------------------------------------------------------##
+
+option.SSR_RAY_COUNT=Ray Count
+option.SSR_RAY_STRIDE=Ray Stride
+option.SSR_RAY_STRIDE.comment=Roughly corresponds to the number of pixels a reflection is accurate to. Low values can be extremely intensive!
+option.SSR_TAIL_CLAMP=Tail Clamp
+option.SSR_MULTILAYER=Multilayer SSR
+
+option.SSR_ALLOW_VL_AIR=Reflect Air VL
+option.SSR_ALLOW_VL_WATER=Reflect Water VL
+
+##--## Temporal Anti-Aliasing ##----------------------------------------------##
+
+option.TAA=Temporal Anti-Aliasing
+option.TAA_SOFT=Soft TAA
+option.TAA_SOFT.comment=Anti-aliases better, but is slightly blurry.
+option.TAA_CLIP=Enable Clipping
+option.TAA_CLIP.comment=Prevents a lot of ghosting. Should only be disabled for screenshots!
+option.TAA_MOTION_REJECTION=Motion Rejection
+option.TAA_MOTION_REJECTION.comment=Lower values have more blurring in motion. Higher values have more aliasing in motion.
+
+##--## Tonemapping ##---------------------------------------------------------##
+
+option.TONEMAP_TOE_STRENGTH=Toe Strength
+option.TONEMAP_TOE_LENGTH=Toe Length
+option.TONEMAP_LINEAR_LENGTH=Linear Length
+option.TONEMAP_SHOULDER_CURVE=Shoulder Curve
+
+##--## Water Waves ##---------------------------------------------------------##
+
+option.WATER_WAVES_VERSION=Waves Version
+screen.waves1 = Waves 1 settings
+screen.waves2 = Waves 2 settings
+
+option.WATER_WAVES_COUNT=Wave Count
+option.WATER_WAVES_G=Gravity
+suffix.WATER_WAVES_G=m/s²
+option.WATER_WAVES_WAVELENGTH=Wavelength
+suffix.WATER_WAVES_WAVELENGTH=m
+option.WATER_WAVES_WAVE_HEIGHT_RATIO=Wave Height Ratio
+option.WATER_WAVES_WAVELENGTH_GAIN=Wavelength Gain
+option.WATER_WAVES_WAVE_HEIGHT_GAIN=Wave Height Gain
+option.WATER_WAVES_SHARPENING=Wave Sharpening
+option.WATER_WAVES_SHARPENING.comment=Sharpens the crests of waves.
+
+option.WATER_PARALLAX=Water Parallax
+option.WATER_PARALLAX_DEPTH_MULTIPLIER=Water Parallax Depth
+option.WATER_PARALLAX_STEPS=Water Parallax Steps
+
+##--## Water Caustics ##------------------------------------------------------##
+
+option.CAUSTICS=Water Caustics
+value.CAUSTICS.CAUSTICS_OFF=Off
+value.CAUSTICS.CAUSTICS_LOW=Low
+value.CAUSTICS.CAUSTICS_HIGH=High
+option.CAUSTICS_POWER=Contrast
+option.CAUSTICS_QUALITY=Quality
+option.CAUSTICS_QUALITY.comment=Higher values allow for finer detail and (generally) less noise.
+option.CAUSTICS_DITHERED=Use Dithering
+option.CAUSTICS_DITHERED.comment=This should usually be left on.
+
+##--## Miscellaneous ##-------------------------------------------------------##
+
+option.BLOOM=Bloom
+option.BLOOM_AMOUNT=Bloom Strength
+option.CONTRAST=Contrast
+option.SATURATION=Saturation
+option.LOWLIGHT_DESATURATION=Lowlight Desaturation
+option.LOWLIGHT_NOISE=Lowlight Noise
+option.CONE_OVERLAP_SIMULATION=Cone Overlap Simulation
+option.CONE_OVERLAP_SIMULATION.comment=Simulates the effect that the overlapping response of cone cells has on highlights. This significantly improves the appearance of highlights.
+value.CONE_OVERLAP_SIMULATION.0=Off
+option.WHITE_BALANCE=White Balance
+suffix.WHITE_BALANCE=k
+option.HAND_FOV=Hand FOV
+option.LUT=Color Lookup Table
+option.REFRACTION_MODE=Refrections
+value.REFRACTION_MODE.REFRACTION_OFF=Off
+value.REFRACTION_MODE.REFRACTION_WATER_ONLY=On Water
+value.REFRACTION_MODE.REFRACTION_ON=On
+option.RESOURCE_FORMAT=Resource Pack Format
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_GREYSCALE=Greyscale
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_OPBR=Old "PBR"
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_CONTINUUM2=Continuum 2.0
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_LAB_1_1=LAB v1.1
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_LAB_1_2=LAB v1.2
+value.RESOURCE_FORMAT.RESOURCE_FORMAT_LAB_1_3=LAB v1.3
+option.SSCS=Contact Shadows
+option.sunPathRotation=Sun Angle
+suffix.sunPathRotation=°
+option.TIME_SCALE=Time Scale
+suffix.TIME_SCALE=x
+option.TOTAL_INTERNAL_REFLECTION=Total Internal Reflection
+
+screen.unassigned=Unsupported options
+screen.unassigned.comment=These options are unsupported and may be broken if changed from their defaults.

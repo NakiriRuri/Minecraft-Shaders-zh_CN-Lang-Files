@@ -1,0 +1,529 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应在Github Shrimple 分支6月18号获取的版本。
+profile.VANILLA=原版
+profile.SHADOWS=阴影
+profile.LIGHTS=彩色照明
+profile.RTX_LOW=RTX
+
+
+screen.WORLD_OPTIONS=世界
+screen.WORLD_OPTIONS.comment=除此之外的所有选项.
+
+option.sunPathRotation=日月斜角
+option.sunPathRotation.comment=太阳沿其自转轴的倾斜度.
+suffix.sunPathRotation=°
+
+option.WORLD_FOG_MODE=雾气
+value.WORLD_FOG_MODE.0=无
+value.WORLD_FOG_MODE.1=原版
+value.WORLD_FOG_MODE.2=自定义
+
+option.WORLD_WETNESS_ENABLED=湿度
+option.WORLD_WETNESS_ENABLED.comment=定义在雨天时材质表面变湿润的效果 (更黑，更有光泽) .
+
+option.WORLD_WETNESS_PUDDLES=水坑
+option.WORLD_WETNESS_PUDDLES.comment=定义雨水如何影响材质表面.
+value.WORLD_WETNESS_PUDDLES.0=关
+value.WORLD_WETNESS_PUDDLES.1=基本
+value.WORLD_WETNESS_PUDDLES.2=逐像素
+value.WORLD_WETNESS_PUDDLES.3=绚丽
+
+option.WORLD_WAVING_ENABLED=植物摇摆
+option.WORLD_WAVING_ENABLED.comment=允许植物随风摇动.
+
+option.WORLD_AMBIENT_MODE=环境光
+value.WORLD_AMBIENT_MODE.0=OFF
+value.WORLD_AMBIENT_MODE.1=基本
+value.WORLD_AMBIENT_MODE.2=绚丽
+
+option.WORLD_AO_ENABLED=环境光遮蔽
+option.WORLD_AO_ENABLED.comment=定义环境光如何遮蔽.
+
+option.WORLD_RAIN_OPACITY=雨水不透明度
+option.WORLD_RAIN_OPACITY.comment=定义下落的雨水粒子不透明度.
+suffix.WORLD_RAIN_OPACITY=%
+
+option.WORLD_SKY_REFLECTIONS=天空反射
+option.WORLD_SKY_REFLECTIONS.comment=启用高光选项时, 允许天空被反射.
+suffix.WORLD_SKY_REFLECTIONS=%
+
+
+screen.WORLD_BRIGHTNESS_OPTIONS=亮度选项
+
+option.WORLD_SUN_BRIGHTNESS=阳光亮度
+suffix.WORLD_SUN_BRIGHTNESS=%
+
+option.WORLD_MOON_BRIGHTNESS=月光亮度
+suffix.WORLD_MOON_BRIGHTNESS=%
+
+
+screen.WATER_OPTIONS=水体
+screen.WATER_OPTIONS.comment=水方块相关的选项.
+
+option.WORLD_WATER_TEXTURE=水面
+value.WORLD_WATER_TEXTURE.0=纹理
+value.WORLD_WATER_TEXTURE.1=着色
+
+option.WORLD_WATER_OPACITY=不透明度
+option.WORLD_WATER_OPACITY.comment=决定水方块的透明程度.
+suffix.WORLD_WATER_OPACITY=%
+
+option.WORLD_WATER_WAVES=水波
+value.WORLD_WATER_WAVES.0=无
+value.WORLD_WATER_WAVES.1=小
+value.WORLD_WATER_WAVES.2=中
+value.WORLD_WATER_WAVES.3=大
+
+option.WORLD_WATER_PIXEL=像素化
+value.WORLD_WATER_PIXEL.0=关
+value.WORLD_WATER_PIXEL.8=8x
+value.WORLD_WATER_PIXEL.16=16x
+value.WORLD_WATER_PIXEL.32=32x
+value.WORLD_WATER_PIXEL.64=64x
+value.WORLD_WATER_PIXEL.128=128x
+
+
+screen.MATERIAL_OPTIONS=材质
+
+option.MATERIAL_SPECULAR=高光
+option.MATERIAL_SPECULAR.comment=基于材质的粗糙度, 金属率及f0来定义表面每像素的对光线的反射量.
+value.MATERIAL_SPECULAR.0=OFF
+value.MATERIAL_SPECULAR.1=集成
+value.MATERIAL_SPECULAR.2=Lab-PBR
+value.MATERIAL_SPECULAR.3=Old-PBR
+
+option.MATERIAL_SSS=次表面散射(SSS)
+option.MATERIAL_SSS.comment=定义了每个像素的光线进入和散射在次表面的量.
+value.MATERIAL_SSS.0=无
+value.MATERIAL_SSS.1=集成
+value.MATERIAL_SSS.2=Lab-PBR
+
+option.MATERIAL_POROSITY=孔隙率
+option.MATERIAL_POROSITY.comment=定义材质表面的每个像素的吸水率.
+value.MATERIAL_POROSITY.0=OFF
+value.MATERIAL_POROSITY.1=集成
+value.MATERIAL_POROSITY.2=Lab-PBR
+
+option.MATERIAL_OCCLUSION=遮蔽
+option.MATERIAL_OCCLUSION.comment=定义材质表面每像素对环境光的遮蔽程度.
+value.MATERIAL_OCCLUSION.0=OFF
+value.MATERIAL_OCCLUSION.1=集成
+value.MATERIAL_OCCLUSION.2=Lab-PBR
+
+option.METAL_BRIGHTNESS=金属光泽度
+suffix.METAL_BRIGHTNESS=%
+
+
+screen.MATERIAL_NORMAL_OPTIONS=法线贴图映射
+screen.MATERIAL_NORMAL_OPTIONS.comment=定义材质表面每像素表受到定向光照的反射情况.
+
+option.MATERIAL_NORMALS=法线类型
+option.MATERIAL_NORMALS.comment=法线图的数据类型.
+value.MATERIAL_NORMALS.0=OFF
+value.MATERIAL_NORMALS.1=集成
+value.MATERIAL_NORMALS.2=Lab-PBR
+value.MATERIAL_NORMALS.3=Old-PBR
+
+option.MATERIAL_NORMAL_SCALE=法线分辨率
+option.MATERIAL_NORMAL_SCALE.comment=自动生成法线的纹理分辨率大小. 本选项只适用于 _集成_ 法线图.
+suffix.MATERIAL_NORMAL_SCALE=x
+
+option.MATERIAL_NORMAL_STRENGTH=法线强度
+option.MATERIAL_NORMAL_STRENGTH.comment=生成法线的角度大小. 本选项只适用于 _集成_ 法线图.
+suffix.MATERIAL_NORMAL_STRENGTH=%
+
+option.MATERIAL_NORMAL_EDGE=边缘法线
+option.MATERIAL_NORMAL_EDGE.comment=定义如何处理边缘生成的发现. 本选项只适用于 _集成_ 法线图.
+value.MATERIAL_NORMAL_EDGE.0=标准
+value.MATERIAL_NORMAL_EDGE.1=高
+value.MATERIAL_NORMAL_EDGE.2=低
+
+option.MATERIAL_NORMAL_ROUND=圆边
+option.MATERIAL_NORMAL_ROUND.comment=启用后, 实体的边缘会有平滑的圆边法线.本选项只作用于 集成 法线贴图.
+value.MATERIAL_NORMAL_ROUND.0=关
+
+
+screen.MATERIAL_PARALLAX_OPTIONS=材质视差选项
+screen.MATERIAL_PARALLAX_OPTIONS.comment=定义材质表面的每个像素的深度位移.
+
+option.MATERIAL_PARALLAX=视差类型
+option.MATERIAL_PARALLAX.comment=视差渲染的类型. 平滑视差有较为柔和的边缘. 锐利视差会有类似于模型的硬边缘.
+value.MATERIAL_PARALLAX.0=关
+value.MATERIAL_PARALLAX.1=标准
+value.MATERIAL_PARALLAX.2=平滑
+value.MATERIAL_PARALLAX.3=锐利
+
+option.MATERIAL_PARALLAX_DEPTH=视差深度
+suffix.MATERIAL_PARALLAX_DEPTH=%
+
+option.MATERIAL_PARALLAX_SAMPLES=视差采样值
+
+option.MATERIAL_PARALLAX_SHADOW_SAMPLES=视差阴影采样值
+value.MATERIAL_PARALLAX_SHADOW_SAMPLES.0=关
+
+option.MATERIAL_PARALLAX_DISTANCE=视差渲染距离
+option.MATERIAL_PARALLAX_DISTANCE.comment=从镜头到POM渲染的最大距离(以块为单位).
+
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD=视差锐化阈值
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD.comment=应用于锐利视差斜坡法线的阈值. [N / 255]
+suffix.MATERIAL_PARALLAX_SHARP_THRESHOLD=/255
+
+
+screen.MATERIAL_EMISSION_OPTIONS=材质发光选项
+screen.MATERIAL_EMISSION_OPTIONS.comment=定义材质表面每个像素的发光亮度.
+
+option.MATERIAL_EMISSION=材质发光类型
+value.MATERIAL_EMISSION.0=集成
+value.MATERIAL_EMISSION.1=Lab-PBR
+value.MATERIAL_EMISSION.2=Old-PBR
+
+option.MATERIAL_EMISSION_BRIGHTNESS=材质发光亮度
+suffix.MATERIAL_EMISSION_BRIGHTNESS=%
+
+
+screen.DYNAMIC_LIGHT_OPTIONS=方块光选项
+
+option.DYN_LIGHT_MODE=动态光源模式
+option.DYN_LIGHT_MODE.comment=定义光源的照明计算模式. 默认: 使用原版光照图. 启用 路径追踪 选项获得方块光的阴影.
+value.DYN_LIGHT_MODE.0=默认
+value.DYN_LIGHT_MODE.2=彩色
+value.DYN_LIGHT_MODE.3=路径追踪
+
+option.DYN_LIGHT_TYPE=动态光源照明类型
+option.DYN_LIGHT_TYPE.comment=定义光源的类型. 点光源: 从一个无限小的点发光. 区域光: 发出立方体的光.
+value.DYN_LIGHT_TYPE.0=点光源
+value.DYN_LIGHT_TYPE.1=区域光
+
+option.WORLD_LIGHT_MIN=最小照明亮度
+option.WORLD_LIGHT_MIN.comment=作用于完全黑暗区域的最小照明亮度.
+suffix.WORLD_LIGHT_MIN=%
+
+option.DYN_LIGHT_BRIGHTNESS=动态光源照明亮度
+option.DYN_LIGHT_BRIGHTNESS.comment=动态光源亮度.
+suffix.DYN_LIGHT_BRIGHTNESS=%
+
+option.DYN_LIGHT_AMBIENT=动态光源环境光
+option.DYN_LIGHT_AMBIENT.comment=动态光源中混合原版环境光的比重.
+suffix.DYN_LIGHT_AMBIENT=%
+
+option.DYN_LIGHT_FLICKER=动态光源
+option.DYN_LIGHT_FLICKER.comment=允许光源拥有动态亮度和颜色; 例如火把, 蜡烛, 火焰等.
+
+option.DYN_LIGHT_DIRECTIONAL=动态光源指向性
+suffix.DYN_LIGHT_DIRECTIONAL=%
+
+option.DYN_LIGHT_WEATHER=天气粒子动态光源照明
+option.DYN_LIGHT_WEATHER.comment=决定是否对天气粒子应用动态照明. 启用这个选项会对性能有很大影响!
+
+option.DYN_LIGHT_FALLBACK=动态光源回归
+option.DYN_LIGHT_FALLBACK.comment=启用后, 彩色光源会在体素范围边缘和原版光照混合. 当禁用时, 范围外将没有任何照明.
+
+option.DIRECTIONAL_LIGHTMAP=方向性光图
+option.DIRECTIONAL_LIGHTMAP.comment=启用后,试图用假光照图来伪造方向性照明, 只适用于默认照明设置.
+
+
+screen.DYNAMIC_LIGHT_TRACE_OPTIONS=动态光源追踪选项
+
+option.DYN_LIGHT_RES=动态光源分辨率
+value.DYN_LIGHT_RES.0=全
+value.DYN_LIGHT_RES.1=半分辨率
+value.DYN_LIGHT_RES.2=四分之一
+
+option.DYN_LIGHT_PENUMBRA=半影尺寸
+option.DYN_LIGHT_PENUMBRA.comment=DDA-追踪的软阴影的半影的大小.
+value.DYN_LIGHT_PENUMBRA.0=无
+suffix.DYN_LIGHT_PENUMBRA=%
+
+option.DYN_LIGHT_TINT_MODE=动态光源着色类型
+value.DYN_LIGHT_TINT_MODE.0=无
+value.DYN_LIGHT_TINT_MODE.1=基本
+value.DYN_LIGHT_TINT_MODE.2=吸收
+
+option.DYN_LIGHT_TINT=动态光源着色强度
+option.DYN_LIGHT_TINT.comment=决定了光线通过彩色玻璃时被着色的程度.
+suffix.DYN_LIGHT_TINT=%
+value.DYN_LIGHT_TINT.0=关闭
+
+option.DYN_LIGHT_PLAYER_SHADOW=玩家阴影
+value.DYN_LIGHT_PLAYER_SHADOW.0=无
+value.DYN_LIGHT_PLAYER_SHADOW.1=长方体
+value.DYN_LIGHT_PLAYER_SHADOW.2=圆柱体
+
+option.DYN_LIGHT_BLUR=动态光源模糊
+option.DYN_LIGHT_BLUR.comment=当启用时, 照明缓冲区将有一个后处理的高斯模糊, 以平滑边缘/噪点.
+
+option.DYN_LIGHT_TA=时间性积累
+option.DYN_LIGHT_TA.comment=启用后, 照明缓冲区将在多个帧之间进行混合, 以减少软阴影的噪点.
+suffix.DYN_LIGHT_TA=%
+value.DYN_LIGHT_TA.0=关
+
+
+screen.DYNAMIC_LIGHT_TRACE_BLOCK_OPTIONS=动态光源追踪方块选项
+
+option.DYN_LIGHT_GLOW_BERRIES=发光浆果藤蔓动态光源照明
+option.DYN_LIGHT_GLOW_BERRIES.comment=决定如何处理发光浆果藤蔓的照明, 以避免大型繁茂洞穴对性能产生严重影响.
+value.DYN_LIGHT_GLOW_BERRIES.0=禁用
+value.DYN_LIGHT_GLOW_BERRIES.1=仅发光
+value.DYN_LIGHT_GLOW_BERRIES.2=追踪
+
+option.DYN_LIGHT_LAVA=岩浆动态光源照明
+option.DYN_LIGHT_LAVA.comment=决定如何处理岩浆岩的照明, 以避免大型岩浆湖/源的严重性能影响.
+value.DYN_LIGHT_LAVA.0=禁用
+value.DYN_LIGHT_LAVA.1=仅发光
+value.DYN_LIGHT_LAVA.2=追踪
+
+option.DYN_LIGHT_PORTAL=下界传送门动态光源照明
+option.DYN_LIGHT_PORTAL.comment=决定如何处理下界传送门的照明, 以避免大型下界传送门对性能的严重影响.
+value.DYN_LIGHT_PORTAL.0=禁用
+value.DYN_LIGHT_PORTAL.1=仅发光
+value.DYN_LIGHT_PORTAL.2=追踪
+
+option.DYN_LIGHT_REDSTONE=红石动态光源照明
+option.DYN_LIGHT_REDSTONE.comment=决定如何处理红石组件的照明,以避免大型红石机器对性能的严重影响.
+value.DYN_LIGHT_REDSTONE.0=禁用
+value.DYN_LIGHT_REDSTONE.1=仅发光
+value.DYN_LIGHT_REDSTONE.2=追踪
+
+option.DYN_LIGHT_SEA_PICKLE=海泡菜动态光源照明
+option.DYN_LIGHT_SEA_PICKLE.comment=决定如何处理海泡菜的照明,以避免大型暖海珊瑚群对性能的严重影响.
+value.DYN_LIGHT_SEA_PICKLE.0=禁用
+value.DYN_LIGHT_SEA_PICKLE.1=仅发光
+value.DYN_LIGHT_SEA_PICKLE.2=追踪
+
+
+screen.DYNAMIC_LIGHT_ADVANCED_OPTIONS=动态光源追踪高级选项
+
+option.LIGHT_BIN_SIZE=箱尺寸
+option.LIGHT_BIN_SIZE.comment=每个光箱的立方体大小, 以块为单位. 使用较小的箱体可以使照明更加密集. 使用较大的箱尺寸将允许动态光源应用于离玩家较远的地方.
+
+option.LIGHT_BIN_MAX_COUNT=最大每箱光源数
+option.LIGHT_BIN_MAX_COUNT.comment=每箱容纳的光源最大数量.
+
+option.LIGHT_SIZE_XZ=水平箱数
+
+option.LIGHT_SIZE_Y=垂直箱数
+
+option.DYN_LIGHT_RANGE=动态光源范围
+option.DYN_LIGHT_RANGE.comment=调整方块光投射光的大小范围. 警告, 增加本选项数值会极大影响性能!
+suffix.DYN_LIGHT_RANGE=%
+
+option.DYN_LIGHT_SAMPLE_MAX=动态光源最大采样数
+option.DYN_LIGHT_SAMPLE_MAX.comment=每一渲染帧中每一像素可以采样的最大灯光数量. 设置一个较低的数值会提高性能, 但也会增加时间性的模糊程度.
+value.DYN_LIGHT_SAMPLE_MAX.0=无限
+
+
+screen.VOLUMETRIC_LIGHT_OPTIONS=体积光
+
+option.VOLUMETRIC_BRIGHT_SKY=体积化日月亮度
+option.VOLUMETRIC_BRIGHT_SKY.comment=在对雾气应用体积照明时调整太阳和月亮的亮度.
+suffix.VOLUMETRIC_BRIGHT_SKY=%
+value.VOLUMETRIC_BRIGHT_SKY.0=关
+
+option.VOLUMETRIC_BRIGHT_BLOCK=体积化方块光亮度
+option.VOLUMETRIC_BRIGHT_BLOCK.comment=在对雾气应用体积照明时, 调整基于方块的照明的亮度.
+suffix.VOLUMETRIC_BRIGHT_BLOCK=%
+value.VOLUMETRIC_BRIGHT_BLOCK.0=关
+
+option.VOLUMETRIC_BLOCK_MODE=体积化方块光模式
+option.VOLUMETRIC_BLOCK_MODE.comment=决定是否将体积照明应用于基于方块的动态照明的雾中.
+value.VOLUMETRIC_BLOCK_MODE.0=禁用
+value.VOLUMETRIC_BLOCK_MODE.1=仅发光
+value.VOLUMETRIC_BLOCK_MODE.2=追踪 [快速]
+value.VOLUMETRIC_BLOCK_MODE.3=追踪
+
+option.VOLUMETRIC_SAMPLES=体积光质量(采样值)
+value.VOLUMETRIC_SAMPLES.8=低(8)
+value.VOLUMETRIC_SAMPLES.12=中(12)
+value.VOLUMETRIC_SAMPLES.16=高(16)
+value.VOLUMETRIC_SAMPLES.24=非常高(24)
+
+option.VOLUMETRIC_DENSITY=体积光密度
+option.VOLUMETRIC_DENSITY.comment=用于定义体积照明的大气雾的密度的设置.
+suffix.VOLUMETRIC_DENSITY=%
+value.VOLUMETRIC_DENSITY.1000=《寂静岭》
+
+option.VOLUMETRIC_RES=体积光分辨率
+value.VOLUMETRIC_RES.0=全
+value.VOLUMETRIC_RES.1=半分变率
+value.VOLUMETRIC_RES.2=四分之一
+
+option.VOLUMETRIC_BLOCK_RT=体积路径追踪
+option.VOLUMETRIC_BLOCK_RT.comment=启用方块光的体积路径追踪; 需要启用 路径追踪 动态光源模式. §c§l警告§r§c: 会杀死一种叫流畅的东西!
+
+
+screen.SHADOW_OPTIONS=阴影
+screen.SHADOW_OPTIONS.comment=与阴影有关的选项.
+
+option.SHADOW_TYPE=阴影类型
+option.SHADOW_TYPE.comment=选择使用的阴影类型.
+value.SHADOW_TYPE.0=无
+value.SHADOW_TYPE.2=扭曲
+value.SHADOW_TYPE.3=层叠
+
+option.shadowMapResolution=阴影分辨率
+option.shadowMapResolution.comment=阴影贴图的分辨率. 更高的数值意味着更多的阴影图计算.
+
+option.shadowDistance=阴影距离
+option.shadowDistance.comment=阴影渲染的距离.
+
+option.SHADOW_BRIGHTNESS=亮度
+option.SHADOW_BRIGHTNESS.comment=当表面处于阴影范围时, 其照明水平乘以本选项数值.
+suffix.SHADOW_BRIGHTNESS=%
+
+option.SHADOW_COLORED=阴影着色
+option.SHADOW_COLORED.comment=判定太阳光或月亮光在通过半透明色块时是否会被染色. 禁用: 彩色玻璃会投射传统阴影. 启用: 彩色玻璃会投射对应的彩色阴影. 忽略: 彩色玻璃将不投射任何阴影.
+
+option.SHADOW_COLOR_BLEND=着色混合
+option.SHADOW_COLOR_BLEND.comment=允许着色阴影能混合多种颜色. 目前本选项功能不工作, 需要Sodium提供 translucent-sorting 的支持.
+
+option.SHADOW_BIAS_SCALE=偏差比例
+option.SHADOW_BIAS_SCALE.comment=当看到阴影失真(shadow acne)时提高本选项数值. 看到阴影悬浮(peter panning)时降低本选项数值.
+value.SHADOW_BIAS_SCALE.0.1=10%
+value.SHADOW_BIAS_SCALE.0.2=20%
+value.SHADOW_BIAS_SCALE.0.3=30%
+value.SHADOW_BIAS_SCALE.0.4=40%
+value.SHADOW_BIAS_SCALE.0.5=50%
+value.SHADOW_BIAS_SCALE.0.6=60%
+value.SHADOW_BIAS_SCALE.0.7=70%
+value.SHADOW_BIAS_SCALE.0.8=80%
+value.SHADOW_BIAS_SCALE.0.9=90%
+value.SHADOW_BIAS_SCALE.1.0=100%
+value.SHADOW_BIAS_SCALE.1.1=110%
+value.SHADOW_BIAS_SCALE.1.2=120%
+value.SHADOW_BIAS_SCALE.1.3=130%
+value.SHADOW_BIAS_SCALE.1.4=140%
+value.SHADOW_BIAS_SCALE.1.5=150%
+value.SHADOW_BIAS_SCALE.1.6=160%
+value.SHADOW_BIAS_SCALE.1.7=170%
+value.SHADOW_BIAS_SCALE.1.8=180%
+value.SHADOW_BIAS_SCALE.1.9=190%
+value.SHADOW_BIAS_SCALE.2.0=200%
+value.SHADOW_BIAS_SCALE.2.1=210%
+value.SHADOW_BIAS_SCALE.2.2=220%
+value.SHADOW_BIAS_SCALE.2.3=230%
+value.SHADOW_BIAS_SCALE.2.4=240%
+value.SHADOW_BIAS_SCALE.2.5=250%
+
+option.SHADOW_DISTORT_FACTOR=失真
+option.SHADOW_DISTORT_FACTOR.comment=应用于阴影的失真量. 只适用于 扭曲 阴影模式.
+
+option.SHADOW_CLOUD_ENABLED=云影
+option.SHADOW_CLOUD_ENABLED.comment=启用云层阴影.
+
+
+screen.SHADOW_FILTER_OPTIONS=过滤器
+screen.SHADOW_FILTER_OPTIONS.comment=阴影过滤器选项.
+
+option.SHADOW_FILTER=过滤类型
+option.SHADOW_FILTER.comment=应用于阴影采样的过滤器类型.
+value.SHADOW_FILTER.0=无
+value.SHADOW_FILTER.1=软阴影 - 固定
+value.SHADOW_FILTER.2=软阴影 - 动态
+
+option.SHADOW_ENABLE_HWCOMP=硬件过滤-加速
+option.SHADOW_ENABLE_HWCOMP.comment=启用后,阴影将利用硬件过滤以获得更好的质量和性能.
+
+option.SHADOW_PCF_SIZE_MIN=最小半径
+option.SHADOW_PCF_SIZE_MIN.comment=阴影模糊的最小半径; 以 每方块/米 计算. 仅作用于动态软阴影.
+suffix.SHADOW_PCF_SIZE_MIN=%
+
+option.SHADOW_PCF_SIZE_MAX=最大半径
+option.SHADOW_PCF_SIZE_MAX.comment=阴影模糊的最大/固定半径; 以 每方块/米 计算. 作用于动态和固定软阴影.
+suffix.SHADOW_PCF_SIZE_MAX=%
+
+option.SHADOW_PCF_SAMPLES=模糊采样值
+option.SHADOW_PCF_SAMPLES.comment=模糊时所需的采样数. 作用于动态和固定软阴影.
+
+option.SHADOW_PCSS_SAMPLES=遮蔽采样值
+option.SHADOW_PCSS_SAMPLES.comment=用于确定半影宽度所需的采样数. 仅作用于动态软阴影.
+
+option.SHADOW_BLUR=阴影平滑
+option.SHADOW_BLUR.comment=将高斯模糊应用于阴影缓冲区以进一步平滑阴影. 作用于所有类型的阴影.
+
+
+screen.LPV_OPTIONS=全局光照(LPV)
+screen.LPV_OPTIONS.comment=LPV: Light Propagation Volume
+
+option.LPV_SIZE=尺寸
+value.LPV_SIZE.0=关闭
+value.LPV_SIZE.1=小
+value.LPV_SIZE.2=中
+value.LPV_SIZE.3=大
+
+option.LPV_SAMPLE_MODE=采样模式
+value.LPV_SAMPLE_MODE.0=点状
+value.LPV_SAMPLE_MODE.1=线性
+value.LPV_SAMPLE_MODE.2=体素
+
+option.LPV_SUN_SAMPLES=阳光采样值
+option.LPV_SUN_SAMPLES.comment=每方块所需的阳光采样数量.
+
+option.LPV_LIGHTMAP_MIX=光照图混合
+suffix.LPV_LIGHTMAP_MIX=%
+
+
+screen.POST_OPTIONS=后期处理
+
+option.POST_BRIGHTNESS=亮度
+option.POST_BRIGHTNESS.comment=最终图像的整体亮度.
+suffix.POST_BRIGHTNESS=%
+
+option.POST_CONTRAST=对比度
+option.POST_CONTRAST.comment=最终图像的对比度.
+suffix.POST_CONTRAST=%
+
+option.POST_SATURATION=饱和度
+option.POST_SATURATION.comment=最终图像的饱和度.
+suffix.POST_SATURATION=%
+
+option.GAMMA_OUT=伽马
+option.GAMMA_OUT.comment=最终图像的伽马值.
+
+option.TONEMAP_ENABLED=色调映射
+option.TONEMAP_ENABLED.comment=防止明亮的颜色被剔除, 对动态照明很有用.
+
+option.POST_BLOOM_STRENGTH=泛光强度
+option.POST_BLOOM_STRENGTH.comment=作用于最终场景的泛光量. 设置为 0 以禁用本选项.
+suffix.POST_BLOOM_STRENGTH=%
+value.POST_BLOOM_STRENGTH.0=关
+
+option.POST_BLOOM_THRESHOLD=泛光阈值
+option.POST_BLOOM_THRESHOLD.comment=光线需要超过一定阈值才能对泛光产生增益.
+suffix.POST_BLOOM_THRESHOLD=%
+
+option.FXAA_ENABLED=快速近似抗锯齿(FXAA)
+option.FXAA_ENABLED.comment=启用一个快速但是低质量的抗锯齿处理.
+
+option.POST_WHITE_POINT=白点比重
+suffix.POST_WHITE_POINT=%
+
+
+screen.DEBUG_OPTIONS=Shrimple
+
+option.DEBUG_VIEW=调试视图
+option.DEBUG_VIEW.comment=配置绘制到屏幕上的缓冲区.
+value.DEBUG_VIEW.0=无
+value.DEBUG_VIEW.1=延迟 颜色
+value.DEBUG_VIEW.2=延迟 geo-法线
+value.DEBUG_VIEW.3=延迟 光照图
+value.DEBUG_VIEW.4=延迟 遮蔽/发光
+value.DEBUG_VIEW.5=延迟 阴影
+value.DEBUG_VIEW.6=延迟 雾气
+value.DEBUG_VIEW.7=延迟 Tex-纹理
+value.DEBUG_VIEW.8=延迟 粗糙/金属
+value.DEBUG_VIEW.9=延迟 体积光
+value.DEBUG_VIEW.10=延迟 漫反射
+value.DEBUG_VIEW.11=延迟 高光
+value.DEBUG_VIEW.12=阴影颜色
+value.DEBUG_VIEW.13=泛光分块
+value.DEBUG_VIEW.14=白色世界
+
+option.DYN_LIGHT_DEBUG_COUNTS=显示光源数量
+
+option.DYN_LIGHT_OREBLOCKS=矿物块光源
+option.DYN_LIGHT_OREBLOCKS.comment=启用时, 矿物块会有彩色照明.
+
+option.LPV_SUN_SAMPLES=LPV 天空采样值
+option.LPV_SUN_SAMPLES.comment=在可确定日月能见度时每方块所需的采样值.
+value.LPV_SUN_SAMPLES.0=关

@@ -1,0 +1,541 @@
+# Profiles
+
+profile.low                            = §eLow
+profile.medium                         = §aMedium
+profile.high                           = §bHigh
+profile.ultra                          = §dUltra
+
+# Screens
+
+screen.world                           = World
+screen.lighting                        = Lighting
+screen.sky                             = Sky
+screen.fog                             = Fog
+screen.materials                       = Materials
+screen.water                           = Water
+screen.post                            = Post-Processing
+screen.misc                            = Misc
+
+screen.rp_settings                     = Resource Pack Settings
+screen.reflections                     = Reflections
+screen.light_sources                   = Light Sources
+screen.shadows                         = Shadows
+screen.color_grading                   = Color Grading
+screen.exposure                        = Exposure
+
+screen.clouds                          = Clouds
+screen.clouds_cumulus                  = Cumulus Clouds Settings
+screen.clouds_altocumulus              = Altocumulus Clouds Settings
+screen.clouds_cirrus                   = Planar Clouds Settings
+
+screen.fog_rlh                         = Rayleigh Coefficient
+screen.fog_mie                         = Mie Coefficient
+screen.sunlight_color                  = Sunlight Color
+screen.moonlight_color                 = Moonlight Color
+screen.blocklight_color                = Blocklight Color
+screen.fog_rlh_normal                  = Normal Color
+screen.fog_rlh_rain                    = Rain Color
+screen.fog_rlh_arid                    = Arid/Desert Color
+screen.fog_rlh_snowy                   = Snowy Color
+screen.fog_rlh_taiga                   = Taiga Color
+screen.fog_rlh_jungle                  = Jungle Color
+screen.fog_rlh_swamp                   = Swamp Color
+screen.water_waves                     = Water Waves
+screen.water_fog_coeff                 = Water Fog Coefficients
+
+screen.weather                         = Daily Weather System
+screen.weather_d0                      = Day 0
+screen.weather_d1                      = Day 1
+screen.weather_d2                      = Day 2
+screen.weather_d3                      = Day 3
+screen.weather_d4                      = Day 4
+screen.weather_d5                      = Day 5
+screen.weather_d6                      = Day 6
+screen.weather_d7                      = Day 7
+screen.weather_d8                      = Day 8
+screen.weather_d9                      = Day 9
+screen.weather_d10                     = Day 10
+screen.weather_d11                     = Day 11
+
+option.INFO                            = Photon Shaders
+value.INFO.0                           = §eby SixthSurge
+value.INFO.1                           = §aby SixthSurge
+value.INFO.2                           = §bby SixthSurge
+value.INFO.3                           = §dby SixthSurge
+
+# World settings
+
+option.WAVING_PLANTS                   = Waving Plants
+option.WAVING_LEAVES                   = Waving Leaves
+option.SLANTED_RAIN                    = Slanted Rain
+option.RAIN_OPACITY                    = Rain Opacity
+option.SEA_LEVEL                       = Sea Level
+
+# Lighting settings
+
+option.GTAO                            = Shader AO
+option.VANILLA_AO                      = Vanilla AO
+option.AO_IN_SUNLIGHT                  = AO in Sunlight
+option.SH_SKYLIGHT                     = SH Skylight
+
+option.SHADOW                          = Shadow Mapping
+option.SHADOW_PCF                      = Shadow Filtering
+option.SHADOW_COLOR                    = Colored Shadows
+option.SHADOW_VPS                      = Variable Penumbra Shadows
+option.shadowMapResolution             = Shadow Resolution
+option.shadowDistance                  = Shadow Distance
+option.sunPathRotation                 = Sun Path Rotation
+option.SHADOW_PENUMBRA_SCALE           = Shadow Softness
+option.ENTITY_SHADOWS                  = Entity Shadows
+option.BLOCK_ENTITY_SHADOWS            = Block Entity Shadows
+
+option.SUN_R                           = Red
+option.SUN_G                           = Green
+option.SUN_B                           = Blue
+option.SUN_I                           = Sunlight Intensity
+option.MOON_R                          = Red
+option.MOON_G                          = Green
+option.MOON_B                          = Blue
+option.MOON_I                          = Moonlight Intensity
+option.SKYLIGHT_I                      = Skylight Intensity
+option.BOUNCED_LIGHT_I                 = Bounced Sunlight Intensity
+option.CAVE_LIGHTING_I                 = Cave Brightness
+
+option.BLOCKLIGHT_R                    = Red
+option.BLOCKLIGHT_G                    = Green
+option.BLOCKLIGHT_B                    = Blue
+option.BLOCKLIGHT_I                    = Blocklight Intensity
+
+suffix.shadowMapResolution             = ²
+suffix.sunPathRotation                 = °
+
+value.shadowDistance.48.0              = 3 chunks
+value.shadowDistance.64.0              = 4 chunks
+value.shadowDistance.80.0              = 5 chunks
+value.shadowDistance.96.0              = 6 chunks
+value.shadowDistance.112.0             = 7 chunks
+value.shadowDistance.128.0             = 8 chunks
+value.shadowDistance.144.0             = 9 chunks
+value.shadowDistance.160.0             = 10 chunks
+value.shadowDistance.176.0             = 11 chunks
+value.shadowDistance.192.0             = 12 chunks
+value.shadowDistance.208.0             = 13 chunks
+value.shadowDistance.224.0             = 14 chunks
+value.shadowDistance.240.0             = 15 chunks
+value.shadowDistance.256.0             = 16 chunks
+value.shadowDistance.320.0             = 20 chunks
+value.shadowDistance.384.0             = 24 chunks
+value.shadowDistance.512.0             = 32 chunks
+value.shadowDistance.768.0             = 48 chunks
+value.shadowDistance.1024.0            = 64 chunks
+
+# Sky settings
+
+option.VANILLA_SUN                     = Vanilla Sun
+option.VANILLA_MOON                    = Vanilla Moon
+option.SUN_ANGULAR_RADIUS              = Sun Angular Radius
+option.MOON_ANGULAR_RADIUS             = Moon Angular Radius
+option.SKY_GROUND                      = Sky Ground
+option.STARS                           = Stars
+option.STARS_INTENSITY                 = Stars Intensity
+option.STARS_COVERAGE                  = Stars Coverage
+
+# Clouds
+option.CLOUDS_CU                       = Cumulus Clouds
+option.CLOUDS_CU_PRIMARY_STEPS_H       = Primary Steps - Horizon
+option.CLOUDS_CU_PRIMARY_STEPS_Z       = Primary Steps - Zenith
+option.CLOUDS_CU_LIGHTING_STEPS        = Lighting Steps
+option.CLOUDS_CU_AMBIENT_STEPS         = Ambient Steps
+option.CLOUDS_CU_ALTITUDE              = Altitude
+suffix.CLOUDS_CU_ALTITUDE              = m
+option.CLOUDS_CU_THICKNESS             = Thickness
+option.CLOUDS_CU_DENSITY               = Density
+option.CLOUDS_CU_COVERAGE              = Coverage
+option.CLOUDS_CU_SIZE                  = Size
+option.CLOUDS_CU_DETAIL_STRENGTH       = Detail Strength
+option.CLOUDS_CU_CURL_STRENGTH         = Curl Strength
+option.CLOUDS_CU_WIND_SPEED            = Wind Speed
+suffix.CLOUDS_CU_ALTITUDE              = m/s
+option.CLOUDS_CU_WIND_ANGLE            = Wind Angle
+suffix.CLOUDS_CU_ALTITUDE              = °
+
+option.CLOUDS_AC                       = Cumulus Clouds
+option.CLOUDS_AC_PRIMARY_STEPS_H       = Primary Steps - Horizon
+option.CLOUDS_AC_PRIMARY_STEPS_Z       = Primary Steps - Zenith
+option.CLOUDS_AC_LIGHTING_STEPS        = Lighting Steps
+option.CLOUDS_AC_AMBIENT_STEPS         = Ambient Steps
+option.CLOUDS_AC_ALTITUDE              = Altitude
+suffix.CLOUDS_AC_ALTITUDE              = m
+option.CLOUDS_AC_THICKNESS             = Thickness
+option.CLOUDS_AC_DENSITY               = Density
+option.CLOUDS_AC_COVERAGE              = Coverage
+option.CLOUDS_AC_SIZE                  = Size
+option.CLOUDS_AC_DETAIL_STRENGTH       = Detail Strength
+option.CLOUDS_AC_CURL_STRENGTH         = Curl Strength
+option.CLOUDS_AC_WIND_SPEED            = Wind Speed
+suffix.CLOUDS_AC_ALTITUDE              = m/s
+option.CLOUDS_AC_WIND_ANGLE            = Wind Angle
+suffix.CLOUDS_AC_ALTITUDE              = °
+
+option.CLOUDS_TEMPORAL_UPSCALING       = Temporal Upscaling
+option.CLOUDS_DAILY_WEATHER            = Daily Weather Variation
+value.CLOUDS_TEMPORAL_UPSCALING.1      = Off
+value.CLOUDS_TEMPORAL_UPSCALING.2      = 4×
+value.CLOUDS_TEMPORAL_UPSCALING.3      = 9×
+value.CLOUDS_TEMPORAL_UPSCALING.4      = 16×
+
+option.CLOUDS_CI                       = Cumulus Clouds
+option.CLOUDS_CI_PRIMARY_STEPS_H       = Primary Steps - Horizon
+option.CLOUDS_CI_PRIMARY_STEPS_Z       = Primary Steps - Zenith
+option.CLOUDS_CI_LIGHTING_STEPS        = Lighting Steps
+option.CLOUDS_CI_AMBIENT_STEPS         = Ambient Steps
+option.CLOUDS_CI_ALTITUDE              = Altitude
+suffix.CLOUDS_CI_ALTITUDE              = m
+option.CLOUDS_CI_THICKNESS             = Thickness
+option.CLOUDS_CI_DENSITY               = Cirrus Density
+option.CLOUDS_CI_COVERAGE              = Cirrus Coverage
+option.CLOUDS_CI_SIZE                  = Cirrus Size
+option.CLOUDS_CI_DETAIL_STRENGTH       = Cirrus Detail Strength
+option.CLOUDS_CI_CURL_STRENGTH         = Cirrus Curl Strength
+option.CLOUDS_CC_DENSITY               = Cirrocumulus Density
+option.CLOUDS_CC_COVERAGE              = Cirrocumulus Coverage
+option.CLOUDS_CC_SIZE                  = Cirrocumulus Size
+option.CLOUDS_CC_DETAIL_STRENGTH       = Cirrocumulus Detail Strength
+option.CLOUDS_CC_CURL_STRENGTH         = Cirrocumulus Curl Strength
+option.CLOUDS_CI_WIND_SPEED            = Wind Speed
+suffix.CLOUDS_CI_ALTITUDE              = m/s
+option.CLOUDS_CI_WIND_ANGLE            = Wind Angle
+suffix.CLOUDS_CI_ALTITUDE              = °
+
+option.CLOUDS_AC                       = Altocumulus Clouds
+option.CLOUDS_CI                       = Planar Clouds
+
+# Fog settings
+
+option.BORDER_FOG                      = Border Fog
+option.CAVE_FOG                        = Cave Fog
+option.BLOOMY_FOG                      = Bloomy Fog
+option.BLOOMY_FOG_INTENSITY            = Bloomy Fog Intensity
+option.VL                              = Volumetric Lighting
+option.VL_RENDER_SCALE                 = VL Render Scale
+option.AIR_FOG_CLOUDY_NOISE            = Cloudy Fog
+option.AIR_FOG_COLORED_LIGHT_SHAFTS    = Colored Light Shafts
+
+option.AIR_FOG_RAYLEIGH_DENSITY        = Normal Density
+option.AIR_FOG_RAYLEIGH_R              = §4Red
+option.AIR_FOG_RAYLEIGH_G              = §2Green
+option.AIR_FOG_RAYLEIGH_B              = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_RAIN   = Rain Density
+option.AIR_FOG_RAYLEIGH_R_RAIN         = §4Red
+option.AIR_FOG_RAYLEIGH_G_RAIN         = §2Green
+option.AIR_FOG_RAYLEIGH_B_RAIN         = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_ARID   = Arid/Desert Density
+option.AIR_FOG_RAYLEIGH_R_ARID         = §4Red
+option.AIR_FOG_RAYLEIGH_G_ARID         = §2Green
+option.AIR_FOG_RAYLEIGH_B_ARID         = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_SNOWY  = Snowy Density
+option.AIR_FOG_RAYLEIGH_R_SNOWY        = §4Red
+option.AIR_FOG_RAYLEIGH_G_SNOWY        = §2Green
+option.AIR_FOG_RAYLEIGH_B_SNOWY        = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_TAIGA  = Taiga Density
+option.AIR_FOG_RAYLEIGH_R_TAIGA        = §4Red
+option.AIR_FOG_RAYLEIGH_G_TAIGA        = §2Green
+option.AIR_FOG_RAYLEIGH_B_TAIGA        = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_JUNGLE = Jungle Density
+option.AIR_FOG_RAYLEIGH_R_JUNGLE       = §4Red
+option.AIR_FOG_RAYLEIGH_G_JUNGLE       = §2Green
+option.AIR_FOG_RAYLEIGH_B_JUNGLE       = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_SWAMP  = Swamp Density
+option.AIR_FOG_RAYLEIGH_R_SWAMP        = §4Red
+option.AIR_FOG_RAYLEIGH_G_SWAMP        = §2Green
+option.AIR_FOG_RAYLEIGH_B_SWAMP        = §1Blue
+
+option.AIR_FOG_MIE_DENSITY_MORNING     = Morning Density
+option.AIR_FOG_MIE_DENSITY_NOON        = Noon Density
+option.AIR_FOG_MIE_DENSITY_EVENING     = Evening Density
+option.AIR_FOG_MIE_DENSITY_MIDNIGHT    = Midnight Density
+option.AIR_FOG_MIE_DENSITY_RAIN        = Rain Density
+option.AIR_FOG_MIE_DENSITY_BLUE_HOUR   = Dawn/Dusk Density
+
+# Materials settings
+
+option.NORMAL_MAPPING                  = Normal Mapping
+option.SPECULAR_MAPPING                = Specular Mapping
+option.POM                             = Parallax Occlusion Mapping
+option.TEXTURE_FORMAT                  = Texture Format
+option.HARDCODED_SPECULAR              = Hardcoded Specular
+option.HARDCODED_EMISSION              = Hardcoded Emission
+option.HARDCODED_SSS                   = Hardcoded SSS
+option.RAIN_PUDDLES                    = Rain Puddles
+option.REFRACTION                      = Refraction
+option.EMISSION_STRENGTH               = Emission Strength
+option.DIRECTIONAL_LIGHTMAPS           = Directional Lightmaps
+option.DIRECTIONAL_LIGHTMAPS_INTENSITY = Directional Lightmaps Strength
+option.POM_DEPTH                       = Parallax Depth
+option.POM_SAMPLES                     = Parallax Samples
+option.POM_SHADOW                      = POM Self-Shadowing
+option.POM_SHADOW_SAMPLES              = POM Self-Shadow Samples
+option.POM_SLOPE_NORMALS               = POM Slope Normals
+option.POM_DISTANCE                    = POM Distance
+
+suffix.POM_DEPTH                       = m
+suffix.POM_DISTANCE                    = m
+
+value.TEXTURE_FORMAT.TEXTURE_FORMAT_LAB = labPBR
+value.TEXTURE_FORMAT.TEXTURE_FORMAT_OLD = Old PBR
+
+value.REFRACTION.REFRACTION_OFF        = §cOff
+value.REFRACTION.REFRACTION_WATER_ONLY = Water Only
+value.REFRACTION.REFRACTION_ALL        = §aAll
+
+option.ENVIRONMENT_REFLECTIONS         = Environment Reflections
+option.SKY_REFLECTIONS                 = Sky Reflections
+option.SSR_ROUGHNESS_SUPPORT           = Roughness Support
+option.SSR_RAY_COUNT                   = Ray Count
+option.SSR_INTERSECTION_STEPS_SMOOTH   = Intersection Steps - Smooth
+option.SSR_INTERSECTION_STEPS_ROUGH    = Intersection Steps - Rough
+option.SSR_REFINEMENT_STEPS            = Refinement Steps
+option.SSR_ROUGHNESS_THRESHOLD         = Roughness Threshold
+
+# Water settings
+
+option.WATER_CAUSTICS                  = Water Caustics
+option.WATER_FOAM                      = Water Foam
+option.SNELLS_WINDOW                   = Snell's Window
+option.VANILLA_WATER_TEXTURE           = Vanilla Water Texture
+option.BIOME_WATER_COLOR               = Biome-Colored Water
+
+option.WATER_WAVES                     = Enabled
+option.WATER_WAVE_ITERATIONS           = Iterations
+option.WATER_WAVE_STRENGTH             = Intensity
+option.WATER_WAVE_FREQUENCY            = Frequency
+option.WATER_WAVE_SPEED_STILL          = Speed (Still)
+option.WATER_WAVE_SPEED_FLOWING        = Speed (Flowing)
+option.WATER_WAVE_PERSISTENCE          = Persistence
+option.WATER_WAVE_LACUNARITY           = Lacunarity
+option.WATER_PARALLAX                  = Water Parallax
+option.WATER_DISPLACEMENT              = Water Displacement
+
+option.WATER_ABSORPTION_R              = Red Absorption
+option.WATER_ABSORPTION_G              = Green Absorption
+option.WATER_ABSORPTION_B              = Blue Absorption
+option.WATER_SCATTERING                = Scattering
+
+option.WATER_ABSORPTION_R_UNDERWATER   = Red Absorption - Underwater
+option.WATER_ABSORPTION_G_UNDERWATER   = Green Absorption - Underwater
+option.WATER_ABSORPTION_B_UNDERWATER   = Blue Absorption - Underwater
+option.WATER_SCATTERING_UNDERWATER     = Scattering - Underwater
+
+# Post-processing settings
+
+option.BLOOM                           = Bloom
+option.BLOOM_INTENSITY                 = Bloom Intensity
+option.DOF                             = Depth of Field
+option.DOF_INTENSITY                   = DoF Intensity
+option.DOF_SAMPLES                     = DoF Samples
+option.DOF_FOCUS                       = DoF Focus
+option.MOTION_BLUR                     = Motion Blur
+option.MOTION_BLUR_INTENSITY           = Motion Blur Intensity
+option.TAA                             = TAA
+option.FXAA                            = FXAA
+option.TAAU                            = TAA Upscaling
+option.TAAU_RENDER_SCALE               = TAAU Render Scale
+option.CAS                             = Image Sharpening
+option.CAS_INTENSITY                   = Image Sharpening Intensity
+option.VIGNETTE                        = Vignette
+option.VIGNETTE_INTENSITY              = Vignette Intensity
+
+value.DOF_FOCUS.-1.0                   = Automatic
+
+option.tonemap                         = Tonemap Operator
+
+value.tonemap.academy_fit              = Academy Fit
+value.tonemap.academy_rrt              = Academy RRT
+value.tonemap.tonemap_hejl_2015        = Hejl 2015
+value.tonemap.tonemap_hejl_burgess     = Hejl-Burgess
+value.tonemap.tonemap_lottes           = Lottes
+value.tonemap.tonemap_uncharted_2      = Uncharted 2
+value.tonemap.tonemap_tech             = Tech
+value.tonemap.tonemap_ozius            = Ozius
+value.tonemap.tonemap_reinhard         = Reinhard
+value.tonemap.tonemap_reinhard_jodie   = Reinhard-Jodie
+
+# Color Grading
+
+option.GRADE_BRIGHTNESS                = Brightness
+option.GRADE_CONTRAST                  = Contrast
+option.GRADE_SATURATION                = Saturation
+option.GRADE_WHITE_BALANCE             = White Balance
+option.GRADE_ORANGE_SAT_BOOST          = Orange Saturation Boost
+option.GRADE_TEAL_SAT_BOOST            = Teal Saturation Boost
+option.GRADE_GREEN_SAT_BOOST           = Green Saturation Boost
+option.GRADE_GREEN_HUE_SHIFT           = Green Hue Shift
+suffix.GRADE_WHITE_BALANCE             = K
+suffix.GRADE_GREEN_HUE_SHIFT           = °
+
+option.PURKINJE_SHIFT                  = Purkinje Shift
+option.PURKINJE_SHIFT_INTENSITY        = Purkinje Shift Intensity
+
+# Exposure
+
+option.AUTO_EXPOSURE                         = Auto Exposure
+option.AUTO_EXPOSURE_BIAS                    = Exposure Bias
+option.AUTO_EXPOSURE_MIN                     = Minimum Exposure
+option.AUTO_EXPOSURE_MAX                     = Maximum Exposure
+option.AUTO_EXPOSURE_RATE_DIM_TO_BRIGHT      = Exposure Rate - Increasing
+option.AUTO_EXPOSURE_RATE_BRIGHT_TO_DIM      = Exposure Rate - Decreasing
+option.MANUAL_EXPOSURE_VALUE                 = Manual Exposure Value
+option.MANUAL_EXPOSURE_USE_SCREEN_BRIGHTNESS = Use Brightness Slider
+option.HISTOGRAM_BINS                        = Histogram Bins
+option.HISTOGRAM_TARGET                      = Histogram Target CDF Value
+
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_SIMPLE    = Simple
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_HISTOGRAM = Histogram
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_OFF       = Off
+
+# Misc settings
+
+option.DEBUG_VIEW                      = Debug View
+option.DEBUG_SAMPLER                   = Debug Sampler
+option.WHITE_WORLD                     = White World
+option.TONEMAP_COMPARISON              = Tonemap Comparison
+option.tonemap_left                    = Left Tonemap
+option.tonemap_right                   = Right Tonemap
+option.FANCY_NETHER_PORTAL             = Fancy Nether Portal
+option.CUSTOM_SKY                      = Custom Sky
+option.CUSTOM_SKY_BRIGHTNESS           = Custom Sky Brightness
+
+value.DEBUG_VIEW.DEBUG_VIEW_NONE       = OFF
+value.DEBUG_VIEW.DEBUG_VIEW_SAMPLER    = Sampler
+value.DEBUG_VIEW.DEBUG_VIEW_WEATHER    = Weather
+value.DEBUG_VIEW.DEBUG_VIEW_HISTOGRAM  = Histogram
+
+value.tonemap_left.academy_fit            = Academy Fit
+value.tonemap_left.academy_rrt            = Academy RRT
+value.tonemap_left.tonemap_lottes         = Lottes
+value.tonemap_left.tonemap_hejl_2015      = Hejl 2015
+value.tonemap_left.tonemap_hejl_burgess   = Hejl-Burgess
+value.tonemap_left.tonemap_uncharted_2    = Uncharted 2
+value.tonemap_left.tonemap_tech           = Tech
+value.tonemap_left.tonemap_ozius          = Ozius
+value.tonemap_left.tonemap_reinhard       = Reinhard
+value.tonemap_left.tonemap_reinhard_jodie = Reinhard-Jodie
+
+value.tonemap_right.academy_fit            = Academy Fit
+value.tonemap_right.academy_rrt            = Academy RRT
+value.tonemap_right.tonemap_lottes         = Lottes
+value.tonemap_right.tonemap_hejl_burgess   = Hejl-Burgess
+value.tonemap_right.tonemap_hejl_2015      = Hejl 2015
+value.tonemap_right.tonemap_uncharted_2    = Uncharted 2
+value.tonemap_right.tonemap_tech           = Tech
+value.tonemap_right.tonemap_ozius          = Ozius
+value.tonemap_right.tonemap_reinhard       = Reinhard
+value.tonemap_right.tonemap_reinhard_jodie = Reinhard-Jodie
+
+# Daily Weather System
+
+option.WEATHER_DAY                         = Day
+value.WEATHER_DAY.-1                       = Random
+
+option.WEATHER_D0_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D0_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D0_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D0_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D0_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D0_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D0_OVERCASTNESS             = Overcastness
+option.WEATHER_D0_FOGGINESS                = Fogginess
+option.WEATHER_D1_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D1_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D1_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D1_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D1_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D1_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D1_OVERCASTNESS             = Overcastness
+option.WEATHER_D1_FOGGINESS                = Fogginess
+option.WEATHER_D2_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D2_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D2_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D2_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D2_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D2_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D2_OVERCASTNESS             = Overcastness
+option.WEATHER_D2_FOGGINESS                = Fogginess
+option.WEATHER_D3_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D3_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D3_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D3_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D3_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D3_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D3_OVERCASTNESS             = Overcastness
+option.WEATHER_D3_FOGGINESS                = Fogginess
+option.WEATHER_D4_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D4_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D4_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D4_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D4_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D4_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D4_OVERCASTNESS             = Overcastness
+option.WEATHER_D4_FOGGINESS                = Fogginess
+option.WEATHER_D5_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D5_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D5_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D5_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D5_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D5_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D5_OVERCASTNESS             = Overcastness
+option.WEATHER_D5_FOGGINESS                = Fogginess
+option.WEATHER_D6_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D6_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D6_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D6_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D6_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D6_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D6_OVERCASTNESS             = Overcastness
+option.WEATHER_D6_FOGGINESS                = Fogginess
+option.WEATHER_D7_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D7_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D7_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D7_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D7_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D7_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D7_OVERCASTNESS             = Overcastness
+option.WEATHER_D7_FOGGINESS                = Fogginess
+option.WEATHER_D8_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D8_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D8_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D8_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D8_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D8_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D8_OVERCASTNESS             = Overcastness
+option.WEATHER_D8_FOGGINESS                = Fogginess
+option.WEATHER_D9_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D9_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D9_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D9_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D9_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D9_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D9_OVERCASTNESS             = Overcastness
+option.WEATHER_D9_FOGGINESS                = Fogginess
+option.WEATHER_D10_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D10_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D10_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D10_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D10_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D10_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D10_OVERCASTNESS             = Overcastness
+option.WEATHER_D10_FOGGINESS                = Fogginess
+option.WEATHER_D11_CLOUDS_CU_MIN            = Min Cumulus Coverage
+option.WEATHER_D11_CLOUDS_CU_MAX            = Max Cumulus Coverage
+option.WEATHER_D11_CLOUDS_AC_MIN            = Min Altocumulus Coverage
+option.WEATHER_D11_CLOUDS_AC_MAX            = Max Altocumulus Coverage
+option.WEATHER_D11_CLOUDS_CI                = Cirrus Coverage
+option.WEATHER_D11_CLOUDS_CC                = Cirrocumulus Coverage
+option.WEATHER_D11_OVERCASTNESS             = Overcastness
+option.WEATHER_D11_FOGGINESS                = Fogginess

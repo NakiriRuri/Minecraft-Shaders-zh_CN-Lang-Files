@@ -1,0 +1,313 @@
+
+#shaders/lang/zh_CN.lang
+
+#Screens
+screen.Visual=Visual
+
+screen.PostProcess=Post Process
+screen.ColorGrading=Color Grading
+screen.Col1=Red Channel
+screen.Col2=Green Channel
+screen.Col3=Blue Channel
+screen.Col4=Tint
+screen.ColorAdjustment=Color Adjustment
+
+screen.Shadows=Shadows
+
+screen.Sky=Sky
+
+screen.Color=Color
+screen.Light=Lighting Color
+screen.LightM=Light (Morning)
+screen.LightD=Light (Day)
+screen.LightN=Light (Night)
+screen.LightR=Light (Rain)
+screen.SkyM=Ambient (Morning)
+screen.SkyD=Ambient (Day)
+screen.SkyN=Ambient (Night)
+screen.SkyR=Ambient (Rain)
+screen.Torch=Blocklight Color
+screen.SkyColor=Sky Color
+screen.WaterColor=Water Color
+screen.Nether=Nether Color
+screen.End=End Color
+
+screen.Water=Water
+
+screen.Terrain=Waving Blocks
+
+screen.World=World
+
+#Settings
+option.About=Chaos Shaders
+value.About.0=by Vustolord
+
+#Visual
+option.AO=Ambient Occlusion
+option.LightShaft=Light Shafts
+option.Celshade=Black Outline
+option.LightmapBanding=Lightmap Banding
+option.ExtraReflection=Extra Reflection
+option.BumpyEdge=Bumpy Edge
+option.RPSupport=Resource Pack Support
+option.RPSFormat=Specular Format
+option.AOHQ=High Quality AO
+option.AOTranslucent=Translucent AO
+option.POM_MAP_RES=POM Quality
+option.POM_DEPTH=POM Depth
+
+value.LightShaft.0=OFF
+value.LightShaft.1=Screen Space
+value.LightShaft.2=Volumetric
+
+value.RPSFormat.0=S
+value.RPSFormat.1=SM
+value.RPSFormat.2=SME
+
+#PostProcess
+option.Bloom=Bloom
+option.LensFlare=Lens Flare
+option.DOF=Depth of Field
+option.FogBlur=Fog Blur
+option.MotionBlur=Motion Blur
+option.DirtyLens=Dirty Lens
+option.AverageExposure=Average Exposure
+#	ColorGrading
+#		Col1
+option.ColR1=Red - Red Value
+option.ColG1=Red - Green Value
+option.ColB1=Red - Blue Value
+option.ColS1=Red Strength Value
+option.ColM1=Minimal Red Value
+option.ColC1=Red Curve Value
+#		Col2
+option.ColR2=Green - Red Value
+option.ColG2=Green - Green Value
+option.ColB2=Green - Blue Value
+option.ColS2=Green Strength Value
+option.ColM2=Minimal Green Value
+option.ColC2=Green Curve Value
+#		Col3
+option.ColR3=Blue - Red Value
+option.ColG3=Blue - Green Value
+option.ColB3=Blue - Blue Value
+option.ColS3=Blue Strength Value
+option.ColM3=Minimal Blue Value
+option.ColC3=Blue Curve Value
+#		Col4
+option.ColR4=Tint - Red Value
+option.ColG4=Tint - Green Value
+option.ColB4=Tint - Blue Value
+option.ColS4=Tint Strength Value
+option.ColM4=Tint Mix Value
+#	ColorAdjustment
+option.ColorAdjustment=Color Adjustment
+#	Generic
+option.ColorGrading=Color Grading
+option.ColorGrading_LUT=Show LUT
+option.Brightness=Brightness
+option.Saturation=Saturation
+option.Contrast=Contrast
+
+#Shadows
+option.shadowMapResolution=Shadowmap Resolution
+option.sunPathRotation=Sun Path Rotation
+option.ShadowColor=Colored Shadow
+option.ShadowFilter=Shadow Filtering
+option.ShadowLeakFix=Shadow Leak Fix
+option.ShadowCloseDithering=Close Range Dithering
+
+value.shadowMapResolution.1024=Low
+value.shadowMapResolution.2048=Medium
+value.shadowMapResolution.4096=High
+value.shadowMapResolution.8192=Very High
+
+#Color
+
+option.LightMR=Red
+option.LightMG=Green
+option.LightMB=Blue
+option.LightMS=Strength
+
+option.LightDR=Red
+option.LightDG=Green
+option.LightDB=Blue
+option.LightDS=Strength
+
+option.LightNR=Red
+option.LightNG=Green
+option.LightNB=Blue
+option.LightNS=Strength
+
+option.LightRR=Red
+option.LightRG=Green
+option.LightRB=Blue
+option.LightRS=Strength
+
+option.SkyMR=Red
+option.SkyMG=Green
+option.SkyMB=Blue
+option.SkyMS=Strength
+
+option.SkyDR=Red
+option.SkyDG=Green
+option.SkyDB=Blue
+option.SkyDS=Strength
+
+option.SkyNR=Red
+option.SkyNG=Green
+option.SkyNB=Blue
+option.SkyNS=Strength
+
+option.SkyRR=Red
+option.SkyRG=Green
+option.SkyRB=Blue
+option.SkyRS=Strength
+
+option.TorchR=Red
+option.TorchG=Green
+option.TorchB=Blue
+option.TorchS=Strength
+
+option.SkyCR=Red
+option.SkyCG=Green
+option.SkyCB=Blue
+option.SkyCS=Strength
+
+option.WaterR=Red
+option.WaterG=Green
+option.WaterB=Blue
+option.WaterS=Strength
+option.WaterA=Alpha
+option.WaterF=Fog Distance
+
+option.NetherR=Red
+option.NetherG=Green
+option.NetherB=Blue
+option.NetherS=Strength
+
+option.EndR=Red
+option.EndG=Green
+option.EndB=Blue
+option.EndS=Strength
+
+option.SkyV=Vanilla Sky
+option.WaterV=Vanilla Water
+
+#Sky
+option.Clouds=Clouds
+option.Stars=Stars
+option.RoundSunMoon=Round Sun & Moon
+option.SkyDesaturation=Sky Desaturation
+option.CloudQuality=Cloud Quality
+option.CloudAmount=Cloud Amount
+option.CloudHeight=Cloud Height
+
+value.CloudQuality.1=Medium
+value.CloudQuality.2=High
+value.CloudQuality.3=Very High
+
+value.CloudAmount.14.0=Very Low
+value.CloudAmount.12.0=Low
+value.CloudAmount.10.0=Medium
+value.CloudAmount.8.0=High
+value.CloudAmount.6.0=Very High
+
+value.CloudHeight.8.0=Very Low
+value.CloudHeight.12.0=Low
+value.CloudHeight.16.0=Medium
+value.CloudHeight.20.0=High
+value.CloudHeight.24.0=Very High
+
+
+#Water
+option.WaterNormals=Normals
+option.WaterReflection=Reflection
+option.WaterParallax=Parallax
+option.WaterRefraction=Refraction
+option.WaterCaustic=Caustic
+option.WaterFog=Underwater Fog
+option.WaterDistantWave=Distant Wave
+
+#World
+option.DisableTexture=Disable Texture
+option.Desaturation=Desaturation
+option.BrightEmissive=Bright Emissive
+option.EmissiveRecolor=Emissive Recolor
+option.Weather=Weather
+option.Fog=Fog
+option.WorldTimeAnimation=World Time Animation
+
+#Terrain
+option.WavingCrops=Crops
+option.WavingFire=Fire
+option.WavingFlowers=Flowers
+option.WavingGrass=Grass
+option.WavingLava=Lava
+option.WavingLeaves=Leaves
+option.WavingLilypad=Lilypad
+option.WavingTall=Tall Plants
+option.WavingVines=Vines
+option.WavingWater=Water
+
+#Comments
+option.About.comment=by Vustolord.
+option.AO.comment=Darkens intersection between surfaces.
+option.TranslucentAO.comment=Adjusts where ambient occlusion can be done in translucent blocks. Off : No AO in translucents. Partial : AO only applied to opaque part of translucents. Full : AO is fully applied to translucents.
+option.Celshade.comment=A cel shading method, adds black outline.
+option.LightmapBanding.comment=A cel shading method, reduces lightmap detail.
+option.LightShaft.comment=Adds screen space rays from sun / moon. Screen space : radial blurred sky (faster). Volumetric : raymarched shadowmap (slower).
+option.BumpyEdge.comment=Adds subtle dark and bright outline.
+option.RPSupport.comment=Enables normal mapping, specular mapping, and POM.
+option.AOHQ.comment=Adds distance scaling to AO. Increases AO sample count.
+option.AOTranslucent.comment=Allow semitransparent objects to calculate AO.
+option.RPSFormat.comment=Adjusts the format of the specular pack. S : Specular only (grayscale). SM : Specular, metalness. SME : Specular, metalness, emissive.
+option.POM_MAP_RES.comment=Adjusts the resolution of the resourcepack for correct POM.
+option.POM_DEPTH.comment=Adjusts the strength of POM.
+option.Bloom.comment=Enables glow effect.
+option.MotionBlur.comment=Enables blur based on camera movement and rotation.
+option.BloomStrength.comment=Adjusts the strength of bloom
+option.LensFlare.comment=Enables lens flare.
+option.DirtyLens.comment=Enables dirty lens. Requires bloom.
+option.FXAA.comment=Enables FXAA
+option.AverageExposure.comment=Enables automatic brightness adjustment.
+option.DOF.comment=Enables camera focus effect.
+option.FogBlur.comment=Enables blurring in distance.
+option.ColorGrading.comment=Enables color grading.
+option.ColorGrading_LUT.comment=Generate lookup table in top left corner.
+option.ColorAdjustment.comment=Enables basic color modification such as brightness, contrast, and saturation.
+option.Brightness.comment=Adjusts brightness.
+option.Saturation.comment=Adjusts saturation.
+option.Contrast.comment=Adjusts contrast.
+option.shadowMapResolution.comment=Adjusts shadowmap size. Larger is better and slower.
+option.sunPathRotation.comment=Adjusts sun angle.
+option.ShadowColor.comment=Enables tinted shadow from translucents. Performance cost depends on shadow filtering. Used for projected caustics and colored volumetric light shafts.
+option.ShadowFilter.comment=Enables shadow filtering.
+option.ShadowLeakFix.comment=Disables shadows when indoor and below certain skylight level.
+option.ShadowCloseDithering.comment=Smooths out certain shadow artifact.
+option.Clouds.comment=Enables clouds.
+option.CloudQuality.comment=Adjusts cloud quality. Higher quality reduces dither artifact, but makes the cloud look more opaque.
+option.CloudsAmount.comment=Adjusts cloud amount.
+option.CloudsHeight.comment=Adjusts cloud height.
+option.Stars.comment=Enables stars.
+option.RoundSunMoon.comment=Enables shader sun and moon. Please disable sun and moon from optifine's options.
+option.SkyDesaturation.comment=Enables sky tinting based on night color.
+option.WaterV.comment=Use vanilla water texture.
+option.SkyV.comment=Use vanilla sky color.
+option.WaterNormals.comment=Enables realtime-generated normal mapping for water.
+option.WaterReflection.comment=Enables screen space reflection for water.
+option.WaterParallax.comment=Enables water displacement.
+option.WaterRefraction.comment=Enables refraction under water surface.
+option.WaterCaustic.comment=Enables water caustics. Simple : uses world coordinates. Projected : uses shadow coordinates, requires colored shadow.
+option.WaterFog.comment=Enables underwater fog.
+option.WaterDistantWave.comment=Enables larger wave in certain distance.
+option.DisableTexture.comment=Removes textures.
+option.Desaturation.comment=Desaturates darker areas.
+option.BrightEmissive.comment=Increases the brightness of emissive blocks.
+option.EmissiveRecolor.comment=Tints certain emissive blocks with torchlight color.
+option.Weather.comment=Enables rain and snowfall.
+option.WeatherOpacity.comment=Adjusts weather opacity.
+option.Fog.comment=Enables fog.
+option.FogRange.comment=Adjusts fog distance.
+option.WorldTimeAnimation.comment=Use ingame time for moving objects.
+option.AnimationSpeed.comment=Adjusts animation speed.

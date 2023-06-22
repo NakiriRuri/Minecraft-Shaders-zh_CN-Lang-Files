@@ -1,0 +1,232 @@
+#shaders/lang/zh_CN.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 Super Duper Vanilla 1.3.3 版本，并未做全面汉化，请注意。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+#Profiles
+    profile.POTATO = 极低
+    profile.LOW = 低
+    profile.MEDIUM = 中 (默认)
+    profile.HIGH = 高
+    profile.ULTRA = 极高
+
+screen.DEBUG = Super Duper Vanilla v1.3.3
+    screen.DEBUG.comment = 作者:§2Eldeston§f§r, 制作单位:§9FlameRender §9Studios. §e点击此选项进入着色器Debug设置!
+
+    option.COLOR_MODE = 色彩模式
+        value.COLOR_MODE.0 = 关闭
+        value.COLOR_MODE.1 = 全白模式
+        value.COLOR_MODE.2 = 全黑模式
+        value.COLOR_MODE.3 = 植被模式
+
+    option.NOISE_SPEED = 噪声速度
+
+screen.POST = 后期处理
+    option.OUTLINES = 描边
+        value.OUTLINES.0 = 关
+        value.OUTLINES.1 = Standard
+        value.OUTLINES.2 = Dungeons
+
+    option.OUTLINE_BRIGHTNESS = 描边亮度
+    option.OUTLINE_PIX_SIZE = 描边像素尺寸
+    option.RETRO_FILTER = 复古滤镜
+
+    option.ANTI_ALIASING = 抗锯齿
+
+    value.ANTI_ALIASING.0 = 关闭
+    value.ANTI_ALIASING.1 = FXAA
+    value.ANTI_ALIASING.2 = TAA
+    value.ANTI_ALIASING.3 = 轻度 TAA + FXAA
+
+    option.SHARPEN_FILTER = 锐化滤镜
+
+    screen.CAMERA = 镜头设置
+        option.DOF = 景深
+        option.DOF_STRENGTH = 景深强度
+        option.CHROMATIC_ABERRATION = 色度偏差
+        option.ABERRATION_PIX_SIZE = 偏差像素大小
+        option.BLOOM = 泛光
+        option.BLOOM_STRENGTH = 泛光强度
+        option.LENS_FLARE = 镜头眩光
+        option.LENS_FLARE_STRENGTH = 镜头眩光强度
+        option.VIGNETTE = 暗角
+        option.VIGNETTE_STRENGTH = 暗角强度
+        option.MOTION_BLUR = 动态模糊
+        option.MOTION_BLUR_STRENGTH = 动态模糊强度
+
+    screen.TONEMAP = 色调设置
+        option.SATURATION = 饱和度
+        option.CONTRAST = 对比度
+        option.AUTO_EXPOSURE = 自动曝光
+        option.AUTO_EXPOSURE_SPEED = 自动曝光速度
+        option.EXPOSURE = 曝光
+        option.MIN_EXPOSURE = 最小曝光
+        option.TINT_R = 红色 色调
+        option.TINT_G = 绿色 色调
+        option.TINT_B = 蓝色 色调
+
+screen.LIGHTING = 照明
+    option.SHADOW = 阴影
+    option.SHADOW_COL = 阴影颜色
+    option.SHADOW_FILTER = 阴影过滤
+    option.shadowMapResolution = 阴影分辨率
+    option.shadowDistance = 阴影距离
+    option.sunPathRotation = 日月斜角
+
+    option.UNDERWATER_CAUSTICS = 水下焦散
+        value.UNDERWATER_CAUSTICS.0 = 关闭
+        value.UNDERWATER_CAUSTICS.1 = 仅水下
+        value.UNDERWATER_CAUSTICS.2 = 保持开启
+
+    option.SSAO = 屏幕空间环境光遮蔽(SSAO)
+    option.AMBIENT_LIGHTING = 环境光遮蔽(AO)
+
+    screen.RAY_TRACING = 路径追踪设置
+        option.SSGI = 屏幕空间全局照明(SSGI)
+        option.SSR = 屏幕空间反射(SSR)
+        option.SSGI_STEPS = SSGI 步进次数
+        option.SSR_STEPS = SSR 步进次数
+        option.SSGI_BISTEPS = SSGI 细化步进次数
+        option.SSR_BISTEPS = SSR 细化步进次数
+        option.ROUGH_REFLECTIONS = 粗糙反射
+        option.PREVIOUS_FRAME = 前帧缓冲
+
+screen.ATMOSPHERICS = 大气
+    option.SUN_MOON_TYPE = 日/月类型
+        value.SUN_MOON_TYPE.0 = 默认
+        value.SUN_MOON_TYPE.1 = 圆形
+        value.SUN_MOON_TYPE.2 = 原版
+
+    option.SUN_MOON_INTENSITY = 日/月 大小
+    option.VOLUMETRIC_LIGHTING = 体积光
+    option.VOLUMETRIC_LIGHTING_STRENGTH = 体积光强度
+    option.BORDER_FOG = 边界雾
+    option.GROUND_FOG_STRENGTH = 地表雾气强度
+    option.STORY_MODE_CLOUDS = 故事模式云层
+    option.DOUBLE_VANILLA_CLOUDS = 双层原版云
+    option.DYNAMIC_CLOUDS = 动态云层
+    option.FADE_SPEED = 渐消速度
+    option.SECOND_CLOUD_HEIGHT = 第二云层高度
+    option.SKYBOX_BRIGHTNESS = 天空盒亮度
+
+screen.WORLD = 世界
+    option.TERRAIN_ANIMATION = 地形动画
+    option.WATER_ANIMATION = 水面动画
+    option.WEATHER_ANIMATION = 天气动画
+
+    option.TIMELAPSE_MODE = 延时摄影模式
+        value.TIMELAPSE_MODE.0 = 关闭
+        value.TIMELAPSE_MODE.1 = 部分应用
+        value.TIMELAPSE_MODE.2 = 全部应用
+
+    option.WIND_SPEED = 风速
+    option.CURRENT_SPEED = 当前风速
+    option.WIND_FREQUENCY = 风频
+    option.CURRENT_FREQUENCY = 当前风频
+    option.WORLD_CURVATURE = 世界曲率
+    option.WORLD_CURVATURE_SIZE = 世界曲率半径
+
+screen.PBR = PBR
+    option.PBR_MODE = PBR 模式
+        value.PBR_MODE.0 = 关闭
+        value.PBR_MODE.1 = 默认 PBR
+        value.PBR_MODE.2 = Lab PBR 1.3
+
+    option.ENVIRO_PBR = 环境 PBR 材质
+    option.AUTO_GEN_NORM = 自动生成法线
+    option.AUTO_GEN_NORM_RES = 自动生成法线分辨率
+    option.SUBSURFACE_SCATTERING = 次表面散射
+    option.EMISSIVE_INTENSITY = 发光亮度
+    option.SLOPE_NORMALS = 法线斜率
+    option.NORMAL_STRENGTH = 法线斜率
+    option.DIRECTIONAL_LIGHTMAPS = 指向性光图
+    option.DIRECTIONAL_LIGHTMAP_STRENGTH = 指向性光图强度
+
+    screen.POM_SETTINGS = 视差设置
+        option.PARALLAX_OCCLUSION = 视差
+        option.PARALLAX_DEPTH = 视差深度
+        option.PARALLAX_STEPS = 视差步进次数
+        option.PARALLAX_SHADOWS = 视差阴影
+        option.PARALLAX_SHADOW_STEPS = 视差阴影步进次数
+
+    screen.WATER_SETTINGS = 水面表面设置
+        option.WATER_NOISE = 水面噪声
+        option.WATER_BRIGHTNESS = 水体亮度
+        option.WATER_NORM = 水面法线
+        option.WATER_BLUR_SIZE = 水面法线贴图模糊尺寸
+        option.WATER_DEPTH_SIZE = 水面法线贴图深度尺寸
+        option.WATER_TILE_SIZE = 水砖尺寸
+        option.WATER_STYLIZE_ABSORPTION = 风格化水体吸收
+        option.WATER_FOAM = 水发泡
+        option.WATER_FLAT = 水面反射率
+
+    screen.LAVA_SETTINGS = 岩浆表面设置
+        option.LAVA_BRIGHTNESS = 岩浆亮度
+        option.LAVA_NOISE = 岩浆噪声
+        option.LAVA_TILE_SIZE = 岩浆砖尺寸
+
+screen.CONFIGURATION = 其它配置
+    screen.OVERWORLD_SETTINGS = 主世界设置
+        screen.DAY_SETTINGS = 日间设置
+            option.LIGHT0_DR = 红光比重
+            option.LIGHT0_DG = 绿光比重
+            option.LIGHT0_DB = 蓝光比重
+            option.LIGHT0_DI = 照明强度
+
+            option.SKY0_DR = 天空光红色比重
+            option.SKY0_DG = 天空光绿色比重
+            option.SKY0_DB = 天空光蓝色比重
+            option.SKY0_DI = 天空光照明强度
+
+        screen.NIGHT_SETTINGS = 夜晚设置
+            option.LIGHT0_NR = 红光比重
+            option.LIGHT0_NG = 绿光比重
+            option.LIGHT0_NB = 蓝光比重
+            option.LIGHT0_NI = 照明强度
+
+            option.SKY0_NR = 天空光红色比重
+            option.SKY0_NG = 天空光绿色比重
+            option.SKY0_NB = 天空光蓝色比重
+            option.SKY0_NI = 天空光照明强度
+
+        screen.TWILIGHT_SETTINGS = 晨昏设置
+            option.LIGHT0_TR = 红光比重
+            option.LIGHT0_TG = 绿光比重
+            option.LIGHT0_TB = 蓝光比重
+            option.LIGHT0_TI = 照明强度
+
+            option.SKY0_TR = 天空光红色比重
+            option.SKY0_TG = 天空光绿色比重
+            option.SKY0_TB = 天空光蓝色比重
+            option.SKY0_TI = 天空光照明强度
+
+        screen.FOG_SETTINGS0 = 雾气设置
+            option.FOG0_VERTICAL_DENSITY_D = 白天垂直密度
+            option.FOG0_VERTICAL_DENSITY_N = 夜晚垂直密度
+            option.FOG0_VERTICAL_DENSITY_T = 晨昏垂直密度
+            option.FOG0_TOTAL_DENSITY = 总体密度
+
+    screen.NETHER_SETTINGS = 下界设置
+        option.FOGn1_VERTICAL_DENSITY = 下界雾气垂直密度
+        option.FOGn1_TOTAL_DENSITY = 下界雾气总体密度
+        option.WORLDn1_VANILLA_FOGCOLI = 雾气颜色强度
+
+    screen.END_SETTINGS = 末地设置
+        option.LIGHT1_CR = 红光比重
+        option.LIGHT1_CG = 绿光比重
+        option.LIGHT1_CB = 蓝光比重
+        option.LIGHT1_CI = 照明强度
+
+        option.SKY1_CR = 天空光红色比重
+        option.SKY1_CG = 天空光绿色比重
+        option.SKY1_CB = 天空光蓝色比重
+        option.SKY1_CI = 天空光照明强度
+
+        option.FOG1_VERTICAL_DENSITY = 末地雾气垂直密度
+        option.FOG1_TOTAL_DENSITY = 末地雾气总体密度
+
+    screen.BLOCK_LIGHT_COLOR = 方块光设置
+        option.BLOCKLIGHT_R = 方块光红色比重
+        option.BLOCKLIGHT_G = 方块光绿色比重
+        option.BLOCKLIGHT_B = 方块光蓝色比重
+        option.BLOCKLIGHT_I = 方块光照明强度

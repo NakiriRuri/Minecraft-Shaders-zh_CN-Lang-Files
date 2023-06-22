@@ -1,0 +1,246 @@
+option.INFO=Vanilla Plus by RRe36
+value.INFO.0=v3.2
+
+option.colorPreset=Color Preset
+value.colorPreset.0=Default
+value.colorPreset.1=Alpha
+value.colorPreset.2=SEUS v08
+value.colorPreset.3=Chocapic v3
+value.colorPreset.4=Plunderpixel
+value.colorPreset.5=Rudoplays
+
+screen.ATMOS=Atmosphere
+option.sunPathRotation=Sun Path Angle
+
+screen.COLORS=Colors
+
+screen.SUNLIGHT=Sunlight
+option.sunlightSunriseR=Sunrise Red
+option.sunlightSunriseG=Sunrise Green
+option.sunlightSunriseB=Sunrise Blue
+option.sunlightSunriseL=Sunrise Multi
+
+option.sunlightNoonR=Noon Red
+option.sunlightNoonG=Noon Green
+option.sunlightNoonB=Noon Blue
+option.sunlightNoonL=Noon Multi
+
+option.sunlightSunsetR=Sunset Red
+option.sunlightSunsetG=Sunset Green
+option.sunlightSunsetB=Sunset Blue
+option.sunlightSunsetL=Sunset Multi
+
+option.sunlightNightR=Night Red
+option.sunlightNightG=Night Green
+option.sunlightNightB=Night Blue
+option.sunlightNightL=Night Multi
+
+
+screen.SKYLIGHT=Skylight
+option.skylightSunriseR=Sunrise Red
+option.skylightSunriseG=Sunrise Green
+option.skylightSunriseB=Sunrise Blue
+option.skylightSunriseL=Sunrise Multi
+
+option.skylightNoonR=Noon Red
+option.skylightNoonG=Noon Green
+option.skylightNoonB=Noon Blue
+option.skylightNoonL=Noon Multi
+
+option.skylightSunsetR=Sunset Red
+option.skylightSunsetG=Sunset Green
+option.skylightSunsetB=Sunset Blue
+option.skylightSunsetL=Sunset Multi
+
+option.skylightNightR=Night Red
+option.skylightNightG=Night Green
+option.skylightNightB=Night Blue
+option.skylightNightL=Night Multi
+
+
+screen.FOGCOL=Fog
+option.fogcolSunriseR=Sunrise Red
+option.fogcolSunriseG=Sunrise Green
+option.fogcolSunriseB=Sunrise Blue
+option.fogcolSunriseL=Sunrise Multi
+
+option.fogcolNoonR=Noon Red
+option.fogcolNoonG=Noon Green
+option.fogcolNoonB=Noon Blue
+option.fogcolNoonL=Noon Multi
+
+option.fogcolSunsetR=Sunset Red
+option.fogcolSunsetG=Sunset Green
+option.fogcolSunsetB=Sunset Blue
+option.fogcolSunsetL=Sunset Multi
+
+option.fogcolNightR=Night Red
+option.fogcolNightG=Night Green
+option.fogcolNightB=Night Blue
+option.fogcolNightL=Night Multi
+
+
+screen.SKY=Sky
+option.skycolSunriseR=Sunrise Red
+option.skycolSunriseG=Sunrise Green
+option.skycolSunriseB=Sunrise Blue
+option.skycolSunriseL=Sunrise Multi
+
+option.skycolNoonR=Noon Red
+option.skycolNoonG=Noon Green
+option.skycolNoonB=Noon Blue
+option.skycolNoonL=Noon Multi
+
+option.skycolSunsetR=Sunset Red
+option.skycolSunsetG=Sunset Green
+option.skycolSunsetB=Sunset Blue
+option.skycolSunsetL=Sunset Multi
+
+option.skycolNightR=Night Red
+option.skycolNightG=Night Green
+option.skycolNightB=Night Blue
+option.skycolNightL=Night Multi
+
+
+screen.CLOUDS=Clouds
+option.cloudVolumeEnabled=Volumetric Clouds
+option.cloudVolumeStoryMode=Story Mode Style
+option.cloudVolumeRounding=Edge Sharpness
+option.cloudVolumeSamples=Samples
+option.cloudVolumeAlt=Altitude
+option.cloudVolumeDepth=Depth
+option.cloudVolumeClip=Maximum Render Distance
+
+screen.FOG=Fog
+option.fogEnabled=Fog
+option.fogStart=Start Offset
+option.fogFalloff=Falloff
+
+screen.GODRAYS=Godrays
+option.godraysEnabled=Godrays
+option.godraySamples=Samples
+option.godrayIntensity=Intensity
+option.godraySize=Size
+
+screen.WATER=Water
+option.customWaterNormals=Custom Wave Normals
+option.customWaterColor=Custom Color
+option.waterRed=Red
+option.waterGreen=Green
+option.waterBlue=Blue
+option.waterAlpha=Alpha
+option.waterFogEnabled=Water Fog
+option.waterFogFalloff=Falloff
+option.waterFogVanillaColor=Use Surface Color
+option.waterFogVanillaColor.comment=Uses the surface color to tint the fog when outside water. Keeps vanilla water biomes intact.
+option.waterFogRed=Red
+option.waterFogGreen=Green
+option.waterFogBlue=Blue
+
+screen.LIGHTING=Lighting
+option.shadowMapResolution=Shadowmap Resolution
+option.shadowFilterIterations=Filter Iterations
+option.shadowFilterSize=Filter Size
+option.disableFoliageShadows=Remove Foliage Shadows
+option.ssaoEnabled=Ambient Occlusion (SSAO)
+option.UseLightleakPrevention=Lightleak Prevention
+option.UseLightleakPrevention.comment=Breaks sunlight under large overhangs and semi-outdoor caves etc. 
+
+screen.TERRAIN=Terrain
+option.normalmapEnabled=Normalmaps
+option.normalmapFormat=Format
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.windEffectsEnabled=Wind Effects
+option.windIntensity=Intensity
+
+screen.REFLECTIONS=Reflections
+option.reflectionsEnabled=Reflections
+option.resourcepackReflectionsEnabled=Resourcepack Reflections
+option.specularHighlightsEnabled=Specular Highlights
+option.roughReflectionsEnabled=Rough Reflections
+option.roughReflectionSamples=Samples
+option.screenspaceReflectionsEnabled=Screenspace Reflections
+option.reflectionCaptureEnabled=Reflection Capture
+option.reflectionCaptureEnabled.comment=Might lead to visual artifacts in some scenes!
+option.roughnessThreshold=Roughness Threshold
+option.skyOcclusionThreshold=Sky Occlusion Threshold
+
+screen.CAMERA=Camera
+option.camSensorWidth=Sensor Width (mm)
+option.camFStops=F-Stops
+option.anamorphStretch=Anamorph Stretch
+
+screen.BLOOM=Bloom
+option.bloomEnabled=Bloom
+option.bloomIntensity=Strength
+
+screen.DOF=Depth of Field
+option.DoFToggle=Depth of Field
+option.DoFQuality=Quality
+value.DoFQuality.0=Low (30 Samples)
+value.DoFQuality.1=Medium (50 Samples)
+value.DoFQuality.2=High (75 Samples)
+option.DoFChromaDispersion=Chromatic Dispersion
+option.chromaOffsetScale=Chromatic Offset Scale
+option.camFocus=Focus Mode
+value.camFocus.0=Auto
+value.camFocus.1=Manual
+value.camFocus.2=Manual+
+value.camFocus.3=Auto+
+option.camManFocDis=Focus Distance
+suffix.camManFocDis=  m
+option.showFocusPlane=Show Focus Plane
+
+screen.EXPOSURE=Exposure
+option.exposureDecay=Decay
+option.exposureBias=Bias
+option.exposureDarkClamp=Dark Limit
+option.exposureBrightClamp=Bright Limit
+option.manualExposureEnabled=Manual Exposure Override
+option.manualExposureValue=Exposure Value
+
+screen.FLARE=Lens Flare
+option.legacyFlareToggle=Lens Flare
+option.legacyFlareIntensity=Intensity
+
+screen.MBLUR=Motionblur
+option.motionblurToggle=Enabled
+option.motionblurSamples=Samples
+option.motionblurScale=Scale
+
+screen.VIGNETTE=Vignette
+option.vignetteEnabled=Enabled
+option.vignetteStart=Start
+option.vignetteEnd=End
+option.vignetteIntensity=Intensity
+option.vignetteExponent=Exponent
+
+screen.POST=Post Processing
+option.imageSharpenEnabled=Image Sharpen
+option.screenBitdepth=Output Bitdepth
+option.taaEnabled=Anti-Aliasing (TAA)
+option.VIEWPORT_GAMUT=Display Gamut
+option.VIEWPORT_GAMUT.comment=This setting allows you to select the colour space that matches your display to ensure the intended look. Correct gamma response for the selected colour space is assumed. This setting is ignored on Iris in favour of its built in display gamut management. Please set this value in the Video settings there.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.CGRADE=Color-Grading
+option.doColorgrading=Color-Grading
+option.vibranceInt=Vibrance
+option.saturationInt=Saturation
+option.gammaCurve=Gamma Curve
+option.brightnessInt=Brightness
+option.constrastInt=Contrast
+option.colorlumR=Red Gain
+option.colorlumG=Green Gain
+option.colorlumB=Blue Gain
+
+screen.FTOOL=Framing Tool
+option.framingToolEnabled=Enabled
+option.framingThirdsHor=Thirds Guidelines
+option.framingToAspect=Aspect Ratio Guide
+option.framingAspectX=Horizonal Ratio
+option.framingAspectY=Vertical Ratio
+option.framingToAspectCenter=Center

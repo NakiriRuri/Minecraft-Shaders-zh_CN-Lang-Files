@@ -1,0 +1,189 @@
+option.INFO=Ymir Shaders
+value.INFO.0=Public Beta 3
+
+profile.castleOfAaaaargh=Hahaha, delightful
+
+option.sunPathRotation=Sun Path Rotation
+option.rainbows_enabled=Rainbows
+
+option.SCATTERING_STEPS=Scattering Iterations
+option.TRANSMITTANCE_STEPS=Transmittance Iterations
+option.SKY_RENDER_LOD=Sky Render LOD
+
+option.atmos_mieGmult=Mie-G
+option.atmos_mieCoeff=Mie Coefficient
+option.atmos_rayCoeff=Rayleight Coefficient
+
+option.vcloud_enabled=Volumetric Clouds
+option.vcloud_quality=Quality
+option.vcloud_resolution=Resolution
+value.vcloud_resolution.0=Low
+value.vcloud_resolution.1=Medium
+value.vcloud_resolution.2=High
+option.vcloud_thresh=Transmittance Threshold
+option.vcloud_ditheredLight=Dithered Lighting
+option.vcloud_ditheredLight.comment=This adds noise to the lighting to improve it's quality. Ideally used with high cloud resolution and increased Light Quality.
+option.vcloud_direct_steps=Direct Light Quality
+option.vcloud_skylight_steps=Skylight Quality
+option.vcloud_shapeq=Shape Detail
+value.vcloud_shapeq.0=Low
+value.vcloud_shapeq.1=High
+value.vcloud_shapeq.2=Ultra
+
+screen.Layers=Layer Setup
+option.cloudLayer0Mode=Layer 0 (Low-Level)
+option.cloudLayer0TypeOverride=Cloud Type Override
+value.cloudLayer0TypeOverride.0=Off
+value.cloudLayer0TypeOverride.-2=Full Cumulus
+value.cloudLayer0TypeOverride.2=Full Stratocumulus
+option.clayer0CovBias=Layer 0 Coverage Bias
+option.cloudLayer1Mode=Layer 1 (Mid-Level)
+option.cloudLayer1TypeOverride=Cloud Type Override
+value.cloudLayer1TypeOverride.0=Off
+value.cloudLayer1TypeOverride.-2=Full Altocumulus
+value.cloudLayer1TypeOverride.2=Full Altostratus
+option.clayer1CovBias=Layer 1 Coverage Bias
+option.cloudLayer2Mode=Layer 2 (High-Level)
+value.cloudLayer2Mode.0=Off
+value.cloudLayer2Mode.1=Planar
+value.cloudLayer2Mode.2=Volumetric
+option.cloudLayer2TypeOverride=Cloud Type Override
+value.cloudLayer2TypeOverride.0=Off
+value.cloudLayer2TypeOverride.-2=Full Cirrocumulus
+value.cloudLayer2TypeOverride.2=Full Cirrus
+option.clayer2CovBias=Layer 2 Coverage Bias
+option.cloudLayer3Mode=Layer 3 (High-Level 2)
+option.clayer3CovBias=Layer 3 Coverage Bias
+
+option.cloud_shadows=Cloud Shadows
+option.cloud_reflections_enabled=Cloud Reflections
+
+option.vfog_enabled=Volumetric Fog
+option.vfog_quality=Quality
+option.vfog_bilateral=Filtering
+option.vfog_rayl_density=Rayleigh Density
+option.vfog_mie_density=Mie Density
+option.vfog_mist_density=Mist Density
+value.vfog_mist_density.0=OFF
+option.vfog_alt=Maximum Altitude
+option.vfog_maxdist=Maximum Drawdistance
+
+option.atmos_dynamic=Dynamic Atmosphere
+option.vcloud_dynamic_type=Dynamic Clouds
+option.vfog_dynamic_density=Dynamic Fog
+option.vfog_dynamic_mist=Dynamic Mist
+
+option.shadowMapResolution=Shadowmap Resolution
+option.shadow_vps_enabled=Variable Penumbra Shadows
+option.shadow_vps_enabled.comment=Everything just works! It just works! The umbra, the penumbra works, everything just works! Just work.
+option.shadow_vps_iterations=Penumbra Quality
+option.shadowFarPlaneMult=Shadowmap Far Plane Bias
+option.shadowBiasMult=Shadowmap Bias
+
+option.ibl_mode=IBL
+value.ibl_mode.0=OFF
+value.ibl_mode.1=Approximate
+value.ibl_mode.2=Fast Accurate
+value.ibl_mode.3=Physically Accurate
+option.ibl_iterations=Iterations
+option.ibl_iterations.comment=This only affects the accurate IBL methods
+
+option.ambient_occlusion_enabled=Ambient Occlusion
+
+option.rsm_enabled=Global Illumination
+option.rsm_enabled.comment=Global Illumination using RSM
+option.rsm_steps=Iterations
+option.rsm_size=Scale
+option.rsm_spatial_dualpass=Dualpass Denoising
+
+option.sun_illum_mult=Sun Illumination
+option.moon_illum_mult=Moon Illumination
+option.blocklightMult=Block Light Intensity
+option.blocklightTemp=Block Light Temperature
+
+option.texture_format=Texture Format
+value.texture_format.13=labPBR 1.3
+value.texture_format.12=labPBR 1.2
+value.texture_format.11=labPBR 1.1
+option.normals_resourcepack=Resource Pack Normals
+option.specular_resourcepack=Resource Pack Specular
+option.hardcoded_specular=Hardcoded Specular
+option.ssr_enabled=Screenspace Reflections
+
+option.cameraSensorWidth=Sensor Width
+option.cameraFStop=F-Stop
+option.cameraAnamorphDistortion=Anamorphic Distortion
+option.cameraBarrelDistortion=Barrel Distortion
+
+option.LensLOD=Lens LOD
+
+option.BLADES=Blades
+option.ROTATION=Rotation
+option.ROUNDING=Rounding
+option.LENS_SHIFT_AMOUNT=Lens Shift
+
+option.dof_enabled=Depth Of Field
+option.dofSamples=Samples
+option.dofLodEnabled=LOD
+option.dof_exclude_hand=Exclude Hand
+option.centerDepthHalflife=Depth Halflife
+
+option.motionblur_enabled=Motionblur
+option.motionblur_samples=Samples
+option.motionblur_size=Size
+
+screen.FilmGrain=Film Grain
+
+option.filmgrain_enabled=Film Grain
+option.filmgrain_strength=Strength
+
+option.bloom_enabled=Bloom
+option.bloomIntensity=Bloom Intensity
+
+option.taa_enabled=Temporal Anti-Aliasing
+option.taa_enabled.comment=Disabling is not recommended! Without TAA many effects appear a lot more noisy.
+option.tonemap=Tonemap
+value.tonemap.academy_color_encoding_system=Academy Color
+value.tonemap.academy_color_encoding_system_rrt=Academy Color RRT
+value.tonemap.hable=Hable
+value.tonemap.comment=CURRENTLY NOT SUPPORTED!
+
+option.exposure_k=Exposure Calibration
+option.exposure_speed=Exposure Speed
+option.manual_exposure_enabled=Use Manual Exposure
+option.manual_exposure=Exposure
+
+screen.colorgrade=Color Grading
+option.do_colorgrading=Color Grading
+option.vibrance_int=Vibrance
+option.saturation_int=Saturation
+option.gamma_curve=Gamma Curve
+option.brightness_int=Brightness
+option.constrast_int=Contrast
+option.colorlum_r=Red Gain
+option.colorlum_g=Green Gain
+option.colorlum_b=Blue Gain
+
+option.vignette_enabled=Vignette
+option.vignette_start=Inner Radius
+option.vignette_end=Outer Radius
+option.vignette_intensity=Intensity
+option.vignette_exponent=Falloff
+
+option.waving_foliage_enabled=Waving Foliage
+option.wf_softness=Softness
+option.wf_lod=Draw Distance
+option.wf_shadow_lod=Shadow Draw Distance
+option.wf_macro=Macro Movement
+option.wf_macro_strength=Macro Intensity
+option.wf_meso=Meso Movement
+option.wf_meso_strength=Meso Intensity
+option.wf_micro=Micro Movement
+option.wf_micro_strength=Micro Intensity
+option.wf_speed_wave=Speed Wave
+option.wf_speed_wave_period=Speed Wave Period
+
+option.dynamic_wind_direction=Dynamic Wind Direction
+
+option.hide_terrain=Hide Terrain
+option.white_world=White World

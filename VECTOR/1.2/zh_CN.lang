@@ -1,0 +1,123 @@
+#shaders/lang/zh_CN.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 Vector Shader 1.2 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+option.VECTOR_SHADER=VECTOR
+value.VECTOR_SHADER.0=§aVECTOR
+value.VECTOR_SHADER.1=§6VECTOR
+value.VECTOR_SHADER.2=§cVECTOR
+value.VECTOR_SHADER.3=§fVECTOR
+value.VECTOR_SHADER.4=§bVECTOR
+
+profile.VECTOR=§aVECTOR
+profile.IBM=§2IBM
+profile.MARV=§4MARV
+profile.VEGAS=§6VEGAS
+profile.JPL=§fJPL
+
+screen.LINE_COLOR=线条颜色
+screen.LINE_COLOR.comment=调节线条和背景的颜色.
+screen.RADAR.comment=开启或调节实体雷达设置.
+screen.LINE_SHAPE=线条形状
+screen.LINE_SHAPE.comment=调节线条的数量.
+screen.SCREEN.comment=关于屏幕的设置,例如泛光和扫描线.
+
+
+option.MONOCHROME.comment=屏幕仅显示一种颜色
+option.LINE_COLOR_R=线条 - 红色
+option.LINE_COLOR_R.comment=线条中红色的比重.
+option.LINE_COLOR_G=线条 - 绿色
+option.LINE_COLOR_G.comment=线条中绿色的比重.
+option.LINE_COLOR_B=线条 - 蓝色
+option.LINE_COLOR_B.comment=线条中蓝色的比重.
+option.BG_COLOR_R=背景 - 红色
+option.BG_COLOR_R.comment=背景颜色中红色的比重.
+option.BG_COLOR_G=背景 - 绿色
+option.BG_COLOR_G.comment=背景颜色中绿色的比重.
+option.BG_COLOR_B=背景 - 蓝色
+option.BG_COLOR_B.comment=背景颜色中蓝色的比重.
+option.BG_COLOR_MUL=背景亮度
+option.BG_COLOR_MUL.comment=背景亮度
+
+option.ENTITY_RADAR=实体雷达
+option.ENTITY_RADAR.comment=开启实体雷达
+option.RADAR_FILLED=雷达填充
+option.RADAR_FILLED.comment=显示的实体为填充状态
+option.HOSTILE_COLOR_R=敌对生物 -  红色
+option.HOSTILE_COLOR_R.comment=敌对生物显示颜色的红色比重
+option.HOSTILE_COLOR_G=敌对生物 -  绿色
+option.HOSTILE_COLOR_G.comment=敌对生物显示颜色的绿色比重
+option.HOSTILE_COLOR_B=敌对生物 -  蓝色
+option.HOSTILE_COLOR_B.comment=敌对生物显示颜色的蓝色比重
+option.FRIENDLY_COLOR_R=友好生物 - 红色
+option.FRIENDLY.COLOR_R.comment=友好生物显示颜色的红色比重
+option.FRIENDLY_COLOR_G=友好生物 - 绿色
+option.FRIENDLY_COLOR_G.comment=友好生物显示颜色的绿色比重
+option.FRIENDLY_COLOR_B=友好生物 - 蓝色
+option.FRIENDLY_COLOR_B.comment=友好生物显示颜色的蓝色比重
+option.PLAYER_COLOR_R=玩家 - 红色
+option.PLAYER_COLOR_R.comment=玩家显示颜色的红色比重
+option.PLAYER_COLOR_G=玩家 - 绿色
+option.PLAYER_COLOR_G.comment=玩家显示颜色的绿色比重
+option.PLAYER_COLOR_B=玩家 - 蓝色
+option.PLAYER_COLOR_B.comment=玩家显示颜色的蓝色比重
+
+
+option.THICKER_LINES=厚线条
+option.THICKER_LINES.comment=加粗所有线条. 这个在边缘检测后处理,所以并不能使更多的线条被展示出来.
+option.LINE_THRESHOLD_CONTRAST=线条对比度阈值
+option.LINE_THRESHOLD_CONTRAST.comment=更高的阈值意味着越少的线条被检测到.
+option.LINE_THRESHOLD_DEPTH=线条深度阈值
+option.LINE_THRESHOLD_DEPTH.comment=更高的阈值意味着越少的线条被检测到.
+option.LINE_THRESHOLD_NORMAL=线条法线阈值
+option.LINE_THRESHOLD_NORMAL.comment=更高的阈值意味着越少的线条被检测到.
+value.LINE_THRESHOLD_NORMAL.100.0=禁用
+
+
+option.SCANLINES.comment=启用扫描线，模拟有限的垂直分辨率
+option.SCAN_SIZE=扫描尺寸
+option.SCAN_SIZE.comment=扫描效果的强度. 需要启用 扫描线 选项
+value.SCAN_SIZE.0=关
+option.SCAN_SPEED=扫描速度
+option.SCAN_SPEED.comment=扫描效果的速度
+option.GHOSTING.comment=启用基于Phosphor[萤火虫]的剔除而产生的重影.
+option.SHOW_PLAYER_HUD=玩家HUD
+option.SHOW_PLAYER_HUD.comment=启用HUD来显示玩家的健康值、饥饿值和氧气, 需要Iris!
+option.HUD_CROSSHAIR=准心
+option.HUD_CROSSHAIR.comment=在HUD中显示准心
+value.HUD_CROSSHAIR.0=关闭
+value.HUD_CROSSHAIR.1=交错
+value.HUD_CROSSHAIR.2=圆圈
+option.RESEAU_PLATE=网格板
+option.RESEAU_PLATE.comment=显示靶标, 科学类拍摄常见
+option.FIDUCIAL_MARKERS_X=水平靶标
+option.FIDUCIAL_MARKERS_X.comment=水平显示靶标的数量
+option.FIDUCIAL_MARKERS_Y=垂直靶标
+option.FIDUCIAL_MARKERS_Y.comment=垂直显示靶标的数量
+option.CURVATURE_X=水平曲率
+option.CURVATURE_X.comment=模拟屏幕水平的曲率.
+option.CURVATURE_Y=垂直曲率
+option.CURVATURE_Y.comment=模拟屏幕垂直的曲率.
+option.BLOOM_MIX=泛光混合
+option.BLOOM_MIX.comment=泛光在图像顶部的不透明度.
+option.BLOOM_SIZE=泛光强度
+option.BLOOM_SIZE.comment=泛光溢出的范围.
+
+
+#额外接口
+screen.RADAR=雷达
+
+screen.SCREEN=屏幕
+
+option.MONOCHROME=单色
+
+option.SCANLINES=扫描线
+
+option.GHOSTING=重影
+
+screen.DEBUG=调试
+
+option.GBUFFERS_SKYBASIC=GBuffers 基本天空
+
+option.IS_IRIS=是否为IRIS?

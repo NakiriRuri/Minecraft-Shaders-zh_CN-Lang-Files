@@ -1,0 +1,436 @@
+#shaders/lang/zh_CN.lang
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 MollyVx 2022年10月25号获取的版本。
+#Screens
+screen.Light_Colors=照明颜色
+screen.Path_Tracing=照明
+screen.Irradiance_Cache_Settings=辐照度缓存
+screen.Tonemapping=颜色分级
+screen.Post_Processing=后期处理
+screen.Volumetric_Light=体积光
+screen.Lava=岩浆
+screen.Torch=火把
+screen.Soul_Torch=灵魂火把
+screen.Fire=火焰
+screen.Soul_Fire=灵魂火焰
+screen.Redstone_Torch=红石火把
+screen.Glowstone=萤石
+screen.Nether_Portal=下届传送门
+screen.Jack_O_Lantern=南瓜灯
+screen.Redstone_Lamp=红石灯
+screen.Beacon=信标
+screen.Sea_Lantern=海晶灯
+screen.End_Rod=末地烛
+screen.Magma=岩浆块
+screen.Camp_Fire=营火
+screen.Soul_Camp_Fire=灵魂营火
+screen.Depth_Of_Field=景深
+screen.Resource_Packs=资源包
+screen.Filter_Settings=SVGF 过滤器
+screen.Screen_Dither=低质量屏幕效果
+screen.Ray_Settings=路径追踪设置
+screen.Shadow_Settings=阴影 & 环境光遮蔽
+screen.Caustics_Settings=焦散线设置
+screen.Film_Grain=胶片颗粒
+screen.Resource_Pack=资源包
+screen.Voxelization_Settings=体素化设置
+screen.SunandMoon=太阳 & 月亮
+screen.Soul_Lantern=灵魂灯笼
+option.moonlightDirectMult=月光亮度
+screen.Ambient_Occlusion=环境光遮蔽
+
+#Settings
+option.shadowMapResolution=阴影分辨率
+option.White_World=白色世界
+option.Resource_Pack_Emitters=资源包发光
+option.Fog=简易雾气
+option.Volumetric_Light=启用体积光
+option.VL_Quality=体积光质量
+option.VL_Red=体积光 - 红色
+option.VL_Green=体积光 - 绿色
+option.VL_Blue=体积光 - 蓝色
+option.VL_Brightness=体积光 - 亮度
+option.Lava_Color_R=岩浆 - 红色
+option.Lava_Color_G=岩浆 - 红色
+option.Lava_Color_B=岩浆 - 红色
+option.Lava_Alpha=岩浆 - 亮度
+option.Torch_Color_R=火把 - 红色
+option.Torch_Color_G=火把 - 绿色
+option.Torch_Color_B=火把 - 蓝色
+option.Torch_Alpha=火把 - 亮度
+option.Fire_Color_R=火焰 - 红色
+option.Fire_Color_G=火焰 - 绿色
+option.Fire_Color_B=火焰 - 蓝色
+option.Fire_Alpha=火焰 - 亮度
+option.Redstone_Torch_Color_R=红石火把 - 红色
+option.Redstone_Torch_Color_G=红石火把 - 绿色
+option.Redstone_Torch_Color_B=红石火把 - 蓝色
+option.Redstone_Torch_Alpha=红石火把 - 亮度
+option.Glowstone_Color_R=萤石 - 红色
+option.Glowstone_Color_G=萤石 - 绿色
+option.Glowstone_Color_B=萤石 - 蓝色
+option.Glowstone_Alpha=萤石 - 亮度
+option.Nether_Portal_Color_R=下届传送门 - 红色
+option.Nether_Portal_Color_G=下届传送门 - 绿色
+option.Nether_Portal_Color_B=下届传送门 - 蓝色
+option.Nether_Portal_Alpha=下届传送门 - 亮度
+option.Jack_Color_R=南瓜灯 - 红色
+option.Jack_Color_G=南瓜灯 - 绿色
+option.Jack_Color_B=南瓜灯 - 蓝色
+option.Jack_Alpha=南瓜灯 - 亮度
+option.Redstone_Lamp_Color_R=红石灯 - 红色
+option.Redstone_Lamp_Color_G=红石灯 - 绿色
+option.Redstone_Lamp_Color_B=红石灯 - 蓝色
+option.Redstone_Lamp_Alpha=红石灯 - 亮度
+option.Beacon_Color_R=信标 - 红色
+option.Beacon_Color_G=信标 - 绿色
+option.Beacon_Color_B=信标 - 蓝色
+option.Beacon_Alpha=信标 - 亮度
+option.Sea_Lantern_Color_R=海晶灯 - 红色
+option.Sea_Lantern_Color_G=海晶灯 - 绿色
+option.Sea_Lantern_Color_B=海晶灯 - 蓝色
+option.Sea_Lantern_Alpha=海晶灯 - 亮度
+option.End_Rod_Color_R=末地烛 - 红色
+option.End_Rod_Color_G=末地烛 - 绿色
+option.End_Rod_Color_B=末地烛 - 蓝色
+option.End_Rod_Alpha=末地烛 - 亮度
+option.Magma_Color_R=岩浆块 - 红色
+option.Magma_Color_G=岩浆块 - 绿色
+option.Magma_Color_B=岩浆块 - 蓝色
+option.Magma_Alpha=岩浆块 - 亮度
+option.CampFire_Color_R=营火 - 红色
+option.CampFire_Color_G=营火 - 绿色
+option.CampFire_Color_B=营火 - 蓝色
+option.CampFire_Alpha=营火 - 亮度
+option.Lantern_Color_R=灯笼 - 红色
+option.Lantern_Color_G=灯笼 - 绿色
+option.Lantern_Color_B=灯笼 - 蓝色
+option.Lantern_Alpha=灯笼 - 亮度
+option.Sun_Red=太阳 - 红色
+option.Sun_Green=太阳 - 绿色
+option.Sun_Blue=太阳 - 蓝色
+option.Sunlight_Brightness=太阳光 - 亮度
+option.Atmosphere_Red=大气颜色 - 红色
+option.Atmosphere_Green=大气颜色 - 绿色
+option.Atmosphere_Blue=大气颜色 - 蓝色
+option.Atmosphere_Brightness=大气 - 亮度
+option.Rays=每像素追踪数
+
+option.Filter_Strength=过滤强度
+    value.Filter_Strength.0.01=超小-
+    value.Filter_Strength.0.05=超小
+    value.Filter_Strength.0.1=非常小-
+    value.Filter_Strength.0.15=非常小
+    value.Filter_Strength.0.2=非常小+
+    value.Filter_Strength.0.25=小-
+    value.Filter_Strength.0.3=小
+    value.Filter_Strength.0.35=小+
+    value.Filter_Strength.0.4=中-
+    value.Filter_Strength.0.45=中
+    value.Filter_Strength.0.5=中+
+    value.Filter_Strength.0.55=大-
+    value.Filter_Strength.0.6=大
+    value.Filter_Strength.0.65=大+
+    value.Filter_Strength.0.7=非常大-
+    value.Filter_Strength.0.8=非常大
+    value.Filter_Strength.0.9=非常大+
+    value.Filter_Strength.1.1=超大
+
+option.Firefly_Rejection_Strength=萤火虫拒绝强度
+
+option.CACHE_ACCUM_FRAMES=最大累计帧数
+option.Irradiance_Cache=辐照度缓存
+option.VISUALIZE_CACHE=调试视图缓存
+
+option.Ray_Distance=最大追踪距离
+option.maxAccumulatedFrames=最大累计帧数
+option.Contact_Shadows=追踪阴影(接触阴影)
+option.Contact_Shadows_Range=追踪阴影范围
+option.Caustics_Enabled=启用焦散线
+option.Caustics_Intensity=焦散线亮度
+option.Exclude_Sub_Blocks=子方块“修复” (排除)
+option.PCSS=PCSS 软阴影
+option.PCSS_Rays=PCSS 采样值
+option.Sigma_L=最小Sigma
+option.Spatial_Filter=SVG 过滤
+option.TONEMAP_TOE_STRENGTH=阈值偏移曝光(Toe) 强度
+option.TONEMAP_TOE_LENGTH=阈值偏移曝光(Toe) 长度
+option.TONEMAP_LINEAR_SLOPE=线性斜率
+option.TONEMAP_LINEAR_LENGTH=线性长度
+option.TONEMAP_SHOULDER_CURVE=肩部曲线
+option.Film_Grain=胶片颗粒
+option.Colored_Film_Grain=彩色胶片颗粒
+option.Film_Grain_Strength=强度
+option.Bloom_Brightness=泛光亮度
+option.Sharpen=锐化
+option.Exposure_Clamp=曝光限制
+option.EXPOSURE_SPEED=曝光速度
+option.Cell_Shading=卡通渲染
+option.Cell_Shading_Thickness=卡通渲染厚度
+option.Night_Eye=夜晚去饱和
+option.Night_Eye_Threshold=阈值
+option.Depth_Of_Field=景深
+option.DepthOfFieldQuality=质量
+option.FStop=光圈
+option.Tilt_Shift=倾斜位移
+option.Distance_Blur=距离模糊
+option.POM_Depth = 视差深度
+option.POM_Quality= 视差质量
+option.Emitter_Luminance=发光亮度
+option.Filter_StepSize=迭代规模
+option.Spatial_Filter_Iterations=迭代
+option.Variance_Multiplier=方差容忍度
+option.Set_Exposure_Amount=亮度反转
+option.Set_Exposure=自定义曝光
+option.Focal_Length=焦距
+option.Additional_Variance_Application=方差后校正
+option.Big_Dither=抖动
+option.pixel_size=像素尺寸
+option.Pattern_Red=红色强度
+option.Pattern_Green=绿色强度
+option.Pattern_Blue=蓝色强度
+option.Pattern_Brightness=抖动强度
+option.pixelX=像素 X轴 尺寸
+option.pixelY=像素 Y轴 尺寸
+option.SAT_MOD=饱和度
+option.VIB_MOD=自然饱和度
+option.CONT_MOD=对比度
+option.CONT_MIDPOINT=对比度中值
+option.LIFT_MOD=阴影亮度(Lift)
+option.WHITE_BALANCE=白平衡
+option.GAIN_MOD=伽马增益
+option.Color_Compression=低质量色彩压缩
+option.GBPreset=低质量屏幕效果预设
+option.Texture_Emitters=基于纹理颜色发光
+option.Selected_LUT=选择LUT
+option.Emissive_Texture_Multiplier=纹理发光强度
+option.Bounced_Light_Multiplier=光线反弹强度
+option.SUNLIGHT_LEAK_FIX=阳光泄露修复
+option.Skylight_Leak_Fix=天空光泄露修复
+option.VoxelizationFix=高层结构修复
+option.VoxelLowerBound=底部体素边界
+
+option.VolumeCloud=体积云
+option.VC_Octaves=噪声重复次数
+    value.VC_Octaves.1=§2单次
+    value.VC_Octaves.2=§6双次
+    value.VC_Octaves.3=§4三次
+option.VC_Density=密度
+option.VC_Scattering_Steps=散射采样值
+    value.VC_Scattering_Steps.3=§d非常低
+    value.VC_Scattering_Steps.5=§2低
+    value.VC_Scattering_Steps.8=§6中
+    value.VC_Scattering_Steps.12=§c高
+    value.VC_Scattering_Steps.15=§c非常高
+    value.VC_Scattering_Steps.22=§4极致
+option.VC_Coverage=覆盖率
+option.vc_altitude=高度
+option.vc_thickness=厚度
+option.vc_steps=体积云采样值
+    value.vc_steps.10=§d非常低
+    value.vc_steps.25=§2低
+    value.vc_steps.40=§6中
+    value.vc_steps.80=§c高
+    value.vc_steps.120=§c非常高
+    value.vc_steps.160=§4极致
+option.CLOUD_RENDER_LOD=云层渲染分辨率
+    value.CLOUD_RENDER_LOD.128.0=§d0.6%
+    value.CLOUD_RENDER_LOD.64.0=§d1.5%
+    value.CLOUD_RENDER_LOD.32.0=§d3.1%
+    value.CLOUD_RENDER_LOD.16.0=§d6.25%
+    value.CLOUD_RENDER_LOD.8.0=§212.5%
+    value.CLOUD_RENDER_LOD.6.0=§219%
+    value.CLOUD_RENDER_LOD.4.0=§625%
+    value.CLOUD_RENDER_LOD.2.0=§c50%
+    value.CLOUD_RENDER_LOD.1.0=§4100%
+option.Cloud_Speed=风速/云层流转速度
+option.Cloud_Bicubic=§2双三次插值过滤
+option.Cloud_Sparseness=云层稀疏程度
+option.Octave1_NoiseType=第一噪声函数类型
+    value.Octave1_NoiseType.1=Worley
+    value.Octave1_NoiseType.2=Fine Worley
+    value.Octave1_NoiseType.3=Perlin
+option.Octave_2_Detail=第二噪声函数细节
+option.Octave_2_Second_Operation=§63D 第二噪声函数
+option.Octave_3_Detail=第三噪声函数细节
+option.Octave_3_Second_Operation=§63D 第三噪声函数
+option.Cloud_Bubbliness=云层泡化
+
+
+
+option.Spatial_Upscale=空间升采样
+option.RaytracedRefraction = 路径追踪折射 §c未完成§r
+
+profile.Low=低
+profile.Default=默认
+profile.High=高
+profile.Very_High=非常高
+profile.Extreme=极致
+
+option.About=pixel effect by
+value.About.0=http://maple.pet/
+
+value.Preset.1=默认 (明亮)
+value.Preset.2=紫色渐变
+value.Preset.3=暖色渐消
+value.Preset.4=卡通渐消
+value.Preset.5=荒野之息
+
+value.Resource_Pack_Emitters.0=无
+value.Resource_Pack_Emitters.1=仅泛光
+value.Resource_Pack_Emitters.2=泛光和路径追踪
+
+value.GBPreset.1=GameBoy
+value.GBPreset.2=Colorful GB
+value.GBPreset.3=Link's Awakening
+value.GBPreset.4=15 Color
+value.GBPreset.5=Kirby (Eleanor)
+value.GBPreset.6=Kirby's Dreamland
+value.GBPreset.7=Burnt GB
+value.GBPreset.8=Stormy
+value.GBPreset.9=Patriot
+value.GBPreset.10=SLS08
+value.GBPreset.11=JMP16
+value.GBPreset.12=Pokemon GB
+value.GBPreset.13=Sweet 16
+value.GBPreset.14=Commodore 64
+value.GBPreset.15=SHELTZY 32
+value.GBPreset.16=NT1H-26
+value.GBPreset.17=Pastel 15
+value.GBPreset.18=Mugeneko
+value.GBPreset.19=Harpy Gaiden
+
+value.Selected_LUT.0=AGFA Advantix 100
+value.Selected_LUT.1=Desperate
+value.Selected_LUT.2=AGFAColor Vista 50
+value.Selected_LUT.3=Filmic Dim
+value.Selected_LUT.4=Unhealthy
+value.Selected_LUT.5=Kingdom Come
+value.Selected_LUT.6=Filmic Contrasty
+value.Selected_LUT.7=Autumn 2.0
+value.Selected_LUT.8=Faded Rustic
+value.Selected_LUT.9=Esther Default
+
+option.Fog=雾气
+option.AP1=AP1 Color Space
+
+option.Raytraced_Reflections=路径追踪反射
+option.Only_Metal_Reflections=仅金属反射
+option.Specular_Bounces=镜面反射次数
+option.Rough_Reflections=粗糙反射
+
+option.Ray_Bounces=预缓存光线反射
+
+option.Default_AO=原版环境光遮蔽
+option.Ambient_Occlusion_Amount=默认环境光遮蔽强度
+option.VHS=VHS(家用录象系统)
+option.SCREEN_REFRACTION=屏幕折射
+option.VHS_Lines=VHS风格线条
+option.Refrection_Strength=折射强度
+option.Dirty_Lens=镜头灰尘
+option.VHS_Desaturation=旧电影饱和度
+option.CRT_Lines=CRT显示风格线条
+
+option.Kernel_Size=过滤器内核尺寸
+value.Kernel_Size.1=非常大
+value.Kernel_Size.2=大
+value.Kernel_Size.3=中
+value.Kernel_Size.4=小
+value.Kernel_Size.5=非常小
+
+option.MinimumLight= 最小照明强度
+
+#额外汉化接口
+
+screen.Reflections=反射
+
+screen.Advanced=高级
+option.AlphaTest=Alpha测试
+
+screen.Lantern=灯笼
+option.Soul_Torch_Color_R=灵魂火把 - 红色
+option.Soul_Torch_Color_G=灵魂火把 - 绿色
+option.Soul_Torch_Color_B=灵魂火把 - 蓝色
+option.Soul_Torch_Alpha=灵魂火把 - 亮度
+option.Soul_Lantern_Color_R=灵魂灯笼 - 红色
+option.Soul_Lantern_Color_G=灵魂灯笼 - 绿色
+option.Soul_Lantern_Color_B=灵魂灯笼 - 蓝色
+option.Soul_Lantern_Alpha=灵魂灯笼 - 亮度
+screen.Soul_Fire=灵魂营火
+option.Soul_Campfire_Color_R=灵魂营火 - 红色
+option.Soul_Campfire_Color_G=灵魂营火 - 绿色
+option.Soul_Campfire_Color_B=灵魂营火 - 蓝色
+option.Soul_Campfire_Alpha=灵魂营火 - 亮度
+screen.Shroomlight=菌光体
+option.ShroomLight_Color_R=菌光体 - 红色
+option.ShroomLight_Color_G=菌光体 - 绿色
+option.ShroomLight_Color_B=菌光体 - 蓝色
+option.ShroomLight_Alpha=菌光体 - 亮度
+screen.Atmosphere=大气
+
+option.DOF_Bias=景深偏差
+option.DOF_Anamorphic=景深变形
+option.DOF_Aperture=景深光圈
+option.Chromatic_Aberration=色度偏差
+option.Chromatic_Strength=色度强度
+
+screen.Bloom=泛光
+option.Bloom=泛光
+option.Bloom_Strength=泛光强度
+
+screen.Lens_Streaks=镜头条纹
+option.Lens_Streaks=镜头条纹
+option.Streak_Rotation=条纹旋转
+option.Streak_Loops=条纹采样值
+option.Aperture_Blades=光圈叶片
+option.Streak_Faloff=条纹渐消
+option.Streak_Brightness=条纹亮度
+
+screen.Exposure=曝光
+screen.Other=其它
+
+screen.TAA=时间性抗锯齿(TAA)
+option.Sharpness_Amount=锐化强度
+option.TAA_Weight=TAA权重
+
+option.Outline_Shader=描边着色
+option.Outline_Width=描边宽度
+
+screen.VHS=VHS(家用录像系统)
+option.Film_Fuzz=电影毛片
+option.VHS_FocusLoss=VHS失焦
+option.VHS_BottomRipple=VHS底部波纹
+option.VHS_TVBorder=VHS电视边框
+
+option.POM=视差(POM)
+
+screen.Volumes=体积
+screen.Water=水体
+option.ITER_FRAGMENT=水面噪声迭代片段数
+option.SEA_HEIGHT=水面起伏高度
+option.SEA_CHOPPY=水波起伏强度
+option.SEA_FREQ=水浪频率
+option.SEA_SPEED=水流速度
+
+screen.Weather=天气
+option.Fog_Intensity=雾气浓度
+option.RainDarkening=雨天变暗程度
+
+screen.Clouds=云层
+screen.Quality=质量
+screen.Shaping=形态
+screen.Advanced_Clouds=高级云层设置
+option.Octave1_Size=第一噪声函数规模
+
+screen.Intersections=求交方块类型
+option.IntersectStairs=求交 - 楼梯
+option.IntersectAnvils=求交 - 铁砧
+option.IntersectFences=求交 - 栅栏
+option.IntersectWalls=求交 - 墙
+option.IntersectCross=求交 - Cross
+
+option.DebugVoxels=体素调试
+
+screen.Debug=调试
+option.DebugStats=调试总览

@@ -1,0 +1,45 @@
+{
+    "pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+    "pipeline.forgetmenot.desc": "Semi-realistic immersive shaderpack ;本汉化文档由Surisen提供,文档路径:Forget-Me-Not_Shaders/assets/forgetmenot/lang ;下载地址:https://github.com/Poisoned-Honey/ForgetMeNot-Shaders ; 本汉化对应版本0.3.0",
+
+    "config.forgetmenot.category.atmospherics": "天空 & 大气",
+
+    "config.forgetmenot.name.sky_ground_fog": "地平线清晰度",
+    "config.forgetmenot.desc.sky_ground_fog": "天空上部和底部过渡的锐利程度",
+    "config.forgetmenot.name.mie_amount": "米氏散射率",
+    "config.forgetmenot.desc.mie_amount": "太阳周围光晕强度",
+    "config.forgetmenot.name.sun_energy": "太阳能量",
+    "config.forgetmenot.desc.sun_energy": "用于米氏散射阶段的能量值 ;影响太阳和太阳光晕",
+    "config.forgetmenot.name.dynamic_weather": "动态天气",
+    "config.forgetmenot.desc.dynamic_weather": "云层的动态天气系统 ;轻微影响性能",
+    "config.forgetmenot.name.cloud_light_rays": "云隙光",
+    "config.forgetmenot.desc.cloud_light_rays": "来自云层的光轴 ;因为不基于物理所以看起来可能不太正确 ;对性能影响很大",
+    "config.forgetmenot.name.cloud_detail": "云层细节",
+    "config.forgetmenot.desc.cloud_detail": "用于云层噪音的八度空间的数值 ;更高的数值意味着更富细节更复杂的云层 ;对性能影响很大",
+    "config.forgetmenot.name.cloud_shading_detail": "云影细节",
+    "config.forgetmenot.desc.cloud_shading_detail": "用于云影照明的八度空间的数值 ;更高的数值意味着更富细节更复杂的照明 ;对性能影响很大 ;建议保持默认配置",
+    "config.forgetmenot.name.curl_noise": "卷云噪声",
+    "config.forgetmenot.desc.curl_noise": "启用卷曲噪声来为云的形状和运动增加额外的细节 ;对性能影响很大",
+    "config.forgetmenot.name.atmospheric_fog": "大气雾",
+    "config.forgetmenot.desc.atmospheric_fog": "用于大气散射的雾气",
+    "config.forgetmenot.name.border_fog": "边界雾",
+    "config.forgetmenot.desc.border_fog": "隐藏区块边界的雾气",
+
+    "config.forgetmenot.category.lighting": "照明",
+
+    "config.forgetmenot.name.day_brightness": "日间亮度",
+    "config.forgetmenot.desc.day_brightness": "白天的亮度水平",
+    "config.forgetmenot.name.night_brightness": "夜晚亮度",
+    "config.forgetmenot.desc.night_brightness": "晚上的亮度水平",
+    "config.forgetmenot.name.blocklight_neutrality": "自然方块光颜色",
+    "config.forgetmenot.desc.blocklight_neutrality": "设置为0获得橘色的光照, 设置为1获得更中性的方块光",
+    "config.forgetmenot.name.vanilla_ao": "原版环境光遮蔽",
+    "config.forgetmenot.desc.vanilla_ao": "是否启用原版环境光遮蔽",
+    "config.forgetmenot.name.rtao": "路径追踪环境光遮蔽",
+    "config.forgetmenot.desc.rtao": "是否启用路径追踪环境光遮蔽 ;影响性能",
+
+    "config.forgetmenot.category.debug": "调试",
+
+    "config.forgetmenot.name.white_world": "全白世界",
+    "config.forgetmenot.desc.white_world": "所有方块渲染成白色 ;用于测试照明"
+}

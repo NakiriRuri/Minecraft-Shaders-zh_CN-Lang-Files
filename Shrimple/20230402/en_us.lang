@@ -1,0 +1,289 @@
+
+
+screen.WORLD_OPTIONS=World
+screen.WORLD_OPTIONS.comment=Options for everything else.
+
+option.sunPathRotation=Sun Angle
+option.sunPathRotation.comment=The tilt of the sun along it's rotational axis.
+
+option.WATER_REFLECTIONS_ENABLED=Water Reflections
+option.WATER_REFLECTIONS_ENABLED.comment=When enabled, water will have a subtle reflection of the sky color.
+
+option.ENABLE_WAVING=Waving Plants
+option.ENABLE_WAVING.comment=When enabled, plants will wave using artificial wind.
+
+option.OLD_LIGHTING=Old Lighting
+
+option.FOLIAGE_UP=Upward Normals
+option.FOLIAGE_UP.comment=Vegetation will be lit with upward normals.
+
+
+screen.WORLD_BRIGHTNESS_OPTIONS=Brightness Options
+
+option.OVERWORLD_BRIGHTNESS_DAY=Day Brightness
+
+option.OVERWORLD_BRIGHTNESS_NIGHT=Night Brightness
+
+option.NETHER_BRIGHTNESS=Nether Brightness
+
+option.END_BRIGHTNESS=End Brightness
+
+
+screen.MATERIAL_OPTIONS=Materials
+
+option.MATERIAL_NORMALS=Normal Mapping
+value.MATERIAL_NORMALS.0=OFF
+value.MATERIAL_NORMALS.1=OldPBR
+value.MATERIAL_NORMALS.2=LabPBR
+
+option.MATERIAL_EMISSION=Emission
+value.MATERIAL_EMISSION.0=Hard-Coded
+value.MATERIAL_EMISSION.1=OldPBR
+value.MATERIAL_EMISSION.2=LabPBR
+
+option.MATERIAL_SSS=SSS
+option.MATERIAL_SSS.comment=SubSurface Scattering
+value.MATERIAL_SSS.0=OFF
+value.MATERIAL_SSS.1=Hard-Coded
+value.MATERIAL_SSS.2=LabPBR
+
+
+screen.MATERIAL_PARALLAX_OPTIONS=Parallax
+
+option.MATERIAL_PARALLAX=Mode
+option.MATERIAL_PARALLAX.comment=The type of POM to render. Smooth POM will have softened edges. Sharp POM will have model-like hard edges.
+value.MATERIAL_PARALLAX.0=OFF
+value.MATERIAL_PARALLAX.1=Standard
+value.MATERIAL_PARALLAX.2=Smooth
+value.MATERIAL_PARALLAX.3=Sharp
+
+option.MATERIAL_PARALLAX_DEPTH=Depth
+suffix.MATERIAL_PARALLAX_DEPTH=%
+
+option.MATERIAL_PARALLAX_SAMPLES=Samples
+
+option.MATERIAL_PARALLAX_SHADOW_SAMPLES=Shadow Samples
+value.MATERIAL_PARALLAX_SHADOW_SAMPLES.0=OFF
+
+option.MATERIAL_PARALLAX_DISTANCE=Distance
+option.MATERIAL_PARALLAX_DISTANCE.comment=The maximum distance (in blocks) from the camera to render POM.
+
+
+screen.DYNAMIC_LIGHT_OPTIONS=Block Lighting
+
+option.DYN_LIGHT_MODE=Mode
+value.DYN_LIGHT_MODE.0=Default
+value.DYN_LIGHT_MODE.1=Per-Vertex
+value.DYN_LIGHT_MODE.2=Per-Pixel
+value.DYN_LIGHT_MODE.3=Ray-Traced
+
+option.DYN_LIGHT_BRIGHTNESS=Brightness
+option.DYN_LIGHT_BRIGHTNESS.comment=The brightness of dynamic lights.
+suffix.DYN_LIGHT_BRIGHTNESS=%
+
+option.DYN_LIGHT_FLICKER=Dynamic
+option.DYN_LIGHT_FLICKER.comment=Allows light sources to have dynamic brightness/color; like torches, candles, fire, etc.
+
+option.DYN_LIGHT_DIRECTIONAL=Directional
+suffix.DYN_LIGHT_DIRECTIONAL=%
+
+option.DYN_LIGHT_COLOR_MODE=Color Mode
+value.DYN_LIGHT_COLOR_MODE.0=Hard-Coded
+value.DYN_LIGHT_COLOR_MODE.1=Resource-Pack
+
+option.DYN_LIGHT_FALLBACK=Fallback
+option.DYN_LIGHT_FALLBACK.comment=When enabled, colored lighting will be blended into the vanilla lighting at the edge of the light bounds. When disabled there will be no lighting beyond light bounds.
+
+
+screen.DYNAMIC_LIGHT_TRACE_OPTIONS=Trace Options
+
+option.DYN_LIGHT_RES=Resolution
+value.DYN_LIGHT_RES.0=Full
+value.DYN_LIGHT_RES.1=Half
+value.DYN_LIGHT_RES.2=Quarter
+
+option.DYN_LIGHT_PENUMBRA=Penumbra Size
+option.DYN_LIGHT_PENUMBRA.comment=The size of the penumbra for DDA-traced soft-shadows.
+value.DYN_LIGHT_PENUMBRA.0=None
+suffix.DYN_LIGHT_PENUMBRA=%
+
+option.DYN_LIGHT_TINT=Tint Strength
+option.DYN_LIGHT_TINT.comment=Determines how strongly light is tinted through stained glass.
+suffix.DYN_LIGHT_TINT=%
+value.DYN_LIGHT_TINT.0=Off
+
+
+screen.DYNAMIC_LIGHT_TRACE_BLOCK_OPTIONS=Block Options
+
+option.DYN_LIGHT_LAVA=Lava Lighting
+option.DYN_LIGHT_LAVA.comment=Determines how lighting for lava is handled, to avoid heavy performance impacts from large lava lakes/sources.
+value.DYN_LIGHT_LAVA.0=Disable
+value.DYN_LIGHT_LAVA.1=Emit
+value.DYN_LIGHT_LAVA.2=Trace
+
+option.DYN_LIGHT_REDSTONE=Redstone Lighting
+option.DYN_LIGHT_REDSTONE.comment=Determines how lighting for redstone components is handled, to avoid heavy performance impacts from large contraptions.
+value.DYN_LIGHT_REDSTONE.0=Disable
+value.DYN_LIGHT_REDSTONE.1=Emit
+value.DYN_LIGHT_REDSTONE.2=Trace
+
+
+screen.DYNAMIC_LIGHT_ADVANCED_OPTIONS=Advanced
+
+option.LIGHT_BIN_SIZE=Bin Size
+option.LIGHT_BIN_SIZE.comment=The cubic size in blocks of each light bin. Using smaller bins will allow more dense lighting. Using larger bins will allow dynamic lighting to apply to further distances from player.
+
+option.LIGHT_BIN_MAX_COUNT=Max Bin Lights
+option.LIGHT_BIN_MAX_COUNT.comment=The maximum number of lights each bin can hold.
+
+option.LIGHT_SIZE_XZ=Horizontal Bin Count
+
+option.LIGHT_SIZE_Y=Vertical Bin Count
+
+option.DYN_LIGHT_BLUR=Blur
+option.DYN_LIGHT_BLUR.comment=When enabled, the lighting buffer will have a post-process gaussian blur applied to smoothen edges/noise.
+
+option.DYN_LIGHT_TA=Temporal Accumulation
+option.DYN_LIGHT_TA.comment=When enabled, the lighting buffer will be blended across multiple frames to reduce soft-shadow noise.
+
+
+screen.VOLUMETRIC_LIGHT_OPTIONS=Volumetric Lighting
+
+option.VOLUMETRIC_CELESTIAL=Sun/Moon
+
+option.VOLUMETRIC_BLOCK_MODE=Block Light
+value.VOLUMETRIC_BLOCK_MODE.0=Disabled
+value.VOLUMETRIC_BLOCK_MODE.1=Emission
+value.VOLUMETRIC_BLOCK_MODE.2=Trace Fast
+value.VOLUMETRIC_BLOCK_MODE.3=Trace Full
+
+option.VOLUMETRIC_SAMPLES=Quality
+value.VOLUMETRIC_SAMPLES.8=Low
+value.VOLUMETRIC_SAMPLES.12=Medium
+value.VOLUMETRIC_SAMPLES.16=High
+value.VOLUMETRIC_SAMPLES.24=Very High
+
+option.VOLUMETRIC_DENSITY=Density
+value.VOLUMETRIC_DENSITY.800=Silent Hill
+
+option.VOLUMETRIC_RES=Resolution
+value.VOLUMETRIC_RES.0=Full
+value.VOLUMETRIC_RES.1=Half
+value.VOLUMETRIC_RES.2=Quarter
+
+
+screen.SHADOW_OPTIONS=Shadows
+screen.SHADOW_OPTIONS.comment=Options for shadows.
+
+option.SHADOW_TYPE=Shadow Type
+option.SHADOW_TYPE.comment=The type of shadow mapping to use.
+value.SHADOW_TYPE.0=None
+value.SHADOW_TYPE.1=Basic
+value.SHADOW_TYPE.2=Distorted
+value.SHADOW_TYPE.3=Cascaded
+
+option.shadowMapResolution=Shadow Resolution
+option.shadowMapResolution.comment=Resolution of the shadow map. Higher numbers mean more accurate shadows.
+
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=How far away shadows will be rendered.
+
+option.SHADOW_FILTER=Filtering
+option.SHADOW_FILTER.comment=Type type of filtering to apply to shadow sampling.
+value.SHADOW_FILTER.0=None
+value.SHADOW_FILTER.1=PCF
+value.SHADOW_FILTER.2=PCF+PCSS
+
+option.SHADOW_COLORS=Color Tinting
+option.SHADOW_COLORS.comment=0: Stained glass will cast ordinary shadows. 1: Stained glass will cast colored shadows. 2: Stained glass will not cast any shadows.
+value.SHADOW_COLORS.0=Disabled
+value.SHADOW_COLORS.1=Enabled
+value.SHADOW_COLORS.2=Ignored
+
+option.SHADOW_BRIGHTNESS=Brightness
+option.SHADOW_BRIGHTNESS.comment=Light levels are multiplied by this number when the surface is in shadows.
+suffix.SHADOW_BRIGHTNESS=%
+
+option.SHADOW_COLOR_BLEND=Blending
+option.SHADOW_COLOR_BLEND.comment=Allows colored shadows to blend multiple colors. Currently broken until Sodium supports tranclucent-sorting.
+
+option.SHADOW_BIAS_SCALE=Bias Scale
+option.SHADOW_BIAS_SCALE.comment=Increase this if you get shadow acne. Decrease this if you get peter panning.
+value.SHADOW_BIAS_SCALE.0.1=10%
+value.SHADOW_BIAS_SCALE.0.2=20%
+value.SHADOW_BIAS_SCALE.0.3=30%
+value.SHADOW_BIAS_SCALE.0.4=40%
+value.SHADOW_BIAS_SCALE.0.5=50%
+value.SHADOW_BIAS_SCALE.0.6=60%
+value.SHADOW_BIAS_SCALE.0.7=70%
+value.SHADOW_BIAS_SCALE.0.8=80%
+value.SHADOW_BIAS_SCALE.0.9=90%
+value.SHADOW_BIAS_SCALE.1.0=100%
+value.SHADOW_BIAS_SCALE.1.1=110%
+value.SHADOW_BIAS_SCALE.1.2=120%
+value.SHADOW_BIAS_SCALE.1.3=130%
+value.SHADOW_BIAS_SCALE.1.4=140%
+value.SHADOW_BIAS_SCALE.1.5=150%
+value.SHADOW_BIAS_SCALE.1.6=160%
+value.SHADOW_BIAS_SCALE.1.7=170%
+value.SHADOW_BIAS_SCALE.1.8=180%
+value.SHADOW_BIAS_SCALE.1.9=190%
+value.SHADOW_BIAS_SCALE.2.0=200%
+value.SHADOW_BIAS_SCALE.2.1=210%
+value.SHADOW_BIAS_SCALE.2.2=220%
+value.SHADOW_BIAS_SCALE.2.3=230%
+value.SHADOW_BIAS_SCALE.2.4=240%
+value.SHADOW_BIAS_SCALE.2.5=250%
+
+option.SHADOW_DISTORT_FACTOR=Distortion
+option.SHADOW_DISTORT_FACTOR.comment=Distortion factor for the shadow map. Applies to distorted shadows only.
+
+option.SHADOW_CSM_FITRANGE=Fit CSM to Shadow Range
+option.SHADOW_CSM_FITRANGE.comment=When enabled, all but the nearest cascade will be scaled to fit the shadow range.
+
+screen.SHADOW_FILTER_OPTIONS=Filtering
+screen.SHADOW_FILTER_OPTIONS.comment=Options for shadow filtering.
+
+option.SHADOW_PCF_SIZE=PCF Radius
+option.SHADOW_PCF_SIZE.comment=The radius of the shadow blurring using a block-sized scale.
+
+option.SHADOW_PCF_SAMPLES=PCF Samples
+option.SHADOW_PCF_SAMPLES.comment=The number of samples to use when blurring.
+
+option.SHADOW_PCSS_SAMPLES=PCSS Samples
+option.SHADOW_PCSS_SAMPLES.comment=The number of samples to use for determining penumbra width.
+
+option.SHADOW_ENABLE_HWCOMP=HW-Accelerated
+option.SHADOW_ENABLE_HWCOMP.comment=When enabled, shadows will leverage hardware-filtering for better quality and performance.
+
+option.SHADOW_BLUR=Blur
+option.SHADOW_BLUR.comment=Applies a gaussian blur to the shadowing buffer.
+
+
+screen.POST_OPTIONS=Post-Processing
+
+option.TONEMAP_ENABLED=Tonemap
+option.TONEMAP_ENABLED.comment=Prevents clipping of bright colors, useful for dynamic lighting.
+
+option.FXAA_ENABLED=FXAA
+
+
+screen.DEBUG_OPTIONS=Shrimple
+
+option.DEBUG_VIEW=Debug View
+option.DEBUG_VIEW.comment=Configures which buffer to draw to the screen.
+value.DEBUG_VIEW.0=None
+value.DEBUG_VIEW.1=Deferred Color
+value.DEBUG_VIEW.2=Deferred Normal
+value.DEBUG_VIEW.3=Deferred Light
+value.DEBUG_VIEW.4=Deferred Shadow
+value.DEBUG_VIEW.5=Deferred Fog
+value.DEBUG_VIEW.6=Deferred Texture
+value.DEBUG_VIEW.7=Deferred VL
+value.DEBUG_VIEW.8=Deferred BlockLight
+value.DEBUG_VIEW.9=Shadow Color
+
+option.DYN_LIGHT_DEBUG_COUNTS=Show Light Counts
+
+option.IRIS_FEATURE_CLEARFIX=Clear-Fix
+option.IRIS_FEATURE_CLEARFIX.comment=Enable this option when using the latest 1.6 beta 2 that has a new clear feature.

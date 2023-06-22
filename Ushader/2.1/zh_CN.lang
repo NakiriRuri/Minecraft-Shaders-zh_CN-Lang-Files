@@ -1,0 +1,330 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应在 Ushader 2.1 版本。
+
+option.INFO=UShader by RRe36
+value.INFO.0=v2.1
+
+
+screen.ATMOS=大气
+option.sunPathRotation=太阳斜角
+option.volumeWorldTimeAnim=世界时间动画
+option.volumeWorldTimeAnim.comment=使体积指标（雾和云）使用世界时间而不是当前的客户端运行时间来渲染动画. 因此可以同步同一世界玩家的云动画.
+
+screen.AIRCOEFF=大气指数
+option.airRayleighMult=瑞利混合倍率
+option.airMieMult=米氏混合倍率
+option.rayleighRedMult=瑞利 - 红色
+option.mieRedMult=米氏 - 红色
+option.rayleighGreenMult=瑞利 - 绿色
+option.mieGreenMult=米氏 - 绿色
+option.rayleighBlueMult=瑞利 - 蓝色
+option.mieBlueMult=米氏 - 蓝色
+option.airOzoneMult=臭氧混合倍率
+option.airMistMult=迷雾混合倍率
+option.ozoneRedMult=臭氧 - 红色
+option.mistRedMult=迷雾 - 红色
+option.ozoneGreenMult=臭氧 - 绿色
+option.mistGreenMult=迷雾 - 绿色
+option.ozoneBlueMult=臭氧 - 蓝色
+option.mistBlueMult=迷雾 - 蓝色
+
+screen.CLOUDS=云层
+option.CLOUD_RENDER_LOD=目标分辨率
+value.CLOUD_RENDER_LOD.1.0=100%
+value.CLOUD_RENDER_LOD.2.0=50%
+value.CLOUD_RENDER_LOD.3.0=33%
+value.CLOUD_RENDER_LOD.4.0=25%
+value.CLOUD_RENDER_LOD.5.0=20%
+option.cloudTemporalUpscaleEnabled=时间性升采样
+option.cloudReflectionsToggle=云层反射
+option.cloudShadowsEnabled=云影
+
+screen.CVOLUME=体积云
+option.cloudVolumeEnabled=体积云
+option.cloudVolumeSamples=采样值
+option.cloudVolumeSunlightDither=太阳光噪声抖动
+option.cloudVolumeSunlightDither.comment=对太阳光遮挡的样本应用噪声抖动,以很小的性能和一些额外的噪点作为代价,大大改善照明质量.
+option.cloudVolumeSkylightDither=天空光噪声抖动
+option.cloudVolumeSkylightDither.comment=对天空光遮挡的样本应用噪声抖动,以很小的性能和一些额外的噪点作为代价,大大改善照明质量.
+option.cloudCumulusDepth=厚度
+option.cloudCumulusScaleMult=尺寸
+option.cloudCumulusCoverageBias=覆盖偏差
+option.cloudLocalCoverage=局部覆盖率
+
+screen.CPLANAR=平面云
+option.cloudCirrusEnabled=卷云
+option.cloudCirrusAlt=高度
+option.cloudCirrusDepth=厚度
+option.cloudCirrusCoverageBias=覆盖偏差
+
+screen.FOG=雾气
+option.fogVolumeEnabled=体积雾
+option.fogMistAdvanced=高级薄雾遮蔽
+option.fogMistAdvanced.comment=为体积雾计算高质量的照明,对性能影响很大,只有在高雾密度下才真正值得.
+option.fogAdaptiveSteps=自适应步进
+option.fogClipDist=最远距离
+option.fogDensityMult=雾气密度
+option.fogSeaLevel=雾气起始高度
+option.fogMistAltitude=雾气最高海拔高度
+option.fogMistFalloff=雾气衰减强度
+option.mistMieAnisotropy=雾气米氏各向异性值
+option.fogMistLightingSteps=雾气照明步进
+option.fogSmoothingEnabled=平滑雾气
+option.fogSmoothingEnabled.comment=用高斯采样来平滑雾气,减少可见的噪点.
+option.fogSmoothingPassEnabled=二次平滑
+option.fogSmoothingPassEnabled.comment=应用两次高斯采样来过滤可见的噪点. 对性能影响不大.
+
+screen.SKY=天空
+option.airScatterIterations=散射迭代
+option.airmassIterations=大气光学质量迭代
+option.skyIlluminanceMult=天空光照度
+option.skyMultiscatterMult=多重散射强度
+option.airTransmittanceHQ=高精度透射率
+option.ATMOS_BelowHorizon=渲染地平线以下
+option.ATMOS_RenderPlanet=行星表面测算
+option.alternateOzoneDistribution=备选臭氧曲线
+option.PLANET_BOUNCELIGHT=模拟反射光
+option.PLANET_BOUNCELIGHT.comment=模拟太阳光从行星表面反弹回大气层的现象
+
+screen.WATER=水
+option.waterVolumeEnabled=体积化水
+option.waterDensity=体积密度
+option.waterVolAdaptiveSteps=自适应步进
+option.waterVolClipDist=最大体积距离
+option.waterCoeffRed=红色系数
+option.waterCoeffGreen=绿色系数
+option.waterCoeffBlue=蓝色系数
+option.waterCoeffScatter=散射系数
+option.waterNormalOctaves=水波倍频
+
+screen.END=末地
+option.endSmokeGlow=烟雾体积发光
+option.endSmokeGlowDynamic=动态发光颜色
+option.endSmokeGlowStrength=发光强度
+
+screen.LIGHT=照明
+option.directionalLMEnabled=指向性光照图
+option.UseLightleakPrevention=漏光修复
+option.UseLightleakPrevention.comment=在大悬崖和有出口的洞穴等处减少阳光泄露. 
+
+screen.COLORS=颜色
+option.sunlightIllum=阳光强度
+option.moonlightIllum=月光强度
+option.sunlightRedMult=阳光红色
+option.moonlightRedMult=月光红色
+option.sunlightGreenMult=阳光绿色
+option.moonlightGreenMult=月光绿色
+option.sunlightBlueMult=阳光蓝色
+option.moonlightBlueMult=月光蓝色
+option.skylightIllum=天空光强度
+option.blocklightIllum=方块光强度
+option.skylightRedMult=天空光红色
+option.skylightGreenMult=天空光绿色
+option.skylightBlueMult=天空光蓝色
+option.blocklightRedMult=方块光红色
+option.blocklightGreenMult=方块光绿色
+option.blocklightBlueMult=方块光蓝色
+option.minimumAmbientIllum=最小环境光
+
+screen.DIRECTLIGHT=直接照明
+option.shadowMapResolution=阴影图分辨率
+option.shadowVPSEnabled=可变半阴影
+option.shadowVPSEnabled.comment=阴影离光源越远越柔和.
+option.shadowPenumbraScale=半影模糊强度
+option.shadowPenumbraScale.comment=缩放由可变半影阴影引起的模糊半径.
+option.shadowFilterIterations=过滤迭代
+option.contactShadowsEnabled=接触阴影
+option.subsurfaceScatterMode=此表面散射
+value.subsurfaceScatterMode.0=关闭
+value.subsurfaceScatterMode.1=硬编码
+value.subsurfaceScatterMode.2=硬编码+labPBR
+value.subsurfaceScatterMode.3=仅labPBR
+
+screen.INDIRECTLIGHT=间接照明
+option.RTAO_ENABLED=RTAO
+option.RTAO_ENABLED.comment=使用屏幕空间光线追踪环境光遮蔽来计算间接阴影以及指向性天空光. 还可以模拟微妙的阳光反射和方块光.
+option.RTAO_SPP=RTAO 采样值
+option.SSAO_ENABLED=SSAO
+option.SSAO_ENABLED.comment=使用正常的屏幕空间环境光遮蔽来为降噪后的RTAO增加一些额外的小细节.
+option.MAT_AO_ENABLED=纹理 AO
+option.MAT_AO_ENABLED.comment=使用由资源包提供的labPBR数据来烘托的环境光遮蔽.
+option.SVGF_FILTER=降噪器
+option.SVGF_FILTER.comment=SVGF降噪器,用于对SSPT照明进行去噪,以及平滑原版光照图(如果使用). 对性能的影响很大.
+option.SVGF_RAD=降噪器分路半径
+option.SVGF_STRICTNESS=颜色准确程度
+option.SVGF_NORMALEXP=法线准确程度
+
+screen.TERRAIN=表面
+option.normalmapEnabled=法线贴图
+option.normalmapFormat=格式
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.vertexAttributeFix=顶点修复
+option.vertexAttributeFix.comment=1.15以上版本实体上的法线图损坏的解决方法
+option.refractionEnabled=反射
+option.wetnessMode=潮湿类型
+value.wetnessMode.0=雨坑
+value.wetnessMode.1=全覆盖
+value.wetnessMode.2=关
+option.puddleRippleSpeed=涟漪速度
+option.windEffectsEnabled=风效应
+option.windIntensity=风强度
+
+screen.PARALLAX=视差贴图
+option.pomEnabled=视差
+option.pomSamples=采样值
+option.pomShadowSamples=自阴影
+option.pomDepth=视差深度
+option.slopeNormalCalculation=法线贴图斜率计算
+option.slopeNormalCalculation.comment=需要低分辨率的法线资源包
+option.pomDepthEnabled=写入深度
+option.pomDepthEnabled.comment=允许视差贴图影响像素的深度,允许屏幕空间路径追踪这样的功能可以根据深度偏移来创建合适的阴影.
+
+screen.REFLECTIONS=反射
+option.resourcepackReflectionsEnabled=资源包反射
+option.specularHighlightsEnabled=高亮高光
+option.roughReflectionsEnabled=粗糙反射
+option.roughReflectionSamples=粗糙度反射采样
+option.screenspaceReflectionsEnabled=屏幕空间反射
+option.reflectionCaptureEnabled=反射捕获
+option.reflectionCaptureEnabled.comment=仍在开发,可能会导致某些场景出现视觉伪影!
+option.roughnessThreshold=粗糙度阈值
+option.skyOcclusionThreshold=天空遮蔽阈值
+
+screen.CAMERA=镜头
+option.camSensorWidth=传感器宽度(mm)
+option.camFStops=光圈
+option.anamorphStretch=镜头变形强度
+
+screen.BLOOM=泛光
+option.bloomEnabled=泛光
+option.bloomIntensity=强度
+option.bloomyFog=泛光雾
+
+screen.DOF=景深
+option.DoFToggle=景深
+option.DoFQuality=景深质量
+value.DoFQuality.0=低 (30 采样值)
+value.DoFQuality.1=中 (50 采样值)
+value.DoFQuality.2=高 (75 采样值)
+option.DoFChromaDispersion=色度偏移
+option.chromaOffsetScale=色度偏移强度
+
+option.camFocus=对焦模式
+value.camFocus.0=自动
+value.camFocus.1=手动
+value.camFocus.2=手动PLUS
+value.camFocus.3=自动PLUS
+option.camManFocDis=对焦距离
+suffix.camManFocDis=  m
+option.showFocusPlane=显示对焦平面
+
+screen.EXP=曝光
+option.LOCAL_EXPOSURE=局部曝光
+option.exposureDecay=曝光衰减
+option.exposureBias=曝光偏移
+option.exposureDarkClamp=暗部调整
+option.exposureBrightClamp=亮部调整
+option.exposureComplexEnabled=高级曝光
+option.exposureBrightPercentage=明亮比重
+option.exposureDarkPercentage=黑暗比重
+option.exposureBrightWeight=亮度权重
+option.exposureDarkWeight=暗度权重
+option.exposureAverageWeight=平均权重
+option.manualExposureEnabled=手动[专业]曝光控制
+option.manualExposureValue=曝光值
+
+screen.FLARE=镜头眩光
+option.lensFlareToggle=镜头眩光
+option.lensFlareHaloToggle=眩光环
+option.lensFlareIntensity=眩光强度
+option.lensFlareThreshold=阈值
+option.lensFlareGhostCount=环数
+option.lensFlareGhostSpace=眩光间距
+option.lensFlareHaloRad=环半径
+option.lensFlareHaloDepth=环深度
+
+screen.MBLUR=运动模糊
+option.motionblurToggle=运动模糊
+option.motionblurSamples=采样值
+option.motionblurScale=运动模糊强度
+
+screen.VIGNETTE=暗角
+option.vignetteEnabled=暗角
+option.vignetteStart=暗角起始处
+option.vignetteEnd=暗角消失处
+option.vignetteIntensity=强度
+option.vignetteExponent=渐消指数
+
+screen.POST=后处理
+option.CAS_Strength=图像锐化强度
+option.CAS_Strength.comment=控制作用在顶点的 对比度自适应锐化 强度.
+value.CAS_Strength.0=关
+option.ResolutionScale=TAAU 比率
+option.ResolutionScale.comment=作用于每个轴,所以50%意味着25%的像素 (有时候称为半分辩率,尽管技术层面来说是四分之一)
+value.ResolutionScale.0.25=25% (不推荐)
+value.ResolutionScale.0.5=50%
+value.ResolutionScale.0.75=75%
+value.ResolutionScale.1.0=100% (关闭)
+option.imageSharpenEnabled=图像锐化
+option.screenBitdepth=输出位深
+option.screenBitdepth.comment=设置为 6 Bit 可以有效去除非 8 Bit 显示器的下抖动模式造成的伪影. 输出超过 8 Bit 不被 Minecraft/OptiFine 所用的 OpenGL 版本支持. 之所以存在低于 6 Bit 的数值输出,是因为可以作为复古图像滤镜存在.
+option.tonemapOperator=色调映射操控
+value.tonemapOperator.ACES_AP1_SRGB=Academy Custom
+value.tonemapOperator.ACES_AP1_SRGB_RRT=Academy RRT
+value.tonemapOperator.hejlBurgessAP1=Hejl-Burgess
+option.VIEWPORT_GAMUT=色域显示
+option.VIEWPORT_GAMUT.comment=此设置允许您选择与显示器匹配的颜色空间,以确保显示正确的外观. 假设所选颜色空间的伽马响应正确. 本选项在 Iris 中无效, 因为 Iris 内置显示色域管理支持. 请在视频设置中自行设定.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.AA=抗锯齿
+option.taaEnabled=时间性抗锯齿[TAA]
+option.CONFIDENCE=重采样置信度
+option.CONFIDENCE.comment=控制用于TAA(U)的 Lanczos 重采样的清晰度.
+option.TAAU_FXAA_PostPass=FXAA 过滤
+option.TAAU_FXAA_PostPass.comment=在TAA(U)之后额外应用一次FXAA来平滑遗漏的混叠图像.
+option.taaBlendWeight=最小采样比重
+option.taaBlendWeight.comment=控制当前帧在时间累积中的最小权重. 提高此项数值会导致抗锯齿效果较差,并且可能降低升采样后的清晰度.
+option.taaMotionRejection=Motion Rejection
+option.taaAntiGhosting=Anti-Ghosting
+option.taaAntiFlicker=Anti-Flicker
+option.taaLumaRejection=Luminance Rejection
+option.taaHueRejection=Hue Rejection
+
+screen.CGRADE=颜色分级
+option.doColorgrading=颜色分级
+option.vibranceInt=自然饱和度
+option.saturationInt=饱和度
+option.gammaCurve=伽马曲线
+option.brightnessInt=亮度
+option.constrastInt=对比度
+option.colorlumR=红色增益
+option.colorlumG=绿色增益
+option.colorlumB=蓝色增益
+
+screen.PURKINJE=柏金赫迁移效应
+option.purkinjeExponent=指数
+option.purkinjeExponent.comment=控制柏金赫迁移效应的衰减
+option.purkinjeTintRed=红色比重
+option.purkinjeTintGreen=绿色比重
+option.purkinjeTintBlue=蓝色比重
+
+screen.FTOOL=框选工具
+option.framingToolEnabled=框选工具
+option.framingThirdsHor=黄金分割
+option.framingToAspect=纵横比
+option.framingAspectX=横向比值
+option.framingAspectY=纵向比值
+option.framingToAspectCenter=中心
+
+screen.MISC=杂项
+option.freezeAtmosAnim=冻结动画
+option.atmosAnimOffset=动画偏移
+
+#额外接口
+option.cloudCumulusAlt=高度
+
+option.END_VolumetricSmoke=体积烟雾

@@ -1,0 +1,533 @@
+profile.VANILLA=Vanilla
+profile.SHADOWS=Shadows Only
+profile.LIGHTS_FAST=Lights [Fast]
+profile.LIGHTS_FANCY=Lights [Fancy]
+profile.LIGHTS_RTX=Lights [RTX]
+
+
+screen.WORLD_OPTIONS=World
+screen.WORLD_OPTIONS.comment=Options for everything else.
+
+option.sunPathRotation=Sun Angle
+option.sunPathRotation.comment=The tilt of the sun along it's rotational axis.
+value.sunPathRotation.-60=-60°
+value.sunPathRotation.-50=-50°
+value.sunPathRotation.-40=-40°
+value.sunPathRotation.-30=-30°
+value.sunPathRotation.-20=-20°
+value.sunPathRotation.-15=-15°
+value.sunPathRotation.-10=-10°
+value.sunPathRotation.-5=-5°
+value.sunPathRotation.0=0°
+value.sunPathRotation.5=5°
+value.sunPathRotation.10=10°
+value.sunPathRotation.15=15°
+value.sunPathRotation.20=20°
+value.sunPathRotation.30=30°
+value.sunPathRotation.40=40°
+value.sunPathRotation.50=50°
+value.sunPathRotation.60=60°
+
+option.WORLD_WETNESS_ENABLED=Wetness
+option.WORLD_WETNESS_ENABLED.comment=Causes surfaces to appear wet (darker, more shiny) when wet from rain.
+
+option.WORLD_WETNESS_PUDDLES=Puddles
+option.WORLD_WETNESS_PUDDLES.comment=Describes how rain affects materials.
+value.WORLD_WETNESS_PUDDLES.0=OFF
+value.WORLD_WETNESS_PUDDLES.1=Basic
+value.WORLD_WETNESS_PUDDLES.2=Pixel
+value.WORLD_WETNESS_PUDDLES.3=Fancy
+
+option.WORLD_WATER_WAVES=Water Waves
+option.WORLD_WATER_WAVES.comment=Describes how the surface of water will wave.
+value.WORLD_WATER_WAVES.0=None
+value.WORLD_WATER_WAVES.1=Simple
+value.WORLD_WATER_WAVES.2=Fancy
+
+option.WORLD_WAVING_ENABLED=Waving Plants
+option.WORLD_WAVING_ENABLED.comment=Allows plants to wave in the wind.
+
+option.WORLD_AMBIENT_MODE=Ambient Lighting
+value.WORLD_AMBIENT_MODE.0=OFF
+value.WORLD_AMBIENT_MODE.1=Basic
+value.WORLD_AMBIENT_MODE.2=Fancy
+
+option.WORLD_AO_ENABLED=Ambient Occlusion
+option.WORLD_AO_ENABLED.comment=Describes how ambient lighting is occluded.
+
+option.WORLD_RAIN_OPACITY=Rain Opacity
+option.WORLD_RAIN_OPACITY.comment=Determines how transparent falling rain particles will be.
+value.WORLD_RAIN_OPACITY.10=10%
+value.WORLD_RAIN_OPACITY.20=20%
+value.WORLD_RAIN_OPACITY.30=30%
+value.WORLD_RAIN_OPACITY.40=40%
+value.WORLD_RAIN_OPACITY.50=50%
+value.WORLD_RAIN_OPACITY.60=60%
+value.WORLD_RAIN_OPACITY.70=70%
+value.WORLD_RAIN_OPACITY.80=80%
+value.WORLD_RAIN_OPACITY.90=90%
+value.WORLD_RAIN_OPACITY.100=100%
+
+option.WORLD_SKY_REFLECTIONS=Sky Reflections
+option.WORLD_SKY_REFLECTIONS.comment=Allows the sky to be reflected when specular materials are enabled.
+
+
+screen.WORLD_BRIGHTNESS_OPTIONS=Brightness Options
+
+option.OVERWORLD_BRIGHTNESS=Overworld Brightness
+
+option.NETHER_BRIGHTNESS=Nether Brightness
+
+option.END_BRIGHTNESS=End Brightness
+
+
+screen.MATERIAL_OPTIONS=Materials
+
+option.MATERIAL_SPECULAR=Specular
+option.MATERIAL_SPECULAR.comment=Describes how much light is reflected from each pixel of the surface, based on its roughness, metalness, and f0.
+value.MATERIAL_SPECULAR.0=OFF
+value.MATERIAL_SPECULAR.1=Integrated
+value.MATERIAL_SPECULAR.2=Lab-PBR
+value.MATERIAL_SPECULAR.3=Old-PBR
+
+option.MATERIAL_SSS=SSS
+option.MATERIAL_SSS.comment=Describes how much light from each pixel passes into & scatters in the subsurface.
+value.MATERIAL_SSS.0=OFF
+value.MATERIAL_SSS.1=Integrated
+value.MATERIAL_SSS.2=Lab-PBR
+
+option.MATERIAL_POROSITY=Porosity
+option.MATERIAL_POROSITY.comment=Describes how much water is absorbed by each pixel of the surface.
+value.MATERIAL_POROSITY.0=OFF
+value.MATERIAL_POROSITY.1=Integrated
+value.MATERIAL_POROSITY.2=Lab-PBR
+
+option.MATERIAL_OCCLUSION=Occlusion
+option.MATERIAL_OCCLUSION.comment=Describes how much ambient light is occluded from each pixel of the surface.
+value.MATERIAL_OCCLUSION.0=OFF
+value.MATERIAL_OCCLUSION.1=Integrated
+value.MATERIAL_OCCLUSION.2=Lab-PBR
+
+
+screen.MATERIAL_NORMAL_OPTIONS=Normal Mapping
+screen.MATERIAL_NORMAL_OPTIONS.comment=Describes how each pixel of the surface reacts to directional lighting.
+
+option.MATERIAL_NORMALS=Type
+option.MATERIAL_NORMALS.comment=The type of normal-map data.
+value.MATERIAL_NORMALS.0=OFF
+value.MATERIAL_NORMALS.1=Integrated
+value.MATERIAL_NORMALS.2=Lab-PBR
+value.MATERIAL_NORMALS.3=Old-PBR
+
+option.MATERIAL_NORMAL_SCALE=Resolution
+option.MATERIAL_NORMAL_SCALE.comment=The texture scale which normals are generated at. Only applies to _integrated_ normal-maps.
+value.MATERIAL_NORMAL_SCALE.1=1x
+value.MATERIAL_NORMAL_SCALE.2=2x
+value.MATERIAL_NORMAL_SCALE.4=4x
+value.MATERIAL_NORMAL_SCALE.8=8x
+value.MATERIAL_NORMAL_SCALE.16=16x
+
+option.MATERIAL_NORMAL_STRENGTH=Strength
+option.MATERIAL_NORMAL_STRENGTH.comment=The angular strength of generated normals. Only applies to _integrated_ normal-maps.
+suffix.MATERIAL_NORMAL_STRENGTH=%
+
+option.MATERIAL_NORMAL_EDGE=Edge-Normals
+option.MATERIAL_NORMAL_EDGE.comment=Determines how edges are handled when generating normals. Only applies to _integrated_ normal-maps.
+value.MATERIAL_NORMAL_EDGE.0=Standard
+value.MATERIAL_NORMAL_EDGE.1=High
+value.MATERIAL_NORMAL_EDGE.2=Low
+
+
+screen.MATERIAL_PARALLAX_OPTIONS=Parallax
+screen.MATERIAL_PARALLAX_OPTIONS.comment=Describes how the depth of each pixel of the surface is displaced.
+
+option.MATERIAL_PARALLAX=Type
+option.MATERIAL_PARALLAX.comment=The type of POM to render. Smooth POM will have softened edges. Sharp POM will have model-like hard edges.
+value.MATERIAL_PARALLAX.0=OFF
+value.MATERIAL_PARALLAX.1=Standard
+value.MATERIAL_PARALLAX.2=Smooth
+value.MATERIAL_PARALLAX.3=Sharp
+
+option.MATERIAL_PARALLAX_DEPTH=Depth
+suffix.MATERIAL_PARALLAX_DEPTH=%
+
+option.MATERIAL_PARALLAX_SAMPLES=Samples
+
+option.MATERIAL_PARALLAX_SHADOW_SAMPLES=Shadow Samples
+value.MATERIAL_PARALLAX_SHADOW_SAMPLES.0=OFF
+
+option.MATERIAL_PARALLAX_DISTANCE=Distance
+option.MATERIAL_PARALLAX_DISTANCE.comment=The maximum distance (in blocks) from the camera to render POM.
+
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD=Sharp Threshold
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD.comment=The threshold for which sharp parallax applies slope-normals. [N / 255]
+suffix.MATERIAL_PARALLAX_SHARP_THRESHOLD=/255
+
+
+screen.MATERIAL_EMISSION_OPTIONS=Emission
+screen.MATERIAL_EMISSION_OPTIONS.comment=Describes how much light is emitted from each pixel of the surface.
+
+option.MATERIAL_EMISSION=Type
+value.MATERIAL_EMISSION.0=Integrated
+value.MATERIAL_EMISSION.1=Lab-PBR
+value.MATERIAL_EMISSION.2=Old-PBR
+
+option.MATERIAL_EMISSION_BRIGHTNESS=Brightness
+value.MATERIAL_EMISSION_BRIGHTNESS.20=20%
+value.MATERIAL_EMISSION_BRIGHTNESS.40=40%
+value.MATERIAL_EMISSION_BRIGHTNESS.60=60%
+value.MATERIAL_EMISSION_BRIGHTNESS.80=80%
+value.MATERIAL_EMISSION_BRIGHTNESS.100=100%
+value.MATERIAL_EMISSION_BRIGHTNESS.120=120%
+value.MATERIAL_EMISSION_BRIGHTNESS.140=140%
+value.MATERIAL_EMISSION_BRIGHTNESS.160=160%
+value.MATERIAL_EMISSION_BRIGHTNESS.180=180%
+value.MATERIAL_EMISSION_BRIGHTNESS.200=200%
+value.MATERIAL_EMISSION_BRIGHTNESS.220=220%
+value.MATERIAL_EMISSION_BRIGHTNESS.240=240%
+value.MATERIAL_EMISSION_BRIGHTNESS.260=260%
+value.MATERIAL_EMISSION_BRIGHTNESS.280=280%
+value.MATERIAL_EMISSION_BRIGHTNESS.300=300%
+value.MATERIAL_EMISSION_BRIGHTNESS.350=350%
+value.MATERIAL_EMISSION_BRIGHTNESS.400=400%
+value.MATERIAL_EMISSION_BRIGHTNESS.500=500%
+value.MATERIAL_EMISSION_BRIGHTNESS.600=600%
+value.MATERIAL_EMISSION_BRIGHTNESS.700=700%
+value.MATERIAL_EMISSION_BRIGHTNESS.800=800%
+
+
+screen.DYNAMIC_LIGHT_OPTIONS=Block Lighting
+
+option.DYN_LIGHT_MODE=Mode
+option.DYN_LIGHT_MODE.comment=Describes how lighting is calculated. Default uses the vanilla lightmap. Enable ray-tracing for block-light shadows.
+value.DYN_LIGHT_MODE.0=Default
+value.DYN_LIGHT_MODE.1=Per-Vertex
+value.DYN_LIGHT_MODE.2=Per-Pixel
+value.DYN_LIGHT_MODE.3=Ray-Traced
+
+option.DYN_LIGHT_TYPE=Type
+option.DYN_LIGHT_TYPE.comment=Describes the light-source shape. Point lights emit from an infinitely small point. Area lights emit a cubic shaped light with size.
+value.DYN_LIGHT_TYPE.0=Point
+value.DYN_LIGHT_TYPE.1=Area
+
+option.DYN_LIGHT_BRIGHTNESS=Brightness
+option.DYN_LIGHT_BRIGHTNESS.comment=The brightness of dynamic lights.
+value.DYN_LIGHT_BRIGHTNESS.20=20%
+value.DYN_LIGHT_BRIGHTNESS.40=40%
+value.DYN_LIGHT_BRIGHTNESS.60=60%
+value.DYN_LIGHT_BRIGHTNESS.80=80%
+value.DYN_LIGHT_BRIGHTNESS.100=100%
+value.DYN_LIGHT_BRIGHTNESS.120=120%
+value.DYN_LIGHT_BRIGHTNESS.140=140%
+value.DYN_LIGHT_BRIGHTNESS.160=160%
+value.DYN_LIGHT_BRIGHTNESS.180=180%
+value.DYN_LIGHT_BRIGHTNESS.200=200%
+value.DYN_LIGHT_BRIGHTNESS.220=220%
+value.DYN_LIGHT_BRIGHTNESS.240=240%
+value.DYN_LIGHT_BRIGHTNESS.260=260%
+value.DYN_LIGHT_BRIGHTNESS.280=280%
+value.DYN_LIGHT_BRIGHTNESS.300=300%
+value.DYN_LIGHT_BRIGHTNESS.320=320%
+value.DYN_LIGHT_BRIGHTNESS.340=340%
+value.DYN_LIGHT_BRIGHTNESS.360=360%
+value.DYN_LIGHT_BRIGHTNESS.380=380%
+value.DYN_LIGHT_BRIGHTNESS.400=400%
+value.DYN_LIGHT_BRIGHTNESS.500=500%
+value.DYN_LIGHT_BRIGHTNESS.600=600%
+value.DYN_LIGHT_BRIGHTNESS.800=800%
+
+option.DYN_LIGHT_AMBIENT=Ambient
+option.DYN_LIGHT_AMBIENT.comment=The amount of vanilla ambient lighting to add to dynamic lighting.
+value.DYN_LIGHT_AMBIENT.0=0%
+value.DYN_LIGHT_AMBIENT.10=10%
+value.DYN_LIGHT_AMBIENT.20=20%
+value.DYN_LIGHT_AMBIENT.30=30%
+value.DYN_LIGHT_AMBIENT.40=40%
+value.DYN_LIGHT_AMBIENT.50=50%
+value.DYN_LIGHT_AMBIENT.60=60%
+value.DYN_LIGHT_AMBIENT.70=70%
+value.DYN_LIGHT_AMBIENT.80=80%
+value.DYN_LIGHT_AMBIENT.90=90%
+value.DYN_LIGHT_AMBIENT.100=100%
+
+option.DYN_LIGHT_FLICKER=Dynamic
+option.DYN_LIGHT_FLICKER.comment=Allows light sources to have dynamic brightness/color; like torches, candles, fire, etc.
+
+option.DYN_LIGHT_DIRECTIONAL=Directional
+suffix.DYN_LIGHT_DIRECTIONAL=%
+
+option.DYN_LIGHT_WEATHER=Weather
+option.DYN_LIGHT_WEATHER.comment=Determines whether dynamic lighting is applied to weather particles. Enabling this option is heavy on performance!
+
+option.DYN_LIGHT_FALLBACK=Fallback
+option.DYN_LIGHT_FALLBACK.comment=When enabled, colored lighting will be blended into the vanilla lighting at the edge of the light bounds. When disabled there will be no lighting beyond light bounds.
+
+option.DIRECTIONAL_LIGHTMAP=Directional Lightmap
+option.DIRECTIONAL_LIGHTMAP.comment=When enabled, attempts to fake directional lighting with the vanilla lightmap. Only applies to default lighting.
+
+
+screen.DYNAMIC_LIGHT_TRACE_OPTIONS=Trace Options
+
+option.DYN_LIGHT_RES=Resolution
+value.DYN_LIGHT_RES.0=Full
+value.DYN_LIGHT_RES.1=Half
+value.DYN_LIGHT_RES.2=Quarter
+
+option.DYN_LIGHT_PENUMBRA=Penumbra Size
+option.DYN_LIGHT_PENUMBRA.comment=The size of the penumbra for DDA-traced soft-shadows.
+value.DYN_LIGHT_PENUMBRA.0=None
+suffix.DYN_LIGHT_PENUMBRA=%
+
+option.DYN_LIGHT_TINT_MODE=Tint Mode
+value.DYN_LIGHT_TINT_MODE.0=None
+value.DYN_LIGHT_TINT_MODE.1=Basic
+value.DYN_LIGHT_TINT_MODE.2=Absorb
+
+option.DYN_LIGHT_TINT=Tint Strength
+option.DYN_LIGHT_TINT.comment=Determines how strongly light is tinted through stained glass.
+suffix.DYN_LIGHT_TINT=%
+value.DYN_LIGHT_TINT.0=Off
+
+option.DYN_LIGHT_PLAYER_SHADOW=Player Shadow
+value.DYN_LIGHT_PLAYER_SHADOW.0=None
+value.DYN_LIGHT_PLAYER_SHADOW.1=Cuboid
+value.DYN_LIGHT_PLAYER_SHADOW.2=Cylinder
+
+option.DYN_LIGHT_BLUR=Blur
+option.DYN_LIGHT_BLUR.comment=When enabled, the lighting buffer will have a post-process gaussian blur applied to smoothen edges/noise.
+
+option.DYN_LIGHT_TA=Temporal Accumulation
+option.DYN_LIGHT_TA.comment=When enabled, the lighting buffer will be blended across multiple frames to reduce soft-shadow noise.
+suffix.DYN_LIGHT_TA=%
+value.DYN_LIGHT_TA.0=OFF
+
+
+screen.DYNAMIC_LIGHT_TRACE_BLOCK_OPTIONS=Block Options
+
+option.DYN_LIGHT_GLOW_BERRIES=Glow Berry Vines
+option.DYN_LIGHT_GLOW_BERRIES.comment=Determines how lighting for glow berry vines is handled, to avoid heavy performance impacts from lush caverns.
+value.DYN_LIGHT_GLOW_BERRIES.0=Disable
+value.DYN_LIGHT_GLOW_BERRIES.1=Emit
+value.DYN_LIGHT_GLOW_BERRIES.2=Trace
+
+option.DYN_LIGHT_LAVA=Lava Lighting
+option.DYN_LIGHT_LAVA.comment=Determines how lighting for lava is handled, to avoid heavy performance impacts from large lava lakes/sources.
+value.DYN_LIGHT_LAVA.0=Disable
+value.DYN_LIGHT_LAVA.1=Emit
+value.DYN_LIGHT_LAVA.2=Trace
+
+option.DYN_LIGHT_PORTAL=Portal Lighting
+option.DYN_LIGHT_PORTAL.comment=Determines how lighting for nether portals is handled, to avoid heavy performance impacts from large portals.
+value.DYN_LIGHT_PORTAL.0=Disable
+value.DYN_LIGHT_PORTAL.1=Emit
+value.DYN_LIGHT_PORTAL.2=Trace
+
+option.DYN_LIGHT_REDSTONE=Redstone Lighting
+option.DYN_LIGHT_REDSTONE.comment=Determines how lighting for redstone components is handled, to avoid heavy performance impacts from large contraptions.
+value.DYN_LIGHT_REDSTONE.0=Disable
+value.DYN_LIGHT_REDSTONE.1=Emit
+value.DYN_LIGHT_REDSTONE.2=Trace
+
+
+screen.DYNAMIC_LIGHT_ADVANCED_OPTIONS=Advanced
+
+option.LIGHT_BIN_SIZE=Bin Size
+option.LIGHT_BIN_SIZE.comment=The cubic size in blocks of each light bin. Using smaller bins will allow more dense lighting. Using larger bins will allow dynamic lighting to apply to further distances from player.
+
+option.LIGHT_BIN_MAX_COUNT=Max Bin Lights
+option.LIGHT_BIN_MAX_COUNT.comment=The maximum number of lights each bin can hold.
+
+option.LIGHT_SIZE_XZ=Horizontal Bin Count
+
+option.LIGHT_SIZE_Y=Vertical Bin Count
+
+option.DYN_LIGHT_RANGE=Range
+option.DYN_LIGHT_RANGE.comment=Adjusts the scale of the range blocks cast light. Warning, increasing can dramatically reduce performance!
+suffix.DYN_LIGHT_RANGE=%
+
+option.DYN_LIGHT_SAMPLE_MAX=Max Sample Count
+option.DYN_LIGHT_SAMPLE_MAX.comment=The maximum number of lights that can be sampled per-pixel for each rendered frame. Setting a lower value will increase performance, but also increase temporal blurring.
+value.DYN_LIGHT_SAMPLE_MAX.0=Infinite
+
+
+screen.VOLUMETRIC_LIGHT_OPTIONS=Volumetric Lighting
+
+option.VOLUMETRIC_CELESTIAL=Sun/Moon
+option.VOLUMETRIC_CELESTIAL.comment=Determines whether volumetric lighting is applied to fog for the sun & moon.
+
+option.VOLUMETRIC_BLOCK_MODE=Block Light
+option.VOLUMETRIC_BLOCK_MODE.comment=Determines whether volumetric lighting is applied to fog for block-based dynamic lighting.
+value.VOLUMETRIC_BLOCK_MODE.0=Disabled
+value.VOLUMETRIC_BLOCK_MODE.1=Emission
+value.VOLUMETRIC_BLOCK_MODE.2=Trace [Fast]
+value.VOLUMETRIC_BLOCK_MODE.3=Trace [Full]
+
+option.VOLUMETRIC_SAMPLES=Quality
+value.VOLUMETRIC_SAMPLES.8=Low
+value.VOLUMETRIC_SAMPLES.12=Medium
+value.VOLUMETRIC_SAMPLES.16=High
+value.VOLUMETRIC_SAMPLES.24=Very High
+
+option.VOLUMETRIC_DENSITY=Density
+option.VOLUMETRIC_DENSITY.comment=Describes the density of the atmospheric fog used for volumetric lighting.
+value.VOLUMETRIC_DENSITY.5=5%
+value.VOLUMETRIC_DENSITY.10=10%
+value.VOLUMETRIC_DENSITY.15=15%
+value.VOLUMETRIC_DENSITY.20=20%
+value.VOLUMETRIC_DENSITY.25=25%
+value.VOLUMETRIC_DENSITY.30=30%
+value.VOLUMETRIC_DENSITY.40=40%
+value.VOLUMETRIC_DENSITY.50=50%
+value.VOLUMETRIC_DENSITY.60=60%
+value.VOLUMETRIC_DENSITY.70=70%
+value.VOLUMETRIC_DENSITY.80=80%
+value.VOLUMETRIC_DENSITY.90=90%
+value.VOLUMETRIC_DENSITY.100=100%
+value.VOLUMETRIC_DENSITY.125=125%
+value.VOLUMETRIC_DENSITY.150=150%
+value.VOLUMETRIC_DENSITY.175=175%
+value.VOLUMETRIC_DENSITY.200=200%
+value.VOLUMETRIC_DENSITY.250=250%
+value.VOLUMETRIC_DENSITY.300=300%
+value.VOLUMETRIC_DENSITY.400=400%
+value.VOLUMETRIC_DENSITY.600=600%
+value.VOLUMETRIC_DENSITY.800=800%
+value.VOLUMETRIC_DENSITY.1000=Silent Hill
+
+option.VOLUMETRIC_RES=Resolution
+value.VOLUMETRIC_RES.0=Full
+value.VOLUMETRIC_RES.1=Half
+value.VOLUMETRIC_RES.2=Quarter
+
+
+screen.SHADOW_OPTIONS=Shadows
+screen.SHADOW_OPTIONS.comment=Options for shadows.
+
+option.SHADOW_TYPE=Type
+option.SHADOW_TYPE.comment=The type of shadow mapping to use.
+value.SHADOW_TYPE.0=None
+value.SHADOW_TYPE.2=Distorted
+value.SHADOW_TYPE.3=Cascaded
+
+option.shadowMapResolution=Resolution
+option.shadowMapResolution.comment=Resolution of the shadow map. Higher numbers mean more accurate shadows.
+
+option.shadowDistance=Distance
+option.shadowDistance.comment=How far away shadows will be rendered.
+
+option.SHADOW_BRIGHTNESS=Brightness
+option.SHADOW_BRIGHTNESS.comment=Light levels are multiplied by this number when the surface is in shadows.
+suffix.SHADOW_BRIGHTNESS=%
+
+option.SHADOW_COLORS=Color Tinting
+option.SHADOW_COLORS.comment=Determines if sun/moon light is tinted when passing through translucent colored blocks. Disabled: Stained glass will cast ordinary shadows. Enabled: Stained glass will cast colored shadows. Ignored: Stained glass will not cast any shadows.
+value.SHADOW_COLORS.0=Disabled
+value.SHADOW_COLORS.1=Enabled
+value.SHADOW_COLORS.2=Ignored
+
+option.SHADOW_COLOR_BLEND=Blending
+option.SHADOW_COLOR_BLEND.comment=Allows colored shadows to blend multiple colors. Currently broken until Sodium supports translucent-sorting.
+
+option.SHADOW_BIAS_SCALE=Bias Scale
+option.SHADOW_BIAS_SCALE.comment=Increase this if you get shadow acne. Decrease this if you get peter panning.
+value.SHADOW_BIAS_SCALE.0.1=10%
+value.SHADOW_BIAS_SCALE.0.2=20%
+value.SHADOW_BIAS_SCALE.0.3=30%
+value.SHADOW_BIAS_SCALE.0.4=40%
+value.SHADOW_BIAS_SCALE.0.5=50%
+value.SHADOW_BIAS_SCALE.0.6=60%
+value.SHADOW_BIAS_SCALE.0.7=70%
+value.SHADOW_BIAS_SCALE.0.8=80%
+value.SHADOW_BIAS_SCALE.0.9=90%
+value.SHADOW_BIAS_SCALE.1.0=100%
+value.SHADOW_BIAS_SCALE.1.1=110%
+value.SHADOW_BIAS_SCALE.1.2=120%
+value.SHADOW_BIAS_SCALE.1.3=130%
+value.SHADOW_BIAS_SCALE.1.4=140%
+value.SHADOW_BIAS_SCALE.1.5=150%
+value.SHADOW_BIAS_SCALE.1.6=160%
+value.SHADOW_BIAS_SCALE.1.7=170%
+value.SHADOW_BIAS_SCALE.1.8=180%
+value.SHADOW_BIAS_SCALE.1.9=190%
+value.SHADOW_BIAS_SCALE.2.0=200%
+value.SHADOW_BIAS_SCALE.2.1=210%
+value.SHADOW_BIAS_SCALE.2.2=220%
+value.SHADOW_BIAS_SCALE.2.3=230%
+value.SHADOW_BIAS_SCALE.2.4=240%
+value.SHADOW_BIAS_SCALE.2.5=250%
+
+option.SHADOW_DISTORT_FACTOR=Distortion
+option.SHADOW_DISTORT_FACTOR.comment=The amount of distortion to apply to the shadow map. Applies to distorted shadows only.
+
+
+screen.SHADOW_FILTER_OPTIONS=Filtering
+screen.SHADOW_FILTER_OPTIONS.comment=Options for shadow filtering.
+
+option.SHADOW_FILTER=Filtering
+option.SHADOW_FILTER.comment=Type type of filtering to apply to shadow sampling.
+value.SHADOW_FILTER.0=None
+value.SHADOW_FILTER.1=PCF
+value.SHADOW_FILTER.2=PCF+PCSS
+
+option.SHADOW_PCF_SIZE=PCF Radius
+option.SHADOW_PCF_SIZE.comment=The radius of the shadow blurring using a block-sized scale.
+
+option.SHADOW_PCF_SAMPLES=PCF Samples
+option.SHADOW_PCF_SAMPLES.comment=The number of samples to use when blurring.
+
+option.SHADOW_PCSS_SAMPLES=PCSS Samples
+option.SHADOW_PCSS_SAMPLES.comment=The number of samples to use for determining penumbra width.
+
+option.SHADOW_ENABLE_HWCOMP=HW-Accelerated
+option.SHADOW_ENABLE_HWCOMP.comment=When enabled, shadows will leverage hardware-filtering for better quality and performance.
+
+option.SHADOW_BLUR=Blur
+option.SHADOW_BLUR.comment=Applies a gaussian blur to the shadowing buffer.
+
+
+screen.POST_OPTIONS=Post-Processing
+
+option.POST_BRIGHTNESS=Brightness
+option.POST_BRIGHTNESS.comment=The brightness of the final image.
+suffix.POST_BRIGHTNESS=%
+
+option.POST_CONTRAST=Contrast
+option.POST_CONTRAST.comment=The contrast of the final image.
+suffix.POST_CONTRAST=%
+
+option.POST_SATURATION=Saturation
+option.POST_SATURATION.comment=The saturation of the final image.
+suffix.POST_SATURATION=%
+
+option.GAMMA_OUT=Gamma
+option.GAMMA_OUT.comment=The gamma curve of the final image.
+
+option.TONEMAP_ENABLED=Tonemap
+option.TONEMAP_ENABLED.comment=Prevents clipping of bright colors, useful for dynamic lighting.
+
+option.FXAA_ENABLED=FXAA
+option.FXAA_ENABLED.comment=Enables a fast but low-quality anti-aliasing.
+
+
+screen.DEBUG_OPTIONS=Shrimple
+
+option.DEBUG_VIEW=Debug View
+option.DEBUG_VIEW.comment=Configures which buffer to draw to the screen.
+value.DEBUG_VIEW.0=None
+value.DEBUG_VIEW.1=Deferred Color
+value.DEBUG_VIEW.2=Deferred geo-Normal
+value.DEBUG_VIEW.3=Deferred Light
+value.DEBUG_VIEW.4=Deferred Shadow
+value.DEBUG_VIEW.5=Deferred Fog
+value.DEBUG_VIEW.6=Deferred Tex-Normal
+value.DEBUG_VIEW.7=Deferred Rough/Metal
+value.DEBUG_VIEW.8=Deferred VL
+value.DEBUG_VIEW.9=Deferred Diffuse
+value.DEBUG_VIEW.10=Deferred Specular
+value.DEBUG_VIEW.11=Shadow Color
+value.DEBUG_VIEW.12=White-World
+
+option.DYN_LIGHT_DEBUG_COUNTS=Show Light Counts
+
+option.DYN_LIGHT_OREBLOCKS=Ore-Block Lights
+option.DYN_LIGHT_OREBLOCKS.comment=When enabled, solid ore blocks will emit colored light.

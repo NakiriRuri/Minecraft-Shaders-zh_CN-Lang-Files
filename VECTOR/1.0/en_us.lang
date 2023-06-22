@@ -1,0 +1,82 @@
+option.VECTOR_SHADER=VECTOR
+value.VECTOR_SHADER.0=§aVECTOR
+value.VECTOR_SHADER.1=§6VECTOR
+value.VECTOR_SHADER.2=§cVECTOR
+value.VECTOR_SHADER.3=§fVECTOR
+value.VECTOR_SHADER.4=§bVECTOR
+
+profile.VECTOR=§aVECTOR
+profile.IBM=§2IBM
+profile.MARV=§4MARV
+profile.VEGAS=§6VEGAS
+profile.JPL=§fJPL
+
+screen.LINE_COLOR=LINE COLOR
+screen.LINE_COLOR.comment=Control the line and background color
+screen.RADAR.comment=Toggle and adjust the entity radar settings
+screen.LINE_SHAPE=LINE SHAPE
+screen.LINE_SHAPE.comment=Tune the amount of lines
+screen.SCREEN.comment=Settings related to the screen such as bloom and scanlines
+
+
+option.MONOCHROME.comment=Screen only shows one color
+option.LINE_COLOR_R=LINE RED
+option.LINE_COLOR_R.comment=Amount of RED in the line color
+option.LINE_COLOR_G=LINE GREEN
+option.LINE_COLOR_G.comment=Amount of GREEN in the line color
+option.LINE_COLOR_B=LINE BLUE
+option.LINE_COLOR_B.comment=Amount of BLUE in the line color
+option.BG_COLOR_R=BACKGROUND RED
+option.BG_COLOR_R.comment=Amount of RED in the background color
+option.BG_COLOR_G=BACKGROUND GREEN
+option.BG_COLOR_G.comment=Amount of GREEN in the background color
+option.BG_COLOR_B=BACKGROUND BLUE
+option.BG_COLOR_B.comment=Amount of BLUE in the background color
+option.BG_COLOR_MUL=BACKGROUND BRIGHTNESS
+option.BG_COLOR_MUL.comment=Brightness of background
+
+option.ENTITY_RADAR=RADAR
+option.ENTITY_RADAR.comment=Toggle the entity radar
+option.RADAR_FILLED=RADAR FILLED
+option.RADAR_FILLED.comment=Show entities as filled
+option.HOSTILE_COLOR_R=HOSTILE RED
+option.HOSTILE_COLOR_R.comment=Amount of RED in the hostile color
+option.HOSTILE_COLOR_G=HOSTILE GREEN
+option.HOSTILE_COLOR_G.comment=Amount of GREEN in the hostile color
+option.HOSTILE_COLOR_B=HOSTILE BLUE
+option.HOSTILE_COLOR_B.comment=Amount of BLUE in the hostile color
+option.FRIENDLY_COLOR_R=FRIENDLY RED
+option.FRIENDLY.COLOR_R.comment=Amount of RED in the friendly color
+option.FRIENDLY_COLOR_G=FRIENDLY GREEN
+option.FRIENDLY_COLOR_G.comment=Amount of GREEN in the friendly color
+option.FRIENDLY_COLOR_B=FRIENDLY BLUE
+option.FRIENDLY_COLOR_B.comment=Amount of BLUE in the friendly color
+option.PLAYER_COLOR_R=PLAYER RED
+option.PLAYER_COLOR_R.comment=Amount of RED in the player color
+option.PLAYER_COLOR_G=PLAYER GREEN
+option.PLAYER_COLOR_G.comment=Amount of GREEN in the player color
+option.PLAYER_COLOR_B=PLAYER BLUE
+option.PLAYER_COLOR_B.comment=Amount of BLUE in the player color
+
+
+option.THICKER_LINES=THICKER LINES
+option.THICKER_LINES.comment=Thicken all lines. This runs after edge detection, so won't make more edges show up
+option.LINE_THRESHOLD_CONTRAST=LINE CONTRAST THRESHOLD
+option.LINE_THRESHOLD_CONTRAST.comment=Higher threshold means less lines detected
+option.LINE_THRESHOLD_DEPTH=LINE DEPTH THRESHOLD
+option.LINE_THRESHOLD_DEPTH.comment=Higher threshold means less lines detected
+option.LINE_THRESHOLD_NORMAL=LINE NORMAL THRESHOLD
+option.LINE_THRESHOLD_NORMAL.comment=Higher threshold means less lines detected
+value.LINE_THRESHOLD_NORMAL.100.0=DISABLED
+
+
+option.SCANLINES.comment=Enables scanlines, emulating limited vertical resolution
+option.GHOSTING.comment=Enables ghosting due to phosphor fading
+option.CURVATURE_X=HORIZONTAL CURVATURE
+option.CURVATURE_X.comment=Emulate horizontal screen curvature
+option.CURVATURE_Y=VERTICAL CURVATURE
+option.CURVATURE_Y.comment=Emulate vertical screen curvature
+option.BLOOM_MIX=BLOOM MIX
+option.BLOOM_MIX.comment=The opacity of the bloom on top of the image
+option.BLOOM_SIZE=BLOOM SIZE
+option.BLOOM_SIZE.comment=The spread of the bloom

@@ -1,0 +1,255 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应在 Vanilla Plus 3.2 版本。
+
+option.INFO=Vanilla Plus by RRe36
+value.INFO.0=v3.2
+
+option.colorPreset=色调预设
+value.colorPreset.0=默认
+value.colorPreset.1=Alpha
+value.colorPreset.2=SEUS v08
+value.colorPreset.3=Chocapic v3
+value.colorPreset.4=Plunderpixel
+value.colorPreset.5=Rudoplays
+
+screen.ATMOS=氛围
+option.sunPathRotation=日月斜角
+
+screen.COLORS=颜色
+
+screen.SUNLIGHT=太阳光
+option.sunlightSunriseR=日出 -  红色
+option.sunlightSunriseG=日出 -  绿色
+option.sunlightSunriseB=日出 -  蓝色
+option.sunlightSunriseL=日出 -  倍率
+
+option.sunlightNoonR=正午 -  红色
+option.sunlightNoonG=正午 -  绿色
+option.sunlightNoonB=正午 -  蓝色
+option.sunlightNoonL=正午 -  倍率
+
+option.sunlightSunsetR=日落 -  红色
+option.sunlightSunsetG=日落 -  绿色
+option.sunlightSunsetB=日落 -  蓝色
+option.sunlightSunsetL=日落 -  倍率
+
+option.sunlightNightR=夜晚 -  红色
+option.sunlightNightG=夜晚 -  绿色
+option.sunlightNightB=夜晚 -  蓝色
+option.sunlightNightL=夜晚 -  倍率
+
+
+screen.SKYLIGHT=天空光
+option.skylightSunriseR=日出 -  红色
+option.skylightSunriseG=日出 -  绿色
+option.skylightSunriseB=日出 -  蓝色
+option.skylightSunriseL=日出 -  倍率
+
+option.skylightNoonR=正午 -  红色
+option.skylightNoonG=正午 -  绿色
+option.skylightNoonB=正午 -  蓝色
+option.skylightNoonL=正午 -  倍率
+
+option.skylightSunsetR=日落 -  红色
+option.skylightSunsetG=日落 -  绿色
+option.skylightSunsetB=日落 -  蓝色
+option.skylightSunsetL=日落 -  倍率
+
+option.skylightNightR=夜晚 -  红色
+option.skylightNightG=夜晚 -  绿色
+option.skylightNightB=夜晚 -  蓝色
+option.skylightNightL=夜晚 -  倍率
+
+
+screen.FOGCOL=雾气
+option.fogcolSunriseR=日出 -  红色
+option.fogcolSunriseG=日出 -  绿色
+option.fogcolSunriseB=日出 -  蓝色
+option.fogcolSunriseL=日出 -  倍率
+
+option.fogcolNoonR=正午 -  红色
+option.fogcolNoonG=正午 -  绿色
+option.fogcolNoonB=正午 -  蓝色
+option.fogcolNoonL=正午 -  倍率
+
+option.fogcolSunsetR=日落 -  红色
+option.fogcolSunsetG=日落 -  绿色
+option.fogcolSunsetB=日落 -  蓝色
+option.fogcolSunsetL=日落 -  倍率
+
+option.fogcolNightR=夜晚 -  红色
+option.fogcolNightG=夜晚 -  绿色
+option.fogcolNightB=夜晚 -  蓝色
+option.fogcolNightL=夜晚 -  倍率
+
+
+screen.SKY=天空
+option.skycolSunriseR=日出 -  红色
+option.skycolSunriseG=日出 -  绿色
+option.skycolSunriseB=日出 -  蓝色
+option.skycolSunriseL=日出 -  倍率
+
+option.skycolNoonR=正午 -  红色
+option.skycolNoonG=正午 -  绿色
+option.skycolNoonB=正午 -  蓝色
+option.skycolNoonL=正午 -  倍率
+
+option.skycolSunsetR=日落 -  红色
+option.skycolSunsetG=日落 -  绿色
+option.skycolSunsetB=日落 -  蓝色
+option.skycolSunsetL=日落 -  倍率
+
+option.skycolNightR=夜晚 -  红色
+option.skycolNightG=夜晚 -  绿色
+option.skycolNightB=夜晚 -  蓝色
+option.skycolNightL=夜晚 -  倍率
+
+
+screen.CLOUDS=云层
+option.cloudVolumeEnabled=体积云
+option.cloudVolumeStoryMode=故事模式风格云层
+option.cloudVolumeRounding=边缘锐化
+option.cloudVolumeSamples=采样值
+option.cloudVolumeAlt=高度
+option.cloudVolumeDepth=厚度
+option.cloudVolumeClip=最大渲染距离
+
+screen.FOG=雾气
+option.fogEnabled=雾气
+option.fogStart=雾气起始距离
+option.fogFalloff=雾气渐消距离
+
+screen.GODRAYS=光轴
+option.godraysEnabled=光轴
+option.godraySamples=采样值
+option.godrayIntensity=强度
+option.godraySize=规模
+
+screen.WATER=水
+option.customWaterNormals=自定义水波法线
+option.customWaterColor=自定义颜色
+option.waterRed=红色
+option.waterGreen=绿色
+option.waterBlue=蓝色
+option.waterAlpha=透明度
+option.waterFogEnabled=水雾
+option.waterFogFalloff=水雾渐消距离
+option.waterFogVanillaColor=使用表层颜色
+option.waterFogVanillaColor.comment=当雾气溢出水面时使用表面颜色来调和雾气本身的颜色. 保持原版水生群系的视觉完整性.
+option.waterFogRed=红色
+option.waterFogGreen=绿色
+option.waterFogBlue=蓝色
+
+screen.LIGHTING=照明
+option.shadowMapResolution=阴影分辨率
+option.shadowFilterIterations=过滤迭代
+option.shadowFilterSize=过滤尺寸
+option.disableFoliageShadows=移除植被阴影
+option.ssaoEnabled=环境光遮蔽 (SSAO)
+option.UseLightleakPrevention=防止阳光泄露
+option.UseLightleakPrevention.comment=在大型悬崖和半露天洞穴等处消除阳光.
+
+screen.TERRAIN=表面
+option.normalmapEnabled=法线图
+option.normalmapFormat=格式
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.windEffectsEnabled=风效应
+option.windIntensity=强度
+
+screen.REFLECTIONS=反射
+option.reflectionsEnabled=反射
+option.resourcepackReflectionsEnabled=资源包反射
+option.specularHighlightsEnabled=高亮高光
+option.roughReflectionsEnabled=粗糙反射
+option.roughReflectionSamples=采样值
+option.screenspaceReflectionsEnabled=屏幕空间反射
+option.reflectionCaptureEnabled=反射捕获
+option.reflectionCaptureEnabled.comment=仍在开发,可能会导致某些场景出现视觉伪影!
+option.roughnessThreshold=粗糙度阈值
+option.skyOcclusionThreshold=天空遮蔽阈值
+
+screen.CAMERA=镜头
+option.camSensorWidth=传感器宽度(mm)
+option.camFStops=光圈
+option.anamorphStretch=镜头变形强度
+
+screen.BLOOM=泛光
+option.bloomEnabled=启用
+option.bloomIntensity=强度
+
+screen.DOF=景深
+option.DoFToggle=景深启用
+option.DoFQuality=景深质量
+value.DoFQuality.0=低 (30 采样值)
+value.DoFQuality.1=中 (50 采样值)
+value.DoFQuality.2=高 (75 采样值)
+option.DoFChromaDispersion=色散
+option.chromaOffsetScale=色散偏移强度
+option.camFocus=对焦模式
+value.camFocus.0=自动
+value.camFocus.1=手动
+value.camFocus.2=手动PLUS
+value.camFocus.3=自动PLUS
+option.camManFocDis=对焦距离
+suffix.camManFocDis=  m
+option.showFocusPlane=显示对焦平面
+
+screen.EXPOSURE=曝光
+option.exposureDecay=曝光衰减
+option.exposureBias=曝光偏移
+option.exposureDarkClamp=暗部阈值
+option.exposureBrightClamp=亮部阈值
+option.manualExposureEnabled=手动曝光控制
+option.manualExposureValue=手动曝光值
+
+screen.FLARE=镜头眩光
+option.legacyFlareToggle=镜头眩光
+option.legacyFlareIntensity=眩光强度
+
+screen.MBLUR=动态模糊
+option.motionblurToggle=动态模糊
+option.motionblurSamples=采样值
+option.motionblurScale=强度
+
+screen.VIGNETTE=暗角
+option.vignetteEnabled=暗角
+option.vignetteStart=暗角起始处
+option.vignetteEnd=暗角消失处
+option.vignetteIntensity=强度
+option.vignetteExponent=指数
+
+screen.POST=后期处理
+option.imageSharpenEnabled=图像锐化
+option.screenBitdepth=输出位深
+option.taaEnabled=抗锯齿 (TAA)
+option.VIEWPORT_GAMUT=色域显示
+option.VIEWPORT_GAMUT.comment=此设置允许您选择与显示器匹配的颜色空间,以确保显示正确的外观. 假设所选颜色空间的伽马响应正确. 本选项在 Iris 中无效, 因为 Iris 内置显示色域管理支持. 请在视频设置中自行设定.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.CGRADE=颜色分级
+option.doColorgrading=启用颜色分级
+option.vibranceInt=自然饱和度
+option.saturationInt=饱和度
+option.gammaCurve=伽马曲线
+option.brightnessInt=亮度
+option.constrastInt=对比度
+option.colorlumR=红色增益
+option.colorlumG=绿色增益
+option.colorlumB=蓝色增益
+
+screen.FTOOL=框选工具
+option.framingToolEnabled=启用框选
+option.framingThirdsHor=黄金分割
+option.framingToAspect=纵横比
+option.framingAspectX=横向比值
+option.framingAspectY=纵向比值
+option.framingToAspectCenter=中心
+
+#额外汉化接口
+profile.Default=默认
+profile.Fancy=绚丽
+profile.Fast=流畅

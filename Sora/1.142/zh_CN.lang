@@ -1,0 +1,184 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Sola Shaders 1.142 版本。
+
+#Main
+screen.PostProcess =后期处理
+option.COLOR_LENS=绿色样式预设
+value.COLOR_LENS.0=Luma
+value.COLOR_LENS.1=Half Luma
+value.COLOR_LENS.2=Defualt Minecraft
+value.COLOR_LENS.3=Wildlands
+
+
+option.LIGHTING_STYLE=颜色配置
+value.LIGHTING_STYLE.0=SORA
+value.LIGHTING_STYLE.1=VAPU
+value.LIGHTING_STYLE.2=GTAV
+value.LIGHTING_STYLE.3=Cherry
+value.LIGHTING_STYLE.4=Warthunder
+value.LIGHTING_STYLE.5=Gmod
+value.LIGHTING_STYLE.6=CARY
+value.LIGHTING_STYLE.7=PINK
+value.LIGHTING_STYLE.8=Firewatch
+value.LIGHTING_STYLE.9=Render
+value.LIGHTING_STYLE.10=Wildlands
+value.LIGHTING_STYLE.11=LUMA
+value.SKY_STYLE.0=天空盒样式一
+value.SKY_STYLE.1=天空盒样式二
+option.LUMA_STYLE=LUMA
+value.LUMA_STYLE.0=Normal
+value.LUMA_STYLE.1=Less
+value.LUMA_STYLE.2=None
+
+
+
+option.DIST_DARK=距离黑暗效果
+value.DIST_DARK.0=关
+value.DIST_DARK.1=开
+  
+option.FOGD=雾气密度
+option.FOGSD=雾气起始距离
+option.FRES=水体菲涅尔指数
+option.SRWW=天空反射在水面的比重
+option.FOGY=雾气模式
+value.FOGY.0=默认
+value.FOGY.1=Luma
+option.RT=红色
+option.GT=绿色
+option.BT=蓝色
+
+option.TR=火把照明半径
+option.TB=火把照明亮度
+
+
+option.AS=环境光强度
+option.SS=太阳光强度
+
+option.MR=环境光 清晨 红色
+option.MG=环境光 清晨 绿色 
+option.MB=环境光 清晨 蓝色
+
+option.NR=环境光 中午 红色
+option.NG=环境光 中午 绿色 
+option.NB=环境光 中午 蓝色
+
+option.KR=环境光 夜晚 红色 
+option.KG=环境光 夜晚 绿色
+option.KB=环境光 夜晚 蓝色
+
+option.SMR=太阳光 清晨 红色
+option.SMG=太阳光 清晨 绿色 
+option.SMB=太阳光 清晨 蓝色
+
+option.SNR=太阳光 中午 红色
+option.SNG=太阳光 中午 蓝色 
+option.SNB=太阳光 中午 绿色 
+
+option.SKR=太阳光 夜晚 红色 
+option.SKG=太阳光 夜晚 绿色 
+option.SKB=太阳光 夜晚 蓝色
+
+option.MS=环境光 清晨 颜色强度
+option.NS=环境光 中午 颜色强度
+option.KS=环境光 夜晚 颜色强度
+
+option.SMS=太阳光 清晨 颜色强度 
+option.SNS=太阳光 中午 颜色强度
+option.SKS=太阳光 夜晚 颜色强度
+
+
+#Shadows
+option.shadowMapResolution=阴影分辨率
+option.shadowDistance=阴影距离
+option.SOFT_SHADOWS=柔和阴影
+option.FIX_SUNLIGHT_LEAK=修复地下阳光泄露
+option.FIX_SUNLIGHT_LEAK.comment=通过将阳光与洞穴的光线相乘来解决地下泄露的阳光.
+
+#Reflections
+option.PBR=基于物理的渲染
+option.SSR_METHOD=屏幕空间反射方式
+value.SSR_METHOD.0=镜像
+value.SSR_METHOD.1=路径追踪
+option.SSR_METHOD.comment=镜像:速度快得多,但不准确. 路径追踪:传统的屏幕空间反射(SSR)
+
+#Environment
+option.AMBIENT_OCCLUSION=环境光吸收
+option.GODRAYS=光轴
+option.WINDY_TERRAIN=地表风效应
+option.WIND_SPEED=风速
+
+#Effects
+option.DISTANCE_BLUR=距离模糊
+option.RAINDROP_REFRACTION=雨水折射
+option.MOTIONBLUR=动态模糊
+option.MOTIONBLUR.comment=仅推荐在高帧率的情况下使用.
+option.MOTIONBLUR_AMOUNT=动态模糊强度
+option.DEPTH_OF_FIELD=景深
+
+#Reflections -> PBR
+option.PBR_FORMAT=PBR格式
+option.PBR_FORMAT.comment=选择与你的资源包相匹配的格式. 默认: r = 光滑度; g = 金属度.
+option.NORMAL_MAP_BUMPMULT=法线贴图凹凸
+
+#Reflections -> PBR
+value.PBR_FORMAT.0=默认
+value.PBR_FORMAT.1=灰度 (经典)
+value.PBR_FORMAT.2=Pulchra + Continuum Addon
+value.PBR_FORMAT.3=Chroma Hills
+
+#PostProcess
+option.CHROMATIC_ABERRATION=色度偏差
+option.LENS_FLARE=镜头眩光
+option.VIGNETTE=暗角
+option.FILM_GRAIN=胶片纹路
+option.CINEMATIC_MODE=电影模式
+
+
+#Tonemapping
+option.EXPOSURE=曝光
+option.SATURATION=饱和度
+option.CONTRAST=对比度
+
+#额外汉化接口
+profile.Lite=低
+profile.Cinematic=电影
+profile.Ultra=超高
+profile.Medium=中
+
+screen.Fog=雾气设置
+
+option.FOGT=FOGT
+velue.FOGT.0=样式一
+velue.FOGT.1=样式二
+
+
+screen.Colors=颜色设置
+
+screen.Torch=火把
+
+screen.CustomStyle=自定义风格
+
+
+screen.Shadows=阴影设置
+
+
+screen.Environment=环境设置
+
+
+screen.Tonemapping=色调映射
+
+
+screen.Effects=特殊效果
+
+
+screen.Reflections=反射设置
+
+
+screen.Water=水体设置
+
+screen.Color=颜色
+option.RW=水 - 红色
+option.GW=水 - 绿色
+option.BW=水 - 蓝色

@@ -1,0 +1,101 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 RRe36's Shader v10.1 版本。
+option.INFO=RRe36's Shader
+value.INFO.0=v10.0
+
+option.shadowMapResolution=阴影分辨率
+option.s_shadowLuminance=阴影照明
+
+option.setAmbientOcclusion=环境光遮蔽
+option.setAOQuality=环境光遮蔽质量
+value.setAOQuality.0=低
+value.setAOQuality.1=中
+value.setAOQuality.2=高
+
+screen.cloud=云层
+
+option.s_cloudMode=云层模式
+value.s_cloudMode.0=2D
+value.s_cloudMode.1=体积云
+option.s_vcAltitude=高度
+option.s_vcSamples=采样值
+option.s_vcSamples.comment=仅影响体积云.
+option.s_vcLightingQuality=照在体积云层上的光照质量
+value.s_vcLightingQuality.0=低
+value.s_vcLightingQuality.1=高
+option.s_vcAltitude=高度
+option.s_vcThickness=厚度
+option.s_vcThickness.comment=同样影响2D云层的照明
+option.s_vcCoverage=覆盖率
+option.s_vcDensity=密度
+option.s_vcDetail=细节
+option.s_vcDetail.comment=仅影响体积云
+value.s_vcDetail.0=高
+value.s_vcDetail.1=极高
+
+option.setFog=雾气
+option.s_fogStart=雾气起始距离
+option.s_fogExp=指数
+
+option.s_godrays=体积光
+option.s_godraySamples=采样值
+option.s_godrayLength=长度
+option.s_godrayStrength=强度
+
+option.setBloom=泛光
+option.setMotionblur=运动模糊
+option.mBlurSamples=运动模糊采样值
+option.temporalAA=时间性抗锯齿(TAA)
+option.setWindEffect=风效应
+
+screen.Textures=纹理和世界
+
+option.s_usePBR=使用PBR贴图
+option.s_usePBR.comment=启用资源包PBR贴图应用. 目前只支持labPBR.
+option.s_useTexAO=使用基于贴图的环境光遮蔽
+option.s_useTexEmission=使用基于贴图的发光
+option.s_porosity=孔隙率近似值
+
+option.s_useNormal=法线贴图
+option.setNormalFlatten=扁平化法线
+
+option.expMethod=自动曝光
+option.expMethod.comment=启用自动曝光模式.
+value.expMethod.0=时间性
+value.expMethod.1=基于图像
+value.expMethod.2=经典
+value.expMethod.3=Dummy (别用这个)
+
+option.s_ssr=屏幕空间反射
+
+option.s_ssrQuality=屏幕空间反射质量
+value.s_ssrQuality.0=低
+value.s_ssrQuality.1=高
+value.s_ssrQuality.2=极高
+
+option.s_rainPuddles=雨水坑
+
+#额外汉化接口
+
+profile.Low=低
+profile.Medium=中
+profile.High=高
+
+screen.Ambient=环境
+
+
+option.s_skyReflection=天空反射
+option.s_cloudReflection=云层反射
+
+screen.Water=水体
+
+option.s_waterR=水体颜色 - 红色
+option.s_waterG=水体颜色 - 绿色
+option.s_waterB=水体颜色 - 蓝色
+option.s_waterLuma=水体 - 亮度
+option.s_waterOpacity=水体 - 不透明度
+
+
+screen.Effects=特殊效果

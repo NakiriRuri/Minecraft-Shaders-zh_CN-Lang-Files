@@ -1,0 +1,201 @@
+option.INFO=Potato Shaders by RRe36
+value.INFO.0=v1.0d
+
+screen.ATMOS=Atmosphere
+
+option.sunPathRotation=Sun Path Angle
+option.transparencyBlurEnabled=Transparency Blur
+
+screen.COLORS=Colors
+
+screen.SUNLIGHT=Sunlight
+
+option.sunlightSunriseR=Sunrise Red
+option.sunlightSunriseG=Sunrise Green
+option.sunlightSunriseB=Sunrise Blue
+option.sunlightSunriseL=Sunrise Multi
+
+option.sunlightNoonR=Noon Red
+option.sunlightNoonG=Noon Green
+option.sunlightNoonB=Noon Blue
+option.sunlightNoonL=Noon Multi
+
+option.sunlightSunsetR=Sunset Red
+option.sunlightSunsetG=Sunset Green
+option.sunlightSunsetB=Sunset Blue
+option.sunlightSunsetL=Sunset Multi
+
+option.sunlightNightR=Night Red
+option.sunlightNightG=Night Green
+option.sunlightNightB=Night Blue
+option.sunlightNightL=Night Multi
+
+
+screen.SKYLIGHT=Skylight
+
+option.skylightSunriseR=Sunrise Red
+option.skylightSunriseG=Sunrise Green
+option.skylightSunriseB=Sunrise Blue
+option.skylightSunriseL=Sunrise Multi
+
+option.skylightNoonR=Noon Red
+option.skylightNoonG=Noon Green
+option.skylightNoonB=Noon Blue
+option.skylightNoonL=Noon Multi
+
+option.skylightSunsetR=Sunset Red
+option.skylightSunsetG=Sunset Green
+option.skylightSunsetB=Sunset Blue
+option.skylightSunsetL=Sunset Multi
+
+option.skylightNightR=Night Red
+option.skylightNightG=Night Green
+option.skylightNightB=Night Blue
+option.skylightNightL=Night Multi
+
+
+screen.FOGCOL=Fog
+
+option.fogcolSunriseR=Sunrise Red
+option.fogcolSunriseG=Sunrise Green
+option.fogcolSunriseB=Sunrise Blue
+option.fogcolSunriseL=Sunrise Multi
+
+option.fogcolNoonR=Noon Red
+option.fogcolNoonG=Noon Green
+option.fogcolNoonB=Noon Blue
+option.fogcolNoonL=Noon Multi
+
+option.fogcolSunsetR=Sunset Red
+option.fogcolSunsetG=Sunset Green
+option.fogcolSunsetB=Sunset Blue
+option.fogcolSunsetL=Sunset Multi
+
+option.fogcolNightR=Night Red
+option.fogcolNightG=Night Green
+option.fogcolNightB=Night Blue
+option.fogcolNightL=Night Multi
+
+
+screen.SKY=Sky
+
+option.skycolSunriseR=Sunrise Red
+option.skycolSunriseG=Sunrise Green
+option.skycolSunriseB=Sunrise Blue
+option.skycolSunriseL=Sunrise Multi
+
+option.skycolNoonR=Noon Red
+option.skycolNoonG=Noon Green
+option.skycolNoonB=Noon Blue
+option.skycolNoonL=Noon Multi
+
+option.skycolSunsetR=Sunset Red
+option.skycolSunsetG=Sunset Green
+option.skycolSunsetB=Sunset Blue
+option.skycolSunsetL=Sunset Multi
+
+option.skycolNightR=Night Red
+option.skycolNightG=Night Green
+option.skycolNightB=Night Blue
+option.skycolNightL=Night Multi
+
+
+screen.WATER=Water
+option.overrideWaterTexture=Override Texture
+option.overrideWaterTexture.comment=Enable this to use the custom water color you can configure below
+option.waterColorRed=Red
+option.waterColorGreen=Green
+option.waterColorBlue=Blue
+option.waterColorAlpha=Alpha
+option.waterFogRed=Fog Red
+option.waterFogGreen=Fog Green
+option.waterFogBlue=Fog Blue
+option.waterFogFalloff=Water Fog Falloff
+
+option.vanillaFogColor=Vanilla Fog Color
+option.vanillaSkyColor=Vanilla Sky Color
+
+
+screen.FOG=Fog
+
+option.fogEnabled=Fog
+option.fogStart=Start Offset
+option.fogFalloff=Falloff
+option.waterFogEnabled=Water Fog
+
+
+screen.LIGHTING=Lighting
+
+option.ambientOcclusionToggle=SSAO
+option.directionalSSAO=Directional SSAO
+option.directionalSSAO.comment=Adds extra detail to the AO by using the normalmaps
+option.outlineShimmerToggle=Outline Shimmer
+
+
+screen.TERRAIN=Terrain
+
+option.normalmapEnabled=Normalmaps
+option.normalmapFormat=Format
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.windEffectsEnabled=Wind Effects
+option.windIntensity=Intensity
+
+
+screen.CAMERA=Camera
+
+option.camSensorWidth=Sensor Width
+option.camFStops=F-Stops
+option.filmGrainStrength=Film Grain Strength
+
+screen.BLOOM=Bloom
+option.bloomEnabled=Enabled
+option.bloomIntensity=Intensity
+
+screen.DOF=Depth of Field
+option.DoFToggle=Enabled
+option.DoFQuality=Quality
+value.DoFQuality.0=Low
+value.DoFQuality.1=Medium
+value.DoFQuality.2=High
+option.DoFChromaDispersion=Chromatic Dispersion
+
+screen.MBLUR=Motionblur
+option.motionblurToggle=Enabled
+option.motionblurSamples=Samples
+option.motionblurScale=Scale
+
+screen.VIGNETTE=Vignette
+option.vignetteEnabled=Enabled
+option.vignetteStart=Start
+option.vignetteEnd=End
+option.vignetteIntensity=Intensity
+option.vignetteExponent=Exponent
+
+
+screen.POST=Post Processing
+
+option.imageSharpenEnabled=Image Sharpen
+option.screenBitdepth=Output Bitdepth
+option.taaEnabled=Temporal AA
+option.VIEWPORT_GAMUT=Display Gamut
+option.VIEWPORT_GAMUT.comment=This setting allows you to select the colour space that matches your display to ensure the intended look. Correct gamma response for the selected colour space is assumed. This setting is ignored on Iris in favour of its built in display gamut management. Please set this value in the Video settings there.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.CGRADE=Color-Grading
+option.doColorgrading=Color-Grading
+option.vibranceInt=Vibrance
+option.saturationInt=Saturation
+option.gammaCurve=Gamma Curve
+option.brightnessInt=Brightness
+option.constrastInt=Contrast
+option.colorlumR=Red Gain
+option.colorlumG=Green Gain
+option.colorlumB=Blue Gain
+
+screen.FTOOL=Framing Tool
+
+
+screen.MISC=Misc & Internal

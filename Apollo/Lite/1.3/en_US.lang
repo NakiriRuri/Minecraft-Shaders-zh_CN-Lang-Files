@@ -1,0 +1,85 @@
+#shaders/lang/en_US.lang
+
+option.HEADER = Apollo RT | By
+    value.HEADER.0 = snurf
+
+screen.RAYTRACING=Ray Tracing
+screen.MATERIALS=Materials
+screen.SKY=Environment
+screen.GAMEPLAY=Gameplay Features
+screen.POST=Post Processing
+
+screen.FILTER=Denoiser Options
+screen.CAUSTICS=Caustics Options
+
+option.SAMPLES=Samples
+option.MAX_RAY_DIST=Max Ray Steps
+option.MAX_ACCUM_FRAMES=Max Accumulated Frames
+option.ROUGH_REFLECTIONS=Rough Reflections
+option.ALPHA_TEST=Translucency Detection
+option.ADDITIONAL_AO_APPLICATION=Ambient Occlusion
+option.SHADING_CLARITY=Filter Quality
+    value.SHADING_CLARITY.0=Low
+    value.SHADING_CLARITY.1=Default
+    value.SHADING_CLARITY.2=High
+    value.SHADING_CLARITY.3=Screenshot
+
+screen.LIGHTING=Lighting
+
+screen.SUN=Sun
+screen.CLOUDS=Clouds
+screen.FOG=Fog
+screen.ATMOSPHERE=Atmosphere
+
+option.SUN_BRIGHTNESS=Sun Brightness
+option.MOON_BRIGHTNESS=Moon Brightness
+option.SUN_SIZE=Sun Size
+option.SUNLIGHT_GI_BOOST=Sunlight GI Boost
+
+option.CLOUDS_ENABLED=Volumetric Clouds Enabled
+option.PLANAR_CLOUDS_ENABLED=Planar Clouds Enabled
+
+screen.SHAPING=Shaping
+screen.CLOUD_LIGHTING=Lighting
+
+option.GROUND_ATMOSPHERE_DENSITY=Ground Atmospheric Density
+
+screen.WATER=Water
+screen.EMITTERS=Emitters
+screen.PLANTS=Plants
+option.WHITE_WORLD=White World
+
+screen.FLASHLIGHT=Flashlight Options
+option.FLASHLIGHT_MODE=Flashlight Mode
+value.FLASHLIGHT_MODE.0=OFF
+value.FLASHLIGHT_MODE.1=Night only
+value.FLASHLIGHT_MODE.2=Holding light source
+option.FLASHLIGHT_TEMP=Beam temperature
+option.FLASHLIGHT_LAG_AMOUNT=Sway
+option.FLASLIGHT_BRIGHTNESS=Brightness
+option.FLASHLIGHT_WIDTH=Beam width
+
+screen.SURVIVOR_SENSE=Survivor Sense Options
+option.SURVIVOR_SENSE_ENABLED=Enabled
+option.SURVIVOR_SENSE_ALWAYS_ACTIVE=Always ON
+
+option.HARDCORE_DARKNESS=Hardcore darkness
+
+screen.ACES=ACES
+screen.COLOUR_GRADING=Colour Grading
+screen.CAMERA_EFFECTS=Camera
+screen.TAA=TAA
+
+option.acesRRTSatOffset=RRT Saturation Offset
+option.acesODTSatOffset=ODT Saturation Offset
+
+option.COLOUR_GRADING=Colour Grading Enabled
+option.WHITE_BALANCE=White Balance
+
+option.GRADING_STYLE=Grading Preset
+value.GRADING_STYLE.0=Warm
+value.GRADING_STYLE.1=Vibrant
+
+option.POST_SHARPEN_WEIGHT=Sharpening Strength
+
+option.POST_SHARPEN_ENABLED=Enabled

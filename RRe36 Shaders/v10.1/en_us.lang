@@ -1,0 +1,74 @@
+option.INFO=RRe36's Shader
+value.INFO.0=v10.0
+
+option.shadowMapResolution=Shadow Resolution
+option.s_shadowLuminance=Shadow Illumination
+
+option.setAmbientOcclusion=Ambient Occlusion
+option.setAOQuality=Ambient Occlusion Quality
+value.setAOQuality.0=Low
+value.setAOQuality.1=Medium
+value.setAOQuality.2=High
+
+screen.cloud=Clouds
+
+option.s_cloudMode=Clouds Mode
+value.s_cloudMode.0=2D
+value.s_cloudMode.1=Volumetric
+option.s_vcAltitude=Altitude
+option.s_vcSamples=Samples
+option.s_vcSamples.comment=Only affects volumetrics
+option.s_vcLightingQuality=Lighting Quality
+value.s_vcLightingQuality.0=Low
+value.s_vcLightingQuality.1=High
+option.s_vcAltitude=Altitude
+option.s_vcThickness=Thickness
+option.s_vcThickness.comment=Can also influence lighting on 2D clouds
+option.s_vcCoverage=Coverage
+option.s_vcDensity=Density
+option.s_vcDetail=Detail
+option.s_vcDetail.comment=Only affects volumetrics
+value.s_vcDetail.0=High
+value.s_vcDetail.1=Ultra
+
+option.setFog=Fog
+option.s_fogStart=Start
+option.s_fogExp=Exponent
+
+option.s_godrays=Godrays
+option.s_godraySamples=Samples
+option.s_godrayLength=Length
+option.s_godrayStrength=Intensity
+
+option.setBloom=Bloom
+option.setMotionblur=Motionblur
+option.mBlurSamples=Motionblur Samples
+option.temporalAA=Temporal AA
+option.setWindEffect=Wind Effects
+
+screen.Textures=Textures and World
+
+option.s_usePBR=Use Texture PBR
+option.s_usePBR.comment=Enable the use of the resourcepack pbr texture attributes. Only labPBR is supported atm.
+option.s_useTexAO=Use Texture AO
+option.s_useTexEmission=Use Texture Emission
+option.s_porosity=Porosity Approximation
+
+option.s_useNormal=Texture Normal
+option.setNormalFlatten=Flatten Normal
+
+option.expMethod=Auto Exposure
+option.expMethod.comment=Set the auto exposure mode.
+value.expMethod.0=Temporal
+value.expMethod.1=Image Based
+value.expMethod.2=Legacy
+value.expMethod.3=Dummy (don't use)
+
+option.s_ssr=Screenspace Reflections
+
+option.s_ssrQuality=SSR Quality
+value.s_ssrQuality.0=Low
+value.s_ssrQuality.1=High
+value.s_ssrQuality.2=Ultra
+
+option.s_rainPuddles=Rain Puddles

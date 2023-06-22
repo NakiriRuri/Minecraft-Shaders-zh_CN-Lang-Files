@@ -1,0 +1,268 @@
+
+///////////////////////////////////////////////////////////
+// DEPTH OF FIELD
+///////////////////////////////////////////////////////////
+
+screen.DEPTH_OF_FIELD=Depth Of Field
+
+option.DOF_MODE=DoF Type
+option.DOF_MODE.comment=Blurs non-focused objects, like a real camera. Adaptive Bokeh changes the quality based on the blur amount (inconsistent, but mostly better performance).
+value.DOF_MODE.0=OFF
+value.DOF_MODE.3=Bokeh
+value.DOF_MODE.4=Adaptive Bokeh
+
+option.DOF_MAXSIZE=Maximum Blur
+option.DOF_MAXSIZE.comment=Limits the strength of the DoF blur. Hides artifacts when using lower quality blur.
+value.DOF_MAXSIZE.0.005=Low
+value.DOF_MAXSIZE.0.007=Medium
+value.DOF_MAXSIZE.0.03=High
+value.DOF_MAXSIZE.1.0=Unlimited
+
+option.DOF_STRENGTH=DoF Intensity
+option.DOF_STRENGTH.comment=Intensity of the Depth of Field effect. With Adaptive Bokeh, lower values might be faster.
+
+option.DOF_DITHER=Dither DoF
+
+option.DOF_DOWNSAMPLING=DoF Downsampling Amount
+option.DOF_DOWNSAMPLING.comment=Amount of Downsampling that takes place for the Depth of Field effect. Does not affect performance. Reduces DoF artifacts, can create pixelation artifacts.
+
+option.DOF_KERNEL_SIZE=Bokeh Quality
+option.DOF_KERNEL_SIZE.comment=Quality of the blur. Significantly affects performance.
+value.DOF_KERNEL_SIZE.1=Low
+value.DOF_KERNEL_SIZE.2=Medium
+value.DOF_KERNEL_SIZE.3=High
+value.DOF_KERNEL_SIZE.4=Highest
+
+option.DOF_CHROMATIC_ABERRATION=DoF Chromatic Aberration
+option.DOF_CHROMATIC_ABERRATION.comment=Color Diffraction. It is advised to only turn one Chromatic Aberration effect on.
+value.DOF_CHROMATIC_ABERRATION.0=§cOFF
+
+
+///////////////////////////////////////////////////////////
+// SCREEN SPACE REFLECTIONS
+///////////////////////////////////////////////////////////
+
+screen.SSR=Reflections
+
+option.SSR_MODE=Reflection Mode
+value.SSR_MODE.0=Raytraced
+value.SSR_MODE.1=Flipped Image
+
+option.SSR_STEPS=Raytracing Quality
+option.SSR_STEPS.comment=Number of raytracing iterations. Lower is faster.
+
+option.SSR_DEPTH_TOLERANCE=Thickness Estimation Modifier
+option.SSR_DEPTH_TOLERANCE.comment=Increase this if the reflection blind spots annoy you. Influences assumption about how thick a pixel is. No performance impact.
+value.SSR_DEPTH_TOLERANCE.1000=Infinite
+
+option.SSR_REFLECTION_THRESHOLD=Reflection Threshold
+option.SSR_REFLECTION_THRESHOLD.comment=PBR only. Sets the minimum required reflectiveness in order for SSR to enable. Higher values may introduce reflection cutoffs.
+
+option.REFRACTION=Screen Space Refraction
+option.REFRACTION.comment=Distorts things seen through water.
+option.REFRACTION_AMOUNT=Refraction Strength
+
+option.GLASS_REFLECTIONS=Glass Reflections
+option.GLASS_REFLECTIONS.comment=Adds reflections to tinted glass blocks.
+
+///////////////////////////////////////////////////////////
+// WATER
+///////////////////////////////////////////////////////////
+
+screen.WATER=Water
+
+option.WATER_WAVES=Waves
+option.WATER_WAVES.comment="Physical" Waves. Moves the water surface.
+option.WATER_WAVE_AMOUNT=Wave Height
+
+option.WATER_NORMALS=Bump Mapping
+option.WATER_NORMALS_AMOUNT=Bump Amount
+option.WATER_NORMALS_AMOUNT.comment=Fake Waves, pretending to be real ones. Added detail.
+option.WATER_NORMALS_SIZE=Bump Size
+
+option.WATER_ABSORPTION_BIAS=Water Absorption Bias
+
+option.WATER_TEXTURE_VISIBLE=Water Texture
+
+///////////////////////////////////////////////////////////
+// POST-PROCESSING
+///////////////////////////////////////////////////////////
+
+screen.POST_PROCESSING=Post Processing
+
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.CHROMATIC_ABERRATION.comment=Color Diffraction.
+value.CHROMATIC_ABERRATION.0=OFF
+
+option.BLOOM=Bloom
+option.BLOOM.comment=Creates a glow around bright objects. Looks nice ;).
+option.BLOOM_AMOUNT=Bloom Strength
+
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR_STRENGTH=Motion Blur Intensity
+
+option.MOTION_BLUR_FULL=Realistic Motion Blur
+option.MOTION_BLUR_FULL.comment=With this option enabled, the camera rotation as well as the distance to the terrain will be taken into account. Otherwise, only player movement affects motion blur.
+
+option.MOTION_BLUR_SAMPLES=Motion Blur Quality
+value.MOTION_BLUR_SAMPLES.1=Low
+value.MOTION_BLUR_SAMPLES.4=High
+
+option.SCREEN_SPACE_AMBIENT_OCCLUSION=SSAO
+option.SCREEN_SPACE_AMBIENT_OCCLUSION.comment=Screen Space Ambient Occlusion. Makes cavities dark. High performance impact.
+
+option.SSAO_QUALITY=SSAO Quality
+value.SSAO_QUALITY.1=Low
+value.SSAO_QUALITY.2=Medium
+value.SSAO_QUALITY.3=High
+
+option.SSAO_STRENGTH=SSAO Strength
+
+screen.TAA_OPTIONS=TAA Options
+option.TAA.comment=Temporal Anti-Aliasing. Smooths edges at the cost of a slightly blurrier image. Might cause problems with OptiFine's high-res screenshot feature.
+option.TAA_BLEND=TAA Blending Constant
+option.TAA_BLEND.comment=Controls the opactity of the current frame. Set this value lower for smoother TAA.
+option.TAA_SHARPENING_AMOUNT=TAA Sharpening
+option.TAA_SHARPENING_AMOUNT.comment=Changes the strength of the sharpening effect.
+
+///////////////////////////////////////////////////////////
+// MATERIALS
+///////////////////////////////////////////////////////////
+
+screen.MATERIALS=Physically Based Rendering
+
+option.PBR_FORMAT=PBR Format
+value.PBR_FORMAT.1=LabPBR 1.3
+value.PBR_FORMAT.2=SeusPBR / OldPBR
+
+option.RESSOURCE_PACK_RESOLUTION=Ressource Pack Resolution
+
+option.PHYSICALLY_BASED=PBR
+option.PHYSICALLY_BASED.comment=Enables Physically Based Rendering. Make sure you enable Normal and Specular mapsm in the OptiFine shader options.
+
+option.PBR_BLEND=PBR Blend
+option.PBR_BLEND.comment=In order to stay closer to minecraft vanilla rendering, my shader blends between PBR and vanilla rendering. If you increase this value, the PBR effect will be stronger.
+
+option.HEIGHT_AO=Height as AO
+option.HEIGHT_AO.comment=Uses the Height information for Ambient occlusion
+
+option.FRAG_NORMALS=Normal Mapping Fix
+option.FRAG_NORMALS.comment=With newer OptiFine versions this might not be necessary. Enable this if normal maps do not show on entities or handheld objects.
+
+option.HARDCODED_METALS=Use Hardcoded Metals
+option.HARDCODED_METALS.comment=If disabled, the shader will use the color for the reflectance data. LabPBR only.
+
+option.SUBSURAFCE_SCATTERING=Subsurface Scattering
+
+option.PARALLAX_OCCLUSION=Parallax Occlusion Mapping
+option.PARALLAX_OCCLUSION.comment=Adds additional detail to blocks using the height map. Low performance impact. Can create artifacts at screen borders.
+screen.POM_OPTIONS=POM Options
+option.POM_DEPTH=POM Depth
+option.POM_DEPTH.comment=Specifies how deep the POM goes. Higher values will create artifacts.
+option.POM_DISTORTION=POM Distortion
+option.POM_DISTORTION.comment=Exaggerates the height map. Helps create more depth with small POM Depth values. Creates artifacts when used with high POM Depth values.
+option.POM_SMOOTH=Smooth POM
+option.POM_SMOOTH.comment=Smooths out the height map. Significantly reduces artifacts.
+
+option.PBR_AMBIENT_LIGHT_MULTIPLIER=Ambient light multiplier
+
+option.DIRECTIONAL_LIGHTMAP=Directional Lightmaps
+option.DIRECTIONAL_LIGHTMAP.comment=Applies normal mapping to dynamic lights. Requires a ressource pack with PBR support.
+option.DIRECTIONAL_LIGHTMAP_STRENGTH=Directional Lightmap Strength
+
+///////////////////////////////////////////////////////////
+// ATMOSPHERICS
+///////////////////////////////////////////////////////////
+
+screen.ATMOSPHERE=Atmospherics
+
+option.GODRAYS=Godrays
+option.GODRAY_STRENGTH=Godray Strength
+option.GODRAY_STEPS=Godray Steps
+option.GODRAY_SIZE=Godray Size
+
+option.FOG=Fog
+value.FOG.0=§cOFF
+value.FOG.1=Normal
+value.FOG.2=Border
+option.FOG_AMOUNT=Fog Amount
+
+option.SKY_SUNSET=Sunset
+option.SUNSET_FOG=Morning Fog
+option.SUNSET_FOG.comment=Increases fog amount during sunsets. Only works with fog in "Normal" mode. Requires fog and sunsets to be enabled.
+option.SUNSET_FOG_AMOUNT=Morning Fog Strength
+
+screen.SKY_OPTIONS=Sky Options
+option.SKY_DAY_R=Sky Day §cR
+option.SKY_DAY_G=Sky Day §aG
+option.SKY_DAY_B=Sky Day §9B
+option.SKY_NIGHT_R=Sky Night §cR
+option.SKY_NIGHT_G=Sky Night §aG
+option.SKY_NIGHT_B=Sky Night §9B
+option.SKY_SUNSET_R=Sky Sunset §cR
+option.SKY_SUNSET_G=Sky Sunset §aG
+option.SKY_SUNSET_B=Sky Sunset §9B
+
+option.END_SKY_UP_R=End Sky Upper §cR
+option.END_SKY_UP_G=End Sky Upper §aG
+option.END_SKY_UP_B=End Sky Upper §9B
+option.END_SKY_DOWN_R=End Sky Lower §cR
+option.END_SKY_DOWN_G=End Sky Lower §aG
+option.END_SKY_DOWN_B=End Sky Lower §9B
+
+
+///////////////////////////////////////////////////////////
+// CAMERA
+///////////////////////////////////////////////////////////
+
+screen.CAMERA=Camera and Tonemapping
+
+option.EXPOSURE=Exposure
+
+option.TONEMAP=Tonemapping
+value.TONEMAP.1=Custom Reinhard
+value.TONEMAP.2=Unreal
+
+option.CONTRAST=Contrast
+
+option.SATURATION=Saturation
+
+
+///////////////////////////////////////////////////////////
+// MISC
+///////////////////////////////////////////////////////////
+
+screen.MISC=Other Stuff
+
+option.OUTLINE=Outline
+option.OUTLINE_DISTANCE=Outline Distance
+value.OUTLINE.0=§cOFF
+value.OUTLINE.1=White
+value.OUTLINE.2=Black
+value.OUTLINE.3=Rainbow
+
+option.SELECTION_OUTLINE=Block Selection Outline
+option.SELECTION_OUTLINE.comment=§c§n/!\§r Only works with newer OptiFine versions (G7 or higher)
+value.SELECTION_OUTLINE.0=Black
+value.SELECTION_OUTLINE.1=White
+value.SELECTION_OUTLINE.2=Rainbow
+
+option.WAVY_BLOCKS=Wavy Blocks
+
+option.WAVY_LEAVES=Wavy Leaves
+
+option.HAND_INVISIBILITY_EFFECT=Hand Invisibility Effect
+option.HAND_INVISIBILITY_EFFECT.comment=Distorts handheld objects when invisible
+
+option.WORLD_CURVE=World Curvature
+option.WORLD_CURVE_RADIUS=World Radius
+
+option.WHITE_WORLD=White World
+
+option.TORCHLIGHT_EXTRA_BRIGHTNESS=Dynamic Light Brightness
+option.TORCHLIGHT_EXTRA_BRIGHTNESS.comment=Changes the brightness of light from emissive blocks.
+
+option.CREDITS=§k###
+//value.CREDITS.0=§r by §4D§cr§6D§ee§as§bt§3e§9n §r§k:###
+value.CREDITS.0=§r by §cDrDesten §r§k:###
+value.CREDITS.1=§r §aVersion 1.5.2 §r§k:###

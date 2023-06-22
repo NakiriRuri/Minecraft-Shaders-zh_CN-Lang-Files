@@ -1,0 +1,243 @@
+#shaders/lang/zh_cn.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 Sildur's+Basic+Shaders+v2.1+Fancy 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+# Change effect names through language instead of the shader itself
+# How to change names and comments:
+# option.EffectName=New effect name
+# option.EffectName.comment=Your comment.
+#
+# Change screen names through language instead of properties
+# How to change screen names and give them comments:
+# screen.ScreenName=New screen name
+# screen.ScreenName.comment=Your comment
+#
+# Tooltip lines ending with "!" are automatically shown red.
+# example: option.SHADOW_FILTER.comment=Smooth out shadows. Very small performance hit!.
+
+
+#Options
+#############################
+option.TAA_sharpness=TAA锐化
+
+option.HandLight=手持动态光源
+option.HandLight.comment=切换手持动态光源.
+
+option.Celshading=卡通轮廓
+option.Celshading.comment=给所有事物加上黑色的轮廓,渲染出类似手绘漫画的画面。就像《无主之地》一样.
+
+option.skyReflection=反射天空
+option.skyReflection.comment=反射并且混合默认天空颜色. 使水波更加明显. [开发中]
+
+option.Reflections=反射
+option.Reflections.comment=切换半透明等方块的反射,比如水,玻璃和冰.
+option.Refl_Quality=反射质量
+option.Refl_Quality.comment=调整反射质量. 质量模式提升了光线追踪器的精度,以性能为代价减少了故障.
+value.Refl_Quality.1=快速
+value.Refl_Quality.2=质量
+
+option.WaterReflection=水面反射
+option.WaterReflection.comment=从block.properties文件中添加自定义水体ID.
+option.TransparentReflections=半透明反射
+option.TransparentReflections.comment=从block.properties文件中调整反射方块.
+
+option.Depth_of_Field=景深
+option.Depth_of_Field.comment=模拟人眼对事物的聚焦. §4对性能影响小
+option.DoF_Strength=景深强度
+option.DoF_Strength.comment=改变模糊效果的强度.
+value.DoF_Strength.60=低
+value.DoF_Strength.90=默认
+value.DoF_Strength.120=高
+value.DoF_Strength.150=非常高
+
+option.smoothDof=平滑过渡
+option.smoothDof.comment=切换聚焦事物时,使 景深效果的清晰和模糊 过渡平滑.
+
+option.Distance_Blur=距离模糊
+option.Distance_Blur.comment=§4此功能需要启用景深. 用距离模糊代替眼睛聚焦的效果.
+
+option.Dof_Distance_View=模糊视距
+option.Dof_Distance_View.comment=调整模糊的起始视距范围.
+value.Dof_Distance_View.128=近(8区块)
+value.Dof_Distance_View.256=默认(16区块)
+value.Dof_Distance_View.384=远(24区块)
+value.Dof_Distance_View.512=非常远(32区块)
+
+option.Motionblur=动态模糊
+option.Motionblur.comment=在移动过程中模糊画面. 不能与景深同时启用.
+
+option.MB_strength=模糊强度
+option.MB_strength.comment=调整动态模糊强度.
+value.MB_strength.0.008=低
+value.MB_strength.0.014=默认
+value.MB_strength.0.020=高
+
+option.sunPathRotation=日月斜角
+option.sunPathRotation.comment=调整太阳和月亮的角度.
+value.sunPathRotation.-0.15f=默认(-15°)
+value.sunPathRotation.-40.0f=替选(-40°)
+
+option.Godrays=体积光
+option.Godrays.comment=切换体积光.
+option.grays_quality=体积光质量
+option.grays_quality.comment=调整体积光质量,快速模式低性能影响,质量模式导致高性能影响.
+value.grays_quality.1=快速
+value.grays_quality.2=质量
+option.grays_intensity=体积光强度
+
+option.Colored_Shadows=阴影着色
+option.Colored_Shadows.comment=切换阴影着色. 穿过彩色玻璃会获得彩色阴影.
+
+option.grass_shadows=草影
+option.grass_shadows.comment=切换草方块的阴影.
+
+option.shadowMapResolution=阴影分辨率
+option.shadowMapResolution.comment=调整阴影分辨率.
+value.shadowMapResolution.512=很低(512)
+value.shadowMapResolution.1024=低(1024)
+value.shadowMapResolution.2048=中2048)
+value.shadowMapResolution.3072=高3072)
+value.shadowMapResolution.4096=非常高(4096)
+value.shadowMapResolution.8192=极致(8192)
+
+option.shadowDistance=阴影距离
+option.shadowDistance.comment=调整阴影距离.
+value.shadowDistance.60.0=非常近(60)
+value.shadowDistance.90.0=近(90)
+value.shadowDistance.120.0=远(120)
+value.shadowDistance.150.0=非常远(150)
+value.shadowDistance.180.0=太远了(180)
+value.shadowDistance.210.0=最远(210)
+
+option.slight=照明强度
+option.slight.comment=调整阴影/照明的强度
+
+option.Whiteworld=白色世界
+option.Whiteworld.comment=使地面变成白色,主要用于调试. 添加这个选项是因为有很多人要求它. 我想它在截图时看起来还挺整洁的.
+
+option.waterTex=水面贴图
+option.waterTex.comment=调整资源包的水面贴图.
+
+option.MobsFlashRed=受伤动画
+option.MobsFlashRed.comment=让怪物和玩家受伤时有变红的动画效果.
+
+option.Colorboost=色彩增强
+option.Colorboost.comment=如果启用, 会获得比默认画面更鲜艳的效果.
+
+option.Waving_Leaves=树叶摇晃
+option.Waving_Leaves.comment=
+
+option.Waving_Vines=藤蔓摇晃
+option.Waving_Vines.comment=
+
+option.Waving_Grass=草摇晃
+option.Waving_Grass.comment=
+
+option.Waving_Tallgrass=高草丛摇晃
+option.Waving_Tallgrass.comment=
+
+option.Waving_Fire=火焰摇晃
+option.Waving_Fire.comment=
+
+option.Waving_Lanterns=灯笼摇晃
+
+option.Waving_Lava=岩浆摇晃
+option.Waving_Lava.comment=
+
+option.Waving_Water=水波摇晃
+option.Waving_Water.comment=同时作用于荷叶摇晃.
+
+option.waves_amplitude=水波幅度
+option.waves_amplitude.comment=调整水摇晃时的水波幅度.
+
+option.Waving_Entities=实体摇晃
+option.Waving_Entities.comment=包括: 树苗, 小型花朵, 小麦, 胡萝卜, 马铃薯和甜菜根.
+
+option.depthbuffer=深度缓冲区
+option.depthbuffer.comment=如果启用,则绘制深度缓冲区.
+
+option.draw_refnormals=绘制反射法线
+
+option.draw_bmap=绘制凹凸法线
+
+option.nMap=资源包支持
+option.nMap.comment=为资源包启用凹凸或视差支持,同时资源包必须支持这些功能.
+value.nMap.0=关
+value.nMap.1=凹凸映射
+value.nMap.2=视差
+
+option.POM_RES=资源包分辨率
+option.POM_RES.comment=将分辨率提高到超过资源包分辨率,使其更加平滑.
+option.POM_DEPTH=视差深度
+option.POM_DEPTH.comment=调整视差贴图的深度, 太高的值会看起来很奇怪.
+option.POM_DIST=视差距离
+option.POM_DIST.comment=调整视差贴图的渲染距离.
+
+option.ambientOcclusionLevel=默认原版环境光遮蔽(AO)
+option.ambientOcclusionLevel.comment=原版Minecraft有自己的环境光遮蔽.
+
+option.customLight=自定义光照
+option.customLight.comment=切换自定义光照,调整发光的颜色.
+option.emissive_R=红色
+option.emissive_G=绿色
+option.emissive_B=蓝色
+
+#自行添加
+
+profile.Fancy=质量
+profile.Very_Fast=非常快
+profile.Fast=快
+profile.Fast_MB=快+动态模糊
+profile.Fast_DoF=快+景深
+
+option.Refractions=折射
+
+option.Fog=雾气
+
+option.Tonemap=色调映射
+
+option.gamma=伽马值
+
+option.Crossprocess=交叉处理
+
+option.Shadows=阴影
+
+option.animationSpeed=摇晃动画速度
+#----------------------------------------------------
+
+#Screens
+screen.AA_SCREEN=抗锯齿
+screen.AA_SCREEN.comment=切换抗锯齿(TAA)和锐化功能.
+
+screen.AO_SCREEN=环境光遮蔽
+screen.AO_SCREEN.comment=切换环境光遮蔽(SSAO)并且调整原版环境光遮蔽.
+
+screen.COLOR_SCREEN=颜色
+screen.COLOR_SCREEN.comment=包含色彩增强和交叉处理(色彩过滤器).
+
+screen.DOF_SCREEN=景深
+screen.DOF_SCREEN.comment=调整景深相关的设置.
+
+screen.NORMALMAP_SCREEN=凹凸映射
+screen.NORMALMAP_SCREEN.comment=启用凹凸和视差效果,如果资源包支持的话.
+
+screen.MOTION_SCREEN=动态模糊
+screen.MOTION_SCREEN.comment=调整动态模糊相关的设置.
+
+screen.REFLECTIONS_SCREEN=反射
+screen.REFLECTIONS_SCREEN.comment=调整反射相关的设置.
+
+screen.SHADOWS_SCREEN=阴影
+screen.SHADOWS_SCREEN.comment=包含阴影相关的设置,比如阴影距离.
+
+screen.SKY_SCREEN=天空
+screen.SKY_SCREEN.comment=包含天空相关的设置,比如体积光.
+
+screen.WAVING_SCREEN=摇晃
+screen.WAVING_SCREEN.comment=包含草、小麦、树叶等.
+
+screen.MISC_SCREEN=杂项
+screen.MISC_SCREEN.comment=包含调试选项和别的东西.
+
+#----------------------------------------------------

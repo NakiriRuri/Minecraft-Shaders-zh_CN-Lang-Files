@@ -1,0 +1,137 @@
+#Main
+screen.PostProcess = Post Process
+option.COLOR_LENS=Green Color Multi
+value.COLOR_LENS.0=Luma
+value.COLOR_LENS.1=Half Luma
+value.COLOR_LENS.2=Defualt Minecraft
+value.COLOR_LENS.3=Wildlands
+
+
+option.LIGHTING_STYLE=Color Profile
+value.LIGHTING_STYLE.0=SORA
+value.LIGHTING_STYLE.1=VAPU
+value.LIGHTING_STYLE.2=GTAV
+value.LIGHTING_STYLE.3=Cherry
+value.LIGHTING_STYLE.4=Warthunder
+value.LIGHTING_STYLE.5=Gmod
+value.LIGHTING_STYLE.6=CARY
+value.LIGHTING_STYLE.7=PINK
+value.LIGHTING_STYLE.8=Firewatch
+value.LIGHTING_STYLE.9=Render
+value.LIGHTING_STYLE.10=Wildlands
+value.LIGHTING_STYLE.11=LUMA
+value.SKY_STYLE.0=First Skybox
+value.SKY_STYLE.1=Second Skybox
+option.LUMA_STYLE=LUMA
+value.LUMA_STYLE.0=Normal
+value.LUMA_STYLE.1=Less
+value.LUMA_STYLE.2=None
+
+
+
+option.DIST_DARK=Distance Darkness
+value.DIST_DARK.0=OFF
+value.DIST_DARK.1=ON
+  
+option.FOGD=Fog Density
+option.FOGSD=Fog Starting Distance
+option.FRES=Water Fresnel 
+option.SRWW=Sky Reflection Water Weight
+option.FOGY=Fog Mode
+value.FOGY.0=Defualt Fog
+value.FOGY.1=Luma Fog
+option.RT=Red
+option.GT=Green
+option.BT=Blue
+
+option.TR=Torch Radius
+option.TB=Torch Brightness
+
+
+option.AS=Ambient Strength
+option.SS=Sun Strength
+
+option.MR=Amb Morning Red
+option.MG=Amb Morning Green 
+option.MB=Amb Morning Blue
+
+option.NR=Amb Noon RED
+option.NG=Amb Noon Green 
+option.NB=Amb Noon Blue
+
+option.KR=Amb Night Red 
+option.KG=Amb Night Green
+option.KB=Amb Night Blue
+
+option.SMR=Sun Morning Red
+option.SMG=Sun Morning Green 
+option.SMB=Sun Morning Blue
+
+option.SNR=Sun Noon Red
+option.SNG=Sun Noon Blue 
+option.SNB=Sun Noon Green 
+
+option.SKR=Sun Night Red 
+option.SKG=Sun Night Green 
+option.SKB=Sun Night Blue
+
+option.MS=Amb Morning Color Strength
+option.NS=Amb Noon Color Strength
+option.KS=Amb Night Color Strength
+
+option.SMS=Sun Morning Color Strength 
+option.SNS=Sun Noon Color Strength
+option.SKS=Sun Night Color Strength
+
+
+#Shadows
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.SOFT_SHADOWS=Soft Shadows
+option.FIX_SUNLIGHT_LEAK=Fix Underground Light Leak
+option.FIX_SUNLIGHT_LEAK.comment=This will fix sunlight leaking in underground by multiplying the sunlight with the cavelight.
+
+#Reflections
+option.PBR=Physically Based Rendering
+option.SSR_METHOD=SSR Method
+value.SSR_METHOD.0=Mirrored
+value.SSR_METHOD.1=Raytrace
+option.SSR_METHOD.comment=Mirrored: Much faster but inaccurate. Raytrace: Traditional Screen Space Reflections (SSR)
+
+#Environment
+option.AMBIENT_OCCLUSION=Ambient Occlusion
+option.GODRAYS=Godrays
+option.WINDY_TERRAIN=Windy Terrain
+option.WIND_SPEED=Wind Speed
+
+#Effects
+option.DISTANCE_BLUR=Distance Blur
+option.RAINDROP_REFRACTION=Raindrop Refraction
+option.MOTIONBLUR=Motionblur
+option.MOTIONBLUR.comment=Only recommended with high framerate.
+option.MOTIONBLUR_AMOUNT=Motionblur Amount
+option.DEPTH_OF_FIELD=Depth of Field
+
+#Reflections -> PBR
+option.PBR_FORMAT=PBR Format
+option.PBR_FORMAT.comment=Select the format matching to your resource pack. Default: r = smoothness; g = metallic.
+option.NORMAL_MAP_BUMPMULT=Normal Map Bumpmult
+
+#Reflections -> PBR
+value.PBR_FORMAT.0=Default
+value.PBR_FORMAT.1=Greyscale (Legacy)
+value.PBR_FORMAT.2=Pulchra + Continuum Addon
+value.PBR_FORMAT.3=Chroma Hills
+
+#PostProcess
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.LENS_FLARE=Lens Flare
+option.VIGNETTE=Vignette
+option.FILM_GRAIN=Film Grain
+option.CINEMATIC_MODE=Cinematic Mode
+
+
+#Tonemapping
+option.EXPOSURE=Exposure
+option.SATURATION=Saturation
+option.CONTRAST=Contrast

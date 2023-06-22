@@ -1,0 +1,26 @@
+option.indirect_effect = Indirect Lighting
+value.indirect_effect.0 = Vanilla AO
+value.indirect_effect.1 = SSAO
+value.indirect_effect.2 = GTAO
+value.indirect_effect.3 = RTAO
+value.indirect_effect.4 = SSGI
+
+option.ambient_colortype = Coloring Type
+value.ambient_colortype.0 = Temperature
+value.ambient_colortype.1 = RGB
+
+option.DOF_QUALITY=Depth Of Field
+value.DOF_QUALITY.-1=Off
+value.DOF_QUALITY.0=Hexagonal
+value.DOF_QUALITY.1=Low
+value.DOF_QUALITY.2=Medium
+value.DOF_QUALITY.3=High
+value.DOF_QUALITY.4=Ultra
+option.DOF_ANAMORPHIC_RATIO=Anamorphic Ratio
+
+option.AEROCHROME_MODE=Aerochrome Mode
+option.AEROCHROME_MODE.comment=Infrared Film. Google "Aerochrome" to get an idea of what it does.
+option.AEROCHROME_PINKNESS=Aerochrome Red:Pink Ratio
+option.AEROCHROME_PINKNESS.comment=Higher = Pink. Lower = Red
+option.AEROCHROME_WOOL_ENABLED=Aerochrome Wool
+option.AEROCHROME_WOOL_ENABLED.comment=Technically wool things should be affected but it ruins a lot of builds. Enable to be more technically correct.

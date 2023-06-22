@@ -1,0 +1,69 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Simplicissimus v1.3a 版本。
+option.info=Simplicissimus by RRe36
+value.info.0=v1.3a
+
+option.shadowMapResolution=阴影分辨率
+option.hq_shadows=柔和阴影
+option.pixel_shadows=像素阴影 (WIP)
+option.pixel_shadow_res=像素大小
+
+option.sunPathRotation=太阳角度
+
+option.labpbr_enabled=labPBR 支持
+option.normalmap_enabled=法线贴图支持
+option.normalmap_enabled.comment=本选项随着 "labPBR 支持" 的启用而自动启用.
+
+option.taa_enabled=时间性抗锯齿(TAA)
+option.wind_effects=风效应
+option.fogIntensity=雾气浓度
+value.fogIntensity.0=关闭
+option.fogStart=雾气起始距离
+option.useMotionblur=动态模糊
+option.promoOutline_enabled=Promo 描边
+option.promoOutline_enabled.comment=在得到允许的情况下从 CaptTatsu 的 BSL 中获取代码.
+
+option.bloom=泛光
+option.bloomIntensity=泛光强度
+option.VIEWPORT_GAMUT=色域显示
+option.VIEWPORT_GAMUT.comment=此设置允许您选择与显示器匹配的颜色空间,以确保显示正确的外观. 假设所选颜色空间的伽马响应正确. 本选项在 Iris 中无效, 因为 Iris 内置显示色域管理支持. 请在视频设置中自行设定.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.colorgrade=颜色分级
+option.do_colorgrading=颜色分级
+option.vibrance_int=自然饱和度
+option.saturation_int=饱和度
+option.gamma_curve=伽马曲线
+option.brightness_int=亮度
+option.constrast_int=对比度
+option.colorlum_r=红色增益
+option.colorlum_g=绿色增益
+option.colorlum_b=蓝色增益
+
+option.vignette_enabled=暗角
+option.vignette_start=暗角起始处
+option.vignette_end=暗角消失处
+option.vignette_intensity=强度
+option.vignette_exponent=暗角渐消
+
+option.cloud_twolayer=第二实例云层
+option.cloud_twolayer.comment=当处于普通云层之上和实例云层之下的时候会出现糟糕的问题.
+option.s_secondCloudLayer=2D云层
+
+#额外汉化接口
+
+screen.Lighting=照明
+
+screen.Effects=特殊效果
+
+screen.Post=后期效果
+
+screen.Vignette=暗角
+
+screen.Misc=杂项
+
+option.noEntityLab=无实体Lab

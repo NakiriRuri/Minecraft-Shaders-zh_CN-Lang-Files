@@ -1,0 +1,116 @@
+{
+	"pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+	"pipeline.forgetmenot.desc": "Immersive shaders for Canvas",
+
+	"config.forgetmenot.category.atmosphere": "Atmosphere",
+	
+	"config.forgetmenot.name.sun_brightness": "Sun Brightness",
+	"config.forgetmenot.desc.sun_brightness": "Brightness of the sun. Affects the appearance of the sky as well as brightness of direct sunlight on the ground.",
+
+	"config.forgetmenot.name.sun_angle": "Sun Angle",
+	"config.forgetmenot.desc.sun_angle": "Angle of the sun azimuth.",
+
+	"config.forgetmenot.name.fog": "Fog",
+	"config.forgetmenot.desc.fog": "Enables atmospheric fog.",
+
+	"config.forgetmenot.category.clouds": "Clouds",
+
+	"config.forgetmenot.name.cumulus_clouds": "Enable Cumulus Clouds",
+	"config.forgetmenot.desc.cumulus_clouds": "Enables normal clouds",
+	"config.forgetmenot.name.cumulus_detail": "Cumulus Cloud Detail",
+	"config.forgetmenot.desc.cumulus_detail": "Number of noise octaves used for cumulus clouds, greatly affects performance.",
+
+	"config.forgetmenot.name.cirrus_clouds": "Enable Cirrus Clouds",
+	"config.forgetmenot.desc.cirrus_clouds": "Enables wispy clouds",
+	"config.forgetmenot.name.cirrus_detail": "Cirrus Cloud Detail",
+	"config.forgetmenot.desc.cirrus_detail": "Number of noise octaves used for cirrus clouds, greatly affects performance.",
+
+	"config.forgetmenot.name.curl_noise": "Curl Noise",
+	"config.forgetmenot.desc.curl_noise": "Wind-like noise effects on the clouds. Slightly affects performance.",
+
+	"config.forgetmenot.category.lighting": "Lighting",
+
+	"config.forgetmenot.name.emission": "Emission Brightness",
+	"config.forgetmenot.desc.emission": "Brightness of emissive objects like glowstone. Doesn't affect the lighting itself.",
+
+	"config.forgetmenot.name.handheld_light": "Handheld Light",
+	"config.forgetmenot.desc.handheld_light": "Enables colored handheld light.",
+
+	"config.forgetmenot.name.blocklight_warmth": "Block Light Warmth",
+	"config.forgetmenot.desc.blocklight_warmth": "Controls how warm the block light color is.",
+
+	"config.forgetmenot.name.ambient_brightness": "Base Ambient Brightness",
+	"config.forgetmenot.desc.ambient_brightness": "How much ambient lighting is added everywhere, regardless of dimension, blocklight, or skylight.",
+
+	"config.forgetmenot.name.fullbright": "Full Brightness",
+	"config.forgetmenot.desc.fullbright": "Enables fullbright. Please do not enable this option in an unethical situation where it would give you an unfair advantage over other players.",
+
+	"config.forgetmenot.category.water": "Water",
+
+	"config.forgetmenot.name.realistic_water": "Realistic Water Waves",
+	"config.forgetmenot.desc.realistic_water": "If disabled, will use the default water texture for water waves. If enabled, will calculate smooth realistic waves.",
+
+	"config.forgetmenot.name.water_dirt_amount": "Water Dirt Amount",
+	"config.forgetmenot.desc.water_dirt_amount": "The amount of dirt in water. Used for water fog thickness.",
+
+	"config.forgetmenot.name.water_color_r": "Water Color - Red",
+	"config.forgetmenot.desc.water_color_r": "RED component in the water color.",
+
+	"config.forgetmenot.name.water_color_g": "Water Color - Green",
+	"config.forgetmenot.desc.water_color_g": "GREEN component in the water color.",
+
+	"config.forgetmenot.name.water_color_b": "Water Color - Blue",
+	"config.forgetmenot.desc.water_color_b": "BLUE component in the water color.",
+
+	"config.forgetmenot.category.camera": "Camera",
+
+	"config.forgetmenot.name.enable_bloom": "Enable Bloom",
+	"config.forgetmenot.desc.enable_bloom": "Allows bright colors to bleed into their surroundings.",
+
+	"config.forgetmenot.name.motion_blur": "Motion Blur",
+	"config.forgetmenot.desc.motion_blur": "Blurs the screen along the motion vector.",
+
+	"config.forgetmenot.category.dimensions": "Dimensions",
+
+	"config.forgetmenot.name.nether_diffuse": "Nether Diffuse",
+	"config.forgetmenot.desc.nether_diffuse": "Shades the underside of blocks in the nether orange to simulate light from the lava oceans.",
+
+	"config.forgetmenot.name.end_mist_color_r": "End Mist Color - Red",
+	"config.forgetmenot.desc.end_mist_color_r": "RED component in the end mist color.",
+
+	"config.forgetmenot.name.end_mist_color_g": "End Mist Color - Green",
+	"config.forgetmenot.desc.end_mist_color_g": "GREEN component in the end mist color.",
+
+	"config.forgetmenot.name.end_mist_color_b": "End Mist Color - Blue",
+	"config.forgetmenot.desc.end_mist_color_b": "BLUE component in the end mist color.",
+
+	"config.forgetmenot.category.general": "General Settings",
+
+	"config.forgetmenot.name.taa": "Temporal Anti-aliasing (TAA)",
+	"config.forgetmenot.desc.taa": "Blends multiple frames to smartly remove most aliasing from the image.",
+
+	"config.forgetmenot.category.seasons": "Seasons",
+
+	"config.forgetmenot.name.seasons": "Enable Seasons",
+	"config.forgetmenot.desc.seasons": "Enables the season cycle, where foliage is tinted and leaves fall according to the world time.",
+
+	"config.forgetmenot.name.season_length": "Season Length",
+	"config.forgetmenot.desc.season_length": "The length of each season.",
+
+	"config.forgetmenot.name.transition_length": "Season Transition Length",
+	"config.forgetmenot.desc.transition_length": "The length of the transition period between seasons.",
+
+	"config.forgetmenot.name.starting_season": "Starting Season",
+	"config.forgetmenot.desc.starting_season": "Controls the season that each world starts at.",
+
+	"config.forgetmenot.name.varied_tree_color": "Varied Tree Color",
+	"config.forgetmenot.desc.varied_tree_color": "Allows trees to be colored differently from foliage according to seasons",
+
+	"config.forgetmenot.name.falling_leaves": "Falling Leaves",
+	"config.forgetmenot.desc.falling_leaves": "Allows leaf blocks to thin during autumn and winter to simulate leaves falling from trees.",
+
+	"config.forgetmenot.category.misc": "Miscellaneous",
+
+	"config.forgetmenot.name.internal_materials": "Internal Materials",
+	"config.forgetmenot.desc.internal_materials": "Internal option used by material shaders to detect if Forget-me-not is active. Do not disable."
+}

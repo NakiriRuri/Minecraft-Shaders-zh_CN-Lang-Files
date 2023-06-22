@@ -1,0 +1,78 @@
+{
+    "pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+    "pipeline.forgetmenot.desc": "Semi-realistic immersive shaderpack. 本汉化文档由Surisen提供. 文档路径:Forget-Me-Not_Shaders/assets/forgetmenot/lang. 下载地址:https://github.com/Poisoned-Honey/ForgetMeNot-Shaders. 本汉化对应版本0.5.0",
+
+    "config.forgetmenot.category.atmospherics": "天空 & 大气",
+
+    "config.forgetmenot.name.hide_sky_ground": "隐藏地平线",
+    "config.forgetmenot.desc.hide_sky_ground": "隐藏尖锐的地平线",
+    "config.forgetmenot.name.clouds": "云层",
+    "config.forgetmenot.desc.clouds": "2D平面云看起来非常棒",
+    "config.forgetmenot.name.curl_noise": "卷云噪声",
+    "config.forgetmenot.desc.curl_noise": "启用卷云噪声,为云的形状和运动增加额外的细节. 对性能影响较小",
+    "config.forgetmenot.name.cloud_light_rays": "云隙光",
+    "config.forgetmenot.desc.cloud_light_rays": "来自云层的光轴. 也称为曙光",
+    "config.forgetmenot.name.volumetric_lighting": "体积光",
+    "config.forgetmenot.desc.volumetric_lighting": "地表的体积光线. 实验性设置,比较慢且很多噪点.",
+    "config.forgetmenot.name.atmospheric_fog": "大气雾",
+    "config.forgetmenot.desc.atmospheric_fog": "用于大气散射的雾气",
+    "config.forgetmenot.name.border_fog": "边界雾",
+    "config.forgetmenot.desc.border_fog": "隐藏区块边界的雾气",
+    "config.forgetmenot.name.bloomy_fog": "雾气散射",
+    "config.forgetmenot.desc.bloomy_fog": "也被称为泛光雾. 模拟厚雾后面物体的多重散射(模糊). 仅限屏幕空间.",
+
+    "config.forgetmenot.category.lighting": "照明",
+
+    "config.forgetmenot.name.day_brightness": "日间亮度",
+    "config.forgetmenot.desc.day_brightness": "白天的亮度水平",
+    "config.forgetmenot.name.night_brightness": "夜晚亮度",
+    "config.forgetmenot.desc.night_brightness": "晚上的亮度水平",
+    "config.forgetmenot.name.skylight_leak_fix": "天空光泄露修复",
+    "config.forgetmenot.desc.skylight_leak_fix": "将阴影图和天光图混合渲染, 消除一部分阴影但是防止了洞穴漏光",
+    "config.forgetmenot.name.raytraced_handheld_light_occlusion": "路径追踪手持光源遮蔽",
+    "config.forgetmenot.desc.raytraced_handheld_light_occlusion": "进行一次快速的屏幕空间光线追踪来检索手持光源的阴影. 在第三人称中效果最好",
+    "config.forgetmenot.name.ssgi": "路径追踪环境光遮蔽[RTAO]",
+    "config.forgetmenot.desc.ssgi": "为高质量的环境照明进行追踪遮蔽检查,非常慢",
+
+    "config.forgetmenot.category.post_processing": "后期处理",
+
+    "config.forgetmenot.name.film_grain": "胶片颗粒",
+    "config.forgetmenot.desc.film_grain": "在屏幕上添加一个电影的胶片颗粒的噪声图.",
+    "config.forgetmenot.name.vibrance": "自然饱和度",
+    "config.forgetmenot.desc.vibrance": "图像的自然饱和度. 雨天会自动调整",
+
+    "config.forgetmenot.category.shadows": "阴影",
+
+    "config.forgetmenot.name.variable_penumbra_shadows": "可变的半阴影",
+    "config.forgetmenot.desc.variable_penumbra_shadows": "阴影根据距离柔滑模糊. 中等性能消耗",
+    "config.forgetmenot.name.vps_size_multiplier": "可变的半阴影 尺寸倍数",
+    "config.forgetmenot.desc.vps_size_multiplier": "阴影变柔和所需距离的乘数",
+    "config.forgetmenot.name.bias_mult": "偏差倍率",
+    "config.forgetmenot.desc.bias_mult": "推荐保持开启除非你关闭了可变半阴影",
+    "config.forgetmenot.name.contact_shadows": "接触阴影",
+    "config.forgetmenot.desc.contact_shadows": "在屏幕空间中对太阳进行光线追踪,获得次表面散射效果的同时掩盖阴影中的空洞.",
+
+    "config.forgetmenot.category.performance": "性能",
+
+    "config.forgetmenot.name.cloud_detail": "云层细节",
+    "config.forgetmenot.desc.cloud_detail": "用于云层噪音的八度空间的数值. 更高的数值意味着更富细节更复杂的云层. 对性能影响很大",
+    "config.forgetmenot.name.held_light_occlusion_quality": "路径追踪手持光源遮蔽质量",
+    "config.forgetmenot.desc.held_light_occlusion_quality": "手持光源遮蔽的路径跟踪所使用的采样值",
+    "config.forgetmenot.name.ssgi_quality": "RTAO 质量",
+    "config.forgetmenot.desc.ssgi_quality": "用于RTAO的遮蔽测试的每个像素的射线值",
+    "config.forgetmenot.name.ssr_quality": "反射质量",
+    "config.forgetmenot.desc.ssr_quality": "反射光线跟踪所使用的采样值",
+    "config.forgetmenot.name.vps_search_samples": "可变的半阴影检索采样值",
+    "config.forgetmenot.desc.vps_search_samples": "推荐设置为默认值",
+    "config.forgetmenot.name.shadow_filter_samples": "阴影过滤采样值",
+    "config.forgetmenot.desc.shadow_filter_samples": "阴影过滤的质量. 推荐设置为默认值",
+
+    "config.forgetmenot.category.debug": "调试",
+
+    "config.forgetmenot.name.white_world": "全白世界",
+    "config.forgetmenot.desc.white_world": "所有方块渲染成白色. 用于调试照明",
+    "config.forgetmenot.name.draw_ao": "绘制AO",
+    "config.forgetmenot.desc.draw_ao": "将原版AO结果绘制到屏幕上. 用于调试环境照明.",
+    "config.forgetmenot.name.internal_materials": "硬编码材质",
+    "config.forgetmenot.desc.internal_materials": "一些着色器材质效果的切换,这些效果只在渲染管线激活时出现. 关掉它风险自负"
+}

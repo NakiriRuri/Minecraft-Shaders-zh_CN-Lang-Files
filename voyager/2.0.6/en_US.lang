@@ -1,0 +1,334 @@
+# §4 = rouge foncé
+# §c = rouge claire
+
+option.SIXSEVEN_CREDIT=Created by
+option.SIXSEVEN_CREDIT.comment=Voyager shaders 2.0. Made in Alsace. Developped by SixSeven
+value.SIXSEVEN_CREDIT.1=SixSeven
+
+profile.LOW=§2Low
+profile.MEDIUM=§aMedium
+profile.HIGH=High
+profile.ULTRA=§cUltra
+profile.EXTREME=§4Extreme
+
+#########Light settings#########
+
+screen.LIGHT=Light settings
+
+option.SUNLIGHT_BRIGHTNESS=Sunlight brightness
+option.MOONLIGHT_BRIGHTNESS=Moonlight brightness
+option.SHADOW_BRIGHTNESS=Shadow brightness
+option.BLOCKLIGHT_BRIGHTNESS=Blocklight brightness
+option.BLOCKLIGHT_TEMPERATURE=Blocklight temperature
+option.sunPathRotation=Sun angle rotation
+
+screen.SHADOW=Shadow settings
+
+option.SHADOW_TYPE=Shadow type
+value.SHADOW_TYPE.0=§cOff
+value.SHADOW_TYPE.1=Soft
+value.SHADOW_TYPE.2=PCSS
+
+option.SHADOW_QUALITY=Quality
+option.COLORED_SHADOW=Colored shadow
+option.shadowMapResolution=Resolution
+option.CLOUDS_SHADOW=Clouds shadow
+option.CLOUDS_SHADOW_QUALITY=Quality
+
+screen.INDIRECT=Indirect settings
+
+option.GI=Global illumination
+option.GI_QUALITY=Quality
+option.GI_RADIUS=Radius
+option.GI_BRIGHTNESS=Brightness
+
+option.AO=Ambient occlusion
+value.AO.0=SSAO
+value.AO.1=RTAO
+value.AO.2=SSAO + RTAO
+value.AO.3=§cOff
+
+option.AO_QUALITY=Quality
+
+option.SUNLIGHT_BRIGHTNESS.comment=Adjust the brightness of the sunlight
+option.MOONLIGHT_BRIGHTNESS.comment=Adjust the brightness of the moonlight
+option.SHADOW_BRIGHTNESS.comment=Adjust the brightness of the shadow
+option.BLOCKLIGHT_BRIGHTNESS.comment=Adjust the brightness of the blocklight
+option.BLOCKLIGHT_TEMPERATURE.comment=Adjust the temperature color of the blocklight in Kelvin unit
+option.sunPathRotation.comment=Adjust the sun path rotation. Positive number = Sun is in the north hemisphere at zenith. Negative number = Sun is in the south hemisphere at zenith
+
+option.SHADOW_TYPE.comment=Select the smooth type of shadow
+option.SHADOW_QUALITY.comment=Select the quality of shadow. §4Higer value cost performances
+option.COLORED_SHADOW.comment=Colored shadow cast by translucent block
+option.shadowMapResolution.comment=Select the resolution of shadow. §4Higer value cost performances
+option.CLOUDS_SHADOW.comment=Shadow cast by Volumetric clouds
+option.CLOUDS_SHADOW_QUALITY.comment=Select the quality of clouds shadow. §4Higer value cost performances
+
+option.GI.comment=
+option.GI_QUALITY.comment=Select the quality of Global illumination. §4Higer value cost performances
+option.GI_RADIUS.comemnt=
+option.GI_BRIGHTNESS.comment=
+
+option.AO.comment=Make the corner a little more darker
+option.AO_QUALITY.comment=Select the quality of SSAO only. §4Higer value cost performances
+
+#########Atmosphere settings#########
+
+screen.ATMOSPHERE=Atmosphere settings
+
+option.ATMOSPHERE_TYPE=Atmosphere type
+value.ATMOSPHERE_TYPE.0=Earth
+value.ATMOSPHERE_TYPE.1=Moon
+
+option.SIXSEVEN_PLANET=SixSeven's planet
+
+screen.VC=Volumetric clouds settings
+
+option.VOLUMETRIC_CLOUD=Volumetric clouds
+option.VOLUMETRIC_CLOUD_QUALITY=Quality
+option.VOLUMETRIC_CLOUD_COVERAGE=Coverage
+option.VOLUMETRIC_CLOUD_WEATHER_COVERAGE=Weather coverage 
+option.VOLUMETRIC_CLOUD_ALTITUDE=Altitude
+option.VOLUMETRIC_CLOUD_DENSITY=Density
+option.VOLUMETRIC_CLOUD_SPEED=Time shift
+option.VOLUMETRIC_CLOUD_THICKNESS=Thickness
+
+screen.PC=Planar clouds settings
+
+option.PLANAR_CLOUD=Planar clouds
+option.PLANAR_CLOUD_DENSITY=Density
+option.PLANAR_CLOUD_SPEED=Time shift
+option.PLANAR_CLOUD_COVERAGE=Coverage
+
+screen.VL=Volumetric light settings
+
+option.VOLUMETRIC_LIGHT=Volumetric light
+option.VOLUMETRIC_LIGHT_QUALITY=Quality
+option.VOLUMETRIC_LIGHT_DENSITY=Density
+
+screen.VF=Volumetric fog settings
+
+option.VOLUMETRIC_FOG=Volumetric fog
+option.VOLUMETRIC_FOG_QUALITY=Quality
+option.VOLUMETRIC_FOG_MORNING=Morning fog
+option.VOLUMETRIC_FOG_ALTITUDE=Altitude
+option.VOLUMETRIC_FOG_COVERAGE=Coverage
+option.VOLUMETRIC_FOG_THICKNESS=Thickness
+option.VOLUMETRIC_FOG_DENSITY=Density
+option.VOLUMETRIC_FOG_SPEED=Time shift
+
+option.ATMOSPHERE_TYPE.comment=Here you can set the type of the atmosphere you want
+option.SIXSEVEN_PLANET.comment=The shader icon, a gas planet located more than 14 million kilometers away
+
+option.VOLUMETRIC_CLOUD.comment=
+option.VOLUMETRIC_CLOUD_QUALITY.comment=Adjust the quality of Volumetric clouds. §4Higher value cost performances
+option.VOLUMETRIC_CLOUD_COVERAGE.comment=Adjust the coverage of Volumetric clouds
+option.VOLUMETRIC_CLOUD_WEATHER_COVERAGE.comment=Adjust the coverage of Volumetric clouds only in rainy or stormy weather
+option.VOLUMETRIC_CLOUD_THICKNESS.comment=Adjust the thickness of Volumetric clouds
+option.VOLUMETRIC_CLOUD_ALTITUDE.comment=Adjust the altitude of Volumetric clouds
+option.VOLUMETRIC_CLOUD_DENSITY.comment=Adjust the density of Volumetric clouds
+option.VOLUMETRIC_CLOUD_SPEED.comment=Adjust the speed of Volumetric clouds
+
+option.PLANAR_CLOUD.comment=
+option.PLANAR_CLOUD_DENSITY.comment=Adjust the density of Planar clouds
+option.PLANAR_CLOUD_COVERAGE.comment=Adjust the coverage of Planar clouds
+option.PLANAR_CLOUD_SPEED.comment=Adjust the speed of Planar clouds
+
+option.VOLUMETRIC_LIGHT.comment=Add godrays and a distant fog
+option.VOLUMETRIC_LIGHT_QUALITY.comment=Adjust the quality of Volumetric light. §4Higher value cost performances
+option.VOLUMETRIC_LIGHT_DENSITY.comment=Adjust the density of Volumetric light
+
+option.VOLUMETRIC_FOG.comment=
+option.VOLUMETRIC_FOG_QUALITY.comment=Adjust the quality of Volumetric fog. §4Higher value cost performances
+option.VOLUMETRIC_FOG_MORNING.comment=Allows to display the fog only in the morning
+option.VOLUMETRIC_FOG_ALTITUDE.comment=Adjust the altitude of Volumetric clouds
+option.VOLUMETRIC_FOG_COVERAGE.comment=Adjust the coverage of Volumetric clouds
+option.VOLUMETRIC_FOG_THICKNESS.comment=Adjust the thickness of Volumetric clouds
+option.VOLUMETRIC_FOG_DENSITY.comment=Adjust the density of Volumetric clouds
+option.VOLUMETRIC_FOG_SPEED.comment=Adjust the speed of Volumetric clouds
+
+#########Terrain settings#########
+
+screen.TERRAIN=Terrain settings
+
+option.ALPHA_TEXTURES=Textures
+option.WAVING_VEGETATION=Waving vegetation
+option.PARALLAX=Parallax
+option.PARALLAX_DEPTH=Parallax depth
+
+screen.WATER=Water settings
+
+option.WATER_CAUSTICS=Caustics
+option.WATER_CAUSTICS_STRENGTH=Intensiy
+
+screen.WAVES=Waves settings
+
+option.WAVES_PRESET=Waves preset
+value.WAVES_PRESET.0=Default
+value.WAVES_PRESET.1=Small waves
+value.WAVES_PRESET.2=Big waves
+value.WAVES_PRESET.3=No waves
+
+option.PARALLAX_WATER=Parallax waves
+option.WAVES_FREQUENCY=Frenquency
+option.WAVES_HEIGHT=Height
+option.WAVES_SCALE=Scale
+option.WAVES_SPEED=Time shift
+
+screen.FOG=Water fog settings
+
+option.WATER_COLOR_PRESET=Water color preset
+value.WATER_COLOR_PRESET.0=Default
+value.WATER_COLOR_PRESET.1=Tropical
+value.WATER_COLOR_PRESET.2=Blood
+value.WATER_COLOR_PRESET.3=Swamp
+
+option.WATER_FOG=Water fog
+option.WATER_FOG_QUALITY=Quality
+option.WATER_FOG_DENSITY=Density
+
+option.WATER_SCATTERING_R=Scattering R
+option.WATER_SCATTERING_G=Scattering G
+option.WATER_SCATTERING_B=Scattering B
+option.WATER_ATTENUATION_R=Attenuation R
+option.WATER_ATTENUATION_G=Attenuation G
+option.WATER_ATTENUATION_B=Attenuation B
+
+screen.REFLECTION=Reflection settings
+
+option.SPEC_FORMAT=Specular format
+value.SPEC_FORMAT.0=Lab PBR
+value.SPEC_FORMAT.1=Seus PBR
+
+option.REFLECTION_QUALITY=Quality
+option.STAINED_GLASS_REFLECTION=Stained Glass reflection
+
+option.ALPHA_TEXTURES.comment=Enables or disables textures
+option.WAVING_VEGETATION.comment=Allows you to activate or deactivate the movement of the Vegetation
+option.PARALLAX.comment=Allows textures to be rendered in 3D. §cRequires a compatible resource pack
+option.PARALLAX_DEPTH.comment=Allows you to adjust the depth of the parallax
+
+option.WATER_CAUSTICS.comment=When water refract the light
+option.WATER_CAUSTICS_STRENGTH.comment=Adjust the Intensity of cauctics
+
+option.WAVES_PRESET.comment=Allows you to choose the type of waves
+option.PARALLAX_WATER.comment=Allows the waves to have a 3D rendering
+option.WAVES_FREQUENCY.comment=
+option.WAVES_HEIGHT.comment=
+option.WAVES_SCALE.comment=
+option.WAVES_SPEED.comment=
+
+option.WATER_COLOR_PRESET.comment=Allows you to choose between several types of colors for the water fog
+option.WATER_FOG.comment=
+option.WATER_FOG_QUALITY.comment=Adjust the quality of water fog. §4Higher value cost performances
+option.WATER_FOG_DENSITY.comment=Adjust the density of water fog
+
+option.SPEC_FORMAT.comment=Allows to choose the reflection format according to the resource pack. Lab PBR is a standard format of Shaderslabs. Seus PBR is an old format used by Seus and old shaders
+option.REFLECTION_QUALITY.comment=Adjust the quality of the reflection. §4Higher value cost performances
+option.STAINED_GLASS_REFLECTION.comment=Enable or disable the reflection on stained glass block and panes
+
+#########Caméra settings#########
+
+screen.CAMERA=Camera settings
+
+option.BLOOM=Bloom
+option.BLOOM_STRENGTH=Intensity
+option.UNDERWATER_BLOOM=Underwater bloom
+option.UNDERWATER_BLOOM_STRENGTH=Intensity
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR_STRENGTH=Intensity
+option.VIGNETTE=Vignette
+option.VIGNETTE_SIZE=Size
+
+option.WIDE_SCREEN=Wide screen
+option.WIDE_SCREEN_SIZE=Size
+value.WIDE_SCREEN.0=Off
+value.WIDE_SCREEN.1=Horizontal
+value.WIDE_SCREEN.2=Vertical
+
+screen.TEMPORAL=Anti aliasing settings
+
+option.TAA=Temporal anti aliasing
+option.ADAPTIVE_SHARPEN=Sharpen
+option.ADAPTIVE_SHARPEN_STRENGTH=Intensity
+
+screen.TONEMAP=Tonemap settings
+
+option.TONEMAP_TYPE=Tonemap type
+value.TONEMAP_TYPE.0=Aces
+value.TONEMAP_TYPE.1=Filmic
+value.TONEMAP_TYPE.2=Lottes
+value.TONEMAP_TYPE.3=Uchimura
+value.TONEMAP_TYPE.4=Curve
+value.TONEMAP_TYPE.5=Breath of the Wild
+
+option.POST_PROCESS_PRESET=Post process settings
+value.POST_PROCESS_PRESET.0=Default
+value.POST_PROCESS_PRESET.1=Colorful
+value.POST_PROCESS_PRESET.2=Black & White
+value.POST_PROCESS_PRESET.3="Deep Fried"
+
+option.SATURATION=Saturation
+option.VIBRANCE=Vibrance
+option.CONTRAST=Contrast
+option.GAIN=Gain
+option.GAMMA=Gamma
+option.LIFT=Lift
+
+screen.EXPOSURE=Exposure settings
+
+option.EXPOSURE_TYPE=Exposure type
+value.EXPOSURE_TYPE.0=Automatic
+value.EXPOSURE_TYPE.1=Manual
+
+option.EXPOSURE_BIAS=Brightness
+option.APERTURE=Aperture
+option.ISO=Iso
+option.SHUTTER_SPEED=Shutter speed 
+
+screen.DOF=Depth of Field settings
+
+option.DEPTH_OF_FIELD=Depth of Field
+option.DOF_STRENGTH=Intensity
+option.DOF_FOCAL=Focal
+option.DOF_APERTURE=Aperture
+option.DOF_CHROMATIC_ABERRATION=Chromatic abberation
+option.CHROMATIC_ABERRATION_STRENGTH=Intensity
+
+option.BLOOM.comment=Adds a simple blur effect on any bright object
+option.BLOOM_STRENGTH.comment=Adjust the intensity of bloom
+option.UNDERWATER_BLOOM.comment=Adds a small blur effect when the player is underwater
+option.UNDERWATER_BLOOM_STRENGTH.comment=Adjust the intensity of underwater bloom
+option.MOTION_BLUR.comment=Adds a blur effect when the camera is in motion
+option.MOTION_BLUR_STRENGTH.comment=Adjust the intensity of motion blur
+option.VIGNETTE.comment=Adds thumbnails to the corners of the screen
+option.VIGNETTE_SIZE.comment=Adjust the size of vignette
+option.WIDE_SCREEN.comment=Adds black borders at the end of the screen
+option.WIDE_SCREEN_SIZE.comment=Adjust the size of wide screen
+
+option.TAA.comment=
+option.ADAPTIVE_SHARPEN.comment=Makes the image sharper
+option.ADAPTIVE_SHARPEN_STRENGTH.comment=Adjust the intensity of sharpen
+
+option.TONEMAP_TYPE.comment=Select the type of tonemap you want
+option.POST_PROCESS_PRESET.comment=Select the post process preset you want. §cWarning : Deep fried is very bright
+
+option.EXPOSURE_TYPE.comment=Allows you to change the type of exposure. The 3 options below only affect the exposure in Manual
+option.EXPOSURE_BIAS.comment=Adjust the brightness
+
+option.DEPTH_OF_FIELD.comment=Adds a blurred background effect
+option.DOF_STRENGTH.comment=Adjust the intensity of depth of field
+
+#########Gameplay settings#########
+
+screen.GP=Gameplay settings
+
+option.UPSIDE_DOWN_WORLD=Australian mode
+option.DAMAGE_VISUAL=Visual damage
+option.GREEN_NV=Green night vision
+option.WAVING_HAND=Hand animation  
+
+option.UPSIDE_DOWN_WORLD.comment=Reverse the camera. Can you beat Minecraft like a australian ?
+option.DAMAGE_VISUAL.comment=Added a red flash when the player takes damage
+option.GREEN_NV.comment=Added a green filter typical of night vision goggles. This effect is activated if the player has the Night Vision potion effect
+option.WAVING_HAND.comment=Animate the hand like on Bedrock edition

@@ -1,0 +1,275 @@
+#shaders/lang/en_us.lang
+
+// Key
+
+# §a Little to no performance impact.
+# §e Slight performance impact.
+# §6 Moderate performance impact.
+# §c High performance impact.
+# §4 Extreme performance impact.
+
+
+// Global
+
+screen.Global= Global
+
+option.AA= AA
+value.AA.0= OFF
+value.AA.1= FXAA
+value.AA.2= TAA
+
+screen.Tonemap= Tonemap
+screen.BSL= BSL
+screen.BSL.comment= BSL Tonemap preset settings. Permission was given by Tatsu to use his Tonemap.
+option.TonemapExposure= Exposure
+option.TonemapExposure.comment= Controls the exposure.
+option.TonemapWhiteCurve= White Curve
+option.TonemapWhiteCurve.comment= Controls the white curve.
+option.TonemapLowerCurve= Lower Curve
+option.TonemapLowerCurve.comment= Controls the lower curve.
+option.TonemapUpperCurve= Upper Curve
+option.TonemapUpperCurve.comment= Controls the upper curve.
+option.BSLSaturation= Saturation
+option.BSLSaturation.comment= Controls the saturation.
+option.BSLVibrance= Vibrance
+option.BSLVibrance.comment= Controls the vibrance.
+
+option.SWIZZLE= swizzle
+option.TONEMAP= Preset
+option.TONEMAP.comment= Change Tonemap preset. §a Little to no performance impact.
+value.TONEMAP.1=Vanilla
+value.TONEMAP.2=BOTW
+value.TONEMAP.3=Black and White
+value.TONEMAP.4=Negative
+value.TONEMAP.5=Spoopy
+value.TONEMAP.6=BSL
+
+option.FGrain= Film Grain
+option.FGrain.comment= Adds a grainy effect to the screen in areas with low light kind of like real life. §a Little to no performance impact.
+
+screen.lensGlobal= lens
+
+screen.Monochrome= monochrome
+option.lensMonochrome= Monochrome effect
+option.lensMonochrome.comment= Enables / Disables The monochromatic lens effect. §a Little to no performance impact.
+option.lMonoRed= §cRed
+option.lMonoRed.comment= Changes the Red value of the monochrome lens color using RGBA color spectrum.
+option.lMonoGreen= §aGreen
+option.lMonoGreen.comment= Changes the Green value of the monochrome lens color using RGBA color spectrum.
+option.lMonoBlue= §9Blue
+option.lMonoBlue.comment= Changes the Blue value of the monochrome lens color using RGBA color spectrum.
+option.lMonoAlpha= Alpha
+option.lMonoAlpha.comment= Changes the Alpha value of the monochrome lens color using RGBA color spectrum. Alpha is the opacity or transparency of a color.
+
+screen.snightEye= Night Eye
+option.nightEye= Night Eye
+option.nightEye.comment= Enables / Disables Night eye effect. Night eye effect desaturates darker environments to simulate real life. §a Little to no performance impact.
+option.ndeSat= Desaturation
+option.ndeSat.comment= Level of desaturation in dark environments.
+
+screen.AO= Ambient Occlusion
+option.SSAO= SSAO Toggle
+option.SSAO.comment= Toggles on SSAO instead of Vanilla AO. §a Little to no performance impact.
+option.ambientOcclusionLevel=Vanilla AO Strength
+option.ambientOcclusionLevel.comment= Vanilla AO strength. §a Little to no performance impact.
+value.ambientOcclusionLevel.0.0=off
+value.ambientOcclusionLevel.1.0=Vanilla
+option.AOAmount= SSAO Strength
+option.AOAmount.comment= Increases the strength of the SSAO effect.
+option.AOSamples= SSAO Samples
+option.AOSamples.comment=Higher sample numbers increase the SSAO quality but decreases fps.
+
+option.CELSHADING= Celshading
+option.CELSHADING.comment= Enables / Disables Celshading. Celshading is a borderlandsesque block bordering. §a Little to no performance impact.
+
+screen.sCSBOX= Custom Box
+option.CSBOX= Toggle
+option.CSBOX.comment= Enables custom selection box color. Enabling will also change leads to the selected color Sadly this is unavoidable. §a Little to no performance impact.
+option.CSR= §cRed
+option.CSR.comment= Changes the Red value of the Custom Box color using RGB color spectrum.
+option.CSG= §aGreen 
+option.CSG.comment= Changes the Green value of the Custom Box color using RGB color spectrum.
+option.CSB= §9Blue
+option.CSB.comment= Changes the Blue value of the Custom Box color using RGB color spectrum.
+
+screen.water= water
+
+screen.swaterColor= Water
+option.waterCustom= Type
+option.waterCustom.comment= Change water color type. §a Little to no performance impact.
+value.waterCustom.0=Off
+value.waterCustom.1=Textured + Biome
+value.waterCustom.2=Textured
+value.waterCustom.3=No texture
+
+option.waterRed= §cRed
+option.waterRed.comment= Changes the Red value of the water color using RGBA color spectrum.
+option.waterGreen= §aGreen
+option.waterGreen.comment= Changes the Green value of the water color using RGBA color spectrum.
+option.waterBlue= §9Blue
+option.waterBlue.comment= Changes the Blue value of the water color using RGBA color spectrum.
+option.waterAlpha= Alpha
+option.waterAlpha.comment= Changes the Alpha value of the water color using RGBA color spectrum. Alpha is the opacity or transparency of a color.
+
+screen.swaterWaving= Water
+option.waterWaving= Waves
+option.waterWaving.comment= Enables / Disables water waves. §a Little to no performance impact.
+option.waterWaveIntensity= Wave Intensity
+option.waterWaveIntensity.comment= Height and frequency of waves
+option.waterWaveSpeed= Wave Speed
+option.waterWaveSpeed.comment= Animation speed of the waving
+
+screen.swaterFog= Fog
+option.waterFog= Fog
+option.waterFog.comment= Enables / Disables water fog. §a Little to no performance impact.
+value.waterFog.0= Vanilla
+value.waterFog.1= Colored
+option.waterFogDensity= Underwater Density
+option.waterFogDensity.comment= Changes the fog density when viewed from within water.
+option.waterFogDensityAbove= Abovewater Density
+option.waterFogDensityAbove.comment= Changes the fog density when viewed from above water.
+
+screen.swavingFoliage= Waving Plants
+option.wavingFoliage= Foliage
+option.wavingFoliage.comment= Enables / Disables waving plants. §6 Moderate performance impact in forested areas.
+option.wavingLeaves= Leaves
+option.wavingLeaves.comment= Enables / Disables waving leaves. §6 Moderate performance impact in forested areas.
+option.wavingSpeed= Speed
+option.wavingSpeed.comment= Speed at which the plants / leaves sway.
+
+screen.swaterRefraction= Refraction
+option.UNDERWATER_REFRACTION=Underwater Refractions
+option.UNDERWATER_REFRACTION.comment= Enables / Disables Refractiong generation while underwater. §a Little to no performance impact.
+option.UNDERWATER_REFRACTION_AMOUNT=Intensity
+option.UNDERWATER_REFRACTION_AMOUNT.comment= Changes the Intensity of the refraction effect.
+option.UNDERWATER_REFRACTION_ANIMATION_SPEED=Speed
+option.UNDERWATER_REFRACTION_ANIMATION_SPEED.comment= Changes the wave speed of the refraction effect.
+
+screen.motionblur= Motion Blur
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR.comment= Enables / Disables Motion blur. A popular effect from fps games that simulate your vision bluring as you quickly turn. §a Little to no performance impact.
+option.MOTION_BLUR_NOISE=Motion Blur Noise
+option.MOTION_BLUR_NOISE.comment= Adds noise to the blur.
+option.MOTION_BLUR_STRENGTH=Motion Blur Strength
+option.MOTION_BLUR_STRENGTH.comment= The intensity of the applied blur. Lower is more intense.
+
+
+
+// Overworld
+
+screen.Overworld= §a Overworld
+
+screen.DepthOfField= Depth Of Field
+screen.ODepthOfField= §aOverworld
+option.Depth_of_Field= Depth Of Field
+option.Depth_of_Field.comment= Enables the DOF effect where it "focuses" your vision on an object when looked at closely by bluring the background. §e Slight performance impact.
+option.Distance_Blur= Distance Blur
+option.Distance_Blur.comment= Changes the DOF "Focus" effect to an effect which blurs distant objects instead. §e Slight performance impact.
+option.DoF_Strength= Strength
+option.DoF_Strength.comment= Strength of the focusing effect. AKA how blurry it will get.
+option.Dof_Distance_View= Distance
+option.Dof_Distance_View.comment= How close objects half to be for the Distance Blur effect to take place (if enabled).
+option.DOF_FOCAL= Focal
+option.DOF_FOCAL.comment= Size of the lens focus area.
+
+screen.Environment= Environment
+
+screen.sclouds= Clouds
+option.cloudsCustom= Custom Clouds
+option.cloudsCustom.comment= Enables / Disables custom cloud colorization. §a Little to no performance impact.
+option.cloudsRed= §cRed
+option.cloudsRed.comment= Changes the Red value of the cloud color using RGBA color spectrum.
+option.cloudsGreen= §aGreen
+option.cloudsGreen.comment= Changes the Green value of the cloud color using RGBA color spectrum.
+option.cloudsBlue= §9Blue
+option.cloudsBlue.comment= Changes the Blue value of the cloud color using RGBA color spectrum.
+option.cloudsAlpha= Alpha
+option.cloudsAlpha.comment= Changes the Alpha value of the cloud color using a percentage system. Alpha is the opacity or transparency of a color.
+
+screen.OFog= §aOverworld
+option.OFOG= Fog
+option.OFOG.comment= Enables / Disables fog generation in the Nether dimension. §a Little to no performance impact.
+value.OFOG.0= Vanilla
+value.OFOG.1= Colored
+option.OFOGR= §cRed
+option.OFOGR.comment= Changes the Red value of the fog color using RGBA color spectrum.
+option.OFOGG= §aGreen
+option.OFOGG.comment= Changes the Green value of the fog color using RGBA color spectrum.
+option.OFOGB= §9Blue
+option.OFOGB.comment= Changes the Blue value of the fog color using RGBA color spectrum.
+option.OFOGI= Strength
+option.OFOGI.comment= Changes how thick the fog appears.
+option.HeightBasedFog=Height Based
+option.HeightBasedFog.comment= Makes fog more dense the further down in the world it is.
+
+
+// Nether
+
+screen.Nether= §c Nether
+
+option.NetherDarkness= Nether Darkness
+option.NetherDarkness.comment= Changes the overall Nether darkness. §a Little to no performance impact.
+
+screen.NFog= §cNether
+option.NFOG= Nether Fog
+option.NFOG.comment= Enables / Disables fog generation in the Nether dimension. §a Little to no performance impact.
+option.NFOGR= §cRed
+option.NFOGR.comment= Changes the Red value of the fog color using RGBA color spectrum.
+option.NFOGG= §aGreen
+option.NFOGG.comment= Changes the Green value of the fog color using RGBA color spectrum.
+option.NFOGB= §9Blue
+option.NFOGB.comment= Changes the Blue value of the fog color using RGBA color spectrum.
+option.NFOGA= Alpha
+option.NFOGA.comment= Changes the Alpha value of the fog color using RGBA color spectrum. Alpha is the opacity or transparency of a color.
+option.NFOGI= Strength
+option.NFOGI.comment= Changes how thick the fog appears.
+
+screen.NDepthOfField= §cNether
+option.NDepth_of_Field= Depth Of Field
+option.NDepth_of_Field.comment= Enables the DOF effect where it "focuses" your vision on an object when looked at closely by bluring the background. §e Slight performance impact.
+option.NDistance_Blur= Distance Blur
+option.NDistance_Blur.comment= Changes the DOF "Focus" effect to an effect which blurs distant objects instead. §e Slight performance impact.
+option.NDoF_Strength= Strength
+option.NDoF_Strength.comment= Strength of the focusing effect. AKA how blurry it will get.
+option.NDof_Distance_View= Distance
+option.NDof_Distance_View.comment= How close objects half to be for the Distance Blur effect to take place (if enabled).
+option.NDOF_FOCAL= Focal
+option.NDOF_FOCAL.comment= Size of the lens focus area.
+
+screen.netherRefraction= Heat Refraction
+option.NETHER_REFRACTION= Heat Refraction
+option.NETHER_REFRACTION.comment= Adds a refrection effect similar to being underwater to simulate the hot environment. §e Slight performance impact.
+option.NETHER_REFRACTION_AMOUNT= Refraction Intensity
+option.NETHER_REFRACTION_AMOUNT.comment= Changes the Intensity of the refraction effect.
+option.NETHER_REFRACTION_ANIMATION_SPEED= Refraction Speed
+option.NETHER_REFRACTION_ANIMATION_SPEED.comment= Changes the wave speed of the refraction effect.
+
+// End
+
+screen.End= §d End
+
+screen.EFog= §dEnd
+option.EFOG= Fog
+option.EFOG.comment= Enables / Disables fog generation in the End dimension. §a Little to no performance impact.
+value.EFOG.0= Vanilla
+value.EFOG.1= Colored
+option.EFOGR= §cRed
+option.EFOGR.comment= Changes the Red value of the fog color using RGBA color spectrum.
+option.EFOGG= §aGreen
+option.EFOGG.comment= Changes the Green value of the fog color using RGBA color spectrum.
+option.EFOGB= §9Blue
+option.EFOGB.comment= Changes the Blue value of the fog color using RGBA color spectrum.
+option.EFOGI= Strength
+option.EFOGI.comment= Changes how thick the fog appears.
+
+screen.Post_Process= Post Process
+screen.Waving_Blocks= Waving Blocks
+
+option.LBOFOG= Land Based
+option.CSKY= Custom Sky color
+option.CSKYR= §cRed
+option.CSKYG= §aGreen
+option.CSKYB= §9Blue
+option.nCSKY= Notes
+value.nCSKY.0=
+option.nCSKY.comment= These settings only control upper sky. Fog color controls the horizon color.

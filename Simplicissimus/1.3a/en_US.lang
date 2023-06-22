@@ -1,0 +1,51 @@
+option.info=Simplicissimus by RRe36
+value.info.0=v1.3a
+
+option.shadowMapResolution=Shadowmap Resolution
+option.hq_shadows=Soft Shadows
+option.pixel_shadows=Pixel Shadows (WIP)
+option.pixel_shadow_res=Pixel Size
+
+option.sunPathRotation=Sun Path Rotation
+
+option.labpbr_enabled=labPBR Support
+option.normalmap_enabled=Normalmap Support
+option.normalmap_enabled.comment=Auto-enabled when enabling "labPBR Support"
+
+option.taa_enabled=Temporal Anti-Aliasing
+option.wind_effects=Wind Effects
+option.fogIntensity=Fog Intensity
+value.fogIntensity.0=Off
+option.fogStart=Fog Start
+option.useMotionblur=Motionblur
+option.promoOutline_enabled=Promo Outline
+option.promoOutline_enabled.comment=From CaptTatsu's BSL Shaders with permission
+
+option.bloom=Bloom
+option.bloomIntensity=Intensity
+option.VIEWPORT_GAMUT=Display Gamut
+option.VIEWPORT_GAMUT.comment=This setting allows you to select the colour space that matches your display to ensure the intended look. Correct gamma response for the selected colour space is assumed. This setting is ignored on Iris in favour of its built in display gamut management. Please set this value in the Video settings there.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.colorgrade=Color Grading
+option.do_colorgrading=Color Grading
+option.vibrance_int=Vibrance
+option.saturation_int=Saturation
+option.gamma_curve=Gamma Curve
+option.brightness_int=Brightness
+option.constrast_int=Contrast
+option.colorlum_r=Red Gain
+option.colorlum_g=Green Gain
+option.colorlum_b=Blue Gain
+
+option.vignette_enabled=Vignette
+option.vignette_start=Inner Radius
+option.vignette_end=Outer Radius
+option.vignette_intensity=Intensity
+option.vignette_exponent=Falloff
+
+option.cloud_twolayer=Cloud Instance Layer
+option.cloud_twolayer.comment=This causes some weirdness when being above the regular cloud layer but below the instanced one.
+option.s_secondCloudLayer=2D Cloud Layer

@@ -1,0 +1,78 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 SEUS-Renewed 1.0.1 版本。
+option.ENABLE_SOFT_SHADOWS=柔和阴影
+option.VARIABLE_PENUMBRA_SHADOWS=可变半阴影
+option.COLORED_SHADOWS=着色阴影
+option.PIXEL_SHADOWS=像素锁定阴影
+option.TEXTURE_RESOLUTION=纹理分辨率
+option.ATMOSPHERIC_SCATTERING=大气散射
+option.CREPUSCULAR_RAYS=白昼体积光
+option.FORCE_WET_EFFECT=强制潮湿效应
+option.HQ_VOLUMETRIC_CLOUDS=高质量体积云
+option.VOLUMETRIC_CLOUDS=体积云
+option.PARALLAX=视差遮蔽贴图
+option.PARALLAX_SHADOW=视差自阴影
+option.ENABLE_SSAO=屏幕空间环境光遮蔽[SSAO]
+option.GI=全局照明[GI]
+option.SMOOTH_CLOUDS=平滑云层
+option.shadowMapResolution=阴影分辨率
+option.shadowDistance=阴影距离
+option.GI_ARTIFACT_REDUCTION=GI 伪影减少
+option.GI_QUALITY=GI 质量
+option.GI_RENDER_RESOLUTION=GI 分辨率
+option.GI_RADIUS=GI 半径
+option.WATER_PARALLAX=水体法线
+option.WATER_CAUSTICS=水体焦散
+option.ATMOSPHERIC_HAZE=大气雾霾
+option.RAYLEIGH_AMOUNT=大气密度
+option.TORCHLIGHT_BRIGHTNESS=动态光源亮度
+option.TORCHLIGHT_COLOR_TEMPERATURE=动态光源色调映射
+option.TORCHLIGHT_FILL=动态光源填充
+option.HELD_TORCHLIGHT=手持动态光源
+option.MOTION_BLUR=动态模糊
+option.TONEMAP_STRENGTH=色调映射强度
+
+option.PARALLAX_HQ=高精度视差
+option.PARALLAX_DEPTH=视差深度
+
+option.SUNLIGHT_INTENSITY=太阳光强度
+
+option.RAIN_SPLASH_EFFECT=雨水溅射效应
+option.RAIN_SPLASH_BILATERAL=雨水溅射tex过滤
+option.ENTITY_STATUS_COLOR=实体状态颜色
+
+option.BLOOM_AMOUNT=泛光强度
+option.MICRO_BLOOM=微弱泛光
+option.TONEMAP_CURVE=色调映射曲线
+option.EXPOSURE=曝光
+option.GAMMA=伽马
+option.LUMA_GAMMA=亮度伽马
+option.SATURATION=饱和度
+option.WHITE_CLIP=白峰切割
+
+option.TAA_ENABLED=时间性抗锯齿[TAA]
+option.TAA_SOFTNESS=TAA柔化
+option.TAA_AGGRESSIVE=自适应TAA
+option.SHARPENING=图像锐化程度
+
+
+option.TONEMAP_OPERATOR=色调操控
+value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+value.TONEMAP_OPERATOR.HableTonemap=Hable
+value.TONEMAP_OPERATOR.ACESTonemap=ACES
+value.TONEMAP_OPERATOR.ACESTonemap2=ACES2
+
+
+profile.LOW=低
+profile.MEDIUM=中
+profile.HIGH=高
+profile.ULTRA=超高
+profile.EXTREME=极致
+
+screen.ATMOSPHERICS=大气选项
+screen.LIGHTING=照明 & 阴影选项
+screen.SURFACE=表面选项
+screen.GIADVANCED=高级 GI 设置
+screen.POSTPROCESSING=后期处理设置

@@ -1,0 +1,92 @@
+option.INFO=UShader by RRe36
+value.INFO.0=v1.1
+
+option.sunPathRotation=Sun Path Rotation
+option.sky_hq_lookup=HQ Sky Texture Lookup
+
+option.vcloud_enabled=Volumetric Clouds
+option.vcloud_alt=Altitude
+option.vcloud_depth=Thickness
+option.vcloud_samples=Samples
+
+option.pcloud_enabled=Planar Clouds
+option.pcloud_alt=Altitude
+option.pcloud_depth=Thickness
+
+option.vfog_enabled=Volumetric Fog
+option.vfog_mist_enabled=Mist Clouds
+option.vfog_quality=Quality
+option.vfog_translucents=Translucency Fogging
+option.vfog_bilateral=Bilateral Upscaling
+option.vfog_density=Density
+option.vfog_hq_mist=High Detail Mist
+
+option.vwater_enabled=Water Volume
+option.vwater_quality=Quality
+option.vwater_bilateral=Bilateral Upscaling
+option.vwater_caustic=Caustic Interaction
+option.vwater_density=Density
+
+option.shadowMapResolution=Shadow Resolution
+option.shadowfilter_hq=High Quality Shadow Filter
+
+option.ambientOcclusion_enabled=Ambient Occlusion
+
+option.sun_illumination_mult=Sun Illumination
+option.moon_illumination_mult=Moon Illumination
+option.blocklight_luma=Blocklight Luma
+option.minlight_luma=Minimum Light
+option.blocklightR=Blocklight Red
+option.blocklightG=Blocklight Green
+option.blocklightB=Blocklight Blue
+
+option.normalmapEnabled=Normalmap Support
+option.normalmapFormat=Normalmap Format
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1/Other
+
+option.reflections_enabled=Reflections
+option.ssr_enabled=Screenspace Reflections
+option.rough_reflections_enabled=Rough Reflections
+option.cloud_reflections_enabled=Cloud Reflections
+
+option.wind_effects_enabled=Wind Effects
+option.wind_intensity=Wind Intensity
+
+option.custom_water=Custom Water
+option.custom_ice=Custom Ice
+option.water_normal_hq=HQ Water Normal
+option.water_normal_octaves=Water Normal Octaves
+option.water_parallax_enabled=Parallax Waves
+option.water_parallax_steps=Parallax Quality
+option.water_caustic=Caustics
+option.water_refraction=Refraction
+option.water_refraction.comment=Can cause some visual artifacts.
+
+option.taa_enabled=Temporal Anti-Aliasing
+option.taa_enabled.comment=§eBe aware that disabling this can cause various noisy effects
+option.image_sharpen=Image Sharpening
+
+option.exposure_minlum=Exposure Minimum Adaptation
+option.exposure_speed=Exposure Speed
+option.manual_exposure_enabled=Use Manual Exposure
+option.manual_exposure=Exposure
+
+option.bloom_enabled=Bloom
+option.bloom_intensity=Intensity
+
+option.motionblur_enabled=Motionblur
+option.motionblur_samples=Samples
+option.motionblur_size=Size
+
+screen.colorgrade=Color Grading
+
+option.do_colorgrading=Color Grading
+option.vibrance_int=Vibrance
+option.saturation_int=Saturation
+option.gamma_curve=Gamma Curve
+option.colorlum_r=Red Gain
+option.colorlum_g=Green Gain
+option.colorlum_b=Blue Gain
+option.brightness_int=Brightness
+option.constrast_int=Contrast

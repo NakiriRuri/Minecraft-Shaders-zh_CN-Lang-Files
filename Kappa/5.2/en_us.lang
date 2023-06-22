@@ -1,0 +1,387 @@
+option.INFO=Kappa Shader by RRe36
+value.INFO.0=v5.2
+
+
+screen.ATMOS=Atmosphere
+option.rainbowsEnabled=Rainbows
+option.sunPathRotation=Sun Path Angle
+option.volumeWorldTimeAnim=World Time Animation
+option.volumeWorldTimeAnim.comment=Animates atmosphere volumetrics like clouds based on the world time.
+
+screen.AIRCOEFF=Air Coefficients
+option.airRayleighMult=Rayleigh Density
+option.airMieMult=Mie Density
+option.rayleighRedMult=Rayleigh Red
+option.mieRedMult=Mie Red
+option.rayleighGreenMult=Rayleigh Green
+option.mieGreenMult=Mie Green
+option.rayleighBlueMult=Rayleigh Blue
+option.mieBlueMult=Mie Blue
+option.airOzoneMult=Ozone Density
+option.airMistMult=Mist Density
+option.ozoneRedMult=Ozone Red
+option.mistRedMult=Mist Red
+option.ozoneGreenMult=Ozone Green
+option.mistGreenMult=Mist Green
+option.ozoneBlueMult=Ozone Blue
+option.mistBlueMult=Mist Blue
+
+screen.CLOUDS=Clouds
+option.CLOUD_RENDER_LOD=Target Resolution
+value.CLOUD_RENDER_LOD.1.0=100%
+value.CLOUD_RENDER_LOD.2.0=50%
+value.CLOUD_RENDER_LOD.3.0=33%
+value.CLOUD_RENDER_LOD.4.0=25%
+value.CLOUD_RENDER_LOD.5.0=20%
+option.cloudTemporalUpscaleEnabled=Temporal Upscaling
+option.cloudReflectionsToggle=Cloud Reflections
+option.cloudShadowsEnabled=Cloud Shadows
+
+option.RSKY_SB_CloudWeather=Use Cloud Weather
+option.RSKY_SF_WeatherHumidity=Humidity Override
+option.RSKY_SF_WeatherTemperature=Temperature Override
+option.RSKY_SF_WeatherTurbulence=Turbulence Override
+option.RSKY_SF_WeatherCirrusBlend=Cirrus Type Blend
+
+screen.CVOLUME=Volumetric Clouds
+option.RSKY_SB_CloudVolume=Enabled
+option.RSKY_SI_CloudV_Samples=Samples
+option.RSKY_SB_CloudV_DirectDither=Dithered Sunlight
+option.RSKY_SB_CloudV_DirectDither.comment=Applies dither noise to the sampling of the sunlight occlusion, vastly improves lighting quality at a small performance cost and some added noise.
+option.RSKY_SB_CloudV_AmbientDither=Dithered Skylight
+option.RSKY_SB_CloudV_AmbientDither.comment=Applies dither noise to the sampling of the skylight occlusion, vastly improves lighting quality at a small performance cost and some added noise.
+option.cloudCumulusAlt=Altitude
+option.cloudCumulusDepth=Depth
+option.cloudCumulusScaleMult=Scale
+option.cloudCumulusCoverageBias=Coverage Bias
+option.cloudLocalCoverage=Localised Coverage
+option.CLOUD_boostSilverLining=Boost Silver Lining
+
+screen.CPLANAR=Planar Clouds
+option.RSKY_SB_CirrusCloud=Cirrus Clouds
+option.CLOUD_PLANE0_DEPTH=Depth
+option.CLOUD_PLANE0_COVERAGE=Coverage Bias
+option.RSKY_SB_CirrocumulusCloud=Cirrocumulus Clouds
+option.CLOUD_PLANE1_DEPTH=Depth
+option.CLOUD_PLANE1_COVERAGE=Coverage Bias
+option.RSKY_SB_NoctilucentCloud=Noctilucent Clouds
+option.CLOUD_NL_COVERAGE=Coverage Bias
+
+
+option.cloudCirrusEnabled=Cirrus Clouds
+option.cloudCirrusAlt=Altitude
+option.cloudCirrusDepth=Depth
+option.cloudCirrusCoverageBias=Coverage Bias
+
+screen.FOG=Fog
+option.fogVolumeEnabled=Volumetric Fog
+option.fogMistAdvanced=Advanced Mist Shading
+option.fogMistAdvanced.comment=Calculates high quality lighting for the volumetric mist, big performance impact and only really worth it with high mist densities.
+option.fogAdaptiveSteps=Adaptive Steps
+option.fogClipDist=Maximum Distance
+option.fogDensityMult=Density
+option.fogSeaLevel=Sea Level
+option.fogMistAltitude=Mist Altitude
+option.fogMistFalloff=Mist Falloff
+option.mistMieAnisotropy=Mist Mie Anisotropy
+option.fogMistLightingSteps=Mist Lighting Steps
+option.fogSmoothingEnabled=Fog Smoothing
+option.fogSmoothingEnabled.comment=Use gaussian sampling to smooth the fog, reduces visible noise.
+option.fogSmoothingPassEnabled=Double Pass Smoothing
+option.fogSmoothingPassEnabled.comment=Applies a second pass of gaussian filtering to reduce visible noise. Minor performance impact.
+option.RFOG_SB_FogWeather=Use Fog Weather
+
+screen.SKY=Sky
+option.airScatterIterations=Scattering Iterations
+option.airmassIterations=Airmass Iterations
+option.skyIlluminanceMult=Illuminance Strength
+option.skyMultiscatterMult=Multiscattering Strength
+option.airTransmittanceHQ=Accurate Transmittance
+option.ATMOS_BelowHorizon=Render below Horizon
+option.ATMOS_RenderPlanet=Planet Surface Proxy
+option.alternateOzoneDistribution=Alternative Ozone Curve
+option.PLANET_BOUNCELIGHT=Approximate Bounced Light
+option.PLANET_BOUNCELIGHT.comment=Approximates sunlight bouncing off the planet surface back into the atmosphere
+
+screen.WATER=Water
+option.waterVolumeEnabled=Water Volume
+option.waterDensity=Density
+option.waterVolAdaptiveSteps=Adaptive Steps
+option.waterVolClipDist=Maximum Distance
+option.waterCoeffRed=Red Coefficient
+option.waterCoeffGreen=Green Coefficient
+option.waterCoeffBlue=Blue Coefficient
+option.waterCoeffScatter=Scattering Coefficient
+option.waveMode=Wave Type
+value.waveMode.0=Gerstener
+value.waveMode.1=Noise Based
+option.waterNormalOctaves=Wave Octaves
+option.customIceEnabled=Custom Ice
+
+
+screen.NETHER=Nether
+option.netherSmokeEnabled=Volumetric Smoke
+option.netherSmokeDensity=Smoke Density
+option.netherSmokeEmission=Smoke Glow
+option.netherSmokeEmissionMult=Glow Strength
+option.netherHazeDensity=Haze Density
+
+screen.END=The End
+option.endSmokeGlow=Volumetric Glow
+option.endSmokeGlowDynamic=Dynamic Glow Color
+option.endSmokeGlowStrength=Glow Strength
+
+
+screen.LIGHT=Lighting
+option.directionalLMEnabled=Directional Lightmaps
+option.UseLightleakPrevention=Lightleak Prevention
+option.UseLightleakPrevention.comment=Breaks sunlight under large overhangs and semi-outdoor caves etc. 
+
+screen.COLORS=Colors
+option.sunlightIllum=Sunlight Strength
+option.moonlightIllum=Moonlight Strength
+option.sunlightRedMult=Sunlight Red
+option.moonlightRedMult=Moonlight Red
+option.sunlightGreenMult=Sunlight Green
+option.moonlightGreenMult=Moonlight Green
+option.sunlightBlueMult=Sunlight Blue
+option.moonlightBlueMult=Moonlight Blue
+option.skylightIllum=Skylight Strength
+option.blocklightIllum=Blocklight Strength
+option.skylightRedMult=Skylight Red
+option.skylightGreenMult=Skylight Green
+option.skylightBlueMult=Skylight Blue
+option.blocklightBaseTemp=Blocklight Temperature
+option.minimumAmbientIllum=Min Ambient Light
+
+screen.DIRECTLIGHT=Direct Light
+option.shadowMapResolution=Shadowmap Resolution
+option.shadowVPSEnabled=Variable Penumbra Shadows
+option.shadowVPSEnabled.comment=Shadows get softer the further away they are from their source.
+option.shadowPenumbraScale=Penumbra Scale
+option.shadowPenumbraScale.comment=Scales the radius of the blur caused by Varible Penumbra Shadows.
+option.shadowFilterIterations=Filter Iterations
+option.contactShadowsEnabled=Contact Shadows
+option.subsurfaceScatterMode=Subsurface Scatter
+value.subsurfaceScatterMode.0=Off
+value.subsurfaceScatterMode.1=Hardcoded
+value.subsurfaceScatterMode.2=Hardcoded+lab
+value.subsurfaceScatterMode.3=labPBR Only
+
+screen.INDIRECTLIGHT=Indirect Light
+option.indirectResReduction=Indirect Lighting Res
+value.indirectResReduction.1=100%
+value.indirectResReduction.2=50%
+value.indirectResReduction.3=33%
+value.indirectResReduction.4=25%
+option.ssptEnabled=SSPT
+option.ssptEnabled.comment=Use Screenspace-Path-Tracing to calculate global illumination, skylight occlusion and block emission. Big performance impact.
+option.ssptFullRangeRT=Long Range SSPT
+option.ssptSPP=Samples per Pixel
+option.ssptBounces=Bounces
+option.ssptLightmapBlend=Lightmap Blending
+option.ssptEmissionDistance=Emission Distance
+option.ssptEmissionMode=Emission Mode
+value.ssptEmissionMode.0=Hardcoded
+value.ssptEmissionMode.1=Hardcoded + labPBR
+value.ssptEmissionMode.2=labPBR Only
+option.textureAoEnabled=Texture AO
+option.RINDIRECT_USE_SSAO=SSAO
+option.RINDIRECT_USE_SSAO.comment=Only used for small-scale indirect shadowing when SSPT is in use to mitigate detail loss caused by the SVGF filter. Controls the usage of SSAO as a fallback when SSPT is disabled.
+option.ssptAdvancedEmission=High-Quality Emission
+option.ssptAdvancedEmission.comment=Uses slower but higher quality coloring for the SSPT Emission
+option.labEmissionCurve=labPBR Emission Curve
+option.labEmissionCurve.comment=Applies a curve to the labPBR emission intensity using the set value as its exponent
+
+screen.FILTER=SVGF Filter
+option.SVGF_FILTER=Filtering
+option.SVGF_FILTER.comment=SVGF filtering that is used to denoise the SSPT lighting as well as smoothen the vanilla lightmap if used. Big performance impact.
+option.SVGF_RAD=Filter Tap Radius
+option.SVGF_STRICTNESS=Color Strictness
+option.SVGF_NORMALEXP=Normal Strictness
+
+screen.TERRAIN=Terrain
+option.normalmapEnabled=Normalmaps
+option.normalmapFormat=Format
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.vertexAttributeFix=Vertex Attribute Fix
+option.vertexAttributeFix.comment=Workaround for broken normalmaps on entities on 1.15+
+option.refractionEnabled=Refraction
+option.wetnessMode=Wetness Mode
+value.wetnessMode.0=Puddles
+value.wetnessMode.1=Full
+value.wetnessMode.2=Off
+option.puddleRippleSpeed=Ripple Speed
+option.windEffectsEnabled=Wind Effects
+option.windIntensity=Intensity
+
+screen.PARALLAX=Parallax Occlusion Mapping
+option.pomEnabled=Enabled
+option.pomSamples=Samples
+option.pomShadowSamples=Self Shadow Samples
+option.pomDepth=Depth
+option.slopeNormalCalculation=Slope Normal Calculation
+option.slopeNormalCalculation.comment=Recommended for lower res resourcepacks
+option.pomDepthEnabled=Depth Write
+option.pomDepthEnabled.comment=Allows the parallax occlusion mapping to affect the depth of a pixel, allowing things like screenspace path-tracing to create proper shadowing based on the height offset.
+
+screen.REFLECTIONS=Reflections
+option.resourcepackReflectionsEnabled=Resourcepack Reflections
+option.specularHighlightsEnabled=Specular Highlights
+option.roughReflectionsEnabled=Rough Reflections
+option.roughReflectionSamples=Samples
+option.screenspaceReflectionsEnabled=Screenspace Reflections
+option.reflectionCaptureEnabled=Reflection Capture
+option.reflectionCaptureEnabled.comment=Work in Progress. Might lead to visual artifacts in some scenes!
+option.roughnessThreshold=Roughness Threshold
+option.skyOcclusionThreshold=Sky Occlusion Threshold
+
+
+screen.CAMERA=Camera
+option.camSensorWidth=Sensor Width (mm)
+option.camFStops=F-Stops
+option.anamorphStretch=Anamorph Stretch
+
+screen.BLOOM=Bloom
+option.bloomEnabled=Enabled
+option.bloomIntensity=Strength
+option.bloomyFog=Bloomy Fog
+
+screen.DOF=Depth of Field
+option.DoFToggle=Depth of Field
+option.DoFQuality=Quality
+value.DoFQuality.0=Low (30 Samples)
+value.DoFQuality.1=Medium (50 Samples)
+value.DoFQuality.2=High (75 Samples)
+option.DoFChromaDispersion=Chromatic Dispersion
+option.chromaOffsetScale=Chromatic Offset Scale
+
+option.camFocus=Focus Mode
+value.camFocus.0=Auto
+value.camFocus.1=Manual
+value.camFocus.2=Manual+
+value.camFocus.3=Auto+
+option.camManFocDis=Focus Distance
+suffix.camManFocDis=  m
+option.showFocusPlane=Show Focus Plane
+
+screen.EXP=Exposure
+option.LOCAL_EXPOSURE=Local Exposure
+option.exposureDecay=Decay
+option.exposureBias=Bias
+option.exposureDarkClamp=Dark Limit
+option.exposureBrightClamp=Bright Limit
+option.exposureComplexEnabled=Advanced Exposure
+option.exposureBrightPercentage=Bright Percentage
+option.exposureDarkPercentage=Dark Percentage
+option.exposureBrightWeight=Bright Weightning
+option.exposureDarkWeight=Dark Weighting
+option.exposureAverageWeight=Average Weighting
+option.manualExposureEnabled=Manual Exposure Override
+option.manualExposureValue=Exposure Value
+
+screen.FLARE=Lens Flare
+option.lensFlareToggle=Flare
+option.lensFlareHaloToggle=Halo
+option.lensFlareIntensity=Flare Intensity
+option.lensFlareThreshold=Threshold
+option.lensFlareGhostCount=Flare Count
+option.lensFlareGhostSpace=Flare Spacing
+option.lensFlareHaloRad=Halo Radius
+option.lensFlareHaloDepth=Halo Depth
+
+screen.MBLUR=Motionblur
+option.motionblurToggle=Enabled
+option.motionblurSamples=Samples
+option.motionblurScale=Scale
+
+screen.VIGNETTE=Vignette
+option.vignetteEnabled=Enabled
+option.vignetteStart=Start
+option.vignetteEnd=End
+option.vignetteIntensity=Intensity
+option.vignetteExponent=Exponent
+
+screen.POST=Post Processing
+option.CAS_Strength=Image Sharpen Strength
+option.CAS_Strength.comment=Controls the strength of the Contrast-Adaptive Sharpening applied ontop.
+value.CAS_Strength.0=Off
+option.ResolutionScale=TAAU Ratio
+option.ResolutionScale.comment=Applies per axis, so 50% means 25% pixel count (or whats sometimes called halfres, despite technically being a quarter)
+value.ResolutionScale.0.25=25% (Not recommended)
+value.ResolutionScale.0.5=50%
+value.ResolutionScale.0.75=75%
+value.ResolutionScale.1.0=100% (off)
+option.imageSharpenEnabled=Image Sharpen
+option.screenBitdepth=Output Bitdepth
+option.screenBitdepth.comment=Setting this to 6 Bit can help with artifacts caused by the dither pattern of non-native 8 Bit displays. Output above 8 Bit is not supported by Minecraft/OptiFine/the used OpenGL version. Values below 6 just exist because they also double as a retro-esque image filter.
+option.tonemapOperator=Tonemap Operator
+value.tonemapOperator.ACES_AP1_SRGB=Academy Custom
+value.tonemapOperator.ACES_AP1_SRGB_RRT=Academy RRT
+value.tonemapOperator.hejlBurgessAP1=Hejl-Burgess
+option.VIEWPORT_GAMUT=Display Gamut
+option.VIEWPORT_GAMUT.comment=This setting allows you to select the colour space that matches your display to ensure the intended look. Correct gamma response for the selected colour space is assumed. This setting is ignored on Iris in favour of its built in display gamut management. Please set this value in the Video settings there.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+
+screen.AA=Anti-Aliasing
+option.taaEnabled=Temporal AA
+option.RESAMPLING_PARAM=Resampling Confidence
+option.RESAMPLING_PARAM.comment=Controls the sharpness of the Lanczos resampling used for the TAA(U).
+option.TAAU_FXAA_PostPass=FXAA Pass
+option.TAAU_FXAA_PostPass.comment=Applies an extra pass of FXAA after the TAA(U) to smooth out any remaining aliasing.
+option.taaBlendWeight=Minimum Sample Weight
+option.taaBlendWeight.comment=Controls the minimum weight of the current frame in the temporal accumulation. Raising this effectively leads to less anti-aliasing and may reduce upscaling sharpness.
+option.taaMotionRejection=Motion Rejection
+option.taaAntiGhosting=Anti-Ghosting
+option.taaAntiFlicker=Anti-Flicker
+option.taaLumaRejection=Luminance Rejection
+option.taaHueRejection=Hue Rejection
+option.TAA_AGGRESSIVE_ANTIFLICKER=Aggressive Anti-Flicker
+option.TAA_AGGRESSIVE_ANTIFLICKER.comment=May cause a severe loss of image sharpness!
+
+screen.ACES=Academy Color (ACES)
+option.acesRRTExposureBias=Input Exposure Bias
+option.acesRRTExposureBias.comment=Applies an exposure bias to the image before tonemapping
+option.acesRRTGammaLift=Gamma Lift
+option.acesRRTGammaLift.comment=Lifts the gamma curve before tonemapping. Use this to adjust "percieved contrast".
+option.acesRRTGlowGainOffset=Glow Gain Offset
+option.acesRRTGlowGainOffset.comment=Adjusts the "Glow" component, adjust this to affect dark areas.
+option.acesRRTSatOffset=Input Saturation Offset
+option.acesRRTSatOffset.comment=Adjust saturation before tonemapping. Provides a more natural response than adjusting saturation after tonemapping.
+option.acesODTSatOffset=Output Saturation Offset
+option.acesODTSatOffset.comment=Adjust saturation after tonemapping, but before conversion to sRGB. Use this to adjust general image saturation.
+
+screen.CGRADE=Color-Grading
+option.doColorgrading=Color-Grading
+option.vibranceInt=Vibrance
+option.saturationInt=Saturation
+option.gammaCurve=Gamma Curve
+option.brightnessInt=Brightness
+option.constrastInt=Contrast
+option.colorlumR=Red Gain
+option.colorlumG=Green Gain
+option.colorlumB=Blue Gain
+
+screen.PURKINJE=Purkinje Effect
+option.PURKINJE_EFFECT=Use Purkinje Effect
+option.purkinjeExponent=Exponent
+option.purkinjeExponent.comment=Controls the falloff of the purkinje effect
+option.purkinjeTintRed=Tint Red
+option.purkinjeTintGreen=Tint Green
+option.purkinjeTintBlue=Tint Blue
+
+screen.FTOOL=Framing Tool
+option.framingToolEnabled=Enabled
+option.framingThirdsHor=Thirds Guidelines
+option.framingToAspect=Aspect Ratio Guide
+option.framingAspectX=Horizonal Ratio
+option.framingAspectY=Vertical Ratio
+option.framingToAspectCenter=Center
+
+screen.MISC=Misc
+option.freezeAtmosAnim=Freeze Animations
+option.atmosAnimOffset=Animation Offset

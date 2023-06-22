@@ -1,0 +1,209 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本篇文档翻译并不不专业，有错误的地方请指出。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 PotatoShaders v1.0d 版本。
+option.INFO=Potato Shaders by RRe36
+value.INFO.0=v1.0d
+
+screen.ATMOS=氛围
+
+option.sunPathRotation=太阳斜角
+option.transparencyBlurEnabled=半透明模糊
+
+screen.COLORS=颜色
+
+screen.SUNLIGHT=太阳光颜色
+
+option.sunlightSunriseR=日出 - 红色
+option.sunlightSunriseG=日出 - 绿色
+option.sunlightSunriseB=日出 - 蓝色
+option.sunlightSunriseL=日出 - 倍率
+
+option.sunlightNoonR=正午 - 红色
+option.sunlightNoonG=正午 - 绿色
+option.sunlightNoonB=正午 - 蓝色
+option.sunlightNoonL=正午 - 倍率
+
+option.sunlightSunsetR=日落 - 红色
+option.sunlightSunsetG=日落 - 绿色
+option.sunlightSunsetB=日落 - 蓝色
+option.sunlightSunsetL=日落 - 倍率
+
+option.sunlightNightR=夜晚 - 红色
+option.sunlightNightG=夜晚 - 绿色
+option.sunlightNightB=夜晚 - 蓝色
+option.sunlightNightL=夜晚 - 倍率
+
+
+screen.SKYLIGHT=天空光颜色
+
+option.skylightSunriseR=日出 - 红色
+option.skylightSunriseG=日出 - 绿色
+option.skylightSunriseB=日出 - 蓝色
+option.skylightSunriseL=日出 - 倍率
+
+option.skylightNoonR=正午 - 红色
+option.skylightNoonG=正午 - 绿色
+option.skylightNoonB=正午 - 蓝色
+option.skylightNoonL=正午 - 倍率
+
+option.skylightSunsetR=日落 - 红色
+option.skylightSunsetG=日落 - 绿色
+option.skylightSunsetB=日落 - 蓝色
+option.skylightSunsetL=日落 - 倍率
+
+option.skylightNightR=夜晚 - 红色
+option.skylightNightG=夜晚 - 绿色
+option.skylightNightB=夜晚 - 蓝色
+option.skylightNightL=夜晚 - 倍率
+
+
+screen.FOGCOL=雾气颜色
+
+option.fogcolSunriseR=日出 - 红色
+option.fogcolSunriseG=日出 - 绿色
+option.fogcolSunriseB=日出 - 蓝色
+option.fogcolSunriseL=日出 - 倍率
+
+option.fogcolNoonR=正午 - 红色
+option.fogcolNoonG=正午 - 绿色
+option.fogcolNoonB=正午 - 蓝色
+option.fogcolNoonL=正午 - 倍率
+
+option.fogcolSunsetR=日落 - 红色
+option.fogcolSunsetG=日落 - 绿色
+option.fogcolSunsetB=日落 - 蓝色
+option.fogcolSunsetL=日落 - 倍率
+
+option.fogcolNightR=夜晚 - 红色
+option.fogcolNightG=夜晚 - 绿色
+option.fogcolNightB=夜晚 - 蓝色
+option.fogcolNightL=夜晚 - 倍率
+
+
+screen.SKY=天空颜色
+
+option.skycolSunriseR=日出 - 红色
+option.skycolSunriseG=日出 - 绿色
+option.skycolSunriseB=日出 - 蓝色
+option.skycolSunriseL=日出 - 倍率
+
+option.skycolNoonR=正午 - 红色
+option.skycolNoonG=正午 - 绿色
+option.skycolNoonB=正午 - 蓝色
+option.skycolNoonL=正午 - 倍率
+
+option.skycolSunsetR=日落 - 红色
+option.skycolSunsetG=日落 - 绿色
+option.skycolSunsetB=日落 - 蓝色
+option.skycolSunsetL=日落 - 倍率
+
+option.skycolNightR=夜晚 - 红色
+option.skycolNightG=夜晚 - 绿色
+option.skycolNightB=夜晚 - 蓝色
+option.skycolNightL=夜晚 - 倍率
+
+
+screen.WATER=水体
+option.overrideWaterTexture=覆盖贴图
+option.overrideWaterTexture.comment=启用本选项以使用可配置的自定义水体颜色.
+option.waterColorRed=水体 - 红色
+option.waterColorGreen=水体 - 绿色
+option.waterColorBlue=水体 - 蓝色
+option.waterColorAlpha=水体 - 透明度
+option.waterFogRed=水雾 - 红色
+option.waterFogGreen=水雾 - 绿色
+option.waterFogBlue=水雾 - 蓝色
+option.waterFogFalloff=水雾渐消
+
+option.vanillaFogColor=原版雾气颜色
+option.vanillaSkyColor=原版天空颜色
+
+
+screen.FOG=雾气
+
+option.fogEnabled=雾气
+option.fogStart=雾气起点偏移
+option.fogFalloff=雾气渐消
+option.waterFogEnabled=水雾
+
+
+screen.LIGHTING=照明
+
+option.ambientOcclusionToggle=屏幕空间环境光遮蔽(SSAO)
+option.directionalSSAO=指向性SSAO
+option.directionalSSAO.comment=通过使用法线图为环境光遮蔽增加额外的细节.
+option.outlineShimmerToggle=轮廓框光泽
+
+
+screen.TERRAIN=表面
+
+option.normalmapEnabled=法线贴图
+option.normalmapFormat=格式
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1
+option.windEffectsEnabled=风效应
+option.windIntensity=风效应强度
+
+
+screen.CAMERA=镜头
+
+option.camSensorWidth=传感器宽度(mm)
+option.camFStops=光圈
+option.filmGrainStrength=胶片颗粒强度
+
+screen.BLOOM=泛光
+option.bloomEnabled=启用
+option.bloomIntensity=强度
+
+screen.DOF=景深
+option.DoFToggle=景深
+option.DoFQuality=景深质量
+value.DoFQuality.0=低
+value.DoFQuality.1=中
+value.DoFQuality.2=高
+option.DoFChromaDispersion=色度偏差
+
+screen.MBLUR=动态模糊
+option.motionblurToggle=动态模糊
+option.motionblurSamples=采样值
+option.motionblurScale=动态模糊强度
+
+screen.VIGNETTE=暗角
+option.vignetteEnabled=暗角启用
+option.vignetteStart=暗角起始处
+option.vignetteEnd=暗角消失处
+option.vignetteIntensity=强度
+option.vignetteExponent=指数
+
+
+screen.POST=后期处理
+
+option.imageSharpenEnabled=图像锐化
+option.screenBitdepth=输出位深
+option.taaEnabled=时间性抗锯齿(TAA)
+option.VIEWPORT_GAMUT=色域显示
+option.VIEWPORT_GAMUT.comment=此设置允许您选择与显示器匹配的颜色空间,以确保显示正确的外观. 假设所选颜色空间的伽马响应正确. 本选项在 Iris 中无效, 因为 Iris 内置显示色域管理支持. 请在视频设置中自行设定.
+value.VIEWPORT_GAMUT.0=sRGB
+value.VIEWPORT_GAMUT.1=DCI-P3 (D65)
+value.VIEWPORT_GAMUT.2=Display P3
+
+screen.CGRADE=颜色分级
+option.doColorgrading=启用颜色分级
+option.vibranceInt=自然饱和度
+option.saturationInt=饱和度
+option.gammaCurve=伽马曲线
+option.brightnessInt=亮度
+option.constrastInt=对比度
+option.colorlumR=红色增益
+option.colorlumG=绿色增益
+option.colorlumB=蓝色增益
+
+screen.FTOOL=框选工具
+
+
+screen.MISC=杂项 & 内部选项
+
+#额外汉化接口
+
+option.refractionEnabled=折射

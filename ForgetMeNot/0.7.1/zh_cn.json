@@ -1,0 +1,121 @@
+{
+	"pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+	"pipeline.forgetmenot.desc": "适用于Canvas渲染器的沉浸式着色器. 本汉化文档由Surisen提供. 文档路径:Forget-Me-Not_Shaders/assets/forgetmenot/lang. 光影下载地址:https://modrinth.com/resourcepack/forgetmenot. 本汉化对应版本0.7.1",
+
+	"config.forgetmenot.category.atmosphere": "大气",
+	
+	"config.forgetmenot.name.sun_brightness": "太阳亮度",
+	"config.forgetmenot.desc.sun_brightness": "太阳的亮度. 影响天空的外观的同时也影响在地表的太阳光直接照明亮度.",
+
+	"config.forgetmenot.name.sun_angle": "太阳角度",
+	"config.forgetmenot.desc.sun_angle": "太阳方位角.",
+
+	"config.forgetmenot.name.fog": "雾气",
+	"config.forgetmenot.desc.fog": "启用大气雾.",
+
+	"config.forgetmenot.category.clouds": "云层",
+
+	"config.forgetmenot.name.cumulus_clouds": "积云层",
+	"config.forgetmenot.desc.cumulus_clouds": "启用普通云层",
+	"config.forgetmenot.name.cumulus_detail": "积云层细节",
+	"config.forgetmenot.desc.cumulus_detail": "应用于积云的噪声八度数, 极大影响性能.",
+
+	"config.forgetmenot.name.cirrus_clouds": "卷云层",
+	"config.forgetmenot.desc.cirrus_clouds": "启用飘散的云层",
+	"config.forgetmenot.name.cirrus_detail": "卷云层细节",
+	"config.forgetmenot.desc.cirrus_detail": "应用于卷云的噪声八度数, 极大影响性能.",
+
+	"config.forgetmenot.name.curl_noise": "卷云噪声",
+	"config.forgetmenot.desc.curl_noise": "云层上的类风吹效果噪声. 轻微影响性能.",
+
+	"config.forgetmenot.category.lighting": "照明",
+
+	"config.forgetmenot.name.emission": "发光亮度",
+	"config.forgetmenot.desc.emission": "萤石等发光方块的亮度. 不影响光源本身的照明等级.",
+
+	"config.forgetmenot.name.handheld_light": "手持光源",
+	"config.forgetmenot.desc.handheld_light": "启用彩色手持光源.",
+
+	"config.forgetmenot.name.blocklight_warmth": "方块光色温",
+	"config.forgetmenot.desc.blocklight_warmth": "控制方块光的温暖程度.",
+
+	"config.forgetmenot.name.ambient_brightness": "基础环境光亮度",
+	"config.forgetmenot.desc.ambient_brightness": "向所有场景添加的基本亮度, 无论是维度, 方块光, 或者天空光.",
+
+	"config.forgetmenot.name.realistic_metals": "拟真金属质感",
+	"config.forgetmenot.desc.realistic_metals": "如果启用, 金属反射会使入射光线的颜色发生变化. 不影响性能, 但在某些情况下可能看起来很糟糕.",
+
+	"config.forgetmenot.name.fullbright": "最大亮度",
+	"config.forgetmenot.desc.fullbright": "启用最大亮度. 请不要在不合适的情况下不道德地启用本选项, 因为本选项可以获得更对优势, 这对其他玩家不公平.",
+
+	"config.forgetmenot.category.water": "水体",
+
+	"config.forgetmenot.name.realistic_water": "拟真水面波浪",
+	"config.forgetmenot.desc.realistic_water": "如果禁用, 将会使用原版水面贴图作为水面波浪. 如果启用, 会计算平滑的拟真水面波浪.",
+
+	"config.forgetmenot.name.water_dirt_amount": "水体污浊程度",
+	"config.forgetmenot.desc.water_dirt_amount": "水体的污浊物含量. 用于调整水雾浓度.",
+
+	"config.forgetmenot.name.water_color_r": "水体颜色 - 红色",
+	"config.forgetmenot.desc.water_color_r": "水体的红色比重.",
+
+	"config.forgetmenot.name.water_color_g": "水体颜色 - 绿色",
+	"config.forgetmenot.desc.water_color_g": "水体的绿色比重.",
+
+	"config.forgetmenot.name.water_color_b": "水体颜色 - 蓝色",
+	"config.forgetmenot.desc.water_color_b": "水体的蓝色比重.",
+
+	"config.forgetmenot.category.camera": "镜头",
+
+	"config.forgetmenot.name.enable_bloom": "启用泛光",
+	"config.forgetmenot.desc.enable_bloom": "允许光源其明亮的颜色混入周围的环境中.",
+
+	"config.forgetmenot.name.motion_blur": "动态模糊",
+	"config.forgetmenot.desc.motion_blur": "随着镜头运动模糊屏幕.",
+
+	"config.forgetmenot.category.dimensions": "维度",
+
+	"config.forgetmenot.name.nether_diffuse": "下届环境光扩散",
+	"config.forgetmenot.desc.nether_diffuse": "将下界底层区域渲染成橙色模拟岩浆海的光线扩散.",
+
+	"config.forgetmenot.name.end_mist_color_r": "末地迷雾颜色 - 红色",
+	"config.forgetmenot.desc.end_mist_color_r": "末地迷雾的红色比重.",
+
+	"config.forgetmenot.name.end_mist_color_g": "末地迷雾颜色 - 绿色",
+	"config.forgetmenot.desc.end_mist_color_g": "末地迷雾的蓝色比重.",
+
+	"config.forgetmenot.name.end_mist_color_b": "末地迷雾颜色 - 蓝色",
+	"config.forgetmenot.desc.end_mist_color_b": "末地迷雾的蓝色比重.",
+
+	"config.forgetmenot.category.general": "常规设置",
+
+	"config.forgetmenot.name.taa": "时间性抗锯齿 (TAA)",
+	"config.forgetmenot.desc.taa": "混合多帧消除图像锯齿.",
+	"config.forgetmenot.name.no_taa_jitter": "关闭 TAA 抖动",
+	"config.forgetmenot.desc.no_taa_jitter": "如果启用, 为 TAA 跳过每一帧图像的抖动. 减少图像抖动, 但抗锯齿效果会变差.",
+
+	"config.forgetmenot.category.seasons": "季节系统",
+
+	"config.forgetmenot.name.seasons": "季节",
+	"config.forgetmenot.desc.seasons": "启用季节循环, 根据世界时间来对植被着色和使特定时间的树叶落叶凋零.",
+
+	"config.forgetmenot.name.season_length": "季节长度",
+	"config.forgetmenot.desc.season_length": "每个季节的持续时间.",
+
+	"config.forgetmenot.name.transition_length": "季节过渡期长度",
+	"config.forgetmenot.desc.transition_length": "季节间过渡期的长度.",
+
+	"config.forgetmenot.name.starting_season": "季节开端",
+	"config.forgetmenot.desc.starting_season": "控制每个世界开始时的季节是什么.",
+
+	"config.forgetmenot.name.varied_tree_color": "多彩树木颜色",
+	"config.forgetmenot.desc.varied_tree_color": "允许树木根据季节的不同而呈现出不同的叶子颜色",
+
+	"config.forgetmenot.name.falling_leaves": "落叶",
+	"config.forgetmenot.desc.falling_leaves": "允许树叶方块的纹理在秋季和冬季变稀疏, 模拟树叶凋落.",
+
+	"config.forgetmenot.category.misc": "杂项",
+
+	"config.forgetmenot.name.internal_materials": "内部材质",
+	"config.forgetmenot.desc.internal_materials": "材质着色器用于检测 勿忘我 是否激活的内部选项. 请勿禁用."
+}

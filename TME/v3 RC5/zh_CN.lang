@@ -1,0 +1,32 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 TME v3 RC5 版本。
+
+option.BANDINGFIX=重叠修复
+option.BANDINGFIX.comment=仅当你使用1.8.9版本以下游戏时启用本选项.
+
+option.CLOUDS=云层
+
+option.DISABLE_SSAO_DEPTH_FILTER=禁用屏幕空间环境光遮蔽深度过滤
+option.DISABLE_SSAO_DEPTH_FILTER.comment=请报此本选项关闭, 除非你在使用视差材质!
+
+option.DOF=景深
+option.DOF.comment=启用景深(模糊虚化没有对焦的事物).
+
+option.FARBLUR=远距模糊
+
+option.FRINGE=边缘
+
+option.HEXAGONAL_BOKEH=六边形虚化
+option.HEXAGONAL_BOKEH.comment=启用: 六边形虚化. 禁用: 圆形虚化.
+
+option.HQ_DOF=高质量景深
+option.HQ_DOF.comment=非常慢!启用本选项会强制启用圆形虚化!使用深度感知采样. 至少比普通景深慢8倍以上.
+
+option.LENSFLARE=镜头眩光
+
+option.UNDERWATERFIX=水下修复
+option.UNDERWATERFIX.comment=修复水下的阴影和其他事物.
+
+option.VIGNETTE=暗角
+option.VIGNETTE.comment=是屏幕边缘变暗(不影响帧数).

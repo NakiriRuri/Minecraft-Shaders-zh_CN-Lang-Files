@@ -1,0 +1,175 @@
+#shaders/lang/zh_CN.lang
+#本汉化文档由Surisen提供，非专业译者，请谅解。
+#本汉化文档对应光影 Apollo Lite v1.3 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+option.HEADER = Apollo Lite | By
+    value.HEADER.0 = snurf
+
+profile.Default=默认
+profile.High=高
+profile.Low=低
+
+#LIGHTING
+screen.LIGHTING=照明
+
+screen.Indirect=间接照明
+option.RSM_ENABLED=RSM
+option.RSM_QUALITY=RSM质量
+
+screen.Reflections=反射
+option.SPECULAR_SAMPLES=高光采样值
+option.ROUGHNESS_CUTOFF=粗糙反射阈值
+
+
+#MATERIALS
+screen.MATERIALS=材质
+
+screen.WATER=水体
+option.WATER_ABSORP_R=水体吸收 - 红色
+option.WATER_ABSORP_R.comment=调节水体吸收多少红色光对应的波段.
+option.WATER_ABSORP_G=水体吸收 - 绿色
+option.WATER_ABSORP_G.comment=调节水体吸收多少绿色光对应的波段.
+option.WATER_ABSORP_B=水体吸收 - 蓝色
+option.WATER_ABSORP_B.comment=调节水体吸收多少蓝色光对应的波段.
+option.WATER_TURBIDITY=水体浑浊度
+option.WATER_TURBIDITY.comment=水体看起来的浑浊程度.
+option.WATER_DISPERSION_INTENSITY=水体散射强度
+option.WATER_DISPERSION_INTENSITY.comment=焦散线对颜色分散效果的强度.
+option.WATER_WAVE_HEIGHT=水波高度
+option.WATER_WAVE_SPEED=水波速度
+option.WATER_WAVE_SPEED.comment=水波荡漾的速度倍数.
+option.WATER_REFRACTION_STRENGTH=水体折射强度.
+option.WATER_STEPS=水雾采样值
+option.WATER_STEPS.comment=对水雾的光线步进采样值.
+
+screen.PLANTS=植物
+option.WAVING_PLANTS_SPEED=植物摇摆速度
+option.WAVING_PLANTS_SPEED.comment=植物摇摆速度的倍数.
+
+screen.EMITTERS=发光
+option.EMISSIVE_BRIGHTNESS=发光亮度
+option.EMISSIVE_BRIGHTNESS.comment=发光方块的亮度.
+option.EMISSIVE_CURVE=照明曲线
+option.EMISSIVE_CURVE.comment=光源的对比度.
+option.TORCH_TEMP=火把光色温
+option.TORCH_TEMP.comment=火把发出的光线的色温. 以开尔文为单位(K).
+option.CONCRETE_POWDER_EMISSIVES=混凝土粉末发光
+
+option.LabPBR_ENABLED=LabPBR支持
+
+
+#SKY
+screen.SKY=天空
+
+screen.SUN=太阳
+option.SUN_BRIGHTNESS=太阳亮度
+option.MOON_BRIGHTNESS=月亮亮度
+option.SUN_SIZE=太阳大小
+option.SUN_SIZE.comment=调节太阳在天空时的大小.
+option.SUNLIGHT_GI_BOOST=阳光全局照明增强
+option.shadowMapResolution=阴影分辨率
+option.sunPathRotation=太阳斜角
+option.sunPathRotation.comment=太阳的偏移角度.
+option.PCSS_SAMPLES=PCSS采样值
+option.PCSS_SAMPLES.comment=软阴影采样值.
+
+screen.ATMOSPHERE=大气
+option.GROUND_ATMOSPHERE_DENSITY=地表大气密度
+option.GROUND_ATMOSPHERE_DENSITY.comment=远处的(未加载区域) 蓝色雾气 强度.
+
+screen.CLOUDS=云层
+option.CLOUDS_ENABLED=体积云
+option.PLANAR_CLOUDS_ENABLED=平面云
+
+screen.SHAPING=云层形态
+option.CLOUD_HEIGHT=云层高度
+option.CLOUD_THICKNESS=云层厚度
+option.CLOUD_KEBAB_STYLE=长横线风格的云层
+option.CLOUD_COVERAGE=云层覆盖偏差
+option.CLOUD_SPEED=云层速度
+option.CLOUD_GRANULARITY=云层间隔尺寸
+
+screen.CLOUD_LIGHTING=云层照明
+option.CLOUD_PRIMARY_STEPS=云层初次采样值
+option.CLOUD_SECONDARY_STEPS=云层二次采样值
+option.CLOUD_AMBIENT_STEPS=云层环境光采样值
+option.CLOUD_FAST_AMBIENT=云层快速环境光采样
+option.CLOUD_FAST_AMBIENT.comment=为云层应用近似的环境光采样效果.
+option.CLOUD_DENSITY=云层密度
+
+screen.FOG=雾气
+option.FOG_ENABLED=雾气
+option.FOG_DENSITY=雾气密度
+option.FOG_SEA_LEVEL=雾气海平面高度
+option.FOG_LAYER_HEIGHT=雾气层高度
+option.FOG_STEPS=雾气采样值
+option.FOG_VARIATION=雾气差异化
+option.FOG_VARIATION.comment=使雾气不同区域的密度有差异. 虽然更消耗性能但是看起来更好.
+option.TINTED_FOG_SHADOWS=雾气阴影着色
+ption.TINTED_FOG_SHADOWS.comment=使彩色玻璃能染色体积雾的阴影.
+
+
+#GAMEPLAY
+screen.GAMEPLAY=游玩设置
+
+screen.SURVIVOR_SENSE=生物感知
+option.SURVIVOR_SENSE_ENABLED=启用
+option.SURVIVOR_SENSE_ENABLED.comment=保持蹲下来扫描周围环境中的怪物和玩家.
+option.SURVIVOR_SENSE_ALWAYS_ACTIVE=保持启用
+option.SURVIVOR_SENSE_ALWAYS_ACTIVE.comment=无论是否蹲下都启用生物感知.
+
+screen.FLASHLIGHT=手电筒选项
+option.FLASHLIGHT_MODE=手电筒模式
+value.FLASHLIGHT_MODE.0=关
+value.FLASHLIGHT_MODE.1=夜晚
+value.FLASHLIGHT_MODE.2=手持光源时
+option.FLASHLIGHT_TEMP=光束色温
+option.FLASHLIGHT_TEMP.comment=手电筒光束的色温. 以开尔文为单位(K). 较低的数值颜色接近橘黄色, 较高的值颜色接近蓝色.
+option.FLASHLIGHT_LAG_AMOUNT=摇摆幅度
+option.FLASHLIGHT_LAG_AMOUNT.comment=调节玩家在移动和扭转视角时手电筒光束的摇摆幅度.
+option.FLASLIGHT_BRIGHTNESS=亮度
+option.FLASLIGHT_BRIGHTNESS.comment=调节手电筒光束在晚上时的亮度.
+option.FLASHLIGHT_WIDTH=光束宽度
+option.FLASHLIGHT_WIDTH.comment=手电筒光束的宽度.
+
+option.HARDCORE_DARKNESS=硬核黑暗效果
+option.HARDCORE_DARKNESS.comment=夜晚时间使没有光源照亮的区域几乎全黑.
+
+option.BEDROCK_STYLE_HAND=基岩版风格手臂
+
+
+#POST
+screen.POST=后期效果
+
+screen.ACES=ACES 色调映射
+option.acesRRTExposureBias=ACES RRT 曝光偏移
+option.acesRRTGammaLift=ACES RRT 伽马提升
+option.acesRRTGlowGainOffset=ACES RRT 发光增益补偿
+option.acesRRTSatOffset=ACES RRT 饱和度补偿
+option.acesODTSatOffset=ACES ODT 饱和度补偿
+
+screen.COLOUR_GRADING=颜色分级
+option.COLOUR_GRADING=启用颜色分级
+option.WHITE_BALANCE=白平衡
+option.CONT_MOD=Cont Mod
+
+screen.CAMERA_EFFECTS=镜头效果
+option.AUTO_EXPOSURE=自动曝光
+option.AUTO_EXPOSURE.comment=自动进行曝光调整.
+option.EXPOSURE_SPEED=曝光速度
+option.EXPOSURE_SPEED.comment=调整自动曝光时的曝光速度.
+option.MANUAL_EXPOSURE_AMOUNT=手动曝光强度
+option.MANUAL_EXPOSURE_AMOUNT.comment=手动调整曝光强度.
+option.BLOOM_ENABLED=泛光
+option.BLOOM_INTENSITY=泛光强度
+
+screen.TAA=时间性抗锯齿(TAA)
+option.TAA_ENABLED=TAA
+option.TAA_ENABLED.comment=时间性抗锯齿,减少锯齿边缘,平滑图像.
+option.TAA_WEIGHT=TAA权重
+
+screen.Sharpening=图像锐化
+option.POST_SHARPEN_WEIGHT=锐化强度
+option.POST_SHARPEN_WEIGHT.comment=锐化图像强度. -2.0 适用于 1.0x 渲染精度. -2.5 适用于 0.75x 渲染精度. -3.0 适用于 <0.75x 的渲染精度.
+option.POST_SHARPEN_ENABLED=锐化

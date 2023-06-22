@@ -1,0 +1,232 @@
+#Profiles
+############################
+profile.no_effects=No effects
+profile.shadowless_low=Shadowless Low
+profile.shadowless_medium=Shadowless Medium
+profile.shadowless_high=Shadowless High
+profile.low=Low
+profile.medium=Medium
+profile.high=High
+profile.extreme=Extreme
+profile.extremeplus=Extreme+
+
+profile.comment=The "shadowless" profiles are designed for low-performance machines, disregarding the shadows. Traditional profiles slowly add higher quality shadows and more advanced heavy effects. Please experiment with the available options and find the best combination for you.
+
+#About
+#############################
+option.ACERCADE=MakeUp
+option.ACERCADE.comment=Thanks for using this shader! :). Set Optifine native quality controls on normal or default values for better quality.
+value.ACERCADE.0=v.8.6g Iris
+
+#Options
+#############################
+option.SHADOW_CASTING=Shadows
+
+option.SHADOW_DISTANCE_SLIDER=Shadow distance
+value.SHADOW_DISTANCE_SLIDER.0=Short
+value.SHADOW_DISTANCE_SLIDER.1=Medium
+value.SHADOW_DISTANCE_SLIDER.2=Far
+
+option.SHADOW_QTY_SLIDER=Shadow quality
+value.SHADOW_QTY_SLIDER.0=None
+value.SHADOW_QTY_SLIDER.1=Low
+value.SHADOW_QTY_SLIDER.2=Medium
+value.SHADOW_QTY_SLIDER.3=High
+
+option.REFLECTION_SLIDER=Reflection
+value.REFLECTION_SLIDER.0=Off
+value.REFLECTION_SLIDER.1=Flipped image
+value.REFLECTION_SLIDER.2=Raymarching
+
+option.SHADOW_TYPE=Shadow type
+value.SHADOW_TYPE.0=Simple
+value.SHADOW_TYPE.1=Filtered
+
+option.SHADOW_BLUR=Shadow blur intensity
+
+option.COLORED_SHADOW=Colored shadows
+
+option.VOL_LIGHT=Godrays
+value.VOL_LIGHT.0=Disabled
+value.VOL_LIGHT.1=Depth based
+value.VOL_LIGHT.2=Volumetric
+
+option.DOF=Depth of field
+
+option.DOF_STRENGTH=DoF strenght
+
+option.DOF_SAMPLES_FACTOR=DoF samples factor
+
+option.AO=Ambient occlusion
+value.AO.0=Off
+value.AO.1=On
+
+option.AOSTEPS=AO sample pairs
+
+option.AO_STRENGHT=AO strenght
+
+option.AA_TYPE=Temporal sampling
+value.AA_TYPE.0=Off
+value.AA_TYPE.1=Denoise
+value.AA_TYPE.2=TAA
+value.AA_TYPE.3=Sharp TAA
+
+option.MOTION_BLUR=Motion blur
+option.MOTION_BLUR_STRENGTH=Motion blur strenght
+option.MOTION_BLUR_SAMPLES=Motion blur samples
+
+option.VANILLA_WATER=Vanilla like water
+
+option.WATER_TEXTURE=Water texture
+value.WATER_TEXTURE.0=No
+value.WATER_TEXTURE.1=Yes
+
+option.WATER_COLOR_SOURCE=Water color
+value.WATER_COLOR_SOURCE.0=Shader scheme
+value.WATER_COLOR_SOURCE.1=Resource Pack
+
+option.REFLECTION=Reflection
+value.REFLECTION.0=Off
+value.REFLECTION.1=On
+
+option.REFRACTION=Refraction
+value.REFRACTION.0=Off
+value.REFRACTION.1=On
+
+option.SSR_TYPE=Reflection type
+value.SSR_TYPE.0=Flipped image
+value.SSR_TYPE.1=Raymarching
+
+option.SUN_REFLECTION=Sun reflection
+value.SUN_REFLECTION.0=Off
+value.SUN_REFLECTION.1=On
+
+option.CLOUD_REFLECTION=Vol. clouds reflection
+
+option.WAVING=Waving plants
+value.WAVING.0=No
+value.WAVING.1=Yes
+
+option.CHROMA_ABER=Chroma aberration
+value.CHROMA_ABER.0=No
+value.CHROMA_ABER.1=Yes
+
+option.CHROMA_ABER_STRENGHT=Chroma aberration strenght
+
+option.WATER_ABSORPTION=Water absorption index
+
+option.WATER_TURBULENCE=Waves strenght
+value.WATER_TURBULENCE.8.0=Very low
+value.WATER_TURBULENCE.3.7=Low
+value.WATER_TURBULENCE.2.25=Medium
+value.WATER_TURBULENCE.1.3=High
+
+option.COLOR_SCHEME=Color scheme
+value.COLOR_SCHEME.0=Ethereal
+value.COLOR_SCHEME.1=New shoka
+value.COLOR_SCHEME.2=Shoka
+value.COLOR_SCHEME.3=Legacy
+value.COLOR_SCHEME.4=Captain
+value.COLOR_SCHEME.5=Psychedelic
+value.COLOR_SCHEME.6=Cocoa
+
+option.AVOID_DARK_LEVEL=Cave brightness
+
+option.NIGHT_BRIGHT=Night brightness
+
+option.V_CLOUDS=Clouds
+value.V_CLOUDS.0=Vanilla
+value.V_CLOUDS.1=Volumetric static
+value.V_CLOUDS.2=Volumetric dyn.
+
+option.CLOUD_VOL_STYLE=Volumetric cloud style
+value.CLOUD_VOL_STYLE.0=Natural
+value.CLOUD_VOL_STYLE.1=Boxy
+
+option.CLOUD_SPEED=Clouds speed
+value.CLOUD_SPEED.0=Normal
+value.CLOUD_SPEED.1=Time lapse 1
+value.CLOUD_SPEED.2=Time lapse 2
+
+option.CLOUD_STEPS_AVG=Cloud samples
+
+option.BLOOM=Bloom
+
+option.COLOR_BLINDNESS=Color blindness
+
+option.COLOR_BLIND_MODE=CB type
+value.COLOR_BLIND_MODE.0=Protanopia
+value.COLOR_BLIND_MODE.1=Deuteranopia
+value.COLOR_BLIND_MODE.2=Tritanopia
+
+option.DEBUG_MODE=Debug mode
+
+option.BLOOM_SAMPLES=Bloom sample pairs
+
+option.BLACK_ENTITY_FIX=Black entity BUGFIX
+value.BLACK_ENTITY_FIX.0=Off
+value.BLACK_ENTITY_FIX.1=On
+
+option.FOG_ADJUST=Fog intensity
+value.FOG_ADJUST.10.0=The fog won't go away
+value.FOG_ADJUST.8.0=Very low
+value.FOG_ADJUST.4.0=Low
+value.FOG_ADJUST.2.0=Medium
+value.FOG_ADJUST.1.0=High
+
+option.BLOCKLIGHT_TEMP=Blocklight temp
+value.BLOCKLIGHT_TEMP.0=Warmer
+value.BLOCKLIGHT_TEMP.1=Warm
+value.BLOCKLIGHT_TEMP.2=Yellow
+value.BLOCKLIGHT_TEMP.3=Pale yellow
+value.BLOCKLIGHT_TEMP.4=White light
+
+option.sunPathRotation=Sun angle
+
+option.USE_BASIC_SH=Custom dimensions basic shader
+
+option.MATERIAL_GLOSS=Material gloss
+
+option.SIMPLE_AUTOEXP=Simpler exposure
+
+option.DYN_HAND_LIGHT=Fake dynamic light
+
+#Screens
+screen.ADVANCED_SCREEN=Advanced options
+screen.ADVANCED_SCREEN.comment=Set advanced options
+
+screen.SHADOWS_SCREEN=Shadows options
+screen.SHADOWS_SCREEN.comment=Set shadows options
+
+screen.DOF_SCREEN=Depth of field options
+screen.DOF_SCREEN.comment=Set depth of field options
+
+screen.AO_SCREEN=Ambient occlusion options
+screen.AO_SCREEN.comment=Set ambient occlusion options
+
+screen.WATER_SCREEN=Water options
+screen.WATER_SCREEN.comment=Set water options.
+
+screen.POST_SCREEN= Post effects options
+screen.POST_SCREEN.comment=Set post effects options.
+
+screen.DARKNESS_SCREEN=Darkness options
+screen.DARKNESS_SCREEN.comment=Set brightness/darkness options.
+
+screen.CLOUDS_SCREEN=Clouds options
+screen.CLOUDS_SCREEN.comment=Set clouds options.
+
+screen.SUN_SCREEN=Sun options
+screen.SUN_SCREEN.comment=Set sun options.
+
+screen.FOG_SCREEN=Fog options
+screen.FOG_SCREEN.comment=Set fog options
+
+screen.MOTION_BLUR_SCREEN=Motion blur options
+screen.MOTION_BLUR_SCREEN.comment=Set motion blur options
+
+screen.ACCESIBILITY_SCREEN=Accesibility options
+screen.ACCESIBILITY_SCREEN.comment=Set accesibility options
+
+screen.DEBUG_SCREEN=Debug options
+screen.DEBUG_SCREEN.comment=Set debug options
