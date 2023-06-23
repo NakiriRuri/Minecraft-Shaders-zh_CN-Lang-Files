@@ -1,0 +1,216 @@
+#shaders/lang/zh_CN.lang
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#该汉化有部分文本描述来源于https://www.mcbbs.net/thread-1262472-1-1.html
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#Profiles
+profile.LOW=§e低
+profile.MEDIUM=§a中
+profile.HIGH=§b高(默认)
+profile.VERYHIGH=§9非常高
+profile.ULTRA=§d极致
+profile.comment=着色器配置以最优化的视觉效果和性能比改变性能设置. 除非你需要某个特定设置，否则建议用任意预设配置来进行性能设置.
+
+#CMPR
+option.CMPR=Complementary
+value.CMPR.0=§cReimagined
+value.CMPR.1=§eReimagined
+value.CMPR.2=§aReimagined
+value.CMPR.3=§bReimagined
+value.CMPR.4=§9Reimagined
+value.CMPR.5=§dReimagined
+option.CMPR.comment=Complementary Reimagined是一个充满爱和关怀的创作; 旨在以最好的方式补充独特的Minecraft体验. 我希望您能和Reimagined度过美好的时光，正如我在享受它的开发一样. 你随时能加入Complementary社区. Discord链接：www.complementary.dev/discord. 
+
+
+#Screens
+screen.PERFORMANCE_SETTINGS=性能设置
+screen.PERFORMANCE_SETTINGS.comment=与性能直接相关的设置，会被不同的着色器性能配置所改变.
+
+screen.PREFERENCE_SETTINGS=喜好设置
+screen.PREFERENCE_SETTINGS.comment=与喜好直接相关的设置. 设置是可选的，不会被不同的着色器性能配置所改变.
+    screen.CLOUD_SETTINGS=云朵设置
+    screen.CLOUD_SETTINGS.comment=与云相关的设置.
+    screen.TONEMAP_SETTINGS=Tonemap设置
+    screen.TONEMAP_SETTINGS.comment=决定最终画面如何调整的设置.
+
+#Settings
+option.RP_SUPPORT=资源包支持
+option.RP_SUPPORT.comment=改变了许多内部计算，以确定不同的方块和材质将被如何渲染. §b集成PBR+§r: 基于预设的PBR材质生成和其他额外效果; 如果你不使用资源包，推荐使用此选项.  §a基本§r: 没有法线贴图和额外效果; 如果使用了一些修改程度相当高的材质，推荐使用此选项.
+value.RP_SUPPORT.1=§b集成PBR+
+value.RP_SUPPORT.0=§a基本
+
+option.CLOUD_QUALITY=云朵质量
+option.CLOUD_QUALITY.comment=调整云朵的质量. §9非常高§r: 保真度更好. §b高§r: 默认. §a中§r: 禁用高处的云层照明. §e低§r: 在中配置的基础上禁用室内检测. §c关§r: 没有云朵.
+value.CLOUD_QUALITY.4=§9非常高
+value.CLOUD_QUALITY.3=§b高
+value.CLOUD_QUALITY.2=§a中
+value.CLOUD_QUALITY.1=§e低
+value.CLOUD_QUALITY.0=§c关
+
+option.WATER_QUALITY=水质量
+option.WATER_QUALITY.comment=调整水的视觉质量. §a中§r: 默认. §eLow§r: 禁用边缘起泡，没有花哨的透明度; 也没有中等配置以上的颜色强度变化效果.
+value.WATER_QUALITY.2=§a中
+value.WATER_QUALITY.1=§e低
+
+option.REFLECTION_QUALITY=反射质量
+option.REFLECTION_QUALITY.comment=调整反射的视觉质量. §b高§r: 所有方块上启用预设的方块和材质反射效果; (资源包支持选项必须设置为集成PBR+). §a中§r: 反射效果仅在水和半透明物体上生效. §c关§r: 没有反射效果.
+value.REFLECTION_QUALITY.3=§b高
+value.REFLECTION_QUALITY.2=§a中
+value.REFLECTION_QUALITY.0=§c关
+
+option.SHADOW_QUALITY=阴影质量
+option.SHADOW_QUALITY.comment=调整阴影过滤的质量. 每提高一层配置都进一步减少了阴影噪声的伪影. §a中§r 和 §e低§r 都启用了树叶阴影的优化.
+value.SHADOW_QUALITY.4=§9非常高
+value.SHADOW_QUALITY.3=§b高
+value.SHADOW_QUALITY.2=§a中
+value.SHADOW_QUALITY.1=§e低
+
+option.LIGHT_SHAFT_QUALITY=光轴质量
+option.LIGHT_SHAFT_QUALITY.comment=调整光轴的质量. 每提高一层配置都进一步减少了光轴噪音的伪影.
+value.LIGHT_SHAFT_QUALITY.4=§9非常高
+value.LIGHT_SHAFT_QUALITY.3=§b高
+value.LIGHT_SHAFT_QUALITY.2=§a中
+value.LIGHT_SHAFT_QUALITY.1=§e低
+value.LIGHT_SHAFT_QUALITY.0=§c关
+
+option.shadowDistance=阴影距离
+option.shadowDistance.comment=调整渲染实时阴影与玩家的最长距离. §e[*]§r 该值在内部被设定为 "渲染距离". §e[*]§r 这也会影响到光轴的正确性.
+value.shadowDistance.1024.0=§d64 区块
+value.shadowDistance.768.0=§d48 区块
+value.shadowDistance.512.0=§d32 区块
+value.shadowDistance.384.0=§d24 区块
+value.shadowDistance.320.0=§d20 区块
+value.shadowDistance.256.0=§b16 区块
+value.shadowDistance.224.0=§b14 区块
+value.shadowDistance.192.0=§b12 区块
+value.shadowDistance.160.0=§a10 区块
+value.shadowDistance.128.0=§a8 区块
+value.shadowDistance.112.0=§a7 区块
+value.shadowDistance.96.0=§e6 区块
+value.shadowDistance.80.0=§e5 区块
+value.shadowDistance.64.0=§e4 区块
+
+option.ENTITY_SHADOWS=实体阴影
+option.ENTITY_SHADOWS.comment=启用实体和方块实体投射阴影的能力.
+value.ENTITY_SHADOWS.true=§d开
+value.ENTITY_SHADOWS.false=§e关
+
+option.SSAO=SSAO(屏幕空间环境光遮蔽)
+option.SSAO.comment=启用屏幕空间环境光遮蔽功能 (SSAO) 它为场景的边缘增加了额外的环境阴影.
+value.SSAO.true=§d开
+value.SSAO.false=§a关
+
+option.GENERATED_NORMALS=生成法线
+option.GENERATED_NORMALS.comment=为纹理添加自动生成的凸起.
+value.GENERATED_NORMALS.true=§d开
+value.GENERATED_NORMALS.false=§a关
+
+option.COATED_TEXTURES=噪点纹理
+option.COATED_TEXTURES.comment=为纹理添加自动生成的噪点.
+value.COATED_TEXTURES.true=§d开
+value.COATED_TEXTURES.false=§a关
+
+option.BORDER_FOG=边界迷雾
+option.BORDER_FOG.comment=在已加载的世界的边缘有强烈的雾气，以隐藏加载区块的边界.
+value.BORDER_FOG.true=§a开
+value.BORDER_FOG.false=§a关
+
+option.CLOUD_SHADOWS=云影
+option.CLOUD_SHADOWS.comment=启用从云层投下的阴影。
+value.CLOUD_SHADOWS.true=§b开
+value.CLOUD_SHADOWS.false=§a关
+
+option.SECOND_CLOUD_LAYER=第二云层
+option.SECOND_CLOUD_LAYER.comment=启用第二云层.
+value.SECOND_CLOUD_LAYER.true=§d开
+value.SECOND_CLOUD_LAYER.false=§a关
+
+option.CLOUD_ALT1=第一云层高度
+option.CLOUD_ALT1.comment=决定第一云层所在的高度.
+
+option.CLOUD_ALT2=第二云层高度
+option.CLOUD_ALT2.comment=决定第二云层所在的高度. §e[*]§r 如果没有启用 "第二云层 "设置，该设置将不会有任何作用.
+
+option.TONEMAP_EXPOSURE=Tonemap曝光
+option.TONEMAP_EXPOSURE.comment=调整图像的整体亮度.
+
+option.TONEMAP_WHITE_CURVE=Tonemap白色曲线
+option.TONEMAP_WHITE_CURVE.comment=调整颜色达到全白的难易程度.
+
+option.TONEMAP_LOWER_CURVE=Tonemap下部曲线
+option.TONEMAP_LOWER_CURVE.comment=调整较深颜色的对比度.
+
+option.TONEMAP_UPPER_CURVE=Tonemap上部曲线
+option.TONEMAP_UPPER_CURVE.comment=调整较亮颜色的对比度.
+
+option.SATURATION=饱和度
+option.SATURATION.comment=调整图像的整体色彩鲜艳程度.
+
+option.VIBRANCE=自然饱和度
+option.VIBRANCE.comment=调整图像的色彩鲜艳程度，但已经有色彩的像素受到的影响较小.
+
+option.WATER_WAVES=水波
+option.WATER_WAVES.comment=启用水面波浪.
+value.WATER_WAVES.true=§b开
+value.WATER_WAVES.false=§a关
+
+option.SUN_MOON_HORIZON=太阳/月亮地平线
+option.SUN_MOON_HORIZON.comment=启用以防止太阳/月亮出现在地平线以下.
+value.SUN_MOON_HORIZON.true=§a开
+value.SUN_MOON_HORIZON.false=§a关
+
+option.STAR_AMOUNT=夜空星星数量
+option.STAR_AMOUNT.comment=决定了夜空中星星的数量.
+value.STAR_AMOUNT.2=§a适量
+value.STAR_AMOUNT.3=§a密集
+
+option.PIXEL_SHADOWS=像素化阴影
+option.PIXEL_SHADOWS.comment=将世界坐标放置在网格上，使阴影像素化. §e[*]§r 此设置不影响性能.
+value.PIXEL_SHADOWS.0=§a关
+value.PIXEL_SHADOWS.8=§a8x8
+value.PIXEL_SHADOWS.16=§a16x16
+value.PIXEL_SHADOWS.32=§a32x32
+value.PIXEL_SHADOWS.64=§a64x64
+value.PIXEL_SHADOWS.128=§a128x128
+
+option.BLOOM_STRENGTH=泛光强度
+option.BLOOM_STRENGTH.comment=决定了发光事物的泛光强度，以及雨水/洞穴湿度带来的泛光反射强度.
+value.BLOOM_STRENGTH.0.04=§a25%
+value.BLOOM_STRENGTH.0.05=§a30%
+value.BLOOM_STRENGTH.0.06=§a35%
+value.BLOOM_STRENGTH.0.07=§a40%
+value.BLOOM_STRENGTH.0.08=§a45%
+value.BLOOM_STRENGTH.0.09=§a50%
+value.BLOOM_STRENGTH.0.10=§a55%
+value.BLOOM_STRENGTH.0.11=§a60%
+value.BLOOM_STRENGTH.0.12=§a65%
+value.BLOOM_STRENGTH.0.13=§a70%
+value.BLOOM_STRENGTH.0.14=§a75%
+
+option.FXAA=FXAA快速近似抗锯齿
+option.FXAA.comment=启用快速近似抗锯齿，这是一种产生更平滑图像的基本功能.
+value.FXAA.true=§a开
+value.FXAA.false=§a关
+
+option.FANCY_GLASS=更好的玻璃
+option.FANCY_GLASS.comment=通过在普通玻璃上增加一个半透明层来增加质感. §c[-]§r 由于钠的问题，目前在Iris上有混合问题.
+value.FANCY_GLASS.true=§a开
+value.FANCY_GLASS.false=§a关
+
+option.HAND_SWAY=手部摇晃
+option.HAND_SWAY.comment=为玩家的手添加缓慢的摇晃效果，以模拟呼吸效果.
+value.HAND_SWAY.0=§a关
+value.HAND_SWAY.1=§a微妙
+value.HAND_SWAY.2=§a正常
+value.HAND_SWAY.3=§a强烈
+
+option.LESS_LAVA_FOG=岩浆内更好的可视性
+option.LESS_LAVA_FOG.comment=减少岩浆雾气，提高岩浆内的能见度.
+value.LESS_LAVA_FOG.true=§a开
+value.LESS_LAVA_FOG.false=§a关
+
+option.SHOW_LIGHT_LEVELS=显示亮度等级
+option.SHOW_LIGHT_LEVELS.comment=在主世界: 黄色意味着怪物夜晚可以在此处生成， 红色意味着怪物可以在此处随时生成. 在下届和末地: 黄色意味着部分怪物能在此处生成， 红色意味着所有怪物可以在此处生成. §e[*]§r 禁用平滑光照以获得精确的结果.
+value.SHOW_LIGHT_LEVELS.0=§a关
+value.SHOW_LIGHT_LEVELS.1=§a手持蜘蛛眼时
+value.SHOW_LIGHT_LEVELS.2=§a手持光源时
+value.SHOW_LIGHT_LEVELS.3=§a保持开启
