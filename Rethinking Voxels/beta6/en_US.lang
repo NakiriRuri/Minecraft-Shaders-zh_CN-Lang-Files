@@ -1,0 +1,644 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+profile.LOW=§eLow
+profile.MEDIUM=§aMedium
+profile.HIGH=§bHigh (Default)
+profile.VERYHIGH=§9Very High
+profile.ULTRA=§dUltra
+profile.comment=Shader profiles change performance settings with the most optimised visual fidelity to performance ratio. It's recommended to use one of these profiles for your performance settings unless you know what you are doing.
+
+#CMPR
+option.CMPR=Complementary
+value.CMPR.0=§cReimagined
+value.CMPR.1=§eReimagined
+value.CMPR.2=§aReimagined
+value.CMPR.3=§bReimagined
+value.CMPR.4=§9Reimagined
+value.CMPR.5=§dReimagined
+option.CMPR.comment=Complementary Reimagined is a creation of love and care, meant to complement the unique Minecraft experience in the best way possible. I hope you enjoy your time with Reimagined as much as I enjoyed developing it. Please feel free to join the Complementary community here: www.complementary.dev/discord
+
+#Screens
+screen.PERFORMANCE_SETTINGS=Performance Settings
+screen.PERFORMANCE_SETTINGS.comment=Settings that directly relate to the performance, and get changed by the different shader profiles.
+
+screen.PREFERENCE_SETTINGS=Preference Settings
+screen.PREFERENCE_SETTINGS.comment=Settings that are optional, and not changed by the different shader profiles.
+    screen.SKY_SETTINGS=Sky
+    screen.SKY_SETTINGS.comment=Settings that relate to the sky.
+        screen.CLOUD_SETTINGS=Clouds
+        screen.CLOUD_SETTINGS.comment=Settings that relate to the clouds.
+    screen.CAMERA_SETTINGS=Camera
+    screen.CAMERA_SETTINGS.comment=Settings that determine how the final image is tweaked.
+    screen.IPBR_SETTINGS=IntegratedPBR
+    screen.IPBR_SETTINGS.comment=Settings that are related to the features of IntegratedPBR.
+
+screen.VX_STUFF=Voxelisation Settings
+screen.VX_STUFF.comment=Settings that relate to everything that uses the voxel volume. This includes its size, but also shadow settings and more.
+screen.LIGHTCOLS=Light Colours
+screen.LAVA_COL=Lava
+screen.FIRE_COL=(Camp-) Fire
+screen.SOULFIRE_COL=Soul (Camp-) Fire
+screen.IRON_COL=Iron Ore
+screen.COPPER_COL=Copper Ore
+screen.GOLD_COL=Gold Ore
+screen.DIAMOND_COL=Diamond Ore
+screen.EMERALD_COL=Emerald
+screen.LAPIS_COL=Lapis
+screen.REDSTONE_COL=Redstone
+screen.AMETHYST_COL=Amethyst
+screen.ICE_COL=Blue Ice
+screen.PUMPKIN_COL=Jack o'Lantern
+screen.PICKLE_COL=Sea Pickle
+screen.GLOWSTONE_COL=Glowstone
+screen.SEALANTERN_COL=Sea Lantern
+screen.MAGMA_COL=Magma Block
+screen.CRYING_COL=Crying Obsidian
+screen.TORCH_COL=Torch
+screen.ENDROD_COL=End Rod
+screen.CHORUS_COL=Chorus Flower
+screen.FURNACE_COL=Furnace
+screen.SOULTORCH_COL=Soul Torch
+screen.LICHEN_COL=Glow Lichen
+screen.TABLE_COL=Enchanting Table
+screen.END_COL=End Related Things
+screen.DRAGON_COL=Ender Dragon
+screen.CANDLE_COL=Candles
+screen.PORTAL_COL=Nether Portal
+screen.BERRY_COL=Glow Berry
+screen.REDSTONELAMP_COL=Redstone Lamp
+screen.SHROOMLIGHT_COL=Shroomlight
+screen.YELLOWFROG_COL=Ochre Froglight
+screen.GREENFROG_COL=Verdant Froglight
+screen.PINKFROG_COL=Pearlescent Froglight
+screen.SCULK_COL=Sculk Sensor
+screen.SPAWNER_COL=Spawner
+screen.BREWINGSTAND_COL=Brewing Stand
+screen.BEACON_COL=Beacon
+screen.CONDUIT_COL=Conduit
+screen.ENDCRYSTAL_COL=End Crystal
+screen.LIGHTNING_COL=Lightning
+screen.ITEMFRAME_COL=Item Frame
+screen.BLAZE_COL=Blaze
+screen.SQUID_COL=Glow Squid
+screen.ALLAY_COL=Allay
+screen.OTHER_COL=Others (Brightness Only)
+
+#Settings
+option.SHADOWRES=Voxel Volume Size
+option.SHADOWRES.comment=Size of the cuboid in which advanced light calculation is performed. 
+value.SHADOWRES.4096=§9Very High
+value.SHADOWRES.2048=§bHigh
+value.SHADOWRES.1024=§aMedium
+value.SHADOWRES.512=§eLow
+
+option.VXHEIGHT=Voxel Volume Height
+option.VXHEIGHT.comment=Controls how far up and down volumetric fog and coloured lights will appear.
+value.VXHEIGHT.4=16 Blocks
+value.VXHEIGHT.6=36 Blocks
+value.VXHEIGHT.8=64 Blocks
+value.VXHEIGHT.12=144 Blocks
+value.VXHEIGHT.16=256 Blocks
+
+option.PP_BL_SHADOWS=Pixel Perfect Blocklight Shadows
+option.PP_BL_SHADOWS.comment=Perform blocklight occlusion check for every pixel rather than making an occlusion map in the voxel volume. High performance impact.
+
+option.PP_SUN_SHADOWS=Pixel Perfect Sun Shadows
+option.PP_SUN_SHADOWS.comment=Perform sun occlusion check for every pixel rather than rendering a shadow map. High performance impact.
+
+option.OCCLUSION_CASCADE_COUNT=Max Blocklight Shadow Res
+option.OCCLUSION_CASCADE_COUNT.comment=Maximum resolution of shadows cast from block light sources.
+value.OCCLUSION_CASCADE_COUNT.1=1/Block
+value.OCCLUSION_CASCADE_COUNT.2=2/Block
+value.OCCLUSION_CASCADE_COUNT.3=4/Block
+value.OCCLUSION_CASCADE_COUNT.4=8/Block
+value.OCCLUSION_CASCADE_COUNT.5=16/Block
+
+option.OCCLUSION_FILTER=Occlusion Filter
+option.OCCLUSION_FILTER.comment=Enables smoothing of shadows cast from blocklight. Setting this to "Off" produces pixel-locked shadows.
+value.OCCLUSION_FILTER.0=Off
+value.OCCLUSION_FILTER.1=Linear
+value.OCCLUSION_FILTER.2=Best (not implemented)
+
+option.SMOOTH_LIGHTING=Smooth Lighting
+option.SMOOTH_LIGHTING.comment=Controls how much block edges have sharp brightness changes. Slow option is experimental.
+value.SMOOTH_LIGHTING.0=Low
+value.SMOOTH_LIGHTING.1=Best
+value.SMOOTH_LIGHTING.2=Slow
+
+option.SUN_SHADOWS=Sunlight Shadows
+option.SUN_SHADOWS.comment=Controls whether shadows will be cast from sunlight.
+
+option.BLOCKLIGHT_CHECK_INTERVAL=Blocklight Update Interval
+option.BLOCKLIGHT_CHECK_INTERVAL.comment=Minimum time between two blocklight updates at any given position, in frames.
+
+option.BLOCKLIGHT_SHAFT_STRENGTH=Volumetric Blocklight Strength
+option.BLOCKLIGHT_SHAFT_STRENGTH.comment=Brightness of blocklight contribution to volumetric fog 
+
+option.VBL_NETHER_MULT=Vol. Blocklight Nether Multiplier
+option.VBL_NETHER_MULT.comment=Volumetric Blocklight Strength in the nether relative to its overworld value.
+
+option.VBL_END_MULT=Vol. Blocklight End Multiplier
+option.VBL_END_MULT.comment=Volumetric Blocklight Strength in the end relative to its overworld value.
+
+
+option.RP_MODE=RP Support
+option.RP_MODE.comment=Changes many internal calculations to determine how different blocks and materials will be rendered. §bIntegrated PBR+§r: Assumption-based PBR materials and extra effects; recommended if you aren't using resource packs. §aBasic§r: No PBR or extra effects; recommended if you are using resource packs that change things quite a bit.
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.0=§aBasic
+
+option.CLOUD_QUALITY=Cloud Quality
+option.CLOUD_QUALITY.comment=Adjusts the quality of clouds. §9Very High§r: Better fidelity than High. §bHigh§r: Default. §aMedium§r: Disables cloud lighting over High. §eLow§r: Disables indoors detection over Medium. §cOFF§r: No clouds.
+value.CLOUD_QUALITY.4=§9Very High
+value.CLOUD_QUALITY.3=§bHigh
+value.CLOUD_QUALITY.2=§aMedium
+value.CLOUD_QUALITY.1=§eLow
+value.CLOUD_QUALITY.0=§cOFF
+
+option.WATER_QUALITY=Water Quality
+option.WATER_QUALITY.comment=Adjusts the visual quality of water. §aMedium§r: Default. §eLow§r: Disables edge foaming, no fancy alpha and no varying color intensity over Medium.
+value.WATER_QUALITY.2=§aMedium
+value.WATER_QUALITY.1=§eLow
+
+option.REFLECTION_QUALITY=Reflection Quality
+option.REFLECTION_QUALITY.comment=Adjusts the visual quality of reflections. §bHigh§r: Material-tailored reflections on all blocks (RP Support option must be set to Integrated PBR+). §aMedium§r: Reflections on water and translucents. §cOFF§r: No reflections.
+value.REFLECTION_QUALITY.3=§bHigh
+value.REFLECTION_QUALITY.2=§aMedium
+value.REFLECTION_QUALITY.0=§cOFF
+
+option.SHADOW_QUALITY=Shadow Quality
+option.SHADOW_QUALITY.comment=Adjusts the quality of shadow filtering. Every tier further reduces the shadow noise artifacts. §aMedium§r and §eLow§r enable optimised shadows on leaves.
+value.SHADOW_QUALITY.4=§9Very High
+value.SHADOW_QUALITY.3=§bHigh
+value.SHADOW_QUALITY.2=§aMedium
+value.SHADOW_QUALITY.1=§eLow
+
+option.LIGHTSHAFT_QUALITY=Light Shaft Quality
+option.LIGHTSHAFT_QUALITY.comment=Adjusts the quality of light shafts. Every tier further reduces the light shaft noise artifacts.
+value.LIGHTSHAFT_QUALITY.4=§9Very High
+value.LIGHTSHAFT_QUALITY.3=§bHigh
+value.LIGHTSHAFT_QUALITY.2=§aMedium
+value.LIGHTSHAFT_QUALITY.1=§eLow
+value.LIGHTSHAFT_QUALITY.0=§cOFF
+
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=Adjusts the distance from the player which real-time shadows are rendered. §e[*]§r The value is internally capped at Render Distance. §e[*]§r This also affects the correctness of Light Shafts.
+value.shadowDistance.1024.0=§d64 Chunks
+value.shadowDistance.768.0=§d48 Chunks
+value.shadowDistance.512.0=§d32 Chunks
+value.shadowDistance.384.0=§d24 Chunks
+value.shadowDistance.320.0=§d20 Chunks
+value.shadowDistance.256.0=§b16 Chunks
+value.shadowDistance.224.0=§b14 Chunks
+value.shadowDistance.192.0=§b12 Chunks
+value.shadowDistance.160.0=§a10 Chunks
+value.shadowDistance.128.0=§a8 Chunks
+value.shadowDistance.112.0=§a7 Chunks
+value.shadowDistance.96.0=§e6 Chunks
+value.shadowDistance.80.0=§e5 Chunks
+value.shadowDistance.64.0=§e4 Chunks
+
+option.ENTITY_SHADOWS=Entity Voxelisation
+option.ENTITY_SHADOWS.comment=Enables the ability for entities and block entities to cast shadows and emit light.
+value.ENTITY_SHADOWS.true=§dON
+value.ENTITY_SHADOWS.false=§eOFF
+
+option.SSAO=SSAO
+option.SSAO.comment=Enables Screen-Space Ambient Occlusion (SSAO) which adds extra ambient shadowing to the edges of the scene.
+value.SSAO.true=§dON
+value.SSAO.false=§aOFF
+
+option.GENERATED_NORMALS=Generated Normals
+option.GENERATED_NORMALS.comment=Adds auto-generated bumps to textures. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.GENERATED_NORMALS.true=§dON
+value.GENERATED_NORMALS.false=§aOFF
+
+option.COATED_TEXTURES=Coated Textures
+option.COATED_TEXTURES.comment=Adds auto-generated noise to textures. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.COATED_TEXTURES.true=§dON
+value.COATED_TEXTURES.false=§aOFF
+
+option.BORDER_FOG=Border Fog
+option.BORDER_FOG.comment=Intense fog on the edges of the loaded world to hide chunk borders.
+value.BORDER_FOG.true=§aON
+value.BORDER_FOG.false=§aOFF
+
+option.CLOUD_SHADOWS=Cloud Shadows
+option.CLOUD_SHADOWS.comment=Enables shadows that are cast from the clouds.
+value.CLOUD_SHADOWS.true=§bON
+value.CLOUD_SHADOWS.false=§aOFF
+
+option.SECOND_CLOUD_LAYER=Second Cloud Layer
+option.SECOND_CLOUD_LAYER.comment=Enables a second layer of clouds. §c[-]§r Enabling this can impact performance.
+value.SECOND_CLOUD_LAYER.true=§dON
+value.SECOND_CLOUD_LAYER.false=§aOFF
+
+option.CLOUD_ALT1=Cloud Layer Altitude
+option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at.
+
+option.CLOUD_ALT2=Second Cloud Layer Altitude
+option.CLOUD_ALT2.comment=Determines the world height which the second layer clouds will appear at. §e[*]§r This setting won't do anything if the "Second Cloud Layer" option isn't enabled.
+
+option.T_EXPOSURE=Tonemap Exposure
+option.T_EXPOSURE.comment=Adjusts the overall brightness of the image.
+
+option.T_WHITE_CURVE=Tonemap White Curve
+option.T_WHITE_CURVE.comment=Adjusts how easily the colors reach to full white.
+
+option.T_LOWER_CURVE=Tonemap Lower Curve
+option.T_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.T_UPPER_CURVE=Tonemap Upper Curve
+option.T_UPPER_CURVE.comment=Adjusts contrast of brighter colors.
+
+option.T_SATURATION=Saturation
+option.T_SATURATION.comment=Adjusts overall colorfulness of the image.
+
+option.T_VIBRANCE=Vibrance
+option.T_VIBRANCE.comment=Adjusts the colorfulness of the image, but already colorful pixels are less affected.
+
+option.WATER_STYLE=Water Style
+option.WATER_STYLE.comment=Determines the style of water. §c[-]§r Setting this to "Realistic-ish" can severely impact performance.
+value.WATER_STYLE.1=§aReimagined
+value.WATER_STYLE.2=§aReimagined + Waves
+value.WATER_STYLE.3=§dRealistic-ish
+
+option.SUN_MOON_HORIZON=Sun/Moon Horizon
+option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon line.
+value.SUN_MOON_HORIZON.true=§aON
+value.SUN_MOON_HORIZON.false=§aOFF
+
+option.NIGHT_STAR_AMOUNT=Night Star Amount
+option.NIGHT_STAR_AMOUNT.comment=Determines the amount of stars in the night sky.
+value.NIGHT_STAR_AMOUNT.2=§aMedium
+value.NIGHT_STAR_AMOUNT.3=§aHigh
+
+option.AURORA_BOREALIS=Aurora Borealis
+option.AURORA_BOREALIS.comment=Enables northern lights to appear in the night sky.
+value.AURORA_BOREALIS.true=§dON
+value.AURORA_BOREALIS.false=§aOFF
+
+option.AURORA_CONDITION=Aurora
+option.AURORA_CONDITION.comment=Determines the condition(s) for the Aurora Borealis to appear.
+value.AURORA_CONDITION.0=§aNo Condition
+value.AURORA_CONDITION.1=§aFull Moon
+value.AURORA_CONDITION.2=§aSnowy Biome
+value.AURORA_CONDITION.3=§aFull Moon in Snowy Biome
+
+option.PIXEL_SHADOW=Pixelated Shadows
+option.PIXEL_SHADOW.comment=Modifies the world coordinates on a grid to make shadows pixelated. §e[*]§r This does not affect performance.
+value.PIXEL_SHADOW.0=§aOFF
+value.PIXEL_SHADOW.8=§a8x8
+value.PIXEL_SHADOW.16=§a16x16
+value.PIXEL_SHADOW.32=§a32x32
+value.PIXEL_SHADOW.64=§a64x64
+value.PIXEL_SHADOW.128=§a128x128
+
+option.BLOOM_STRENGTH=Bloom Strength
+option.BLOOM_STRENGTH.comment=Determines the intensity of glow on bright things, and the bloom from rain/cave humidity.
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+
+option.FXAA=FXAA
+option.FXAA.comment=Enables Fast Approximate Anti-Aliasing, which is basically an effect that produces smoother image.
+value.FXAA.true=§aON
+value.FXAA.false=§aOFF
+
+option.FANCY_GLASS=Improved Glass
+option.FANCY_GLASS.comment=Improves the regular glass by adding a translucent layer to it. §c[-]§r Currently causes blending problems on Iris because of a Sodium bug. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.FANCY_GLASS.true=§aON
+value.FANCY_GLASS.false=§aOFF
+
+option.HAND_SWAYING=Hand Sway
+option.HAND_SWAYING.comment=Adds slow movement to the player hand to simulate a breathing animation.
+value.HAND_SWAYING.0=§aOFF
+value.HAND_SWAYING.1=§aSubtle
+value.HAND_SWAYING.2=§aNormal
+value.HAND_SWAYING.3=§aIntense
+
+option.LESS_LAVA_FOG=Better Visibility Inside Lava
+option.LESS_LAVA_FOG.comment=Reduces the lava fog to improve visibility inside lava.
+value.LESS_LAVA_FOG.true=§aON
+value.LESS_LAVA_FOG.false=§aOFF
+
+option.SHOW_LIGHT_LEVEL=Show Light Levels
+option.SHOW_LIGHT_LEVEL.comment=In Overworld: Yellow means mobs can spawn during night time, red means mobs can spawn anytime. In The Nether and The End: Yellow means some mobs can spawn, red means all mobs can spawn. §e[*]§r Disable Smooth Lighting for precise results.
+value.SHOW_LIGHT_LEVEL.0=§aOFF
+value.SHOW_LIGHT_LEVEL.1=§aHold Spider Eye
+value.SHOW_LIGHT_LEVEL.2=§aHold Light Source
+value.SHOW_LIGHT_LEVEL.3=§aAlways ON
+
+option.MINIMUM_LIGHT_MODE=Cave Lighting
+option.MINIMUM_LIGHT_MODE.comment=Improves visibility in closed areas by adding some lighting. §e[*]§r "Vanilla Brightness" option mean the cave lighting will be determined by the "Brightness" slider in Video Settings.
+value.MINIMUM_LIGHT_MODE.0=§aVery Dark
+value.MINIMUM_LIGHT_MODE.1=§aDark
+value.MINIMUM_LIGHT_MODE.2=§aVanilla Brightness
+value.MINIMUM_LIGHT_MODE.3=§aBright
+value.MINIMUM_LIGHT_MODE.4=§aVery Bright
+
+option.GLOWING_ORES=Glowing Ores
+option.GLOWING_ORES.comment=Adds emission to ores. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.GLOWING_ORES.0=§aOFF
+value.GLOWING_ORES.1=§aOverworld
+value.GLOWING_ORES.2=§aOverworld + Nether
+
+option.GENERATED_WATER_NORMALS=Generated Normals on Water
+option.GENERATED_WATER_NORMALS.comment=Allows Generated Normals to appear on water. §e[*]§r RP Support option must be set to Integrated PBR+. §e[*]§r Generated Normals option must be enabled.
+value.GENERATED_WATER_NORMALS.true=§aON
+value.GENERATED_WATER_NORMALS.false=§aOFF
+
+option.HELD_LIGHTING=Dynamic Handheld Lighting
+option.HELD_LIGHTING.comment=Allows handheld light sources to cast light onto the scene.
+value.HELD_LIGHTING.true=§aON
+value.HELD_LIGHTING.false=§aOFF
+
+option.WAVING_BLOCKS=Waving Blocks
+option.WAVING_BLOCKS.comment=Adds movement to some blocks to simulate wind.
+value.WAVING_BLOCKS.0=§aOFF
+value.WAVING_BLOCKS.1=§aFoliage
+value.WAVING_BLOCKS.2=§bFoliage + Leaves
+
+option.WORLD_OUTLINE=Outlined World
+option.WORLD_OUTLINE.comment=Adds outlines around blocks.
+value.WORLD_OUTLINE.true=§bON
+value.WORLD_OUTLINE.false=§aOFF
+
+option.CAULDRON_BRIGHTNESS_LAVA=Lava Cauldron Brightness
+option.BRIGHTNESS_LAVA=Lava Brightness
+option.BRIGHTNESS_FIRE=Fire Brightness
+option.CAMPFIRE_BRIGHTNESS_FIRE=Campfire Brightness
+option.BRIGHTNESS_SOULFIRE=Soul Fire Brightness
+option.CAMPFIRE_BRIGHTNESS_SOULFIRE=Soul Campfire Brightness
+option.ORE_BRIGHTNESS_IRON=Iron Ore Brightness
+option.ORE_BRIGHTNESS_COPPER=Copper Ore Brightness
+option.ORE_BRIGHTNESS_GOLD=Gold Ore Brightness
+option.ORE_BRIGHTNESS_DIAMOND=Diamond Ore Brightness
+option.ORE_BRIGHTNESS_EMERALD=Emerald Ore Brightness
+option.BLOCK_BRIGHTNESS_EMERALD=Emerald Block Brightness
+option.ORE_BRIGHTNESS_LAPIS=Lapis Ore Brightness
+option.BLOCK_BRIGHTNESS_LAPIS=Lapis Block Brightness
+option.OREUNLIT_BRIGHTNESS_REDSTONE=Ore Brightness (Unlit)
+option.ORELIT_BRIGHTNESS_REDSTONE=Ore Brightness (Lit)
+option.BLOCK_BRIGHTNESS_REDSTONE=Block Brightness
+option.WIRE0_BRIGHTNESS_REDSTONE=Dust Brightness (Power 1-5)
+option.WIRE1_BRIGHTNESS_REDSTONE=Dust Brightness (Power 6-10)
+option.WIRE2_BRIGHTNESS_REDSTONE=Dust Brightness (Power 11-14)
+option.WIRE3_BRIGHTNESS_REDSTONE=Dust Brightness (Power 15)
+option.TORCH_BRIGHTNESS_REDSTONE=Torch Brightness
+option.BRIGHTNESS_AMETHYST=Amethyst Cluster Brightness
+option.BRIGHTNESS_ICE=Blue Ice Brightness
+option.BRIGHTNESS_PUMPKIN=Jack o'Lantern Brightness
+option.LOW_BRIGHTNESS_PICKLE=Sea Pickle Brightness (1-2 Pickles)
+option.HIGH_BRIGHTNESS_PICKLE=Sea Pickle Brightness (3-4 Pickles)
+option.BRIGHTNESS_GLOWSTONE=Glowstone Brightness
+option.BRIGHTNESS_SEALANTERN=Sea Lantern Brightness
+option.BRIGHTNESS_MAGMA=Magma Block Brightness
+option.BRIGHTNESS_CRYING=Crying Obsidian Brightness
+option.BRIGHTNESS_TORCH=Torch Brightness
+option.LANTERN_BRIGHTNESS_TORCH=Lantern Brightness
+option.BRIGHTNESS_ENDROD=End Rod Brightness
+option.BRIGHTNESS_CHORUS=Chorus Flower Brightness
+option.BRIGHTNESS_FURNACE=Furnace Brightness
+option.BRIGHTNESS_SOULTORCH=Soul Torch Brightness
+option.LANTERN_BRIGHTNESS_SOULTORCH=Soul Lantern Brightness
+option.BRIGHTNESS_LICHEN=Glow Lichen Brightness
+option.BRIGHTNESS_TABLE=Enchanting Table Brightness
+option.FRAME_BRIGHTNESS_END=End Portal Frame Brightness (With Eye)
+option.PORTAL_BRIGHTNESS_END=End Portal Brightness
+option.CHEST_BRIGHTNESS_END=Ender Chest Brightness
+option.BRIGHTNESS_DRAGON=Dragon Egg brightness
+option.BRIGHTNESS_CANDLE=Candle Brightness
+option.CAKE_BRIGHTNESS_CANDLE=Birthday Cake Brightness
+option.ANCHOR_BRIGHTNESS_PORTAL=Respawn Anchor Brightness
+option.BRIGHTNESS_PORTAL=Nether Portal Brightness
+option.BRIGHTNESS_BERRY=Glow Berry Brightness
+option.BRIGHTNESS_REDSTONELAMP=Redstone Lamp Brightness
+option.BRIGHTNESS_SHROOMLIGHT=Shroomlight Brightness
+option.BRIGHTNESS_YELLOWFROG=Ochre Froglight Brightness
+option.BRIGHTNESS_GREENFROG=Verdant Froglight Brightness
+option.BRIGHTNESS_PINKFROG=Pearlescent Froglight Brightness
+option.SENSOR_BRIGHTNESS_SCULK=Sculk Sensor Brightness
+option.BRIGHTNESS_SPAWNER=Spawner Brightness
+option.BRIGHTNESS_BREWINGSTAND=Brewing Stand Brighness
+option.BRIGHTNESS_BEACON=Beacon Brightness
+option.BRIGHTNESS_CONDUIT=Conduit Brightness
+option.BRIGHTNESS_ENDCRYSTAL=End Crystal Brightness
+option.BRIGHTNESS_LIGHTNING=Lightning Bolt Brightness
+option.BRIGHTNESS_ITEMFRAME=Glow Itemframe Brightness
+option.BRIGHTNESS_BLAZE=Blaze Brightness
+option.BRIGHTNESS_SQUID=Glow Squid Brightness
+option.BRIGHTNESS_ALLAY=Allay Brightness
+option.BRIGHTNESS_CRIMSON=Crimson Stem / Hyphae Brightness
+option.BRIGHTNESS_WARPED=Warped Stem / Hyphae Brightness
+
+option.CAULDRON_HARDCODED_LAVA_COL=Override Lava Cauldron Colour
+option.HARDCODED_LAVA_COL=Override Lava Colour
+option.HARDCODED_FIRE_COL=Override Fire Colour
+option.CAMPFIRE_HARDCODED_FIRE_COL=Override Campfire Colour
+option.CAMPFIRE_HARDCODED_SOULFIRE_COL=Override Soul Campfire Colour
+option.HARDCODED_SOULFIRE_COL=Override Soul Fire Colour
+option.ORE_HARDCODED_IRON_COL=Override Iron Ore Colour
+option.ORE_HARDCODED_COPPER_COL=Override Copper Ore Colour
+option.ORE_HARDCODED_GOLD_COL=Override Gold Ore Colour
+option.ORE_HARDCODED_DIAMOND_COL=Override Diamond Ore Colour
+option.ORE_HARDCODED_EMERALD_COL=Override Emerald Ore Colour
+option.BLOCK_HARDCODED_EMERALD_COL=Override Emerald Block Colour
+option.ORE_HARDCODED_LAPIS_COL=Override Lapis Ore Colour
+option.BLOCK_HARDCODED_LAPIS_COL=Override Lapis Block Colour
+option.ORE_HARDCODED_REDSTONE_COL=Override Ore Colour
+option.BLOCK_HARDCODED_REDSTONE_COL=Override Block Colour
+option.WIRE_HARDCODED_REDSTONE_COL=Override Wire Colour
+option.TORCH_HARDCODED_REDSTONE_COL=Override Torch Colour
+option.HARDCODED_AMETHYST_COL=Override Amethyst Colour
+option.HARDCODED_ICE_COL=Override Blue Ice Colour
+option.HARDCODED_PUMPKIN_COL=Override Jack o'Lantern Colour
+option.HARDCODED_PICKLE_COL=Override Sea Pickle Colour
+option.HARDCODED_GLOWSTONE_COL=Override Glowstone Colour
+option.HARDCODED_SEALANTERN_COL=Override Sea Lantern Colour
+option.HARDCODED_MAGMA_COL=Override Magma Block Colour
+option.HARDCODED_CRYING_COL=Override Crying Obsidian Colour
+option.HARDCODED_TORCH_COL=Override Torch Colour
+option.LANTERN_HARDCODED_TORCH_COL=Override Lantern Colour
+option.HARDCODED_ENDROD_COL=Override End Rod Colour
+option.HARDCODED_CHORUS_COL=Override Chorus Flower Colour
+option.HARDCODED_FURNACE_COL=Override Furnace Colour
+option.HARDCODED_SOULTORCH_COL=Override Soul Torch Colour
+option.LANTERN_HARDCODED_SOULTORCH_COL=Override Soul Lantern Colour
+option.HARDCODED_LICHEN_COL=Override Glow Lichen Colour
+option.HARDCODED_TABLE_COL=Override Enchanting Table Colour
+option.HARDCODED_END_COL=Override End Portal Frame Colour
+option.PORTAL_HARDCODED_END_COL=Override End Portal Colour
+option.CHEST_HARDCODED_END_COL=Override Ender Chest Colour
+option.HARDCODED_DRAGON_COL=Override Dragon Egg Colour
+option.HARDCODED_CANDLE_COL=Override Candle Colour
+option.CAKE_HARDCODED_CANDLE_COL=Override Birthday Cake Colour
+option.ANCHOR_HARDCODED_PORTAL_COL=Override Respawn Anchor Colour
+option.HARDCODED_PORTAL_COL=Override Nether Portal Colour
+option.HARDCODED_BERRY_COL=Override Glow Berry Colour
+option.HARDCODED_REDSTONELAMP_COL=Override Redstone Lamp Colour
+option.HARDCODED_SHROOMLIGHT_COL=Override Shroomlight Colour
+option.HARDCODED_YELLOWFROG_COL=Override Ochre Froglight Colour
+option.HARDCODED_GREENFROG_COL=Override Verdant Froglight Colour
+option.HARDCODED_PINKFROG_COL=Override Pearlescent Froglight Colour
+option.HARDCODED_SCULK_COL=Override Sculk Sensor Colour
+option.HARDCODED_SPAWNER_COL=Override Spawner Colour
+option.HARDCODED_BREWINGSTAND_COL=Override Brewing Stand Colour
+option.HARDCODED_BEACON_COL=Override Beacon Colour
+option.HARDCODED_CONDUIT_COL=Override Conduit Colour
+option.HARDCODED_ENDCRYSTAL_COL=Override End Crystal Colour
+option.HARDCODED_LIGHTNING_COL=Override Ligtning Colour
+option.HARDCODED_ITEMFRAME_COL=Override Glow Item Frame Colour
+option.HARDCODED_BLAZE_COL=Override Blaze Colour
+option.HARDCODED_SQUID_COL=Override Glow Squid Colour
+option.HARDCODED_ALLAY_COL=Override Allay Colour
+
+
+option.LAVA_COL_R=Red
+option.LAVA_COL_G=Green
+option.LAVA_COL_B=Blue
+option.FIRE_COL_R=Red
+option.FIRE_COL_G=Green
+option.FIRE_COL_B=Blue
+option.SOULFIRE_COL_R=Red
+option.SOULFIRE_COL_G=Green
+option.SOULFIRE_COL_B=Blue
+option.IRON_COL_R=Red
+option.IRON_COL_G=Green
+option.IRON_COL_B=Blue
+option.COPPER_COL_R=Red
+option.COPPER_COL_G=Green
+option.COPPER_COL_B=Blue
+option.GOLD_COL_R=Red
+option.GOLD_COL_G=Green
+option.GOLD_COL_B=Blue
+option.DIAMOND_COL_R=Red
+option.DIAMOND_COL_G=Green
+option.DIAMOND_COL_B=Blue
+option.EMERALD_COL_R=Red
+option.EMERALD_COL_G=Green
+option.EMERALD_COL_B=Blue
+option.LAPIS_COL_R=Red
+option.LAPIS_COL_G=Green
+option.LAPIS_COL_B=Blue
+option.REDSTONE_COL_R=Red
+option.REDSTONE_COL_G=Green
+option.REDSTONE_COL_B=Blue
+option.AMETHYST_COL_R=Red
+option.AMETHYST_COL_G=Green
+option.AMETHYST_COL_B=Blue
+option.ICE_COL_R=Red
+option.ICE_COL_G=Green
+option.ICE_COL_B=Blue
+option.PUMPKIN_COL_R=Red
+option.PUMPKIN_COL_G=Green
+option.PUMPKIN_COL_B=Blue
+option.PICKLE_COL_R=Red
+option.PICKLE_COL_G=Green
+option.PICKLE_COL_B=Blue
+option.GLOWSTONE_COL_R=Red
+option.GLOWSTONE_COL_G=Green
+option.GLOWSTONE_COL_B=Blue
+option.SEALANTERN_COL_R=Red
+option.SEALANTERN_COL_G=Green
+option.SEALANTERN_COL_B=Blue
+option.MAGMA_COL_R=Red
+option.MAGMA_COL_G=Green
+option.MAGMA_COL_B=Blue
+option.CRYING_COL_R=Red
+option.CRYING_COL_G=Green
+option.CRYING_COL_B=Blue
+option.TORCH_COL_R=Red
+option.TORCH_COL_G=Green
+option.TORCH_COL_B=Blue
+option.ENDROD_COL_R=Red
+option.ENDROD_COL_G=Green
+option.ENDROD_COL_B=Blue
+option.CHORUS_COL_R=Red
+option.CHORUS_COL_G=Green
+option.CHORUS_COL_B=Blue
+option.FURNACE_COL_R=Red
+option.FURNACE_COL_G=Green
+option.FURNACE_COL_B=Blue
+option.SOULTORCH_COL_R=Red
+option.SOULTORCH_COL_G=Green
+option.SOULTORCH_COL_B=Blue
+option.LICHEN_COL_R=Red
+option.LICHEN_COL_G=Green
+option.LICHEN_COL_B=Blue
+option.TABLE_COL_R=Red
+option.TABLE_COL_G=Green
+option.TABLE_COL_B=Blue
+option.END_COL_R=Red
+option.END_COL_G=Green
+option.END_COL_B=Blue
+option.DRAGON_COL_R=Red
+option.DRAGON_COL_G=Green
+option.DRAGON_COL_B=Blue
+option.CANDLE_COL_R=Red
+option.CANDLE_COL_G=Green
+option.CANDLE_COL_B=Blue
+option.PORTAL_COL_R=Red
+option.PORTAL_COL_G=Green
+option.PORTAL_COL_B=Blue
+option.BERRY_COL_R=Red
+option.BERRY_COL_G=Green
+option.BERRY_COL_B=Blue
+option.REDSTONELAMP_COL_R=Red
+option.REDSTONELAMP_COL_G=Green
+option.REDSTONELAMP_COL_B=Blue
+option.SHROOMLIGHT_COL_R=Red
+option.SHROOMLIGHT_COL_G=Green
+option.SHROOMLIGHT_COL_B=Blue
+option.YELLOWFROG_COL_R=Red
+option.YELLOWFROG_COL_G=Green
+option.YELLOWFROG_COL_B=Blue
+option.GREENFROG_COL_R=Red
+option.GREENFROG_COL_G=Green
+option.GREENFROG_COL_B=Blue
+option.PINKFROG_COL_R=Red
+option.PINKFROG_COL_G=Green
+option.PINKFROG_COL_B=Blue
+option.SCULK_COL_R=Red
+option.SCULK_COL_G=Green
+option.SCULK_COL_B=Blue
+option.SPAWNER_COL_R=Red
+option.SPAWNER_COL_G=Green
+option.SPAWNER_COL_B=Blue
+option.BREWINGSTAND_COL_R=Red
+option.BREWINGSTAND_COL_G=Green
+option.BREWINGSTAND_COL_B=Blue
+option.BEACON_COL_R=Red
+option.BEACON_COL_G=Green
+option.BEACON_COL_B=Blue
+option.CONDUIT_COL_R=Red
+option.CONDUIT_COL_G=Green
+option.CONDUIT_COL_B=Blue
+option.ENDCRYSTAL_COL_R=Red
+option.ENDCRYSTAL_COL_G=Green
+option.ENDCRYSTAL_COL_B=Blue
+option.LIGHTNING_COL_R=Red
+option.LIGHTNING_COL_G=Green
+option.LIGHTNING_COL_B=Blue
+option.ITEMFRAME_COL_R=Red
+option.ITEMFRAME_COL_G=Green
+option.ITEMFRAME_COL_B=Blue
+option.BLAZE_COL_R=Red
+option.BLAZE_COL_G=Green
+option.BLAZE_COL_B=Blue
+option.SQUID_COL_R=Red
+option.SQUID_COL_G=Green
+option.SQUID_COL_B=Blue
+option.ALLAY_COL_R=Red
+option.ALLAY_COL_G=Green
+option.ALLAY_COL_B=Blue
