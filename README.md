@@ -20,6 +20,10 @@
 - [Complementary Shaders 汉化](https://www.mcbbs.net/thread-1262472-1-1.html)
 
 
-## 许可协议
+## LICENSES / 许可协议
 
 - 本仓库中所有的 zh_CN.lang 文档均以 [署名-非商业性使用-相同方式共享4.0国际 （CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授权。
+- All zh_CN.lang files in this repository are licensed under [Attribution-NonCommercial-Use-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+- 所有的光影作者都可以随意取用 zh_CN.lang 文件，不需要任何授权。
+- All shader authors are free to take the zh_CN.lang file without any authorization.
