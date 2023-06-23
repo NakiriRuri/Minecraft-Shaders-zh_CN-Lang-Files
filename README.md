@@ -18,3 +18,8 @@
 
 ## 友链
 - [Complementary Shaders 汉化](https://www.mcbbs.net/thread-1262472-1-1.html)
+
+
+## 许可协议
+
+- 本仓库中所有的 zh_CN.lang 文档均以 [署名-非商业性使用-相同方式共享4.0国际 （CC BY-NC-SA 4.0）](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授权。
