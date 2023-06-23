@@ -1,0 +1,779 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+profile.LOW=§eLow
+profile.MEDIUM=§aMedium
+profile.HIGH=§bHigh (Default)
+profile.VERYHIGH=§9Very High
+profile.ULTRA=§dUltra
+profile.comment=Shader profiles change performance settings with the most optimised visual fidelity to performance ratio. It's recommended to use one of these profiles for your performance settings unless you know what you are doing. The Overimagined Profile enables the developers preferred settings.
+
+#CMPR
+option.CMPR=Complementary
+value.CMPR.0=§cReimagined
+value.CMPR.1=§eReimagined
+value.CMPR.2=§aReimagined
+value.CMPR.3=§bReimagined
+value.CMPR.5=§9Reimagined
+value.CMPR.6=§dReimagined
+option.CMPR.comment=Overimagined Shaders is a creation of love, care and frustration, meant to complement the unique Minecraft experience in the best way possible while having more customizable options than Complementary Reimagined. Please feel free to join the Complementary community here: www.complementary.dev/discord
+
+#Screens
+screen.PERFORMANCE_SETTINGS=Performance Settings
+screen.PERFORMANCE_SETTINGS.comment=Settings that directly relate to the performance, and get changed by the different shader profiles.
+
+screen.PREFERENCE_SETTINGS=Preference Settings
+screen.PREFERENCE_SETTINGS.comment=Settings that are optional, and not changed by the different shader profiles.
+
+screen.ATMOSPHERE_SETTINGS=Atmosphere
+screen.ATMOSPHERE_SETTINGS.comment=Settings that relate to the atmosphere.
+
+screen.CLOUD_SETTINGS=Clouds
+screen.CLOUD_SETTINGS.comment=Settings that relate to the clouds.
+
+screen.CAMERA_SETTINGS=Camera
+screen.CAMERA_SETTINGS.comment=Settings that relate to the view/camera.
+
+screen.TONEMAP_SETTINGS=Color Balance
+screen.TONEMAP_SETTINGS.comment=Settings that determine the color balance of the visuals.
+
+screen.MATERIAL_SETTINGS=Materials
+screen.MATERIAL_SETTINGS.comment=Settings that are related to the materials of Minecraft.
+
+screen.IPBR_SETTINGS=IntegratedPBR
+screen.IPBR_SETTINGS.comment=Settings that are related to the features of IntegratedPBR.
+
+screen.LIGHTING_SETTINGS=Lighting
+screen.LIGHTING_SETTINGS.comment=Settings that are related to lighting.
+
+screen.WAVING_SETTINGS=Waving Blocks
+screen.WAVING_SETTINGS.comment=Settings that are about waving blocks.
+
+screen.OTHER_SETTINGS=Other
+screen.OTHER_SETTINGS.comment=Settings that don't fit into any other category.
+
+#Settings
+option.RP_MODE=RP Support
+option.RP_MODE.comment=Changes many internal calculations to determine how different blocks and materials will be rendered. §bIntegrated PBR+§r: Assumption-based PBR materials and extra effects; recommended if you aren't using resource packs. §aBasic§r: No PBR or extra effects; recommended if you are using resource packs that change things quite a bit.
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.0=§aBasic
+
+option.CLOUD_QUALITY=Cloud Quality
+option.CLOUD_QUALITY.comment=Adjusts the quality of clouds. §9Very High§r: Better fidelity than High. §bHigh§r: Default. §aMedium§r: Disables cloud lighting over High. §eLow§r: Disables indoors detection over Medium. §cOFF§r: No clouds.
+value.CLOUD_QUALITY.4=§9Very High
+value.CLOUD_QUALITY.3=§bHigh
+value.CLOUD_QUALITY.2=§aMedium
+value.CLOUD_QUALITY.1=§eLow
+value.CLOUD_QUALITY.0=§cOFF
+
+option.WATER_QUALITY=Water Quality
+option.WATER_QUALITY.comment=Adjusts the visual quality of water. §aMedium§r: Default. §eLow§r: No edge foaming, no fancy alpha, no varying color intensity, and no surface shadows over Medium.
+value.WATER_QUALITY.2=§aMedium
+value.WATER_QUALITY.1=§eLow
+
+option.REFLECTION_QUALITY=Reflection Quality
+option.REFLECTION_QUALITY.comment=Adjusts the visual quality of reflections. §bHigh§r: Material-based reflections on all blocks (RP Support option must be set to anything but Basic.). §aMedium§r: Reflections on water and translucents. §cOFF§r: No reflections.
+value.REFLECTION_QUALITY.3=§bHigh
+value.REFLECTION_QUALITY.2=§aMedium
+value.REFLECTION_QUALITY.0=§cOFF
+
+option.SHADOW_QUALITY=Shadow Quality
+option.SHADOW_QUALITY.comment=Adjusts the quality of shadow filtering. Every tier further reduces the shadow noise artifacts. §aMedium§r and §eLow§r enable optimised shadows on leaves.
+value.SHADOW_QUALITY.4=§9Very High
+value.SHADOW_QUALITY.3=§bHigh
+value.SHADOW_QUALITY.2=§aMedium
+value.SHADOW_QUALITY.1=§eLow
+
+option.LIGHTSHAFT_QUALITY=Light Shaft Quality
+option.LIGHTSHAFT_QUALITY.comment=Adjusts the quality of light shafts. Every tier further reduces the light shaft noise artifacts.
+value.LIGHTSHAFT_QUALITY.4=§9Very High
+value.LIGHTSHAFT_QUALITY.3=§bHigh
+value.LIGHTSHAFT_QUALITY.2=§aMedium
+value.LIGHTSHAFT_QUALITY.1=§eLow
+value.LIGHTSHAFT_QUALITY.0=§cOFF
+
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=Adjusts the distance from the player which real-time shadows are rendered. §e[*]§r The value is internally capped at Render Distance. §e[*]§r This also affects the correctness of Light Shafts.
+value.shadowDistance.1024.0=§d64 Chunks
+value.shadowDistance.768.0=§d48 Chunks
+value.shadowDistance.512.0=§d32 Chunks
+value.shadowDistance.384.0=§d24 Chunks
+value.shadowDistance.320.0=§d20 Chunks
+value.shadowDistance.256.0=§b16 Chunks
+value.shadowDistance.224.0=§b14 Chunks
+value.shadowDistance.192.0=§b12 Chunks
+value.shadowDistance.160.0=§a10 Chunks
+value.shadowDistance.128.0=§a8 Chunks
+value.shadowDistance.112.0=§a7 Chunks
+value.shadowDistance.96.0=§e6 Chunks
+value.shadowDistance.80.0=§e5 Chunks
+value.shadowDistance.64.0=§e4 Chunks
+
+option.ENTITY_SHADOWS=Entity Shadows
+option.ENTITY_SHADOWS.comment=Enables the ability for entities and block entities to cast shadows.
+value.ENTITY_SHADOWS.true=§dON
+value.ENTITY_SHADOWS.false=§eOFF
+
+option.SSAO=SSAO
+option.SSAO.comment=Enables Screen-Space Ambient Occlusion (SSAO) which adds extra ambient shadowing to the edges of the scene.
+value.SSAO.true=§dON
+value.SSAO.false=§aOFF
+
+option.GENERATED_NORMALS=Generated Normals
+option.GENERATED_NORMALS.comment=Adds auto-generated bumps to textures. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.GENERATED_NORMALS.true=§dON
+value.GENERATED_NORMALS.false=§aOFF
+
+option.COATED_TEXTURES=Coated Textures
+option.COATED_TEXTURES.comment=Adds auto-generated noise to textures. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.COATED_TEXTURES.true=§dON
+value.COATED_TEXTURES.false=§aOFF
+
+option.BORDER_FOG=Border Fog
+option.BORDER_FOG.comment=Intense fog on the edges of the loaded world to hide chunk borders.
+value.BORDER_FOG.true=§aON
+value.BORDER_FOG.false=§aOFF
+
+option.CLOUD_SHADOWS=Cloud Shadows
+option.CLOUD_SHADOWS.comment=Enables shadows that are cast from the clouds.
+value.CLOUD_SHADOWS.true=§bON
+value.CLOUD_SHADOWS.false=§aOFF
+
+option.SECOND_CLOUD_LAYER=Second Cloud Layer
+option.SECOND_CLOUD_LAYER.comment=Enables a second layer of clouds. §c[-]§r Enabling this can impact performance.
+value.SECOND_CLOUD_LAYER.true=§dON
+value.SECOND_CLOUD_LAYER.false=§aOFF
+
+option.CLOUD_ALT1=Cloud Layer Altitude
+option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at.
+
+option.CLOUD_ALT2=Second Cloud Layer Altitude
+option.CLOUD_ALT2.comment=Determines the world height which the second layer clouds will appear at. §e[*]§r This setting won't do anything if the "Second Cloud Layer" option isn't enabled.
+
+option.T_EXPOSURE=Tonemap Exposure
+option.T_EXPOSURE.comment=Adjusts the overall brightness of the image.
+
+option.TM_WHITE_CURVE=Tonemap White Curve
+option.TM_WHITE_CURVE.comment=Adjusts how easily the colors reach to full white.
+
+option.T_LOWER_CURVE=Tonemap Lower Curve
+option.T_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.T_UPPER_CURVE=Tonemap Upper Curve
+option.T_UPPER_CURVE.comment=Adjusts contrast of brighter colors.
+
+option.T_SATURATION=Saturation
+option.T_SATURATION.comment=Adjusts overall colorfulness of the image.
+
+option.T_VIBRANCE=Vibrance
+option.T_VIBRANCE.comment=Adjusts the colorfulness of the image, but already colorful pixels are less affected.
+
+option.WATER_STYLE=Water Style
+option.WATER_STYLE.comment=Determines the style of water. §c[-]§r Water waves can severely impact performance.
+value.WATER_STYLE.1=§aReimagined
+value.WATER_STYLE.2=§dReimagined + Waves
+value.WATER_STYLE.3=§dRealistic-ish
+
+option.SUN_MOON_HORIZON=Sun/Moon Horizon
+option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon line.
+value.SUN_MOON_HORIZON.true=§aON
+value.SUN_MOON_HORIZON.false=§aOFF
+
+option.NIGHT_STAR_AMOUNT=Night Star Amount
+option.NIGHT_STAR_AMOUNT.comment=Determines the amount of stars in the night sky.
+value.NIGHT_STAR_AMOUNT.2=§aMedium
+value.NIGHT_STAR_AMOUNT.3=§aHigh
+
+option.AURORA_BOREALIS=Aurora Borealis
+option.AURORA_BOREALIS.comment=Enables northern lights to appear in the night sky.
+value.AURORA_BOREALIS.true=§dON
+value.AURORA_BOREALIS.false=§aOFF
+
+option.AURORA_CONDITION=Aurora
+option.AURORA_CONDITION.comment=Determines the condition(s) for the Aurora Borealis to appear.
+value.AURORA_CONDITION.0=§aNo Condition
+value.AURORA_CONDITION.1=§aFull Moon
+value.AURORA_CONDITION.2=§aSnowy Biome
+value.AURORA_CONDITION.3=§aFull Moon in Snowy Biome
+
+option.PIXEL_SHADOW=Pixelated Shadows
+option.PIXEL_SHADOW.comment=Modifies the world coordinates on a grid to make shadows pixelated. §e[*]§r This does not affect performance.
+value.PIXEL_SHADOW.0=§aOFF
+value.PIXEL_SHADOW.8=§a8x8
+value.PIXEL_SHADOW.16=§a16x16
+value.PIXEL_SHADOW.32=§a32x32
+value.PIXEL_SHADOW.64=§a64x64
+value.PIXEL_SHADOW.128=§a128x128
+
+option.BLOOM_STRENGTH=Bloom Strength
+option.BLOOM_STRENGTH.comment=Determines the intensity of glow on bright things, and the bloom from rain/cave humidity.
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80%
+value.BLOOM_STRENGTH.0.16=85%
+value.BLOOM_STRENGTH.0.17=90%
+value.BLOOM_STRENGTH.0.18=95%
+value.BLOOM_STRENGTH.0.19=100%
+
+option.FXAA=Anti-Aliasing
+option.FXAA.comment=Enables Fast Approximate Anti-Aliasing (FXAA), which is basically an effect that produces smoother image. §e[*]§r Disabling this option won't disable lite Temporal Anti Aliasing (TAA), because lite TAA is required for a lot of effects to perform good.
+value.FXAA.true=§aON
+value.FXAA.false=§aOFF
+
+option.MOTION_BLURRING=Motion Blur
+option.MOTION_BLURRING.comment=Applies blur to the image when moving the camera.
+value.MOTION_BLURRING.true=§bON
+value.MOTION_BLURRING.false=§aOFF
+
+option.MOTION_BLURRING_STRENGTH=Motion Blur Strength
+option.MOTION_BLURRING_STRENGTH.comment=Adjusts the intensity of motion blur.
+
+option.FANCY_GLASS=Improved Glass
+option.FANCY_GLASS.comment=Improves the regular glass by adding a translucent layer to it. §c[-]§r Currently causes blending problems on Iris because of a Sodium bug. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.FANCY_GLASS.true=§aON
+value.FANCY_GLASS.false=§aOFF
+
+option.HAND_SWAYING=Hand Sway
+option.HAND_SWAYING.comment=Adds slow movement to the player hand to simulate a breathing animation.
+value.HAND_SWAYING.0=§aOFF
+value.HAND_SWAYING.1=§aSubtle
+value.HAND_SWAYING.2=§aNormal
+value.HAND_SWAYING.3=§aIntense
+
+option.LESS_LAVA_FOG=Better Visibility Inside Lava
+option.LESS_LAVA_FOG.comment=Reduces the lava fog to improve visibility inside lava.
+value.LESS_LAVA_FOG.true=§aON
+value.LESS_LAVA_FOG.false=§aOFF
+
+option.SHOW_LIGHT_LEVEL=Show Light Levels
+option.SHOW_LIGHT_LEVEL.comment=In Overworld: Yellow means mobs can spawn during night time, red means mobs can spawn anytime. In The Nether and The End: Yellow means some mobs can spawn, red means all mobs can spawn. §e[*]§r Disable Smooth Lighting for precise results.
+value.SHOW_LIGHT_LEVEL.0=§aOFF
+value.SHOW_LIGHT_LEVEL.1=§aHold Spider Eye
+value.SHOW_LIGHT_LEVEL.2=§aHold Light Source
+value.SHOW_LIGHT_LEVEL.3=§aAlways ON
+
+option.MINIMUM_LIGHT_MODE=Cave Lighting
+option.MINIMUM_LIGHT_MODE.comment=Improves visibility in closed areas by adding some lighting. §e[*]§r "Vanilla Brightness" option mean the cave lighting will be determined by the "Brightness" slider in Video Settings. §e[*]§r Also affects most places that don't have skylight.
+value.MINIMUM_LIGHT_MODE.0=§aVery Dark
+value.MINIMUM_LIGHT_MODE.1=§aDark
+value.MINIMUM_LIGHT_MODE.2=§aVanilla Brightness
+value.MINIMUM_LIGHT_MODE.3=§aBright
+value.MINIMUM_LIGHT_MODE.4=§aVery Bright
+
+option.GLOWING_ORES=Glowing Ores
+option.GLOWING_ORES.comment=Adds emission to ores. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.GLOWING_ORES.0=§aOFF
+value.GLOWING_ORES.1=§aOverworld
+value.GLOWING_ORES.2=§aOverworld + Nether
+
+option.EMISSIVE_REDSTONE_BLOCK=Glowing Redstone Block
+option.EMISSIVE_REDSTONE_BLOCK.comment=Adds emission to the Redstone Block. §e[*]§r RP Support option must be set to Integrated PBR+.
+value.EMISSIVE_REDSTONE_BLOCK.true=§aON
+value.EMISSIVE_REDSTONE_BLOCK.false=§aOFF
+
+option.GENERATED_WATER_NORMALS=Generated Normals on Water
+option.GENERATED_WATER_NORMALS.comment=Allows Generated Normals to appear on water. §e[*]§r RP Support option must be set to Integrated PBR+. §e[*]§r Generated Normals option must be enabled.
+value.GENERATED_WATER_NORMALS.true=§aON
+value.GENERATED_WATER_NORMALS.false=§aOFF
+
+option.HELD_LIGHTING_MODE=Dynamic Handheld Lighting
+option.HELD_LIGHTING_MODE.comment=Allows handheld light sources to cast light onto the scene.
+value.HELD_LIGHTING_MODE.0=§aOFF
+value.HELD_LIGHTING_MODE.1=§aSubtle
+value.HELD_LIGHTING_MODE.2=§aNormal
+
+option.BLOCKLIGHT_COLOR_MODE=Blocklight Color
+option.BLOCKLIGHT_COLOR_MODE.comment=Determines the color of the light cast from light sources.
+value.BLOCKLIGHT_COLOR_MODE.9=§aCold
+value.BLOCKLIGHT_COLOR_MODE.10=§aNatural
+value.BLOCKLIGHT_COLOR_MODE.11=§aWarm
+
+option.NO_WAVING_INDOORS=No Waving in Closed Areas
+option.NO_WAVING_INDOORS.comment=Prevents blocks from waving in closed areas using skylight. §c[-]§r Can cause slight problems with some resource pack models.
+value.NO_WAVING_INDOORS.true=§aON
+value.NO_WAVING_INDOORS.false=§aOFF
+
+option.WAVING_FOLIAGE=Waving Foliage
+option.WAVING_FOLIAGE.comment=Adds movement to foliage to simulate wind.
+value.WAVING_FOLIAGE.true=§aON
+value.WAVING_FOLIAGE.false=§aOFF
+
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_LEAVES.comment=Adds movement to leaves to simulate wind.
+value.WAVING_LEAVES.true=§aON
+value.WAVING_LEAVES.false=§aOFF
+
+option.WORLD_OUTLINE=Outlined World
+option.WORLD_OUTLINE.comment=Adds outlines around blocks.
+value.WORLD_OUTLINE.true=§bON
+value.WORLD_OUTLINE.false=§aOFF
+
+option.RAIN_PUDDLES=Rain Puddles
+option.RAIN_PUDDLES.comment=Adds water puddles to the terrain during rain. §e[*]§r RP Support option must be set to anything but Basic.
+value.RAIN_PUDDLES.0=§aOFF
+value.RAIN_PUDDLES.1=§bON - Puddles
+value.RAIN_PUDDLES.2=§bON - Full Coverage
+
+option.UNDERWATER_DISTORTION=Underwater Distortion
+option.UNDERWATER_DISTORTION.comment=Adds subtle refraction to the screen when the camera is inside water.
+value.UNDERWATER_DISTORTION.true=§aON
+value.UNDERWATER_DISTORTION.false=§aOFF
+option.SELECTION_OUTLINE=Selection Outline
+option.SELECTION_OUTLINE.comment=Changes the color of the block selection outline.
+value.SELECTION_OUTLINE.0=§aDefault
+value.SELECTION_OUTLINE.1=§aRainbow
+value.SELECTION_OUTLINE.2=§aWhite
+value.SELECTION_OUTLINE.3=§aRed
+value.SELECTION_OUTLINE.4=§aGreen
+value.SELECTION_OUTLINE.5=§aBlue
+value.SELECTION_OUTLINE.6=§aYellow
+value.SELECTION_OUTLINE.7=§aCyan
+value.SELECTION_OUTLINE.8=§aMagenta
+
+#Overimagined
+profile.OVERIMAGINED=§dOVER§bIMAGINED
+
+value.CMPR.4=§dO§aver§ei§bma§cg§3ine§6d
+
+screen.OVERIMAGINED_SETTINGS=Overimagined Settings
+screen.OVERIMAGINED_SETTINGS.comment=Settings that are added by Overimagined.
+    screen.SKY=Sky
+    screen.SKY.comment=Settings that relate to the sky.
+        screen.CLOUDS=Clouds
+	    screen.AURORA_SETTINGS=Aurora Borealis
+	    screen.AURORA_SETTINGS.comment=Settings that relate to the Aurora Borealis.
+		    screen.AURORA_COLOR_SETTINGS=Aurora Color Settings
+		    screen.AURORA_COLOR_SETTINGS.comment=Settings that relate to the color of the Aurora Borealis.
+        screen.END_SKY=End Sky
+        screen.END_SKY.comment=Settings that relate to the End Sky.
+            screen.END_BEAMS_SETTINGS=Ender Beam Settings
+            screen.END_BEAMS_SETTINGS.comment=Settings that relate to the Ender Beams.
+            screen.END_STAR=End Star Settings
+            screen.END_STAR.comment=Settings that relate to the End Stars.
+    screen.WORLD=World
+    screen.WORLD.comment=Settings that relate to the world.
+        screen.OVERWORLD_WORLD=Overworld
+            screen.OVERWORLD_BEAM=Overworld Beams
+            screen.OVERWORLD_BEAM.comment=Settings that relate to Overworld Beams.
+            screen.FOG=Fog
+            screen.FOG.comment=Settings that relate to fog.
+                screen.FOG_CAVE=Cave fog
+                screen.FOG_CAVE.comment=Settings that relate to cave fog.
+                screen.FOG_ATMOSPHERIC=Atmospheric fog
+                screen.FOG_ATMOSPHERIC.comment=Settings that relate to atmospheric fog.
+                screen.FOG_BORDER=Border fog
+                screen.FOG_BORDER.comment=Settings that relate to border fog.
+            screen.SNOWY=Snow Mode
+        screen.NETHER_WORLD=Nether
+        screen.END_WORLD=End
+            screen.END_AMBIENT=End Ambient
+        screen.BLOCKLIGHT=Blocklight Settings
+        screen.BLOCKLIGHT.comment=Settings that relate to blocklight color.
+        screen.OUTLINE_SELECT=Selection Outline
+        screen.OUTLINE_SELECT.comment=Settings that relate to Selection Outline.
+    screen.WATER=Water
+    screen.WATER.comment=Settings that relate to water.
+    screen.MATERIALS=Materials
+    screen.MATERIALS.comment=Settings that relate to materials.
+        screen.EMISSIVE_MATERIALS=Emissive Materials
+            screen.EMISSIVE_ORES= Emissive Ores
+        screen.EMISSIVE_ORES.comment=Settings that relate to emissive ores.
+        screen.IPBR_REDSTONE=Integrated Redstone PBR
+        screen.IPBR_REDSTONE.comment=Settings that relate to IntegratedPBR for redstone.
+        screen.IPBR_NORMALS=Auto Generated Normals
+        screen.IPBR_NORMALS.comment=Settings that relate to Auto Generated Normals.
+        screen.LAVA_SETTINGS=Lava
+        screen.LAVA_SETTINGS.comment=Settings that relate to hot burning lava.
+        screen.END_ROD_SETTINGS=End Rod
+        screen.END_ROD_SETTINGS.comment=Settings that relate to end rods.
+    screen.CAMERA=Camera
+    screen.CAMERA.comment=Settings that relate to the Camera.
+        screen.ACES=ACES Settings
+        screen.ACES.comment=Settings for the ACES Tonemap.
+    screen.FUN=Fun
+    screen.FUN.comment=Let's have some fun.
+        screen.WORLD_CURVATURE_SETTINGS=World Curvature
+        screen.WORLD_CURVATURE_SETTINGS.comment=Settings that relate to World Curvature.
+
+option.DAYLIGHT_CYCLE_COMPAT=World Time Animation
+option.DAYLIGHT_CYCLE_COMPAT.comment=ONLY use this if you play with the gamerule doDaylightCycle false. When enabled clouds and more animate in worlds with the daylight cycle off but they are no longer synced between players.
+
+option.AURORA_COLOR_PRESET=Color Preset
+option.AURORA_COLOR_PRESET.comment=Choose between default look/custom colored auroras, varying colored auroras, where the aurora color changes each Minecraft month or color presets.
+value.AURORA_COLOR_PRESET.0=Custom
+value.AURORA_COLOR_PRESET.1=§o§lVarying
+value.AURORA_COLOR_PRESET.2=§9v§b4
+value.AURORA_COLOR_PRESET.3=§cG§4h§bo§3s§bt
+value.AURORA_COLOR_PRESET.4=§9Ne§5bu§dl§5a
+value.AURORA_COLOR_PRESET.5=§cB§6l§ca§6z§ei§6n§eg
+value.AURORA_COLOR_PRESET.6=§6E§dn§5d
+value.AURORA_COLOR_PRESET.7=§bI§3c§9e
+value.AURORA_COLOR_PRESET.8=§cWa§6t§ce§a§6r§am§2e§al§2on
+value.AURORA_COLOR_PRESET.9=§bEt§3h§be§dr§3e§dal
+value.AURORA_COLOR_PRESET.10=§bPe§3r§bm§3af§cr§3o§cst
+value.AURORA_COLOR_PRESET.11=§dP§5i§dn§5k
+
+option.RGB_AURORA=RGB Aurora
+option.RGB_AURORA.comment=Be an Epic Gamer with §4R§2G§9B §rAuroras.
+
+option.BLOCKY_AURORA=Blocky Aurora
+option.BLOCKY_AURORA.comment=Enables Blocky Auroras.
+value.BLOCKY_AURORA.true=§aON
+value.BLOCKY_AURORA.false=§aOFF
+
+option.AURORA_UP_R=Upper Section - Red
+option.AURORA_UP_G=Upper Section - Green
+option.AURORA_UP_B=Upper Section - Blue
+option.AURORA_UP_I=Upper Section - Intensity
+
+option.AURORA_DOWN_R=Lower Section - Red
+option.AURORA_DOWN_G=Lower Section - Green
+option.AURORA_DOWN_B=Lower Section - Blue
+option.AURORA_DOWN_I=Lower Section - Intensity
+
+option.AURORA_SIZE=Aurora Density
+option.AURORA_SIZE.comment=Density controls the apparent height and the size of the Aurora.
+
+option.AURORA_DRAW_DISTANCE=Aurora Draw Distance
+option.AURORA_DRAW_DISTANCE.comment=Draw Distance controls the distance boundary of the Aurora.
+
+option.SUN_ANGLE=Sun Angle
+option.SUN_ANGLE.comment=Change the Sun and Moon angle, default is 0, in §bComplementary v4 §rthe default is -40.
+
+option.CLOUD_WIDTH=Cloud Width
+option.CLOUD_STRETCH=Cloud Height
+option.CLOUD_SPEED=Cloud Speed
+option.CLOUD_TRANSPARENCY=Cloud Transparency
+option.CLOUD_MINECRAFT_TEXTURE=Minecraft Cloud Texture
+
+option.END_SMOKE=End Smoke
+option.END_SMOKE.comment=Someone left the fire unattended and now the End has smoke in the upper and lower void.
+option.E_SKY_COLORR=End Sky - Red
+option.E_SKY_COLORG=End Sky - Green
+option.E_SKY_COLORB=End Sky - Blue
+option.E_SKY_COLORI=End Sky - Intensity
+
+option.WAVE_SPEED=Waving Speed
+option.WAVE_SPEED.comment=Waving Speed for foliage and leaves.
+
+option.NIGHT_BRIGHTNESS=Night Brightness
+option.NIGHT_BRIGHTNESS.comment=Setting to adjust the night brightness.
+
+option.GLOWING_EMERALD_BLOCK=Emissive Emerald Block
+option.GLOWING_LAPIS_BLOCK=Emissive Lapis Block
+option.GLOWING_AMETHYST_BLOCK=Glowing Amethyst Block
+value.GLOWING_AMETHYST_BLOCK.0=§cOFF
+value.GLOWING_AMETHYST_BLOCK.1=Version 1
+value.GLOWING_AMETHYST_BLOCK.2=Version 2
+
+option.ORE_EMISSION=Glowing Ores Intensity
+option.ORE_EMISSION.comment=Change the brightness of the glowing ores.
+
+option.GLOWING_WART=Glowing Wart Blocks
+option.GLOWING_WART.comment=Setting which enables animated emissive wart blocks.
+
+option.GLOWING_NETHER_TREES=Emissive Nether Trees
+option.GLOWING_NETHER_TREES.comment=Setting which enables emissive crimson/warped stems.
+
+option.OVERWORLD_BEAMS=Overworld Beams
+option.OVERWORLD_BEAMS.comment=Setting which enables nebula like beams during the night in the Overworld.
+option.OVERWORLD_BEAMS_CONDITION=Condition
+option.OVERWORLD_BEAMS_CONDITION.comment=By default they only appear during full moon, changing this makes them appear every night.
+value.OVERWORLD_BEAMS_CONDITION.0=Full Moon
+value.OVERWORLD_BEAMS_CONDITION.1=Every Night
+option.OVERWORLD_BEAMS_INTENSITY=Overworld Beams Intensity
+option.BEAMS_AMBIENT_INFLUENCE=Ambient Color Influence
+option.BEAMS_AMBIENT_INFLUENCE.comment=The beams will have the ambient color at 0.00 and the user defined color at 1.00.
+option.OW_BEAM_R=Overworld Beams - Red
+option.OW_BEAM_G=Overworld Beams - Green
+option.OW_BEAM_B=Overworld Beams - Blue
+
+option.END_BEAMS=Ender Beams
+option.END_BEAMS.comment=Setting which enables nebula like beams in the End.
+option.E_BEAMS_AMBIENT_INFLUENCE=Ambient Color Influence
+option.E_BEAMS_AMBIENT_INFLUENCE.comment=The beams will have the ambient color at 0.00 and the user defined color at 1.00. Doesn't apply to Dragon Ender Beams.
+option.E_BEAM_R=Ender Beams - Red
+option.E_BEAM_G=Ender Beams - Green
+option.E_BEAM_B=Ender Beams - Blue
+option.E_BEAM_I=Ender Beams - Intensity
+option.E_DRAGON_BEAM_R=Dragon Ender Beams - Red
+option.E_DRAGON_BEAM_R.comment=The Ender Beam color during the dragon fight - Red.
+option.E_DRAGON_BEAM_G=Dragon Ender Beams - Green
+option.E_DRAGON_BEAM_G.comment=The Ender Beam color during the dragon fight - Green.
+option.E_DRAGON_BEAM_B=Dragon Ender Beams - Blue
+option.E_DRAGON_BEAM_B.comment=The Ender Beam color during the dragon fight - Blue.
+option.E_DRAGON_BEAM_I=Dragon Ender Beams - Intensity
+option.E_DRAGON_BEAM_I.comment=The Ender Beam color during the dragon fight - Intensity.
+option.BEAMS_NEAR_PLAYER=End Beams Near Player
+option.BEAMS_NEAR_PLAYER.comment=Enables or disables end beams near the player.
+
+option.END_STARS=End Stars
+option.END_STARS.comment=Enable or disable the stars in the End.
+option.END_STAR_BRIGHTNESS=End Star Brightness
+option.END_STAR_SIZE=End Star Size
+option.END_STAR_AMOUNT=End Star Amount
+value.END_STAR_AMOUNT.0=Low
+value.END_STAR_AMOUNT.1=Normal
+value.END_STAR_AMOUNT.2=High
+value.END_STAR_AMOUNT.3=Very High
+option.END_TWINKLING_STARS=Twinkling End Stars
+
+option.STAR_BRIGHTNESS=Star Brightness
+option.STAR_BRIGHTNESS.comment=Setting to adjust the star brightness.
+option.MORE_STARS=More Stars
+option.MORE_STARS.comment=Overwrites Reimagined's star amount and sets it to a higher one. Applies to Overworld and End.
+option.TWINKLING_STARS=Twinkling Stars
+option.TWINKLING_STARS.comment=Make the stars twinkle at you.
+option.STAR_SIZE=Star Size
+option.STAR_SIZE.comment=Change the size of your stars.
+
+option.SITUATIONAL_ORES=Situational Ores
+option.SITUATIONAL_ORES.comment=Ores will only glow in caves and at night. §e[*]§r Glowing Ores must be enabled for this to work.
+
+option.SCENE_AWARE_LIGHT_SHAFTS=Scene Aware Light Shafts
+option.SCENE_AWARE_LIGHT_SHAFTS.comment=Enable or disable scene aware light shafts.
+option.LIGHTSHAFT_STRENGTH=Light Shaft Strength
+
+option.WAVE_INTENSITY=Water Wave Intensity
+option.WAVE_INTENSITY.comment=Change the intensity of the realistic water waves.
+option.UNDERWATER_DISTORTION_STRENGTH=Underwater Distortion Strength
+option.UNDERWATER_DISTORTION_STRENGTH.comment=Setting to alter the Underwater Distortion Strength.
+option.FRESNEL_MULTIPLIER=Underwater Surface Reflection Strength
+option.FRESNEL_MULTIPLIER.comment=A setting which changes the underwater reflection strength of the water surface.
+option.WATER_VERTEX_WAVES=Water Displacement
+option.WATER_VERTEX_WAVES.comment=Creates waves by displacing the water plane.
+option.SHADER_WATER=Shader Water
+option.SHADER_WATER.comment=A toggle to turn the shader water on or off.
+
+option.GLOWING_DEBRIS=Emissive Ancient Debris
+option.GLOWING_IRON=Emissive Iron Ore
+option.GLOWING_COPPER=Emissive Copper Ore
+option.GLOWING_GOLD=Emissive Gold ore
+option.GLOWING_NETHER_GOLD=Emissive Nether Gold Ore
+option.GLOWING_DIAMOND=Emissive Diamond Ore
+option.GLOWING_EMERALD=Emissive Emerald Ore
+option.GLOWING_LAPIS=Emissive Lapis Ore
+option.GLOWING_QUARTZ=Emissive Nether Quartz Ore
+option.GLOWING_GILDED_BLACKSTONE=Emissive Gilded Blackstone
+option.GLOWING_REDSTONE=Emissive Redstone Ore
+
+option.BLOCKLIGHT_PROFILE=Blocklight profile
+option.BLOCKLIGHT_PROFILE.comment=Change between the blocklight presets from Reimagined and your own custom blocklight colors.
+value.BLOCKLIGHT_PROFILE.0=Reimagined
+value.BLOCKLIGHT_PROFILE.1=Custom
+option.BLOCKLIGHT_R=Blocklight - Red
+option.BLOCKLIGHT_G=Blocklight - Green
+option.BLOCKLIGHT_B=Blocklight - Blue
+option.BLOCKLIGHT_I=Blocklight - Intensity
+option.BLOCKLIGHT_SATURATION=Blocklight - Saturation
+option.RANDOM_BLOCKLIGHT=Random Colored Blocklight
+option.RANDOM_BLOCKLIGHT_SIZE=Random Colored Blocklight Size
+
+option.NORMAL_RES=Normals Resolution
+option.NORMAL_RES.comment=Change the resolution at which the integrated normal maps render.
+option.NORMAL_THRESHOLD=Normals Strength
+option.NORMAL_THRESHOLD.comment=Change how strong or weak the integrated normal maps will be.
+
+option.CAVE_FOG=Cave Fog
+option.CAVE_FOG.comment=Turn cave fog on and off.
+option.CAVE_FOG_R=Cave Fog - Red
+option.CAVE_FOG_G=Cave Fog - Green
+option.CAVE_FOG_B=Cave Fog - Blue
+option.CAVE_FOG_I=Cave Fog - Intensity
+option.CAVE_FOG_DENSITY=Cave Fog Density
+
+option.ATMOSPHERIC_FOG=Atmospheric Fog
+option.ATMOSPHERIC_FOG_R= Atmospheric Fog - Red
+option.ATMOSPHERIC_FOG_G= Atmospheric Fog - Green
+option.ATMOSPHERIC_FOG_B= Atmospheric Fog - Blue
+option.ATMOSPHERIC_FOG_I= Atmospheric Fog - Intensity
+option.ATMOSPHERIC_FOG_DENSITY=Atmospheric Fog Density
+option.RADIOACTIVE_ATMOSPHERIC_FOG=Radioactive Atmospheric Fog
+option.RADIOACTIVE_ATMOSPHERIC_FOG.comment=It's just one unhealthy habit more. Very noticeable at night.
+
+option.BORDER_FOG_DISTANCE=Border Fog Distance
+option.BORDER_FOG_DISTANCE.comment=Adjust the border fog distance of the Overworld, Nether and End.
+value.BORDER_FOG_DISTANCE.1=0.25
+value.BORDER_FOG_DISTANCE.3=0.50
+value.BORDER_FOG_DISTANCE.6=1.00
+value.BORDER_FOG_DISTANCE.10=1.25
+value.BORDER_FOG_DISTANCE.50=1.50
+value.BORDER_FOG_DISTANCE.100=1.75
+value.BORDER_FOG_DISTANCE.500=2.00
+value.BORDER_FOG_DISTANCE.1000=2.50
+
+option.BORDER_FOG_DENSITY=Border Fog Density
+option.BORDER_FOG_DENSITY.comment=Adjust the border fog density of the Overworld, Nether and End.
+
+option.NETHER_PORTAL_VARIATION=Nether Portal Preset
+option.NETHER_PORTAL_VARIATION.comment=Option to choose between different nether portal presets.
+value.NETHER_PORTAL_VARIATION.0=Vanilla
+value.NETHER_PORTAL_VARIATION.1=Reimagined
+value.NETHER_PORTAL_VARIATION.2=Purple Void
+
+option.END_PORTAL_VARIATION=End Portal Preset
+option.END_PORTAL_VARIATION.comment=Option to choose between different end portal presets.
+value.END_PORTAL_VARIATION.0=Reimagined
+value.END_PORTAL_VARIATION.1=Sludged Strings
+
+option.SILHOUETTE=Silhouette
+option.SILHOUETTE.comment=When enabled makes blocks facing away from the sun black, useful for screenshots.
+option.SILHOUETTE_BRIGHTNESS=Silhouette Brightness
+
+option.THUNDER_LIGHTING=Better Thunderstorm
+option.THUNDER_LIGHTING.comment=Makes the terrain light up when a lightning strikes.
+
+option.BLOCKLIGHT_FLICKER=Blocklight Flickering
+option.BLOCKLIGHT_FLICKER.comment=Adds flickering effect to blocklight.
+
+option.BLOCKLIGHT_FLICKER_STRENGTH=Blocklight Flickering Strength
+option.BLOCKLIGHT_FLICKER_STRENGTH.comment=Determines how noticable blocklight flicker is going to be.
+
+option.GREEN_BLUE_SCREEN=Green & Blue Screen
+option.GREEN_BLUE_SCREEN.comment=Changes lime concrete, lime wool, blue concrete and blue wool to green and blue screens. §e[*]§r Pro tip: Put light sources under lime or blue carpets for lighting.
+value.GREEN_BLUE_SCREEN.0=§cOFF
+value.GREEN_BLUE_SCREEN.1=§aGreen
+value.GREEN_BLUE_SCREEN.2=§9Blue
+value.GREEN_BLUE_SCREEN.3=§aGreen §r& §9Blue
+
+option.MIRROR_DIMENSION=Mirror Dimension
+option.MIRROR_DIMENSION.comment=You have learned the art of magic and are brave enough to enter the mirror dimension.
+
+option.WORLD_CURVATURE=World Curvature
+option.OVERWORLD_CURVATURE_SIZE=Overworld Curvature Size
+option.NETHER_CURVATURE_SIZE=Nether Curvature Size
+option.END_CURVATURE_SIZE=End Curvature Size
+
+option.LAVA_VARIATION=Lava Preset
+option.LAVA_VARIATION.comment=Hot presets in your area. Choose Now!
+value.LAVA_VARIATION.0=Reimagined
+value.LAVA_VARIATION.1=Dark Islands
+value.LAVA_VARIATION.2=Sunshine
+value.LAVA_VARIATION.3=Blushing Hotness
+
+
+option.LAVA_VERTEX_WAVES=Lava Displacement
+option.LAVA_VERTEX_WAVES.comment=Creates waves by displacing the water plane.
+
+option.LAVA_COLUMN_NOISE=Noisy Flowing Lava
+option.LAVA_COLUMN_NOISE.comment=Make the Lava Preset also apply to downward flowing lava, for example the lava columns in the Nether. Blushing Hotness Preset is unaffected.
+
+option.LAVA_TEMPERATURE=Lava Temperature
+
+option.NETHER_BRIGHTNESS=Nether Brightness
+option.NETHER_BRIGHTNESS.comment=Change the ambient brightness of the Nether.
+
+option.RAIN_PARTICLE_TRANSPARENCY=Rain Transparency
+option.SNOW_PARTICLE_TRANSPARENCY=Snow Transparency
+
+option.SELECTION_OUTLINE_PROFILE=Selection Outline Profile
+option.SELECTION_OUTLINE_PROFILE.comment=Change between the selection outline presets from Reimagined and your own custom selection outline colors.
+value.SELECTION_OUTLINE_PROFILE.0=Reimagined
+value.SELECTION_OUTLINE_PROFILE.1=Custom
+option.SELECTION_OUTLINE_R=Selection Outline - Red
+option.SELECTION_OUTLINE_G=Selection Outline - Green
+option.SELECTION_OUTLINE_B=Selection Outline - Blue
+option.SELECTION_OUTLINE_I=Selection Outline - Intensity
+
+option.END_ROD_COLOR_PROFILE=End Rod Profile
+option.END_ROD_COLOR_PROFILE.comment=Change between the default end rod colors from Reimagined and your own custom ones.
+value.END_ROD_COLOR_PROFILE.0=Reimagined
+value.END_ROD_COLOR_PROFILE.1=Custom
+option.END_ROD_R=End Rod - Red
+option.END_ROD_G=End Rod - Green
+option.END_ROD_B=End Rod - Blue
+option.END_ROD_I=End Rod - Intensity
+
+option.REDSTONE_IPBR=Redstone IntegratedPBR
+option.REDSTONE_IPBR.comment=This option makes red pixels on redstone related blocks emissive. Works best with redstone resource packs.
+option.REDSTONE_IPBR_R=Red detection
+option.REDSTONE_IPBR_R.comment=Change this if the detection does not work with your resource pack. Increase if the pixels are more red, decrease if they are less.
+option.REDSTONE_IPBR_G=Green detection
+option.REDSTONE_IPBR_G.comment=Change this if the detection does not work with your resource pack. Increase if the pixels are more green, decrease if they are less.
+option.REDSTONE_IPBR_B=Blue detection
+option.REDSTONE_IPBR_B.comment=Change this if the detection does not work with your resource pack. Increase if the pixels are more blue, decrease if they are less.
+option.REDSTONE_IPBR_I=Emissive Strength
+option.REDSTONE_IPBR_I.comment=Change the emissive strength of Redstone IntegratedPBR
+
+option.LETTERBOXING=Letterboxing
+option.LETTERBOXING.comment=Adds black bars to the top and bottom of the window.
+
+option.ASPECT_RATIO=Aspect Ratio
+option.ASPECT_RATIO.comment=Change the ratio between the width and height of the cropped image.
+
+option.EXCLUDE_ENTITIES=Exclude entities
+option.EXCLUDE_ENTITIES.comment=Change whether entities should be excluded from Letterboxing or not.
+
+option.TONEMAP=Tonemap
+option.TONEMAP.comment=Changes which tonemap is used.
+value.TONEMAP.0=BSL/Reimagined
+value.TONEMAP.1=ACES
+value.TONEMAP.2=Burgess
+value.TONEMAP.3=Lottes
+
+option.ACES_EXPOSURE=Exposure
+option.ACES_EXPOSURE.comment=Adjusts the overall brightness of the image.
+
+option.ACES_WHITE=White Curve
+option.ACES_WHITE.comment=Adjusts how easily the colors reach to full white.
+
+option.REFLECTIVE_WORLD=Reflective World
+option.REFLECTIVE_WORLD.comment=The entire world is a mirror but you can't see yourself. RIP.
+
+option.WAVE_EVERYTHING=Wave Everything
+option.WAVE_EVERYTHING.comment=Dale a tu cuerpo alegría Macarena.
+
+option.INTERACTIVE_FOLIAGE=Interactive Foliage
+
+option.EMIN_BOAT=Emin B O A T
+option.EMIN_BOAT.comment=Ride boats like Emin intended.
+
+option.WHITE_WORLD=White World
+option.WHITE_WORLD.comment=Let there be a white world.
+
+option.SNOW_MODE=Snow Mode
+option.SNOW_MODE.comment=Let it snow, let it snow, let it snow.
+
+option.SNOW_CONDITION=Snow Condition
+option.SNOW_CONDITION.comment=Determines the condition(s) for the snow to appear.
+value.SNOW_CONDITION.0=Snow Biome & Raining
+value.SNOW_CONDITION.1=Snow Biome
+value.SNOW_CONDITION.2=Everywhere
+
+option.SNOW_NOISE_TYPE=Snow noise
+option.SNOW_NOISE_TYPE.comment=Select between the noise types.
+value.SNOW_NOISE_TYPE.0=Pixelated
+value.SNOW_NOISE_TYPE.1=Non-Pixelated
+
+option.SNOW_NOISE_INTENSITY=Noise Intensity
+option.SNOW_NOISE_INTENSITY.comment=Change how strong the snow noise is.
+
+option.SNOW_SIZE=Snow Resolution
+option.SNOW_SIZE.comment=Change the resolution or size of the noise.
+value.SNOW_SIZE.0=Auto
+
+option.SNOW_TRANSPARENCY=Snow Transparency
+option.SNOW_TRANSPARENCY.comment=Change the transparency of the snow.
+
+option.COLOR_DESATURATION=Color Desaturation
+option.COLOR_DESATURATION.commnet=Desaturates the colors of the environment.
+
+option.INTENSE_DEEP_DARK=Intense Deep Dark
+
+option.END_AMBIENT_INFLUENCE=Ambient Color Influence
+option.END_AMBIENT_INFLUENCE.comment=The ambient color is at 0.00 default and user defined at 1.00.
+option.END_AMBIENT_R=Ambient Color - Red
+option.END_AMBIENT_G=Ambient Color - Green
+option.END_AMBIENT_B=Ambient Color - Blue
+option.END_AMBIENT_I=Ambient Color - Intensity
