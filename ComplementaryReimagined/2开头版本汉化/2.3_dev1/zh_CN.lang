@@ -35,7 +35,7 @@ option.info3.comment=至少在本光影里, 配置文件 设置会改变 主要�
 
 option.info4=什么是资源包支持
 value.info4.0=
-option.info4.comment=资源包支持 选项决定光影包如何处理 Minecraft 那些不同的方块.例如: §bIntegratedPBR+§r 会对金块这类的方块赋予发生反射的属性, 但 §elabPBR§r 或 §eseuspbr§r 这两个需要你去安装一个支持 PBR 的资源包来告诉光影怎么判断这些方块的类型. 如果设置为 §a基本§r 则会让所有方块都不那么特殊, 当然, 像水方块这类的例外.
+option.info4.comment=资源包支持 选项决定光影包如何处理 Minecraft 那些不同的方块.例如: §b集成PBR+§r 会对金块这类的方块赋予发生反射的属性, 但 §elabPBR§r 或 §eseuspbr§r 这两个需要你去安装一个支持 PBR 的资源包来告诉光影怎么判断这些方块的类型. 如果设置为 §a基本§r 则会让所有方块都不那么特殊, 当然, 像水方块这类的例外.
 
 option.info5=如何修复模组问题
 value.info5.0=
