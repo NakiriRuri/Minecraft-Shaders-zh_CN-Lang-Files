@@ -278,7 +278,7 @@ option.SHADOW_FILTER=阴影过滤
 option.SHADOW_FILTER.comment=启用阴影过滤. §a[+]§r启用TAA对该效果有帮助.
 
 option.sunPathRotation=太阳斜角
-option.sunPathRotation.comment=调整太阳斜角.
+option.sunPathRotation.comment=调整太阳角度.
 
 option.SHADOW_SUBSURFACE=次表面散射
 option.SHADOW_SUBSURFACE.comment=允许阳光在树叶上穿透和散射.
@@ -404,13 +404,13 @@ option.SKY_VANILLA=原版天空
 option.SKY_VANILLA.comment=使用原版天空颜色.
 
 option.WATER_MODE=水体纹理模式
-option.WATER_MODE.comment=确定是否应该使用原版水体纹理. 默认：着色器的扁平水颜色,无纹理. 原版：原版纹理. 着色原版：带有着色器水颜色的原版纹理. 扁平原版：原版的扁平水颜色.
+option.WATER_MODE.comment=确定是否应该使用原版水体纹理. 默认：着色器的扁平水颜色,无纹理. 原版：原版纹理. 着色原版：带有着色器水颜色的原版纹理.
 value.WATER_MODE.0=默认
 value.WATER_MODE.1=原版
 value.WATER_MODE.2=着色原版
 
 option.CLOUDS=云层
-option.CLOUDS.comment=启用云层. §a[+]§r启用TAA对该效果有帮助. §e[*]§r原版云需要将原版云设置为默认或开启
+option.CLOUDS.comment=启用云层. §a[+]§r启用TAA对该效果有帮助.
 
 option.STARS=星星
 option.STARS.comment=启用星星.
