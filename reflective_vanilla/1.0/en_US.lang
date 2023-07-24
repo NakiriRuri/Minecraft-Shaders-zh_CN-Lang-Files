@@ -1,0 +1,23 @@
+screen.POST_PROCESSING=Post-Processing
+screen.REFLECTIONS=Reflections
+screen.LIGHTING=Lighting
+screen.WATER=Water
+
+value.SUNLIGHT_TYPE.SPECULAR=Specular
+value.SUNLIGHT_TYPE.VANILLA=Vanilla (Screen-Space)
+
+option.ENABLE_GAMMA_CORRECTION=Gamma Correction
+option.ENABLE_TONEMAPPING=Tonemapping
+option.CONTRAST_FILTER_INTENSITY=Contrast Filter Intensity
+option.TRANSLUCENT_BLUR_INTENSITY=Translucent Blur Intensity
+option.ENABLE_SKY_REFLECTION=Sky Reflection
+option.ENABLE_SSR=SSR (Screen-Space Reflection)
+option.SSR_RAYTRACING=SSR Ray Tracing
+option.SSR_RAYTRACING_STEPS=SSR Ray Tracing Steps
+option.SSR_BLUR_INTENSITY=SSR Blur Intensity
+option.SSR_ROUGHNESS_BLUR_INTENSITY=Roughness Blur Intensity
+option.SUNLIGHT_INTENSITY=Sunlight Intensity
+option.SUNLIGHT_TYPE=Sunlight Type
+option.WATER_TRANSPARENCY=Water Transparency
+option.WATER_SMOOTHNESS=Water Smoothness
+option.WATER_REFLECTANCE=Water Reflectance

@@ -1,0 +1,28 @@
+#shaders/lang/zh_CN.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 reflective vanilla 1.0 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+screen.POST_PROCESSING=后处理
+screen.REFLECTIONS=反射
+screen.LIGHTING=照明
+screen.WATER=水体
+
+value.SUNLIGHT_TYPE.SPECULAR=高光
+value.SUNLIGHT_TYPE.VANILLA=原版 (屏幕空间)
+
+option.ENABLE_GAMMA_CORRECTION=伽马校正
+option.ENABLE_TONEMAPPING=色调映射
+option.CONTRAST_FILTER_INTENSITY=对比度过滤强度
+option.TRANSLUCENT_BLUR_INTENSITY=半透明模糊强度
+option.ENABLE_SKY_REFLECTION=天空反射
+option.ENABLE_SSR=SSR (屏幕空间反射)
+option.SSR_RAYTRACING=SSR (屏幕空间路径追踪)
+option.SSR_RAYTRACING_STEPS=SSR 路径追踪采样值
+option.SSR_BLUR_INTENSITY=SSR 模糊强度
+option.SSR_ROUGHNESS_BLUR_INTENSITY=粗糙度模糊强度
+option.SUNLIGHT_INTENSITY=阳光强度
+option.SUNLIGHT_TYPE=阳光类型
+option.WATER_TRANSPARENCY=水体透明度
+option.WATER_SMOOTHNESS=水体平滑度
+option.WATER_REFLECTANCE=水体反射率
