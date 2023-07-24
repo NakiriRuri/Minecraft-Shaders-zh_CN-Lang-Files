@@ -1,0 +1,229 @@
+{
+	"pipeline.forgetmenot.name": "Forget-Me-Not Shaders",
+	"pipeline.forgetmenot.desc": "Immersive shaders for Canvas",
+
+	"config.forgetmenot.category.atmosphere": "Atmosphere",
+	
+	"config.forgetmenot.name.sun_brightness": "Sun Brightness",
+	"config.forgetmenot.desc.sun_brightness": "Brightness of the sun. Affects the appearance of the sky as well as brightness of direct sunlight on the ground.",
+
+	"config.forgetmenot.name.sun_angle": "Sun Angle",
+	"config.forgetmenot.desc.sun_angle": "Angle of the sun azimuth.",
+
+	"config.forgetmenot.name.fog": "Fog",
+	"config.forgetmenot.desc.fog": "Enables atmospheric fog.",
+
+	"config.forgetmenot.category.clouds": "Clouds",
+
+	"config.forgetmenot.name.cumulus_clouds": "Enable Cumulus Clouds",
+	"config.forgetmenot.desc.cumulus_clouds": "Enables normal clouds",
+	"config.forgetmenot.name.cumulus_detail": "Cumulus Cloud Detail",
+	"config.forgetmenot.desc.cumulus_detail": "Number of noise octaves used for cumulus clouds, greatly affects performance.",
+
+	"config.forgetmenot.name.cirrus_clouds": "Enable Cirrus Clouds",
+	"config.forgetmenot.desc.cirrus_clouds": "Enables wispy clouds",
+	"config.forgetmenot.name.cirrus_detail": "Cirrus Cloud Detail",
+	"config.forgetmenot.desc.cirrus_detail": "Number of noise octaves used for cirrus clouds, greatly affects performance.",
+
+	"config.forgetmenot.name.curl_noise": "Curl Noise",
+	"config.forgetmenot.desc.curl_noise": "Wind-like noise effects on the clouds. Slightly affects performance.",
+
+	"config.forgetmenot.name.clouds_contribute_to_light": "Clouds Contribute To Ambient Lighting",
+	"config.forgetmenot.desc.clouds_contribute_to_light": "Controls whether clouds affect lighting and reflections.",
+
+	"config.forgetmenot.name.cloud_shadows": "Cloud Shadows",
+	"config.forgetmenot.desc.cloud_shadows": "Whether to allow clouds in front of the sun to make sunlight darker.",
+
+	"config.forgetmenot.category.lighting": "Lighting",
+
+	"config.forgetmenot.name.emission": "Emission Brightness",
+	"config.forgetmenot.desc.emission": "Brightness of emissive objects like glowstone. Doesn't affect the lighting itself.",
+
+	"config.forgetmenot.name.handheld_light": "Handheld Light",
+	"config.forgetmenot.desc.handheld_light": "Enables colored handheld light.",
+
+	"config.forgetmenot.name.blocklight_warmth": "Block Light Warmth",
+	"config.forgetmenot.desc.blocklight_warmth": "Controls how warm the block light color is.",
+
+	"config.forgetmenot.name.blocklight_brightness": "Block Light Brightness",
+	"config.forgetmenot.desc.blocklight_brightness": "Controls how bright the block light is.",
+
+	"config.forgetmenot.name.ambient_brightness": "Base Ambient Brightness",
+	"config.forgetmenot.desc.ambient_brightness": "How much ambient lighting is added everywhere, regardless of dimension, blocklight, or skylight.",
+
+	"config.forgetmenot.name.realistic_metals": "Realistic Metals",
+	"config.forgetmenot.desc.realistic_metals": "If enabled, metal reflections tint the incoming light color. Doesn't affect performance, but may look ugly in some situations.",
+
+	"config.forgetmenot.name.fullbright": "Full Brightness",
+	"config.forgetmenot.desc.fullbright": "Enables fullbright. Please do not enable this option in an unethical situation where it would give you an unfair advantage over other players.",
+
+	"config.forgetmenot.category.rtao": "RTAO",
+
+	"config.forgetmenot.name.rtao": "Raytraced Ambient Occlusion (RTAO)",
+	"config.forgetmenot.desc.rtao": "Enables slow, high-quality ambient occlusion.",
+
+	"config.forgetmenot.name.rtao_strength": "RTAO Strength",
+	"config.forgetmenot.desc.rtao_strength": "Strength of the RTAO: 1.0 for full strength, 0.0 for no strength.",
+
+	"config.forgetmenot.name.rtao_rays": "RTAO Ray Count",
+	"config.forgetmenot.desc.rtao_rays": "The number of rays to cast for RTAO. Huge impact on performance.",
+
+	"config.forgetmenot.name.rtao_ray_steps": "RTAO Ray Step Count",
+	"config.forgetmenot.desc.rtao_ray_steps": "The number of steps to use for each RTAO ray. Big impact on performance.",
+	
+	"config.forgetmenot.category.water": "Water",
+
+	"config.forgetmenot.name.realistic_water": "Realistic Water Waves",
+	"config.forgetmenot.desc.realistic_water": "If disabled, will use the default water texture for water waves. If enabled, will calculate smooth realistic waves.",
+
+	"config.forgetmenot.name.water_dirt_amount": "Water Dirt Amount",
+	"config.forgetmenot.desc.water_dirt_amount": "The amount of dirt in water. Used for water fog thickness.",
+
+	"config.forgetmenot.name.water_color_r": "Water Color - Red",
+	"config.forgetmenot.desc.water_color_r": "RED component in the water color.",
+
+	"config.forgetmenot.name.water_color_g": "Water Color - Green",
+	"config.forgetmenot.desc.water_color_g": "GREEN component in the water color.",
+
+	"config.forgetmenot.name.water_color_b": "Water Color - Blue",
+	"config.forgetmenot.desc.water_color_b": "BLUE component in the water color.",
+
+	"config.forgetmenot.category.camera": "Camera",
+
+	"config.forgetmenot.name.enable_bloom": "Enable Bloom",
+	"config.forgetmenot.desc.enable_bloom": "Allows bright colors to bleed into their surroundings.",
+
+	"config.forgetmenot.name.motion_blur": "Motion Blur",
+	"config.forgetmenot.desc.motion_blur": "Blurs the screen along the motion vector.",
+
+	"config.forgetmenot.name.aces_tonemap": "Use ACES Tonemap",
+	"config.forgetmenot.desc.aces_tonemap": "If enabled, uses a contrasty and realistic tone map. Otherwise, uses Lottes tone map, which is more vibrant and colorful.",
+
+	"config.forgetmenot.category.advanced_camera": "Advanced Camera",
+
+	"config.forgetmenot.name.enable_post_processing": "Enable Post Processing Pipeline",
+	"config.forgetmenot.desc.enable_post_processing": "Enables the post-processing pipeline. In order for the options below to work, this option must be enabled.",
+
+	"config.forgetmenot.name.purkinje_amount": "Purkinje Amount",
+	"config.forgetmenot.desc.purkinje_amount": "Amount for purkinje effect. Zero disables.",
+
+	"config.forgetmenot.name.purkinje_lift": "Purkinje Lift",
+	"config.forgetmenot.desc.purkinje_lift": "Applies a small lift to the grayscale color from the purkinje effect.",
+
+	"config.forgetmenot.name.saturation": "Saturation",
+	"config.forgetmenot.desc.saturation": "Amount of saturation in the image.",
+
+	"config.forgetmenot.name.contrast": "Contrast",
+	"config.forgetmenot.desc.contrast": "Amount of contrast in the image.",
+
+	"config.forgetmenot.name.vibrance": "Vibrance",
+	"config.forgetmenot.desc.vibrance": "Amount of vibrance in the image.",
+
+	"config.forgetmenot.name.lift_r": "Lift - Red",
+	"config.forgetmenot.desc.lift_r": "Amount of lift in this component of the image.",
+
+	"config.forgetmenot.name.lift_g": "Lift - Green",
+	"config.forgetmenot.desc.lift_g": "Amount of lift in this component of the image.",
+
+	"config.forgetmenot.name.lift_b": "Lift - Blue",
+	"config.forgetmenot.desc.lift_b": "Amount of lift in this component of the image.",
+
+	"config.forgetmenot.name.gamma_r": "Gamma - Red",
+	"config.forgetmenot.desc.gamma_r": "Amount of gamma in this component of the image.",
+
+	"config.forgetmenot.name.gamma_g": "Gamma - Green",
+	"config.forgetmenot.desc.gamma_g": "Amount of gamma in this component of the image.",
+
+	"config.forgetmenot.name.gamma_b": "Gamma - Blue",
+	"config.forgetmenot.desc.gamma_b": "Amount of gamma in this component of the image.",
+
+	"config.forgetmenot.name.gain_r": "Gain - Red",
+	"config.forgetmenot.desc.gain_r": "Amount of gain in this component of the image.",
+
+	"config.forgetmenot.name.gain_g": "Gain - Green",
+	"config.forgetmenot.desc.gain_g": "Amount of gain in this component of the image.",
+
+	"config.forgetmenot.name.gain_b": "Gain - Blue",
+	"config.forgetmenot.desc.gain_b": "Amount of gain in this component of the image.",
+
+	"config.forgetmenot.name.min_exposure_overworld": "Min Exposure - Overworld",
+	"config.forgetmenot.desc.min_exposure_overworld": "Minimum exposure in this dimension.",
+
+	"config.forgetmenot.name.max_exposure_overworld": "Max Exposure - Overworld",
+	"config.forgetmenot.desc.max_exposure_overworld": "Maximum exposure in this dimension.",
+
+	"config.forgetmenot.name.exposure_multiplier_overworld": "Exposure Multiplier - Overworld",
+	"config.forgetmenot.desc.exposure_multiplier_overworld": "The multiplier for exposure in this dimension.",
+
+	"config.forgetmenot.name.min_exposure_nether": "Min Exposure - Nether",
+	"config.forgetmenot.desc.min_exposure_nether": "Minimum exposure in this dimension.",
+
+	"config.forgetmenot.name.max_exposure_nether": "Max Exposure - Nether",
+	"config.forgetmenot.desc.max_exposure_nether": "Maximum exposure in this dimension.",
+
+	"config.forgetmenot.name.exposure_multiplier_nether": "Exposure Multiplier - Nether",
+	"config.forgetmenot.desc.exposure_multiplier_nether": "The multiplier for exposure in this dimension.",
+
+	"config.forgetmenot.name.min_exposure_end": "Min Exposure - End",
+	"config.forgetmenot.desc.min_exposure_end": "Minimum exposure in this dimension.",
+
+	"config.forgetmenot.name.max_exposure_end": "Max Exposure - End",
+	"config.forgetmenot.desc.max_exposure_end": "Maximum exposure in this dimension.",
+
+	"config.forgetmenot.name.exposure_multiplier_end": "Exposure Multiplier - End",
+	"config.forgetmenot.desc.exposure_multiplier_end": "The multiplier for exposure in this dimension.",
+
+	"config.forgetmenot.category.dimensions": "Dimensions",
+
+	"config.forgetmenot.name.nether_diffuse": "Nether Diffuse",
+	"config.forgetmenot.desc.nether_diffuse": "Shades the underside of blocks in the nether orange to simulate light from the lava oceans.",
+
+	"config.forgetmenot.name.end_mist_color_r": "End Mist Color - Red",
+	"config.forgetmenot.desc.end_mist_color_r": "RED component in the end mist color.",
+
+	"config.forgetmenot.name.end_mist_color_g": "End Mist Color - Green",
+	"config.forgetmenot.desc.end_mist_color_g": "GREEN component in the end mist color.",
+
+	"config.forgetmenot.name.end_mist_color_b": "End Mist Color - Blue",
+	"config.forgetmenot.desc.end_mist_color_b": "BLUE component in the end mist color.",
+
+	"config.forgetmenot.category.general": "General Settings",
+
+	"config.forgetmenot.name.taa": "Temporal Anti-aliasing (TAA)",
+	"config.forgetmenot.desc.taa": "Blends multiple frames to smartly remove most aliasing from the image.",
+	"config.forgetmenot.name.no_taa_jitter": "No TAA Jitter",
+	"config.forgetmenot.desc.no_taa_jitter": "If enabled, skips the jittering of the image every frame for TAA. Results in less flickering, but less effective antialiasing.",
+
+	"config.forgetmenot.name.shadow_resolution": "Shadow Resolution",
+	"config.forgetmenot.desc.shadow_resolution": "The rendering resolution of the shadow map. Greatly affects performance and quality.",
+	"config.forgetmenot.name.strict_shadow_bias": "Strict Shadow Bias",
+	"config.forgetmenot.desc.strict_shadow_bias": "Uses slightly more expensive calculations to use as little shadow bias as possible to ensure highest quality.",
+
+	"config.forgetmenot.category.seasons": "Seasons",
+
+	"config.forgetmenot.name.seasons": "Enable Seasons",
+	"config.forgetmenot.desc.seasons": "Enables the season cycle, where foliage is tinted and leaves fall according to the world time.",
+
+	"config.forgetmenot.name.season_length": "Season Length",
+	"config.forgetmenot.desc.season_length": "The length of each season.",
+
+	"config.forgetmenot.name.transition_length": "Season Transition Length",
+	"config.forgetmenot.desc.transition_length": "The length of the transition period between seasons.",
+
+	"config.forgetmenot.name.starting_season": "Starting Season",
+	"config.forgetmenot.desc.starting_season": "Controls the season that each world starts at.",
+
+	"config.forgetmenot.name.varied_tree_color": "Varied Tree Color",
+	"config.forgetmenot.desc.varied_tree_color": "Allows trees to be colored differently from foliage according to seasons",
+
+	"config.forgetmenot.name.falling_leaves": "Falling Leaves",
+	"config.forgetmenot.desc.falling_leaves": "Allows leaf blocks to thin during autumn and winter to simulate leaves falling from trees.",
+
+	"config.forgetmenot.category.misc": "Miscellaneous",
+
+	"config.forgetmenot.name.internal_materials": "Internal Materials",
+	"config.forgetmenot.desc.internal_materials": "Internal option used by material shaders to detect if Forget-me-not is active. Do not disable.",
+	
+	"config.forgetmenot.name.fancy_powder_snow": "Fancy Powder Snow",
+	"config.forgetmenot.desc.fancy_powder_snow": "Uses voxel ray tracing to render a fancy effect for powder snow instead of the traditional fog."
+}
