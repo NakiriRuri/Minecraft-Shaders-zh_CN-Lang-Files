@@ -4,6 +4,12 @@
 
 ![名片](https://raw.githubusercontent.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files/main/%E6%96%87%E6%A1%A3(DOCS)/README/README_1.png)
 
+<p align="center">
+  <a href="https://space.bilibili.com/286713864"><img src="https://img.shields.io/badge/主页-哔哩哔哩-blue" /></a>
+  <a href="https://www.bilibili.com/read/cv18509954"><img src="https://img.shields.io/badge/汉化-使用方法-purple" /></a>
+  <a href="https://www.bilibili.com/read/cv20173817"><img src="https://img.shields.io/badge/教程-汉化指南-red" /></a>
+</p>
+
 ## Introduction / 介绍
 - Minecraft Shaders Chinese Localization Collection
 - Minecraft 光影配置中文本地化文档合集
