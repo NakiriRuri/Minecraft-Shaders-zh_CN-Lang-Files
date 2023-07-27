@@ -1,4 +1,9 @@
-# Minecraft-Shaders-zh_CN-Lang-Files
+<h1 align = "center">Minecraft-Shaders-zh_CN-Lang-Files</h1>
+
+<p align = "center">Minecraft 光影汉化文件合集</p>
+
+![名片](https://raw.githubusercontent.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files/main/%E6%96%87%E6%A1%A3(DOCS)/README/README_1.png)
+
 ## Introduction / 介绍
 - Minecraft Shaders Chinese Localization Collection
 - Minecraft 光影配置中文本地化文档合集
