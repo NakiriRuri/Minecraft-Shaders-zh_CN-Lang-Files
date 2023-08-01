@@ -1,0 +1,375 @@
+#shaders/lang/en_US.lang
+
+option.DEBUG=Debug
+option.DEBUG_PROGRAM=Debug Program
+option.CRASH_DANGLING_SHOW=Crash Dangling Show()
+option.CRASH_DANGLING_SHOW.comment=Cause the shader to crash if there are any show() leftover in the code when Debug is turned off
+value.DEBUG_PROGRAM.-10=gbuffers_shadow
+value.DEBUG_PROGRAM.-1=gbuffers_opaque
+value.DEBUG_PROGRAM.0=deferred0
+value.DEBUG_PROGRAM.20=gbuffers_transparent
+value.DEBUG_PROGRAM.30=composite0
+value.DEBUG_PROGRAM.31=composite1
+value.DEBUG_PROGRAM.50=final
+
+option.DEBUG_PRESET=Debug Preset
+value.DEBUG_PRESET.NONE=None
+value.DEBUG_PRESET.VM_STEPS_BW=Ray steps
+value.DEBUG_PRESET.VM_STEPS_LOD=Ray steps + LOD
+value.DEBUG_PRESET.VM_DIFFUSE=VoxelMarch Diffuse
+
+option.DEBUG_BRIGHTNESS=Debug Brightness
+
+option.DRAW_DEBUG_VALUE=Draw Debug Value
+
+screen.General=Global Settings
+screen.Overworld=Overworld
+screen.Nether=Nether
+screen.End=End
+screen.Camera=Camera
+screen.Shading=Shading and PBR
+screen.Wavy_stuff=Wind
+screen.Water=Water
+screen.Reflections=Reflections
+screen.Sky = Sky
+screen.Sky_coefficients = Sky coefficients
+screen.Sun_and_Moon_Colors = Sun and Moon Colors
+screen.TAA_OPTIONS = Antialiasing options
+screen.DepthOfField=Depth of field
+screen.Purkinje_effect=Purkinje effect
+screen.PBR= Physically Based Rendering
+screen.Shadows=Shadows
+screen.Fog_Color=Fog color
+screen.Fog_Densities=Fog densities
+screen.SSPT=Global Illumination
+
+screen.Torch = Block lights
+screen.Atmospherics= Atmospherics
+screen.Volumetric_Clouds= Volumetric clouds
+screen.Wavy_stuff = Wind
+screen.Volumetric_Fog = Volumetric Fog
+screen.Advanced = Advanced
+screen.Lighting= Lighting
+screen.Ambient = Ambient
+screen.Filtering = Filtering
+screen.Tonemapping = Tonemapping
+
+screen.N_Atmospherics=Atmospherics
+screen.N_Lighting=Lighting
+screen.N_MISC=MISC
+
+screen.E_Atmospherics=Atmospherics
+screen.E_Lighting=Lighting
+screen.E_MISC=MISC
+
+#TONEMAPPING
+option.FinalR = Final Red
+option.FinalG = Final Green
+option.FinalB = Final Blue
+option.TONEMAP = Tone mapping
+
+
+Option.Credits=Credits 
+value.Credits.0=Edit by Espen
+value.Credits.1=Original by Chocapic13
+option.TOASTER= Turbo Button
+
+#Settings
+
+
+
+#TAA
+option.FLICKER_REDUCTION=Flicker reduction
+option.BLEND_FACTOR=Blend factor
+option.ANTI_GHOSTING=Anti ghosting
+option.MOTION_REJECTION=Motion rejection
+option.CLOSEST_VELOCITY=Closest velocity
+option.TAA_UPSCALING=TAA Upscaling
+option.RENDER_SCALE_X=Horizontal render scale
+option.RENDER_SCALE_Y=Vertical render scale
+
+
+#CAMERA
+option.AUTO_EXPOSURE=Auto exposure
+option.EXPOSURE_MULTIPLIER=Exposure multiplier
+option.Exposure_Speed=Exposure speed
+
+option.Manual_exposure_value= Manual exposure value
+option.BLOOM_STRENGTH=Bloom strength
+option.BLOOM_QUALITY=Bloom quality
+option.MOTION_BLUR=Motion blur
+option.MOTION_BLUR_STRENGTH=Motion blur strength
+option.CHROMATIC=Chromatic abberation
+option.VIGNETTE=Vignette
+option.GRAIN=Grain
+
+
+#TONEMAP
+option.USE_ACES_COLORSPACE_APPROXIMATION=Use ACES approximation
+
+#DOF
+
+option.DOF=Depth of field
+option.DOF_MODE=Focus mode
+option.DOF_MODE.comment=Focus mode of the camera. 'Auto' focuses on whatever the player is looking at. 'Manual' allows the player to set the distance the camera tries to focus at with Shader setting "Manual focus distance". 'Manual+' allows to use Brightness value as multiplier to "Manual focus distance".
+value.DOF_MODE.0=Auto
+value.DOF_MODE.1=Manual
+value.DOF_MODE.2=Manual+
+option.BOKEH_MODE=Bokeh mode
+option.BOKEH_MODE.comment=Switches which Bokeh will show on DOF (probably needs better explanation)
+value.BOKEH_MODE.0=Standard
+value.BOKEH_MODE.1=Hexagonal
+value.BOKEH_MODE.2=High Quality
+value.BOKEH_MODE.3=Paint/Brush
+option.focal=Focal length
+suffix.focal=mm
+option.aperture=Aperture
+prefix.aperture=f/
+option.MANUAL_FOCUS=Manual focus distance
+suffix.MANUAL_FOCUS= m
+option.EXCLUDE_MODE=Blur Mode
+value.EXCLUDE_MODE.0=Far and Near, with Hand
+value.EXCLUDE_MODE.1=Far, without Near and Hand
+value.EXCLUDE_MODE.2=Far and Near, without Hand
+#PURKINJE
+
+option.Purkinje_strength=Strength
+option.Purkinje_Multiplier=Brightness multiplier
+
+#SHADING
+
+option.DISABLE_ALPHA_MIPMAPS=Disable alpha mipmaps
+option.BICUBIC_UPSCALING=Bicubic upscaling
+option.SSPT=Screen space path tracing
+option.RT_FILTER=Extra filtering
+option.MAX_RAYLENGTH=Max raylength
+option.GI=Reflective ShadowMaps
+option.RAYS=SSPT rays
+option.CONTRAST_ADAPTATIVE_SHARPENING=Contrast adaptive shapen
+option.SHARPENING=Strength
+option.SSPT_MODE=SSPT Mode
+value.SSPT_MODE.0=Just AO (RTAO)
+value.SSPT_MODE.1=Full GI (SSPT)
+
+#SHADOWS
+
+option.SCREENSPACE_CONTACT_SHADOWS=Contact shadows
+option.shadowMapResolution=Shadow resolution
+option.CLOUDS_SHADOWS=Cloud shadows
+option.CLOUDS_SHADOWS_STRENGTH= Cloud shadow strength
+option.shadowDistance= Shadow distance
+option.SHADOW_FRUSTRUM_CULLING= Frustrum culling
+option.CAVE_LIGHT_LEAK_FIX=Cave fix
+option.SSAO=SSAO
+option.SSAO_STRENGTH=SSAO power
+option.SSAO_SAMPLES=SSAO samples
+option.SHADOW_DISABLE_ALPHA_MIPMAPS=Disable shadow mipmap
+option.Stochastic_Transparent_Shadows=Transparent shadows
+
+#FILTERING
+
+#PBR
+option.POM_DEPTH=Parallax Depth
+option.POM2=Parallax Occlusion
+option.PBR=Physically Based Rendering
+option.SPEC_SCREENSPACE_REFLECTIONS= Reflections
+option.EMISSIVES= LabPBR Emissives
+
+
+option.POM_MAP_RES=POM resolution
+option.MAX_ITERATIONS=Iterations
+option.MAX_DIST=Distance
+option.USE_LUMINANCE_AS_HEIGHTMAP=Procedual POM
+option.BUMP_MULT=Normal depth
+
+#WAVING
+option.WAVY_STRENGTH=Strength
+option.WAVY_SPEED=Speed
+option.WAVY_PLANTS=Wavy plants
+
+#REFLECTIONS
+
+option.SCREENSPACE_REFLECTIONS=Reflections
+option.SSR_STEPS=Quality
+option.SUN_MICROFACET_SPECULAR=Realistic sun reflection
+
+#WATER
+
+option.Dirt_Amount=Dirt amount
+option.Dirt_Mie_Phase=Dirt mie phase
+option.rayMarchSampleCount=Fog quality
+option.Water_Top_Layer=Water height
+option.lightMapDepthEstimation=Alternate depth estimation
+option.Dirt_Scatter_R = Dirt scattering Red
+option.Dirt_Scatter_G = Dirt scattering Blue
+option.Dirt_Scatter_B = Dirt scattering Greem
+option.Dirt_Absorb_R = Dirt absorbtion Red
+option.Dirt_Absorb_G = Dirt absorbtion Green
+option.Dirt_Absorb_B = Dirt absorbtion Blue 
+option.Water_Absorb_R = Water absorption Red
+option.Water_Absorb_G = Water absorption Green
+option.Water_Absorb_B = Water absorption Blue
+option.water_blend = Biome color blend
+
+#OVERWORLD
+
+#Atmospherics
+option.SEA_LEVEL=Sea level
+option.VL_SAMPLES=Fog samples
+option.CLOUDS_QUALITY=Cloud quality
+option.CLOUDS_SPEED=Cloud speed
+option.VOLUMETRIC_CLOUDS=Clouds
+option.BLOOMY_FOG=Bloom fog
+option.VOLUMETRIC_FOG=Fog
+option.VL_RENDER_RESOLUTION=Fog resolution
+
+#Clouds
+option.cloud_LevelOfDetail=LOD
+option.cloud_ShadowLevelOfDetail=Shadow LOD
+option.cloud_ShadowLevelOfDetailLQ= Low Quality Shadow LOD
+option.cloud_LevelOfDetailLQ= Low Quality LOD
+option.maxRayMarchSteps=Max Ray steps
+option.minRayMarchSteps=Min Ray steps
+option.maxRayMarchStepsLQ=Max Low Quality Ray steps
+option.minRayMarchStepsLQ=Max Low Quality Ray steps
+option.cloudCoverage=Cloud coverage
+option.cloudDemsity=Cloud density
+option.fbmAmount=Noise amount
+option.fbmPower1=High Frequency detail 1
+option.fbmPower2=High Frequency detail 2
+
+
+
+#FOGCOLOR 
+option.fog_mieg1 = Fog Mieg 1 
+option.fog_mieg2 = Fog Mieg 2
+option.fog_coefficientRayleighR = Fog coefficient rayleigh Red
+option.fog_coefficientRayleighG = Fog coefficient rayleigh Green
+option.fog_coefficientRayleighB = Fog coefficient rayleigh Blue
+option.fog_coefficientMieR = Fog coefficient Mie Red
+option.fog_coefficientMieG = Fog coefficient Mie Green
+option.fog_coefficientMieB = Fog coefficient Mie Blue
+#FOGDENSITIES 
+
+option.FOG_RAIN_MULTIPLIER= Rain fog multiplier
+option.FOG_TOD_MULTIPLIER=Time of day multiplier
+option.CLOUDY_FOG_AMOUNT=Cloudy fog 
+option.BASE_FOG_AMOUNT=Base fog amount
+option.ATMOSPHERIC_DENSITY=Atmospheric density 
+option.Underwater_Fog_Density= Underwater fog density
+
+#Lighting
+
+#Torch
+option.TORCH_R = Block Light Red
+option.TORCH_G = Block Light Green
+option.TORCH_B = Block Light Blue
+option.TORCH_AMOUNT= Block Light Strength
+
+#Ambient
+
+option.MIN_LIGHT_AMOUNT=Minimum ambient light
+option.SEPARATE_AO=Separate Vanilla AO
+option.ambientOcclusionLevel=Vanilla AO strength
+option.Ambient_Mult=Ambient Brightness multiplier
+
+
+#SKY
+
+option.sunPathRotation = Sun Path Rotation
+option.Sky_Brightness = Sky Brightness
+option.sky_mieg = Sky Mieg
+option.sky_coefficientRayleighR = Sky coefficient rayleigh Red
+option.sky_coefficientRayleighG = Sky coefficient rayleigh Green
+option.sky_coefficientRayleighB = Sky coefficient rayleigh Blue
+option.sky_coefficientMieR = Sky coefficient Mie Red
+option.sky_coefficientMieG = Sky coefficient Mie Green
+option.sky_coefficientMieB = Sky coefficient Mie Blue
+option.sunColorR = Sun Color Red
+option.sunColorG = Sun Color Green
+option.sunColorB = Sun Color Blue
+option.sun_illuminance = Sun Illuminance
+option.moonColorR = Moon Color Red
+option.moonColorG = Moon Color Green
+option.moonColorB = Moon Color Blue
+option.moon_illuminance = Moon Illuminance
+
+
+#NETHER
+
+
+#Atmospherics
+
+option.N_VL_SAMPLES=Fog samples
+option.N_BLOOMY_FOG=Bloom fog
+
+
+#Lighting
+
+#Torch
+option.N_TORCH_R = Block Light Red
+option.N_TORCH_G = Block Light Green
+option.N_TORCH_B = Block Light Blue
+option.N_TORCH_AMOUNT= Block Light Strength
+
+
+#Ambient
+
+option.N_MIN_LIGHT_AMOUNT=Minimum ambient light
+option.N_SEPARATE_AO=Separate Vanilla AO
+option.N_ambientOcclusionLevel=Vanilla AO strength
+option.N_Ambient_Mult=Ambient brightness multiplier
+
+#Misc
+
+option.N_SATURATION=Saturation
+option.N_CROSSTALK=Crosstalk
+
+
+#END
+
+
+#Atmospherics
+
+option.E_VL_SAMPLES=Fog samples
+option.E_BLOOMY_FOG=Bloom fog
+
+
+#Lighting
+
+#Torch
+option.E_TORCH_R = Block Light Red
+option.E_TORCH_G = Block Light Green
+option.E_TORCH_B = Block Light Blue
+option.E_TORCH_AMOUNT= Block Light Strength
+
+
+#Ambient
+
+option.E_MIE_LIGHT_AMOUNT=Minimum ambient light
+option.E_SEPARATE_AO=Separate Vanilla AO
+option.E_ambientOcclusionLevel=Vanilla AO strength
+option.E_Ambient_Mult=Ambient brightness multiplier
+
+#Misc
+
+option.E_SATURATION=Saturation
+option.E_CROSSTALK=Crosstalk
+
+
+
+
+
+option.Performance_Impact_Key=Color Key
+    value.Performance_Impact_Key.0=NOT DONE
+    value.Performance_Impact_Key.1=§dVery Fast
+    value.Performance_Impact_Key.2=§2Fast
+    value.Performance_Impact_Key.3=§6Moderately Fast
+    value.Performance_Impact_Key.4=§cModerately Slow
+    value.Performance_Impact_Key.5=§4Slow
+
+
+
+	
+
+

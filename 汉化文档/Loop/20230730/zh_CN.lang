@@ -1,0 +1,486 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Loop 2023年7月30号 commit: da134c697b2fcdd63137839bed3478174b4d5ee6 。
+#shaders/lang/zh_CN.lang
+
+option.DEBUG=调试
+option.DEBUG_PROGRAM=调试程序
+option.CRASH_DANGLING_SHOW=Crash Dangling Show()
+option.CRASH_DANGLING_SHOW.comment=Cause the shader to crash if there are any show() leftover in the code when Debug is turned off
+value.DEBUG_PROGRAM.-10=gbuffers_shadow
+value.DEBUG_PROGRAM.-1=gbuffers_opaque
+value.DEBUG_PROGRAM.0=deferred0
+value.DEBUG_PROGRAM.20=gbuffers_transparent
+value.DEBUG_PROGRAM.30=composite0
+value.DEBUG_PROGRAM.31=composite1
+value.DEBUG_PROGRAM.50=final
+
+option.DEBUG_PRESET=调试预设
+value.DEBUG_PRESET.NONE=无
+value.DEBUG_PRESET.VM_STEPS_BW=追踪步数
+value.DEBUG_PRESET.VM_STEPS_LOD=追踪步数 + 细节水平
+value.DEBUG_PRESET.VM_DIFFUSE=体素行进漫反射
+
+option.DEBUG_BRIGHTNESS=亮度调试
+
+option.DRAW_DEBUG_VALUE=绘制调试参数
+
+screen.General=全局设置
+screen.Overworld=主世界
+screen.Nether=下界
+screen.End=末地
+screen.Camera=镜头
+screen.Shading=阴影和 PBR
+screen.Wavy_stuff=风效应
+screen.Water=水体
+screen.Reflections=反射
+screen.Sky = 天空
+screen.Sky_coefficients = 天空系数
+screen.Sun_and_Moon_Colors = 日月颜色
+screen.TAA_OPTIONS = 抗锯齿选项
+screen.DepthOfField=景深
+screen.Purkinje_effect=柏金赫效应
+screen.PBR= 基于物理的渲染 (PBR)
+screen.Shadows=阴影
+screen.Fog_Color=雾气颜色
+screen.Fog_Densities=雾气密度
+screen.SSPT=全局照明
+
+screen.Torch = 方块光
+screen.Atmospherics= 大气
+screen.Volumetric_Clouds= 体积云
+screen.Wavy_stuff = 风效应
+screen.Volumetric_Fog = 体积雾
+screen.Advanced = 高级
+screen.Lighting= 照明
+screen.Ambient = 环境光
+screen.Filtering = 阴影过滤
+screen.Tonemapping = 色调映射
+
+screen.N_Atmospherics=大气
+screen.N_Lighting=照明
+screen.N_MISC=杂项
+
+screen.E_Atmospherics=大气
+screen.E_Lighting=照明
+screen.E_MISC=杂项
+
+#TONEMAPPING
+option.FinalR = 最终图像 - 红色偏移
+option.FinalG = 最终图像 - 绿色偏移
+option.FinalB = 最终图像 - 蓝色偏移
+option.TONEMAP = 色调映射
+
+
+Option.Credits=致谢
+value.Credits.0=Edit by Espen
+value.Credits.1=Original by Chocapic13
+option.TOASTER= Turbo Button
+
+#Settings
+
+
+
+#TAA
+option.FLICKER_REDUCTION=闪烁抑制
+option.BLEND_FACTOR=混合比例
+option.ANTI_GHOSTING=防拖影
+option.MOTION_REJECTION=运动抑制
+option.CLOSEST_VELOCITY=最近速率[Closest Velocity]
+option.TAA_UPSCALING=TAA 升采样
+option.RENDER_SCALE_X=水平渲染倍率
+option.RENDER_SCALE_Y=垂直渲染倍率
+
+
+#CAMERA
+option.AUTO_EXPOSURE=自动曝光
+option.EXPOSURE_MULTIPLIER=曝光倍率
+option.Exposure_Speed=曝光速度
+
+option.Manual_exposure_value= 手动曝光值
+option.BLOOM_STRENGTH=泛光强度
+option.BLOOM_QUALITY=泛光质量
+option.MOTION_BLUR=运动模糊
+option.MOTION_BLUR_STRENGTH=运动模糊强度
+option.CHROMATIC=色度偏差
+option.VIGNETTE=暗角
+option.GRAIN=增益
+
+
+#TONEMAP
+option.USE_ACES_COLORSPACE_APPROXIMATION=启用 ACES 近似
+
+#DOF
+
+option.DOF=景深
+option.DOF_MODE=对焦模式
+option.DOF_MODE.comment=镜头对焦模式. '自动' 对焦在玩家指向处. '手动' 允许玩家通过光影设置 "手动对焦距离" 设置对焦距离. '手动+' 允许玩家使用视频设置中的亮度滑块来手动设置对焦距离.
+value.DOF_MODE.0=自动
+value.DOF_MODE.1=手动
+value.DOF_MODE.2=手动+
+option.BOKEH_MODE=虚化模式
+option.BOKEH_MODE.comment=切换景深时虚化的样式 (也许需要更好的解释)
+value.BOKEH_MODE.0=标准
+value.BOKEH_MODE.1=六边形
+value.BOKEH_MODE.2=高质量
+value.BOKEH_MODE.3=油漆/笔刷
+option.focal=焦距
+suffix.focal=mm
+option.aperture=光圈
+prefix.aperture=f/
+option.MANUAL_FOCUS=手动对焦距离
+suffix.MANUAL_FOCUS= m
+option.EXCLUDE_MODE=模糊模式
+value.EXCLUDE_MODE.0=远近, 包括手臂
+value.EXCLUDE_MODE.1=仅远处, 不包括近处和手臂
+value.EXCLUDE_MODE.2=远近, 不包括手臂
+#PURKINJE
+
+option.Purkinje_strength=强度
+option.Purkinje_Multiplier=亮度倍率
+
+#SHADING
+
+option.DISABLE_ALPHA_MIPMAPS=禁用半透明方块 mipmap
+option.BICUBIC_UPSCALING=双立方插值升采样
+option.SSPT=屏幕空间路径追踪 (SSPT)
+option.RT_FILTER=额外过滤
+option.MAX_RAYLENGTH=最大追踪距离
+option.GI=反射阴影图
+option.RAYS=SSPT 光路数
+option.CONTRAST_ADAPTATIVE_SHARPENING=对比度自适应锐化
+option.SHARPENING=锐化强度
+option.SSPT_MODE=SSPT 模式
+value.SSPT_MODE.0=仅环境光遮蔽 (RTAO)
+value.SSPT_MODE.1=全局照明 (SSPT)
+
+#SHADOWS
+
+option.SCREENSPACE_CONTACT_SHADOWS=接触阴影
+option.shadowMapResolution=阴影分辨率
+option.CLOUDS_SHADOWS=云影
+option.CLOUDS_SHADOWS_STRENGTH= 云影强度
+option.shadowDistance= 阴影距离
+option.SHADOW_FRUSTRUM_CULLING= 阴影视锥剔除
+option.CAVE_LIGHT_LEAK_FIX=洞穴漏光修复
+option.SSAO=屏幕空间环境光遮蔽 (SSAO)
+option.SSAO_STRENGTH=SSAO 强度
+option.SSAO_SAMPLES=SSAO 采样值
+option.SHADOW_DISABLE_ALPHA_MIPMAPS=阴影图禁用半透明方块 mipmap
+option.Stochastic_Transparent_Shadows=半透明阴影
+
+#FILTERING
+
+#PBR
+option.POM_DEPTH=视差深度
+option.POM2=视差遮蔽
+option.PBR=基于物理的渲染 (PBR)
+option.SPEC_SCREENSPACE_REFLECTIONS= 高光反射
+option.EMISSIVES= LabPBR 发光
+
+
+option.POM_MAP_RES=视差分辨率
+option.MAX_ITERATIONS=最大迭代数
+option.MAX_DIST=最大距离
+option.USE_LUMINANCE_AS_HEIGHTMAP=自动 POM 算法
+option.BUMP_MULT=法线深度
+
+#WAVING
+option.WAVY_STRENGTH=摇摆强度
+option.WAVY_SPEED=摇摆速度
+option.WAVY_PLANTS=摇摆植物
+
+#REFLECTIONS
+
+option.SCREENSPACE_REFLECTIONS=屏幕空间反射 (SSR)
+option.SSR_STEPS=SSR 质量
+option.SUN_MICROFACET_SPECULAR=拟真太阳反射
+
+#WATER
+
+option.Dirt_Amount=水体浑浊程度
+option.Dirt_Mie_Phase=污物米氏分布
+option.rayMarchSampleCount=雾气质量
+option.Water_Top_Layer=水面高度
+option.lightMapDepthEstimation=备选深度估算
+option.Dirt_Scatter_R = 污物红色扩散
+option.Dirt_Scatter_G = 污物绿色扩散
+option.Dirt_Scatter_B = 污物蓝色扩散
+option.Dirt_Absorb_R = 污物红色吸收
+option.Dirt_Absorb_G = 污物绿色吸收
+option.Dirt_Absorb_B = 污物蓝色吸收
+option.Water_Absorb_R = 水体红色吸收
+option.Water_Absorb_G = 水体绿色吸收
+option.Water_Absorb_B = 水体蓝色吸收
+option.water_blend = 群系颜色混合
+
+#OVERWORLD
+
+#Atmospherics
+option.SEA_LEVEL=海平面
+option.VL_SAMPLES=雾气采样值
+option.CLOUDS_QUALITY=云层质量
+option.CLOUDS_SPEED=云层速度
+option.VOLUMETRIC_CLOUDS=体积云
+option.BLOOMY_FOG=泛光雾
+option.VOLUMETRIC_FOG=体积雾
+option.VL_RENDER_RESOLUTION=雾气分辨率
+
+#Clouds
+option.cloud_LevelOfDetail=云层渲染细节水平
+option.cloud_ShadowLevelOfDetail=阴影渲染细节水平
+option.cloud_ShadowLevelOfDetailLQ= 低质量阴影渲染细节水平
+option.cloud_LevelOfDetailLQ= 低质量云层渲染细节水平
+option.maxRayMarchSteps=最大追踪步数
+option.minRayMarchSteps=最小追踪步数
+option.maxRayMarchStepsLQ=低质量最大追踪步数
+option.minRayMarchStepsLQ=低质量最小追踪步数
+option.cloudCoverage=云层覆盖率
+option.cloudDemsity=云层密度
+option.fbmAmount=噪声密度
+option.fbmPower1=高频细节 1
+option.fbmPower2=高频细节 2
+
+
+
+#FOGCOLOR 
+option.fog_mieg1 = 雾气米氏系数 g 值 1 
+option.fog_mieg2 = 雾气米氏系数 g 值 2
+option.fog_coefficientRayleighR = 雾气瑞利系数 - 红色
+option.fog_coefficientRayleighG = 雾气瑞利系数 - 绿色
+option.fog_coefficientRayleighB = 雾气瑞利系数 - 蓝色
+option.fog_coefficientMieR = 雾气米氏系数 - 红色
+option.fog_coefficientMieG = 雾气米氏系数 - 绿色
+option.fog_coefficientMieB = 雾气米氏系数 - 蓝色
+#FOGDENSITIES 
+
+option.FOG_RAIN_MULTIPLIER= 雨雾倍率
+option.FOG_TOD_MULTIPLIER=全天雾气倍率
+option.CLOUDY_FOG_AMOUNT=云雾
+option.BASE_FOG_AMOUNT=基本雾气强度
+option.ATMOSPHERIC_DENSITY=大气密度
+option.Underwater_Fog_Density= 水雾密度
+
+#Lighting
+
+#Torch
+option.TORCH_R = 方块光颜色 - 红色
+option.TORCH_G = 方块光颜色 - 绿色
+option.TORCH_B = 方块光颜色 - 蓝色
+option.TORCH_AMOUNT= 方块光颜色 - 强度
+
+#Ambient
+
+option.MIN_LIGHT_AMOUNT=最小环境光水平
+option.SEPARATE_AO=分离原版环境光遮蔽
+option.ambientOcclusionLevel=原版环境光遮蔽强度
+option.Ambient_Mult=环境光亮度倍率
+
+
+#SKY
+
+option.sunPathRotation = 太阳角度
+option.Sky_Brightness = 天空亮度
+option.sky_mieg = 天空米氏系数 g 值
+option.sky_coefficientRayleighR = 天空瑞利系数 - 红色
+option.sky_coefficientRayleighG = 天空瑞利系数 - 绿色
+option.sky_coefficientRayleighB = 天空瑞利系数 - 蓝色
+option.sky_coefficientMieR = 天空米氏系数 - 红色
+option.sky_coefficientMieG = 天空米氏系数 - 绿色
+option.sky_coefficientMieB = 天空米氏系数 - 蓝色
+option.sunColorR = 太阳颜色 - 红色
+option.sunColorG = 太阳颜色 - 绿色
+option.sunColorB = 太阳颜色 - 蓝色
+option.sun_illuminance = 太阳照度
+option.moonColorR = 月亮颜色 - 红色
+option.moonColorG = 月亮颜色 - 绿色
+option.moonColorB = 月亮颜色 - 蓝色
+option.moon_illuminance = 月亮照度
+
+
+#NETHER
+
+
+#Atmospherics
+
+option.N_VL_SAMPLES=雾气采样值
+option.N_BLOOMY_FOG=泛光雾
+
+
+#Lighting
+
+#Torch
+option.N_TORCH_R = 方块光颜色 - 红色
+option.N_TORCH_G = 方块光颜色 - 绿色
+option.N_TORCH_B = 方块光颜色 - 蓝色
+option.N_TORCH_AMOUNT= 方块光 - 强度
+
+
+#Ambient
+
+option.N_MIN_LIGHT_AMOUNT=最小环境光水平
+option.N_SEPARATE_AO=分离原版环境光遮蔽
+option.N_ambientOcclusionLevel=原版环境光遮蔽强度
+option.N_Ambient_Mult=环境光亮度倍率
+
+#Misc
+
+option.N_SATURATION=饱和度
+option.N_CROSSTALK=去饱和度
+
+
+#END
+
+
+#Atmospherics
+
+option.E_VL_SAMPLES=雾气采样值
+option.E_BLOOMY_FOG=泛光雾
+
+
+#Lighting
+
+#Torch
+option.E_TORCH_R = 方块光颜色 - 红色
+option.E_TORCH_G = 方块光颜色 - 绿色
+option.E_TORCH_B = 方块光颜色 - 蓝色
+option.E_TORCH_AMOUNT= 方块光 - 强度
+
+
+#Ambient
+
+option.E_MIE_LIGHT_AMOUNT=最小环境光水平
+option.E_SEPARATE_AO=分离原版环境光遮蔽
+option.E_ambientOcclusionLevel=原版环境光遮蔽强度
+option.E_Ambient_Mult=环境光亮度倍率
+
+#Misc
+
+option.E_SATURATION=饱和度
+option.E_CROSSTALK=去饱和度
+
+
+
+
+
+option.Performance_Impact_Key=颜色键值
+    value.Performance_Impact_Key.0=未完成
+    value.Performance_Impact_Key.1=§d非常快
+    value.Performance_Impact_Key.2=§2快
+    value.Performance_Impact_Key.3=§6一般快
+    value.Performance_Impact_Key.4=§c一般慢
+    value.Performance_Impact_Key.5=§4慢
+
+
+
+	
+
+
+
+#额外汉化接口
+
+profile.Normal=正常
+profile.Lite=轻量
+profile.SSPT=屏幕空间路径追踪
+
+
+#Atmosphere
+screen.Atmosphere=大气
+
+    screen.Clouds=云层
+    option.VL_Clouds_Shadows=体积云影
+
+    screen.Cloud_Quality=云层质量
+
+    screen.Cloud_Shape=云层形态
+        option.cloudDensity=云层密度
+
+        option.cloudMieG=云层米氏散射 G 值
+        option.cloudMieG2=云层米氏散射第二 G 值
+        option.cloudMie2Multiplier=云层多重散射近似值倍率
+
+    screen.Cloud_Shadow=云影
+
+    screen.Fog=雾气
+
+
+#Lighting
+    option.SHADOWS_ON=阴影
+
+            option.Variable_Penumbra_Shadows=可变半阴影(VPS)
+            option.VPS_Search_Samples=可变半阴影(VPS)的检索采样数
+            option.Min_Shadow_Filter_Radius=最小阴影过滤半径
+            option.Max_Shadow_Filter_Radius=最大阴影过滤半径
+            option.Max_Filter_Depth=最大过滤深度
+            option.SHADOW_FILTER_SAMPLE_COUNT=阴影过滤采样数
+
+        option.shadowDistanceRenderMul=阴影距离渲染倍数
+
+            option.Emissive_Strength=发光强度
+
+    screen.SSGI=屏幕空间全局照明 (SSGI)
+        option.SSGI=SSGI
+        option.RAY_COUNT=追踪光路数
+        option.STEPS=采样步数
+        option.STEP_LENGTH=步长
+        option.SSPTMIX1=SSPT 混合
+        option.ssptfilter=SSPT 过滤
+
+        option.ssgi_staturation=SSGI 饱和
+        option.SSPTBIAS=SSPT 偏差
+        option.HQ=高质量
+        option.SSPTambient=SSPT 环境光
+        option.FILTER_STEPS=过滤步数
+
+
+#Terrain
+screen.Terrain=地表
+    option.SPEC=高光反射
+    option.POM=视差
+    option.LABSSS=LabPBR 次表面散射
+
+    screen.Specular=高光
+        option.SPECSTRENGTH=高光强度
+        option.SPEC_SSR_QUALITY=屏幕空间反射高光质量
+
+    screen.POM=视差
+        option.Depth_Write_POM=深度写入视差
+        option.AutoGeneratePOMTextures=自动生成视差纹理
+
+
+#Water
+    option.USE_QUARTER_RES_DEPTH=25% 分辨率深度缓冲
+
+
+#Camera
+    screen.Exposure=曝光
+
+        option.DoF_Adaptation_Speed=景深虚化适应速度
+
+    option.motionblur=运动模糊
+
+
+#PostProcessing
+screen.PostProcessing=后期处理
+
+        option.TAA=时间性抗锯齿 (TAA)
+        option.NO_CLIP=无防拖影模式
+
+        option.TAA_DS=动态 TAA 升采样
+        option.RENDER_SCALE_X=X 轴渲染分辨率倍率
+        option.RENDER_SCALE_Y=Y 轴渲染分辨率倍率
+
+    screen.Bloom=泛光
+
+        option.SATURATION=饱和度
+        option.CROSSTALK=去饱和度
+
+        option.Purkinje_R=柏金赫 - 红色程度
+        option.Purkinje_G=柏金赫 - 绿色程度
+        option.Purkinje_B=柏金赫 - 蓝色程度
+
+
+#Debug
+screen.Debug=调试
+
+    screen.misc=杂项
