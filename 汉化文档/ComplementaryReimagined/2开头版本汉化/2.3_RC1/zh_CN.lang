@@ -516,7 +516,7 @@ value.SHOW_LIGHT_LEVEL.2=手持光源时
 value.SHOW_LIGHT_LEVEL.3=保持开启
 
 option.COLOR_CODED_PROGRAMS=颜色编码程序 §c[-]§r
-option.COLOR_CODED_PROGRAMS.comment=显示用于渲染几何的着色器程序. §c[-]§r 本选项仅用于开发目的而不适用于日常游玩. §e[*]§r 颜色数值可以在该路径下找到: shaders\lib\misc\colorCodedPrograms.glsl
+option.COLOR_CODED_PROGRAMS.comment=显示用于渲染几何的着色器程序. §c[-]§r 本选项仅用于开发目的而不适用于日常游玩. §e[*]§r 颜色数值可以在该路径下找到: shaders/lib/misc/colorCodedPrograms.glsl
 
 option.MINIMUM_LIGHT_MODE=洞穴照明
 option.MINIMUM_LIGHT_MODE.comment=为没有天空光的区域额外提升亮度. §a[+]§r 默认 选项根据视频设置中的 亮度 滑块决定洞穴等封闭区域内的照明.
@@ -563,7 +563,7 @@ option.GLOWING_ORE_NETHERGOLD=下界金矿发光
 option.GLOWING_ORE_GILDEDBLACKSTONE=镶金黑石发光
 option.GLOWING_ORE_ANCIENTDEBRIS=远古残骸发光
 option.GLOWING_ORE_MODDED=模组矿石发光 §e[*]§r
-option.GLOWING_ORE_MODDED.comment=§e[*]§r 可以手动添加模组的矿石方块的 ID 到 "Complementary\shaders\block.properties" 这个文件中来使它们发光. 可以使用任意文本编辑器 (例如: notepad) 来打开 block.properties 文件, 然后在 "block.10024=" 下面添加模组矿石方块的 ID .
+option.GLOWING_ORE_MODDED.comment=§e[*]§r 可以手动添加模组的矿石方块的 ID 到 "ComplementaryReimagined/shaders/block.properties" 这个文件中来使它们发光. 可以使用任意文本编辑器 (例如: notepad) 来打开 block.properties 文件, 然后在 "block.10024=" 下面添加模组矿石方块的 ID .
 
 option.GLOWING_AMETHYST=紫水晶发光
 value.GLOWING_AMETHYST.0=§c关
