@@ -1,0 +1,384 @@
+#shaders/lang/zh_CN.lang
+#本汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档对应 Sildur's+Vibrant+Shaders+v1.51 版本。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+
+# Change effect names using a language file
+# How to change names and comments:
+# option.EffectName=New effect name
+# option.EffectName.comment=Your comment.
+#
+# Change screen names through language instead of properties
+# How to change screen names and give them comments:
+# screen.ScreenName=New screen name
+# screen.ScreenName.comment=Your comment
+#
+# Tooltip lines ending with "!" are automatically shown red.
+# example: option.SHADOW_FILTER.comment=Smooth out shadows. Very small performance hit!.
+
+
+#composite.fsh
+option.TAA_sharpness=TAA锐化
+value.TAA_sharpness.0.0=关闭
+
+option.HandLight=手持光源
+option.HandLight.comment=手持光源开关.
+
+option.light_brightness=照明亮度
+option.light_brightness.comment=本选项也应该在你调整照明颜色后进行调整.
+
+option.r_multiplier=红色比重
+option.g_multiplier=绿色比重
+option.b_multiplier=蓝色比重
+option.eyeLight=眼球适应性光源感知
+option.eyeLight.comment=调整对光线的适应量,调整本选项会整体影响照明亮度, 泛光也会自适应变化.
+
+option.sunPathRotation=日月斜角
+option.sunPathRotation.comment=调整太阳和月亮的角度.
+value.sunPathRotation.0.0f=默认(0°)
+value.sunPathRotation.-40.0f=替选方案(40°)
+
+option.EmissiveLightStrength=光源强度
+option.EmissiveLightStrength.comment=调整来自发光方块的照明亮度,例如火把.
+
+option.Sunlightamount=太阳光强度
+option.Sunlightamount.comment=10,50,200
+
+option.ColoredShadows=阴影着色
+option.ColoredShadows.comment=阴影着色开关. 通过彩色玻璃后阴影会发生相应的色调变化,可能会产生一些奇怪的视觉效果.
+
+option.grass_shadows=草影
+option.grass_shadows.comment=草的阴影投射开关, 同样会影响到高草丛和其他花类植物.
+
+option.Penumbra=可变半阴影
+option.Penumbra.comment=阴影过滤. 阴影距离它的投射源越远,阴影将变得越柔和. 本选项在AMD和Inter的显卡上无效.
+
+option.shadow_samples=阴影过滤采样值
+option.shadow_samples.comment=调整阴影过滤的质量. 如果在开启可变半阴影后遇到问题可以提升本选项的数值.
+
+option.Farshadowplane=阴影图远平面质量
+option.Farshadowplane.comment=这是阴影图的远平面. 较高的值会降低近处阴影质量,通过拉伸阴影图来提高性能和阴影渲染距离. 如果出现黑点,则增加阴影近平面质量.
+
+option.Nearshadowplane=阴影图近平面质量
+option.Nearshadowplane.comment=T这是阴影图的远平面. 较低的值会提高阴影质量,通过压缩阴影图来减小性能和阴影渲染距离. 你需要在提高阴影远平面质量后同时提高本选项质量,否则请保持默认.
+
+option.raytracedShadows=追踪阴影
+option.raytracedShadows.comment=提升近处和远处的阴影质量. 同时允许阴影投射到阴影图覆盖区域之外的地方,超出你的阴影渲染距离. 需要启用阴影选项. 因为是基于屏幕空间追踪阴影,所以可能会有一些视觉错误.
+
+option.shadowMapResolution=阴影分辨率
+option.shadowMapResolution.comment=调整阴影分辨率. 通过减少阴影渲染距离和调低阴影分辨率来提高阴影质量和减少闪烁.
+value.shadowMapResolution.256=最低(256)
+value.shadowMapResolution.512=非常低(512)
+value.shadowMapResolution.1024=低(1024)
+value.shadowMapResolution.2048=中(2048)
+value.shadowMapResolution.3072=高(3072)
+value.shadowMapResolution.4096=非常高(4096)
+value.shadowMapResolution.6144=极致(6144)
+value.shadowMapResolution.8192=疯狂(8192)
+value.shadowMapResolution.16384=疯癫(16384)
+
+option.shadowDistance=阴影渲染距离
+option.shadowDistance.comment=调整阴影的渲染距离. 这将拉伸阴影图,所以请确保在提升本选项数值时提高阴影分辨率.
+
+option.Clouds=云层
+option.Clouds.comment=开启云层. 体积云的性能比2D云性能更好.
+value.Clouds.0=关
+value.Clouds.1=MC原版
+value.Clouds.2=2D
+value.Clouds.3=体积云
+value.Clouds.4=2D + 体积云
+option.cloudsIT=云层质量
+option.cloudsIT.comment=调整体积云的质量.
+option.cloudreflIT=云层反射质量
+option.cloudreflIT.comment=调整体积云的反射质量.
+option.Cloud_reflection=云层反射
+option.Cloud_reflection.comment=云层反射开关. §4中等性能消耗.
+option.cloud_height=云层高度
+option.cloud_height.comment=调整云层高度.
+option.Cloudsblur=天空模糊
+option.Cloudsblur.comment=对天空应用一层模糊过滤使体积云更平滑. 在AMD显卡上会因为驱动问题把这层过滤同样作用在远处的地形上. 本选项不能和景深和运动模糊一起工作.
+
+option.waterRefl=水面反射
+option.waterRefl.comment=水面反射开关.
+
+option.iceRefl=玻璃&冰面反射
+option.iceRefl.comment=冰和玻璃的反射开关.
+
+option.metallicRefl=金属反射
+option.metallicRefl.comment=金属类方块的反射开关,例如铁块. 金属类方块定义在 block.properties 文件中.
+option.polishedRefl=磨制反射
+option.polishedRefl.comment=磨制类方块的反射开关,例如磨制花岗岩. 磨制类方块定义在 block.properties 文件中.
+
+option.metalStrength=反射强度
+option.metalStrength.comment=调整 金属&磨制类 方块的反射强度. 如果反射太暗,提高天空反射选项数值.
+option.metallicSky=天空反射
+option.metallicSky.comment=调整天空作用于 金属&磨制类 方块的反射光量. 过高的值可能看起来有点湿润.
+
+option.RainReflections=雨水反射
+option.RainReflections.comment=雨天时 雨水反射 / 湿润 的开关.
+option.BiomeCheck=群系检查
+option.BiomeCheck.comment=检查你所在的群系是否支持下雨来提供反射. 禁用本选项来使 雨水反射 / 湿润 出现在任何群系. 如果开启本选项后丢失反射,升级OptiFine也许能解决问题.
+option.rainNoise=雨水噪声
+option.rainNoise.comment=调整雨水反射的噪声数量, 更高的值意味着更少的噪声.
+
+option.defskybox=原版天空盒
+option.defskybox.comment=原版天空盒支持的开关, 包括对来自资源包的自定义天空支持. 如果没有相应的资源包支持,本选项仅会启用对原版太阳和月亮的贴图. 本选项会自动禁用来自光影的太阳和月亮效果.
+option.skyboxblendfactor=天空盒混合系数
+option.skyboxblendfactor.comment=调整着色器天空和自定义天空贴图的颜色混合系数.
+
+option.customStars=星空
+option.customStars.comment=星星开关.
+
+option.Dynamic_Handlight=动态手持光源
+option.Dynamic_Handlight.comment=像火把这样的物品在拿在手里的时候会发出光. §4不影响性能.
+
+option.Godrays=光轴
+option.Godrays.comment=使太阳投射光轴. §4低性能消耗.
+
+Volumetric_Lighting
+option.Volumetric_Lighting=体积光
+option.Volumetric_Lighting.comment=启用体积光, 因为本功能有自己的光线,请禁用光轴.
+option.VL_amount=体积光数量
+
+option.Celshading=卡通渲染
+option.Celshading.comment=为所有事物应用黑色描边来让它们看起来比较卡通, 类似于无主之地. §4非常低的性能影响.
+option.Celborder=卡通描边厚度
+option.Celborder.comment=调整卡通渲染的描边厚度
+option.Celradius=卡通渲染检测半径
+option.Celradius.comment=调整卡通渲染检测半径. 较低的值意味着较小的检测半径,这可能会错过一些相互连接边界,产生更多的轮廓. 这看起来也很酷.
+
+option.SSDO=环境光遮蔽
+option.SSDO.comment=使照明更真实 (SSDO). §4中等性能消耗.
+option.ao_strength=环境光遮蔽强度
+option.ao_strength.comment=调整环境光遮蔽的强度.
+
+option.Fog=雾气
+option.Fog.comment=雾气开关.
+option.wFogDensity=主世界雾气密度.
+option.wFogDensity.comment=调整主世界雾气密度.
+option.morningFog=晨雾
+option.morningFog.comment=提升日出时雾气的密度.
+
+option.Underwater_Fog=水雾
+option.Underwater_Fog.comment=水下雾气开关.
+option.uFogDensity=水雾密度
+option.uFogDensity.comment=调整水雾的密度.
+
+option.uwatertint=水下颜色色调
+option.uwatertint.comment=水下的水体蓝色色调开关.
+
+option.Whiteworld=白色世界
+option.Whiteworld.comment=使地面变成白色,主要用于调试. 添加这个选项是因为有很多人请求这个功能.我想它在截图时看起来还挺整洁的.
+
+#composite.vsh
+option.Moonlight=月光亮度
+option.Moonlight.comment=调整晚上的亮度.
+value.Moonlight.0.0=非常暗
+value.Moonlight.0.0015=暗
+value.Moonlight.0.003=默认
+value.Moonlight.0.006=亮
+value.Moonlight.0.009=非常亮
+#----------------------------------------------------
+
+#gbuffers_entitites.fsh
+option.MobsFlashRed=受伤动画
+option.MobsFlashRed.comment=使得怪物和玩家受伤时有红色的动画.
+#----------------------------------------------------
+
+#final.fsh
+option.Rain_Drops=雨痕
+option.Rain_Drops.comment=在下雨天时在屏幕启用雨滴划过的效果. §4低性能消耗.
+
+#Godrays from composite.fsh
+#Defined variables from final.fsh
+option.Godrays_Density=光轴密度
+option.Godrays_Density.comment=调整太阳光轴的数量.
+value.Godrays_Density.0.575=低
+value.Godrays_Density.1.15=默认
+value.Godrays_Density.2.3=中
+value.Godrays_Density.4.6=高
+value.Godrays_Density.9.2=非常高
+
+option.Lens_Flares=镜头眩光
+option.Lens_Flares.comment=模拟相机镜头效果. §4启用眩光的同时也需要启用泛光. §4低性能消耗.
+option.Lens_Flares_Strength=眩光强度
+option.Lens_Flares_Strength.comment=调整镜头眩光强度.
+value.Lens_Flares_Strength.1.0=弱
+value.Lens_Flares_Strength.4.0=默认
+value.Lens_Flares_Strength.16.0=强
+value.Lens_Flares_Strength.32.0=非常强
+value.Lens_Flares_Strength.64.0=甚至还能更强
+
+option.Bloom=泛光
+option.Bloom.comment=给发光方块添加一层辉光. 这同样作用于日月发光. §4中等性能消耗.
+option.bloom_strength=泛光强度
+option.bloom_strength.comment=调整泛光的强度. 过高的值会让图像过于模糊和柔和.
+value.bloom_strength.0.5=低
+value.bloom_strength.0.75=默认
+value.bloom_strength.1.0=中
+value.bloom_strength.2.0=高
+
+option.Depth_of_Field=景深
+option.Depth_of_Field.comment=模拟眼镜聚焦某物的效果. §4低性能消耗
+option.DoF_Strength=景深强度
+option.DoF_Strength.comment=调整用于景深的模糊强度.
+
+option.smoothDof=平滑过渡
+option.smoothDof.comment=使得聚焦某物时的清晰和模糊的画面效果能平滑过渡.
+
+option.Distance_Blur=距离模糊
+option.Distance_Blur.comment=§4需要启用景深. 替代掉景深的聚焦模糊效果反而采用距离来模糊远处物体.
+
+option.Dof_Distance_View=模糊视距
+option.Dof_Distance_View.comment=调整多少视距外的事物应该被模糊.
+
+option.Motionblur=动态模糊
+option.Motionblur.comment=当你移动时模糊你的 视野/镜头 . 不能和景深一起启用.
+
+option.MB_strength=模糊强度
+option.MB_strength.comment=调整运动模糊强度.
+value.MB_strength.0.008=低
+value.MB_strength.0.014=默认
+value.MB_strength.0.020=高
+#----------------------------------------------------
+
+#gbuffers_terrain.fsh/vsh
+option.WaterParallax=水面视差
+option.WaterParallax.comment=启用或禁用水面的视差. §4低性能消耗
+
+option.waterheight=水面视差强度
+option.waterheight.comment=调整水面高度 / 视差强度.
+
+option.causticsStrength=焦散线强度
+option.waveSize=水波尺寸
+
+option.watertex=水面贴图
+option.watertex.comment=是否启用来自你的资源包的水面贴图.
+option.wtexblend=水面贴图混合系数
+option.wtexblend.comment=调整水面贴图的强度.
+
+option.waterCR=水体颜色 - 红色
+option.waterCG=水体颜色 - 绿色
+option.waterCB=水体颜色 - 蓝色
+option.waterA=水体透明度
+
+option.nMap=资源包支持
+option.nMap.comment=启用对资源包凹凸贴图或视差贴图的支持, 必须有支持的资源包才能工作.
+value.nMap.0=关
+value.nMap.1=凹凸
+value.nMap.2=视差
+
+option.POM_RES=资源包分辨率
+option.POM_RES.comment=将其提高到超过资源包分辨率使其更平滑.
+option.POM_DEPTH=视差深度
+option.POM_DEPTH.comment=调整视差深度, 太高的值看起来会很糟糕.
+option.POM_DIST=视差渲染距离
+option.POM_DIST.comment=调整视差渲染距离.
+
+option.Waving_Leaves=树叶摇晃
+option.Waving_Leaves.comment=
+
+option.Waving_Vines=藤蔓摇晃
+option.Waving_Vines.comment=
+
+option.Waving_Grass=草摇晃
+option.Waving_Grass.comment=不包括高草丛,因为存在一定的问题.
+
+option.Waving_Fire=火焰摇晃
+option.Waving_Fire.comment=
+
+option.Waving_Lanterns=灯笼摇晃
+
+option.Waving_Lava=岩浆摇晃
+option.Waving_Lava.comment=
+
+option.Waving_Water=水体摇晃
+option.Waving_Water.comment=
+
+option.waves_amplitude=波浪幅度
+option.waves_amplitude.comment=调整水波摇晃幅度 (高度)
+
+option.animationSpeed=动画速度
+option.animationSpeed.comment=调整所有的动画速度 (除了水).
+
+option.Waving_Lilypads=睡莲摇晃
+option.Waving_Lilypads.comment=
+
+option.Waving_Entities=其它事物的摇晃
+option.Waving_Entities.comment=包括: 树苗, 小花, 小麦, 胡萝卜, 土豆 和 甜菜根.
+#----------------------------------------------------
+
+#gbuffers_weather.vsh
+option.WeatherAngle=替选天气角度
+option.WeatherAngle.comment=替选天气角度开关.
+
+#Screens
+screen.AA_SCREEN=抗锯齿
+screen.AA_SCREEN.comment=切换抗锯齿(TAA)和自适应锐化.
+
+screen.BLOOM_SCREEN=泛光
+screen.BLOOM_SCREEN.comment=关于泛光的设置.
+
+screen.COLORS_SCREEN=颜色
+screen.COLORS_SCREEN.comment=关于颜色的各种选项,例如伽马值或者水体颜色.
+
+screen.WATERC_SCREEN=水体颜色
+screen.LIGHTINGC_SCREEN=光源颜色
+
+screen.DOF_SCREEN=景深
+screen.DOF_SCREEN.comment=关于景深的设置.
+
+screen.MB_SCREEN=动态模糊
+screen.MB_SCREEN.comment=关于动态模糊的设置.
+
+screen.SKY_SCREEN=天空 & 照明
+screen.SKY_SCREEN.comment=包含天空相关的设置,比如光轴,镜头眩光和云层.
+
+screen.SHADOWS_SCREEN=阴影
+screen.SHADOWS_SCREEN.comment=关于阴影的设置,例如阴影分辨率和视距.
+
+screen.FOG_SCREEN=雾气选项
+screen.FOG_SCREEN.comment=关于雾气的所有设置.
+
+screen.NORMALMAP_SCREEN=法线贴图
+screen.NORMALMAP_SCREEN.comment=为你的资源包启用视差和凹凸支持,如果你的资源包支持.
+
+screen.WAVING_SCREEN=摇晃的事物
+screen.WAVING_SCREEN.comment=包括草,小麦,叶子等.
+
+screen.EMISSIVE_SCREEN=发光源
+screen.EMISSIVE_SCREEN.comment=改变发光源的颜色,例如火把.
+option.emissive_R=红色
+option.emissive_G=绿色
+option.emissive_B=蓝色
+option.minlight=最小发光量
+
+screen.REFLECTIONS_SCREEN=反射
+screen.REFLECTIONS_SCREEN.comment=关于各种反射及其质量的选项.
+
+screen.SHADING_SCREEN=遮蔽类设置
+screen.SHADING_SCREEN.comment=关于各种遮蔽效果的设置, 例如环境光遮蔽和卡通渲染.
+
+#额外接口
+
+option.Brightness=亮度
+option.Brightness.comment=调整亮度.
+
+option.Contrast=对比度
+option.Contrast.comment=较低的值提升对比度,较高的值降低对比度. 如果你调整了对比度选项,最好再去重新调整亮度.
+
+option.Refraction=水体折射
+option.Refraction.comment=水体折射开关.
+
+option.Caustics=焦散线
+option.Caustics.comment=焦散线开关.
+
+option.Shadows=阴影
+option.Shadow.comment=所有阴影开关.
+
+option.Waving_Tallgrass=高草丛摇晃
+option.Waving_Tallgrass.comment=
+
+screen.Debug=调试
+
+option.Showbuffer=显示缓冲区

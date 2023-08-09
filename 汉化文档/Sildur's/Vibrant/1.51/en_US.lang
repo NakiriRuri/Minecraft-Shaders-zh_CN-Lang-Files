@@ -1,0 +1,355 @@
+# Change effect names using a language file
+# How to change names and comments:
+# option.EffectName=New effect name
+# option.EffectName.comment=Your comment.
+#
+# Change screen names through language instead of properties
+# How to change screen names and give them comments:
+# screen.ScreenName=New screen name
+# screen.ScreenName.comment=Your comment
+#
+# Tooltip lines ending with "!" are automatically shown red.
+# example: option.SHADOW_FILTER.comment=Smooth out shadows. Very small performance hit!.
+
+
+#composite.fsh
+option.TAA_sharpness=sharpening
+value.TAA_sharpness.0.0=Off
+
+option.HandLight=Handheld Lighting
+option.HandLight.comment=Toggle handheld lighting.
+
+option.light_brightness=Light brightness
+option.light_brightness.comment=This should be tweaked once you've adjusted the lighting colors.
+
+option.r_multiplier=red amount
+option.g_multiplier=green amount
+option.b_multiplier=blue amount
+option.eyeLight=Eye light adaption
+option.eyeLight.comment=Adjust the eye light adapation amount, doing so will increase or decrease lighting strength in general. Adjust bloom accordingly.
+
+option.sunPathRotation=Sun/Moon angle
+option.sunPathRotation.comment=Adjust sun and moon angle.
+value.sunPathRotation.0.0f=Default
+value.sunPathRotation.-40.0f=Alternative
+
+option.EmissiveLightStrength=Lighting strength
+option.EmissiveLightStrength.comment=Adjust the lighting strength of emissive blocks, like torches.
+
+option.Sunlightamount=Sunlightamount
+option.Sunlightamount.comment=10,50,200
+
+option.ColoredShadows=Colored Shadows
+option.ColoredShadows.comment=Toggle colored shadows. Tints shadows color if passing through stained glass. Can cause some visual glitches.
+
+option.grass_shadows=Grass Shadows
+option.grass_shadows.comment=Toggle grass shadows, also disables shadows for tallgrass and flowers.
+
+option.Penumbra=Variable Penumbra Shadows
+option.Penumbra.comment=Shadow filtering. The farther shadows are away from their source the more soft they become. Doesn't work on AMD or Intel gpus.
+
+option.shadow_samples=Shadowfilter Quality
+option.shadow_samples.comment=Adjust the quality of the shadowfilter. Increase this if you run into issues with penumbra shadows on.
+
+option.Farshadowplane=Far Shadowplane Quality
+option.Farshadowplane.comment=This is the far plane of the shadowmap. Higher values reduce closeup quality, improve performance and shadow rendering distance by stretching the shadowmap. If black dots appear increase near shadowplane quality.
+
+option.Nearshadowplane=Near Shadowplane Quality
+option.Nearshadowplane.comment=This is the near plane of the shadowmap. Lower values improve shadow quality, reduce performance and shadow rendering distance by squeezing the shadowmap together. You want to increase this if you increase far plane shadow quality, otherwise leave it alone.
+
+option.raytracedShadows=Raytraced Shadows
+option.raytracedShadows.comment=Improves closeup and faraway shadows. Also allows shadows to be cast outside of the shadowmap, outside of your shadows render distance. Requires shadows to be enabled. Has some issues since it's raytraced in screenspace.
+
+option.shadowMapResolution=Shadows Resolution
+option.shadowMapResolution.comment=Change the shadows resolution. Reduce the shadow render distance at low resolutions to improve quality and reduce flickering.
+value.shadowMapResolution.256=Lowest
+value.shadowMapResolution.512=Very Low
+value.shadowMapResolution.1024=Low
+value.shadowMapResolution.2048=Medium
+value.shadowMapResolution.3072=High
+value.shadowMapResolution.4096=Very High
+value.shadowMapResolution.6144=Extreme
+value.shadowMapResolution.8192=Insane
+value.shadowMapResolution.16384=Madman
+
+option.shadowDistance=Shadows Render Distance
+option.shadowDistance.comment=Change the render distance of shadows. This stretches the shadowmap, so make sure to increase the shadows resolution on high values.
+
+option.Clouds=Clouds
+option.Clouds.comment=Toggle clouds. Volumetric clouds run a bit faster than 2D clouds.
+value.Clouds.0=Off
+value.Clouds.1=Default MC
+value.Clouds.2=2D
+value.Clouds.3=Volumetric
+value.Clouds.4=2D + Volumetric
+option.cloudsIT=Cloud Quality
+option.cloudsIT.comment=Adjust quality of volumetric clouds.
+option.cloudreflIT=Cloud Reflections Quality
+option.cloudreflIT.comment=Adjust reflections quality of volumetric clouds.
+option.Cloud_reflection=Cloud reflections
+option.Cloud_reflection.comment=Toggle cloud reflections. §4Medium performance impact.
+option.cloud_height=Cloud height
+option.cloud_height.comment=Adjust the clouds height.
+option.Cloudsblur=Sky blur
+option.Cloudsblur.comment=Apply a blur filter to the sky to make volumetric clouds smoother. On AMD cards this filter is also applied to distant land due to driver issues. Doesn't work with DoF or Motionbur.
+
+option.waterRefl=Water reflections
+option.waterRefl.comment=Toggle water reflections.
+
+option.iceRefl=Ice and Glass reflections
+option.iceRefl.comment=Toggle ice and stained glass reflections.
+
+option.metallicRefl=Metallic Reflections
+option.metallicRefl.comment=Toggle reflections for metallic blocks like iron. Metallic blocks are defined in block.properties.
+option.polishedRefl=Polished Reflections
+option.polishedRefl.comment=Toggle reflections for polished blocks like polished granite. Polished blocks are defined in block.properties.
+
+option.metalStrength=Reflections strength
+option.metalStrength.comment=Adjust reflection strength for metallic and polished reflections. If the reflections become to dark, increase sky reflection.
+option.metallicSky=Sky reflection
+option.metallicSky.comment=Adjust the amount of sky reflections on metallic and polished blocks. Higher values make it look more wet.
+
+option.RainReflections=Rain reflections
+option.RainReflections.comment=Toggle rain reflections / wetness while raining.
+option.BiomeCheck=Biomes check
+option.BiomeCheck.comment=Checks if the biome that you're in actually supports rainy weather for reflections. Disable to have rain reflections / wetness in every biome. Updating optifine might resolve issues with missing reflections with this on.
+option.rainNoise=Rain noise
+option.rainNoise.comment=Adjust the amount of noise for rain reflections, higher values mean less noise.
+
+option.defskybox=Default Skybox
+option.defskybox.comment=Toggle support for the default skybox, including custom skies from resourcepacks. If no resourcepack is present this will only enable the default sun and moon texture. This option also auto disables the custom shader sun and moon.
+option.skyboxblendfactor=Skybox blend factor
+option.skyboxblendfactor.comment=Tweak the color amount of the custom shader sky mixing with the default skybox texture.
+
+option.customStars=Shader Stars
+option.customStars.comment=Toggle stars.
+
+option.Dynamic_Handlight=Dynamic Handlight
+option.Dynamic_Handlight.comment=Items like torches emit light while holding them in your hand. §4No performance impact.
+
+option.Godrays=Godrays
+option.Godrays.comment=Makes the sun casts rays. §4Low performance impact.
+
+Volumetric_Lighting
+option.Volumetric_Lighting=Volumetric Lighting
+option.Volumetric_Lighting.comment=Enable volumetric lightning, disables godrays since it's comes with it's own ones.
+option.VL_amount=Volumetric lighting amount
+
+option.Celshading=Celshading
+option.Celshading.comment=Applies black lines on everything making it look cartoony, similar to borderlands. §4Very low perfomance impact.
+option.Celborder=Celshading outline thickness
+option.Celborder.comment=Adjust the outline thickness of celshading
+option.Celradius=Celshading search radius
+option.Celradius.comment=Adjust the search radius for celshading. Lower values mean less search radius, which might misses some inline borders, creating more of an outline shader. Which can look cool aswell.
+
+option.SSDO=Ambient Occlusion
+option.SSDO.comment=Makes lighting more realistic (SSDO). §4Medium performance impact.
+option.ao_strength=AO amount
+option.ao_strength.comment=Adjust the amount/strength of ambient occlusion.
+
+option.Fog=Fog
+option.Fog.comment=Toggle fog.
+option.wFogDensity=Overworld fog density.
+option.wFogDensity.comment=Adjust overworld fog density
+option.morningFog=Morning Fog
+option.morningFog.comment=Increases fog density during sunrise.
+
+option.Underwater_Fog=Underwater Fog
+option.Underwater_Fog.comment=Toggle fog underwater.
+option.uFogDensity=Underwater fog density
+option.uFogDensity.comment=Adjust underwater fog density.
+
+option.uwatertint=Underwater color tint
+option.uwatertint.comment=Toggle the blue color tint for ground underwater.
+
+option.Whiteworld=Whiteworld
+option.Whiteworld.comment=Makes the ground white, mostly used for debugging. This option was added because it was requested alot. I suppose it looks kinda neat for screenshots.
+
+#composite.vsh
+option.Moonlight=Moonlight
+option.Moonlight.comment=Adjust brightness during night time.
+value.Moonlight.0.0=Very Dark
+value.Moonlight.0.0015=Dark
+value.Moonlight.0.003=Default
+value.Moonlight.0.006=Bright
+value.Moonlight.0.009=Very bright
+#----------------------------------------------------
+
+#gbuffers_entitites.fsh
+option.MobsFlashRed=Damage flash
+option.MobsFlashRed.comment=Makes mobs and the player flash red when hurt.
+#----------------------------------------------------
+
+#final.fsh
+option.Rain_Drops=Rain Drops
+option.Rain_Drops.comment=Enables rain drops on screen during raining. §4Low performance impact.
+
+#Godrays from composite.fsh
+#Defined variables from final.fsh
+option.Godrays_Density=Godrays density
+option.Godrays_Density.comment=Changes the amount of sunrays.
+value.Godrays_Density.0.575=Low
+value.Godrays_Density.1.15=Default
+value.Godrays_Density.2.3=Medium
+value.Godrays_Density.4.6=High
+value.Godrays_Density.9.2=Very High
+
+option.Lens_Flares=Lens Flares
+option.Lens_Flares.comment=Simulates camera lens effects. §4Bloom must be enabled for lens flares. §4Low performance impact.
+option.Lens_Flares_Strength=Lens Flares strength
+option.Lens_Flares_Strength.comment=Adjust the strength of lens flares.
+value.Lens_Flares_Strength.1.0=Weak
+value.Lens_Flares_Strength.4.0=Default
+value.Lens_Flares_Strength.16.0=Strong
+value.Lens_Flares_Strength.32.0=Very Strong
+value.Lens_Flares_Strength.64.0=Even stronger
+
+option.Bloom=Bloom
+option.Bloom.comment=Adds a glowing effect to emissive blocks. Is also used for sun/moon glow. §4Medium performance impact.
+option.bloom_strength=Bloom strength
+option.bloom_strength.comment=Adjust the strength of bloom. Higher values make the image more soft and more blurry.
+value.bloom_strength.0.5=Low
+value.bloom_strength.0.75=Default
+value.bloom_strength.1.0=Medium
+value.bloom_strength.2.0=High
+
+option.Depth_of_Field=Depth of Field
+option.Depth_of_Field.comment=Simulates eye focusing on objects. §4Low performance impact
+option.DoF_Strength=Blur amount
+option.DoF_Strength.comment=Adjust the amount of blur used for depth of field.
+
+option.smoothDof=Smooth Transition
+option.smoothDof.comment=Toggle a smooth transition between clear and blurry while focusing on something.
+
+option.Distance_Blur=Distance Blur
+option.Distance_Blur.comment=§4Requires Depth of Field to be enabled. Replaces eye focusing effect with distance being blurred instead.
+
+option.Dof_Distance_View=Blur view distance
+option.Dof_Distance_View.comment=Adjust the view distance of blur.
+
+option.Motionblur=Motionblur
+option.Motionblur.comment=Blurres your view/camera during movemenent. Doesn't work with Depth of Field.
+
+option.MB_strength=Blur strength
+option.MB_strength.comment=Adjust the blur strength of Motionblur.
+value.MB_strength.0.008=Low
+value.MB_strength.0.014=Default
+value.MB_strength.0.020=High
+#----------------------------------------------------
+
+#gbuffers_terrain.fsh/vsh
+option.WaterParallax=Water parallax mapping
+option.WaterParallax.comment=Enable or disable parallax mapping for water. §4Low performance impact
+
+option.waterheight=Water height
+option.waterheight.comment=Adjust the water height / parallax strength.
+
+option.causticsStrength=Caustics strength
+option.waveSize=Wave size
+
+option.watertex=Water texture
+option.watertex.comment=Toggle the default water texture / texture from your resourcepack.
+option.wtexblend=Watertexture blend factor
+option.wtexblend.comment=Adjust the texture strength.
+
+option.waterCR=water color red
+option.waterCG=water color green
+option.waterCB=water color blue
+option.waterA=water alpha
+
+option.nMap=RP Support
+option.nMap.comment=Enable bump or parallax mapping support for resourcepacks, the resourcepack must support it.
+value.nMap.0=Off
+value.nMap.1=Bumpmapping
+value.nMap.2=Parallax
+
+option.POM_RES=RP Resolution
+option.POM_RES.comment=Increasing the resolution past the rp resolution makes it smoother.
+option.POM_DEPTH=POM Depth
+option.POM_DEPTH.comment=Adjust the depth of parallax mapping, to high values might look weird.
+option.POM_DIST=POM Render Distance
+option.POM_DIST.comment=Adjust the distance at which parallax mapping renders.
+
+option.Waving_Leaves=Waving Leaves
+option.Waving_Leaves.comment=
+
+option.Waving_Vines=Waving Vines
+option.Waving_Vines.comment=
+
+option.Waving_Grass=Waving Grass
+option.Waving_Grass.comment=Does not include tallgrass due some issues with it.
+
+option.Waving_Fire=Waving Fire
+option.Waving_Fire.comment=
+
+option.Waving_Lanterns=Waving Lanterns
+
+option.Waving_Lava=Waving Lava
+option.Waving_Lava.comment=
+
+option.Waving_Water=Waving Water
+option.Waving_Water.comment=
+
+option.waves_amplitude=Waves amplitude
+option.waves_amplitude.comment=Adjust the water waves amplitude (height)
+
+option.animationSpeed=Animation speed
+option.animationSpeed.comment=Adjust the speed of all animations except water.
+
+option.Waving_Lilypads=Waving Lilypad
+option.Waving_Lilypads.comment=
+
+option.Waving_Entities=Waving Entities
+option.Waving_Entities.comment=Includes: Saplings, small flowers, wheat, carrots, potatoes and beetroot.
+#----------------------------------------------------
+
+#gbuffers_weather.vsh
+option.WeatherAngle=Alternative Weather angle
+option.WeatherAngle.comment=Toggle alternative weather angle.
+
+#Screens
+screen.AA_SCREEN=Antialiasing
+screen.AA_SCREEN.comment=Toggle antialiasing (TAA) and adaptive sharpening.
+
+screen.BLOOM_SCREEN=Bloom
+screen.BLOOM_SCREEN.comment=Change things related to Bloom.
+
+screen.COLORS_SCREEN=Colors
+screen.COLORS_SCREEN.comment=Change various color options, like gamma or watercolors.
+
+screen.WATERC_SCREEN=Water Colors
+screen.LIGHTINGC_SCREEN=Lighting colors
+
+screen.DOF_SCREEN=Depth of field
+screen.DOF_SCREEN.comment=Change things related to Depth of Field.
+
+screen.MB_SCREEN=Motionblur
+screen.MB_SCREEN.comment=Change things related to Motionblur.
+
+screen.SKY_SCREEN=Sky & Lighting
+screen.SKY_SCREEN.comment=Contains sky related options, like godrays, lens flares and clouds.
+
+screen.SHADOWS_SCREEN=Shadows
+screen.SHADOWS_SCREEN.comment=Change shadow related settings like resolution and view distance.
+
+screen.FOG_SCREEN=Fog options
+screen.FOG_SCREEN.comment=Contains all fog related options.
+
+screen.NORMALMAP_SCREEN=Normal map
+screen.NORMALMAP_SCREEN.comment=Enable bump or parallax support if the resourcepack supports it.
+
+screen.WAVING_SCREEN=Waving Objects
+screen.WAVING_SCREEN.comment=Contains grass, wheat, leaves etc.
+
+screen.EMISSIVE_SCREEN=Emissive Light
+screen.EMISSIVE_SCREEN.comment=Change the lighting color of blocks that emit light, like torches.
+option.emissive_R=red
+option.emissive_G=green
+option.emissive_B=blue
+option.minlight=Minimum Light
+
+screen.REFLECTIONS_SCREEN=Reflections
+screen.REFLECTIONS_SCREEN.comment=Toggle various reflections and adjust their quality.
+
+screen.SHADING_SCREEN=Shading
+screen.SHADING_SCREEN.comment=Adjust various shading effects like ambient occlusion or celshading

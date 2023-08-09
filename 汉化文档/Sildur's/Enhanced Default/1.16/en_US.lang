@@ -1,0 +1,215 @@
+# Change effect names through language instead of the shader itself
+# How to change names and comments:
+# option.EffectName=New effect name
+# option.EffectName.comment=Your comment.
+#
+# Change screen names through language instead of properties
+# How to change screen names and give them comments:
+# screen.ScreenName=New screen name
+# screen.ScreenName.comment=Your comment
+#
+# Tooltip lines ending with "!" are automatically shown red.
+# example: option.SHADOW_FILTER.comment=Smooth out shadows. Very small performance hit!.
+
+
+#Options
+#############################
+option.TAA_sharpness=sharpening
+
+option.HandLight=Handheld Lighting
+option.HandLight.comment=Toggle handheld lighting.
+
+option.Celshading=Celshading
+option.Celshading.comment=Adds a black outline to everything, creating a comic look. Just like in borderlands.
+
+option.skyReflection=Sky reflection
+option.skyReflection.comment=Reflect and blend the default skycolor. Makes water waves more visible. WIP
+
+option.Reflections=Reflections
+option.Reflections.comment=Toggle reflections for transparent blocks, like water, stained glass and ice.
+option.Refl_Quality=Reflections Quality
+option.Refl_Quality.comment=Adjust the quality of reflections. Fancy increases the accuracy of the raytracer which reduces glitches at the cost of performance.
+value.Refl_Quality.1=Fast
+value.Refl_Quality.2=Fancy
+
+option.WaterReflection=Water reflections
+option.WaterReflection.comment=See block.properties to add custom water ids.
+option.TransparentReflections=Transparent reflections
+option.TransparentReflections.comment=See block.properties to adjust reflective blocks.
+
+option.Depth_of_Field=Depth of Field
+option.Depth_of_Field.comment=Simulates eye focusing on objects. §4Low performance impact
+option.DoF_Strength=Dof strength
+option.DoF_Strength.comment=Changes the strength of the blurring effect.
+value.DoF_Strength.60=Low
+value.DoF_Strength.90=Default
+value.DoF_Strength.120=High
+value.DoF_Strength.150=Very High
+
+option.smoothDof=Smooth Transition
+option.smoothDof.comment=Toggle a smooth transition between clear and blurry while focusing on something.
+
+option.Distance_Blur=Distance Blur
+option.Distance_Blur.comment=§4Requires Depth of Field to be enabled. Replaces eye focusing effect with distance being blurred instead.
+
+option.Dof_Distance_View=Blur view distance
+option.Dof_Distance_View.comment=Adjust the view distance of blur.
+value.Dof_Distance_View.128=Near
+value.Dof_Distance_View.256=Default
+value.Dof_Distance_View.384=Far
+value.Dof_Distance_View.512=Very Far
+
+option.Motionblur=Motionblur
+option.Motionblur.comment=Blurres your view/camera during movemenent. Doesn't work with Depth of Field.
+
+option.MB_strength=Blur strength
+option.MB_strength.comment=Adjust the blur strength of Motionblur.
+value.MB_strength.0.008=Low
+value.MB_strength.0.014=Default
+value.MB_strength.0.020=High
+
+option.sunPathRotation=Sun/Moon angle
+option.sunPathRotation.comment=Adjust sun and moon angle.
+value.sunPathRotation.-0.15f=Default
+value.sunPathRotation.-40.0f=Alternative
+
+option.Godrays=Godrays
+option.Godrays.comment=Toggle godrays.
+option.grays_quality=Godrays quality
+option.grays_quality.comment=Adjust godrays quality, fast causes a low performance hit while fancy causes a high performance hit.
+value.grays_quality.1=Fast
+value.grays_quality.2=Fancy
+option.grays_intensity=Godrays intensity
+
+option.Colored_Shadows=Colored Shadows
+option.Colored_Shadows.comment=Toggle colored shadows. Tints shadows color if passing through stained glass.
+
+option.grass_shadows=Grass shadows
+option.grass_shadows.comment=Toggle grass shadows.
+
+option.shadowMapResolution=Shadows resolution
+option.shadowMapResolution.comment=Change the shadows resolution.
+value.shadowMapResolution.512=Very Low
+value.shadowMapResolution.1024=Low
+value.shadowMapResolution.2048=Medium
+value.shadowMapResolution.3072=High
+value.shadowMapResolution.4096=Very High
+value.shadowMapResolution.8192=Extreme
+
+option.shadowDistance=Shadows view distance
+option.shadowDistance.comment=Change the view distance of shadows.
+value.shadowDistance.60.0=Very Near
+value.shadowDistance.90.0=Near
+value.shadowDistance.120.0=Far
+value.shadowDistance.150.0=Very Far
+value.shadowDistance.180.0=To Far
+value.shadowDistance.210.0=Way to Far
+
+option.slight=Lighting strength
+option.slight.comment=Adjust the lighting strength of shadows/light
+
+option.Whiteworld=Whiteworld
+option.Whiteworld.comment=Makes the ground white, mostly used for debugging. This option was added because it was requested alot. I suppose it looks kinda neat for screenshots.
+
+option.waterTex=Water texture
+option.waterTex.comment=Toggle resoucepack water texture.
+
+option.MobsFlashRed=Damage flash
+option.MobsFlashRed.comment=Makes mobs and the player flash red when hurt.
+
+option.Colorboost=Color boost
+option.Colorboost.comment=If enabled, gives default colors a little kick.
+
+option.Waving_Leaves=Waving Leaves
+option.Waving_Leaves.comment=
+
+option.Waving_Vines=Waving Vines
+option.Waving_Vines.comment=
+
+option.Waving_Grass=Waving Grass
+option.Waving_Grass.comment=
+
+option.Waving_Tallgrass=Waving Tallgrass
+option.Waving_Tallgrass.comment=
+
+option.Waving_Fire=Waving Fire
+option.Waving_Fire.comment=
+
+option.Waving_Lanterns=Waving Lanterns
+
+option.Waving_Lava=Waving Lava
+option.Waving_Lava.comment=
+
+option.Waving_Water=Waving Water
+option.Waving_Water.comment=Includes waving lilypads.
+
+option.waves_amplitude=Waves amplitude
+option.waves_amplitude.comment=Adjust waves amplitude of waving water.
+
+option.Waving_Entities=Waving Entities
+option.Waving_Entities.comment=Includes: Saplings, small flowers, wheat, carrots, potatoes and beetroot.
+
+option.depthbuffer=Depthbuffer
+option.depthbuffer.comment=If enabled draw the depth buffer.
+
+option.draw_refnormals=Draw reflection normals
+
+option.draw_bmap=Draw bumpmap normals
+
+option.nMap=RP Support
+option.nMap.comment=Enable bump or parallax support for resourcepacks, the resourcepack must support it.
+value.nMap.0=Off
+value.nMap.1=Bumpmapping
+value.nMap.2=Parallax
+
+option.POM_RES=RP Resolution
+option.POM_RES.comment=Increasing the resolution past the rp resolution makes it smoother.
+option.POM_DEPTH=POM Depth
+option.POM_DEPTH.comment=Adjust the depth of parallax mapping, to high values might look weird.
+option.POM_DIST=POM Distance
+option.POM_DIST.comment=Adjust the distance at which parallax mapping renders.
+
+option.ambientOcclusionLevel=Default Minecraft AO
+option.ambientOcclusionLevel.comment=Minecraft comes with it's own kind of ambient occlusion.
+
+option.customLight=Custom Lightmap
+option.customLight.comment=Toggle custom lightmap and adjust the colors for emissive light.
+option.emissive_R=red
+option.emissive_G=green
+option.emissive_B=blue
+#----------------------------------------------------
+
+#Screens
+screen.AA_SCREEN=Antialiasing
+screen.AA_SCREEN.comment=Toggle antialiasing (TAA) and adaptive sharpening.
+
+screen.AO_SCREEN=Ambient Occlusion
+screen.AO_SCREEN.comment=Toggle ambient occlusion (SSAO) and adjust minecrafts default ambient occlusion.
+
+screen.COLOR_SCREEN=Colors
+screen.COLOR_SCREEN.comment=Contains colorboost and crossprocess(color filter)
+
+screen.DOF_SCREEN=Depth of field
+screen.DOF_SCREEN.comment=Change things related to Depth of Field.
+
+screen.NORMALMAP_SCREEN=Normal map
+screen.NORMALMAP_SCREEN.comment=Enable bump or parallax support if the resourcepack supports it.
+
+screen.MOTION_SCREEN=Motionblur
+screen.MOTION_SCREEN.comment=Change things related to Motionblur.
+
+screen.REFLECTIONS_SCREEN=Reflections
+screen.REFLECTIONS_SCREEN.comment=Contains reflections related things.
+
+screen.SHADOWS_SCREEN=Shadows
+screen.SHADOWS_SCREEN.comment=Contains shadow related things, like shadow view distance.
+
+screen.SKY_SCREEN=Sky
+screen.SKY_SCREEN.comment=Contains sky related things, like godrays.
+
+screen.WAVING_SCREEN=Waving Objects
+screen.WAVING_SCREEN.comment=Contains grass, wheat, leaves etc.
+
+screen.MISC_SCREEN=Misc
+screen.MISC_SCREEN.comment=Contains debugging stuff and whatever
+#----------------------------------------------------
