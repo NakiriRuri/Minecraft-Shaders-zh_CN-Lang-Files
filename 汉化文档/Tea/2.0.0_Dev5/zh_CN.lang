@@ -1,0 +1,306 @@
+#shaders/lang/zh_CN.lang
+#该汉化由Surisen提供.并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Tea shader 2.0.0_Dev5 版本。
+
+// Key
+
+# §a 此选项对性能几乎没有影响.
+# §e 此选项对性能有轻微影响.
+# §6 此选项对性能有一定影响.
+# §c 此选项对性能有较大影响.
+# §4 此选项对性能有极大影响.
+
+
+// Global
+
+option.Global=全局
+
+option.AA= 抗锯齿
+value.AA.0= 关闭
+value.AA.1= FXAA
+value.AA.2= TAA
+
+screen.Tonemap= 色调
+screen.BSL= BSL
+screen.BSL.comment= BSL 色调预设. 已向 Capt Tatsu 取得授权来使用他的色调预设.
+option.TonemapExposure= 曝光
+option.TonemapExposure.comment= 调节曝光.
+option.TonemapWhiteCurve= 白色曲线
+option.TonemapWhiteCurve.comment= 调节白色曲线.
+option.TonemapLowerCurve= 更低的曲线
+option.TonemapLowerCurve.comment= 调节更低的曲线.
+option.TonemapUpperCurve= 更高的曲线
+option.TonemapUpperCurve.comment= 调节更高的曲线.
+option.BSLSaturation= 饱和度
+option.BSLSaturation.comment= 调节饱和度.
+option.BSLVibrance= 自然饱和度
+option.BSLVibrance.comment= 调节自然饱和度.
+
+option.SWIZZLE= 鸡尾酒
+option.TONEMAP= 预设
+option.TONEMAP.comment= 改变色调预设. §a 此选项对性能几乎没有影响.
+value.TONEMAP.1=原版
+value.TONEMAP.2=BOTW
+value.TONEMAP.3=黑和白
+value.TONEMAP.4=冷淡
+value.TONEMAP.5=幽灵
+value.TONEMAP.6=BSL
+
+option.FGrain= 胶片颗粒效果
+option.FGrain.comment= 在光线不足的地方为屏幕添加颗粒效果，类似现实中的效果. §a 此选项对性能几乎没有影响.
+option.FGStrength= 胶片颗粒强度
+option.FGStrength.comment= 提高或降低胶片颗粒效果的强度. §a 此选项对性能几乎没有影响.
+
+screen.lensGlobal= 镜头
+
+screen.monochrome= 单色
+option.lensMonochrome= 单色效果
+option.lensMonochrome.comment= 启用 / 禁用 单色镜头效果. §a 此选项对性能几乎没有影响.
+option.lMonoRed= §c红
+option.lMonoRed.comment= [RGBA色谱]改变单色镜头中红色的比重.
+option.lMonoGreen= §a绿
+option.lMonoGreen.comment= [RGBA色谱]改变单色镜头中绿色的比重.
+option.lMonoBlue= §9蓝
+option.lMonoBlue.comment= [RGBA色谱]改变单色镜头中蓝色的比重.
+option.lMonoAlpha= Alpha
+option.lMonoAlpha.comment= [RGBA色谱]改变单色镜头的 Alpha. Alpha 是颜色的不透明度或透明度.
+
+screen.snightEye= 夜视
+option.nightEye= 夜视
+option.nightEye.comment= 启用 / 禁用 夜视效果. 在黑暗环境下去饱和来模拟真实世界状态. §a 此选项对性能几乎没有影响.
+option.ndeSat= 去饱和度
+option.ndeSat.comment= 在黑暗环境下的去饱和程度.
+
+screen.AO= 环境遮蔽
+option.SSAO= SSAO 切换
+option.SSAO.comment= 切换到 SSAO 而不是原版 AO. §a 此选项对性能几乎没有影响.
+option.ambientOcclusionLevel=原版 AO 强度
+option.ambientOcclusionLevel.comment= 原版 AO 强度. §a 此选项对性能几乎没有影响.
+value.ambientOcclusionLevel.0.0=关闭
+value.ambientOcclusionLevel.1.0=原版
+option.AOAmount= SSAO 强度
+option.AOAmount.comment= 增加了SSAO效果的强度.
+option.AOSamples= SSAO 采样
+option.AOSamples.comment= 更高的采样数能增加SSAO的质量, 但会降低Fps.
+
+option.CELSHADING= 卡通渲染
+option.CELSHADING.comment= 启用 / 禁用 卡通渲染. 卡通渲染是对物品和方块边界的一个轮廓线渲染. §a 此选项对性能几乎没有影响.
+
+screen.sCSBOX= 自定义选择框
+option.CSBOX= 切换
+option.CSBOX.comment= 启用自定义选择框颜色编辑. 启用后也会将导线改为所选颜色, 但这是不可避免的. §a 此选项对性能几乎没有影响.
+option.CSR= §c红
+option.CSR.comment= [RGBA色谱] 改变选择框颜色中红色的比重.
+option.CSG= §a绿
+option.CSG.comment= [RGBA色谱] 改变选择框颜色中绿色的比重.
+option.CSB= §9蓝
+option.CSB.comment= [RGBA色谱] 改变选择框颜色中蓝色的比重.
+
+screen.Water= 水
+
+screen.swaterColor= 水体颜色
+option.waterCustom= 类型
+option.waterCustom.comment= 改变水体颜色类型. §a 此选项对性能几乎没有影响.
+value.waterCustom.0=关闭
+value.waterCustom.1=贴图+群系
+value.waterCustom.2=贴图
+value.waterCustom.3=无贴图
+
+option.waterRed= §c红
+option.waterRed.comment= [RGBA色谱] 改变水体颜色中红色的比重.
+option.waterGreen= §a绿
+option.waterGreen.comment= [RGBA色谱] 改变水体颜色中绿色的比重.
+option.waterBlue= §9蓝
+option.waterBlue.comment= [RGBA色谱] 改变水体颜色中蓝色的比重.
+option.waterAlpha= Alpha
+option.waterAlpha.comment= [RGBA色谱] 改变水体颜色的 Alpha. Alpha 是颜色的不透明度或透明度.
+
+screen.swaterWaving=水波
+option.waterWaving= 波浪
+option.waterWaving.comment= 启用 / 禁用 水波. §a 此选项对性能几乎没有影响.
+option.waterWaveIntensity= 波浪强度
+option.waterWaveIntensity.comment= 波浪的高度和频率
+option.waterWaveSpeed= 波浪速度
+option.waterWaveSpeed.comment= 波浪的动画速度
+
+screen.swaterFog= 水雾
+option.waterFog= 水雾
+option.waterFog.comment= 启用 / 禁用 水雾. §a 此选项对性能几乎没有影响.
+value.waterFog.0= 原版
+value.waterFog.1= 着色
+option.waterFogDensity= 水下雾气密度
+option.waterFogDensity.comment= 改变从水中观察时的雾气密度.
+option.waterFogDensityAbove= 水面雾气密度
+option.waterFogDensityAbove.comment= 改变从水面观察时的雾气密度.
+
+screen.swavingFoliage= 植物摇晃
+option.wavingFoliage= 全部
+option.wavingFoliage.comment= 启用 / 禁用 全部植物摇晃. §6 此选项在森林地区有一定的性能影响.
+option.wavingGrasses = 草
+option.wavingDoublePlants = 高草丛
+option.wavingCrops = 作物
+option.wavingFlowers = 花朵
+option.wavingSaplings = 树苗
+option.wavingMushrooms = 蘑菇
+option.wavingVines = 藤蔓
+option.wavingLeaves= 树叶
+option.wavingLeaves.comment= 启用 / 禁用 树叶摇晃. §6 此选项在森林地区有一定的性能影响.
+option.wavingSpeed= 速度
+option.wavingSpeed.comment= 植物 / 树叶摇晃的速度.
+
+screen.swaterRefraction= 折射
+option.UNDERWATER_REFRACTION= 水下折射
+option.UNDERWATER_REFRACTION.comment= 启动 / 禁用 在水下产生的折射. §a 此选项对性能几乎没有影响.
+option.UNDERWATER_REFRACTION_AMOUNT= 强度
+option.UNDERWATER_REFRACTION_AMOUNT.comment= 改变折射效果的强度.
+option.UNDERWATER_REFRACTION_ANIMATION_SPEED= 速度
+option.UNDERWATER_REFRACTION_ANIMATION_SPEED.comment= 改变折射效果的波速.
+
+screen.motionblur= 动态模糊
+option.MOTION_BLUR= 动态模糊
+option.MOTION_BLUR.comment= 启用 / 禁用 动态模糊. FPS游戏中流行的一种效果, 模拟你快速转身时的视觉模糊. §a 此选项对性能几乎没有影响.
+option.MOTION_BLUR_NOISE= 运动模糊噪点
+option.MOTION_BLUR_NOISE.comment= 在模糊中添加噪点.
+value.MOTION_BLUR_NOISE.1=启用
+value.MOTION_BLUR_NOISE.0=禁用
+option.MOTION_BLUR_STRENGTH= 运动模糊强度
+option.MOTION_BLUR_STRENGTH.comment= 应用模糊的强度.越低就越强烈.
+
+option.NightDarknessLevel=夜晚黑暗程度
+option.NightDarknessLevel.comment=使夜晚更暗, 越低的数值意味着越黑. §a 此选项对性能几乎没有影响.
+
+// Overworld
+
+option.Overworld= §a主世界
+
+screen.DepthOfField= 景深
+screen.ODepthOfField= §a 主世界
+option.Depth_of_Field= 景深
+option.Depth_of_Field.comment= 启用景深效果, 当你近距离观察一个物体时, 通过模糊背景将你的视线“集中”在物体上. §e 此选项对性能有轻微影响.
+option.Distance_Blur= 距离模糊
+option.Distance_Blur.comment= 将景深“聚焦”效果改为模糊远处物体的效果. §e 此选项对性能有轻微影响.
+option.DoF_Strength= 强度
+option.DoF_Strength.comment= 聚焦效果的强度.也就是会变得有多模糊.
+option.Dof_Distance_View= 距离
+option.Dof_Distance_View.comment= 距对象多近, 才能产生距离模糊的效果 (如果启用距离模糊选项) .
+option.DOF_FOCAL= 焦点
+option.DOF_FOCAL.comment= 镜头聚焦区的大小.
+
+screen.Environment= 环境
+
+screen.sclouds= 云
+option.cloudsCustom= 自定义云层颜色
+option.cloudsCustom.comment= 启用 / 禁用 自定义云层颜色. §a 此选项对性能几乎没有影响.
+option.cloudsRed= §c红
+option.cloudsRed.comment= [RGBA色谱]改变云层颜色中红色的比重.
+option.cloudsGreen= §a绿
+option.cloudsGreen.comment= [RGBA色谱]改变云层颜色中绿色的比重.
+option.cloudsBlue= §9蓝
+option.cloudsBlue.comment= [RGBA色谱]改变云层颜色中蓝色的比重.
+option.cloudsAlpha= Alpha
+option.cloudsAlpha.comment= [RGBA色谱]改变云层颜色的Alpha.Alpha是颜色的不透明度或透明度.
+
+screen.OFog= §a主世界雾气
+option.OFOG= 主世界雾气
+option.OFOG.comment= 启用 / 禁用 主世界中的雾气生成. §a 此选项对性能几乎没有影响.
+value.OFOG.0= 原版
+value.OFOG.1= 着色
+option.OFOGR= §c红
+option.OFOGR.comment= [RGBA色谱]改变雾气颜色中红色的比重.
+option.OFOGG= §a绿
+option.OFOGG.comment= [RGBA色谱]改变雾气颜色中绿色的比重.
+option.OFOGB= §9蓝
+option.OFOGB.comment= [RGBA色谱]改变雾气颜色中蓝色的比重.
+option.OFOGI= 厚度
+option.OFOGI.comment= 改变雾气厚度. 越低的数值意味着越厚.
+option.HeightBasedFog=基于高度
+option.HeightBasedFog.comment= 使得越往下的雾气越厚重.
+
+
+// Nether
+
+option.Nether= §c下界
+
+option.NetherDarkness= 下界黑暗程度
+option.NetherDarkness.comment= 改变下届维度整体黑暗程度. §a 此选项对性能几乎没有影响.
+
+screen.NFog= §c下界雾气
+option.NFOG= 下届雾气
+option.NFOG.comment= 启用 / 禁用 下界中的雾气生成. §a 此选项对性能几乎没有影响.
+option.NFOGR= §c红
+option.NFOGR.comment= [RGBA色谱]改变雾气颜色中红色的比重.
+option.NFOGG= §a绿
+option.NFOGG.comment= [RGBA色谱]改变雾气颜色中绿色的比重.
+option.NFOGB= §9蓝
+option.NFOGB.comment= [RGBA色谱]改变雾气颜色中蓝色的比重.
+option.NFOGA= Alpha
+option.NFOGA.comment= [RGBA色谱]改变雾气颜色的Alpha.Alpha是颜色的不透明度或透明度.
+option.NFOGI= 厚度
+option.NFOGI.comment= 改变雾的厚度.
+
+screen.NDepthOfField= §c下界景深
+option.NDepth_of_Field= 景深
+option.NDepth_of_Field.comment= 启用景深效果, 当你近距离观察一个物体时, 通过模糊背景将你的视线“集中”在物体上. §e 此选项对性能有轻微影响.
+option.NDistance_Blur= 下界距离模糊
+option.NDistance_Blur.comment= 将景深“聚焦”效果改为模糊远处物体的效果. §e 此选项对性能有轻微影响.
+option.NDoF_Strength= 强度
+option.NDoF_Strength.comment= 聚焦效果的强度.也就是会变得有多模糊.
+option.NDof_Distance_View= 距离
+option.NDof_Distance_View.comment= 距对象多近, 才能产生距离模糊的效果 (如果启用下界距离模糊选项) .
+option.NDOF_FOCAL= 焦点
+option.NDOF_FOCAL.comment= 镜头聚焦区的大小.
+
+screen.netherRefraction= 热折射
+option.NETHER_REFRACTION= 热折射
+option.NETHER_REFRACTION.comment= 增加了类似于在水下的折射效果, 以模拟高温环境. §e 此选项对性能有轻微影响.
+value.NETHER_REFRACTION.0= 禁用
+value.NETHER_REFRACTION.1= 启用
+option.NETHER_REFRACTION_AMOUNT= 折射强度
+option.NETHER_REFRACTION_AMOUNT.comment= 改变折射效果的强度.
+option.NETHER_REFRACTION_ANIMATION_SPEED= 折射速度
+option.NETHER_REFRACTION_ANIMATION_SPEED.comment= 改变折射效果的波速.
+
+// End
+
+option.End= §d末地
+
+screen.EFog= §d末地雾气
+option.EFOG= 末地雾气
+option.EFOG.comment= 启用 / 禁用 末地维度中的雾气生成. §a 此选项对性能几乎没有影响.
+value.EFOG.0= 原版
+value.EFOG.1= 着色
+option.EFOGR= §c红
+option.EFOGR.comment= [RGBA色谱]改变雾气颜色中红色的比重.
+option.EFOGG= §a绿
+option.EFOGG.comment= [RGBA色谱]改变雾气颜色中绿色的比重.
+option.EFOGB= §9蓝
+option.EFOGB.comment= [RGBA色谱]改变雾气颜色中蓝色的比重.
+option.EFOGI= 厚度
+option.EFOGI.comment= 改变雾的厚度. 越低的数值意味着越厚.
+
+screen.Post_Process= 后处理
+screen.Waving_Blocks= 方块摇晃
+
+option.LBOFOG= 陆地上
+option.CSKY= 自定义天空颜色
+option.CSKYR= §c红
+option.CSKYG= §a绿
+option.CSKYB= §9蓝
+option.nCSKY= 注释
+value.nCSKY.0=无
+option.nCSKY.comment= 这些设置只控制上层天空.雾的颜色控制地平线的颜色.
+
+#额外汉化接口
+screen.Visual=视觉
+option.Whiteworld=白色世界
+
+screen.Color= 颜色
+screen.SkyColor= 天空颜色
+
+screen.Fog= 雾气
+
+screen.World= 世界
+screen.Sky=天空
+
+screen.DEV=仍在开发中的功能
