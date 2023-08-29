@@ -1,0 +1,230 @@
+## Profiles
+    profile.POTATO = Potato
+    profile.LOW = Low
+    profile.MEDIUM = Medium (Default)
+    profile.HIGH = High
+    profile.ULTRA = Ultra
+
+screen.DEBUG = Super Duper Vanilla v1.3.4
+    screen.DEBUG.comment = Developed by §2Eldeston§f§r, produced by §9FlameRender §9Studios. §eClick me to open shader debug settings!
+
+    option.COLOR_MODE = Color mode
+        value.COLOR_MODE.0 = OFF
+        value.COLOR_MODE.1 = White Mode
+        value.COLOR_MODE.2 = Black Mode
+        value.COLOR_MODE.3 = Foliage Mode
+
+    option.NOISE_SPEED = Noise speed
+
+screen.POST = Post
+    option.OUTLINES = Outlines
+        value.OUTLINES.0 = OFF
+        value.OUTLINES.1 = Standard
+        value.OUTLINES.2 = Dungeons
+
+    option.OUTLINE_BRIGHTNESS = Outline brightness
+    option.OUTLINE_PIX_SIZE = Outline pixel size
+    option.RETRO_FILTER = Retro filter
+
+    option.ANTI_ALIASING = Anti aliasing
+        value.ANTI_ALIASING.0 = OFF
+        value.ANTI_ALIASING.1 = FXAA
+        value.ANTI_ALIASING.2 = TAA
+        value.ANTI_ALIASING.3 = Lite TAA + FXAA
+
+    option.SHARPEN_FILTER = Sharpen filter
+
+    screen.CAMERA = Camera settings
+        option.DOF = Depth of field
+        option.DOF_STRENGTH = Depth of field strength
+        option.CHROMATIC_ABERRATION = Chromatic aberration
+        option.ABERRATION_PIX_SIZE = Aberration pixel size
+        option.BLOOM = Bloom
+        option.BLOOM_STRENGTH = Bloom strength
+        option.LENS_FLARE = Lens flare
+        option.LENS_FLARE_STRENGTH = Lens flare strength
+        option.VIGNETTE = Vignette
+        option.VIGNETTE_STRENGTH = Vignette strength
+        option.MOTION_BLUR = Motion blur
+        option.MOTION_BLUR_STRENGTH = Motion blur strength
+
+    screen.TONEMAP = Tonemap settings
+        option.CONTRAST = Contrast
+        option.SATURATION = Saturation
+        option.WHITE_POINT = White point
+        option.SHOULDER_STRENGTH = Shoulder strength
+        option.AUTO_EXPOSURE = Auto exposure
+        option.AUTO_EXPOSURE_SPEED = Auto exposure speed
+        option.EXPOSURE = Exposure
+        option.MIN_EXPOSURE = Min exposure
+        option.TINT_R = Red tint
+        option.TINT_G = Green tint
+        option.TINT_B = Blue tint
+
+screen.LIGHTING = Lighting
+    option.SHADOW_MAPPING = Shadowmapping
+    option.SHADOW_COLOR = Shadowmap color
+    option.SHADOW_FILTER = Shadowmap filter
+    option.ENTITY_SHADOWS = Entity shadows
+    option.BLOCK_ENTITY_SHADOWS = Block entity shadows
+    option.shadowMapResolution = Shadowmap resolution
+    option.shadowDistance = Shadowmap distance
+    option.sunPathRotation = Light path angle
+
+    option.UNDERWATER_CAUSTICS = Underwater caustics
+        value.UNDERWATER_CAUSTICS.0 = OFF
+        value.UNDERWATER_CAUSTICS.1 = Underwater
+        value.UNDERWATER_CAUSTICS.2 = Full
+
+    option.SSAO = SSAO
+    option.AMBIENT_LIGHTING = Ambient lighting
+
+    screen.RAY_TRACING = Ray tracing settings
+        option.SSGI = SSGI
+        option.SSR = SSR
+        option.SSGI_STEPS = SSGI steps
+        option.SSR_STEPS = SSR steps
+        option.SSGI_BISTEPS = SSGI refinement steps
+        option.SSR_BISTEPS = SSR refinement steps
+        option.ROUGH_REFLECTIONS = Rough reflections
+        option.PREVIOUS_FRAME = Previous frame buffer
+
+screen.ATMOSPHERICS = Atmospherics
+    option.SUN_MOON_TYPE = Sun/moon type
+        value.SUN_MOON_TYPE.0 = Default
+        value.SUN_MOON_TYPE.1 = Round
+        value.SUN_MOON_TYPE.2 = Vanilla
+
+    option.SUN_MOON_INTENSITY = Sun/moon intensity
+    option.VOLUMETRIC_LIGHTING = Volumetric lighting
+    option.VOLUMETRIC_LIGHTING_STRENGTH = Volumetric lighting strength
+    option.BORDER_FOG = Border fog
+    option.GROUND_FOG_STRENGTH = Ground fog strength
+    option.STORY_MODE_CLOUDS = Story mode clouds
+    option.DOUBLE_VANILLA_CLOUDS = Double vanilla clouds
+    option.DYNAMIC_CLOUDS = Dynamic clouds
+    option.FADE_SPEED = Fade speed
+    option.SECOND_CLOUD_HEIGHT = 2nd cloud height
+    option.SKYBOX_BRIGHTNESS = Skybox brightness
+
+screen.WORLD = World
+    option.TERRAIN_ANIMATION = Terrain animation
+    option.WATER_ANIMATION = Water animation
+    option.WEATHER_ANIMATION = Weather animation
+
+    option.TIMELAPSE_MODE = Timelapse mode
+        value.TIMELAPSE_MODE.0 = OFF
+        value.TIMELAPSE_MODE.1 = Fragment
+        value.TIMELAPSE_MODE.2 = Full
+
+    option.WIND_SPEED = Wind speed
+    option.CURRENT_SPEED = Current speed
+    option.WIND_FREQUENCY = Wind frequency
+    option.CURRENT_FREQUENCY = Current frequency
+    option.WORLD_CURVATURE = World curvature
+    option.WORLD_CURVATURE_SIZE = World curvature size
+
+screen.PBR = PBR
+    option.PBR_MODE = PBR mode
+        value.PBR_MODE.0 = OFF
+        value.PBR_MODE.1 = Integrated PBR
+        value.PBR_MODE.2 = Lab PBR 1.3
+
+    option.ENVIRO_PBR = Enviro PBR materials
+    option.AUTO_GEN_NORM = Auto gen normals
+    option.AUTO_GEN_NORM_RES = Auto gen normal resolution
+    option.SUBSURFACE_SCATTERING = Subsurface scattering
+    option.EMISSIVE_INTENSITY = Emissive intensity
+    option.SLOPE_NORMALS = Slope normals
+    option.NORMAL_STRENGTH = Normal strength
+    option.DIRECTIONAL_LIGHTMAPS = Directional lightmaps
+    option.DIRECTIONAL_LIGHTMAP_STRENGTH = Directional lightmaps strength
+
+    screen.POM_SETTINGS = Parallax occlusion settings
+        option.PARALLAX_OCCLUSION = Parallax occlusion
+        option.PARALLAX_DEPTH = Parallax depth
+        option.PARALLAX_STEPS = Parallax steps
+        option.PARALLAX_SHADOWS = Parallax shadows
+        option.PARALLAX_SHADOW_STEPS = Parallax shadow steps
+
+    screen.WATER_SETTINGS = Water material settings
+        option.WATER_NOISE = Water noise
+        option.WATER_BRIGHTNESS = Water brightness
+        option.WATER_NORM = Water normalmap
+        option.WATER_BLUR_SIZE = Water normalmap blur size
+        option.WATER_DEPTH_SIZE = Water normalmap depth size
+        option.WATER_TILE_SIZE = Water tile size
+        option.WATER_STYLIZE_ABSORPTION = Water absorption
+        option.WATER_FOAM = Water foam
+        option.WATER_FLAT = Flat water albedo
+
+    screen.LAVA_SETTINGS = Lava material settings
+        option.LAVA_BRIGHTNESS = Lava brightness
+        option.LAVA_NOISE = Lava noise
+        option.LAVA_TILE_SIZE = Lava tile size
+
+screen.CONFIGURATION = Configuration
+    screen.OVERWORLD_SETTINGS = Overworld settings
+        screen.DAY_SETTINGS = Day settings
+            option.LIGHT0_DR = Light red
+            option.LIGHT0_DG = Light green
+            option.LIGHT0_DB = Light blue
+            option.LIGHT0_DI = Light intensity
+
+            option.SKY0_DR = Sky red
+            option.SKY0_DG = Sky green
+            option.SKY0_DB = Sky blue
+            option.SKY0_DI = Sky intensity
+
+        screen.NIGHT_SETTINGS = Night settings
+            option.LIGHT0_NR = Light red
+            option.LIGHT0_NG = Light green
+            option.LIGHT0_NB = Light blue
+            option.LIGHT0_NI = Light intensity
+
+            option.SKY0_NR = Sky red
+            option.SKY0_NG = Sky green
+            option.SKY0_NB = Sky blue
+            option.SKY0_NI = Sky intensity
+
+        screen.TWILIGHT_SETTINGS = Twilight settings
+            option.LIGHT0_TR = Light red
+            option.LIGHT0_TG = Light green
+            option.LIGHT0_TB = Light blue
+            option.LIGHT0_TI = Light intensity
+
+            option.SKY0_TR = Sky red
+            option.SKY0_TG = Sky green
+            option.SKY0_TB = Sky blue
+            option.SKY0_TI = Sky intensity
+
+        screen.FOG_SETTINGS0 = Fog settings
+            option.FOG0_VERTICAL_DENSITY_D = Vertical density day
+            option.FOG0_VERTICAL_DENSITY_N = Vertical density night
+            option.FOG0_VERTICAL_DENSITY_T = Vertical density twilight
+            option.FOG0_TOTAL_DENSITY = Total density
+
+    screen.NETHER_SETTINGS = Nether settings
+        option.FOGn1_VERTICAL_DENSITY = Vertical density
+        option.FOGn1_TOTAL_DENSITY = Total density
+        option.WORLDn1_VANILLA_FOGCOLI = Sky intensity
+
+    screen.END_SETTINGS = End settings
+        option.LIGHT1_CR = Light red
+        option.LIGHT1_CG = Light green
+        option.LIGHT1_CB = Light blue
+        option.LIGHT1_CI = Light intensity
+
+        option.SKY1_CR = Sky red
+        option.SKY1_CG = Sky green
+        option.SKY1_CB = Sky blue
+        option.SKY1_CI = Sky intensity
+
+        option.FOG1_VERTICAL_DENSITY = Vertical density
+        option.FOG1_TOTAL_DENSITY = Total density
+
+    screen.BLOCK_LIGHT_COLOR = Block light settings
+        option.BLOCKLIGHT_R = Block light red
+        option.BLOCKLIGHT_G = Block light green
+        option.BLOCKLIGHT_B = Block light blue
+        option.BLOCKLIGHT_I = Block light intensity
