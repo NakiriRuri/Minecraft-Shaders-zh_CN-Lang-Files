@@ -83,7 +83,7 @@ screen.LIGHTING = 照明
         value.UNDERWATER_CAUSTICS.2 = 保持开启
 
     option.SSAO = 屏幕空间环境光遮蔽(SSAO)
-    option.AMBIENT_LIGHTING = 环境光遮蔽(AO)
+    option.AMBIENT_LIGHTING = 环境照明
 
     screen.RAY_TRACING = 路径追踪设置
         option.SSGI = 屏幕空间全局照明(SSGI)
@@ -101,7 +101,7 @@ screen.ATMOSPHERICS = 大气
         value.SUN_MOON_TYPE.1 = 圆形
         value.SUN_MOON_TYPE.2 = 原版
 
-    option.SUN_MOON_INTENSITY = 日/月 大小
+    option.SUN_MOON_INTENSITY = 日/月 强度
     option.VOLUMETRIC_LIGHTING = 体积光
     option.VOLUMETRIC_LIGHTING_STRENGTH = 体积光强度
     option.BORDER_FOG = 边界雾
@@ -124,9 +124,9 @@ screen.WORLD = 世界
         value.TIMELAPSE_MODE.2 = 全部应用
 
     option.WIND_SPEED = 风速
-    option.CURRENT_SPEED = 当前风速
+    option.CURRENT_SPEED = 水流速度
     option.WIND_FREQUENCY = 风频
-    option.CURRENT_FREQUENCY = 当前风频
+    option.CURRENT_FREQUENCY = 水流频率
     option.WORLD_CURVATURE = 世界曲率
     option.WORLD_CURVATURE_SIZE = 世界曲率半径
 
@@ -140,9 +140,9 @@ screen.PBR = PBR
     option.AUTO_GEN_NORM = 自动生成法线
     option.AUTO_GEN_NORM_RES = 自动生成法线分辨率
     option.SUBSURFACE_SCATTERING = 次表面散射
-    option.EMISSIVE_INTENSITY = 发光亮度
-    option.SLOPE_NORMALS = 法线斜率
-    option.NORMAL_STRENGTH = 法线斜率
+    option.EMISSIVE_INTENSITY = 自发光强度
+    option.SLOPE_NORMALS = 斜坡法线
+    option.NORMAL_STRENGTH = 法线强度
     option.DIRECTIONAL_LIGHTMAPS = 指向性光图
     option.DIRECTIONAL_LIGHTMAP_STRENGTH = 指向性光图强度
 
@@ -162,7 +162,7 @@ screen.PBR = PBR
         option.WATER_TILE_SIZE = 水砖尺寸
         option.WATER_STYLIZE_ABSORPTION = 风格化水体吸收
         option.WATER_FOAM = 水发泡
-        option.WATER_FLAT = 水面反射率
+        option.WATER_FLAT = 水面反照
 
     screen.LAVA_SETTINGS = 岩浆表面设置
         option.LAVA_BRIGHTNESS = 岩浆亮度
