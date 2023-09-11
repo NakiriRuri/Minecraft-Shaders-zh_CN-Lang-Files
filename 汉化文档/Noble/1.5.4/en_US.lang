@@ -1,0 +1,864 @@
+###############################################
+#           Copyright (C) 2023 Belmu          #
+#       GNU General Public License V3.0       #
+###############################################
+
+#shaders/lang/en_US.lang
+
+##################### MISC #####################
+
+option.ABOUT = §6§lNoble
+option.ABOUT.comment = §r§lTwitter: §r§7@Belmu_. §r§lDiscord: §r§7belmu. §r§lPatreon: §r§6https://www.patreon.com/Belmu. §r§lGithub: §r§6https://www.github.com/BelmuTM.
+value.ABOUT.0 = §rby Belmu
+value.ABOUT.1 = §b§lBoop!
+
+profile.RENDER  = §a§lRENDER
+profile.DEFAULT = §a§lDEFAULT
+profile.comment  = §lDEFAULT§r profile refers to Noble with default settings. §r§lRENDER§r profile transforms Noble into a renderer by boosting certain settings. §c§lDISCLAIMER: RENDER MODE MIGHT HEAVILY AFFECT §c§lTHE PERFORMANCE.
+
+option.RENDER_SCALE = Render Scale
+option.RENDER_SCALE.comment = Adjusts the overall rendering scale of Noble. §cHigher value gives better results, but reduces §cperformance.
+suffix.RENDER_SCALE = x
+
+##################### SCREENS #####################
+
+screen.LIGHTING          = Lighting
+screen.AMBIENT_OCCLUSION = Ambient Occlusion
+screen.RAYTRACING        = Ray Tracing
+screen.FILTER            = Denoiser
+screen.ATMOSPHERICS      = Atmospherics
+screen.ATMOSPHERE        = Atmosphere
+screen.CLOUDS            = Clouds
+screen.CLOUDS_LAYER0     = First Layer
+screen.CLOUDS_LAYER1     = Second Layer
+screen.FOG               = Air Fog
+screen.STARS             = Stars
+screen.TERRAIN           = Terrain
+screen.WATER             = Water
+screen.WATER_ABSORPTION  = Absorption
+screen.WATER_SCATTERING  = Scattering
+screen.POM               = POM
+screen.CAMERA            = Camera
+screen.CAMERA_SETTINGS   = Camera Settings
+screen.ANTI_ALIASING     = Anti-Aliasing
+screen.COLOR_GRADING     = Color Grading
+screen.POST_PROCESSING   = Post-Processing
+screen.DEPTH_OF_FIELD    = Depth of Field
+screen.DEBUG             = Debug
+
+##################### LIGHTING #####################
+
+option.BLOCKLIGHT_TEMPERATURE = Blocklight Temperature
+option.BLOCKLIGHT_TEMPERATURE.comment = Adjusts the temperature of blocklight (in Kelvins). It influences the blocklight color.
+suffix.BLOCKLIGHT_TEMPERATURE = K
+
+option.EMISSIVE_INTENSITY = Emissive Intensity
+option.EMISSIVE_INTENSITY.comment = Adjusts the intensity of emitted blocklight (in Lumens).
+suffix.EMISSIVE_INTENSITY =  lumens
+
+option.DIRECTIONAL_LIGHTMAP = Directional Lightmap
+option.DIRECTIONAL_LIGHTMAP.comment = Makes Minecraft's lightmap depend on the direction to the light source. §cMight produce visual bugs.
+value.DIRECTIONAL_LIGHTMAP.0 = §cOFF
+value.DIRECTIONAL_LIGHTMAP.1 = §aON
+
+option.SUBSURFACE_SCATTERING = Subsurface Scattering
+option.SUBSURFACE_SCATTERING.comment = Simulates how light goes through certain materials (leaves, skin,...). §cRequires a PBR resource pack!
+value.SUBSURFACE_SCATTERING.0 = §cOFF
+value.SUBSURFACE_SCATTERING.1 = §aON
+
+option.MATERIAL_AO = Material AO
+option.MATERIAL_AO.comment = §bMaterial Ambient Occlusion§r. Adds pseudo-shadows from the textures themselves. §cRequires a LabPBR resource pack!
+value.MATERIAL_AO.0 = §cOFF
+value.MATERIAL_AO.1 = §aON
+
+option.SPECULAR = Specular
+option.SPECULAR.comment = Adds a certain shininess to blocks.
+value.SPECULAR.0 = §cOFF
+value.SPECULAR.1 = §aON
+
+option.SHADOWS = Shadows
+option.SHADOWS.comment = Adds shadows.
+value.SHADOWS.0 = §cOFF
+value.SHADOWS.1 = §aON
+
+option.SHADOW_TYPE = Shadow Type
+option.SHADOW_TYPE.comment = §aNormal§r shadows are shadows with blurred edges. §aSoft§r shadows get blurrier the farther they are from the blocker. §aSharp§r shadows have very sharp edges.
+value.SHADOW_TYPE.0 = §eNormal
+value.SHADOW_TYPE.1 = §eSoft
+value.SHADOW_TYPE.2 = §eSharp
+
+option.shadowDistance = Shadow Distance
+option.shadowDistance.comment = Adjusts §bShadows§r maximum render distance.
+
+option.SHADOW_SAMPLES = Shadow Samples
+option.SHADOW_SAMPLES.comment = Adjusts §bShadows§r quality. §cHigher resolution gives better shadows, but reduces §cperformance. §cDoesn't apply to hard shadows.
+value.SHADOW_SAMPLES.1 = §b1
+value.SHADOW_SAMPLES.2 = §b2
+value.SHADOW_SAMPLES.3 = §33
+value.SHADOW_SAMPLES.4 = §34
+value.SHADOW_SAMPLES.5 = §25
+value.SHADOW_SAMPLES.6 = §26
+value.SHADOW_SAMPLES.7 = §a7
+value.SHADOW_SAMPLES.8 = §a8
+value.SHADOW_SAMPLES.9 = §e9
+value.SHADOW_SAMPLES.10 = §e10
+value.SHADOW_SAMPLES.11 = §611
+value.SHADOW_SAMPLES.12 = §612
+value.SHADOW_SAMPLES.13 = §c13
+value.SHADOW_SAMPLES.14 = §c14
+value.SHADOW_SAMPLES.15 = §415
+value.SHADOW_SAMPLES.16 = §416
+
+option.shadowMapResolution = Shadow Resolution
+option.shadowMapResolution.comment = Adjusts §bShadow§r resolution. §cHigher resolution gives sharper shadows, but reduces §cperformance.
+value.shadowMapResolution.512 = §b512
+value.shadowMapResolution.1024 = §31024
+value.shadowMapResolution.2048 = §22048
+value.shadowMapResolution.3072 = §a3072
+value.shadowMapResolution.4096 = §e4096
+value.shadowMapResolution.6144 = §66144
+value.shadowMapResolution.8192 = §c8192
+value.shadowMapResolution.10240 = §410240
+suffix.shadowMapResolution = x
+
+##################### AMBIENT OCCLUSION #####################
+
+option.AO = Ambient Occlusion (AO)
+option.AO.comment = §bAmbient Occlusion. §rFeatures pseudo-shadows that enhance a scene's depth perception.
+value.AO.0 = §cOFF
+value.AO.1 = §aON
+
+option.AO_FILTER = AO Filter
+option.AO_FILTER.comment = Accumulates §bAmbient Occlusion§r over multiple frames to reduce noise and give a cleaner result.
+value.AO_FILTER.0 = §cOFF
+value.AO_FILTER.1 = §aON
+
+option.AO_TYPE = AO Type
+option.AO_TYPE.comment = §aRTAO §7-> §rRay Traced Ambient Occlusion. §aSSAO §7-> §rScreen Space Ambient Occlusion.
+value.AO_TYPE.0 = §e§lSSAO
+value.AO_TYPE.1 = §e§lRTAO
+value.AO_TYPE.2 = §e§lGTAO
+
+option.AO_SCALE = AO Render Scale
+option.AO_SCALE.comment = Adjusts §bAO§r's rendering scale. §cHigher value gives better results, but reduces §cperformance.
+suffix.AO_SCALE = x
+value.AO_SCALE.10 = 0.10
+value.AO_SCALE.15 = 0.15
+value.AO_SCALE.20 = 0.20
+value.AO_SCALE.25 = 0.25
+value.AO_SCALE.30 = 0.30
+value.AO_SCALE.35 = 0.35
+value.AO_SCALE.40 = 0.40
+value.AO_SCALE.45 = 0.45
+value.AO_SCALE.50 = 0.50
+value.AO_SCALE.55 = 0.55
+value.AO_SCALE.60 = 0.60
+value.AO_SCALE.65 = 0.65
+value.AO_SCALE.70 = 0.70
+value.AO_SCALE.75 = 0.75
+value.AO_SCALE.80 = 0.80
+value.AO_SCALE.85 = 0.85
+value.AO_SCALE.90 = 0.90
+value.AO_SCALE.95 = 0.95
+value.AO_SCALE.100 = 1.00
+
+option.SSAO_SAMPLES = SSAO Samples
+option.SSAO_SAMPLES.comment = Influences §bSSAO§r's quality. §cHigher value gives better results, but reduces §cperformance.
+value.SSAO_SAMPLES.4 = §24
+value.SSAO_SAMPLES.8 = §a8
+value.SSAO_SAMPLES.12 = §e12
+value.SSAO_SAMPLES.16 = §616
+value.SSAO_SAMPLES.20 = §c20
+
+option.SSAO_RADIUS = SSAO Radius
+option.SSAO_RADIUS.comment = Adjusts §bSSAO§r's radius.
+
+option.RTAO_SAMPLES = RTAO Samples
+option.RTAO_SAMPLES.comment = Influences §bRTAO§r's quality. §cHigher value gives better results, but reduces §cperformance.
+value.RTAO_SAMPLES.2 = §22
+value.RTAO_SAMPLES.4 = §a4
+value.RTAO_SAMPLES.6 = §e6
+value.RTAO_SAMPLES.8 = §68
+value.RTAO_SAMPLES.10 = §c10
+
+option.RTAO_STEPS = RTAO Steps
+option.RTAO_STEPS.comment = Influences §bRTAO§r's accuracy. §cHigher value gives better results, but reduces §cperformance.
+value.RTAO_STEPS.16 = §216
+value.RTAO_STEPS.24 = §a24
+value.RTAO_STEPS.32 = §e32
+value.RTAO_STEPS.40 = §640
+value.RTAO_STEPS.64 = §c64
+
+option.GTAO_SLICES = GTAO Slices
+option.GTAO_SLICES.comment = Influences §bGTAO§r's accuracy. §cHigher value gives better results, but reduces §cperformance.
+value.GTAO_SLICES.1 = §21
+value.GTAO_SLICES.2 = §a2
+value.GTAO_SLICES.3 = §e3
+value.GTAO_SLICES.4 = §64
+value.GTAO_SLICES.5 = §c5
+value.GTAO_SLICES.6 = §46
+
+option.GTAO_RADIUS = GTAO Radius
+option.GTAO_RADIUS.comment = Adjusts §bGTAO§r's radius.
+
+##################### RAY TRACING #####################
+
+### REFLECTIONS & REFRACTIONS
+
+option.REFLECTIONS = Reflections
+option.REFLECTIONS.comment = §cCan only reflect what's being displayed §con your screen.
+value.REFLECTIONS.0 = §cOFF
+value.REFLECTIONS.1 = §aON
+
+option.REFRACTIONS = Refractions
+option.REFRACTIONS.comment = Applies §bRefractions§r to refractive materials (glass, water, ice,...). §cCan only refract what's being displayed §con your screen.
+value.REFRACTIONS.0 = §cOFF
+value.REFRACTIONS.1 = §aON
+
+option.REFLECTIONS_TYPE = Reflections Type
+option.REFLECTIONS_TYPE.comment = §bSmooth reflections§r do not consider a material's roughness. §bRough reflections§r do consider it, §cthey give a better §cresult but reduce performance.
+value.REFLECTIONS_TYPE.0 = §eSmooth Reflections
+value.REFLECTIONS_TYPE.1 = §eRough Reflections
+
+option.REFLECTIONS_SCALE = Reflections Render Scale
+option.REFLECTIONS_SCALE.comment = Adjusts §bReflections§r' rendering scale. §cHigher value gives better results, but reduces §cperformance.
+suffix.REFLECTIONS_SCALE = x
+value.REFLECTIONS_SCALE.10 = 0.10
+value.REFLECTIONS_SCALE.15 = 0.15
+value.REFLECTIONS_SCALE.20 = 0.20
+value.REFLECTIONS_SCALE.25 = 0.25
+value.REFLECTIONS_SCALE.30 = 0.30
+value.REFLECTIONS_SCALE.35 = 0.35
+value.REFLECTIONS_SCALE.40 = 0.40
+value.REFLECTIONS_SCALE.45 = 0.45
+value.REFLECTIONS_SCALE.50 = 0.50
+value.REFLECTIONS_SCALE.55 = 0.55
+value.REFLECTIONS_SCALE.60 = 0.60
+value.REFLECTIONS_SCALE.65 = 0.65
+value.REFLECTIONS_SCALE.70 = 0.70
+value.REFLECTIONS_SCALE.75 = 0.75
+value.REFLECTIONS_SCALE.80 = 0.80
+value.REFLECTIONS_SCALE.85 = 0.85
+value.REFLECTIONS_SCALE.90 = 0.90
+value.REFLECTIONS_SCALE.95 = 0.95
+value.REFLECTIONS_SCALE.100 = 1.00
+
+### GLOBAL ILLUMINATION
+
+option.GI = Global Illumination (GI)
+option.GI.comment = Simulates light bounces, §7§l§oexample: the color of a §7§l§ogreen wall will cast onto an object next to it. §cCan only sample what's being displayed §con your screen.
+value.GI.0 = §cOFF
+value.GI.1 = §aON
+
+option.ATROUS_FILTER = À-Trous Filter
+option.ATROUS_FILTER.comment = Denoises §bGlobal Illumination§r by blurring it while preserving details.
+value.ATROUS_FILTER.0 = §cOFF
+value.ATROUS_FILTER.1 = §aON
+
+option.TEMPORAL_ACCUMULATION = Temporal Accumulation
+option.TEMPORAL_ACCUMULATION.comment = Accumulates §bGlobal Illumination§r over multiple frames to reduce noise and give a cleaner result.
+value.TEMPORAL_ACCUMULATION.0 = §cOFF
+value.TEMPORAL_ACCUMULATION.1 = §aON
+
+option.ATROUS_STEP_SIZE = Blur Size
+option.ATROUS_STEP_SIZE.comment = Adjusts the size of the blur used for À-Trous filtering.
+
+option.NORMAL_WEIGHT_SIGMA = Normal Weight Strength
+option.NORMAL_WEIGHT_SIGMA.comment = Adjusts the strength of the normal weight used for À-Trous filtering.
+
+option.DEPTH_WEIGHT_SIGMA = Depth Weight Strength
+option.DEPTH_WEIGHT_SIGMA.comment = Adjusts the strength of the depth weight used for À-Trous filtering.
+
+option.LUMINANCE_WEIGHT_SIGMA = Luminance Weight Strength
+option.LUMINANCE_WEIGHT_SIGMA.comment = Adjusts the strength of the luminance weight used for À-Trous filtering.
+
+option.SKY_CONTRIBUTION = Sky Contribution
+option.SKY_CONTRIBUTION.comment = Sky contribution for §bGlobal Illumination§r (can be problematic in screen space). Lets the sky contribute in indirect lighting.
+value.SKY_CONTRIBUTION.0 = §cOFF
+value.SKY_CONTRIBUTION.1 = §aON
+
+option.GI_SCALE = GI Render Scale
+option.GI_SCALE.comment = Adjusts §bGI§r's rendering scale. §cHigher value gives better results, but reduces §cperformance.
+suffix.GI_SCALE = x
+value.GI_SCALE.10 = 0.10
+value.GI_SCALE.15 = 0.15
+value.GI_SCALE.20 = 0.20
+value.GI_SCALE.25 = 0.25
+value.GI_SCALE.30 = 0.30
+value.GI_SCALE.35 = 0.35
+value.GI_SCALE.40 = 0.40
+value.GI_SCALE.45 = 0.45
+value.GI_SCALE.50 = 0.50
+value.GI_SCALE.55 = 0.55
+value.GI_SCALE.60 = 0.60
+value.GI_SCALE.65 = 0.65
+value.GI_SCALE.70 = 0.70
+value.GI_SCALE.75 = 0.75
+value.GI_SCALE.80 = 0.80
+value.GI_SCALE.85 = 0.85
+value.GI_SCALE.90 = 0.90
+value.GI_SCALE.95 = 0.95
+value.GI_SCALE.100 = 1.00
+
+option.GI_SAMPLES = GI Samples
+option.GI_SAMPLES.comment = Adjusts the amount of samples taken to calculate §bGlobal Illumination§r. §cHigher value gives better results, but reduces §cperformance.
+
+option.MAX_GI_BOUNCES = GI Bounces
+option.MAX_GI_BOUNCES.comment = Makes §bGlobal Illumination§r bounce §aX§r times to gather light. §cHigher value gives better results, but reduces §cperformance.
+value.MAX_GI_BOUNCES.9999 = §cInfinite
+
+### RAY TRACING
+
+option.BINARY_REFINEMENT = Binary Refinement
+option.BINARY_REFINEMENT.comment = Adjusts the raytracer's hit position to make it more accurate. §cHigher value gives better results, but reduces §cperformance.
+value.BINARY_REFINEMENT.0 = §cOFF
+value.BINARY_REFINEMENT.1 = §aON
+
+option.SSR_REPROJECTION = SSR Reprojection
+option.SSR_REPROJECTION.comment = Reflects the last frame to make the light bounce infinitely. §aIt doesn't affect performance.
+value.SSR_REPROJECTION.0 = §cOFF
+value.SSR_REPROJECTION.1 = §aON
+
+##################### ATMOSPHERICS #####################
+
+option.sunPathRotation = Celestial Path Rotation
+option.sunPathRotation.comment = Adjusts the sun's / the moon's path rotation.
+suffix.sunPathRotation = °
+
+option.CELESTIAL_SIZE_MULTIPLIER = Celestial Size Multiplier
+option.CELESTIAL_SIZE_MULTIPLIER.comment = Adjusts the size of the sun / the moon.
+suffix.CELESTIAL_SIZE_MULTIPLIER = x
+
+### ATMOSPHERE
+
+option.ATMOSPHERE_SCALE = Render Scale
+option.ATMOSPHERE_SCALE.comment = Adjusts the §bAtmosphere§r's rendering scale. §cHigher value gives better results, but reduces §cperformance.
+suffix.ATMOSPHERE_SCALE = x
+value.ATMOSPHERE_SCALE.10 = 0.10
+value.ATMOSPHERE_SCALE.15 = 0.15
+value.ATMOSPHERE_SCALE.20 = 0.20
+value.ATMOSPHERE_SCALE.25 = 0.25
+value.ATMOSPHERE_SCALE.30 = 0.30
+value.ATMOSPHERE_SCALE.35 = 0.35
+value.ATMOSPHERE_SCALE.40 = 0.40
+value.ATMOSPHERE_SCALE.45 = 0.45
+value.ATMOSPHERE_SCALE.50 = 0.50
+value.ATMOSPHERE_SCALE.55 = 0.55
+value.ATMOSPHERE_SCALE.60 = 0.60
+value.ATMOSPHERE_SCALE.65 = 0.65
+value.ATMOSPHERE_SCALE.70 = 0.70
+value.ATMOSPHERE_SCALE.75 = 0.75
+value.ATMOSPHERE_SCALE.80 = 0.80
+value.ATMOSPHERE_SCALE.85 = 0.85
+value.ATMOSPHERE_SCALE.90 = 0.90
+value.ATMOSPHERE_SCALE.95 = 0.95
+value.ATMOSPHERE_SCALE.100 = 1.00
+
+option.ATMOSPHERE_SCATTERING_STEPS = Scattering Samples
+option.ATMOSPHERE_SCATTERING_STEPS.comment = Influences how accurately light scatters in the atmosphere. §cHigher value gives better results, but reduces §cperformance.
+value.ATMOSPHERE_SCATTERING_STEPS.8  = §38
+value.ATMOSPHERE_SCATTERING_STEPS.12 = §212
+value.ATMOSPHERE_SCATTERING_STEPS.16 = §a16
+value.ATMOSPHERE_SCATTERING_STEPS.20 = §e20
+value.ATMOSPHERE_SCATTERING_STEPS.24 = §624
+value.ATMOSPHERE_SCATTERING_STEPS.28 = §c28
+value.ATMOSPHERE_SCATTERING_STEPS.32 = §432
+
+option.ATMOSPHERE_TRANSMITTANCE_STEPS = Transmittance Samples
+option.ATMOSPHERE_TRANSMITTANCE_STEPS.comment = Influences how accurately light transmits in the atmosphere. §cHigher value gives better results, but reduces §cperformance.
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.8  = §38
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.12 = §212
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.16 = §a16
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.20 = §e20
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.24 = §624
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.28 = §c28
+value.ATMOSPHERE_TRANSMITTANCE_STEPS.32 = §432
+
+### CLOUDS
+
+option.CLOUDS_SCALE = Render Scale
+option.CLOUDS_SCALE.comment = Adjusts the §bClouds§r' rendering scale. §cHigher value gives better results, but reduces §cperformance.
+suffix.CLOUDS_SCALE = x
+value.CLOUDS_SCALE.10 = 0.10
+value.CLOUDS_SCALE.15 = 0.15
+value.CLOUDS_SCALE.20 = 0.20
+value.CLOUDS_SCALE.25 = 0.25
+value.CLOUDS_SCALE.30 = 0.30
+value.CLOUDS_SCALE.35 = 0.35
+value.CLOUDS_SCALE.40 = 0.40
+value.CLOUDS_SCALE.45 = 0.45
+value.CLOUDS_SCALE.50 = 0.50
+value.CLOUDS_SCALE.55 = 0.55
+value.CLOUDS_SCALE.60 = 0.60
+value.CLOUDS_SCALE.65 = 0.65
+value.CLOUDS_SCALE.70 = 0.70
+value.CLOUDS_SCALE.75 = 0.75
+value.CLOUDS_SCALE.80 = 0.80
+value.CLOUDS_SCALE.85 = 0.85
+value.CLOUDS_SCALE.90 = 0.90
+value.CLOUDS_SCALE.95 = 0.95
+value.CLOUDS_SCALE.100 = 1.00
+
+option.CLOUDS_WIND_SPEED = Wind Speed
+option.CLOUDS_WIND_SPEED.comment = Adjusts the speed of the wind affecting the clouds.
+suffix.CLOUDS_WIND_SPEED = km/h
+
+option.CLOUDS_SHADOWS = Clouds Shadows
+option.CLOUDS_SHADOWS.comment = Makes primary clouds cast shadows to the ground.
+value.CLOUDS_SHADOWS.0 = §cOFF
+value.CLOUDS_SHADOWS.1 = §aON
+
+option.CLOUDS_SHADOWS_RESOLUTION = Clouds Shadows Resolution
+option.CLOUDS_SHADOWS_RESOLUTION.comment = Adjusts the resolution of §bClouds Shadows§r.
+suffix.CLOUDS_SHADOWS_RESOLUTION = x
+
+### CLOUDS LAYER 0
+
+option.CLOUDS_LAYER0_ENABLED  = Layer
+value.CLOUDS_LAYER0_ENABLED.0 = §cOFF
+value.CLOUDS_LAYER0_ENABLED.1 = §aON
+
+option.CLOUDS_LAYER0_SCATTERING_STEPS = Scattering Samples
+option.CLOUDS_LAYER0_SCATTERING_STEPS.comment = Influences how accurately light scatters inside of this cloud layer. §cHigher value gives better results, but reduces §cperformance.
+value.CLOUDS_LAYER0_SCATTERING_STEPS.4  = §b4
+value.CLOUDS_LAYER0_SCATTERING_STEPS.8  = §38
+value.CLOUDS_LAYER0_SCATTERING_STEPS.12 = §212
+value.CLOUDS_LAYER0_SCATTERING_STEPS.16 = §a16
+value.CLOUDS_LAYER0_SCATTERING_STEPS.20 = §e20
+value.CLOUDS_LAYER0_SCATTERING_STEPS.24 = §624
+value.CLOUDS_LAYER0_SCATTERING_STEPS.28 = §c28
+value.CLOUDS_LAYER0_SCATTERING_STEPS.32 = §432
+
+option.CLOUDS_LAYER0_OCTAVES = Shape Octaves
+option.CLOUDS_LAYER0_OCTAVES.comment = How much layers of noise are generated to produce the cloud shapes. §cHigher value gives better results, but reduces §cperformance.
+value.CLOUDS_LAYER0_OCTAVES.1 = §21
+value.CLOUDS_LAYER0_OCTAVES.2 = §a2
+value.CLOUDS_LAYER0_OCTAVES.3 = §e3
+value.CLOUDS_LAYER0_OCTAVES.4 = §64
+value.CLOUDS_LAYER0_OCTAVES.5 = §c5
+value.CLOUDS_LAYER0_OCTAVES.6 = §46
+
+option.CLOUDS_LAYER0_SCALE = Shape Scale
+option.CLOUDS_LAYER0_SCALE.comment = Adjusts the scale of cloud shapes.
+suffix.CLOUDS_LAYER0_SCALE = %
+
+option.CLOUDS_LAYER0_DETAILSCALE = Details Scale
+option.CLOUDS_LAYER0_DETAILSCALE.comment = Adjusts the scale of cloud details.
+suffix.CLOUDS_LAYER0_DETAILSCALE = %
+
+option.CLOUDS_LAYER0_FREQUENCY = Shape Frequency
+option.CLOUDS_LAYER0_FREQUENCY.comment = Adjusts the frequency of cloud shapes.
+suffix.CLOUDS_LAYER0_FREQUENCY = x
+
+option.CLOUDS_LAYER0_DENSITY = Density
+option.CLOUDS_LAYER0_DENSITY.comment = Adjusts the density of clouds.
+suffix.CLOUDS_LAYER0_DENSITY = %
+
+option.CLOUDS_LAYER0_ALTITUDE = Altitude
+option.CLOUDS_LAYER0_ALTITUDE.comment = Adjusts the altitude of clouds.
+suffix.CLOUDS_LAYER0_ALTITUDE = m
+
+option.CLOUDS_LAYER0_THICKNESS = Thickness
+option.CLOUDS_LAYER0_THICKNESS.comment = Adjusts the thickness of clouds.
+suffix.CLOUDS_LAYER0_THICKNESS = m
+
+option.CLOUDS_LAYER0_COVERAGE = Coverage
+option.CLOUDS_LAYER0_COVERAGE.comment = Adjusts how much of the sky the clouds cover.
+suffix.CLOUDS_LAYER0_COVERAGE = %
+
+option.CLOUDS_LAYER0_SWIRL = Swirliness
+option.CLOUDS_LAYER0_SWIRL.comment = Adjusts the swirliness of clouds.
+suffix.CLOUDS_LAYER0_SWIRL = %
+
+### CLOUDS LAYER 1
+
+option.CLOUDS_LAYER1_ENABLED  = Layer
+value.CLOUDS_LAYER1_ENABLED.0 = §cOFF
+value.CLOUDS_LAYER1_ENABLED.1 = §aON
+
+option.CLOUDS_LAYER1_SCATTERING_STEPS = Scattering Samples
+option.CLOUDS_LAYER1_SCATTERING_STEPS.comment = Influences how accurately light scatters inside of this cloud layer. §cHigher value gives better results, but reduces §cperformance.
+value.CLOUDS_LAYER1_SCATTERING_STEPS.4  = §b4
+value.CLOUDS_LAYER1_SCATTERING_STEPS.8  = §38
+value.CLOUDS_LAYER1_SCATTERING_STEPS.12 = §212
+value.CLOUDS_LAYER1_SCATTERING_STEPS.16 = §a16
+value.CLOUDS_LAYER1_SCATTERING_STEPS.20 = §e20
+value.CLOUDS_LAYER1_SCATTERING_STEPS.24 = §624
+value.CLOUDS_LAYER1_SCATTERING_STEPS.28 = §c28
+value.CLOUDS_LAYER1_SCATTERING_STEPS.32 = §432
+
+option.CLOUDS_LAYER1_OCTAVES = Shape Octaves
+option.CLOUDS_LAYER1_OCTAVES.comment = How much layers of noise are generated to produce the cloud shapes. §cHigher value gives better results, but reduces §cperformance.
+value.CLOUDS_LAYER1_OCTAVES.1 = §21
+value.CLOUDS_LAYER1_OCTAVES.2 = §a2
+value.CLOUDS_LAYER1_OCTAVES.3 = §e3
+value.CLOUDS_LAYER1_OCTAVES.4 = §64
+value.CLOUDS_LAYER1_OCTAVES.5 = §c5
+value.CLOUDS_LAYER1_OCTAVES.6 = §46
+
+option.CLOUDS_LAYER1_SCALE = Shape Scale
+option.CLOUDS_LAYER1_SCALE.comment = Adjusts the scale of cloud shapes.
+suffix.CLOUDS_LAYER1_SCALE = %
+
+option.CLOUDS_LAYER1_DETAILSCALE = Details Scale
+option.CLOUDS_LAYER1_DETAILSCALE.comment = Adjusts the scale of cloud details.
+suffix.CLOUDS_LAYER1_DETAILSCALE = %
+
+option.CLOUDS_LAYER1_FREQUENCY = Shape Frequency
+option.CLOUDS_LAYER1_FREQUENCY.comment = Adjusts the frequency of cloud shapes.
+suffix.CLOUDS_LAYER1_FREQUENCY = x
+
+option.CLOUDS_LAYER1_DENSITY = Density
+option.CLOUDS_LAYER1_DENSITY.comment = Adjusts the density of clouds.
+suffix.CLOUDS_LAYER1_DENSITY = %
+
+option.CLOUDS_LAYER1_ALTITUDE = Altitude
+option.CLOUDS_LAYER1_ALTITUDE.comment = Adjusts the altitude of clouds.
+suffix.CLOUDS_LAYER1_ALTITUDE = m
+
+option.CLOUDS_LAYER1_THICKNESS = Thickness
+option.CLOUDS_LAYER1_THICKNESS.comment = Adjusts the thickness of clouds.
+suffix.CLOUDS_LAYER1_THICKNESS = m
+
+option.CLOUDS_LAYER1_COVERAGE = Coverage
+option.CLOUDS_LAYER1_COVERAGE.comment = Adjusts how much of the sky the clouds cover.
+suffix.CLOUDS_LAYER1_COVERAGE = %
+
+option.CLOUDS_LAYER1_SWIRL = Swirliness
+option.CLOUDS_LAYER1_SWIRL.comment = Adjusts the swirliness of clouds.
+suffix.CLOUDS_LAYER1_SWIRL = %
+
+### FOG
+
+option.AIR_FOG = Fog
+option.AIR_FOG.comment = Simulates light scattering in dense particles. §aApproximation§r fog is a semi-accurate way of computing it. §aVolumetric§r fog uses ray marching and complex calculations to compute it more accurately.
+value.AIR_FOG.0 = §cOFF
+value.AIR_FOG.1 = §e§lVolumetric (VF)
+value.AIR_FOG.2 = §e§lApproximation
+
+option.AIR_FOG_SCATTERING_STEPS = VF Scattering Steps
+option.AIR_FOG_SCATTERING_STEPS.comment = Influences §bVolumetric Fog§r's scattering accuracy. §cHigher value gives better results, but reduces §cperformance.
+value.AIR_FOG_SCATTERING_STEPS.8  = §38
+value.AIR_FOG_SCATTERING_STEPS.16 = §216
+value.AIR_FOG_SCATTERING_STEPS.24 = §a24
+value.AIR_FOG_SCATTERING_STEPS.32 = §e32
+value.AIR_FOG_SCATTERING_STEPS.40 = §640
+value.AIR_FOG_SCATTERING_STEPS.48 = §c48
+value.AIR_FOG_SCATTERING_STEPS.64 = §464
+
+option.FOG_ALTITUDE = Altitude
+option.FOG_ALTITUDE.comment = Adjusts the fog altitude.
+
+option.FOG_THICKNESS = Thickness
+option.FOG_THICKNESS.comment = Adjusts the fog thickness.
+
+option.FOG_DENSITY = Density
+option.FOG_DENSITY.comment = Adjusts the fog density.
+
+### STARS
+
+option.STARS_AMOUNT = Amount
+option.STARS_AMOUNT.comment = Adjusts the amount of stars in the sky.
+suffix.STARS_AMOUNT = %
+
+option.STARS_LUMINOSITY = Luminosity
+option.STARS_LUMINOSITY.comment = Adjusts the luminosity of stars in the sky.
+
+##################### TERRAIN #####################
+
+### WATER
+
+option.WATER_CAUSTICS = Caustics
+option.WATER_CAUSTICS.comment = Caustics provoked by the refraction of light on water. They cast underwater.
+value.WATER_CAUSTICS.0 = §cOFF
+value.WATER_CAUSTICS.1 = §aON
+
+option.WATER_CAUSTICS_STRENGTH = Caustics Strength
+option.WATER_CAUSTICS_STRENGTH.comment = Adjusts §bWater Caustics§r' intensity.
+
+option.WATER_OCTAVES = Wave Octaves
+option.WATER_OCTAVES.comment = Influences §bWater Waves§r' details. §cHigher value gives better results, but reduces §cperformance.
+value.WATER_OCTAVES.2 = §32
+value.WATER_OCTAVES.4 = §24
+value.WATER_OCTAVES.6 = §a6
+value.WATER_OCTAVES.8 = §e8
+value.WATER_OCTAVES.16 = §616
+value.WATER_OCTAVES.32 = §c32
+value.WATER_OCTAVES.48 = §448
+
+option.WAVE_STEEPNESS = Wave Steepness
+option.WAVE_STEEPNESS.comment = Adjusts the steepness of water waves. Ratio of height to width.
+
+option.WAVE_AMPLITUDE = Wave Amplitude
+option.WAVE_AMPLITUDE.comment = Adjusts the amplitude of water waves.
+
+option.WAVE_LENGTH = Wave Length
+option.WAVE_LENGTH.comment = Adjusts the length of water waves (in meters).
+suffix.WAVE_LENGTH = m
+
+option.WATER_FOG = Water Fog
+option.WATER_FOG.comment = Simulates the absorption and scattering of light in water. §aApproximation§r water fog is a semi-accurate way of computing it. §aVolumetric§r water fog uses ray marching and complex calculations to compute it more accurately.
+value.WATER_FOG.0 = §e§lApproximation
+value.WATER_FOG.1 = §e§lVolumetric
+
+option.WATER_FOG_STEPS = Volumetric Water Fog Steps
+option.WATER_FOG_STEPS.comment = Influences §bWater Fog§r's accuracy. §cHigher value gives better results, but reduces §cperformance.
+value.WATER_FOG_STEPS.4 = §24
+value.WATER_FOG_STEPS.8 = §a8
+value.WATER_FOG_STEPS.16 = §e16
+value.WATER_FOG_STEPS.32 = §632
+
+option.WATER_ABSORPTION_R = §cRed
+option.WATER_ABSORPTION_R.comment = Adjusts how water absorbs light. Higher value means that §cred§r will be absorbed more.
+
+option.WATER_ABSORPTION_G = §aGreen
+option.WATER_ABSORPTION_G.comment = Adjusts how water absorbs light. Higher value means that §agreen§r will be absorbed more.
+
+option.WATER_ABSORPTION_B = §9Blue
+option.WATER_ABSORPTION_B.comment = Adjusts how water absorbs light. Higher value means that §9blue§r will be absorbed more.
+
+option.WATER_SCATTERING_R = §cRed
+option.WATER_SCATTERING_R.comment = Adjusts how water scatters light. Higher value means that §cred§r will be scattered more.
+
+option.WATER_SCATTERING_G = §aGreen
+option.WATER_SCATTERING_G.comment = Adjusts how water scatters light. Higher value means that §agreen§r will be scattered more.
+
+option.WATER_SCATTERING_B = §9Blue
+option.WATER_SCATTERING_B.comment = Adjusts how water scatters light. Higher value means that §9blue§r will be scattered more.
+
+### POM
+
+option.POM = POM
+option.POM.comment = §bParallax Occlusion Mapping. §rGives depth to a material by creating 3D definition from its heightmap. §aSteep§r POM is pixelated. §aSmooth§r POM filters the heightmap to de-pixelate it.
+value.POM.0 = §cOFF
+value.POM.1 = §e§lSteep
+value.POM.2 = §e§lSmooth
+
+option.POM_LAYERS = Layers
+option.POM_LAYERS.comment = Adjusts §bPOM§r's quality, the more layers there are, the more detailed it will be. §cHigher value gives better results, but reduces §cperformance.
+value.POM_LAYERS.32 = §a32
+value.POM_LAYERS.64 = §e64
+value.POM_LAYERS.128 = §6128
+value.POM_LAYERS.256 = §c256
+value.POM_LAYERS.512 = §4512
+
+option.POM_DEPTH = Depth
+option.POM_DEPTH.comment = Adjusts §bPOM§r's depth.
+
+option.POM_SHADOWING = Shadowing
+option.POM_SHADOWING.comment = Computes shadows for §bPOM§r.
+value.POM_SHADOWING.0 = §cOFF
+value.POM_SHADOWING.1 = §aON
+
+option.POM_DEPTH_WRITE = Depth Write
+option.POM_DEPTH_WRITE.comment = Writes the depth of §bPOM§r to the depth buffer. This makes applying effects like ambient occlusion on §bPOM§r possible. §cEnabling it gives better results, but reduces §cperformance.
+value.POM_DEPTH_WRITE.0 = §cOFF
+value.POM_DEPTH_WRITE.1 = §aON
+
+### TERRAIN
+
+option.WHITE_WORLD = White World
+option.WHITE_WORLD.comment = Makes the environment entirely white.
+value.WHITE_WORLD.0 = §cOFF
+value.WHITE_WORLD.1 = §aON
+
+option.WAVING_PLANTS = Waving Plants
+option.WAVING_PLANTS.comment = Makes plants like leaves and flowers wave to the wind.
+value.WAVING_PLANTS.0 = §cOFF
+value.WAVING_PLANTS.1 = §aON
+
+option.RAIN_PUDDLES = Rain Puddles
+option.RAIN_PUDDLES.comment = Simulates the apparition of puddles on the ground during the rain.
+value.RAIN_PUDDLES.0 = §cOFF
+value.RAIN_PUDDLES.1 = §aON
+
+option.RAIN_PUDDLES_SIZE = Rain Puddles Size
+option.RAIN_PUDDLES_SIZE.comment = Adjusts §bRain Puddles§r' size.
+suffix.RAIN_PUDDLES_SIZE = %
+
+##################### CAMERA SETTINGS #####################
+
+option.EXPOSURE = Exposure
+option.EXPOSURE.comment = §aManual§r exposure lets you tweak the camera settings manually to adjust the exposure. §aAverage§r exposure tweaks the camera exposure automatically depending on the average screen brightness. §aHistogram§r exposure tweaks the camera exposure automatically depending on the median of an average screen brightness histogram.
+value.EXPOSURE.0 = §e§lManual
+value.EXPOSURE.1 = §e§lAverage (Auto.)
+value.EXPOSURE.2 = §e§lHistogram (Auto.)
+
+# https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html#:~:text=Focal%20length%2C%20usually%20represented%20in,description%20of%20a%20photographic%20lens.&text=The%20longer%20the%20focal%20length,and%20the%20lower%20the%20magnification.
+option.FOCAL = Focal Length
+option.FOCAL.comment = Usually represented in millimeters, the focal length is the basic description of a photographic lens. The longer the focal length, the narrower the angle of view. It influences §bDepth of Field.
+suffix.FOCAL = mm
+
+# https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-maximum-aperture.html#:~:text=What%20is%20aperture%20in%20photography,diaphragm%20through%20which%20light%20passes.&text=Lower%20f%2Fstops%20give%20more,because%20they%20represent%20smaller%20apertures.
+option.F_STOPS = Aperture
+option.F_STOPS.comment = Opening of a lens's diaphragm through which light passes, lower values capture more light.
+prefix.F_STOPS = ƒ/
+
+# https://wp-modula.com/what-is-iso-in-photography/
+option.ISO = ISO
+option.ISO.comment = ISO is an option that will either brighten or darken your photograph, increasing it will make your pictures brighter and help you capture good shots in darker environments.
+
+# https://imaging.nikon.com/lineup/dslr/basics/04/03.htm#:~:text=Shutter%20speed%20is%20a%20measurement,1%2F%20500%20s%2C%20etc.&text=In%20other%20words%2C%20the%20faster,the%20effects%20of%20camera%20shake.
+option.SHUTTER_SPEED = Shutter Speed
+option.SHUTTER_SPEED.comment = A measurement of the time the camera's shutter is open, shown in fractions of a second.
+prefix.SHUTTER_SPEED = 1/
+suffix.SHUTTER_SPEED = s
+
+##################### DEPTH OF FIELD #####################
+
+option.DOF = Depth of Field (DOF)
+option.DOF.comment = Blurs objects that are out of focus. Influenced by the §eaperture§r and §efocal length§r in the camera settings.
+value.DOF.0 = §cOFF
+value.DOF.1 = §aON
+
+option.DOF_SAMPLES = DOF Samples
+option.DOF_SAMPLES.comment = Adjusts how much time §bDepth of Field§r is sampled. §cHigher value gives better results, but reduces §cperformance.
+value.DOF_SAMPLES.4 = §b4
+value.DOF_SAMPLES.6 = §36
+value.DOF_SAMPLES.8 = §28
+value.DOF_SAMPLES.10 = §a10
+value.DOF_SAMPLES.12 = §e12
+value.DOF_SAMPLES.14 = §614
+value.DOF_SAMPLES.16 = §c16
+
+option.DOF_RADIUS = DOF Radius
+option.DOF_RADIUS.comment = Adjusts §bDepth of Field§r's intensity.
+
+option.DOF_DEPTH = DOF Focus Depth
+option.DOF_DEPTH.comment = Adjusts §bDepth of Field§r's depth at which it focuses. It is measured in blocks.
+value.DOF_DEPTH.0 = §eAuto-Focus
+
+##################### COLOR GRADING #####################
+
+option.TONEMAP = Tone Mapping
+option.TONEMAP.comment = Applies a color correction filter.
+value.TONEMAP.-1 = §cOFF
+value.TONEMAP.0 = AgX
+value.TONEMAP.1 = ACES
+value.TONEMAP.2 = Burgess
+value.TONEMAP.3 = Reinhard
+value.TONEMAP.4 = Lottes
+value.TONEMAP.5 = Uchimura
+value.TONEMAP.6 = Uncharted 2
+
+option.LUT = LUT
+option.LUT.comment = Applies a color filter using a lookup table (LUT). It is part of color grading.
+value.LUT.0  = §cOFF
+value.LUT.1  = §eFuji 250D Fuji 3510
+value.LUT.2  = §eFuji 250D Kodak 2395
+value.LUT.3  = §eKodak 5218 Kodak 2383
+value.LUT.4  = §eFuji f125 Kodak 2393
+value.LUT.5  = §eCandle Light
+value.LUT.6  = §eArabica
+value.LUT.7  = §eLate Sunset
+value.LUT.8  = §eEdgy Amber
+value.LUT.9  = §eCrisp Warm
+value.LUT.10 = §eCrisp Winter
+value.LUT.11 = §eMcKinnon 75
+value.LUT.12 = §eMilo 5
+value.LUT.13 = §eZed 32
+value.LUT.14 = §eFilmstock
+value.LUT.15 = §eValley Mist
+value.LUT.16 = §eNight Colors
+value.LUT.17 = §eBinary Code
+value.LUT.18 = §eBlack and Red
+value.LUT.19 = §e2Strip
+value.LUT.20 = §eFuturistic Bleak
+
+option.PURKINJE = Lowlight Desaturation
+option.PURKINJE.comment = Adjusts the color intensity depending on the amount of light. It is usually called the Purkinje Effect.
+value.PURKINJE.0 = §cOFF
+value.PURKINJE.1 = §aON
+
+option.WHITE_BALANCE = White Balance
+option.WHITE_BALANCE.comment = Balances the color temperature to keep the image neutral.
+suffix.WHITE_BALANCE = K
+
+# http://www.digital-intermediate.co.uk/colour/colourterminology.htm
+option.VIBRANCE = Vibrance
+option.VIBRANCE.comment = Refers to bright and strong colors, adds saturation to bland colors.
+
+option.SATURATION = Saturation
+option.SATURATION.comment = Saturation refers to the level of colour saturation within the image or the amount of chrominance information.
+
+option.CONTRAST = Contrast
+option.CONTRAST.comment = Difference in luminance or color that makes an object.
+
+option.GAMMA = Gamma
+option.GAMMA.comment = Works the image levels between the shadows and the highlights, commonly known as the mid tones.
+
+option.GAIN = Gain
+option.GAIN.comment = Adjusts the white level (highlights), brighter colors become darker or brighter - the brighter the color the stronger the difference.
+
+option.LIFT = Lift
+option.LIFT.comment = Adjusts the image's black level (dark tones or shadows).
+
+##################### ANTI-ALIASING #####################
+
+option.TAA = TAA
+option.TAA.comment = §bTemporal Anti-Aliasing. §rA form of anti-aliasing which blends previous frames to reduce the aliasing.
+value.TAA.0 = §cOFF
+value.TAA.1 = §aON
+
+option.TAA_STRENGTH = Strength
+option.TAA_STRENGTH.comment = Adjusts §bTemporal Anti-Aliasing§r's strength.
+
+option.TAA_OFFCENTER_REJECTION = Offcenter Rejection
+option.TAA_OFFCENTER_REJECTION.comment = Adjusts §bTemporal Anti-Aliasing§r's offcenter weight strength. The lower the value is, the weaker TAA is be during movement.
+
+##################### POST-PROCESSING #####################
+
+option.EIGHT_BITS_FILTER = 8-Bits Filter
+option.EIGHT_BITS_FILTER.comment = Makes the game look like a vintage 8-bits game.
+value.EIGHT_BITS_FILTER.0 = §cOFF
+value.EIGHT_BITS_FILTER.1 = §aON
+
+option.BLOOM = Bloom
+option.BLOOM.comment = Allows bright areas to glow.
+value.BLOOM.0 = §cOFF
+value.BLOOM.1 = §aON
+
+option.BLOOM_STRENGTH = Bloom Strength
+option.BLOOM_STRENGTH.comment = Adjusts §bBloom§r's intensity.
+
+option.VIGNETTE = Vignette
+option.VIGNETTE.comment = Makes screen edges darker.
+value.VIGNETTE.0 = §cOFF
+value.VIGNETTE.1 = §aON
+
+option.VIGNETTE_STRENGTH = Vignette Strength
+option.VIGNETTE_STRENGTH.comment = Adjusts §bVignette§r's intensity.
+
+option.FILM_GRAIN = Film Grain
+option.FILM_GRAIN.comment = Moving granularity displaying on top of the screen to mimick old movies look.
+value.FILM_GRAIN.0 = §cOFF
+value.FILM_GRAIN.1 = §aON
+
+option.FILM_GRAIN_STRENGTH = Film Grain Strength
+option.FILM_GRAIN_STRENGTH.comment = Adjusts §bFilm Grain§r's intensity.
+
+option.SHARPEN = Sharpen Filter
+option.SHARPEN.comment = Accentuates colors to make them look sharper.
+value.SHARPEN.0 = §cOFF
+value.SHARPEN.1 = §aON
+
+option.SHARPEN_STRENGTH = Sharpen Strength
+option.SHARPEN_STRENGTH.comment = Adjusts §bSharpening Filter§r's intensity.
+
+option.CEL_SHADING = Cel Shading
+option.CEL_SHADING.comment = Flattens the shading and colors to make the display look like a cartoon.
+value.CEL_SHADING.0 = §cOFF
+value.CEL_SHADING.1 = §aON
+
+option.CEL_SHADES = Cel Shades
+option.CEL_SHADES.comment = Adjusts the amount of shades possible for §bCel Shading§r.
+
+##################### DEBUG #####################
+
+option.DEBUG_HISTOGRAM = Display Histogram
+value.DEBUG_HISTOGRAM.0 = §cOFF
+value.DEBUG_HISTOGRAM.1 = §aON
+
+option.DEBUG_LUT = Display LUT
+value.DEBUG_LUT.0 = §cOFF
+value.DEBUG_LUT.1 = §aON
