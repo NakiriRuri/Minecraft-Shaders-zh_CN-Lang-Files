@@ -1,0 +1,283 @@
+#shaders/lang/en_US.lang
+
+option.SOLAS_BY_SEPTONIOUS=§6Solas
+value.SOLAS_BY_SEPTONIOUS.0=§bBy Septonious
+option.SOLAS_BY_SEPTONIOUS.comment=Discord: https://discord.gg/4uTAUQR2xu GitHub: https://github.com/Septonious/Solas-Shader
+
+#ATMOSPHERICS
+
+screen.ATMOSPHERICS=Atmospherics
+
+
+screen.VC_CONFIG=Volumetric Clouds Config
+
+option.VC=Volumetric Clouds
+option.BLOCKY_CLOUDS=Blocky Clouds
+option.VC_DISTANT_FADE=Clouds Distant Fade
+option.VC_AMOUNT=Amount
+value.VC_AMOUNT.0.90=Very Low
+value.VC_AMOUNT.0.80=Low
+value.VC_AMOUNT.0.70=Medium
+value.VC_AMOUNT.0.60=High
+value.VC_AMOUNT.0.50=Very High
+option.VC_HEIGHT=Height
+option.VC_STRETCHING=Stretching
+option.VC_SAMPLES=Samples
+option.VC_DISTANCE=Render Distance
+option.VC_OPACITY=Opacity
+
+
+screen.VL_CONFIG=Volumetric Light Config
+
+option.VL=Volumetric Light
+option.VL_SCENE_BLURRING=VL Scene Blurring
+option.VL_SCENE_BLURRING.comment=Makes VL blur objects behind itself.
+option.VL_STRENGTH=Strength
+option.VL_SAMPLES=Samples
+
+
+screen.FOG_CONFIG=Fog Config
+
+option.DISTANT_FADE=Distant Fade
+option.DISTANT_FADE_STYLE=Distant Fade Style
+option.DISTANT_FADE_STYLE.comment=Spherical works like vanilla fog. Cylindrical ignores Y axis.
+value.DISTANT_FADE_STYLE.0=Spherical
+value.DISTANT_FADE_STYLE.1=Cylindrical
+option.FOG_DENSITY=Fog Density
+option.FOG_HEIGHT=Ground Fog Height
+option.BLOOMY_FOG=Bloomy Fog
+option.BLOOMY_FOG_DENSITY=Bloomy Fog Density
+option.BLOOMY_FOG.comment=Enables fog that is colored by bloom. Requires Bloom and Bloom Colored Lighting to be enabled!
+
+screen.SKY_CONFIG=Sky Config
+
+option.STARS=Stars
+option.END_STARS=Ender Stars
+option.MILKY_WAY=Milky Way
+option.MILKY_WAY_BRIGHTNESS=Milky Way Brightness
+option.END_NEBULA=Ender Nebula
+option.RAINBOW=Rainbow
+option.AURORA=Aurora Borealis
+option.AURORA_COLD_BIOME_VISIBILITY=Aurora Cold Biome Visibility
+option.AURORA_COLD_BIOME_VISIBILITY.comment=Enables aurora only when player is in a cold biome
+option.AURORA_FULL_MOON_VISIBILITY=Aurora Full Moon Visibility
+option.AURORA_FULL_MOON_VISIBILITY.comment=Enables aurora only when the Moon if full
+
+screen.END_VORTEX=Ender Vortex Config
+
+option.END_VORTEX=Ender Vortex
+option.END_VORTEX.comment=Toggles a black hole looking object in the End sky. Idk how to call it properly lol
+
+option.END_VORTEX_SIZE=Vortex Size
+option.END_VORTEX_WHIRL=Vortex Whirling
+option.END_VORTEX_ARMS=Vortex Arms Count
+
+#WATER
+
+screen.WATER=Water
+
+option.VANILLA_WATER=Vanilla Water
+
+option.WATER_FOG=Water Fog
+option.WATER_FOG_DENSITY=Water Fog Density
+option.WATER_CAUSTICS=Water Caustics
+option.WATER_CAUSTICS_STRENGTH=Water Caustics Strength
+
+option.WATER_NORMALS=Normals
+option.WATER_NORMALS.comment=Enables realtime-generated normal mapping for water.
+value.WATER_NORMALS.0=§cOFF
+value.WATER_NORMALS.1=Worley
+value.WATER_NORMALS.2=Perlin
+option.WATER_NORMAL_BUMP=Water Normal Bump
+option.WATER_NORMAL_OFFSET=Water Normal Offset
+
+option.WATER_NORMAL_DETAIL=Detail
+option.WATER_NORMAL_DETAIL.comment=Adjusts the ratio between large and small water normals.
+value.WATER_NORMAL_DETAIL.0.05=5%
+value.WATER_NORMAL_DETAIL.0.10=10%
+value.WATER_NORMAL_DETAIL.0.15=15%
+value.WATER_NORMAL_DETAIL.0.20=20%
+value.WATER_NORMAL_DETAIL.0.25=25%
+value.WATER_NORMAL_DETAIL.0.30=30%
+value.WATER_NORMAL_DETAIL.0.35=35%
+value.WATER_NORMAL_DETAIL.0.40=40%
+value.WATER_NORMAL_DETAIL.0.45=45%
+value.WATER_NORMAL_DETAIL.0.50=50%
+
+option.REFRACTION=Light Refraction
+option.REFRACTION_STRENGTH=Refraction Strength
+
+option.WAVING_WATER=Waving Water
+
+#LIGHTING
+
+screen.LIGHTING=Lighting
+
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.sunPathRotation=Sun Angle
+option.VPS=Variable Penumbra Shadows (VPS)
+option.VPS.comment=Enables shadows that become blurrier/sharper depending on the blocker distance.
+option.VPS_BLUR_STRENGTH=VPS Strength
+option.SHADOW_SAMPLE_COUNT=Shadow Samples
+option.SHADOW_COLOR=Colored Shadows
+option.ENTITY_SHADOWS=Entity Shadows
+
+option.BLOOM_COLORED_LIGHTING=Bloom Colored Lighting (BCL)
+option.COLORED_LIGHTING_RADIUS=BCL Radius
+option.COLORED_LIGHTING_STRENGTH=BCL Strength
+
+option.AO=Custom Ambient Occlusion (AO)
+option.VANILLA_AO=Vanilla Ambient Occlusion (AO)
+option.AO_STRENGTH=AO Strength
+option.AO_RADIUS=AO Radius
+
+option.SSPT=Screen Space Path Tracing (SSPT)
+option.SSPT_LUMINANCE=Luminance
+option.SSPT_LUMINANCE.comment=Controls the brightness of SSPT.
+option.SSPT_SAMPLE_COUNT=Sample Count
+option.SSPT_SAMPLE_COUNT.comment=Controls the accuracy and precision of SSPT. Higher values impact performance!
+
+option.GLOBAL_ILLUMINATION=Global Illumination (GI)
+option.GLOBAL_ILLUMINATION.comment=Enables fake GI based on bloom. Both bloom and bloom colored lighting have to be enabled.
+option.GLOBAL_ILLUMINATION_STRENGTH=GI Strength
+option.DYNAMIC_HANDLIGHT=Dynamic Hand Lighting
+
+
+#IPBR
+
+screen.IPBR=Integrated PBR (IPBR)
+
+option.INTEGRATED_SPECULAR=IPBR Specular Mapping
+
+screen.ISPECULAR=Specular Config
+
+option.RAIN_PUDDLES=Rain Puddles
+option.REFLECTION_RT_SAMPLE_COUNT=Reflection Samples
+option.SPECULAR_STRENGTH=Specular Strength
+option.WATER_SPECULAR_STRENGTH=Water Reflection Strength
+
+
+option.INTEGRATED_EMISSION=IPBR Emissives
+
+screen.IEMISSION=Emissives Config
+
+option.EMISSIVE_FLOWERS=Emissive Flowers
+option.EMISSIVE_ORES=Emissive Ores
+option.EMISSIVE_DEBRIS=Emissive Debris
+option.EMISSIVE_CONCRETE=Emissive Concrete
+option.EMISSIVE_POWDER_SNOW=Emissive Powder Snow
+option.PLAYER_BRIGHT_PARTS_HIGHLIGHT=Player Bright Parts Highlight
+option.ENTITY_HIGHLIGHT=Entity Highlight
+option.EMISSION_STRENGTH=Emission Strength
+
+
+#COLOR
+
+screen.COLOR=Colors
+screen.LIGHTAMBIENT_COLOR=Sunlight/Moonlight Temperature
+
+option.LIGHTTEMP_SS=Sunrise/Sunset
+option.LIGHTTEMP_ME=Morning/Evening
+option.LIGHTTEMP_D=Day
+option.LIGHTTEMP_N=Night
+
+screen.END_COLOR=End Light & Ambient Color
+option.LIGHT_END_R=Red
+option.LIGHT_END_G=Green
+option.LIGHT_END_B=Blue
+option.LIGHT_END_I=Intensity
+
+option.AMBIENT_END_R=Red
+option.AMBIENT_END_G=Green
+option.AMBIENT_END_B=Blue
+option.AMBIENT_END_I=Intensity
+
+screen.MINLIGHT=Minimal Lighting
+option.MINLIGHT_R=Red
+option.MINLIGHT_G=Green
+option.MINLIGHT_B=Blue
+option.MINLIGHT_I=Intensity
+
+screen.BLOCKLIGHT_COLOR=Blocklight Color
+option.BLOCKLIGHT_R=Red
+option.BLOCKLIGHT_G=Green
+option.BLOCKLIGHT_B=Blue
+option.BLOCKLIGHT_I=Intensity
+
+screen.WATER_COLOR=Water Color
+option.WATER_R=Red
+option.WATER_G=Green
+option.WATER_B=Blue
+option.WATER_I=Intensity
+option.WATER_A=Alpha
+
+screen.SKY_COLOR=Sky Color
+
+option.SKY_R=Red
+option.SKY_G=Green
+option.SKY_B=Blue
+option.SKY_I=Intensity
+
+
+#POST
+
+screen.POST=Post Effects
+
+option.DOF=Depth of Field (DOF)
+option.DOF.comment=Blurs the object outside your player's eye focal point.
+
+option.DOF_STRENGTH=DOF Strength
+
+option.SHARPENING=Image Sharpening
+option.CHROMATIC_ABERRATION=Chromatic Aberration (CA)
+option.CHROMATIC_ABERRATION_STRENGTH=CA Strength
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Adjusts overall brightness.
+
+option.TONEMAP_WHITE_CURVE=Tonemap White Curve
+option.TONEMAP_WHITE_CURVE.comment=Adjusts how quickly the tonemap can reach white.
+
+option.TONEMAP_LOWER_CURVE=Tonemap Lower Curve
+option.TONEMAP_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.TONEMAP_UPPER_CURVE=Tonemap Upper Curve
+option.TONEMAP_UPPER_CURVE.comment=Adjusts contrast of brighter colors.
+
+option.SATURATION=Saturation
+option.SATURATION.comment=Adjusts saturation of all colors.
+
+option.VIBRANCE=Vibrance
+option.VIBRANCE.comment=Adjusts saturation of less saturated colors, well saturated colors are less affected.
+
+screen.BLOOM=Bloom Config
+
+option.BLOOM=Bloom
+option.BLOOM_STRENGTH=Bloom Strength
+
+option.BLOOM_TILE_SIZE=Tile Size
+option.BLOOM_TILE_SIZE.comment=Adjusts the size of each bloom tile. Higher values give less accuracy and larger radius. Lower values give more accuracy and smaller radius.
+
+option.BLOOM_CONTRAST=Contrast
+option.BLOOM_CONTRAST.comment=Adjusts whether the bloom should preserve color contrast or detail visibility. Higher value preserves color contrast while lower value preserves detail visibility.
+value.BLOOM_CONTRAST.-4=-1.00
+value.BLOOM_CONTRAST.-3=-0.75
+value.BLOOM_CONTRAST.-2=-0.50
+value.BLOOM_CONTRAST.-1=-0.25
+value.BLOOM_CONTRAST.0=0.00
+value.BLOOM_CONTRAST.1=0.25
+value.BLOOM_CONTRAST.2=0.50
+value.BLOOM_CONTRAST.3=0.75
+value.BLOOM_CONTRAST.4=1.00
+
+#OTHER
+
+screen.OTHER=Other
+
+option.WAVING_BLOCKS=Waving Blocks
+option.WAVING_BLOCKS.comment=Allows certain blocks to wave (plants, leaves, etc)
+option.WAVING_PLANTS=Waving Plants
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_SPEED=Waving Speed
+option.WAVING_AMPLITUDE=Waving Amplitude
