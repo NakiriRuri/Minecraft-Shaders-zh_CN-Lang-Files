@@ -1,0 +1,248 @@
+#该汉化由Surisen提供。并非专业译者，请谅解。
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可。
+#本文档对应 Nostalgia_v3.1 版本。
+option.INFO=Nostalgia Shader by RRe36
+value.INFO.0=v3.1
+
+option.sunPathRotation=太阳角度
+option.volumeWorldTimeAnim=世界时间动画
+option.volumeWorldTimeAnim.comment=使体积指标 (雾和云) 使用世界时间而不是当前的客户端运行时间来渲染动画. 因此可以同步同一世界玩家的云动画.
+option.sunPathRotation=太阳角度
+
+option.fogVolumeEnabled=体积雾
+option.fogMistAdvanced=高质量雾云
+option.fogMistAdvanced.comment=启用更高质量的 雾云 来实现更好的照明效果. 对性能有相当大的影响.
+option.fogAdaptiveSteps=自适应步进
+option.fogClipDist=最远距离
+option.fogDensityMult=密度
+option.mistMieAnisotropy=雾气米氏散射各向异性g值
+
+option.cloudVolumeEnabled=体积云
+option.cloudDynamicLight=动态光源
+option.cloudVolumeStoryMode=故事模式风格云层
+option.cloudVolumeRounding=边缘锐化
+
+option.cloudVolume0Samples=采样值
+option.cloudVolume0Alt=云层高度
+option.cloudVolume0Depth=云层厚度
+option.cloudVolume0Clip=云层最大渲染距离
+
+option.cloudVolume1Enabled=第二云层
+option.cloudVolume1Samples=采样值
+option.cloudVolume1Alt=云层高度
+option.cloudVolume1Depth=云层厚度
+option.cloudVolume1Clip=云层最大渲染距离
+
+option.overrideWaterTexture=覆盖水体纹理
+option.waterTextureBlend=纹理图案混合
+option.waterColorRed=红色
+option.waterColorGreen=绿色
+option.waterColorBlue=蓝色
+option.waterColorAlpha=透明度
+option.waterCoeffRed=红色系数
+option.waterCoeffGreen=绿色系数
+option.waterCoeffBlue=蓝色系数
+option.waterCoeffScatter=散射系数
+option.waterParallaxEnabled=视差水波
+option.waterParallaxDepth=深度
+option.waterDensity=密度
+
+option.directionalLMEnabled=指向性光照图
+option.lightmapSmoothingEnabled=照明平滑
+option.lightmapSmoothingEnabled.comment=平滑原版光照贴图
+option.labEmissionEnabled=自发光纹理
+
+option.shadowMapResolution=阴影分辨率
+option.contactShadowsEnabled=接触阴影
+option.contactShadowsEnabled.comment=基于由 Zombye 开发的 Spectrum 光影中的实现.
+option.diffuseModel=漫反射着色模型
+value.diffuseModel.0=Hammon
+value.diffuseModel.1=Lambert
+option.shadowVPSEnabled=可变半阴影 (VPS)
+
+option.ambientOcclusionEnabled=环境光遮蔽 (SSAO)
+option.directionalSSAO=指向性 SSAO
+option.subsurfaceScatteringEnabled=次表面散射
+
+option.sunlightIllum=阳光倍率
+option.moonlightIllum=月光倍率
+option.skylightIllum=天空光倍率
+option.blocklightIllum=方块光倍率
+option.minLightLuma=最小环境光水平
+option.blocklightBaseTemp=方块光色温
+option.emitterRecoloring=发光重着色
+option.emitterBoostEnabled=发光增益
+
+option.normalmapEnabled=法线贴图支持
+option.normalmapFormat=格式
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1 或更旧的格式
+option.vertexAttributeFix=顶点修复
+option.vertexAttributeFix.comment=因 Minecraft 1.15 及更高版本数据缺失, 禁用(方块)实体上的视差和法线贴图.
+option.windEffectsEnabled=风效应
+option.windIntensity=风效应强度
+
+screen.PARALLAX=视差
+option.pomEnabled=视差
+option.pomSamples=采样值
+option.pomShadowSamples=自阴影采样值
+option.pomDepth=深度
+
+option.specularBRDFEnabled=高光反射双向反射分布函数
+option.resourcepackReflectionsEnabled=资源包反射
+option.roughReflectionsEnabled=粗糙反射
+option.roughReflectionSamples=粗糙反射采样值
+option.roughReflectionsThreshold=粗糙度阈值
+option.roughReflectionsThreshold.comment=超出此阈值的表面不计算反射.
+option.roughSSR_maxR=屏幕空间反射(SSR)粗糙度阈值
+option.roughSSR_maxR.comment=超出此阈值的表面不计算屏幕空间反射.
+option.skyOcclusionThreshold=天空遮蔽阈值
+option.skyOcclusionThreshold.comment=控制天空盒反射如何淡出.
+
+option.bloomEnabled=泛光
+option.camSensorWidth=传感器宽度
+option.camFStops=光圈
+
+screen.DepthOfField=景深
+option.DoFToggle=景深
+option.DoFQuality=景深质量
+option.DoFChromaDispersion=色散
+
+option.exposureMinlum=最小曝光
+option.exposureSpeed=自适应曝光速度
+option.manualExposureEnabled=覆写曝光(手动设置曝光量)
+option.manualExposureValue=覆写曝光数值
+
+screen.LensFlare=镜头眩光
+option.lensFlareToggle=镜头眩光
+option.lensFlareHaloToggle=眩光环
+option.lensFlareIntensity=眩光强度
+option.lensFlareThreshold=阈值
+option.lensFlareGhostCount=环数
+option.lensFlareGhostSpace=眩光间距
+option.lensFlareHaloRad=环半径
+option.lensFlareHaloDepth=环深度
+option.legacyFlareToggle=经典样式眩光
+option.legacyFlareIntensity=经典样式眩光强度
+
+option.motionblurToggle=运动模糊
+option.motionblurSamples=运动模糊采样值
+option.motionblurScale=运动模糊强度
+
+option.vignetteEnabled=暗角
+option.vignetteStart=起始
+option.vignetteEnd=结束
+option.vignetteIntensity=强度
+option.vignetteExponent=指数
+
+option.imageSharpenEnabled=图像锐化
+option.screenBitdepth=输出位深
+
+screen.AntiAliasing=抗锯齿
+option.taaEnabled=时间性抗锯齿[TAA]
+option.taaBlendWeight=历史帧比重
+option.taaMotionRejection=运动拒绝
+option.taaAntiGhosting=反拖影
+option.taaAntiFlicker=抗闪烁
+option.taaLumaRejection=亮度抑制
+option.taaHueRejection=色相抑制
+
+option.acesRRTExposureBias=输入曝光偏移
+option.acesRRTExposureBias.comment=在色调映射前对图像进行一次曝光偏移处理.
+option.acesRRTGammaLift=伽马梯度
+option.acesRRTGammaLift.comment=在色调映射之前提升伽玛曲线. 用它来调整 "感知的对比度".
+option.acesRRTGlowGainOffset=辉光增益偏移
+option.acesRRTGlowGainOffset.comment=调整 "辉光 "组件,以影响黑暗区域.
+option.acesRRTSatOffset=输入饱和度偏移
+option.acesRRTSatOffset.comment=在色调映射前调整饱和度. 比起在色调映射后调整饱和度,能提供更自然的效果.
+option.acesODTSatOffset=输出饱和度偏移
+option.acesODTSatOffset.comment=在色调映射之后,但在转换为sRGB之前调整饱和度. 用它来调整一般图像的饱和度.
+
+screen.colorgrade=颜色分级
+
+option.do_colorgrading=颜色分级
+
+option.vibranceInt=自然饱和度
+option.saturationInt=饱和度
+option.gammaCurve=伽马曲线
+option.brightnessInt=亮度
+option.constrastInt=对比度
+option.colorlumR=红色增益
+option.colorlumG=绿色增益
+option.colorlumB=蓝色增益
+
+
+#额外汉化接口
+
+profile.Low=低
+profile.Medium=中
+profile.High=高
+profile.Ultra=超高
+
+
+screen.Atmosphere=氛围
+
+screen.Air=大气
+
+screen.Clouds=云层
+
+screen.Water=水体
+
+screen.Dimensions=维度
+
+option.netherambSat=下界环境颜色 - 饱和度
+option.netherambIllum=下界环境光 - 亮度
+option.netherambCustomColor=自定义下界环境色
+option.netherambRed=下界环境色 - 红色
+option.netherambGreen=下界环境色 - 绿色
+option.netherambBlue=下界环境色 - 蓝色
+
+option.endlightIllum=末地照明 - 亮度
+option.endlightRed=末地照明 - 红色
+option.endlightGreen=末地照明 - 绿色
+option.endlightBlue=末地照明 - 蓝色
+option.endambIllum=末地环境光 - 亮度
+option.endambRed=末地环境色 - 红色
+option.endambGreen=末地环境色 - 绿色
+option.endambBlue=末地环境色 - 蓝色
+
+
+screen.Lighting=照明
+
+screen.Shadows=阴影
+
+option.shadowmapTextureMipBias=阴影贴图纹理过滤偏差
+
+screen.Effects=特殊效果
+
+screen.Lights=光照
+
+
+screen.Terrain=地表
+
+screen.Reflections=反射
+
+
+screen.Camera=镜头
+
+screen.Exposure=曝光
+
+screen.Motionblur=运动模糊
+
+screen.Vignette=暗角
+
+
+screen.Post=后期
+
+screen.ACES=Academy Color (ACES)
+
+screen.FramingTool=框选工具
+option.framingToolEnabled=框选工具
+option.framingThirdsHor=黄金分割
+option.framingToAspect=纵横比
+option.framingAspectX=横向比值
+option.framingAspectY=纵向比值
+option.framingToAspectCenter=中心
+
+
+screen.Misc=杂项

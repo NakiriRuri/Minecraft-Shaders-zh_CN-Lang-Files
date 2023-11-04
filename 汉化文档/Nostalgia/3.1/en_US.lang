@@ -1,0 +1,169 @@
+option.INFO=Nostalgia Shader by RRe36
+value.INFO.0=v3.1
+
+option.sunPathRotation=Sun Angle
+option.volumeWorldTimeAnim=World Time Volumes
+option.volumeWorldTimeAnim.comment=Makes volumetrics (fog and clouds) be animated using the world time instead of the current client runtime. As such it also syncs up clouds across players in the same world.
+option.sunPathRotation=Sun Angle
+
+option.fogVolumeEnabled=Volumetric Fog
+option.fogMistAdvanced=High-Quality Mist
+option.fogMistAdvanced.comment=Enables much higher quality lighting of the "mist clouds". Considerable performance impact
+option.fogAdaptiveSteps=Adaptive Steps
+option.fogClipDist=Maximum Distance
+option.fogDensityMult=Density
+option.mistMieAnisotropy=Mist Mie Anisotropy
+
+option.cloudVolumeEnabled=Volumetric Clouds
+option.cloudDynamicLight=Dynamic Lighting
+option.cloudVolumeStoryMode=Story Mode Style
+option.cloudVolumeRounding=Edge Sharpness
+
+option.cloudVolume0Samples=Samples
+option.cloudVolume0Alt=Altitude
+option.cloudVolume0Depth=Depth
+option.cloudVolume0Clip=Maximum Render Distance
+
+option.cloudVolume1Enabled=Secondary Layer
+option.cloudVolume1Samples=Samples
+option.cloudVolume1Alt=Altitude
+option.cloudVolume1Depth=Depth
+option.cloudVolume1Clip=Maximum Render Distance
+
+option.overrideWaterTexture=Override Texture
+option.waterTextureBlend=Texture Pattern Blend
+option.waterColorRed=Red
+option.waterColorGreen=Green
+option.waterColorBlue=Blue
+option.waterColorAlpha=Alpha
+option.waterCoeffRed=Red Coefficient
+option.waterCoeffGreen=Green Coefficient
+option.waterCoeffBlue=Blue Coefficient
+option.waterCoeffScatter=Scattering Coefficient
+option.waterParallaxEnabled=Parallax Waves
+option.waterParallaxDepth=Depth
+option.waterDensity=Density
+
+option.directionalLMEnabled=Directional Lightmaps
+option.lightmapSmoothingEnabled=Lighting Smoothing
+option.lightmapSmoothingEnabled.comment=Smooths out the vanilla lightmaps
+option.labEmissionEnabled=Texture Emission
+
+option.shadowMapResolution=Shadowmap Resolution
+option.contactShadowsEnabled=Contact Shadows
+option.contactShadowsEnabled.comment=Implementation based on Spectrum by Zombye
+option.diffuseModel=Diffuse Shading Model
+value.diffuseModel.0=Hammon
+value.diffuseModel.1=Lambert
+option.shadowVPSEnabled=Variable Penumbra Shadows
+
+option.ambientOcclusionEnabled=Ambient Occlusion (SSAO)
+option.directionalSSAO=Directional SSAO
+option.subsurfaceScatteringEnabled=Subsurface Scattering
+
+option.sunlightIllum=Sunlight Multi
+option.moonlightIllum=Moonlight Multi
+option.skylightIllum=Skylight Multi
+option.blocklightIllum=Blocklight Multi
+option.minLightLuma=Minimum Ambient Light
+option.blocklightBaseTemp=Blocklight Temperature
+option.emitterRecoloring=Emitter Recoloring
+option.emitterBoostEnabled=Emitter Boosting
+
+option.normalmapEnabled=Normalmap Support
+option.normalmapFormat=Format
+value.normalmapFormat.0=labPBR 1.2+
+value.normalmapFormat.1=labPBR 1.1 and older
+option.vertexAttributeFix=Vertex Attribute Fix
+option.vertexAttributeFix.comment=Disables POM and Normalmaps on (block) entities due to missing data in Minecraft 1.15 and newer.
+option.windEffectsEnabled=Wind Effects
+option.windIntensity=Intensity
+
+screen.PARALLAX=Parallax Occlusion Mapping
+option.pomEnabled=Parallax Occlusion Mapping
+option.pomSamples=Samples
+option.pomShadowSamples=Self-Shadow Samples
+option.pomDepth=Depth
+
+option.specularBRDFEnabled=Specular BRDF
+option.resourcepackReflectionsEnabled=Resourcepack Reflections
+option.roughReflectionsEnabled=Rough Reflections
+option.roughReflectionSamples=Rough Reflection Samples
+option.roughReflectionsThreshold=Roughness Threshold
+option.roughReflectionsThreshold.comment=Reflections are not getting calculated beyond this roughness value
+option.roughSSR_maxR=SSR Roughness Threshold
+option.roughSSR_maxR.comment=Screenspace Reflections are not getting calculated beyond this roughness value
+option.skyOcclusionThreshold=Sky Occlusion Threshold
+option.skyOcclusionThreshold.comment=Controls when to fade out skybox reflections.
+
+option.bloomEnabled=Bloom
+option.camSensorWidth=Sensor Width
+option.camFStops=F-Stops
+
+screen.DepthOfField=Depth of Field
+option.DoFToggle=Depth of Field
+option.DoFQuality=Quality
+option.DoFChromaDispersion=Chromatic Dispersion
+
+option.exposureMinlum=Minimum Exposure
+option.exposureSpeed=Adaptation Speed
+option.manualExposureEnabled=Exposure Override
+option.manualExposureValue=Override Value
+
+screen.LensFlare=Lens Flare
+option.lensFlareToggle=Flare
+option.lensFlareHaloToggle=Halo
+option.lensFlareIntensity=Flare Intensity
+option.lensFlareThreshold=Threshold
+option.lensFlareGhostCount=Flare Count
+option.lensFlareGhostSpace=Flare Spacing
+option.lensFlareHaloRad=Halo Radius
+option.lensFlareHaloDepth=Halo Depth
+option.legacyFlareToggle=Legacy Flare
+option.legacyFlareIntensity=Intensity
+
+option.motionblurToggle=Motionblur
+option.motionblurSamples=Samples
+option.motionblurScale=Scale
+
+option.vignetteEnabled=Vignette
+option.vignetteStart=Start
+option.vignetteEnd=End
+option.vignetteIntensity=Intensity
+option.vignetteExponent=Exponent
+
+option.imageSharpenEnabled=Image Sharpen
+option.screenBitdepth=Output Bitdepth
+
+screen.AntiAliasing=Anti-Aliasing
+option.taaEnabled=Temporal AA
+option.taaBlendWeight=History Weight
+option.taaMotionRejection=Motion Rejection
+option.taaAntiGhosting=Anti-Ghosting
+option.taaAntiFlicker=Anti-Flicker
+option.taaLumaRejection=Luminance Rejection
+option.taaHueRejection=Hue Rejection
+
+option.acesRRTExposureBias=Input Exposure Bias
+option.acesRRTExposureBias.comment=Applies an exposure bias to the image before tonemapping
+option.acesRRTGammaLift=Gamma Lift
+option.acesRRTGammaLift.comment=Lifts the gamma curve before tonemapping. Use this to adjust "percieved contrast".
+option.acesRRTGlowGainOffset=Glow Gain Offset
+option.acesRRTGlowGainOffset.comment=Adjusts the "Glow" component, adjust this to affect dark areas.
+option.acesRRTSatOffset=Input Saturation Offset
+option.acesRRTSatOffset.comment=Adjust saturation before tonemapping. Provides a more natural response than adjusting saturation after tonemapping.
+option.acesODTSatOffset=Output Saturation Offset
+option.acesODTSatOffset.comment=Adjust saturation after tonemapping, but before conversion to sRGB. Use this to adjust general image saturation.
+
+screen.colorgrade=Color-Grading
+
+option.do_colorgrading=Color-Grading
+
+option.vibranceInt=Vibrance
+option.saturationInt=Saturation
+option.gammaCurve=Gamma Curve
+option.brightnessInt=Brightness
+option.constrastInt=Contrast
+option.colorlumR=Red Gain
+option.colorlumG=Green Gain
+option.colorlumB=Blue Gain
