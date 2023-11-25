@@ -180,7 +180,7 @@ option.EMISSIVE=自发光
 option.EMISSIVE.comment=允许某些表面更亮一些.
 value.EMISSIVE.0=§c关闭
 value.EMISSIVE.1=仅高级材质*
-value.EMISSIVE.2=关闭
+value.EMISSIVE.2=完整
 
 option.REFRACTION=折射
 option.REFRACTION.comment=启用基于法线的半透明后的失真变形效果. §c[-]§r半透明方块本身也会扭曲变形. §c[-]§r启用本选项后,其他一些功能可能无法正常工作.
