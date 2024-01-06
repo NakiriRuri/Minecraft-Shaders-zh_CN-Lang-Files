@@ -1,0 +1,2540 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+profile.LOW=§f۞ §7L§fow ۞
+profile.MEDIUM=§f۞ §8M§fedium ۞
+profile.HIGH=§f۞ §6H§figh ۞
+profile.ULTRA=§f۞ §4U§fltra ۞
+profile.LEX=§f۞ §4L§fex§4B§foosT §f۞
+profile.BORDERLAND=§f۞ §4B§forderland §4+§f §f۞
+profile.OLDTV= §f【 §4O§fld TV §f】
+profile.OLDTVBW= §f【 §4O§fld TV B&W §f】
+profile.PLAYSTATION=  §f【 §4P§flaystation 1 §f】
+
+#Screens
+screen.VISUAL=۞§4V§fisual
+screen.ADVANCED_MATERIALS=۞§4A§fdvanced Materials
+
+screen.POST_PROCESS=۞§4P§fost Process
+option.DOF_IS_ON=§4E§fnable this section
+screen.DOF=§4D§fepth of Field Menu
+screen.COLOR_GRADING=§4C§folor Grading Menu
+screen.CG_R=§4R§fed Channel
+screen.CG_G=§aG§freen Channel
+screen.CG_B=§1B§flue Channel
+screen.CG_T=Tint
+
+screen.SHADOWS=§4S§fhadows
+option.SHADOWS_ENTITIES=§4E§fntities Shadows
+option.SHADOWS_ENTITIES.comment=Enable or disable entities Shadows.
+option.BLOCK_ENTITY_SHADOWS=§4B§flocks Entities Shadows
+option.BLOCK_ENTITY_SHADOWS.comment=Enable or disable blocks entities Shadows.
+
+screen.COLOR=§4C§folor
+
+option.SATURATION_SUNSET_SUNRISE=§4S§funset/§4S§funrise Saturation
+value.SATURATION_SUNSET_SUNRISE.1.0=§fNormal
+value.SATURATION_SUNSET_SUNRISE.1.1=§aLight
+value.SATURATION_SUNSET_SUNRISE.1.2=§bMedium
+value.SATURATION_SUNSET_SUNRISE.1.3=§eHigh
+value.SATURATION_SUNSET_SUNRISE.1.4=§5Very High
+value.SATURATION_SUNSET_SUNRISE.1.5=§4Extreme
+
+screen.HANDS_CONFIG=§4H§fands
+screen.LIGHT_COLOR=§4L§fighting Color
+screen.LIGHT_M=§4L§fight (Morning)
+screen.AMBIENT_M=§4A§fmbient (Morning)
+screen.LIGHT_D=§4L§fight (Day)
+screen.AMBIENT_D=§4A§fmbient (Day)
+screen.LIGHT_E=§4L§fight (Evening)
+screen.AMBIENT_E=§4A§fmbient (Evening)
+screen.LIGHT_N=§4L§fight (Night)
+screen.AMBIENT_N=§4A§fmbient (Night)
+screen.BLOCKLIGHT_COLOR=§4B§flocks Lighting
+screen.SKY_COLOR=§4S§fky Color
+screen.WATER_COLOR=§4W§fater Color
+
+screen.DIMENSION_COLOR=§4D§fimension Color
+screen.NETHER_COLOR=§4N§fether Color
+screen.NETHER_N=Nether Wastes
+screen.NETHER_V=Soul Sand Valley
+screen.NETHER_C=Crimson Forest
+screen.NETHER_W=Warped Forest
+screen.NETHER_B=Basalt Deltas
+screen.END_COLOR=§4E§fnd Color
+
+screen.SKY=۞§4S§fky
+
+screen.WATER=۞§4W§fater
+
+screen.TERRAIN=۞§4W§faving Blocks
+
+screen.WORLD=۞§4W§forld
+
+#Settings
+screen.ABOUT=...﴾۞ §r§fAstra§4Lex§f ۞﴿
+option.ABOUT1=§rVersion §f:۞§e91.0§f۞
+option.ABOUT1.comment=Credits: Capt Tatsu, EminGT, ShinoNeiluj
+value.ABOUT1.0=§fby §4L§fex§4B§foosT
+
+option.WORLD_CURVATURE=§4W§forld Curvature
+option.WORLD_CURVATURE.comment=Enables world curvature. §e[*]§r To fix missing chunks, open the shaders.properties and un-comment the frustum culling line. §4[*]§r Warning: You will have a shift with the Block Selector and the targeted block.
+
+screen.WORLD_CURVATURE_CONFIG=§4W§forld Curvature Config
+option.OVERWORLD_CURVATURE_SIZE=§4O§fverworld Curvature Size
+value.OVERWORLD_CURVATURE_SIZE.999999=None
+option.NETHER_CURVATURE_SIZE=§4N§fether Curvature Size
+value.NETHER_CURVATURE_SIZE.999999=None
+option.END_CURVATURE_SIZE=§4E§fnd Curvature Size
+value.END_CURVATURE_SIZE.999999=None
+
+screen.WEATHER_MULTIPLIER=§4W§feather Multiplier Menu
+
+option.AO=§4A§fmbient Occlusion
+option.AO.comment=Adds soft shadows around surface contact or intersection.
+screen.AO_CONFIG=§4A§fmbiant Occlusion
+option.AO_QUALITY=AO Quality
+option.AO_QUALITY.comment=Adjusts ambient occlusion quality. Low quality is rendered in half resolution. §e[*]§r Low quality is internally switched to Medium if TAA is off.
+value.AO_QUALITY.1=Low
+value.AO_QUALITY.2=High
+option.AO_STRENGTH=AO Strength
+option.AO_STRENGTH.comment=Adjusts ambient occlusion strength.
+option.AO_FOVSCALE=AO FovScale
+option.AO_FOVSCALE.comment=Adjusts ambient thickness.
+value.AO_FOVSCALE.1=Very Low
+value.AO_FOVSCALE.2=Low
+value.AO_FOVSCALE.3=Medium
+value.AO_FOVSCALE.4=High
+value.AO_FOVSCALE.5=Ultra
+option.ambientOcclusionLevel=Vanilla AO Strength
+option.ambientOcclusionLevel.comment=Adjusts Vanilla Ambient Occlusion Strength
+
+screen.LIGHTING=۞§4L§fighting
+option.SHADING_STRENGTH=Shading Strength
+option.SHADING_STRENGTH.comment=Changes the shading darkness on surfaces. Affects everywhere including caves.
+option.RP_COLORED_SHADOW_COMPATIBILITY=§4RP§f Compatibility §a[§6+§a]
+value.RP_COLORED_SHADOW_COMPATIBILITY.0=§aRP§f Opaque Glass
+value.RP_COLORED_SHADOW_COMPATIBILITY.1=§4MC§f Glass
+option.RP_COLORED_SHADOW_COMPATIBILITY.comment=§4R§fesource §4P§facks Colored Shadows Compatibility. §a[+]§rThis option is only available if §4R§fesource §4P§facks is installed like NAPP.
+
+option.NIGHT_DESATURATION=§4D§fesaturation
+option.NIGHT_DESATURATION.comment=Reduces saturation while adding some tint in darker areas.
+option.DESATURATION_FACTOR=Desaturation Factor
+option.DESATURATION_FACTOR.comment=Adjusts the maximum amount of desaturation applied.
+value.DESATURATION_FACTOR.2.0=Very Low
+value.DESATURATION_FACTOR.1.5=Low
+value.DESATURATION_FACTOR.1.0=Medium
+value.DESATURATION_FACTOR.0.5=High
+value.DESATURATION_FACTOR.0.0=Very High
+
+screen.LIGHT_SHAFT=§4L§fight Shaft
+option.LIGHT_SHAFT=§4L§fight Shaft
+option.LIGHT_SHAFT.comment=Adds volumetric rays from sun / moon. §a[+]§rThis effect benefits from TAA. §e[*]§rPerformance depends on Shadowmap Resolution.
+screen.LIGHT_SHAFT_CONFIG=§4L§fight Shaft Config
+
+option.LIGHT_SHAFT_STRENGTH=Light Shaft Strength
+option.LIGHT_SHAFT_STRENGTH.comment=Adjusts light shafts strength.
+option.LIGHT_SHAFT_STRENGTH_END=Light Shaft Strength
+option.LIGHT_SHAFT_STRENGTH_END.comment=Adjusts light shafts strength in Ender.
+screen.LIGHTSHAFT_ENDER=§4L§fight Shaft Ender
+screen.LIGHTSHAFT_OVERWORLD=§4L§fightshaft §4S§fmoker Overworld
+
+option.SUNSET_SUNRISE_LIGHTSHAFT_STRENGTH=Sunset/Sunrise Strength
+value.SUNSET_SUNRISE_LIGHTSHAFT_STRENGTH.0.25=§fSoft
+value.SUNSET_SUNRISE_LIGHTSHAFT_STRENGTH.0.5=§eMedium
+value.SUNSET_SUNRISE_LIGHTSHAFT_STRENGTH.0.75=§6High
+value.SUNSET_SUNRISE_LIGHTSHAFT_STRENGTH.1.0=§4Very High
+
+option.LIGHT_SHAFT_NOON_MULTIPLIER=Noon Multiplier
+option.LIGHT_SHAFT_NIGHT_MULTIPLIER=Night Multiplier
+option.LIGHT_SHAFT_DAY_RAIN_MULTIPLIER=Rain Multiplier (Day)
+option.LIGHT_SHAFT_DAY_RAIN_MULTIPLIER.comment=Adjusts light shaft strength when it's raining (Day).
+option.LIGHT_SHAFT_NIGHT_RAIN_MULTIPLIER=Rain Multiplier (Night)
+option.LIGHT_SHAFT_NIGHT_RAIN_MULTIPLIER.comment=Adjusts light shaft strength when it's raining (Night).
+option.LIGHT_SHAFT_UNDERWATER_MULTIPLIER=Underwater Multiplier
+
+option.SMOKER_LIGHT_SHAFT_UNDERWATER=§4U§fnderwater Smoke
+value.SMOKER_LIGHT_SHAFT_UNDERWATER.0=§4OFF
+value.SMOKER_LIGHT_SHAFT_UNDERWATER.1=§aON
+
+option.LIGHTSHAFT_CONTRAST_DAY=Day Contrast
+option.LIGHTSHAFT_CONTRAST_DAY.comment=Allows you to adjust the contrast of the lightshaft color during the day.
+option.LIGHTSHAFT_CONTRAST_NIGHT=Night Contrast
+option.LIGHTSHAFT_CONTRAST_NIGHT.comment=Allows you to adjust the contrast of the lightshaft color during the night.
+
+option.UNDERWATER_LIGHTSHAFT_CONTRAST_DAY=Day Contrast
+option.UNDERWATER_LIGHTSHAFT_CONTRAST_DAY.comment=Allows you to adjust the contrast of the underwater lightshaft color during the day.
+option.UNDERWATER_LIGHTSHAFT_CONTRAST_NIGHT=Night Contrast
+option.UNDERWATER_LIGHTSHAFT_CONTRAST_NIGHT.comment=Allows you to adjust the contrast of the underwater lightshaft color during the night.
+
+screen.UNDERWATER_LIGHT_SHAFT_MENU=§4U§fnderwater Light Shaft Menu
+
+screen.LIGHT_SHAFT_UNDERWATER_COLOR=§4U§fnderwater Lightshaft Color
+option.UNDERWATERL_R=§4R§fed
+option.UNDERWATERL_G=§aG§freen
+option.UNDERWATERL_B=§1B§flue
+option.UNDERWATERL_I=Intensity
+option.DIRECTION_LIGHTSHAFT=§4C§fircumference
+option.DIRECTION_LIGHTSHAFT.comment=Allows you to choose sun lighting at 360 degrees or less. 0 = Complete 2 = 50%. Clear the sky!
+value.DIRECTION_LIGHTSHAFT.0=Very Low
+value.DIRECTION_LIGHTSHAFT.1=Low
+value.DIRECTION_LIGHTSHAFT.2=Medium
+value.DIRECTION_LIGHTSHAFT.3=Full
+option.TEXTURED_DITHERING=§4D§fithering Style
+option.TEXTURED_DITHERING.comment=Textured for 1080p + Resolution. Interleaved for little Resolution.
+value.TEXTURED_DITHERING.0=§aTextured
+value.TEXTURED_DITHERING.1=§eBayer
+option.LIGHT_SHAFT_INTENSITY_END=Intensity
+option.L_END_R=§4R§fed
+option.L_END_G=§aG§freen
+option.L_END_B=§1B§flue
+
+option.LAVA_NOISE=§4L§fava Noise
+
+option.SMOKER_LIGHT_SHAFT=§4S§fmoker Lighshaft
+value.SMOKER_LIGHT_SHAFT.0=Never
+value.SMOKER_LIGHT_SHAFT.1=Only Night
+value.SMOKER_LIGHT_SHAFT.2=Only Rainy
+value.SMOKER_LIGHT_SHAFT.3=Night & Rainy
+value.SMOKER_LIGHT_SHAFT.4=All the Time
+option.ENDER_SMOKER_LIGHT_SHAFT=§4L§fightshaft §4S§fmoker
+option.SMOKER_LIGHT_SHAFT_OVERWORLD_SPEED=Lightshaft Smoker Speed
+
+screen.ENDER_SKY_COLOR_CUSTOM_CONFIG=§4C§fustom End Sky Color
+option.ENDER_SKY_COLOR_CUSTOM_CONFIG.comment=Adjusts color of the Ender Sky.
+option.ENDER_SKY_COLOR_CUSTOM=§4E§fnder Sky Custom Color
+option.ENDER_SKY_COLOR_CUSTOM.comment=Enable or disable Custom Sky color.
+option.S_END_R=§4R§fed
+option.S_END_G=§aG§freen
+option.S_END_B=§1B§flue
+option.S_END_I=Intensity
+
+screen.SUNGLARE_CONFIG=§4S§funglare Configuration
+option.SUNGLARE=§4S§funglare
+option.SUNGLARE.comment=Enable or disable Sunglare
+option.SUNGLARE_OUTWATER_STRENGTH=§4S§funglare Out of Water
+option.SUNGLARE_OUTWATER_STRENGTH.comment=Adjusts the Strength of the luminous halo around the sun / moon when you are out of the water.
+option.SUNGLARE_UNDERWATER_STRENGTH=§4S§funglare Under Water
+option.SUNGLARE_UNDERWATER_STRENGTH.comment=Adjusts the Strength of the luminous halo around the sun / moon when you are under the water.
+option.SUNGLARE_RAIN=§4S§funglare Weather
+option.SUNGLARE_RAIN.comment=Enable or Disable a luminous halo around the sun / moon when it rain.
+value.SUNGLARE_RAIN.1=§aON§f
+value.SUNGLARE_RAIN.2=§4OFF§f
+option.SUN_GLARE_NIGHT=§4M§foon Glare
+option.SUN_GLARE_NIGHT.coment=Adjusts Moon Glare Intensity.
+option.SUN_GLARE_DAY=§4S§fun Glare
+option.SUN_GLARE_DAY.coment=Adjusts Sun Glare Intensity.
+
+option.SKY_BLUR=§4B§flurry Sky
+option.SKY_BLUR.comment=Makes the sky slightly blurry.
+value.SKY_BLUR.0=§4OFF§f
+value.SKY_BLUR.1=§fDay/Night
+value.SKY_BLUR.2=§fDay
+value.SKY_BLUR.3=§fNight
+
+option.WATER_CAUSTICS=§4W§fater Caustics
+option.WATER_CAUSTICS.comment=Adds the reflection of the sun on the surface of the water when you are in the water, at the bottom of the water. Light_Shaft must be enabled!
+option.PROJECTED_CAUSTICS=§4P§frojected Caustics
+option.PROJECTED_CAUSTICS.comment=Adds the reflection of the sun on the surface of the water when you are out of the water, at the bottom of the water. Light_Shaft must be enabled!
+
+option.CAUSTICS_VISIBILITY_DAY=Visibility (Day)
+option.CAUSTICS_VISIBILITY_NIGHT=Visibility (Night)
+option.PROJECTED_VISIBILITY_DAY=Visibility (Day)
+option.PROJECTED_VISIBILITY_NIGHT=Visibility (Night)
+
+
+option.REFLECTION=§4R§feflections
+option.REFLECTION.comment=Enables screen space reflection. §e[*]§rThis toggle only affects water and translucent reflection, rain and specular reflection won't be affected.
+
+option.SMOOTHNESS_METAL_REFLECTION_STRENGTH=§4S§fmooth/Metal Reflection§5[*]§f
+option.SMOOTHNESS_METAL_REFLECTION_STRENGTH.comment=Adjusts the strength of smoothness/metal reflections.
+
+option.REFLECTION_TRANSLUCENT=§4T§franslucent Reflections
+option.REFLECTION_TRANSLUCENT.comment=Allows reflection to be rendered on translucent surfaces.
+
+option.SUN_MOON_REFLECTION=§4R§feflections Sun/Moon
+
+option.HORIZON_MIRROR_REFLECTION=§4H§forizon Reflection Fade
+option.HORIZON_MIRROR_REFLECTION.comment=Enables fading reflection on the sky horizon on water for stars, shiningstars etc.
+value.HORIZON_MIRROR_REFLECTION.0=§4OFF§f
+value.HORIZON_MIRROR_REFLECTION.1=§aON§f
+
+option.ADVANCED_MATERIALS=§4A§fdvanced Materials
+option.ADVANCED_MATERIALS.comment=Enables the use of specular and normal mapping which allows for more detail on various things.  §e[*]§rThis option requires a resource pack which contains specular and/or normal maps, disable this if you don't use one. §e[*]§rOptions which requires advanced materials are indicated by §5[*]§f.
+
+option.NORMALS_STRENGTH=Normals Strength
+option.NORMALS_STRENGTH.comment=Allows you to adjust the intensity the strength of the normal.
+
+option.LESS_AO=§4N§formals AO Strength
+option.LESS_AO.comment=Allows you to choose the intensity of ambient occlusion in the terrain.
+value.LESS_AO.0=§aSoft
+value.LESS_AO.1=§4Double Intensity
+
+option.NORMAL_PLANTS=§4U§fp Facing Plants§5[*]§f
+option.NORMAL_PLANTS.comment=Adjusts plant shading. §e[*]§rDisable this if non-flat plant model is used or normal map applied on plants.
+value.NORMAL_PLANTS.0=§4OFF
+value.NORMAL_PLANTS.1=§gEverywhere
+value.NORMAL_PLANTS.2=§aOnly in Water
+
+option.NORMAL_DAMPENING=§4N§formal Dampening§5[*]§f
+option.NORMAL_DAMPENING.comment=Reduces normal map strength to prevent reflections being too noisy.
+
+screen.WATER_REFLECTION=§4W§fater Reflection
+option.FRESNEL_DAY=Water Reflection (Day)
+option.FRESNEL_DAY.comment=Adjusts the strength of the fresnel effect on water during the day.
+option.FRESNEL_NIGHT=Water Reflection (Night)
+option.FRESNEL_NIGHT.comment=Adjusts the strength of the fresnel effect on water during the night.
+option.FRESNEL_CAVE=Water Reflection (Cave)
+option.FRESNEL_CAVE.comment=Adjusts the strength of the fresnel effect on water during the cave.
+option.ICE_REFLECTION_STRENGTH=Ice Reflection Strength
+
+screen.BSL_CEL_SHADING=§4B§fSL Cel Shading
+
+option.OUTLINE=§4S§ftyle
+option.OUTLINE.comment=Enables outline effect.
+value.OUTLINE.0=§4OFF
+value.OUTLINE.1=Black Outline
+value.OUTLINE.2=Colored Outline
+value.OUTLINE.3=Black/Promo Outline
+value.OUTLINE.4=Promo Outline
+option.PROMO_OUTLINE_EVERYWHERE=§b🌊§f Water Promo Outline
+option.PROMO_OUTLINE_EVERYWHERE.comment=Add Promo Outline in Water.
+value.PROMO_OUTLINE_EVERYWHERE.0=§4OFF
+value.PROMO_OUTLINE_EVERYWHERE.1=§aON
+option.OUTLINE_TRIPWIRE=§4T§fripwire Outline
+
+screen.FULL_BORDER=§4F§full Border Mod
+option.FULL_BORDER=Full Border
+option.FULL_BORDER.comment=Enable or Disable FULL_BORDER. Add black line in border of blocks. Disable Promo Outline for best effect.
+option.BORDER_SIZE=Border Size
+option.BORDER_SIZE.comment=Adjust border's size.
+option.BORDER_RADIUS=Border Radius
+option.BORDER_RADIUS.comment=Adjust border's radius.
+
+option.MATERIAL_FORMAT=§4M§faterial Format§5[*]§f
+option.MATERIAL_FORMAT.comment=Determines the specular and normal map format used by the resourcepack. §e[*]§rTexture artists usually tell which format is used in their resourcepack, using the wrong format may give weird results.
+value.MATERIAL_FORMAT.0=Seus PBR (Old PBR)
+value.MATERIAL_FORMAT.1=labPBR 1.3
+
+option.REFLECTION_SPECULAR=§4S§fpecular Reflection§5[*]§f
+option.REFLECTION_SPECULAR.comment=Enables reflection on smooth or metallic surfaces.
+
+option.SPECULAR_HIGHLIGHT_ROUGH=§4S§fpecular HighLight Rough§5[*]§f
+option.SPECULAR_HIGHLIGHT_ROUGH.comment=Allows rough surfaces to have weak gloss.
+
+option.REFLECTION_RAIN=Rain Reflection§5[*]§f
+option.REFLECTION_RAIN.comment=Allows surfaces to be wet while raining.  §e[*]§rRequires specular reflection.
+option.SMOOTHNESS_PUDDLE_REFLECTION=Smoothness Puddle Ref§5[*]§f
+value.SMOOTHNESS_PUDDLE_REFLECTION.0.5=Low
+value.SMOOTHNESS_PUDDLE_REFLECTION.0.6=Medium
+value.SMOOTHNESS_PUDDLE_REFLECTION.0.7=High
+value.SMOOTHNESS_PUDDLE_REFLECTION.0.8=Very High
+
+option.PUDDLES_ON_WATER=Puddles on Water§5[*]§f
+option.PUDDLES_ON_WATER.comment=Add puddles on water. §e[*]§rRequires specular reflection.
+
+screen.RAIN_REFLECTION_MENU=§4R§fain Reflection Menu
+
+option.drynessHalflife=Dry Spawn Delay§5[*]§f
+option.drynessHalflife.comment=Adjusts the reflection spawn delay when it rains. 1= fast / 2= long. §e[*]§rRequires specular reflection.
+value.drynessHalflife.50.0=1
+value.drynessHalflife.100.0=2
+value.drynessHalflife.125.0=3
+value.drynessHalflife.150.0=4
+value.drynessHalflife.175.0=5
+value.drynessHalflife.200.0=6
+value.drynessHalflife.225.0=7
+value.drynessHalflife.250.0=8
+value.drynessHalflife.275.0=9
+value.drynessHalflife.300.0=10
+
+option.wetnessHalflife=Dryness Delay§5[*]§f
+option.wetnessHalflife.comment=Adjusts the delay of the reflection of the rain on the ground. 1= fast / 2= long. §e[*]§rRequires specular reflection.
+value.wetnessHalflife.100.0=1
+value.wetnessHalflife.200.0=2
+value.wetnessHalflife.300.0=3
+value.wetnessHalflife.400.0=4
+value.wetnessHalflife.500.0=5
+value.wetnessHalflife.600.0=6
+value.wetnessHalflife.700.0=7
+value.wetnessHalflife.800.0=8
+value.wetnessHalflife.900.0=9
+value.wetnessHalflife.1000.0=10
+
+option.DISABLE_PUDDLES=Rain §4OFF§f on
+option.DISABLE_PUDDLES.comment=Allows you to disable the reflection of the rain and the ripples on the following blocks: 0 = Lava, 1 = Lava/Snow, 2 = Lava/Snow/Sand
+value.DISABLE_PUDDLES.0=§fLava
+value.DISABLE_PUDDLES.1=§fLava/Snow
+value.DISABLE_PUDDLES.2=§fLava/Snow/Sand
+value.DISABLE_PUDDLES.3=§fLava/Sand
+
+option.REFLECTION_ROUGH=§4R§fough Reflection§5[*]§f
+option.REFLECTION_ROUGH.comment=Allows surfaces with lower smoothness to render blurry reflections. §4[-]§rMay contain minor artifacts.
+option.ROUGH_REF_BLUR=§4R§fough Reflection Blur§5[*]§f
+
+option.ROUGH_NOISE=Rough Noise§5[*]§f
+option.ROUGH_NOISE.comment=Adjusts grain on Rough reflection.
+
+option.EMISSIVE_MULTIPLIER=Emissive Multiplier
+option.EMISSIVE_MULTIPLIER.comment=Adjusts the strength of all blocks that emit light.
+
+option.EMISSIVE_FLOWERS=§4F§flowers Emissive
+value.EMISSIVE_FLOWERS.0=§fOFF
+value.EMISSIVE_FLOWERS.1=§aON
+option.FLOWERS_EMISSIVE_STRENGTH=§4F§flowers Emissive Strength
+option.WEATHER_EMISSIVE_FLOWERS=§4E§fmissive during Rain
+option.WEATHER_EMISSIVE_FLOWERS.comment=Activates the emissivity of the flowers according to the weather. §4OFF §f: Flowers are not emissive when it rains. §aON §f: Flowers are emissive at all times.
+value.WEATHER_EMISSIVE_FLOWERS.0=§4OFF
+value.WEATHER_EMISSIVE_FLOWERS.1=§aON
+
+option.PARALLAX=§4P§farallax Occlusion Mapping§5[*]§f
+option.PARALLAX.comment=Adds displacement on a surface using height map.
+
+option.PARALLAX_DEPTH=Parallax Depth§5[*]§f
+option.PARALLAX_DEPTH.comment=Adjusts parallax deepness.
+value.PARALLAX_DEPTH.0.05=5 cm
+value.PARALLAX_DEPTH.0.10=10 cm
+value.PARALLAX_DEPTH.0.15=15 cm
+value.PARALLAX_DEPTH.0.20=20 cm
+value.PARALLAX_DEPTH.0.25=25 cm
+value.PARALLAX_DEPTH.0.30=30 cm
+value.PARALLAX_DEPTH.0.35=35 cm
+value.PARALLAX_DEPTH.0.40=40 cm
+value.PARALLAX_DEPTH.0.45=45 cm
+value.PARALLAX_DEPTH.0.50=50 cm
+
+option.PARALLAX_ENTITY=§4P§farallax on Entities§5[*]§f
+option.PARALLAX_ENTITY.comment=Disable or enable parallax on various entities. (For mods support)
+
+option.SELF_SHADOW=§4S§felf Shadows§5[*]§f
+option.SELF_SHADOW.comment=Allows a surface to cast shadow to itself using heightmap.
+
+option.SELF_SHADOW_QUALITY=Self Shadows Samples§5[*]§f
+option.SELF_SHADOW_QUALITY.comment=Adjusts the quality of self shadowing.
+
+option.SELF_SHADOW_ANGLE=Self Shadowing Angle§5[*]§f
+option.SELF_SHADOW_ANGLE.comment=Adjusts the self shadowing angle, higher value allows the shadow to travel further.
+
+option.SELF_SHADOW_STRENGTH=Self Shadows Strength§5[*]§f
+option.SELF_SHADOW_STRENGTH.comment=Adjusts the strenght of self shadowing.
+
+option.PARALLAX_QUALITY=Parallax Quality§5[*]§f
+option.PARALLAX_QUALITY.comment=Adjusts the quality of parallax occlusion mapping and self shadows.
+
+option.PARALLAX_DISTANCE=Parallax Distance§5[*]§f
+option.PARALLAX_DISTANCE.comment=Adjusts how far parallax occlusion mapping and self shadows can be rendered.
+
+option.DIRECTIONAL_LIGHTMAP=§4D§firectional Lightmap§5[*]§f
+option.DIRECTIONAL_LIGHTMAP.comment=Adds normal mapping to vanilla lighting. §4[-]§rLightmap may glitch with this effect enabled.
+
+option.DIRECTIONAL_LIGHTMAP_STRENGTH=Dir. Lightmap Strength§5[*]§f
+option.DIRECTIONAL_LIGHTMAP_STRENGTH.comment=Adjusts the intensity of Directional Lightmap.
+
+option.DOF=§4D§fepth of Field
+option.DOF.comment=Depth Of Field: Blurs the objects that the player isn't looking at to simulate focusing.
+
+option.DISTANCE_BLUR=§4D§fistance Blur
+option.DISTANCE_BLUR.comment=Adds a blur in the distance. DOF must be activated!
+
+option.OVERWORLD_DOF_STRENGTH=§4O§fverworld DOF Strength
+option.OVERWORLD_DOF_STRENGTH.comment=Adjusts the strength of the DOF in the Overworld.
+option.OVERWORLD_DISTANCE_BLUR_STRENGTH=§4O§fverworld Distance Strength
+option.OVERWORLD_DISTANCE_BLUR_STRENGTH.comment=Adjusts the strength of distance blur in the Overworld.
+
+option.NETHER_DOF_STRENGTH=§4N§fether DOF Strength
+option.NETHER_DOF_STRENGTH.comment=Adjusts the strength of the DOF in the Nether.
+option.NETHER_DISTANCE_BLUR_STRENGTH=§4N§fether Distance Strength
+option.NETHER_DISTANCE_BLUR_STRENGTH.comment=Adjusts the strength of distance blur in the Nether.
+
+option.END_DOF_STRENGTH=§4E§fnder DOF Strength
+option.END_DOF_STRENGTH.comment=Adjusts the strength of the DOF in the Ender.
+option.END_DISTANCE_BLUR_STRENGTH=§4E§fnder Distance Strength
+option.END_DISTANCE_BLUR_STRENGTH.comment=Adjusts the strength of distance blur in the Ender.
+
+option.CHROMATIC_ABERRATION=§4C§fhromatic Aberration
+option.CHROMATIC_ABERRATION.comment=Optical aberration that produces different focus depending on the wavelength. We then observe a blurry image with iridescent contours. Chromatic Blur need DOF!
+option.CHROMATIC_ABERRATION_O=§4O§fverworld Chr. Aberration
+option.CHROMATIC_ABERRATION_N=§4N§fether Chr. Aberration
+option.CHROMATIC_ABERRATION_E=§4E§fnder Chr. Aberration
+value.CHROMATIC_ABERRATION.0=§4OFF
+value.CHROMATIC_ABERRATION.1=Chromatic Blur
+value.CHROMATIC_ABERRATION.2=Standard
+
+option.CHROMA_STRENGTH=§4C§fhromatic Strength
+option.CHROMA_STRENGTH.comment=Adjusts the Strength of chromatic aberration.
+
+option.centerDepthHalflife=§4F§focus Speed
+option.centerDepthHalflife.comment=Adjusting Focus speed
+
+option.RAIN_BLUR_MULT=§4R§fainy Distance Multiplier
+option.RAIN_BLUR_MULT.comment=Adjusts Strength of Distance Blur when it rain. Distance Blur must be activated!.
+
+screen.MOTION_BLUR_MENU=§4M§fotion Blur Menu
+option.MOTION_BLUR=§4M§fotion Blur
+option.MOTION_BLUR.comment=Enables camera motion based blurring.
+option.PLAYER_MOTION_BLUR=§4P§flayers Motion Blur
+option.PLAYER_MOTION_BLUR.comment=Disabled\Enabled players motion blur. Need Minecraft version 1.16.5 or higher to work.
+value.PLAYER_MOTION_BLUR.0=§4Disabled
+value.PLAYER_MOTION_BLUR.1=§aEnabled
+option.MOTION_BLUR_STRENGTH=Motion Blur Strength
+option.MOTION_BLUR_STRENGTH.comment=Adjusts motion blur intensity.
+
+screen.BLOOM_MENU=§4B§floom Menu
+option.BLOOM=§4B§floom
+option.BLOOM.comment=Allows bright areas to glow.
+option.BLOOM_MULTIPLIER=Dimensions Bloom Mult
+option.BLOOM_MULTIPLIER.comment=Allows you to Multiply Bloom on all dimensions at once.
+value.BLOOM_MULTIPLIER.0.4=Very Low
+value.BLOOM_MULTIPLIER.0.5=Low
+value.BLOOM_MULTIPLIER.0.6=Medium
+value.BLOOM_MULTIPLIER.0.7=High
+value.BLOOM_MULTIPLIER.0.8=Maximum
+
+option.HAND_BLOOM_REDUCTION=§4H§fand Bloom Reduction
+option.HAND_BLOOM_REDUCTION.comment=Allows you to reduce the intensity of Bloom on the hands.
+option.HAND_BLOOM_REDUCTION_STRENGTH=Hand Bloom Strength
+
+option.BLOOM_RADIUS=Radius
+option.BLOOM_RADIUS.comment=Adjusts how far the glow spreads.
+value.BLOOM_RADIUS.1=Minimum
+value.BLOOM_RADIUS.2=Very Low
+value.BLOOM_RADIUS.3=Low
+value.BLOOM_RADIUS.4=Medium
+value.BLOOM_RADIUS.5=High
+value.BLOOM_RADIUS.6=Very High
+value.BLOOM_RADIUS.7=Maximum
+
+screen.BLOOM_DIMENSION_CONFIG=§4B§floom Dimension Config [§a*§f]
+option.OVERWORLD_BLOOM_STRENGTH=Overworld Bloom Strength
+option.OVERWORLD_BLOOM_STRENGTH.comment=Adjusts bloom intensity.
+option.NETHER_BLOOM_STRENGTH=Nether Bloom Strength
+option.NETHER_BLOOM_STRENGTH.comment=Adjusts bloom intensity.
+option.END_BLOOM_STRENGTH=End Bloom Strength
+option.END_BLOOM_STRENGTH.comment=Adjusts bloom intensity.
+option.END_CRITICAL_BLUR=§4E§fnder Critical Blur
+option.END_CRITICAL_BLUR.comment=Adds blur to the scene.
+option.END_CRITICAL_BLUR_STRENGTH=Critical Blur Strength
+
+screen.DARKNESS_MENU=§fD§3a§fr§3k§fn§3e§fs§3s§f Menu
+option.ENABLE_DARKNESS_EFFECT=§fD§3a§fr§3k§fn§3e§fs§3s§f Effects
+option.ENABLE_DARKNESS_EFFECT.comment=Enable or disable Darkness Effects.
+option.DARKNESS_HARD_FOG=§fD§3a§fr§3k§fn§3e§fs§3s§f
+value.DARKNESS_HARD_FOG.0=Simple Fog
+value.DARKNESS_HARD_FOG.1=Big FOG
+option.DARKNESS_FOG_DISTANCE=§fD§3a§fr§3k§fn§3e§fs§3s§f Fog
+option.DARKNESS_FOG_DISTANCE.comment=Allows to adjusts the fog for the Darkness.
+option.WARDEN_BLOOM_MULTIPLIER=§fD§3a§fr§3k§fn§3e§fs§3s§f Bloom Multiplier
+option.WARDEN_BLOOM_MULTIPLIER.comment=Allows you to adjust the Bloom when you fight the Warden.
+option.SCREEN_DIMMING=§3S§fcreen §3D§fimming
+option.SCREEN_DIMMING.comment=Allows you to adjust screen dimming.
+value.SCREEN_DIMMING.1=§3L§fow
+value.SCREEN_DIMMING.2=§3M§fedium
+value.SCREEN_DIMMING.3=§3H§figh
+
+screen.START_EFFECTS=§4S§ftart Effects
+option.COLOR_START=§4S§ftart Effect Custom Color
+option.COLOR_START.comment=Adds a splash effect colorized with the color of his choice. Use the RGB sliders to choose your color.
+option.BLOOM_START=§4B§floom Start Effect
+option.BLOOM_START.comment=Increases Bloom during the startup effect. Bloom must be enabled!.
+option.ANIM_MOVE=§4F§fading animation
+option.ANIM_MOVE.comment=Fading animation when you move.
+option.BLOOM_S_STRENGTH=Bloom Start Strength
+option.S_RED=§4R§fed
+option.S_GREEN=§aG§freen
+option.S_BLUE=§1B§flue
+option.S_INTENSITY=Intensity
+
+screen.LENS_FLARE_MENU=§4L§fens Flare Menu
+option.LENS_FLARE=Lens Flare §fDouble_§4R§6A§eI§aN§bB§9O§5W§dS§r
+
+option.LENS_FLARE_STRENGTH_DAY=Lens Flare Strength Day
+option.LENS_FLARE_STRENGTH_DAY.comment=Adjusts lens flare intensity.
+option.LENS_FLARE_STRENGTH_NIGHT=Lens Flare Strength Night
+option.LENS_FLARE_STRENGTH_DAY_NIGHT.comment=Adjusts lens flare intensity.
+
+option.AA=§4A§fnti-aliasing
+option.AA.comment=Enables anti-aliasing. FXAA : Faster, works properly with screenshot size. TAA : Slower, captures subpixel detail and improves some effects. §e[*]§rPlease disable Antialiasing in Shaders menu while this option is enabled.
+value.AA.0=§4OFF
+value.AA.1=FXAA
+value.AA.2=TAA
+value.AA.3=TAA + FXAA
+value.AA.4=Super TAA + FXAA
+value.AA.5=Super TAA
+
+screen.FXAA_SETTINGS=§4S§fettings FXAA
+option.FXAA_SUBPIXEL=§4F§fXAA Subpixel Smoothing
+option.FXAA_SUBPIXEL.comment=Adjusts how much smoothing should FXAA apply to tiny details.
+value.FXAA_SUBPIXEL.0.00=§4OFF
+value.FXAA_SUBPIXEL.0.25=Low
+value.FXAA_SUBPIXEL.0.50=Medium
+value.FXAA_SUBPIXEL.0.75=High
+value.FXAA_SUBPIXEL.1.00=Very High
+
+option.FXAA_THRESHOLD=§4F§fXAA Contrast Sensitivity
+option.FXAA_THRESHOLD.comment=Adjusts how much edge contrast required to apply FXAA.
+value.FXAA_THRESHOLD.0.250=Low
+value.FXAA_THRESHOLD.0.125=Medium
+value.FXAA_THRESHOLD.0.063=High
+
+option.FXAA_THRESHOLD_MIN=§4F§fXAA Brightness Sensitivity
+option.FXAA_THRESHOLD_MIN.comment=Adjusts how much edge brightness required to apply FXAA.
+value.FXAA_THRESHOLD_MIN.0.0625=Low
+value.FXAA_THRESHOLD_MIN.0.0312=Medium
+value.FXAA_THRESHOLD_MIN.0.0156=High
+
+option.ANISO_FILTER=§4A§fnisotropic Filtering
+option.ANISO_FILTER.comment=Anisotropic filtering is a technique used in the 3-D computing field to enhance the image quality of textures on rendered surfaces which are sloped relative to the viewer. Can have harmful effects on Parallax!
+option.AF_SAMPLES=§4A§f-F Samples
+option.AF_SAMPLES.comment=High samples usage can harm performance.
+value.AF_SAMPLES.2=§a2x
+value.AF_SAMPLES.4=§g4x
+value.AF_SAMPLES.8=§b8x
+value.AF_SAMPLES.16=§516x
+
+option.KEEP_AA_ON_WATER=AA On Water
+option.KEEP_AA_ON_WATER.comment=Enable or Disable AA on Water. Improve Stars reflection on Water when is disable. Work only for 1.17+!.
+option.SHARPEN_AA=§4S§fharpen AA
+option.SHARPEN_AA.comment=Sharpen AA is Downscalling/Upscaling AA based on MC render Quality.
+
+option.AUTO_EXPOSURE=§4A§futo Exposure
+option.AUTO_EXPOSURE.comment=Enables automatic adjustment to overall brightness.
+
+option.CLASSIC_EXPOSURE=§4C§flassic Exposure
+option.CLASSIC_EXPOSURE.comment=Enables increased exposure when going indoors.
+
+screen.AUTO_EXPOSURE_CONFIG=§4A§futo Exposure Config
+option.AUTO_EXPOSURE_RADIUS=§4A§futo Exposure Radius
+option.AUTO_EXPOSURE_RADIUS.comment=Adjusts how much of the screen being used for exposure calculation.
+value.AUTO_EXPOSURE_RADIUS.0.1=Very Low
+value.AUTO_EXPOSURE_RADIUS.0.15=Low
+value.AUTO_EXPOSURE_RADIUS.0.2=Medium
+value.AUTO_EXPOSURE_RADIUS.0.25=High
+value.AUTO_EXPOSURE_RADIUS.0.3=Very High
+value.AUTO_EXPOSURE_RADIUS.0.4=Maximum
+
+option.AUTO_EXPOSURE_SPEED=§4A§futo Exposure Speed
+option.AUTO_EXPOSURE_SPEED.comment=Adjusts how fast the exposure change occurs. §c[-]§rFast speed or above may cause flashing in combination with low radius.
+value.AUTO_EXPOSURE_SPEED.0.01=Very Slow
+value.AUTO_EXPOSURE_SPEED.0.02=Slow
+value.AUTO_EXPOSURE_SPEED.0.03=Medium
+value.AUTO_EXPOSURE_SPEED.0.1=Fast
+value.AUTO_EXPOSURE_SPEED.0.2=Very Fast
+
+option.VIGNETTE=Vignette
+option.Vignette.comment=Fades the edge of the screen to black. §e[*]§rDisable for 360 imaging.
+
+screen.DIRTY_LENS_MENU=§4D§firty Lens Menu
+option.DIRTY_LENS=§4D§firty Lens
+option.DIRTY_LENS.comment=Adds dusty particle effect to bloom. §e[*]§rRequires bloom.
+option.DIRTY_LENS_STRENGTH=Dirty Lens Strength
+
+option.COLOR_GRADING=§4C§folor Grading
+option.COLOR_GRADING.comment=Enables color grading. §e[*]§rThis option doesn't need to be enabled to change tonemap, saturation, and vibrance sliders.
+
+option.TONEMAP_LOWER_CURVE=Tonemap Lower Curve
+option.TONEMAP_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.TONEMAP_UPPER_CURVE=Tonemap Upper Curve
+option.TONEMAP_UPPER_CURVE.comment=Adjusts contrast of brighter colors.
+
+option.EXPOSURE=Exposure
+
+option.SATURATION=Saturation
+option.SATURATION.comment=Adjusts saturation of all colors.
+
+option.VIBRANCE=Vibrance
+option.VIBRANCE.comment=Adjusts saturation of less saturated colors, well saturated colors are less affected.
+
+option.GAMMA=Gamma Correction
+option.BLACK_CURVE=Black Curve
+option.WHITE_CURVE=White Curve
+option.ACES=§4A§fces Tonemap Addition
+
+option.CG_RR=§4R§fed - §4R§fed Value
+option.CG_RG=§4R§fed - §aG§freen Value
+option.CG_RB=§4R§fed - §1B§flue Value
+option.CG_RI=§4R§fed Strength Value
+option.CG_RM=Minimal §4R§fed Value
+option.CG_RC=§4R§fed Curve Value
+
+option.CG_GR=§aG§freen - §4R§fed Value
+option.CG_GG=§aG§freen - §aG§freen Value
+option.CG_GB=§aG§freen - §1B§flue Value
+option.CG_GI=§aG§freen Strength Value
+option.CG_GM=Minimal §aG§freen Value
+option.CG_GC=§aG§freen Curve Value
+
+option.CG_BR=§1B§flue - §4R§fed Value
+option.CG_BG=§1B§flue - §aG§freen Value
+option.CG_BB=§1B§flue - §1B§flue Value
+option.CG_BI=§1B§flue Strength Value
+option.CG_BM=Minimal §1B§flue Value
+option.CG_BC=§1B§flue Curve Value
+
+option.CG_TR=Tint - §4R§fed Value
+option.CG_TG=Tint - §aG§freen Value
+option.CG_TB=Tint - §1B§flue Value
+option.CG_TI=Tint Strength Value
+option.CG_TM=Tint Mix Value
+
+option.shadowMapResolution=Shadowmap Quality
+option.shadowMapResolution.comment=Adjusts shadowmap size. §e[*]§rHigher resolution gives sharper shadows, but reduces performance.
+value.shadowMapResolution.1024=Low (1024)
+value.shadowMapResolution.2048=Medium (2048)
+value.shadowMapResolution.3072=High (3072)
+value.shadowMapResolution.4096=Very High (4096)
+value.shadowMapResolution.8192=Ultra High (8192)
+
+option.shadowDistance=Shadow Distance
+option.shadowDIstance.comment=Adsusts shadow distance.
+value.shadowDistance.32.0=2 Chunks
+value.shadowDistance.64.0=4 Chunks
+value.shadowDistance.96.0=6 Chunks
+value.shadowDistance.128.0=8 Chunks
+value.shadowDistance.160.0=10 Chunks
+value.shadowDistance.192.0=12 Chunks
+value.shadowDistance.224.0=14 Chunks
+value.shadowDistance.256.0=16 Chunks
+value.shadowDistance.384.0=24 Chunks
+value.shadowDistance.512.0=32 Chunks
+value.shadowDistance.768.0=48 Chunks
+value.shadowDistance.1024.0=64 Chunks
+
+option.COLORED_SHADOWS=§4C§folored Shadows §a[§6+§a]
+option.COLORED_SHADOWS.comment=Enables tinted shadow from translucents. §a[+]§rUsed for colored volumetric light shafts. §4[-]§rSlightly higher performance cost when using shadow filtering.
+
+option.SHADOW_FILTER=§4S§fhadow Filtering
+option.SHADOW_FILTER.comment=Enables shadow filtering. §a[+]§rThis effect benefits from TAA.
+
+option.TAA_SHADOW_FILTER=§4T§faa Shadow Filtering
+
+option.sunPathRotation=Sun Path Rotation
+option.sunPathRotation.comment=Adjusts sun angle.
+
+screen.SSS_MENU=§4S§fub §4S§furface §4S§fcattering Menu
+
+option.SSS=§4S§fub §4S§furface §4S§fcattering
+option.SSS.comment=Allows light to penetrate and scatter through leaves/foliages.
+
+option.SSS_ON_ENTITY=SSS on §4E§fntities
+option.SSS_ON_ENTITY.comment=Add a very light SSS on the entities.
+option.SSS_ENTITIES_STRENGTH=SSS §4E§fntities Strength
+
+option.SSS_DAY_STRENGTH=SSS §4D§fay Strength
+option.SSS_NIGHT_STRENGTH=SSS §4N§fight Strength
+option.SSS_FOLIAGE_STRENGTH=SSS §4F§foliage Strength
+option.SSS_LEAVES_STRENGTH=SSS §4L§feaves Strength
+
+option.SSS_QUALITY=SSS §4Q§fuality
+value.SSS_QUALITY.12=§fNormal
+value.SSS_QUALITY.24=§eHigh
+value.SSS_QUALITY.48=§6Very High
+
+screen.EXTRA_SSS=§4E§fxtra SSS Block
+option.SSS_ON_SNOW=SSS on §4S§fnow
+option.SSS_ON_SNOW.comment=Add a very light SSS on the snow. Banding may occur.
+value.SSS_ON_SNOW.0=§4OFF
+value.SSS_ON_SNOW.1=§aON
+option.SSS_ON_SAND=SSS on §4S§fand
+option.SSS_ON_SAND.comment=Add a very light SSS on the sand. Banding may occur.
+value.SSS_ON_SAND.0=§4OFF
+value.SSS_ON_SAND.1=§aON
+option.SSS_ON_QUARTZ=SSS on §4Q§fuartz
+option.SSS_ON_QUARTZ.comment=Add a very light SSS on the quartz. Banding may occur.
+value.SSS_ON_QUARTZ.0=§4OFF
+value.SSS_ON_QUARTZ.1=§aON
+option.SSS_ON_CALCITE=SSS on §4C§falcite
+option.SSS_ON_CALCITE.comment=Add a very light SSS on the calcite. Banding may occur.
+value.SSS_ON_CALCITE.0=§4OFF
+value.SSS_ON_CALCITE.1=§aON
+option.SSS_ON_GLASS=SSS on §4G§flass
+value.SSS_ON_GLASS.0=§4OFF
+value.SSS_ON_GLASS.1=Stained Glass Only
+value.SSS_ON_GLASS.2=Glass + Stained
+
+option.EMISSIVE=§4E§fmissivity
+option.EMISSIVE.comment=Allows certain surfaces to be brighter.
+value.EMISSIVE.0=§4OFF
+value.EMISSIVE.1=AdvMat Only§5[*]§f
+value.EMISSIVE.2=Full
+value.EMISSIVE.3=Hardcoded Only
+
+option.LIGHT_MR=§4R§fed
+option.LIGHT_MG=§aG§freen
+option.LIGHT_MB=§1B§flue
+option.LIGHT_MI=Intensity
+
+option.LIGHT_DR=§4R§fed
+option.LIGHT_DG=§aG§freen
+option.LIGHT_DB=§1B§flue
+option.LIGHT_DI=Intensity
+
+option.LIGHT_ER=§4R§fed
+option.LIGHT_EG=§aG§freen
+option.LIGHT_EB=§1B§flue
+option.LIGHT_EI=Intensity
+
+option.LIGHT_NR=§4R§fed
+option.LIGHT_NG=§aG§freen
+option.LIGHT_NB=§1B§flue
+option.LIGHT_NI=Intensity
+
+option.AMBIENT_MR=§4R§fed
+option.AMBIENT_MG=§aG§freen
+option.AMBIENT_MB=§1B§flue
+option.AMBIENT_MI=Intensity
+
+option.AMBIENT_DR=§4R§fed
+option.AMBIENT_DG=§aG§freen
+option.AMBIENT_DB=§1B§flue
+option.AMBIENT_DI=Intensity
+
+option.AMBIENT_ER=§4R§fed
+option.AMBIENT_EG=§aG§freen
+option.AMBIENT_EB=§1B§flue
+option.AMBIENT_EI=Intensity
+
+option.END_BRIGHTNESS=Brightness Strength
+
+option.AMBIENT_NR=§4R§fed
+option.AMBIENT_NG=§aG§freen
+option.AMBIENT_NB=§1B§flue
+option.AMBIENT_NI=Intensity
+
+option.NIGHT_BRIGHTNESS=Night Brightness
+option.NIGHT_BRIGHTNESS.comment=Adjusts the general lighting brightness during the night.
+
+screen.MOON_PHASE_INFLUENCE=§4M§foon Phase Settings
+option.MOON_PHASE_LIGHTING=Moon Phase Influence
+option.MOON_PHASE_LIGHTING.comment=Enables moon phase dependant night time brightness.
+option.NIGHT_LIGHTING_FULL_MOON=Moon Phase - Full Moon
+option.NIGHT_LIGHTING_FULL_MOON.comment=Multiplies the night brightness during full moon when Moon Phase Influence is enabled.
+option.NIGHT_LIGHTING_PARTIAL_MOON=Moon Phase - Partial Moon
+option.NIGHT_LIGHTING_PARTIAL_MOON.comment=Multiplies the night brightness during partial moon when Moon Phase Influence is enabled.
+option.NIGHT_LIGHTING_NEW_MOON=Moon Phase - New Moon
+option.NIGHT_LIGHTING_NEW_MOON.comment=Multiplies the night brightness during new moon when Moon Phase Influence is enabled.
+
+option.MINLIGHT_R=§4R§fed
+option.MINLIGHT_G=§aG§freen
+option.MINLIGHT_B=§1B§flue
+option.MINLIGHT_I=Out of Water Intensity
+option.MINLIGHT_U_I=Underwater Intensity
+
+option.BLOCKLIGHT_R=§4R§fed
+option.BLOCKLIGHT_G=§aG§freen
+option.BLOCKLIGHT_B=§1B§flue
+option.BLOCKLIGHT_I=Intensity
+
+option.HAND_BLOCK_LIGHT_STRENGTH=Hands Blocklight Strength
+
+option.ABOUT20=:§4۞§fDefault Blocklight Color§4۞§f
+value.ABOUT20.0= 
+option.ABOUT21=:§4۞§fBlocklight by Temperature§4۞§f
+value.ABOUT21.0= 
+
+option.BLOCKLIGHT_BY_TEMP=§4B§flocklight by Temp
+option.BLOCKLIGHT_BY_TEMP.comment=Enable or disable blocklighting temperature control. Disable the RGB color control!
+option.BLOCKLIGHT_TEMP=Temperature
+option.BLOCKLIGHT_TEMP.comment=Adjust the blockligthing by temperature
+option.BLOCKLIGHT_LUMA=Intensity for Temp Light
+option.COLORED_LIGHTING=§4E§fminGT Random Colored Light
+option.COLORED_LIGHTING.comment=Allows to have the luminous marigolds of random colors according to the position of these.
+option.LIGHT_POWER=Light Power
+option.LIGHT_CONCENTRATION=Light Concentration
+value.LIGHT_CONCENTRATION.1.5=Very High
+value.LIGHT_CONCENTRATION.2.0=High
+value.LIGHT_CONCENTRATION.2.5=Standard
+value.LIGHT_CONCENTRATION.3.0=Low
+value.LIGHT_CONCENTRATION.3.5=Very Low
+
+option.SKY_R=§4R§fed
+option.SKY_G=§aG§freen
+option.SKY_B=§1B§flue
+option.SKY_I=Intensity
+
+option.SKY_DAY=Morning/Evening - Intensity
+option.SKY_DAY.comment=Adjusts the intensity of the sky during morning and evening.
+
+option.SKY_NOON=Noon - Intensity
+option.SKY_NOON.comment=Adjusts the intensity of the sky during noon.
+
+option.SKY_NIGHT=Night - Intensity
+option.SKY_NIGHT.comment=Adjusts the intensity of the sky during night.
+
+option.SKY_RAIN_DAY=Day Rain - Intensity
+option.SKY_RAIN_DAY.comment=Adjusts the intensity of the sky during the day when it's raining.
+
+option.SKY_RAIN_NIGHT=Night Rain - Intensity
+option.SKY_RAIN_NIGHT.comment=Adjusts the intensity of the sky during the night when it's raining.
+
+option.WATER_R=§4R§fed
+option.WATER_G=§aG§freen
+option.WATER_B=§1B§flue
+option.WATER_I=Intensity
+option.WATER_A=Alpha
+value.WATER_A.0.99=1.00
+option.UNDERWATER_R=§4R§fed
+option.UNDERWATER_G=§aG§freen
+option.UNDERWATER_B=§1B§flue
+option.UNDERWATER_I=Intensity
+screen.UNDERWATER_COLOR=§4U§fnderwater Color
+option.ABSORPTION=§4A§fbsorption
+option.ABSORPTION.comment=Add water Absorption. Need to turn Colored Shadow ON.
+option.WATER_ABS_COLOR=Absorption Alpha Color
+value.WATER_ABS_COLOR.0.99=1.00
+option.ALBEDO_ABS_POWER=Color Multiplier
+
+option.REFRACTION=§4R§fefraction
+option.REFRACTION.comment=Allows you to add refraction on the surface of the water and glass/ice/nether portal.
+value.REFRACTION.0=§4OFF
+value.REFRACTION.1=§gAll
+value.REFRACTION.2=§1W§fater Only
+value.REFRACTION.3=§1W§fater + Glass
+value.REFRACTION.4=§1W§fater + §bI§fce + Glass
+
+screen.VANILLA_ABS_COLOR=§4V§fanilla Water Absorption Color
+screen.VANILLA_ABS_COLOR.comment=Only for Vanilla Water Mode! Absorption must be enabled!
+option.VANILLA_WATER_ABS_R=§4R§fed
+option.VANILLA_WATER_ABS_G=§aG§freen
+option.VANILLA_WATER_ABS_B=§1B§flue
+option.VANILLA_WATER_ABS_I=Intensity
+option.WEATHER_RR=§4R§fed
+option.WEATHER_RG=§aG§freen
+option.WEATHER_RB=§1B§flue
+option.WEATHER_RI=Intensity
+
+option.WEATHER_CR=§4R§fed
+option.WEATHER_CG=§aG§freen
+option.WEATHER_CB=§1B§flue
+option.WEATHER_CI=Intensity
+
+option.WEATHER_DR=§4R§fed
+option.WEATHER_DG=§aG§freen
+option.WEATHER_DB=§1B§flue
+option.WEATHER_DI=Intensity
+
+option.WEATHER_BR=§4R§fed
+option.WEATHER_BG=§aG§freen
+option.WEATHER_BB=§1B§flue
+option.WEATHER_BI=Intensity
+
+option.WEATHER_SR=§4R§fed
+option.WEATHER_SG=§aG§freen
+option.WEATHER_SB=§1B§flue
+option.WEATHER_SI=Intensity
+
+option.WEATHER_MR=§4R§fed
+option.WEATHER_MG=§aG§freen
+option.WEATHER_MB=§1B§flue
+option.WEATHER_MI=Intensity
+
+option.WEATHER_VR=§4R§fed
+option.WEATHER_VG=§aG§freen
+option.WEATHER_VB=§1B§flue
+option.WEATHER_VI=Intensity
+
+option.NETHER_NR=§4R§fed
+option.NETHER_NG=§aG§freen
+option.NETHER_NB=§1B§flue
+option.NETHER_NI=Intensity
+
+option.NETHER_VR=§4R§fed
+option.NETHER_VG=§aG§freen
+option.NETHER_VB=§1B§flue
+option.NETHER_VI=Intensity
+
+option.NETHER_CR=§4R§fed
+option.NETHER_CG=§aG§freen
+option.NETHER_CB=§1B§flue
+option.NETHER_CI=Intensity
+
+option.NETHER_WR=§4R§fed
+option.NETHER_WG=§aG§freen
+option.NETHER_WB=§1B§flue
+option.NETHER_WI=Intensity
+
+option.NETHER_BR=§4R§fed
+option.NETHER_BG=§aG§freen
+option.NETHER_BB=§1B§flue
+option.NETHER_BI=Intensity
+
+option.END_R=§4R§fed
+option.END_G=§aG§freen
+option.END_B=§1B§flue
+option.END_I=Intensity
+
+option.SKY_VANILLA=Vanilla Sky
+option.SKY_VANILLA.comment=Use vanilla sky color.
+
+option.WATER_MODE=§4W§fater Mode
+option.WATER_MODE.comment=Determine whether vanilla water texture should be used. Realistic : Colored with water color sliders, no texture. RTX : RTX Style with colored texture based on water color sliders. Vanilla : Vanilla texture, impossible to change water color.
+value.WATER_MODE.0=Realistic
+value.WATER_MODE.1=RTX
+value.WATER_MODE.2=Vanilla
+
+option.WATER_REVERB=§4W§fater Reverb
+option.WATER_REVERB.comment=In water, add transparent reflection on surface on water. Only for Default Water Style.
+
+screen.CLOUDS_CONFIG=§4C§flouds Configuration
+option.REALISTIC_CLOUDS=§4S§ftyle
+option.REALISTIC_CLOUDS.comment=Choose Realistic or Vanilla Clouds. §a[+]§rThis effect benefits from TAA.
+value.REALISTIC_CLOUDS.0=Vanilla Clouds
+value.REALISTIC_CLOUDS.1=Realistic Clouds
+value.REALISTIC_CLOUDS.2=§4OFF
+
+screen.CLOUDS_CONFIG_MENU=§4C§flouds Configuration
+
+option.SUN_REF=§4S§fun Reflection
+option.SUN_REF.comment=Adjusts Sun reflection strength.
+value.SUN_REF.0=§4Disable
+option.MOON_REF=§4M§foon Reflection
+option.MOON_REF.comment=Adjusts Moon reflection strength.
+value.MOON_REF.0=§4Disable
+
+screen.STARS_CONFIG=§4S§ftars Configuration
+option.STARS=§4S§ftars
+option.STARS.comment=Enables stars.
+option.DOUBLE_LAYER_STARS=§4D§fouble layer stars
+value.DOUBLE_LAYER_STARS.0=§4OFF
+value.DOUBLE_LAYER_STARS.1=§aON
+option.SUNSET_SUNRISE_STARS=§4S§funset/§4S§funrise Stars
+option.SUNSET_SUNRISE_STARS.comment=Stars appear from the beginning of sunset and sunrise.
+option.STARS_COVERAGE=Stars Coverage
+option.STARS_COVERAGE.comment=Choose the star coverage style. Style 1 = Normal. Style 2 = Normal X2. Style3 = Normal X3.
+value.STARS_COVERAGE.1=Style 1
+value.STARS_COVERAGE.2=Style 2
+value.STARS_COVERAGE.3=Style 3
+option.DISTANCE_STARS=Stars Distance
+option.DISTANCE_STARS.comment=Adjust Stars Distance
+option.STARS_LIGHT_INTENSITY=Intensity Stars Lighting
+option.STARS_LIGHT_INTENSITY.comment=Adjust Intensity of Stars Lighting. Too high a value may adversely affect the reflection of stars on the water if Stars reflection option is enabled.
+option.STARS_JITTER=§4S§ftars Jitter
+option.STARS_JITTER.comment=Makes the stars twinkle in the Overworld and the End.
+option.STARS_JITTER_SPEED=Jitter Speed
+option.STARS_JITTER_SPEED.comment=Allows you to adjust the star flicker speed.
+option.MOON_STARS_HIDE_SIZE=Distance of the Moon
+option.MOON_STARS_HIDE_SIZE.comment=Allows you to adjust the distance of the stars compared to the moon. Ideal if you use a resource pack with big moon.
+option.MOON_STARS_FADE=Fade around the Moon
+option.MOON_STARS_FADE.comment=Adjusts the fade of the stars around the moon.
+
+screen.SHOOTINGSTAR_CONFIG=§4S§fhootingStars Configuration
+screen.CONSTELLATIONS_CONFIG=§4S§fhining Stars Configuration
+option.SHOOTING_STARS=§4S§fhooting Stars
+option.SHOOTING_STARS.comment=Enable or disable Shooting Stars.
+option.SHOOTING_STARS_END=§4E§fnder Shooting Stars
+option.SHOOTING_STARS_END.comment=Enable or disable Shooting Stars in Ender.
+screen.SHOOTING_STARS_END_MENU=§4E§fnder Shooting Stars Menu
+option.END_SHOOTING_STARS_REF=§4S§fhooting Stars Reflection
+option.END_SHOOTING_STARS_REF_STRENGTH_W=Reflection Strength
+option.SPEED_SHOOTING=Shooting Speed
+option.SPEED_SHOOTING.comment=Adjusts the speed of shooting stars. 5=Fast 1=Slow.
+option.STAR_THICKNESS=Shooting Stars Thickness
+option.STAR_THICKNESS.comment=Adjusts thickness of shooting stars.
+option.SHOW_DELAY=Timing display
+option.SHOW_DELAY.comment=Adjust the spacing for display the shooting stars in sky. 1=Fast 10=Slow.
+option.SHOOTING_STARS_FADE=Shooting Stars Fade
+option.SHOOTING_STARS_FADE.comment=Adjusts fade of shooting stars. 1.0=Hard 10.0=Fade.
+option.NUM_SHOOTING_STARS=Number of Shooting Stars
+option.NUM_SHOOTING_STARS.comment=Adjusts number of shooting stars in the sky.
+option.SHOOTING_INTENSITY=Shooting Stars Intensity
+option.SHININGSTARS=۞ §4S§fhining Stars
+option.SHININGSTARS.comment=Add Shining Stars in the sky
+option.S_SSTARS_INTENSITY=Shining Stars Brightness
+option.S_SSTARS_INTENSITY.comment=Adjust Shining Stars Brightness
+option.LINE_INTENSITY=Lines Brightness
+option.LINE_INTENSITY.comment=Adjust Lines Brightness
+option.LINE_THICKNESS=Lines Thickness
+option.LINE_THICKNESS.comment=Adjust Lines Thickness
+option.CONSTELLATIONS=۞ §4C§fonstellations
+option.CONSTELLATIONS.comment=Add Constellation in the Sky
+option.LINE_TRANSPARENCY=Lines Transparency
+option.LINE_TRANSPARENCY.comment=Adjust lines's constellation tranparency
+option.NUMBER_SHININGSTARS=Stars Quantity
+value.NUMBER_SHININGSTARS.1=§a100 §fStars
+value.NUMBER_SHININGSTARS.2=§e200 §fStars
+value.NUMBER_SHININGSTARS.3=§6300 §fStars
+value.NUMBER_SHININGSTARS.4=§4400 §fStars
+option.SHININGSTARS_JITTER=§4S§ftars Flickering
+option.SHININGSTARS_JITTER.comment=Turn star Flickering on or off
+option.SHININGSTARS_JITTER_SPEED=Flickering Speed
+option.SHININGSTARS_JITTER_SPEED.comment=Adjusts the star Flickering speed
+option.ABOUT2=Lines Color
+value.ABOUT2.0=§4R§aG§1B§f:
+option.R_LINE=§4R§fed
+option.G_LINE=§aG§freen
+option.B_LINE=§1B§flue
+option.ABOUT19=Stars Color
+value.ABOUT19.0=§4R§aG§1B§f:
+option.R_SSTARS=§4R§fed
+option.G_SSTARS=§aG§freen
+option.B_SSTARS=§1B§flue
+option.SIZESTARS=Shining Stars Size
+option.SIZESTARS.comment=Adjusts Stars Size.
+option.THICKSTARS=Shining Stars Thickness
+option.THICKSTARS.comment=Adjusts Shining Stars thickness.
+option.SHININGSTARS_REFLECTION=§4S§fhining Stars Reflection
+option.SHININGSTARS_REFLECTION.comment=Add Shining Stars reflection on water.
+option.SHININGSTARS_REFLECTION_STRENGTH=Reflection Strength
+option.SHININGSTARS_REFLECTION_STRENGTH.comment=Adjusts intensity of Shining Stars Reflection on water.
+
+value.NUM_SHOOTING_STARS.1=X 1
+value.NUM_SHOOTING_STARS.2=X 2
+value.NUM_SHOOTING_STARS.3=X 3
+value.NUM_SHOOTING_STARS.4=X 4
+value.SHOW_DELAY.0.1=10
+value.SHOW_DELAY.0.2=9
+value.SHOW_DELAY.0.3=8
+value.SHOW_DELAY.0.4=7
+value.SHOW_DELAY.0.5=6
+value.SHOW_DELAY.0.6=5
+value.SHOW_DELAY.0.7=4
+value.SHOW_DELAY.0.8=3
+value.SHOW_DELAY.0.9=2
+value.SHOW_DELAY.1.0=1
+value.STAR_THICKNESS.1.0=1 cm
+value.STAR_THICKNESS.0.9=0.9 cm
+value.STAR_THICKNESS.0.8=0.8 cm
+value.STAR_THICKNESS.0.7=0.7 cm
+value.STAR_THICKNESS.0.6=0.6 cm
+value.STAR_THICKNESS.0.5=0.5 cm
+value.STAR_THICKNESS.0.4=0.4 cm
+value.STAR_THICKNESS.0.3=0.3 cm
+value.STAR_THICKNESS.0.2=0.2 cm
+value.STAR_THICKNESS.0.1=0.1 cm
+value.SPEED_SHOOTING.1.0=5
+value.SPEED_SHOOTING.2.0=4
+value.SPEED_SHOOTING.3.0=3
+value.SPEED_SHOOTING.4.0=2
+value.SPEED_SHOOTING.5.0=1
+
+screen.AURORA_CONFIG=§4A§furora Configuration
+option.AURORA=§4A§furora
+option.AURORA.comment=Enables aurora. §a[+]§rThis effect benefits from TAA.
+option.AURORA_WEATHER_PERBIOME=Aurora PerBiome Weather
+option.AURORA_WEATHER_PERBIOME.comment=Enable or Disable Aurora when Per Biome Weather is enable.
+
+screen.CUSTOM_RAIN_SNOW_COLOR=§4C§fustom Rain/Snow Color Config
+option.CUSTOM_RAIN_SNOW_COLORING=§4C§fustom Rain/Snow Color
+option.CUSTOM_RAIN_SNOW_COLORING.comment=Adjust you Rain/Snow Color.
+value.CUSTOM_RAIN_SNOW_COLORING.0=§4Disable
+value.CUSTOM_RAIN_SNOW_COLORING.1=§2Enable
+option.RS_R=§4R§fed
+option.RS_G=§aG§freen
+option.RS_B=§1B§flue
+option.RS_I=Intensity
+
+option.AURORA_COLOR=Aurora Color
+option.AURORA_COLOR.comment=Change Aurora color Style.
+value.AURORA_COLOR.1=§aG§freen§f>§5Purple
+value.AURORA_COLOR.2=§aG§freen§f>§1B§flue
+value.AURORA_COLOR.3=§aG§freen§f>§4R§fed
+value.AURORA_COLOR.4=§aG§freen§f>§eYellow
+value.AURORA_COLOR.5=§4T§6E§eC§aH§bN§9O§5
+value.AURORA_COLOR.6=§5Custom
+screen.AURORA_CUSTOM_CONFIG=§4A§furora §5Custom §fConfig
+option.AURORA_LR=§4R§fed
+option.AURORA_LG=§aG§freen
+option.AURORA_LB=§1B§flue
+option.AURORA_LI=§eIntensity
+option.AURORA_HR=§4R§fed
+option.AURORA_HG=§aG§freen
+option.AURORA_HB=§1B§flue
+option.AURORA_HI=§eIntensity
+value.ABOUT6.0=Upper
+option.ABOUT6=§4C§folor
+value.ABOUT7.0=Lower
+option.ABOUT7=§4C§folor
+option.AURORA_DISTANCE=Aurora Distance
+option.AURORA_DISTANCE.comment=Adjusts Aurora Distance.
+option.AURORA_SIZE=Aurora Size
+option.AURORA_SIZE.comment=Adjusts Aurora size.
+option.AURORA_VISIBILITY=Aurora Visibility
+option.AURORA_SPEED=Aurora Speed
+option.AURORA_REFLECTION_STRENGTH=§4A§furora Reflection Strength
+option.RAINBOW_COLOR_AURORA_1_SPEED=Upper Speed Color
+option.RAINBOW_COLOR_AURORA_2_SPEED=Lower Speed Color
+option.RAINBOW_COLOR_AURORA_1_START=Upper Color Start
+option.RAINBOW_COLOR_AURORA_2_START=Lower Color Start
+screen.AURORA_TECHNO_CONFIG=§4A§furora §4T§6E§eC§aH§bN§9O§5 §fConfig
+option.COLOR_GRADIENT=Color Gradient
+value.COLOR_GRADIENT.0.5=25%
+value.COLOR_GRADIENT.0.75=37.5%
+value.COLOR_GRADIENT.1.0=50%
+value.COLOR_GRADIENT.1.25=62.5%
+value.COLOR_GRADIENT.1.5=75%
+
+screen.AURORA_ENDER_MENU=§4E§fnder Aurora Menu
+option.AURORA_END=§4E§fnder Aurora
+option.AURORA_END_DISTANCE=Aurora Distance
+option.AURORA_END_SIZE=Aurora Size
+option.AURORA_END_VISIBILITY=Aurora Visibility
+option.AURORA_END_SPEED=Aurora Speed
+option.COLOR_END_GRADIENT=Color Gradient
+option.AURORAEND_LR=§4R§fed
+option.AURORAEND_LG=§aG§freen
+option.AURORAEND_LB=§1B§flue
+option.AURORAEND_LI=§eIntensity
+option.AURORAEND_HR=§4R§fed
+option.AURORAEND_HG=§aG§freen
+option.AURORAEND_HB=§1B§flue
+option.AURORAEND_HI=§eIntensity
+value.ABOUT15.0=Lower
+option.ABOUT15=§4C§folor
+value.ABOUT16.0=Upper
+option.ABOUT16=§4C§folor
+option.END_AURORA_REF=§4E§fnder Aurora Reflection
+option.END_AURORA_REF_STRENGTH_W=Reflection Strength
+
+screen.FBM_MENU=§4L§fighting Bolt Boss Menu
+option.FBM=§4L§fighting Bolt Boss Battle
+option.END_FBM_REF=§4L§fighting Bolt Reflection
+option.END_FBM_REF_STRENGTH_W=Reflection Strength
+
+screen.NEWMOON_CONFIG=§4N§few Moon Configuration
+option.NEWMOON_DISABLER_STUFF=§4N§few Moon Stuff Disabler
+option.NEWMOON_DISABLER_STUFF.comment=Allows to disable LensFlare, Sunglare, Caustics, Lightshafts and Moon reflection on water when moonphase set to new moon.
+option.NEWMOON_SHADOWS_LIGHTMAP_CONTROL=New Moon Lightmap Control
+option.NEWMOON_SHADOWS_LIGHTMAP_CONTROL.comment=Allows you to adjust the ambient brightness during the new moon. New Moon Stuff Disabler must be activated!
+
+screen.ROUND_SUN_MOON_CONFIG=§4R§found Sun & Moon
+screen.SUN_MOON_CONFIG=§4S§fun/Moon Config
+option.ROUND_SUN_MOON=§4R§found Sun & Moon
+option.ROUND_SUN_MOON.comment=Enables shader based sun & moon. §e[*]§rDisable vanilla sun & moon in Video Settings > Details > Sun & Moon
+value.ROUND_SUN_MOON.0=§4OFF
+value.ROUND_SUN_MOON.1=§aON
+option.SUN_MOON_FADING=Sun/Moon Sweetness
+option.SUN_MOON_FADING.comment=Allows you to change the gradient of the sun/moon.
+value.SUN_MOON_FADING.1.0=Soft
+value.SUN_MOON_FADING.1.25=Medium
+value.SUN_MOON_FADING.1.5=Raw
+option.SUNSIZE=Sun/Moon Diameter
+option.SUNSIZE.comment=Adjusts diameter for Sun/Moon. A larger value results in a smaller sun / moon.
+option.REAL_SUNSIZE=§4B§figger Sun
+option.REAL_SUNSIZE.comment=Adds 33% diameter to the sun compared to the diameter of the moon.
+option.SUN_R=§4R§fed
+option.SUN_G=§aG§freen
+option.SUN_B=§1B§flue
+option.SUN_I=Intensity of Sun
+option.MOON_R=§4R§fed
+option.MOON_G=§aG§freen
+option.MOON_B=§1B§flue
+option.MOON_I=Intensity of Moon
+option.ROUND_SUN_MOON_GLOBAL_STRENGTH_COLOR=Intensity Multiplier
+value.ABOUT11.0=§4S§fun Color :۞
+option.ABOUT11=۞
+value.ABOUT12.0=§4M§foon Color :۞
+option.ABOUT12=۞
+
+screen.SUN_RAYS_MENU=§4S§fun Rays Configuration
+option.SUN_RAYS=§4S§fun Rays
+option.SUN_RAYS.comment=Added Animated Sun Rays
+option.SUN_RAYS_DISTANCE=§4D§fistance of Sun
+value.SUN_RAYS_DISTANCE.0.7=Close
+value.SUN_RAYS_DISTANCE.0.8=Normal
+value.SUN_RAYS_DISTANCE.0.9=Average
+value.SUN_RAYS_DISTANCE.1.0=Far
+option.SUN_RAYS_I=§4I§fntensity of Rays
+value.SUN_RAYS_I.0.1=Soft
+value.SUN_RAYS_I.0.15=Medium
+value.SUN_RAYS_I.0.2=High
+option.NUM_RAYS=§4N§fumbers of Rays
+value.NUM_RAYS.12=Little
+value.NUM_RAYS.16=Normal
+value.NUM_RAYS.24=Middle
+value.NUM_RAYS.28=Biggest
+value.NUM_RAYS.32=Maximum
+option.RAY_DIST_AMPLITUDE1=§4A§fmplitude Line §41§f/2
+option.RAY_DIST_AMPLITUDE2=§4A§fmplitude Line §42§f/2
+option.RAY_MOVE_SPEED=§4A§fmplitude Speed
+option.RAY_ROTATION_SPEED=§4R§fotation Speed
+
+option.SUNRAYS_COLOR=§4C§folor Style
+option.SUNRAYS_COLOR.comment=Sun Color corresponds to the color of the Sun adjustable on the previous page. Custom = This page.
+value.SUNRAYS_COLOR.0=§4S§fun Color
+value.SUNRAYS_COLOR.1=§4C§fustom
+option.SRC_R=§4R§fed
+option.SRC_G=§aG§freen
+option.SRC_B=§1B§flue
+option.SRC_I=Intensity
+option.SRL2_R=§4R§fed
+option.SRL2_G=§aG§freen
+option.SRL2_B=§1B§flue
+option.SRL2_I=Intensity
+value.ABOUT17.0=§4C§fustom Rays Color :۞
+option.ABOUT17=۞
+value.ABOUT18.0=§4S§fecond Rays Color :۞
+option.ABOUT18=۞
+
+screen.CHILD_BIRD_DRAWING_MENU=§4C§fhild Birds Drawing Menu
+option.CHILD_BIRD_DRAWING=§4C§fhild Birds Drawing
+option.BIRD_LINE_THICKNESS=§4B§firds Line Thickness
+value.BIRD_LINE_THICKNESS.0.001=Overweight
+value.BIRD_LINE_THICKNESS.0.0009=Fat
+value.BIRD_LINE_THICKNESS.0.0008=Medium
+value.BIRD_LINE_THICKNESS.0.0007=Fine
+value.BIRD_LINE_THICKNESS.0.0006=Anorexic
+option.BIRDS_HEIGHT=§4B§firds Height
+value.BIRDS_HEIGHT.0.1=Very Low
+value.BIRDS_HEIGHT.0.15=Low
+value.BIRDS_HEIGHT.0.2=Medium
+value.BIRDS_HEIGHT.0.25=High
+value.BIRDS_HEIGHT.0.3=Very High
+option.BIRDS_AMPLITUDE=§4B§firds Amplitude
+value.BIRDS_AMPLITUDE.0.01=Very Low
+value.BIRDS_AMPLITUDE.0.02=Low
+value.BIRDS_AMPLITUDE.0.03=Medium
+value.BIRDS_AMPLITUDE.0.04=High
+value.BIRDS_AMPLITUDE.0.05=Very High
+option.NUMBER_OF_BIRDS=§4N§fumbers of Birds per Groups
+value.NUMBER_OF_BIRDS.1=2
+value.NUMBER_OF_BIRDS.2=3
+value.NUMBER_OF_BIRDS.3=4
+
+screen.PNG_REFLECTION_MENU=§4P§flanet/§4N§febula/§4G§falaxy Reflection
+screen.PLANET_NEBULA_CONFIG=§4P§flanet/§4N§febula/§4G§falaxy Configuration
+
+option.PLANET=۞§4P§flanet§f۞
+option.PLANET2=۞§4M§fajora's Mask۞
+option.PLANET.comment=Added a planet in the sky from midnight until the middle of the day. Only for 1.16+!
+option.PLANET2.comment=Added a Majora's Mask Moon in the sky from midnight until the middle of the day. Only for 1.16+!
+
+option.NEBULA=۞§4N§febula§f۞
+option.NEBULA.comment=Add a nebula in the sky. Only for 1.16+!
+
+option.GALAXY=۞§4G§falaxy§f۞
+option.GALAXY.comment=Add a galaxy in the sky. Only for 1.16+!
+
+option.PLANET_SIZE_X=Planet Size -> §bX§f
+option.PLANET_SIZE_Y=Planet Size -> §5Y§f
+option.PLANET_OPACITY=Planet §6O§fpacity ->§f
+
+option.NEBULA_SIZE_X=Nebula Size -> §bX§f
+option.NEBULA_SIZE_Y=Nebula Size -> §5Y§f
+option.NEBULA_OPACITY=Nebula §6O§fpacity ->§f
+
+option.GALAXY_SIZE_X=Galaxy Size -> §bX§f
+option.GALAXY_SIZE_Y=Galaxy Size -> §5Y§f
+option.GALAXY_OPACITY=Galaxy §6O§fpacity ->§f
+
+option.PLANET_REFLECTION=§4P§flanet Reflection
+option.PLANET_REFLECTION.comment=Added planet reflection on water.
+
+option.PLANET_REFLECTION_STRENGTH_NIGHT=Reflection Intensity Night
+option.PLANET_REFLECTION_STRENGTH_DAY=Reflection Intensity Day
+
+option.NEBULA_REFLECTION=§4N§febula Reflection
+option.NEBULA_REFLECTION.comment=Added nebula reflection on water.
+option.NEBULA_REFLECTION_STRENGTH_NIGHT=Reflection Intensity
+
+option.GALAXY_REFLECTION=§4G§falaxy Reflection
+option.GALAXY_REFLECTION.comment=Added Galaxy reflection on water.
+option.GALAXY_REFLECTION_STRENGTH_NIGHT=Reflection Intensity
+
+value.ABOUT5.0=§4P§flanet/§4N§febula/§4G§falaxy
+option.ABOUT5=§4R§feflection
+
+option.PLANET_ROTX=Distance from the Moon
+option.PLANET_ROTX.comment=Distance in degrees.
+option.PLANET_ROTY=Rotation Around the Moon
+option.PLANET_ROTY.comment=Rotation in degrees.
+option.PLANET_ROTZ=Rotation of Planet
+option.PLANET_ROTZ.comment=Rotation in degrees.
+
+option.NEBULA_ROTX=Distance from the Moon
+option.NEBULA_ROTX.comment=Distance in degrees.
+option.NEBULA_ROTY=Rotation Around the Moon
+option.NEBULA_ROTY.comment=Rotation in degrees.
+option.NEBULA_ROTZ=Rotation of Nebula
+option.NEBULA_ROTZ.comment=Rotation in degrees.
+
+option.GALAXY_ROTX=Distance from the Moon
+option.GALAXY_ROTX.comment=Distance in degrees.
+option.GALAXY_ROTY=Rotation Around the Moon
+option.GALAXY_ROTY.comment=Rotation in degrees.
+option.GALAXY_ROTZ=Rotation of Galaxy
+option.GALAXY_ROTZ.comment=Rotation in degrees.
+
+option.SKYBOX_BRIGHTNESS=Skybox Brightness
+option.SKYBOX_BRIGHTNESS.comment=Adjusts skybox brightness. §e[*]§rSet to 1.00 when subtractive skybox exists.
+
+option.CLOUD_THICKNESS=Thickness
+option.CLOUD_THICKNESS.comment=Adjusts clouds thickness, higher thickness makes artifacts more visible.
+value.CLOUD_THICKNESS.5=Very Low
+value.CLOUD_THICKNESS.10=Low
+value.CLOUD_THICKNESS.15=Medium
+value.CLOUD_THICKNESS.20=High
+value.CLOUD_THICKNESS.25=Very High
+value.CLOUD_THICKNESS.30=Extra High
+value.CLOUD_THICKNESS.50=Maximum
+
+option.CLOUD_AMOUNT=Amount
+option.CLOUD_AMOUNT.comment=Adjusts clouds amount.
+value.CLOUD_AMOUNT.16=Very Low
+value.CLOUD_AMOUNT.15=Low
+value.CLOUD_AMOUNT.14=Medium
+value.CLOUD_AMOUNT.13=High
+value.CLOUD_AMOUNT.12=Very High
+value.CLOUD_AMOUNT.11=Extra High
+
+option.CLOUD_HEIGHT=Height
+option.CLOUD_HEIGHT.comment=Adjusts clouds height.
+value.CLOUD_HEIGHT.5=Very Low
+value.CLOUD_HEIGHT.10=Low
+value.CLOUD_HEIGHT.15=Medium
+value.CLOUD_HEIGHT.20=High
+value.CLOUD_HEIGHT.30=Very High
+value.CLOUD_HEIGHT.40=Extra High
+value.CLOUD_HEIGHT.50=Maximum
+
+option.CLOUD_COVERAGE=Clouds Coverage
+option.CLOUD_COVERAGE.comment=Adjusts Clouds Covevage values.
+value.CLOUD_COVERAGE.0.2=Full
+value.CLOUD_COVERAGE.0.4=High
+value.CLOUD_COVERAGE.0.6=Average
+value.CLOUD_COVERAGE.0.8=Medium
+value.CLOUD_COVERAGE.0.9=Low
+
+option.NIGHT_CLOUD_COLOR=Clouds Color (§bNight§f)
+value.NIGHT_CLOUD_COLOR.0=§fDark
+value.NIGHT_CLOUD_COLOR.1=§fClear
+
+option.DAY_CLOUD_COLOR=Clouds Color (§6Day§f)
+value.DAY_CLOUD_COLOR.0=§fSky Color
+value.DAY_CLOUD_COLOR.1=§fClear
+
+option.CLOUD_SPEED=Speed
+option.CLOUD_SPEED.comment=Adjusts clouds speed.
+
+option.CLOUD_OPACITY=Realistic Clouds Opacity
+option.CLOUD_OPACITY.comment=Adjusts cloud opacity.
+
+option.CLOUD_BRIGHTNESS_DAY=Brightness Multiplier (§6Day§f)
+option.CLOUD_BRIGHTNESS_NIGHT=Brightness Multiplier (§bNight§f)
+
+option.CLOUD_RAIN_COVERING=Rain Clouds Covering
+option.CLOUD_RAIN_COVERING.comment=Adjusts covering of cloud when it rain.
+
+option.VANILLA_CLOUD_OPACITY=Vanilla Clouds Opacity
+option.VANILLA_CLOUD_OPACITY.comment=Adjusts Opacity for Vanilla Clouds.
+
+option.ENDER_SMOKER_LIGHT_SHAFT_SPEED=Ender Smoker Speed
+option.ENDER_SMOKER_LIGHT_SHAFT_SPEED.comment=Adjusts Ender Light Shaft Speed speed.
+
+option.WATER_PARALLAX=Parallax
+option.WATER_PARALLAX.comment=Enables water displacement.
+
+option.WATER_BUMP=Bumpiness
+option.WATER_BUMP.comment=Adjusts the intensity of custom water normals.
+
+option.WATER_SHARPNESS=Sharpness
+option.WATER_SHARPNESS.comment=Adjusts the sharpness of water normals.
+
+option.WATER_SPEED=Speed
+option.WATER_SPEED.comment=Adjusts the noise speed for custom water normals.
+
+option.WATER_FOG=§4W§fater Fog
+option.WATER_FOG.comment=Determines whether water fog is only visible while underwater or at all times.
+value.WATER_FOG.0=§1U§fnderwater Only
+value.WATER_FOG.1=§gFull
+
+option.WATER_FOG_DENSITY=Water Fog Density
+option.WATER_FOG_DENSITY.comment=Adjusts water fog density
+
+option.WATER_DETAIL=Water Detail
+option.WATER_DETAIL.comment=Adjusts Water Details
+
+option.WAVING_SPEED=§4W§faving Speed
+option.WAVING_GRASS=§4G§frass
+option.WAVING_CROPS=§4C§frops
+option.WAVING_PLANT=§4P§flants
+option.WAVING_TALL_PLANT=§4T§fall Plants
+option.WAVING_LEAVES=§4L§feaves
+option.WAVING_VINES=§4V§fines
+option.WAVING_LILYPAD=§4L§filypad
+option.WAVING_FIRE=§4F§fire
+option.WAVING_WATER=§4W§fater
+option.WAVING_LAVA=§4L§fava
+option.WAVING_LANTERN=§4L§fantern
+option.WAVING_CHAIN=§4C§fhain
+option.WAVING_MUSHROOM=§4M§fushroom
+option.WAVING_COBWEB=§4C§fobweb
+
+option.EMISSIVE_ORES=§4E§fmissive Ores
+option.EMISSIVE_ORES.comment=Makes ores glow.
+option.EMISSIVE_ORES_BRIGHTNESS_STRENGTH=Emissive Ores Strength
+option.EMISSIVE_ORES_BRIGHTNESS_STRENGTH.comment=Allows you to choose the desired intensity for the ores.
+option.PICKAXE_REVEAL=§4P§fickaxe Revelation
+value.PICKAXE_REVEAL.0=§4OFF
+value.PICKAXE_REVEAL.1=§aON
+value.PICKAXE_REVEAL.2=Anime
+option.PICKAXE_REVEAL.comment=Allows you to make ores glow with a pickaxe in hand. [§4+§f] "Emissive Ores" option must be enable.
+
+screen.WEATHER_CONF=§4W§feather Menu
+option.WEATHER=§4W§feather
+option.WEATHER.comment=Enables rain and snowfall.
+
+option.WEATHER_OPACITY=Weather Opacity
+option.WEATHER_OPACITY.comment=Adjusts weather opacity.
+
+option.WEATHER_DYNAMIC_HAND_LIGHT=§4W§feather Dynamic Hand Light
+option.WEATHER_DYNAMIC_HAND_LIGHT.comment=Add Dynamic Hand Light on weather. Dynamic Hand Light must be enable.
+
+screen.FOG_CONF=§4F§fog Menu
+option.FOG=§4F§fog
+option.FOG.comment=Enables fog.
+option.UNDERGROUND_FOG=§4U§fnderground Fog
+option.UNDERGROUND_FOG.comment=Add subtil Fog in underground.
+
+screen.FOG_DIMENSION_CONFIG=§4F§fog Dimension Config
+option.OVERWORLD_FOG_DENSITY=Fog Overworld
+option.OVERWORLD_FOG_DENSITY.comment=Adjusts the density of fog in the Overworld.
+option.RAIN_FOG_DENSITY=Rain Fog Strength
+option.RAIN_FOG_DENSITY.comment=Adjusts Fog when it rain.
+
+option.NETHER_FOG_DENSITY=Fog Nether
+option.NETHER_FOG_DENSITY.comment=Adjusts the density of fog in the Nether.
+option.NETHER_FOG_COLOR_M=Fog Nether Color Mult
+option.NETHER_FOG_COLOR_M.comment=Increase Brightness of Fog Color for Nether.
+value.NETHER_FOG_COLOR_M.0.04=Soft
+value.NETHER_FOG_COLOR_M.0.12=Intense
+
+option.END_FOG_DENSITY=Fog End
+option.END_FOG_DENSITY.comment=Adjusts the density of fog in the Ender.
+
+screen.LAVA_SNOW_FOG_LEVEL=§4F§fog Under Lava/Snow powder
+option.LAVA_FOG_STRENGTH=Lava Fog
+option.LAVA_FOG_STRENGTH.comment=Allows you to adjust the intensity of the fog when your head is under the lava.
+option.POWDER_SNOW_FOG_STRENGTH=Snow Powder
+option.POWDER_SNOW_FOG_STRENGTH.comment=Allows you to adjust the intensity of the fog when your head is in the snow powder.
+
+option.WEATHER_PERBIOME=§4P§fer Biome Weather
+option.WEATHER_PERBIOME.comment=Use varied weather color for different biomes.
+
+screen.WEATHER_COLOR=§4P§fer Biome Weather Colors
+screen.WEATHER_R=§4R§fain (Normal)
+screen.WEATHER_C=§4C§fold Biome Colors
+screen.WEATHER_D=§4D§fesert Biome Colors
+screen.WEATHER_B=§4M§fesa Biome Colors
+screen.WEATHER_S=§4S§fwamp Biome Colors
+screen.WEATHER_M=§4M§fushroom Biome Colors
+screen.WEATHER_V=§4S§favanna Biome Colors
+
+option.USE_COLD=§4C§fold Weather
+value.USE_COLD.0=§4OFF
+value.USE_COLD.1=§aON
+option.USE_COLD.comment=Use varied weather color for cold biomes.
+option.USE_DESERT=§4D§fesert Weather
+value.USE_DESERT.0=§4OFF
+value.USE_DESERT.1=§aON
+option.USE_DESERT.comment=Use varied weather color for desert biomes.
+option.USE_MESA=§4M§fesa Weather
+value.USE_MESA.0=§4OFF
+value.USE_MESA.1=§aON
+option.USE_MESA.comment=Use varied weather color for mesa biomes.
+option.USE_SWAMP=§4S§fwamp Weather
+value.USE_SWAMP.0=§4OFF
+value.USE_SWAMP.1=§aON
+option.USE_SWAMP.comment=Use varied weather color for swamp biomes.
+option.USE_MUSHROOM=§4M§fushroom Weather
+value.USE_MUSHROOM.0=§4OFF
+value.USE_MUSHROOM.1=§aON
+option.USE_MUSHROOM.comment=Use varied weather color for mushroom biomes.
+option.USE_SAVANNA=§4S§favanna Weather
+value.USE_SAVANNA.0=§4OFF
+value.USE_SAVANNA.1=§aON
+option.USE_SAVANNA.comment=Use varied weather color for savanna biomes.
+
+option.UNDERGROUND_SKY=§4U§fnderground Sky Fix
+option.UNDERGROUND_SKY.comment=Hides the sky when the player is in dark area and under sea level (Y: 62). §c[-]§rNot suitable for low superflat worlds.
+
+#RAINBOW
+screen.ArcEnCiel=§4R§6a§ei§an§bb§9o§5w§ds§f
+option.ARC_EN_CIEL=§4R§6a§ei§an§bb§9o§5w§ds§f
+option.ARC_EN_CIEL.comment=Add §4R§6a§ei§an§bb§9o§5w§ds§f.
+option.DISTANCE_ARC_EN_CIEL=§4R§6a§ei§an§bb§9o§5w§ds§f Distance
+option.DISTANCE_ARC_EN_CIEL.comment=Distance where is the §4R§6A§eI§aN§bB§9O§5W§dS§f
+option.DIAMETRE_ARC_EN_CIEL=§4R§6a§ei§an§bb§9o§5w§ds§f Diameter
+option.DIAMETRE_ARC_EN_CIEL.comment=Diameter of the §4R§6A§eI§aN§bB§9O§5W§dS§f
+option.EPAISSEUR_ARC_EN_CIEL=§4R§6a§ei§an§bb§9o§5w§ds§f Thickness
+option.EPAISSEUR_ARC_EN_CIEL.comment=Thickness of the §4R§6A§eI§aN§bB§9O§5W§dS§f
+option.RAINBOW_INTENSITY=§4R§6a§ei§an§bb§9o§5w§ds§f Intensity
+option.FIXED_RAINBOW=Fixed §4R§6a§ei§an§bb§9o§5w§ds§f
+option.FIXED_RAINBOW.comment=Allows to leave the rainbow at a given height, regardless of the time (between 2000 and 12000).
+option.FIXED_RAINBOW_POS=§4R§6a§ei§an§bb§9o§5w§ds§f Position
+value.FIXED_RAINBOW_POS.5.0=100%
+value.FIXED_RAINBOW_POS.10.0=80%
+value.FIXED_RAINBOW_POS.15.0=70%
+value.FIXED_RAINBOW_POS.20.0=60%
+value.FIXED_RAINBOW_POS.25.0=50%
+value.FIXED_RAINBOW_POS.30.0=40%
+value.FIXED_RAINBOW_POS.35.0=30%
+value.FIXED_RAINBOW_POS.40.0=20%
+
+screen.FLASH_VICTIME_MENU=§4F§flash Entities Menu
+option.FLASH_VICTIME=§4F§flash Entities
+option.FLASH_VICTIME.comment=Ensures perfect visibility of mobs in the dark once a weapon is in hand ;-)
+option.OSCILLATION=§4O§fscillation
+option.OSCILLATION.comment=Adds oscillation effect to entities with Flash Entities mode enabled
+option.OSCILLATION_SPEED=Oscillation Speed
+option.OSCILLATION_SPEED.comment=Adjusts the oscillation speed
+option.INTENSITE_FLASH_VICTIME_O=Intensity Overworld
+option.INTENSITE_FLASH_VICTIME_N=Intensity Nether
+option.INTENSITE_FLASH_VICTIME_E=Intensity Ender
+screen.TRIGGERING_ITEMS=§4T§friggering Items
+option.FLASH_SWORD=Sword
+option.FLASH_AXE=Axe
+option.FLASH_BOW=Bow/CrossBow
+option.FLASH_TRIDENT=Trident
+option.FLASH_SNOWBALL=Snowball
+option.FLASH_FISHING=Fishing Rod
+option.FLASH_EGG=Egg
+
+option.ENTITY_FLASH=§4E§fntity Damage Flash
+option.ENTITY_FLASH.comment=Enables damaged entities and nearby creeper to flash.
+value.ENTITY_FLASH.0=§4OFF
+value.ENTITY_FLASH.1=Default (§4R§fed§f)
+value.ENTITY_FLASH.2=Custom
+option.ENTITIESFLASH_R=§4R§fed
+option.ENTITIESFLASH_G=§aG§freen
+option.ENTITIESFLASH_B=§1B§flue
+
+option.TECHNO_XP=§4T§6E§eC§aH§bN§9O§5-§dX§rP
+option.TECHNO_XP.comment=The color of your XP balls become §4R§6A§eI§aN§bB§9O§5W§dS§r.
+screen.TECHNO_XP_MENU=§4T§6E§eC§aH§bN§9O§5-§dX§rP§f Menu
+option.XP_ORB_INTENSITY=Intensity
+
+screen.HYPER_SPEED_MENU=§4H§fyper Speed Menu
+option.HYPER_SPEED=§4H§fyper Speed
+option=HYPER_SPEED.comment=Add a movement speed effect.
+option.HYPERSPEED_MULTIPLIER=§4H§fyper Speed Strenght
+option=HYPER_SPEED.comment=Adjusts speed effect.
+option.ONLY_SPRINT=§4O§fnly for Sprint
+option.ONLY_SPRINT.comment=Enable this effect only when you sprinting.
+
+screen.SUPER_SECRET=۞ §4S§fuper§f §4S§fecret ۞
+
+screen.DEBUG_MENU=§4D§febug Menu
+option.DEBUG_ARMOR_GLINT=Gbuffers §4A§frmor Glint
+option.DEBUG_BASIC=Gbuffers §4B§fasic
+option.DEBUG_BEACON_BEAM=Gbuffers §4B§feacon Beam
+option.DEBUG_BLOCK=Gbuffers §4B§flock
+option.DEBUG_CLOUDS=Gbuffers §4C§flouds
+option.DEBUG_ENTITIES=Gbuffers §4E§fntities
+option.DEBUG_HANDS=Gbuffers §4H§fands
+option.DEBUG_SKYBASIC=Gbuffers §4S§fky §4B§fasic
+option.DEBUG_SKYTEXTURED=Gbuffers §4S§fky §4T§fextured
+option.DEBUG_TERRAIN=Gbuffers §4T§ferrain
+option.DEBUG_TEXTURED=Gbuffers §4T§fextured
+option.DEBUG_WATER=Gbuffers §4W§fater
+
+option.RED_PARTICLES_EMISSIVE=§4R§fed Particles
+option.RED_PARTICLES_EMISSIVE.comment=Makes red particles emissive
+value.RED_PARTICLES_EMISSIVE.0=§4R§fedstone
+value.RED_PARTICLES_EMISSIVE.1=§4R§fedstone/§4H§feart
+value.RED_PARTICLES_EMISSIVE.2=§fOFF
+
+option.PURPLE_PARTICLES_EMISSIVE=§5P§furple Particles
+option.PURPLE_PARTICLES_EMISSIVE.comment=Allows emissivity for ender/nether portal particles.
+
+screen.OTHERS=§4O§fthers
+
+option.DETECTEUR_CAVE=§4C§fave Detector
+option.DETECTEUR_CAVE.comment=Allows you to see caves, mineshaft, etc. Use a block of dirt in the cellars to see through the walls.
+
+option.INVISIBLE_TRIPWIRE=§4I§fnvisible String
+
+screen.ENDER_PORTAL_MENU=§eNew §dEND §fPortal Menu
+option.NEW_END_PORTAL=§eNew §dEND §fPortal
+option.NEW_END_PORTAL.comment= NEW portal for ENDER.
+option.EMISSIVE_END_PORTAL=Emissive Strength
+value.EMISSIVE_END_PORTAL.0.0=§4OFF
+value.EMISSIVE_END_PORTAL.0.01=1
+value.EMISSIVE_END_PORTAL.0.02=2
+value.EMISSIVE_END_PORTAL.0.03=3
+value.EMISSIVE_END_PORTAL.0.04=4
+value.EMISSIVE_END_PORTAL.0.05=5
+value.EMISSIVE_END_PORTAL.0.06=6
+value.EMISSIVE_END_PORTAL.0.07=7
+value.EMISSIVE_END_PORTAL.0.08=8
+value.EMISSIVE_END_PORTAL.0.09=9
+value.EMISSIVE_END_PORTAL.0.1=10
+option.COLOR_END_PORTAL=§dEND §7Portal §fColor
+value.COLOR_END_PORTAL.0=§7Shade of gray
+value.COLOR_END_PORTAL.1=§5P§furple§f/§dP§fink§f/§1B§flue
+
+option.COLOR_BLOC_SELECTOR=Color Block Selector
+screen.COLOR_BLOC_SELECTOR=§4C§5o§9l§ao§er§f Block Selector
+screen.COLOR_BLOC_SELECTOR.comment=Choose your style of color for the cubes's selector. RGB or Techno. Best effect with Bloom activated. Warning! it also colors the fishing line.
+value.COLOR_BLOC_SELECTOR.0=Default
+value.COLOR_BLOC_SELECTOR.1=§4R§aG§1B§f Custom
+value.COLOR_BLOC_SELECTOR.2=§4T§6e§ec§ah§bn§9o§f
+value.COLOR_BLOC_SELECTOR.3=§4H§6a§er§al§be§9q§5u§ci§an§f
+
+option.RAINBOW_COLOR_BLOC_SELECTOR_SPEED=§4T§6e§ec§ah§bn§9o§f Speed
+option.RAINBOW_COLOR_BLOC_SELECTOR_SPEED.comment=Adjusts speed of Techno selector block
+
+option.HARLEQUIN_COLOR_BLOC_SELECTOR_SPEED=§4H§6a§er§al§be§9q§5u§ci§an§f Speed
+option.HARLEQUIN_COLOR_BLOC_SELECTOR_SPEED.comment=Adjusts speed of Harlequin selector block.
+option.CBSA_OBSTRUCTION=§4H§6a§er§al§be§9q§5u§ci§an§f  Obstruction
+option.CBSA_OBSTRUCTION.comment=Adjusts color obstruction of §4H§6a§er§al§be§9q§5u§ci§an§f  effect.
+
+option.THIRD_DIMENSION_SELECTION_BLOCK=§43D§f Block Selector
+option.THIRD_DIMENSION_SELECTION_BLOCK.comment=Allows you to put the block selection in 3D. Slightly buggy.
+value.THIRD_DIMENSION_SELECTION_BLOCK.0=§4OFF
+value.THIRD_DIMENSION_SELECTION_BLOCK.1=§aON
+value.THIRD_DIMENSION_SELECTION_BLOCK.2=§gS§fneak Active
+
+option.ABOUT8=Style
+value.ABOUT8.0=§4T§6e§ec§ah§bn§9o§f
+option.ABOUT9=Style
+value.ABOUT9.0=§4H§6a§er§al§be§9q§5u§ci§an§f
+option.ABOUT10=Style
+value.ABOUT10.0=§4R§aG§1B§f Custom
+
+option.COMPOSANTE_R=§4R§fed
+option.COMPOSANTE_G=§aG§freen
+option.COMPOSANTE_B=§1B§flue
+option.COMPOSANTE_I=Intensity
+
+screen.SHOW_DARK_ZONES_MENU=§4S§fhow DARK Zones Menu
+option.SHOW_DARK_ZONES=§4S§fhow DARK Zones
+option.SHOW_DARK_ZONES.comment=Show dark area
+screen.COLOR_SHOW_DARK_ZONES=§4C§folor Dark Zones Levels
+screen.COLOR_SHOW_DARK_ZONES.comment=Choose your color for dark area and Danger Zone.
+option.SLV_R=§4R§fed
+option.SLV_G=§aG§freen
+option.SLV_B=§1B§flue
+option.SLV_I=Intensity
+option.SLVD_R=§4R§fed
+option.SLVD_G=§aG§freen
+option.SLVD_B=§1B§flue
+option.SLVD_I=Intensity
+option.ABOUT3=§4Z§fones
+value.ABOUT3.0=§eUnlit
+option.ABOUT4=§4Z§fones
+value.ABOUT4.0=§4Danger
+option.BLINKING=§4B§flinking Effect
+value.BLINKING.1=§aActive
+value.BLINKING.0=§4OFF
+option.SDZ_GRADIENT=§4G§fraduated Color
+option.SDZ_GRADIENT.comment=Allows you to graduate the color between the various zones.
+value.SDZ_GRADIENT.1=§5V§fery Smooth
+value.SDZ_GRADIENT.2=§6M§foderately Smooth
+value.SDZ_GRADIENT.3=§2S§fmooth
+value.SDZ_GRADIENT.4=§4OFF
+
+screen.COLOR_EYES_MOBS_MENU=§4C§folor Mobs Eyes
+option.SPIDER_EYES=Eyes Color
+option.SPIDER_EYES.comment=Choose the color of the eyes for spider, enderman,dragon.
+option.COLORED_EYES=§4C§folor Mobs Eyes
+option.COLORED_EYES.comment=Enable or Disable Colored Eyes
+value.SPIDER_EYES.1=§4R§fed
+value.SPIDER_EYES.2=§5P§furple
+value.SPIDER_EYES.3=§1B§flue
+value.SPIDER_EYES.4=§aG§freen
+value.SPIDER_EYES.5=§eY§fellow
+
+screen.BIOME_REFRACTION=§4B§fiomes Refraction Menu
+option.NETHER_WEATHER_HEAT=§6Effect§f §4OFF §7During§f
+option.NETHER_WEATHER_HEAT.comment=Turns the heat effect on or off when you enter in Soul Sand Valley.
+value.NETHER_WEATHER_HEAT.0=All ON
+value.NETHER_WEATHER_HEAT.1=Soul Sand Valley
+option.NETHER_REFRACT=§4Nether§f §6Refract§f
+option.NETHER_REFRACT.comment=Add Haze effect on Nether.
+option.STRENGTH_REFRACT=§4Nether§f §6Refract§f §eStrength§f
+option.STRENGTH_REFRACT.comment=Adjust effect.
+
+option.DESERT_WEATHER_HEAT=§6Effect§f §4OFF §7During§f
+option.DESERT_WEATHER_HEAT.comment=Turns the heat effect on or off when it's raining or when it's dark.
+value.DESERT_WEATHER_HEAT.1=Night & Rain
+value.DESERT_WEATHER_HEAT.2=Night
+value.DESERT_WEATHER_HEAT.3=Rain
+value.DESERT_WEATHER_HEAT.4=All ON
+option.DESERT_REFRACT=§6Desert§f §eRefract§f
+option.DESERT_REFRACT.comment=Add Haze effect on Desert.
+option.STRENGTH_DESERT_REFRACT=§6Desert§f §eRefract§f §7Strength§f
+option.STRENGTH_DESERT_REFRACT.comment=Adjust effect.
+
+option.MESA_WEATHER_HEAT=§6Effect§f §4OFF §7During§f
+option.MESA_WEATHER_HEAT.comment=Turns the heat effect on or off when it's raining or when it's dark.
+value.MESA_WEATHER_HEAT.1=Night & Rain
+value.MESA_WEATHER_HEAT.2=Night
+value.MESA_WEATHER_HEAT.3=Rain
+value.MESA_WEATHER_HEAT.4=All ON
+option.MESA_REFRACT=§4Mesa§f §6Refract§f
+option.MESA_REFRACT.comment=Add Haze effect on Mesa.
+option.STRENGTH_MESA_REFRACT=§4Mesa§f §6Refract§f §eStrength§f
+option.STRENGTH_MESA_REFRACT.comment=Adjust effect.
+
+option.DISTANT_FADE=§4D§fistant Fade
+option.DISTANT_FADE.comment=Fades far chunk borders. §e[*]§rThis option is affected by fog density.
+value.DISTANT_FADE.0=§4OFF
+value.DISTANT_FADE.1=Overworld Only
+value.DISTANT_FADE.2=Nether & End Only
+value.DISTANT_FADE.3=Full
+
+option.DISTANT_FADE_STYLE=§4D§fistant Fade Style
+option.DISTANT_FADE_STYLE.comment=Spherical works like vanilla fog. Cylindrical ignores Y axis.
+value.DISTANT_FADE_STYLE.0=Spherical
+value.DISTANT_FADE_STYLE.1=Cylindrical
+
+option.NOUVELLE_PLUIE=§4R§fain Style
+option.NOUVELLE_PLUIE.comment=Gives an eventful rain effect.
+value.NOUVELLE_PLUIE.0=§4OFF
+value.NOUVELLE_PLUIE.1=Dancing Rain
+value.NOUVELLE_PLUIE.2=Angle
+
+option.MOUVEMENT_EAU=§4U§fnderwater Refraction
+option.MOUVEMENT_EAU.comment=ENABLE or DISABLE Water refraction when you eyes is in water
+
+screen.EYES_IN_WATER=§4E§fyes in Water
+
+option.RMULTIPLIER=Refraction Multiplier
+option.RMULTIPLIER.comment=Adjusts the percentage of refraction
+
+option.RSPEED=Refraction Speed
+option.RSPEED.comment=Adjusts the speed of refraction
+
+option.UNDERWATER_BLUR_FACTOR=Water Blur Factor
+option.UNDERWATER_BLUR_FACTOR.comment=Adjust Blur in water
+
+option.UNDERWATER_BLUR=§4U§fnderWater Blur
+option.UNDERWATER_BLUR.comment=Add Blur in water. It is advised to use this option only if you are not using UBBB option.
+
+option.UNDERWATER_NO_BLUR_HAND=§4U§fnderwater Blur Hands
+option.UNDERWATER_NO_BLUR_HAND.comment=Enable or Disable underwater Blur on Hands.
+
+option.UNDERWATER_BLUR_BASED_BLOOM=§4B§flur Based Bloom (UBBB)
+option.UNDERWATER_BLUR_BASED_BLOOM.comment=Add Blur in water based on Bloom. It is advised to use this option only if you are not using Underwater Blur Option.
+option.UNDERWATER_BLUR_BASED_B_BLOOM_STRENGTH=UBBB Bloom Strength
+option.UNDERWATER_BLUR_BASED_B_BLUR_STRENGTH=UBBB Blur Strength
+
+screen.OTHER=OTHER
+
+option.RETIRE_TEXTURE_CASSE=§4B§freak Texture Anim
+option.RETIRE_TEXTURE_CASSE.comment=Enable or disable Breaking texture animation
+
+option.VISEUR=§4R§feticle
+option.VISEUR.comment=Add a reticle for bow, crossbow, trident, snowball ...
+
+screen.WHITE_BLACK_WORLD=WHITE/§0BLACK§f WORLD
+option.WHITE_WORLD=WHITE WORLD
+option.WHITE_WORLD.comment=Replaces textures with flat white color.
+option.BLACK_WORLD=§0 BLACK_§fWORLD
+option.BLACK_WORLD.comment=Replaces textures with black color. Lighting don't work with this mod!
+option.TEXTURESW=PARTICLES
+option.TERRAINW=TERRAIN
+option.SPIDER_EYESW=SPIDER EYES
+option.ENTITIESW=ENTITIES
+option.DAMAGED_BLOCKW=DAMAGED BLOCK
+option.BEACONW=BEACON
+option.WATERW=WATER
+option.SKYW=SKY
+
+screen.CRT=§4CRT§r §fEFFECTS ( OLD TV )
+option.CRT_BORDER_STRENGTH=CRT Border Strength
+option.CRT_BORDER_STRENGTH.comment=Adjust border of CRT BORDER. 1=Thiny 4= Fat.
+value.CRT_BORDER_STRENGTH.1=Thiny
+value.CRT_BORDER_STRENGTH.2=Medium
+value.CRT_BORDER_STRENGTH.3=Normal
+value.CRT_BORDER_STRENGTH.4=Fat
+
+screen.DISTORTION_CONFIG=§4D§fistortion
+option.DISTORTION=Distortion
+option.DISTORTION.comment=Add distortion to the screen. Good effect with 16/9 Bands activated.
+option.FOV_DISTORTION_STRENGTH=Distortion Strength
+option.FOV_DISTORTION_STRENGTH.comment=Adjusts distortion Strength.
+
+option.SCANLINE=Scanline
+option.SCANLINE.comment=Add horizontal lines like a CRT screen
+option.FORCE_SCANLINE=Scanline Strength
+option.EPAISSEUR_SCANLINE=Scanline Thickness
+option.VITESSE_SCANLINE=Scanline Speed
+
+option.SCANLINE_BAND=Black Scanline Band
+option.SCANLINE_BAND.comment=Adds a black band that scrolls up and down
+option.FORCE_BAND=Band Strength
+option.EPAISSEUR_BAND=Band Thickness
+option.VITESSE_BAND=Band Speed
+option.INTERVAL_BAND=Band Interval
+
+option.CRT=CRT
+option.CRT.comment=Add the framing effect for a pixel effect like old TVs.
+option.FORCE_CRT=CRT Strength
+option.EPAISSEUR_CRT=CRT Thickness
+
+option.CRT_BORDER=CRT Border
+option.CRT_BORDER.comment=Adds the CRT Border around the screen for an old TV effect.
+
+option.RAINDROP_ON_SCREEN=§4R§faindrop on Screen
+option.RAINDROP_ON_SCREEN.comment=Adds raindrops to your screen when it's raining.
+option.STATIC_DROP=Static Drop
+option.DROP_LAYER_1=Drop Layer N1
+option.DROP_LAYER_2=Drop Layer N2
+option.DROP_SPEED=Drop Speed
+screen.RAINDROP_SETTINGS=§4R§faindrop Settings
+
+option.RAINDROPS_IN_COLD=§4R§faindrops in Cold Biomes
+option.RAINDROPS_IN_COLD.comment=Disable or enable Raindrop on screen in cold biomes.
+
+screen.GOUTTE_ECRAN=§4S§fcreen Drops
+option.GOUTTE_ECRAN=Screen Drops
+option.GOUTTE_ECRAN.comment=Rain effect on the screen when it rains. Soft rain on the screen or Heavy rain.
+value.GOUTTE_ECRAN.0=§fOff
+value.GOUTTE_ECRAN.1=§6Custom
+value.GOUTTE_ECRAN.2=§4Heavy
+value.GOUTTE_ECRAN.3=§eCalm
+option.RAINDROP_HEIGHT=Raindrop Height
+option.RAINDROP_SPEED=Raindrop Speed
+option.SECOND_RAINDROP_HEIGHT=Second Raindrop Height
+option.SECOND_RAINDROP_SPEED=Second Raindrop Speed
+
+option.FILM_GRAINS=§4F§film Grain
+option.FILM_GRAINS.comment=Add a grain effect to the screen. If the effect flickers, switch to CAMERA_NOISE (turn off CAMERA_NOISE) for a similar but less relevant effect.
+option.FORCE_DU_GRAIN=Grain Strength
+option.FORCE_DU_GRAIN.comment=Adjusting the grain strength on the screen
+value.FORCE_DU_GRAIN.0.01=0.1
+value.FORCE_DU_GRAIN.0.02=0.2
+value.FORCE_DU_GRAIN.0.03=0.3
+value.FORCE_DU_GRAIN.0.04=0.4
+value.FORCE_DU_GRAIN.0.05=0.5
+value.FORCE_DU_GRAIN.0.06=0.6
+value.FORCE_DU_GRAIN.0.07=0.7
+value.FORCE_DU_GRAIN.0.08=0.8
+value.FORCE_DU_GRAIN.0.09=0.9
+value.FORCE_DU_GRAIN.0.1=1.0
+
+option.POSTERIZATION=§4P§fosterization
+option.POSTERIZATION.comment=Posterization occurs when a continuous gradation in an image is replaced by a smaller number of colors.
+option.POSTERIZATION_LIMIT=Posterization Limit
+option.POSTERIZATION_LIMIT.comment=Set number of tones available for a color.
+option.DITHERING_SCREEN=§4D§fithering
+option.DITHERING_SCREEN.comment=Image processing to render it with a limited color palette
+option.DITHERING_SAMPLES=Dithering Samples
+option.DITHERING_SAMPLES.comment=Adjust Dither
+option.DOWNSCALE=§4D§fownscale
+option.DOWNSCALE.comment=Allows to divide the resolution.
+option.RESOLUTION_SCALE=Resolution Scale
+option.RESOLUTION_SCALE.comment=Modify the resolution scale.
+screen.DOWNSCALE_POSTERIZATION_DITHER=§4D§fownscale/§4P§fosterization/§4D§fither
+option.BARREL=Barrel Vignette
+
+screen.16_9=§4C§finema §416§f/§49§f Bands Menu
+option.BANDES=§4C§finema §416§f/§49§f Bands
+option.TOPBAND=-->Top<--
+option.BOTTOMBAND=-->Bottom<--
+
+screen.CONCENTRATION_MENU=§4C§foncentration Menu
+option.CONCENTRATION=§4C§foncentration
+option.CONCENTRATION.comment=Adds a black bar to the bottom and top of the screen when you sneak.
+option.CONCENTRATION_BAND=Bands Thickness.
+option.CONCENTRATION_BAND.comment=Adjusts thickness of bottom and top bands.
+option.BAND_ADDITION=Addition for §416§f/§49§f bands
+option.BAND_ADDITION.comment=Allows to adjusts thickness of band when you have Cinema 16/9 Bands enabled for see the effect with.
+value.BAND_ADDITION.0.01=0.1
+value.BAND_ADDITION.0.02=0.2
+value.BAND_ADDITION.0.03=0.3
+value.BAND_ADDITION.0.04=0.4
+value.BAND_ADDITION.0.05=0.5
+value.BAND_ADDITION.0.06=0.6
+value.BAND_ADDITION.0.07=0.7
+value.BAND_ADDITION.0.08=0.8
+value.BAND_ADDITION.0.09=0.9
+value.BAND_ADDITION.0.10=1.0
+value.BAND_ADDITION.0.11=1.0
+value.BAND_ADDITION.0.12=1.2
+value.BAND_ADDITION.0.13=1.3
+value.BAND_ADDITION.0.14=1.4
+value.BAND_ADDITION.0.15=1.5
+option.ABOUT13=If §4C§finema §416§f/§49§f Bands is §aEnabled§f
+value.ABOUT13.0= 
+option.ABOUT14=Shortcut to §4C§finema §416§f/§49§f Bands§f
+value.ABOUT14.0= 
+
+#Sky Config
+screen.SKY_CONFIG=§4S§fky Configuration
+screen.SKY_CONFIG_ENDER=§4E§fnder Sky Configuration
+option.SKY_DENSITY_D=Day Density
+option.SKY_EXPOSURE_D=Day Exposure
+option.SKY_DENSITY_N=Night Density
+option.SKY_EXPOSURE_N=Night Exposure
+option.SKY_DENSITY_W=Weather Density
+option.SKY_EXPOSURE_W=Weather Exposure
+option.SKY_HORIZON_N=Near Horizon
+option.SKY_HORIZON_F=Far Horizon
+option.SKY_GROUND=§4S§fky Ground
+option.SKY_GROUND.comment=Darkens the bottom part of the sky. §e[*]§rThis option is affected by fog density slider.
+value.SKY_GROUND.0=§4Off
+value.SKY_GROUND.1=Reflections Only
+value.SKY_GROUND.2=Full
+
+option.NETHER_VANILLA=Vanilla Nether
+option.NETHER_VANILLA.comment=Use vanilla nether color.
+
+screen.TONEMAP=§4T§fonemapping
+
+option.BLOOM_JITTER=§4B§floom Flickering
+option.BLOOM_JITTER.comment=Activate the Bloom Flickering. Gives a flickering effect on the Bloom following the tempo of the flickering Light. Light Flickering and Bloom must be activated!
+option.BLOCK_LIGHT_JITTER=§4B§flock Light Flickering
+option.HAND_BLOCK_LIGHT_JITTER=§4H§fand Light Flickering
+option.HAND_BLOCK_LIGHT_JITTER.comment=Active Light Flickering on Hands. Gives a flickering effect of light on the emissive Blocks.
+screen.BLOCK_LIGHT_JITTER=§4L§fight Flickering
+option.BLOCK_LIGHT_JITTER.comment=Active Light Flickering for block on floor. Gives a flickering effect of light on the emissive Blocks.
+option.JITTER_SPEED=Flickering Speed
+option.JITTER_SPEED.comment=Adjust the flickering speed.
+option.JITTER_STRENGTH1=Flickering Strength 1
+option.JITTER_STRENGTH1.comment=Adjusts the strength of the first effect.
+option.JITTER_STRENGTH2=Flickering Strength 2
+option.JITTER_STRENGTH2.comment=Adjusts the strength of the second effect.
+option.JITTER_STRENGTH3=Flickering Strength 3
+option.JITTER_STRENGTH3.comment=Adjusts the strength of the third effect.
+
+option.ADVANCE_HAND_POS=Depth Hands
+option.ADVANCE_HAND_POS.comment=Adjust Depth of hands.
+option.ADVANCE_HAND_POS2=Height Hands
+option.ADVANCE_HAND_POS2.comment=Adjust the height of the hands.
+option.DECALLAGE_MAINS=Hands Shift
+option.DECALLAGE_MAINS.comment=Allows you to shift your hands to the right.
+option.MOUVEMENT_CAM=§4C§famera Shift
+option.MOUVEMENT_CAM.comment=Camera swaying effect. Only works if you are on ground.
+value.MOUVEMENT_CAM.0=§4OFF
+value.MOUVEMENT_CAM.1=§aON
+option.MOUVEMENTS_MAINS=§4H§fands Movements
+option.MOUVEMENTS_MAINS.comment=Hand swaying effect. You can combine HAND_MOVEMENTS_2 at the same time.
+option.MOUVEMENTS_MAINS_2=§4H§fands Movements 2
+option.MOUVEMENTS_MAINS_2.comment=Hand swaying effect. You can combine HAND_MOVEMENTS at the same time.
+option.SPEED_MOOVE=Movements Speed
+option.SPEED_MOOVE.comment=Adjusts Movements Speed for Hands Movements/Camera at the same time.
+
+option.CLOUDS_REFLECTION=Clouds Reflections
+option.CLOUDS_REFLECTION.comment=Active or not the Clouds reflection on water.
+
+option.CLOUD_VISIBILITY_WATER_REFLECTION=Clouds Water Reflection
+
+option.AURORA_REFLECTION=§4A§furora Reflections
+option.AURORA_REFLECTION.comment=Active or not the Aurora reflection on water.
+
+option.STARS_REFLECTION=Stars Reflections
+option.STARS_REFLECTION.comment=Active or not the Stars reflection on water.
+
+option.WATER_STARS_REFLECTION_STRENGTH=Water Reflection Strength
+option.WATER_STARS_REFLECTION_STRENGTH.comment=Adjusts Strength of Stars reflections on Water.
+
+option.SHOOTING_STARS_REFLECTION=§4S§fhooting Stars Reflection
+option.SHOOTING_STARS_REFLECTION.comment=Add Shooting Stars Reflection on water.
+
+option.METAL_AURORA_REFLECTION=§4M§fetal_Aurora_Reflections
+option.METAL_AURORA_REFLECTION.comment=Active or not the Aurora reflection on metal.
+
+option.METAL_CLOUDS_REFLECTION=Metal Clouds Reflections
+option.METAL_CLOUDS_REFLECTION.comment=Active or not the Clouds reflection on metal.
+
+option.SKY_REFLECT_DARK_AREA=§4S§fky Reflec Dark Area
+option.SKY_REFLECT_DARK_AREA.comment=Adjusts the visibility of sky reflection on water in dark area when there is an opening above you.
+value.SKY_REFLECT_DARK_AREA.1=§4Agressive §a++
+value.SKY_REFLECT_DARK_AREA.2=§4Agressive
+value.SKY_REFLECT_DARK_AREA.3=§6Moderate §a++
+value.SKY_REFLECT_DARK_AREA.4=§eModerate
+value.SKY_REFLECT_DARK_AREA.5=§aNormal
+value.SKY_REFLECT_DARK_AREA.6=§aFull
+
+option.REFLECTION_SKY_FALLOFF=Sky Reflection Falloff
+option.REFLECTION_SKY_FALLOFF.comment=Adjusts how far sky reflection fades out under low skylight.
+value.REFLECTION_SKY_FALLOFF.1=Very Weak
+value.REFLECTION_SKY_FALLOFF.2=Weak
+value.REFLECTION_SKY_FALLOFF.4=Balanced
+value.REFLECTION_SKY_FALLOFF.8=Strong
+value.REFLECTION_SKY_FALLOFF.16=Very Strong
+
+option.REFLECTION_SKYBOX=§4R§fP Skybox Reflection
+option.REFLECTION_SKYBOX.comment=Allows resourcepack skybox to be included in reflections. §c[-]§rSkybox is only applied to transparent surfaces. !Need RP Custom Sky Enabled
+value.REFLECTION_SKYBOX.0=§4OFF
+value.REFLECTION_SKYBOX.1=§aON
+
+screen.END_STARS_CONFIG=§4E§fnder Stars Config
+option.NEW_ENDER_STARS=Style
+option.NEW_ENDER_STARS.comment=Choose you style. 1- White Stars. 2- Colored Stars (Pink/Blue).
+value.NEW_ENDER_STARS.0=White Stars
+value.NEW_ENDER_STARS.1=§4C§folored Stars
+option.END_STARS=§4E§fnd Stars
+option.END_STARS.comment=Add Stars in Ender Sky
+option.END_STARS_REF=§4E§fnd Stars Reflection
+option.END_STARS_REF_STRENGTH_W=Reflection Strength
+
+option.MAGICAL_GLINT=§4M§fagical Glint
+option.MAGICAL_GLINT.comment=Glint has a rainbow effect on enchanted stuff
+option.GLINT_SPEED=Glint Speed
+option.GLINT_SPEED.comment=Set the speed of effect
+option.GLINT_DIRECTION=Glint Direction
+option.GLINT_DIRECTION.comment=Set the direction of effect in degrees. (Default 0).
+screen.GLINT_MENU=§4E§fnchantment Glint Menu
+option.GLINT_INTENSITY=Enchantment Glint Intensity
+option.GLINT_INTENSITY.comment=Adjusts the intensity of enchantment glint on enchanted items.
+option.RP_COMPATIBILITY=1.19.4+ RP Compatibility
+option.RP_COMPATIBILITY.comment=Makes resourcepack glint intensity compatible for Minecraft version 1.19.4 or higher.
+
+option.DIST_MAX_LIGHT=Dist Max Light
+option.DIST_MAX_LIGHT.comment=Maximum light distance
+option.DIST_DECLINE=Dist Decline
+option.DIST_DECLINE.comment=decline of light from maximum distance of DIST_MAX_LIGHT to DIST_DECLINE
+option.MAX_LIGHT=Max Light
+option.MAX_LIGHT.comment=Lighting strength
+screen.MINLIGHT=§4M§finimum Light
+screen.MINLIGHT.comment=Changes the amount of light in the very dark areas.
+
+option.DYNAMIC_HAND_LIGHT=§4D§fynamic Hand Light
+option.COLORED_DYNAMIC_HAND_LIGHT=§4C§folored Dynamic Hand Light
+option.COLORED_DYNAMIC_HAND_LIGHT.comment=Colors the emissive light according to the luminous object in hand
+screen.COLOR_SAT_MENU=§4L§fuminance/§4S§faturation
+screen.COLOR_SAT_MENU_PAGE_2=[Page 2]
+option.ABOUT22=§b🔵§fBeacon
+value.ABOUT22.0= 
+option.BEACON_LUM=Luminance
+option.BEACON_SAT=Saturation
+option.ABOUT23=§4🔵§fRedstone
+value.ABOUT23.0= 
+option.REDSTONE_LUM=Luminance
+option.REDSTONE_SAT=Saturation
+option.ABOUT24=§b🔵§fSoul Stuff
+value.ABOUT24.0= 
+option.SOUL_LUM=Luminance
+option.SOUL_SAT=Saturation
+option.ABOUT25=§a🔵§fSea Lantern
+value.ABOUT25.0= 
+option.SEA_LANTERN_LUM=Luminance
+option.SEA_LANTERN_SAT=Saturation
+option.ABOUT26=§5🔵§fEnd Stuff
+value.ABOUT26.0= 
+option.END_LUM=Luminance
+option.END_SAT=Saturation
+option.ABOUT27=§a🔵§fSea Pickle
+value.ABOUT27.0= 
+option.PICKLE_LUM=Luminance
+option.PICKLE_SAT=Saturation
+option.ABOUT28=§e🔵§fConduit
+value.ABOUT28.0= 
+option.CONDUIT_LUM=Luminance
+option.CONDUIT_SAT=Saturation
+option.ABOUT29=§c🔵§fMagma
+value.ABOUT29.0= 
+option.MAGMA_LUM=Luminance
+option.MAGMA_SAT=Saturation
+option.ABOUT30=§6🔵§fTorch
+value.ABOUT30.0= 
+option.TORCH_LUM=Luminance
+option.TORCH_SAT=Saturation
+option.ABOUT31=§e🔵§fFroglight Ochre
+value.ABOUT31.0= 
+option.OCHRE_LUM=Luminance
+option.OCHRE_SAT=Saturation
+option.ABOUT32=§a🔵§fFroglight Verdant
+value.ABOUT32.0= 
+option.VERDANT_LUM=Luminance
+option.VERDANT_SAT=Saturation
+option.ABOUT33=§5🔵§fFroglight Pearl
+value.ABOUT33.0= 
+option.PEARL_LUM=Luminance
+option.PEARL_SAT=Saturation
+
+option.LIGHT_SHAFT_END=§4L§fight Shaft Ender
+option.LIGHT_SHAFT_END.comment=Enable or disable Light Shaft in Ender World
+
+screen.ENDER_LOST_GLARE_MENU=§4L§fost Glare/§4B§flack Hole Menu
+option.LOST_GLARE=§4L§fost Glare
+option.LOST_GLARE.comment=Adds a halo of light to the base of the LightShaft. Ender Light Shaft must be enabled.
+option.G_END_R=§4R§fed
+option.G_END_G=§aG§freen
+option.G_END_B=§1B§flue
+option.LOST_GLARE_INTENSITY=Intensity
+
+option.BLACK_HOLE=§4B§flack Hole
+option.BLACK_HOLE.comment=Activate the Black Hole. Lost Glare must be enabled.
+option.V_END_R=§4R§fed
+option.V_END_G=§aG§freen
+option.V_END_B=§1B§flue
+
+option.SUNVISIBILITY_FOG=§4S§funVisibility Fog
+option.SUNVISIBILITY_FOG.comment=Force fog according to the visibility of the sun
+value.SUNVISIBILITY_FOG.0=§4OFF
+value.SUNVISIBILITY_FOG.1=§eLow
+value.SUNVISIBILITY_FOG.2=§eMedium
+value.SUNVISIBILITY_FOG.3=§eHigh
+value.SUNVISIBILITY_FOG.4=§eExtrem
+
+option.VANILLA_SKYBOX=§4R§fP Custom Sky
+option.VANILLA_SKYBOX.comment=Enables vanilla sky overlays which include square sun/moon and custom resource pack skies. Disable "Round Sun/Moon" option if you want to use vanilla sun/moon.
+value.VANILLA_SKYBOX.0=§4OFF
+value.VANILLA_SKYBOX.1=§aON
+
+option.HORIZON_SUN_MOON=§4H§forizon Sun/Moon
+option.HORIZON_SUN_MOON.comment=Makes the sun/moon disappear below the horizon level.
+
+option.BSL_VIGNETTE=§4B§fSL Vignette
+option.FORCE_BSL_VIGNETTE=Vignette Strength
+value.FORCE_BSL_VIGNETTE.0.26=0.1
+value.FORCE_BSL_VIGNETTE.0.51=0.2
+value.FORCE_BSL_VIGNETTE.0.72=0.3
+value.FORCE_BSL_VIGNETTE.0.91=0.4
+value.FORCE_BSL_VIGNETTE.1.06=0.5
+value.FORCE_BSL_VIGNETTE.1.19=0.6
+value.FORCE_BSL_VIGNETTE.1.28=0.7
+value.FORCE_BSL_VIGNETTE.1.36=0.8
+value.FORCE_BSL_VIGNETTE.1.40=0.9
+value.FORCE_BSL_VIGNETTE.1.41=1.0
+
+option.ULTRA_VIGNETTE=§4U§fltra Vignette
+option.ULTRA_VIGNETTE.comment=Customized vignette
+option.VIGNETTE_INNER=Vignette Inner
+option.VIGNETTE_INNER.comment=Adjust inner radius.
+option.VIGNETTE_OUTER=Vignette Outer
+option.VIGNETTE_OUTER.comment=Adjust outer radius.
+option.VIGNETTE_STRENGTH=Vignette Strength
+option.VIGNETTE_STRENGTH.comment=Adjusts strength/intensity.
+option.VIGNETTE_CURVATURE=Vignette Curvature
+option.VIGNETTE_CURVATURE.comment=Vignette roundness, higher = smoother, lower = sharper.
+
+screen.DAMAGE_EFFECT_MENU=§4D§famage Effect Menu
+option.HIT_RED_VIGNETTE=§4R§fed Vignette Effect
+option.HIT_RED_VIGNETTE.comment=Add §4R§fed vignette effect on screen when you take damage.
+option.CORRUPTION=§4C§forruption Effect
+option.CORRUPTION.comment=Add corruption effect on screen when you take damage.
+
+option.BURNING_EFFECT=§4B§furning Effect
+option.BURNING_EFFECT.comment=Add refraction on screen when you burn.
+option.BURNING_STRENGTH_REFRACT=Burning Strength
+option.BURNING_STRENGTH_REFRACT.comment=Adjust refraction of this effect.
+
+option.FILM_GRAINS_STYLE=Film Grain Style
+
+screen.REFLECTION=§4R§feflections
+screen.PARALLAX=§4P§farallax
+screen.CEL_SHADING=§4C§fel Shading
+screen.SCREEN_EFFECTS=§4S§fcreen Effects
+screen.MISC=۞§4O§fther Cool Effects
+screen.WATER_EFFECTS=§4W§fater Effects
+screen.DYNAMIC_HAND_LIGHT=§4D§fynamic Hand Light
+
+screen.POSTERIZATION_CONFIG=§4P§fosterization Config
+screen.FILM_GRAINS_CONFIG=§4F§film Grains Config
+screen.VIGNETTE_CONFIG=§4V§fignette Config
+screen.DIMENSION_BLOCKS_BRIGHTNESS=§4D§fimension Blocks Brightness
+
+#DIMENSION_BLOCK_BRIGHTNESS_MENU
+
+screen.OVERWORLD_BRIGHTNESS_MENU=۞§4O§fverworld Blocks Brightness
+screen.NETHER_BRIGHTNESS_MENU=۞§4N§fether Blocks Brightness
+screen.ENDER_BRIGHTNESS_MENU=۞§4E§fnder Blocks Brightness
+
+option.OVERWORLD_LAVA_BRIGHTNESS=§4L§fava
+
+option.NETHER_LAVA_BRIGHTNESS=§4L§fava
+
+option.END_LAVA_BRIGHTNESS=§4L§fava
+
+
+option.FIRE_BRIGHTNESS_OVERWORLD=§4F§fire
+
+option.FIRE_BRIGHTNESS_NETHER=§4F§fire
+
+option.FIRE_BRIGHTNESS_ENDER=§4F§fire
+
+
+option.LANTERN_BRIGHTNESS_OVERWORLD=§4L§fantern
+
+option.LANTERN_BRIGHTNESS_NETHER=§4L§fantern
+
+option.LANTERN_BRIGHTNESS_ENDER=§4L§fantern
+
+
+option.SOUL_LANTERN_BRIGHTNESS_OVERWORLD=§4S§foul Lantern
+
+option.SOUL_LANTERN_BRIGHTNESS_NETHER=§4S§foul Lantern
+
+option.SOUL_LANTERN_BRIGHTNESS_ENDER=§4S§foul Lantern
+
+
+option.SHROOMLIGHT_BRIGHTNESS_OVERWORLD=§4S§fhroomlight
+
+option.SHROOMLIGHT_BRIGHTNESS_NETHER=§4S§fhroomlight
+
+option.SHROOMLIGHT_BRIGHTNESS_ENDER=§4S§fhroomlight
+
+
+option.REDSTONE_LAMP_BRIGHTNESS_OVERWORLD=§4R§fedstone Lamp
+
+option.REDSTONE_LAMP_BRIGHTNESS_NETHER=§4R§fedstone Lamp
+
+option.REDSTONE_LAMP_BRIGHTNESS_ENDER=§4R§fedstone Lamp
+
+
+option.SEA_LANTERN_BRIGHTNESS_OVERWORLD=§4S§fea Lantern
+
+option.SEA_LANTERN_BRIGHTNESS_NETHER=§4S§fea Lantern
+
+option.SEA_LANTERN_BRIGHTNESS_ENDER=§4S§fea Lantern
+
+
+option.REDSTONE_BLOCK_BRIGHTNESS_OVERWORLD=§4R§fedstone Block
+
+option.REDSTONE_BLOCK_BRIGHTNESS_NETHER=§4R§fedstone Block
+
+option.REDSTONE_BLOCK_BRIGHTNESS_ENDER=§4R§fedstone Block
+
+
+option.LAPIS_BLOCK_BRIGHTNESS_OVERWORLD=§4L§fapis Block
+
+option.LAPIS_BLOCK_BRIGHTNESS_NETHER=§4L§fapis Block
+
+option.LAPIS_BLOCK_BRIGHTNESS_ENDER=§4L§fapis Block
+
+
+option.GLOWSTONE_BRIGHTNESS_OVERWORLD=§4G§flowstone
+
+option.GLOWSTONE_BRIGHTNESS_NETHER=§4G§flowstone
+
+option.GLOWSTONE_BRIGHTNESS_ENDER=§4G§flowstone
+
+
+option.JACKOLANTERN_BRIGHTNESS_OVERWORLD=§4J§fack O Lantern
+
+option.JACKOLANTERN_BRIGHTNESS_NETHER=§4J§fack O Lantern
+
+option.JACKOLANTERN_BRIGHTNESS_ENDER=§4J§fack O Lantern
+
+
+option.TORCH_ENDROD_BRIGHTNESS_OVERWORLD=§4T§forch / End Rod
+
+option.TORCH_ENDROD_BRIGHTNESS_NETHER=§4T§forch / End Rod
+
+option.TORCH_ENDROD_BRIGHTNESS_ENDER=§4T§forch / End Rod
+
+
+option.CANDLE_BRIGHTNESS_OVERWORLD=§4C§fandle
+
+option.CANDLE_BRIGHTNESS_NETHER=§4C§fandle
+
+option.CANDLE_BRIGHTNESS_ENDER=§4C§fandle
+
+
+option.LIGHTSIGN_INTENSITY_OVERWORLD=§4T§fext Sign
+
+option.LIGHTSIGN_INTENSITY_NETHER=§4T§fext Sign
+
+option.LIGHTSIGN_INTENSITY_ENDER=§4T§fext Sign
+
+
+option.ENCHANTED_TABLE_BRIGHTNESS_OVERWORLD=§4E§fnchanted Table
+
+option.ENCHANTED_TABLE_BRIGHTNESS_NETHER=§4E§fnchanted Table
+
+option.ENCHANTED_TABLE_BRIGHTNESS_ENDER=§4E§fnchanted Table
+
+
+option.MAGMA_BRIGHTNESS_OVERWORLD=§4M§fagma Block
+
+option.MAGMA_BRIGHTNESS_NETHER=§4M§fagma Block
+
+option.MAGMA_BRIGHTNESS_ENDER=§4M§fagma Block
+
+
+option.CAMPFIRE_BRIGHTNESS_OVERWORLD=§4C§fampfire
+
+option.CAMPFIRE_BRIGHTNESS_NETHER=§4C§fampfire
+
+option.CAMPFIRE_BRIGHTNESS_ENDER=§4C§fampfire
+
+
+option.SCAMPFIRE_BRIGHTNESS_OVERWORLD=§4S§foul Campfire
+
+option.SCAMPFIRE_BRIGHTNESS_NETHER=§4S§foul Campfire
+
+option.SCAMPFIRE_BRIGHTNESS_ENDER=§4S§foul Campfire
+
+
+option.FROGLIGHT_BRIGHTNESS_OVERWORLD=§4F§froglights
+
+option.FROGLIGHT_BRIGHTNESS_NETHER=§4F§froglights
+
+option.FROGLIGHT_BRIGHTNESS_ENDER=§4F§froglights
+
+
+option.SCULK_CATALYST_BRIGHTNESS_OVERWORLD=§4S§fculk Catalyst
+
+option.SCULK_CATALYST_BRIGHTNESS_NETHER=§4S§fculk Catalyst
+
+option.SCULK_CATALYST_BRIGHTNESS_ENDER=§4S§fculk Catalyst
+
+
+option.SCULK_SHRIEKER_BRIGHTNESS_OVERWORLD=§4S§fculk Shrieker
+
+option.SCULK_SHRIEKER_BRIGHTNESS_NETHER=§4S§fculk Shrieker
+
+option.SCULK_SHRIEKER_BRIGHTNESS_ENDER=§4S§fculk Shrieker
+
+
+option.SCULK_VEIN_BRIGHTNESS_OVERWORLD=§4S§fculk Vein
+
+option.SCULK_VEIN_BRIGHTNESS_NETHER=§4S§fculk Vein
+
+option.SCULK_VEIN_BRIGHTNESS_ENDER=§4S§fculk Vein
+
+
+option.SCULK_BRIGHTNESS_OVERWORLD=§4S§fculk
+
+option.SCULK_BRIGHTNESS_NETHER=§4S§fculk
+
+option.SCULK_BRIGHTNESS_ENDER=§4S§fculk
+
+
+option.SCULK_SENSOR_BRIGHTNESS_OVERWORLD=§4S§fculk Sensor
+
+option.SCULK_SENSOR_BRIGHTNESS_NETHER=§4S§fculk Sensor
+
+option.SCULK_SENSOR_BRIGHTNESS_ENDER=§4S§fculk Sensor
+
+
+option.CO_RA_BRIGHTNESS_OVERWORLD=§4C§frying / §4R§fespawn Anchor
+
+option.CO_RA_BRIGHTNESS_NETHER=§4C§frying / §4R§fespawn Anchor
+
+option.CO_RA_BRIGHTNESS_ENDER=§4C§frying / §4R§fespawn Anchor
+
+
+option.CHORUS_EMISSIVE_O=§4C§fhorus Emissive
+option.CHORUS_EMISSIVE_STRENGTH_O=Emissive Strength
+option.CHORUS_EMISSIVE_N=§4C§fhorus Emissive
+option.CHORUS_EMISSIVE_STRENGTH_N=Emissive Strength
+option.CHORUS_EMISSIVE_E=§4C§fhorus Emissive
+option.CHORUS_EMISSIVE_STRENGTH_E=Emissive Strength
+
+screen.BEACON_MENU=§4B§feacon Beam Menu
+option.BEACON_BEAM_LAYER=§4D§fouble Layer
+value.BEACON_BEAM_LAYER.0=Normal Beam
+value.BEACON_BEAM_LAYER.1=Disable
+option.BEACON_BEAM_LAYER.comment=Delete the second layer of Beacon Beam
+
+option.EMISSIVE_BEACON_BEAM=§4E§fmissive Beam
+option.BEACON_BEAM_EMISSIVE_OVERWORLD=Intensity Overworld
+option.BEACON_BEAM_EMISSIVE_NETHER=Intensity Nether
+option.BEACON_BEAM_EMISSIVE_ENDER=Intensity Ender
+
+screen.NETHER_PORTAL_MENU=§eNew §4NETHER §fPortal
+option.NEW_NETHER_PORTAL=§4E§fmissive Nether Portal
+option.NEW_NETHER_PORTAL.comment=Emissive effect for Nether portal. Need enable Advanced Materials!
+value.NEW_NETHER_PORTAL.0=§4OFF
+value.NEW_NETHER_PORTAL.1=No Disk
+value.NEW_NETHER_PORTAL.2=Disk
+option.PORTAL_PARALLAX_DEPTH=§4T§fhree-Dimensionnal Depth
+option.NETHER_PORTAL_GLOWING_POWER_OVERWORLD=§4O§fverworld Emissivness
+option.NETHER_PORTAL_GLOWING_POWER_NETHER=§4N§fether Emissivness
+option.NETHER_PORTAL_GLOWING_POWER_ENDER=§4E§fnder Emissivness
+
+screen.GLOW_AMETYST_OVERWORLD=۞§4A§fmetyst Overworld۞
+screen.GLOW_AMETYST_NETHER=۞§4A§fmetyst Nether۞
+screen.GLOW_AMETYST_ENDER=۞§4A§fmetyst Ender۞
+
+option.SMALL_AMETYST_BRIGHTNESS_OVERWORLD=§4A§fmetyst (Small)
+option.MEDIUM_AMETYST_BRIGHTNESS_OVERWORLD=§4A§fmetyst (Medium)
+option.LARGE_AMETYST_BRIGHTNESS_OVERWORLD=§4A§fmetyst (Large)
+option.AMETYST_CLUSTER_BRIGHTNESS_OVERWORLD=§4A§fmetyst (Cluster)
+option.SMALL_AMETYST_BRIGHTNESS_NETHER=§4A§fmetyst (Small)
+option.MEDIUM_AMETYST_BRIGHTNESS_NETHER=§4A§fmetyst (Medium)
+option.LARGE_AMETYST_BRIGHTNESS_NETHER=§4A§fmetyst (Large)
+option.AMETYST_CLUSTER_BRIGHTNESS_NETHER=§4A§fmetyst (Cluster)
+option.SMALL_AMETYST_BRIGHTNESS_ENDER=§4A§fmetyst (Small)
+option.MEDIUM_AMETYST_BRIGHTNESS_ENDER=§4A§fmetyst (Medium)
+option.LARGE_AMETYST_BRIGHTNESS_ENDER=§4A§fmetyst (Large)
+option.AMETYST_CLUSTER_BRIGHTNESS_ENDER=§4A§fmetyst (Cluster)
+
+screen.BONUS_OVERWORLD=۞§4B§fonus Overworld۞
+screen.BONUS_NETHER=۞§4B§fonus Nether۞
+screen.BONUS_ENDER=۞§4B§fonus Ender۞
+
+screen.SCULK_OVERWORLD=۞§4S§fculk Overworld۞
+screen.SCULK_NETHER=۞§4S§fculk Nether۞
+screen.SCULK_ENDER=۞§4S§fculk Ender۞
+
+screen.GLOW_OVERWORLD=۞§4G§flowing Block Overworld۞
+screen.GLOW_NETHER=۞§4G§flowing Block Nether۞
+screen.GLOW_ENDER=۞§4G§flowing Block Ender۞
+
+option.GLOW_BERRIES=§4G§flow Berries
+option.GLOW_SPORE_BLOSSOM=§4G§flow Spore Blossom
+option.GLOW_LICHEN=§4G§flow Lichen
+option.GLOW_PICKLE=§4G§flow Pickel
+
+option.GLOW_BERRIES_GLOWING_POWER=Emissive Power
+option.GLOW_BERRIES_GLOWING_POWER_NETHER=Emissive Power
+option.GLOW_BERRIES_GLOWING_POWER_ENDER=Emissive Power
+
+option.GLOW_SPORE_BLOSSOM_GLOWING_POWER=Emissive Power
+option.GLOW_SPORE_BLOSSOM_GLOWING_POWER_NETHER=Emissive Power
+option.GLOW_SPORE_BLOSSOM_GLOWING_POWER_ENDER=Emissive Power
+
+option.GLOW_LICHEN_GLOWING_POWER=Emissive Power
+option.GLOW_LICHEN_GLOWING_POWER_NETHER=Emissive Power
+option.GLOW_LICHEN_GLOWING_POWER_ENDER=Emissive Power
+
+option.GLOW_PICKLE_GLOWING_POWER=Emissive Power
+option.GLOW_PICKLE_GLOWING_POWER_NETHER=Emissive Power
+option.GLOW_PICKLE_GLOWING_POWER_ENDER=Emissive Power
+
+option.REDSTONE_BLOCK_EMISSIVE=§4R§fedstone Emissive Block?§5[*]§f
+option.REDSTONE_BLOCK_EMISSIVE.comment=Need enable Advanced Materials!
+option.LAPISLAZUL_BLOCK_EMISSIVE=§4L§fapis Emissive Block?§5[*]§f
+option.LAPISLAZUL_BLOCK_EMISSIVE.comment=Need enable Advanced Materials!
+
+option.UNDERWATER_LIGHT_SHAFT_SIZE=Underwater Lightshaft Size
+option.UNDERWATER_LIGHT_SHAFT_SIZE.comment=Adjust the size of Lighshafts underwater. 50.0 = Thiny - 1000.0 = Big.
+
+option.UNDERWATER_SKY_OPACITY=§4U§fnderwater Sky Opacity
+option.UNDERWATER_SKY_OPACITY.comment=Add a Sky opacity when eyes is underwater.
+option.UNDERWATER_SKY_BRIGHTNESS=Underwater Sky Brightness
+option.UNDERWATER_SKY_BRIGHTNESS.comment=Adjusts Underwater Sky Brightness.
+
+screen.SURFACE_LIGHT=§4S§furface Light
+option.LIGHT_GROUND_DAY=§4D§fay Light Intensity
+option.LIGHT_GROUND_DAY.comment=Multiplies all sun/moon light colors on surfaces (doesn't affect the sky).
+option.AMBIENT_GROUND_DAY=§4D§fay Ambience Intensity
+option.AMBIENT_GROUND_DAY.comment=Multiplies all sun/moon ambience colors on surfaces (doesn't affect the sky).
+
+option.LIGHT_MULT_NIGHT=§4N§fight Light Intensity
+option.LIGHT_MULT_NIGHT.comment=Multiplies all sun/moon light colors on surfaces (doesn't affect the sky).
+option.AMBIENT_MULT_NIGHT=§4N§fight Ambience Intensity
+option.AMBIENT_MULT_NIGHT.comment=Multiplies all ambience colors on surfaces (doesn't affect the sky).
+
+screen.FROSTED_LENS_CONF=§4F§frosted Lens Menu
+option.FROSTED_LENS=§4F§frosted Lens
+option.FROSTED_LENS.comment=Adds a frozen vignette when in a snow biome. Before Minecraft 1.16.5 version you have a simple noise effect, otherwise you have a better quality of vignette.
+option.FROSTED_LENS_ONLY_RAIN=§4R§fainy Weather Only
+option.FROSTED_LENS_ONLY_RAIN.comment=Allows the vignette to be activated only when it is snowing. Otherwise will be present in the Snow biome regardless of the weather.
+option.FROSTED_LENS_DYNAMIC_HAND_LIGHT=§4D§fynamic Coloring
+option.FROSTED_LENS_DYNAMIC_HAND_LIGHT.comment=Allows you to change the color of the vignette depending on the lighting of the block you have in hand. Dynamic Hand Light must be enabled.
+option.FROSTYNESS=Frost Strength
+option.FROSTYNESS.comment=Adjusts the strength of frost.
+option.COLORIZE=Coloring Strength
+option.COLORIZE.comment=Allows you to adjust the color strength of the vignette.
+
+screen.KUWAHARA_MENU=§4K§fuwahara Filter Menu
+option.KUWAHARA_FILTER=§4K§fuwahara Filter
+option.KUWAHARA_FILTER.comment=Add Kuwahara filter. Oil painting effect.
+option.KUWAHARA_RADIUS=Radius
+option.KUWAHARA_RADIUS.comment=Adjusts the radius of the effect.
+value.KUWAHARA_RADIUS.1=Low
+value.KUWAHARA_RADIUS.2=Medium
+value.KUWAHARA_RADIUS.3=High
+value.KUWAHARA_RADIUS.4=Very High
+
+screen.OTHER_SECRET_OPTIONS=§4O§fthers Secret Options
+
+option.HAND_ENTITIES_SPECULAR_TRICK=Specular Trick LabPBR§5[*]§f
+option.HAND_ENTITIES_SPECULAR_TRICK.comment=Add specular trick for hand and entities. Need enabled LabPBR Format.
+value.HAND_ENTITIES_SPECULAR_TRICK.0=§4OFF
+value.HAND_ENTITIES_SPECULAR_TRICK.1=§6Trick §aON
+
+option.GLOWING_ENTITY_RGB=§4G§flowing Entities RGB
+option.GLOWING_ENTITY_RGB.comment=Activates the RGB effect of the glowing effect on entities. If you disable this one will be standard.
+
+screen.STAINED_GLASS_MENU=§4G§flass Menu
+option.STAINED_SAT=Saturation
+option.STAINED_TRANS=Transparency
