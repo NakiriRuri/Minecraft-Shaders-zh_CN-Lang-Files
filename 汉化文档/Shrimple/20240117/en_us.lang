@@ -1,0 +1,765 @@
+profile.VANILLA=Vanilla
+profile.SHADOWS=Shadows
+profile.LIGHTS=Colored Light
+profile.RTX_LOW=RTX
+
+
+screen.SKY_OPTIONS=Sky
+
+option.sunPathRotation=Sun Angle
+option.sunPathRotation.comment=The tilt of the sun along it's rotational axis.
+suffix.sunPathRotation=°
+
+option.SKY_TYPE=Sky/Fog Type
+value.SKY_TYPE.0=Vanilla
+value.SKY_TYPE.1=Custom
+
+option.SKY_CLOUD_TYPE=Clouds
+value.SKY_CLOUD_TYPE.0=None
+value.SKY_CLOUD_TYPE.1=Vanilla
+value.SKY_CLOUD_TYPE.2=Custom
+value.SKY_CLOUD_TYPE.3=Custom Cubed
+
+option.SKY_CLOUD_SPEED=Cloud Speed
+option.SKY_CLOUD_SPEED.comment=The speed clouds move across the sky/change. Only affects "custom" clouds.
+suffix.SKY_CLOUD_SPEED=x
+
+option.SKY_BORDER_FOG_ENABLED=Border Fog
+
+option.SKY_FOG_SHAPE=Border Fog Shape
+value.SKY_FOG_SHAPE.0=Default
+value.SKY_FOG_SHAPE.1=Sphere
+value.SKY_FOG_SHAPE.2=Cylinder
+
+option.SKY_VOL_FOG_TYPE=Volumetric Fog
+value.SKY_VOL_FOG_TYPE.0=None
+value.SKY_VOL_FOG_TYPE.1=Fast
+value.SKY_VOL_FOG_TYPE.2=Fancy
+
+option.SKY_DENSITY=Volumetric Density
+option.SKY_DENSITY.comment=Describes the density of the atmospheric fog used for volumetric lighting.
+suffix.SKY_DENSITY=%
+
+option.SKY_WEATHER_OPACITY=Rain Opacity
+option.SKY_WEATHER_OPACITY.comment=Determines how transparent falling rain particles will be.
+suffix.SKY_WEATHER_OPACITY=%
+
+
+screen.SKY_BRIGHTNESS_OPTIONS=Brightness
+
+option.SKY_SUN_BRIGHTNESS=Sun Light
+suffix.SKY_SUN_BRIGHTNESS=%
+
+option.SKY_MOON_BRIGHTNESS=Moon Light
+suffix.SKY_MOON_BRIGHTNESS=%
+
+option.SKY_BRIGHTNESS=Sky
+suffix.SKY_BRIGHTNESS=%
+
+
+screen.WORLD_OPTIONS=World
+screen.WORLD_OPTIONS.comment=Options for everything else.
+
+option.WORLD_WETNESS_ENABLED=Wetness
+option.WORLD_WETNESS_ENABLED.comment=Causes surfaces to appear wet (darker, more shiny) when wet from rain.
+
+option.WORLD_WETNESS_PUDDLES=Puddles
+option.WORLD_WETNESS_PUDDLES.comment=Describes how rain affects materials.
+value.WORLD_WETNESS_PUDDLES.0=OFF
+value.WORLD_WETNESS_PUDDLES.1=Basic
+value.WORLD_WETNESS_PUDDLES.2=Pixel
+value.WORLD_WETNESS_PUDDLES.3=Fancy
+
+option.WORLD_WAVING_ENABLED=Waving Plants
+option.WORLD_WAVING_ENABLED.comment=Allows plants to wave in the wind.
+
+option.WORLD_AMBIENT_MODE=Ambient Lighting
+value.WORLD_AMBIENT_MODE.0=OFF
+value.WORLD_AMBIENT_MODE.1=Basic
+value.WORLD_AMBIENT_MODE.2=Fancy
+
+option.WORLD_AO_ENABLED=Ambient Occlusion
+option.WORLD_AO_ENABLED.comment=Describes how ambient lighting is occluded.
+
+option.WORLD_SKY_REFLECTIONS=Sky Reflections
+option.WORLD_SKY_REFLECTIONS.comment=Allows the sky to be reflected when specular materials are enabled.
+suffix.WORLD_SKY_REFLECTIONS=%
+
+option.WORLD_SMOKE=Nether/End Smoke
+
+option.WORLD_NETHER_AMBIENT=Nether Ambient
+suffix.WORLD_NETHER_AMBIENT=%
+
+option.WORLD_END_AMBIENT=End Ambient
+suffix.WORLD_END_AMBIENT=%
+
+screen.WATER_OPTIONS=Water
+screen.WATER_OPTIONS.comment=Options for water blocks.
+
+option.WATER_SURFACE_TYPE=Surface
+value.WATER_SURFACE_TYPE.0=Textured
+value.WATER_SURFACE_TYPE.1=Colored
+
+option.WATER_OPACITY=Opacity
+option.WATER_OPACITY.comment=Determines how transparent water blocks will be.
+suffix.WATER_OPACITY=%
+
+option.WATER_WAVE_SIZE=Waves
+value.WATER_WAVE_SIZE.0=None
+value.WATER_WAVE_SIZE.1=Small
+value.WATER_WAVE_SIZE.2=Medium
+value.WATER_WAVE_SIZE.3=Large
+
+option.WATER_SURFACE_PIXEL_RES=Pixelated
+value.WATER_SURFACE_PIXEL_RES.0=OFF
+value.WATER_SURFACE_PIXEL_RES.8=8x
+value.WATER_SURFACE_PIXEL_RES.16=16x
+value.WATER_SURFACE_PIXEL_RES.32=32x
+value.WATER_SURFACE_PIXEL_RES.64=64x
+value.WATER_SURFACE_PIXEL_RES.128=128x
+
+option.WATER_VOL_FOG_TYPE=Volumetric Fog
+value.WATER_VOL_FOG_TYPE.0=None
+value.WATER_VOL_FOG_TYPE.1=Fast
+value.WATER_VOL_FOG_TYPE.2=Fancy
+
+option.WATER_FOG_DENSITY=Density
+suffix.WATER_FOG_DENSITY=%
+
+option.WATER_CAUSTICS=Caustics
+
+option.WATER_TESSELLATION_QUALITY=Tessellation Quality
+value.WATER_TESSELLATION_QUALITY.0=OFF
+
+option.WATER_DEPTH_LAYERS=Depth Layers
+
+
+screen.MATERIAL_OPTIONS=Materials
+
+option.MATERIAL_NORMALS=Normal Map
+option.MATERIAL_NORMALS.comment=The type of normal-map data.
+value.MATERIAL_NORMALS.0=OFF
+value.MATERIAL_NORMALS.1=Integrated
+value.MATERIAL_NORMALS.2=Lab-PBR
+value.MATERIAL_NORMALS.3=Old-PBR
+
+option.MATERIAL_SPECULAR=Specular Map
+option.MATERIAL_SPECULAR.comment=Describes how much light is reflected from each pixel of the surface, based on its roughness, metalness, and f0.
+value.MATERIAL_SPECULAR.0=OFF
+value.MATERIAL_SPECULAR.1=Integrated
+value.MATERIAL_SPECULAR.2=Lab-PBR
+value.MATERIAL_SPECULAR.3=Old-PBR
+
+option.MATERIAL_OCCLUSION=Occlusion
+option.MATERIAL_OCCLUSION.comment=Describes how much ambient light is occluded from each pixel of the surface.
+value.MATERIAL_OCCLUSION.0=OFF
+value.MATERIAL_OCCLUSION.1=Integrated
+value.MATERIAL_OCCLUSION.2=Lab-PBR
+
+option.MATERIAL_EMISSION=Emission
+value.MATERIAL_EMISSION.0=Integrated
+value.MATERIAL_EMISSION.1=Lab-PBR
+value.MATERIAL_EMISSION.2=Old-PBR
+
+option.MATERIAL_POROSITY=Porosity
+value.MATERIAL_POROSITY.0=OFF
+value.MATERIAL_POROSITY.1=Integrated
+value.MATERIAL_POROSITY.2=Lab-PBR
+
+option.MATERIAL_SSS=SSS
+option.MATERIAL_SSS.comment=Describes how much light from each pixel passes into & scatters in the subsurface.
+value.MATERIAL_SSS.0=OFF
+value.MATERIAL_SSS.1=Integrated
+value.MATERIAL_SSS.2=Lab-PBR
+
+
+screen.MATERIAL_PARALLAX_OPTIONS=Displacement
+screen.MATERIAL_PARALLAX_OPTIONS.comment=Describes how the depth of each pixel of the surface is displaced.
+
+option.DISPLACE_MODE=Type
+option.DISPLACE_MODE.comment=The type of POM to render. Smooth POM will have softened edges. Sharp POM will have model-like hard edges.
+value.DISPLACE_MODE.0=None
+value.DISPLACE_MODE.1=POM
+value.DISPLACE_MODE.2=Smooth POM
+value.DISPLACE_MODE.3=Sharp POM
+value.DISPLACE_MODE.4=Tessellation
+
+option.MATERIAL_DISPLACE_DEPTH=Depth
+suffix.MATERIAL_DISPLACE_DEPTH=%
+
+option.MATERIAL_DISPLACE_OFFSET=Surface Offset
+suffix.MATERIAL_DISPLACE_OFFSET=%
+
+option.MATERIAL_TESSELLATION_QUALITY=Tess Quality
+suffix.MATERIAL_TESSELLATION_QUALITY=x
+
+option.MATERIAL_TESSELLATION_EDGE_FADE=Tess Edge-Fade
+
+option.MATERIAL_PARALLAX_SAMPLES=POM Samples
+
+option.MATERIAL_PARALLAX_SHADOW_SAMPLES=POM Shadow Samples
+value.MATERIAL_PARALLAX_SHADOW_SAMPLES.0=OFF
+
+option.MATERIAL_DISPLACE_MAX_DIST=Max Distance
+option.MATERIAL_DISPLACE_MAX_DIST.comment=The maximum distance (in blocks) from the camera to render POM.
+
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD=Sharp POM Threshold
+option.MATERIAL_PARALLAX_SHARP_THRESHOLD.comment=The threshold for which sharp parallax applies slope-normals. [N / 255]
+suffix.MATERIAL_PARALLAX_SHARP_THRESHOLD=/255
+
+option.MATERIAL_PARALLAX_SHADOW_SMOOTH=Smooth POM Shadows
+option.MATERIAL_PARALLAX_SHADOW_SMOOTH.comment=Enables higher quality shadows when smooth POM is enabled.
+
+option.MATERIAL_PARALLAX_DEPTH_WRITE=Depth-Write POM
+
+option.MATERIAL_DISPLACE_ENTITIES=Entities
+option.MATERIAL_DISPLACE_ENTITIES.comment=Disable parallax for entities if it causes rendering issues with certain mods.
+
+
+screen.MATERIAL_NORMAL_OPTIONS=Normal Map Options
+screen.MATERIAL_NORMAL_OPTIONS.comment=Describes how each pixel of the surface reacts to directional lighting.
+
+option.MATERIAL_NORMAL_SCALE=Resolution
+option.MATERIAL_NORMAL_SCALE.comment=The texture scale which normals are generated at. Only applies to _integrated_ normal-maps.
+suffix.MATERIAL_NORMAL_SCALE=x
+
+option.MATERIAL_NORMAL_STRENGTH=Strength
+option.MATERIAL_NORMAL_STRENGTH.comment=The angular strength of generated normals. Only applies to _integrated_ normal-maps.
+suffix.MATERIAL_NORMAL_STRENGTH=%
+
+option.MATERIAL_NORMAL_EDGE=Edge-Normals
+option.MATERIAL_NORMAL_EDGE.comment=Determines how edges are handled when generating normals. Only applies to _integrated_ normal-maps.
+value.MATERIAL_NORMAL_EDGE.0=Standard
+value.MATERIAL_NORMAL_EDGE.1=High
+value.MATERIAL_NORMAL_EDGE.2=Low
+
+option.MATERIAL_NORMAL_ROUND=Round Edges
+option.MATERIAL_NORMAL_ROUND.comment=When enabled, the edges of entities will have smooth-rounded normals. Only applies to integrated normal maps.
+value.MATERIAL_NORMAL_ROUND.0=OFF
+
+
+screen.MATERIAL_SPECULAR_OPTIONS=Specular Map Options
+
+option.METAL_BRIGHTNESS=Metal Brightness
+suffix.METAL_BRIGHTNESS=%
+
+option.MATERIAL_HCM_ALBEDO_TINT=HCM Albedo Tint
+option.MATERIAL_HCM_ALBEDO_TINT.comment=Enables albedo-tinting for LabPBR hard-coded-metals. Usage varies with resource-pack.
+
+
+screen.MATERIAL_POROSITY_OPTIONS=Porosity Options
+screen.MATERIAL_POROSITY_OPTIONS.comment=Describes how much water is absorbed by each pixel of the surface.
+
+option.MATERIAL_POROSITY_DARKEN=Darkening
+suffix.MATERIAL_POROSITY_DARKEN=%
+
+
+screen.MATERIAL_EMISSION_OPTIONS=Emission Options
+screen.MATERIAL_EMISSION_OPTIONS.comment=Describes how much light is emitted from each pixel of the surface.
+
+option.MATERIAL_EMISSION_BRIGHTNESS=Brightness
+suffix.MATERIAL_EMISSION_BRIGHTNESS=%
+
+
+screen.MATERIAL_SSS_OPTIONS=SSS Options
+
+option.MATERIAL_SSS_STRENGTH=Strength
+suffix.MATERIAL_SSS_STRENGTH=%
+
+option.MATERIAL_SSS_SCATTER=Scattering
+option.MATERIAL_SSS_MAXDIST.comment=The maximum distance [in blocks] that SSS can scatter outward.
+
+option.MATERIAL_SSS_MAXDIST=Max Distance
+option.MATERIAL_SSS_MAXDIST.comment=The maximum distance [in blocks] that SSS can penetrate through blocks.
+
+
+screen.MATERIAL_REFLECT_OPTIONS=Reflections
+
+option.MATERIAL_REFLECTIONS=Reflections
+value.MATERIAL_REFLECTIONS.0=None
+value.MATERIAL_REFLECTIONS.1=Sky Only
+value.MATERIAL_REFLECTIONS.2=Screen-Space
+
+option.MATERIAL_REFLECT_STRENGTH=Strength
+suffix.MATERIAL_REFLECT_STRENGTH=%
+
+option.SSR_MAXSTEPS=SSR Max Step Count
+
+option.MATERIAL_REFLECT_CLOUDS=Clouds
+option.MATERIAL_REFLECT_CLOUDS.comment=Allows clouds to be visible in reflections.
+
+option.MATERIAL_REFLECT_GLASS=Glass
+option.MATERIAL_REFLECT_GLASS.comment=Allows regular glass to have reflections on cutout/invisible areas.
+
+
+screen.MATERIAL_REFRACT_OPTIONS=Refraction
+
+option.MATERIAL_REFRACT_ENABLED=Enabled
+
+option.REFRACTION_STRENGTH=Strength
+option.REFRACTION_STRENGTH.suffix=%
+
+option.REFRACTION_BLUR=Blur
+
+option.REFRACTION_SNELL=TIR/Snells Window
+
+
+screen.LIGHTING_OPTIONS=Lighting
+
+option.LIGHTING_MODE=Mode
+option.LIGHTING_MODE.comment=Describes how lighting is calculated. LightMap uses the vanilla lighting. FloodFill allows basic colored lighting. Enable ray-tracing for block-light shadows.
+value.LIGHTING_MODE.0=Light Map
+value.LIGHTING_MODE.1=Flood Fill
+value.LIGHTING_MODE.2=Ray Traced
+
+option.LIGHTING_MODE_HAND=Hand
+value.LIGHTING_MODE_HAND.0=None
+value.LIGHTING_MODE_HAND.1=Simple
+value.LIGHTING_MODE_HAND.2=Ray-Traced
+
+option.LIGHTING_MIN=Minimum
+option.LIGHTING_MIN.comment=The minimum amount of light for the world.
+suffix.LIGHTING_MIN=%
+
+option.LIGHTING_BRIGHTNESS=Brightness
+option.LIGHTING_BRIGHTNESS.comment=The brightness of dynamic lights.
+suffix.LIGHTING_BRIGHTNESS=%
+
+option.LIGHTING_AMBIENT=Ambient
+option.LIGHTING_AMBIENT.comment=The amount of vanilla ambient lighting to add to dynamic lighting.
+suffix.LIGHTING_AMBIENT=%
+
+
+screen.LIGHTING_LIGHTMAP_OPTIONS=LightMap Options
+
+option.DIRECTIONAL_LIGHTMAP=Directional
+option.DIRECTIONAL_LIGHTMAP.comment=Enables fake directional lighting with the vanilla lightmap.
+
+option.LIGHTING_TEMP=Temperature
+option.LIGHTING_TEMP.comment=The warm/cool temperature of lighting, in degrees kelvin.
+suffix.LIGHTING_TEMP=°k
+
+option.LIGHTING_OLD=Old Lighting
+option.LIGHTING_OLD.comment=Enables vanilla directional sky-light.
+
+
+screen.LIGHTING_LPV_OPTIONS=FloodFill Options
+
+option.LPV_SIZE=Size
+value.LPV_SIZE.0=OFF
+value.LPV_SIZE.1=Small
+value.LPV_SIZE.2=Medium
+value.LPV_SIZE.3=Large
+
+option.LPV_SAMPLE_MODE=Sample Mode
+value.LPV_SAMPLE_MODE.0=Nearest
+value.LPV_SAMPLE_MODE.1=Linear
+value.LPV_SAMPLE_MODE.2=Cubic
+
+option.LPV_BRIGHT_BLOCK=Light Range Scale
+option.LPV_BRIGHT_BLOCK.comment=Scale factor for how far light propagates within LPV.
+suffix.LPV_BRIGHT_BLOCK=x
+
+option.LPV_SUN_SAMPLES=Sunlight Sample Count
+option.LPV_SUN_SAMPLES.comment=The number of sunlight samples to take per-block.
+
+option.LPV_LIGHTMAP_MIX=LightMap Mix
+suffix.LPV_LIGHTMAP_MIX=%
+
+option.LPV_SUN_SAMPLES=Shadow Samples
+option.LPV_SUN_SAMPLES.comment=Determines how many samples to use per-block when determining sun/moon visibility.
+value.LPV_SUN_SAMPLES.0=OFF
+
+option.LPV_VOXEL_TEST=Voxel Test
+option.LPV_VOXEL_TEST.comment=Improves linear & cubic sampling by performing extra visibility checks using voxel data.
+
+
+screen.LIGHTING_TRACE_OPTIONS=Trace Options
+
+option.LIGHTING_TRACE_RES=Resolution
+value.LIGHTING_TRACE_RES.0=Full
+value.LIGHTING_TRACE_RES.1=Half
+value.LIGHTING_TRACE_RES.2=Quarter
+
+option.LIGHTING_TRACE_PENUMBRA=Penumbra Size
+option.LIGHTING_TRACE_PENUMBRA.comment=The size of the penumbra for DDA-traced soft-shadows.
+value.LIGHTING_TRACE_PENUMBRA.0=None
+suffix.LIGHTING_TRACE_PENUMBRA=%
+
+option.LIGHTING_TINT_MODE=Tint Mode
+value.LIGHTING_TINT_MODE.0=None
+value.LIGHTING_TINT_MODE.1=Basic
+value.LIGHTING_TINT_MODE.2=Absorb
+
+option.LIGHTING_TINT_STRENGTH=Tint Strength
+option.LIGHTING_TINT_STRENGTH.comment=Determines how strongly light is tinted through stained glass.
+suffix.LIGHTING_TINT_STRENGTH=%
+value.LIGHTING_TINT_STRENGTH.0=Off
+
+option.LIGHTING_TRACED_PLAYER_SHADOW=Player Shadow
+value.LIGHTING_TRACED_PLAYER_SHADOW.0=None
+value.LIGHTING_TRACED_PLAYER_SHADOW.1=Cuboid
+value.LIGHTING_TRACED_PLAYER_SHADOW.2=Cylinder
+
+option.LIGHTING_FLICKER=Dynamic
+option.LIGHTING_FLICKER.comment=Allows light sources to have dynamic brightness/color; like torches, candles, fire, etc.
+
+
+screen.LIGHTING_TRACE_BLOCK_OPTIONS=Block Lights
+
+option.DYN_LIGHT_GLOW_BERRIES=Glow Berry Vines
+option.DYN_LIGHT_GLOW_BERRIES.comment=Determines how lighting for glow berry vines is handled, to avoid heavy performance impacts from lush caverns.
+value.DYN_LIGHT_GLOW_BERRIES.0=Disable
+value.DYN_LIGHT_GLOW_BERRIES.1=Emit
+value.DYN_LIGHT_GLOW_BERRIES.2=Trace
+
+option.DYN_LIGHT_LAVA=Lava Lighting
+option.DYN_LIGHT_LAVA.comment=Determines how lighting for lava is handled, to avoid heavy performance impacts from large lava lakes/sources.
+value.DYN_LIGHT_LAVA.0=Disable
+value.DYN_LIGHT_LAVA.1=Emit
+value.DYN_LIGHT_LAVA.2=Trace
+
+option.DYN_LIGHT_PORTAL=Portal Lighting
+option.DYN_LIGHT_PORTAL.comment=Determines how lighting for nether portals is handled, to avoid heavy performance impacts from large portals.
+value.DYN_LIGHT_PORTAL.0=Disable
+value.DYN_LIGHT_PORTAL.1=Emit
+value.DYN_LIGHT_PORTAL.2=Trace
+
+option.DYN_LIGHT_REDSTONE=Redstone Lighting
+option.DYN_LIGHT_REDSTONE.comment=Determines how lighting for redstone components is handled, to avoid heavy performance impacts from large contraptions.
+value.DYN_LIGHT_REDSTONE.0=Disable
+value.DYN_LIGHT_REDSTONE.1=Emit
+value.DYN_LIGHT_REDSTONE.2=Trace
+
+option.DYN_LIGHT_SEA_PICKLE=Sea Pickles
+option.DYN_LIGHT_SEA_PICKLE.comment=Determines how lighting for sea pickles is handled, to avoid heavy performance impacts from large reefs.
+value.DYN_LIGHT_SEA_PICKLE.0=Disable
+value.DYN_LIGHT_SEA_PICKLE.1=Emit
+value.DYN_LIGHT_SEA_PICKLE.2=Trace
+
+
+screen.LIGHTING_TRACE_ADVANCED_OPTIONS=Advanced
+
+option.LIGHT_BIN_SIZE=Bin Size
+option.LIGHT_BIN_SIZE.comment=The cubic size in blocks of each light bin. Using smaller bins will allow more dense lighting. Using larger bins will allow dynamic lighting to apply to further distances from player.
+
+option.LIGHT_BIN_MAX_COUNT=Max Bin Lights
+option.LIGHT_BIN_MAX_COUNT.comment=The maximum number of lights each bin can hold.
+
+option.LIGHT_SIZE_XZ=Horizontal Bin Count
+
+option.LIGHT_SIZE_Y=Vertical Bin Count
+
+option.LIGHTING_RANGE=Range
+option.LIGHTING_RANGE.comment=Adjusts the scale of the range blocks cast light. Warning, increasing can dramatically reduce performance!
+suffix.LIGHTING_RANGE=%
+
+option.LIGHTING_TRACE_SAMPLE_MAX=Max Sample Count
+option.LIGHTING_TRACE_SAMPLE_MAX.comment=The maximum number of lights that can be sampled per-pixel for each rendered frame. Setting a lower value will increase performance, but also increase temporal blurring.
+value.LIGHTING_TRACE_SAMPLE_MAX.0=Infinite
+
+option.LIGHTING_TRACE_FILTER=Post-Filtering
+option.LIGHTING_TRACE_FILTER.comment=When enabled, the lighting buffer will have a post-process gaussian blur applied to smoothen edges/noise.
+
+option.DYN_LIGHT_WEATHER=Weather Particles
+option.DYN_LIGHT_WEATHER.comment=Determines whether dynamic lighting is applied to weather particles. Enabling this option is heavy on performance!
+
+
+screen.VOLUMETRIC_OPTIONS=Volumetric Fog
+
+option.VOLUMETRIC_RES=Resolution
+value.VOLUMETRIC_RES.0=Full
+value.VOLUMETRIC_RES.1=Half
+value.VOLUMETRIC_RES.2=Quarter
+
+option.VOLUMETRIC_SAMPLES=Quality
+value.VOLUMETRIC_SAMPLES.12=Low
+value.VOLUMETRIC_SAMPLES.24=Medium
+value.VOLUMETRIC_SAMPLES.36=High
+value.VOLUMETRIC_SAMPLES.48=Very High
+
+option.VOLUMETRIC_BRIGHT_SKY=Sun/Moon Brightness
+option.VOLUMETRIC_BRIGHT_SKY.comment=Adjusts the brightness of the sun & moon when applying volumetric lighting to fog.
+suffix.VOLUMETRIC_BRIGHT_SKY=%
+value.VOLUMETRIC_BRIGHT_SKY.0=OFF
+
+option.VOLUMETRIC_BRIGHT_BLOCK=Block Light Brightness
+option.VOLUMETRIC_BRIGHT_BLOCK.comment=Adjusts the brightness of block-based lights when applying volumetric lighting to fog.
+suffix.VOLUMETRIC_BRIGHT_BLOCK=%
+value.VOLUMETRIC_BRIGHT_BLOCK.0=OFF
+
+option.VOLUMETRIC_BLOCK_MODE=Block Light
+option.VOLUMETRIC_BLOCK_MODE.comment=Determines whether volumetric lighting is applied to fog for block-based dynamic lighting.
+value.VOLUMETRIC_BLOCK_MODE.0=Disabled
+value.VOLUMETRIC_BLOCK_MODE.1=Emission
+value.VOLUMETRIC_BLOCK_MODE.2=Trace [Fast]
+value.VOLUMETRIC_BLOCK_MODE.3=Trace [Full]
+
+option.VOLUMETRIC_FILTER=Filter
+option.VOLUMETRIC_FILTER.comment=Applies post-filtering of volumetric lighting for a smoother result.
+
+option.VOLUMETRIC_BLOCK_RT=Ray Traced
+option.VOLUMETRIC_BLOCK_RT.comment=Enables volumetric ray-tracing for block lights; requires ray-traced block lighting to be enabled. §c§lWARNING§r§c: will kill performance dead!
+
+
+screen.SHADOW_OPTIONS=Shadows
+screen.SHADOW_OPTIONS.comment=Options for shadows.
+
+option.SHADOW_TYPE=Type
+option.SHADOW_TYPE.comment=The type of shadow mapping to use.
+value.SHADOW_TYPE.0=None
+value.SHADOW_TYPE.2=Distorted
+value.SHADOW_TYPE.3=Cascaded
+
+option.shadowMapResolution=Resolution
+option.shadowMapResolution.comment=Resolution of the shadow map. Higher numbers mean more accurate shadows.
+
+option.shadowDistance=Distance
+option.shadowDistance.comment=How far away shadows will be rendered.
+
+option.SHADOW_COLORED=Color Tinting
+option.SHADOW_COLORED.comment=Determines if sun/moon light is tinted when passing through translucent colored blocks.
+
+option.SHADOW_COLOR_BLEND=Color Blending
+option.SHADOW_COLOR_BLEND.comment=Allows colored shadows to blend multiple colors. Currently broken until Sodium supports translucent-sorting.
+
+option.SHADOW_BIAS_SCALE=Bias Scale
+option.SHADOW_BIAS_SCALE.comment=Increase this if you get shadow acne. Decrease this if you get peter panning.
+value.SHADOW_BIAS_SCALE.0.1=10%
+value.SHADOW_BIAS_SCALE.0.2=20%
+value.SHADOW_BIAS_SCALE.0.3=30%
+value.SHADOW_BIAS_SCALE.0.4=40%
+value.SHADOW_BIAS_SCALE.0.5=50%
+value.SHADOW_BIAS_SCALE.0.6=60%
+value.SHADOW_BIAS_SCALE.0.7=70%
+value.SHADOW_BIAS_SCALE.0.8=80%
+value.SHADOW_BIAS_SCALE.0.9=90%
+value.SHADOW_BIAS_SCALE.1.0=100%
+value.SHADOW_BIAS_SCALE.1.1=110%
+value.SHADOW_BIAS_SCALE.1.2=120%
+value.SHADOW_BIAS_SCALE.1.3=130%
+value.SHADOW_BIAS_SCALE.1.4=140%
+value.SHADOW_BIAS_SCALE.1.5=150%
+value.SHADOW_BIAS_SCALE.1.6=160%
+value.SHADOW_BIAS_SCALE.1.7=170%
+value.SHADOW_BIAS_SCALE.1.8=180%
+value.SHADOW_BIAS_SCALE.1.9=190%
+value.SHADOW_BIAS_SCALE.2.0=200%
+value.SHADOW_BIAS_SCALE.2.1=210%
+value.SHADOW_BIAS_SCALE.2.2=220%
+value.SHADOW_BIAS_SCALE.2.3=230%
+value.SHADOW_BIAS_SCALE.2.4=240%
+value.SHADOW_BIAS_SCALE.2.5=250%
+
+option.SHADOW_DISTORT_FACTOR=Distortion
+option.SHADOW_DISTORT_FACTOR.comment=The amount of distortion to apply to the shadow map. Applies to distorted shadows only.
+
+option.SHADOW_CLOUD_ENABLED=Clouds
+option.SHADOW_CLOUD_ENABLED.comment=Enables shadows from clouds.
+
+
+screen.SHADOW_FILTER_OPTIONS=Filtering
+screen.SHADOW_FILTER_OPTIONS.comment=Options for shadow filtering.
+
+option.SHADOW_FILTER=Filtering
+option.SHADOW_FILTER.comment=Type type of filtering to apply to shadow sampling.
+value.SHADOW_FILTER.0=None
+value.SHADOW_FILTER.1=Soft-Fixed
+value.SHADOW_FILTER.2=Soft-Dynamic
+
+option.SHADOW_ENABLE_HWCOMP=HW-Accelerated
+option.SHADOW_ENABLE_HWCOMP.comment=When enabled, shadows will leverage hardware-filtering for better quality and performance.
+
+option.SHADOW_PCF_SIZE_MIN=Min Radius
+option.SHADOW_PCF_SIZE_MIN.comment=The minimum radius of the shadow blurring; measured in blocks/meters. For dynamic soft-shadows only.
+suffix.SHADOW_PCF_SIZE_MIN=%
+
+option.SHADOW_PCF_SIZE_MAX=Max Radius
+option.SHADOW_PCF_SIZE_MAX.comment=The maximum/fixed radius of the shadow blurring; measured in blocks/meters. For fixed or dynamic soft-shadows.
+suffix.SHADOW_PCF_SIZE_MAX=%
+
+option.SHADOW_PCF_SAMPLES=Blur Samples
+option.SHADOW_PCF_SAMPLES.comment=The number of samples to use when blurring. For fixed or dynamic soft-shadows.
+
+option.SHADOW_PCSS_SAMPLES=Blocker Samples
+option.SHADOW_PCSS_SAMPLES.comment=The number of samples to use for determining penumbra width. For dynamic soft-shadows only.
+
+option.SHADOW_BLUR=Smooth
+option.SHADOW_BLUR.comment=Applies a post gaussian blur to the shadowing buffer to further smooth blur. Applies to all shadow types.
+
+
+screen.EFFECT_OPTIONS=Effects
+
+option.EFFECT_AUTO_EXPOSE=Auto-Exposure
+option.EFFECT_AUTO_EXPOSE.comment=Enables a cheap auto-exposure effect based on brightness at the cameras location.
+
+
+screen.EFFECT_FXAA_OPTIONS=FXAA
+
+option.EFFECT_FXAA_ENABLED=Enabled
+
+option.EFFECT_FXAA_ITERATIONS=Iterations
+
+
+screen.EFFECT_BLOOM_OPTIONS=Bloom
+
+option.EFFECT_BLOOM_ENABLED=Enabled
+
+option.EFFECT_BLOOM_STRENGTH=Strength
+option.EFFECT_BLOOM_STRENGTH.comment=The amount of bloom to apply to the final scene. Set to zero to disable.
+suffix.EFFECT_BLOOM_STRENGTH=%
+
+option.EFFECT_BLOOM_POWER=Power
+option.EFFECT_BLOOM_POWER.comment=The curve applied to brightness. Higher values will reduce bloom in darker areas.
+suffix.EFFECT_BLOOM_POWER=x
+
+option.EFFECT_BLOOM_THRESHOLD=Threshold
+option.EFFECT_BLOOM_THRESHOLD.comment=The brightness threshold light needs to exceed to contribute to bloom.
+suffix.EFFECT_BLOOM_THRESHOLD=%
+
+option.EFFECT_BLOOM_HAND=Hand Strength
+option.EFFECT_BLOOM_HAND.comment=Determines the strength of bloom from in-hand items/blocks.
+suffix.EFFECT_BLOOM_HAND=%
+
+
+screen.EFFECT_BLUR_OPTIONS=Blur
+
+option.EFFECT_BLUR_ENABLED=Enabled
+
+option.EFFECT_BLUR_SAMPLE_COUNT=Sample Count
+
+option.EFFECT_BLUR_MAX_RADIUS=Radius
+suffix.EFFECT_BLUR_MAX_RADIUS=px
+
+option.EFFECT_BLUR_WATER_RADIUS=Water Radius
+suffix.EFFECT_BLUR_WATER_RADIUS=px
+
+option.EFFECT_BLUR_RADIUS_WEATHER=Weather Radius
+suffix.EFFECT_BLUR_RADIUS_WEATHER=px
+
+option.EFFECT_BLUR_RADIUS_BLIND=Blindness Radius
+option.EFFECT_BLUR_RADIUS_BLIND.comment=Applies a heavy blur to the screen when the player receives the blindness effect.
+suffix.EFFECT_BLUR_RADIUS_BLIND=px
+
+
+screen.EFFECT_SSAO_OPTIONS=SSAO
+screen.EFFECT_SSAO_OPTIONS.comment=Options for Screen-Space Ambient Occlusion
+
+option.EFFECT_SSAO_ENABLED=Enabled
+
+option.EFFECT_SSAO_SAMPLES=Sample Count
+
+option.EFFECT_SSAO_RADIUS=Block Radius
+
+option.EFFECT_SSAO_STRENGTH=Strength
+suffix.EFFECT_SSAO_STRENGTH=x
+
+
+screen.EFFECT_TAA_OPTIONS=TAA
+screen.EFFECT_TAA_OPTIONS.comment=Temporal Anti-Aliasing Options
+
+option.EFFECT_TAA_ENABLED=Enabled
+option.EFFECT_TAA_ENABLED.comment=Enables temporal anti-aliasing. May cause ghosting/trailing with moving objects.
+
+option.EFFECT_TAA_MAX_ACCUM=Max Frames
+option.EFFECT_TAA_MAX_ACCUM.comment=The maximum number of frames that can be accumulated/combined.
+
+option.EFFECT_TAA_SHARPEN=Sharpen
+option.EFFECT_TAA_SHARPEN.comment=Makes TAA sharper. May cause visual artiafcts.
+
+
+screen.POST_OPTIONS=Post-Processing
+
+option.POST_BRIGHTNESS=Brightness
+option.POST_BRIGHTNESS.comment=The brightness of the final image.
+suffix.POST_BRIGHTNESS=%
+
+option.POST_CONTRAST=Contrast
+option.POST_CONTRAST.comment=The contrast of the final image.
+suffix.POST_CONTRAST=%
+
+option.POST_SATURATION=Saturation
+option.POST_SATURATION.comment=The saturation of the final image.
+suffix.POST_SATURATION=%
+
+option.POST_EXPOSURE=Exposure
+
+option.GAMMA_OUT=Gamma
+option.GAMMA_OUT.comment=The gamma curve of the final image.
+
+option.POST_TONEMAP=Tonemap
+option.POST_TONEMAP.comment=Prevents clipping of bright colors, useful for dynamic lighting.
+value.POST_TONEMAP.0=OFF
+value.POST_TONEMAP.1=Reinhard
+value.POST_TONEMAP.2=ACES
+value.POST_TONEMAP.3=Heijl
+value.POST_TONEMAP.4=Lottes
+
+option.POST_WHITE_POINT=White-Point
+suffix.POST_WHITE_POINT=%
+
+
+screen.DEBUG_OPTIONS=Shrimple
+
+option.DEBUG_VIEW=Debug View
+option.DEBUG_VIEW.comment=Configures which buffer to draw to the screen.
+value.DEBUG_VIEW.0=None
+value.DEBUG_VIEW.1=Deferred Color
+value.DEBUG_VIEW.2=Deferred geo-Normal
+value.DEBUG_VIEW.3=Deferred Lightmap
+value.DEBUG_VIEW.4=Deferred Occlusion/Emission
+value.DEBUG_VIEW.5=Deferred Shadow
+value.DEBUG_VIEW.6=Deferred Fog
+value.DEBUG_VIEW.7=Deferred Tex-Normal
+value.DEBUG_VIEW.8=Deferred Rough/Metal
+value.DEBUG_VIEW.9=Deferred VL
+value.DEBUG_VIEW.10=Deferred Diffuse
+value.DEBUG_VIEW.11=Deferred Specular
+value.DEBUG_VIEW.12=Velocity
+value.DEBUG_VIEW.13=Shadow Color
+value.DEBUG_VIEW.14=Bloom Tiles
+value.DEBUG_VIEW.15=Depth Tiles
+value.DEBUG_VIEW.16=White-World
+
+option.DYN_LIGHT_DEBUG_COUNTS=Show Light Counts
+
+option.DYN_LIGHT_OREBLOCKS=Ore-Block Lights
+option.DYN_LIGHT_OREBLOCKS.comment=When enabled, solid ore blocks will emit colored light.
+
+option.DH_COMPAT_ENABLED=Distant Horizons
+option.DH_COMPAT_ENABLED.comment=Enables special support for the Distant Horizons mod.
+
+option.ANIM_WORLD_TIME=World-Time Animations
+option.ANIM_WORLD_TIME.comment=Uses the worlds time counter for animations rather than a constant increment. Useful for recording mods that replay using scaled world-time.
+
+option.ALPHATESTREF_ENABLED=Vanilla AlphaTest
+option.ALPHATESTREF_ENABLED.comment=Uses the vanilla provided AlphaTest threshold for cutout blocks. Disable for hard-coded 10% threshold if not working properly.
+
+
+screen.LIGHT_COLORS=Light Colors
+
+option.LIGHT_COLOR_MESSAGE=https://editor.balintcsala.com
+option.LIGHT_COLOR_MESSAGE.comment=Use the link above to edit light colors.
+value.LIGHT_COLOR_MESSAGE.0=Follow Link
+
+option.LIGHT_COLOR_AMETHYST=Amethyst
+option.LIGHT_COLOR_BEACON=Beacon
+option.LIGHT_COLOR_BREWING_STAND=Brewing Stand
+option.LIGHT_COLOR_CAVEVINE_BERRIES=Cave Vine Berries
+option.LIGHT_COLOR_CRYING_OBSIDIAN=Crying Obsidian
+option.LIGHT_COLOR_END_ROD=End Rod
+option.LIGHT_COLOR_FROGLIGHT_OCHRE=Ochre Froglight
+option.LIGHT_COLOR_FROGLIGHT_PEARLESCENT=Pearlescent Froglight
+option.LIGHT_COLOR_FROGLIGHT_VERDANT=Verdant Froglight
+option.LIGHT_COLOR_GLOWSTONE=Glowstone
+option.LIGHT_COLOR_GLOW_LICHEN=Glow Lichen
+option.LIGHT_COLOR_JACK_O_LANTERN=Jack-O'-Lantern
+option.LIGHT_COLOR_LAVA=Lava
+option.LIGHT_COLOR_MAGMA=Magma
+option.LIGHT_COLOR_NETHER_PORTAL=Nether Portal
+option.LIGHT_COLOR_REDSTONE_LAMP=Redstone Lamp
+option.LIGHT_COLOR_REDSTONE_TORCH=Redstone Torch
+option.LIGHT_COLOR_SCULK_CATALYST=Sculk Catalyst
+option.LIGHT_COLOR_SEA_LANTERN=Sea Lantern
+option.LIGHT_COLOR_SEA_PICKLE=Sea Pickle
+option.LIGHT_COLOR_SHROOMLIGHT=Shroomlight
