@@ -1,0 +1,377 @@
+#shaders/lang/en_US.lang
+
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+profile.VERY_HIGH=Very High (Default)
+profile.ULTRA=Ultra
+
+option.SOLAS_BY_SEPTONIOUS=§6Solas
+value.SOLAS_BY_SEPTONIOUS.0=§bBy Septonious
+option.SOLAS_BY_SEPTONIOUS.comment=Discord: https://discord.gg/4uTAUQR2xu GitHub: https://github.com/Septonious/Solas-Shader
+
+#ATMOSPHERICS
+
+screen.ATMOSPHERICS=Atmospherics
+
+
+screen.VC_CONFIG=Volumetric Clouds Config
+
+option.VC=Volumetric Clouds
+option.BLOCKY_CLOUDS=Blocky Clouds
+option.VC_DYNAMIC_WEATHER=Dynamic Weather
+option.VC_DYNAMIC_WEATHER.comment=Automatically controls the size, height and amount of clouds based on various factors
+option.VC_DETAIL=Detail
+option.VC_DENSITY=Density
+option.VC_AMOUNT=Amount
+option.VC_HEIGHT=Height
+option.VC_THICKNESS=Thickness
+option.VC_SPEED=Speed
+option.VC_DISTANCE=Render Distance
+option.VC_OPACITY=Opacity
+
+
+screen.VL_CONFIG=Volumetric Light Config
+
+option.VL=Volumetric Light
+option.VL_STRENGTH=Strength
+option.VL_SAMPLES=Samples
+
+option.VF_END=End 3D Fog
+option.VF_NETHER=Nether 3D Fog
+screen.VF_END_CONFIG=End Fog Config
+screen.VF_NETHER_CONFIG=Nether Fog Config
+
+option.VF_END_HEIGHT=Height
+option.VF_END_OPACITY=Opacity
+option.VF_END_AMOUNT=Amount
+option.VF_END_THICKNESS=Thickness
+
+option.VF_NETHER_STRENGTH=Strength
+option.VF_NETHER_SAMPLES=Samples
+option.VF_NETHER_SPEED=Speed
+option.VF_NETHER_FREQUENCY=Frequency
+option.VF_NETHER_REFRACTION=Heat Refraction
+option.VF_NETHER_REFRACTION_STRENGTH=Refraction Strength
+
+screen.FOG_CONFIG=Fog Config
+
+option.DISTANT_FADE=Distant Fade
+option.DISTANT_FADE_STYLE=Distant Fade Style
+option.DISTANT_FADE_STYLE.comment=Spherical works like vanilla fog. Cylindrical ignores Y axis.
+value.DISTANT_FADE_STYLE.0=Spherical
+value.DISTANT_FADE_STYLE.1=Cylindrical
+option.FOG_DENSITY=Fog Density
+option.FOG_HEIGHT=Ground Fog Height
+
+screen.SKY_CONFIG=Sky Config
+
+option.STARS=Stars
+option.END_STARS=Ender Stars
+option.MILKY_WAY=Milky Way
+option.MILKY_WAY_BRIGHTNESS=Milky Way Brightness
+option.END_NEBULA=Ender Nebula
+option.END_NEBULA_BRIGHTNESS=Nebula Brightness
+option.RAINBOW=Rainbow
+option.AURORA=Aurora Borealis
+option.AURORA_COLD_BIOME_VISIBILITY=Aurora Cold Biome Visibility
+option.AURORA_COLD_BIOME_VISIBILITY.comment=Enables aurora only when player is in a cold biome
+option.AURORA_FULL_MOON_VISIBILITY=Aurora Full Moon Visibility
+option.AURORA_FULL_MOON_VISIBILITY.comment=Enables aurora only when the Moon if full
+
+screen.END_VORTEX=Ender Vortex Config
+
+option.END_VORTEX=Ender Vortex
+option.END_VORTEX.comment=Toggles a black hole looking object in the End sky. Idk how to call it properly lol
+
+option.END_VORTEX_SIZE=Vortex Size
+option.END_VORTEX_WHIRL=Vortex Whirling
+option.END_VORTEX_ARMS=Vortex Arms Count
+
+#WATER
+
+screen.WATER=Water
+
+option.VANILLA_WATER=Vanilla Water
+
+option.WATER_FOG=Water Fog
+option.WATER_FOG_DENSITY=Water Fog Density
+option.WATER_CAUSTICS=Water Caustics
+option.WATER_CAUSTICS_STRENGTH=Water Caustics Strength
+
+option.WATER_NORMALS=Normals
+option.WATER_NORMALS.comment=Enables realtime-generated normal mapping for water.
+value.WATER_NORMALS.0=§cOFF
+value.WATER_NORMALS.1=Worley
+value.WATER_NORMALS.2=Perlin
+option.WATER_NORMAL_BUMP=Water Normal Bump
+option.WATER_NORMAL_OFFSET=Water Normal Offset
+
+option.WATER_NORMAL_DETAIL=Detail
+option.WATER_NORMAL_DETAIL.comment=Adjusts the ratio between large and small water normals.
+value.WATER_NORMAL_DETAIL.0.05=5%
+value.WATER_NORMAL_DETAIL.0.10=10%
+value.WATER_NORMAL_DETAIL.0.15=15%
+value.WATER_NORMAL_DETAIL.0.20=20%
+value.WATER_NORMAL_DETAIL.0.25=25%
+value.WATER_NORMAL_DETAIL.0.30=30%
+value.WATER_NORMAL_DETAIL.0.35=35%
+value.WATER_NORMAL_DETAIL.0.40=40%
+value.WATER_NORMAL_DETAIL.0.45=45%
+value.WATER_NORMAL_DETAIL.0.50=50%
+
+option.REFRACTION=Light Refraction
+option.REFRACTION_STRENGTH=Refraction Strength
+
+option.WAVING_WATER=Waving Water
+
+#LIGHTING
+
+screen.LIGHTING=Lighting
+
+option.shadowMapResolution=Shadow Resolution
+option.shadowDistance=Shadow Distance
+option.sunPathRotation=Sun Angle
+option.VPS=Variable Penumbra Shadows (VPS)
+option.VPS.comment=Enables shadows that become blurrier/sharper depending on the blocker distance.
+option.VPS_BLUR_STRENGTH=VPS Strength
+option.SHADOW_SAMPLE_COUNT=Shadow Samples
+option.SHADOW_COLOR=Colored Shadows
+option.ENTITY_SHADOWS=Entity Shadows
+
+option.COLORED_LIGHTING=Colored Lighting (CL)
+option.COLORED_LIGHTING.comment=Overrides blocklight color. Works only when a light source is on screen
+option.COLORED_LIGHTING_RADIUS=CL Radius
+option.COLORED_LIGHTING_STRENGTH=CL Strength
+
+option.GI=Global Illumination (GI)
+option.GLOBAL_ILLUMINATION_STRENGTH=GI Strength
+option.GLOBAL_ILLUMINATION_RADIUS=GI Radius
+option.GLOBAL_ILLUMINATION_BRIGHTNESS=GI Brightness
+
+option.AO=Screen Space Occlusion
+option.VANILLA_AO=Vanilla Ambient Occlusion
+option.AO_STRENGTH=AO Strength
+option.AO_RADIUS=AO Radius
+
+option.DYNAMIC_HANDLIGHT=Dynamic Hand Lighting
+
+screen.PBR_MENU=PBR Config
+
+#IPBR
+
+screen.IPBR=Integrated PBR
+
+option.INTEGRATED_SPECULAR=Generated Specular
+option.INTEGRATED_SPECULAR.comment=Automatically determines reflective blocks. §c[-]§r DO NOT USE WITH AN EXTERNAL PBR RESOURCEPACK
+
+screen.ISPECULAR=Specular Config
+
+option.RAIN_PUDDLES=Rain Puddles
+option.RAIN_PUDDLES_STRENGTH=Rain Puddles Strength
+option.SPECULAR_STRENGTH=Specular Strength
+option.WATER_SPECULAR_STRENGTH=Water Reflection Strength
+
+option.INTEGRATED_EMISSION=Generated Emission
+option.INTEGRATED_EMISSION.comment=Automatically determines emissive blocks
+
+screen.IEMISSION=Emissives Config
+
+option.EMISSIVE_FLOWERS=Emissive Flowers
+option.EMISSIVE_ORES=Emissive Ores
+option.EMISSIVE_DEBRIS=Emissive Debris
+option.EMISSIVE_CONCRETE=Emissive Concrete
+option.EMISSIVE_POWDER_SNOW=Emissive Powder Snow
+option.PLAYER_BRIGHT_PARTS_HIGHLIGHT=Player Bright Parts Highlight
+option.ENTITY_HIGHLIGHT=Entity Highlight
+option.EMISSION_STRENGTH=Emission Strength
+
+option.INTEGRATED_NORMAL_MAPPING=Generated Normals
+option.INTEGRATED_NORMAL_MAPPING.comment=Automatically generated normals on blocks
+
+screen.INORMALS=Normals Config
+
+option.NORMAL_STRENGTH=Strength
+option.NORMAL_RESOLUTION=Resolution
+option.NORMAL_THRESHOLD=Generation Threshold
+
+#PBR
+screen.PBR=Resourcepack PBR
+
+option.MATERIAL_FORMAT=Material Format*
+option.MATERIAL_FORMAT.comment=Determines the specular and normal map format used by the resource pack. §e[*]§rTexture artists usually tell which format is used in their resource pack, using the wrong format may give weird results.
+value.MATERIAL_FORMAT.0=SEUS/Old PBR
+value.MATERIAL_FORMAT.1=labPBR 1.3
+
+screen.PARALLAX_CONFIG=Parallax Config
+screen.SELF_SHADOW_CONFIG=Self Shadow Config
+
+option.PARALLAX=Parallax Occlusion Mapping*
+option.PARALLAX.comment=Adds displacement on a surface using height map.
+
+option.PARALLAX_DEPTH=Parallax Depth*
+option.PARALLAX_DEPTH.comment=Adjusts parallax deepness.
+value.PARALLAX_DEPTH.0.05=5 cm
+value.PARALLAX_DEPTH.0.10=10 cm
+value.PARALLAX_DEPTH.0.15=15 cm
+value.PARALLAX_DEPTH.0.20=20 cm
+value.PARALLAX_DEPTH.0.25=25 cm
+value.PARALLAX_DEPTH.0.30=30 cm
+value.PARALLAX_DEPTH.0.35=35 cm
+value.PARALLAX_DEPTH.0.40=40 cm
+value.PARALLAX_DEPTH.0.45=45 cm
+value.PARALLAX_DEPTH.0.50=50 cm
+
+option.PARALLAX_QUALITY=Parallax Samples*
+option.PARALLAX_QUALITY.comment=Adjusts the quality of parallax occlusion mapping.
+
+option.PARALLAX_DISTANCE=Parallax Distance*
+option.PARALLAX_DISTANCE.comment=Adjusts how far parallax occlusion mapping and self shadows can be rendered.
+
+option.SELF_SHADOW=Self Shadows*
+option.SELF_SHADOW.comment=Allows a surface to cast shadow to itself using heightmap.
+
+option.SELF_SHADOW_ANGLE=Self Shadows Angle*
+option.SELF_SHADOW_ANGLE.comment=Adjusts the self shadowing angle, higher value allows the shadow to travel further.
+
+option.SELF_SHADOW_QUALITY=Self Shadows Samples*
+option.SELF_SHADOW_QUALITY.comment=Adjusts the quality of self shadowing.
+
+option.SELF_SHADOW_STRENGTH=Self Shadows Strength*
+option.SELF_SHADOW_STRENGTH.comment=Adjusts the intensity of self shadowing.
+
+option.DIRECTIONAL_LIGHTMAP=Directional Lightmap*
+option.DIRECTIONAL_LIGHTMAP.comment=Adds normal mapping to vanilla lighting. §c[-]§rLightmap may glitch with this effect enabled.
+
+option.DIRECTIONAL_LIGHTMAP_STRENGTH=Dir. Lightmap Strength*
+option.DIRECTIONAL_LIGHTMAP_STRENGTH.comment=Adjusts the intensity of Directional Lightmap.
+value.DIRECTIONAL_LIGHTMAP_STRENGTH.2.0=Very Low
+value.DIRECTIONAL_LIGHTMAP_STRENGTH.1.4=Low
+value.DIRECTIONAL_LIGHTMAP_STRENGTH.1.0=Medium
+value.DIRECTIONAL_LIGHTMAP_STRENGTH.0.7=High
+value.DIRECTIONAL_LIGHTMAP_STRENGTH.0.5=Very High
+
+option.PBR_REFLECTIONS=PBR Reflections
+option.PBR_REFLECTIONS.comment=Toggles reflections from Integrated PBR or Resourcepack PBR.
+
+option.PBR_REFLECTIONS_QUALITY=Reflections Quality
+
+#COLOR
+
+screen.COLOR=Colors
+screen.LIGHTAMBIENT_COLOR=Sunlight/Moonlight Temperature
+
+option.LIGHTTEMP_SS=Sunrise/Sunset
+option.LIGHTTEMP_ME=Morning/Evening
+option.LIGHTTEMP_D=Day
+option.LIGHTTEMP_N=Night
+
+option.LIGHTINTENSITY_SS=Intensity Sunset/Sunrise
+option.LIGHTINTENSITY_M=Intensity Morning
+option.LIGHTINTENSITY_D=Intensity Day
+option.LIGHTINTENSITY_N=Intensity Night
+
+screen.END_COLOR=End Light & Ambient Color
+option.LIGHT_END_R=Red
+option.LIGHT_END_G=Green
+option.LIGHT_END_B=Blue
+option.LIGHT_END_I=Intensity
+
+option.AMBIENT_END_R=Red
+option.AMBIENT_END_G=Green
+option.AMBIENT_END_B=Blue
+option.AMBIENT_END_I=Intensity
+
+screen.MINLIGHT=Minimal Lighting
+option.MINLIGHT_R=Red
+option.MINLIGHT_G=Green
+option.MINLIGHT_B=Blue
+option.MINLIGHT_I=Intensity
+
+screen.BLOCKLIGHT_COLOR=Blocklight Color
+option.BLOCKLIGHT_R=Red
+option.BLOCKLIGHT_G=Green
+option.BLOCKLIGHT_B=Blue
+option.BLOCKLIGHT_I=Intensity
+
+screen.WATER_COLOR=Water Color
+option.WATER_R=Red
+option.WATER_G=Green
+option.WATER_B=Blue
+option.WATER_I=Intensity
+option.WATER_A=Alpha
+
+screen.SKY_COLOR=Sky Color
+
+option.SKY_R=Red
+option.SKY_G=Green
+option.SKY_B=Blue
+option.SKY_I=Intensity
+
+
+#POST
+
+screen.POST=Post Effects
+
+screen.DOF_CONFIG=DoF Config
+
+option.DOF=Depth of Field (DOF)
+option.DOF.comment=Blurs the object outside your player's eye focal point.
+
+option.DOF_STRENGTH=DOF Strength
+option.DISTANT_BLUR=Distant Blur
+option.DISTANT_BLUR_RANGE=Dist. Blur Range
+option.DISTANT_BLUR_STRENGTH=Dist. Blur Strength
+
+option.SHARPENING=Image Sharpening
+option.CHROMATIC_ABERRATION=Chromatic Aberration (CA)
+option.CHROMATIC_ABERRATION_STRENGTH=CA Strength
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Adjusts overall brightness.
+
+option.TONEMAP_WHITE_CURVE=Tonemap White Curve
+option.TONEMAP_WHITE_CURVE.comment=Adjusts how quickly the tonemap can reach white.
+
+option.TONEMAP_LOWER_CURVE=Tonemap Lower Curve
+option.TONEMAP_LOWER_CURVE.comment=Adjusts contrast of darker colors.
+
+option.TONEMAP_UPPER_CURVE=Tonemap Upper Curve
+option.TONEMAP_UPPER_CURVE.comment=Adjusts contrast of brighter colors.
+
+option.SATURATION=Saturation
+option.SATURATION.comment=Adjusts saturation of all colors.
+
+option.VIBRANCE=Vibrance
+option.VIBRANCE.comment=Adjusts saturation of less saturated colors, well saturated colors are less affected.
+
+screen.BLOOM_CONFIG=Bloom Config
+
+option.BLOOM=Bloom
+option.BLOOM_STRENGTH=Bloom Strength
+
+option.BLOOM_TILE_SIZE=Tile Size
+option.BLOOM_TILE_SIZE.comment=Adjusts the size of each bloom tile. Higher values give less accuracy and larger radius. Lower values give more accuracy and smaller radius.
+
+option.BLOOM_CONTRAST=Contrast
+option.BLOOM_CONTRAST.comment=Adjusts whether the bloom should preserve color contrast or detail visibility. Higher value preserves color contrast while lower value preserves detail visibility.
+value.BLOOM_CONTRAST.-4=-1.00
+value.BLOOM_CONTRAST.-3=-0.75
+value.BLOOM_CONTRAST.-2=-0.50
+value.BLOOM_CONTRAST.-1=-0.25
+value.BLOOM_CONTRAST.0=0.00
+value.BLOOM_CONTRAST.1=0.25
+value.BLOOM_CONTRAST.2=0.50
+value.BLOOM_CONTRAST.3=0.75
+value.BLOOM_CONTRAST.4=1.00
+
+#OTHER
+
+screen.OTHER=Other
+
+option.WAVING_BLOCKS=Waving Blocks
+option.WAVING_BLOCKS.comment=Allows certain blocks to wave (plants, leaves, etc)
+option.WAVING_PLANTS=Waving Plants
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_SPEED=Waving Speed
+option.WAVING_AMPLITUDE=Waving Amplitude
