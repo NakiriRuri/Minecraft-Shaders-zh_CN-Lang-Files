@@ -28,7 +28,7 @@
 - 有稳定高质量官方中文的光影不会汉化，有稳定第三方汉化的不会汉化。
 
 ## 友链
-- [Complementary Shaders 汉化](https://www.mcbbs.net/thread-1262472-1-1.html)
+- [Complementary Shaders 汉化](https://github.com/Miracle0565/ComplementaryShaders)
 
 
 ## LICENSES / 许可协议
