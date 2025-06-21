@@ -1,0 +1,495 @@
+# Profile Settings
+profile.EXTREME=§cExtreme
+profile.EXTREME.comment= Preset for Extreme quality level.
+profile.HIGH=§eHigh
+profile.HIGH.comment= Preset for High quality level.
+profile.LOW=§bLow
+profile.LOW.comment= Preset for Low quality level.
+profile.LOWER=§dLower
+profile.LOWER.comment= Preset for Lower quality level.
+profile.LOWTAA=§cLow TAA
+profile.LOWTAA.comment= Preset for Lowtaa quality level.
+profile.MEDIUM=Medium
+profile.MEDIUM.comment= Preset for Medium quality level.
+profile.MEDIUM_HIGH=Medium High
+profile.MEDIUM_HIGH.comment= Preset for Medium High quality level.
+profile.MEDIUM_LOW=§aMedium Low
+profile.MEDIUM_LOW.comment= Preset for Medium Low quality level.
+profile.POTATO=§dLowest
+profile.POTATO.comment= Preset for Potato quality level.
+profile.STANDARD=Normal
+profile.STANDARD.comment= Preset for Standard quality level.
+profile.ULTRA=§cUltra
+profile.ULTRA.comment= Preset for Ultra quality level.
+profile.UPSCALED=§aUpscaled
+profile.UPSCALED.comment= Preset for Upscaled quality level.
+
+# Screen Settings
+screen.Beta=Beta
+screen.Beta.comment= Opens the Beta settings screen.
+screen.Debug=Debug
+screen.Debug.comment= Opens the Debug settings screen.
+screen.Debug2=Debug2
+screen.Debug2.comment= Opens the Debug2 settings screen.
+screen.DOF=Depth of Field
+screen.DOF.comment= Opens the Dof settings screen.
+screen.HDR_OUTPUT=HDR Output
+screen.HDR_OUTPUT.comment= Opens the Hdr Output settings screen.
+screen.LabPBR=LabPBR
+screen.LabPBR.comment= Opens the Labpbr settings screen.
+screen.LPV=Floodfill
+screen.LPV.comment= Opens the Lpv settings screen.
+screen.Misc=Misc
+screen.Misc.comment= Opens the Misc settings screen.
+screen.PBR=PBR
+screen.PBR.comment= Opens the Pbr settings screen.
+screen.POM=Parallax Occlusion Mapping
+screen.POM.comment= Opens the Pom settings screen.
+screen.Quality=Quality
+screen.Quality.comment= Opens the Quality settings screen.
+screen.RealisticClouds=Realistic Clouds
+screen.RealisticClouds.comment= Opens the Realisticclouds settings screen.
+screen.Shading=Shading
+screen.Shading.comment= Opens the Shading settings screen.
+screen.SHADOW_FILTERING=Shadow Filtering
+screen.SHADOW_FILTERING.comment= Opens the Shadow Filtering settings screen.
+screen.TAA=Temporal Anti-Aliasing
+screen.TAA.comment= Opens the Taa settings screen.
+screen.Temporal_effects=Temporal Effects
+screen.Temporal_effects.comment= Opens the Temporal Effects settings screen.
+screen.Tonemap=Tonemap
+screen.Tonemap.comment= Opens the Tonemap settings screen.
+screen.Tonemapping=Tonemapping
+screen.Tonemapping.comment= Opens the Tonemapping settings screen.
+screen.Water=Water
+screen.Water.comment= Opens the Water settings screen.
+screen.Wavy_stuff=Wavy Stuff
+screen.Wavy_stuff.comment= Opens the Wavy Stuff settings screen.
+screen.PBR_ADVANCED=Advanced Settings
+
+# Option Settings
+option.ALT_CLOUDS=Alternate Clouds
+option.ALT_CLOUDS.comment=Toggles alternate cloud rendering.
+
+option.APERTURE=Aperture
+option.APERTURE.comment=Controls camera aperture for depth of field.
+
+option.BLOOM=Bloom
+option.BLOOM.comment=Toggles bloom lighting effect.
+
+option.BOKEH_MODE=Bokeh Mode
+option.BOKEH_MODE.comment=Sets the style of bokeh blur.
+
+option.BUMP_MULT=Normal Depth
+option.BUMP_MULT.comment=Adjusts the strength of normal mapping.
+
+option.CAMERA_SENSOR_SIZE_MM=Sensor Size
+option.CAMERA_SENSOR_SIZE_MM.comment=Sets camera sensor size (mm) for depth calculations.
+
+option.CAUSTICS=Caustics
+option.CAUSTICS.comment=Toggles underwater caustic light effects.
+
+option.CLOUDS=Clouds
+option.CLOUDS.comment=Toggles cloud rendering.
+
+option.CLOUD_COVER=Cloud Cover
+option.CLOUD_COVER.comment=Controls the amount of cloud coverage.
+
+option.CLOUD_DENSITY=Density
+option.CLOUD_DENSITY.comment=Adjusts the thickness of clouds.
+
+option.CLOUD_LAYER_HEIGHT=Layer Height
+option.CLOUD_LAYER_HEIGHT.comment=Sets the vertical position of clouds.
+
+option.CLOUD_MARCHING_STEPS=Raymarching Steps
+option.CLOUD_MARCHING_STEPS.comment=Controls detail level for cloud raymarching.
+
+option.CLOUD_QUALITY=Cloud Resolution
+option.CLOUD_QUALITY.comment=Adjusts resolution of clouds.
+
+option.CLOUD_SHADOWS=Cloud Shadows
+option.CLOUD_SHADOWS.comment=Toggles cloud shadow casting.
+
+option.CLOUD_STYLE=Cloud Style
+option.CLOUD_STYLE.comment=Sets the visual style of clouds.
+
+option.CLOUD_TYPE=Cloud Type Modifier
+option.CLOUD_TYPE.comment=Changes cloud formation type.
+
+option.CONTRAST=Contrast
+option.CONTRAST.comment=Adjusts image contrast.
+
+option.DEBUG_MODE=Debug Mode
+option.DEBUG_MODE.comment=Toggles debug mode for shader debugging.
+
+option.DH_SHADOWMAP=Distant Horizons Shadows
+option.DH_SHADOWMAP.comment=Toggles shadow mapping for Distant Horizons.
+
+option.DISTORTION_ADJUSTMENT=Adjust Distortion
+option.DISTORTION_ADJUSTMENT.comment=Adjusts shadow distortion.
+
+option.DLM=Directional Light Maps
+option.DLM.comment=Toggles directional lightmaps for more realistic lighting.
+
+option.DOF=Depth of Field
+option.DOF.comment=Toggles camera depth of field effect.
+
+option.DOF_MODE=Focus Mode
+option.DOF_MODE.comment=Sets the method of DOF focus.
+
+option.DYNAMIC_LIGHTS_COMP=Dynamic Lights Compatibility
+option.DYNAMIC_LIGHTS_COMP.comment=Toggles compatibility with dynamic lighting mods.
+
+option.EXTENDED_SHADOWS=Extended Shadows
+option.EXTENDED_SHADOWS.comment=Toggles extended screen-space shadows.
+
+option.EXCLUDE_MODE=Blur Mode
+option.EXCLUDE_MODE.comment=Controls blur exclusion behavior.
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Adjusts the overall brightness (exposure).
+
+option.FOCAL=Focal Length
+option.FOCAL.comment=Sets camera focal length.
+
+option.GENERATED_NORMALS=Procedural Normal Maps
+option.GENERATED_NORMALS.comment=Toggles procedurally generated normals.
+
+option.HARDCODED_METALS=Hardcoded Metals
+option.HARDCODED_METALS.comment=Toggles special metal material behavior.
+
+option.HDR_MAX=HDR Max
+option.HDR_MAX.comment=Sets maximum HDR brightness limit.
+
+option.VOLUMETRIC_LIGHTING_FAKE=Extra Sunbeams
+option.VOLUMETRIC_LIGHTING_FAKE.comment=Adds more visible light rays in the air.
+
+option.BETTER_WATER_REFLECTIONS=Cleaner Water Reflections
+option.BETTER_WATER_REFLECTIONS.comment=Makes water surfaces reflect more smoothly and naturally, especially from far away.
+
+option.GGX_SQUARE=Square Highlights
+option.GGX_SQUARE.comment=Gives shiny surfaces a square minecrafty shine.
+
+
+
+option.HELD_LIGHT=Held Item Light
+option.HELD_LIGHT.comment=Toggles light emission when holding light sources.
+
+option.HQ_NOISE=High Quality Noise
+option.HQ_NOISE.comment=Toggles high-quality noise patterns.
+
+option.HQ_WATER=High Quality Waves
+option.HQ_WATER.comment=Toggles high-fidelity water wave simulation.
+
+option.LAB_PBR=LabPBR Maps
+option.LAB_PBR.comment=Toggles support for LabPBR textures.
+
+option.LITEMATICA=Litematica Fix
+option.LITEMATICA.comment=Fixes ghost block rendering with Litematica.
+
+option.LOD_FIX=LOD Fix
+option.LOD_FIX.comment=Fixes level of detail transition issues.
+
+option.LPV_ENABLED=Floodfill Lighting
+option.LPV_ENABLED.comment=Toggles floodfill dynamic lighting system.
+
+option.LPV_ENTITY_LIGHTS=Entity Lights
+option.LPV_ENTITY_LIGHTS.comment=Toggles floodfill lighting on entities.
+
+option.LPV_NORMAL_STRENGTH=Normal Strength
+option.LPV_NORMAL_STRENGTH.comment=Adjusts normal map strength for lighting effects.
+
+option.LPV_SATURATION=Light Saturation
+option.LPV_SATURATION.comment=Controls color saturation of floodfill lighting.
+
+option.LPV_SIZE=Floodfill Distance
+option.LPV_SIZE.comment=Sets propagation distance for floodfill lighting.
+
+option.LPV_TINT_SATURATION=Tint Saturation
+option.LPV_TINT_SATURATION.comment=Controls saturation of floodfill tinting.
+
+option.MIN_LIGHT=Minimum Ambient Light
+option.MIN_LIGHT.comment=Sets the base minimum ambient light level.
+
+option.MIN_LIGHT_BOOST=Brightness Slider Multiplier
+option.MIN_LIGHT_BOOST.comment=Adjusts how brightness sliders impact lighting.
+
+option.MID_IN=Mid Input
+option.MID_IN.comment=Adjusts midtones in input color range.
+
+option.MID_OUT=Mid Output
+option.MID_OUT.comment=Adjusts midtones in output color range.
+
+option.MOTION_BLUR=Motion Blur
+option.MOTION_BLUR.comment=Toggles motion-based blur effect.
+
+option.NAMETAG_FIX=Nametag Fix
+option.NAMETAG_FIX.comment=Fixes nametag visibility issues.
+
+option.NORMAL_FIX=Normal Direction Fix
+option.NORMAL_FIX.comment=Fixes incorrect shading directions.
+
+option.NORMAL_MAPS=Normal Maps
+option.NORMAL_MAPS.comment=Toggles usage of normal maps for surfaces.
+
+option.NO_ENTITY_TAA=Disable on Entities
+option.NO_ENTITY_TAA.comment=Disables TAA on entities to avoid blurring.
+option.NO_HAND_TAA=Disable on Hand
+option.NO_HAND_TAA.comment=Disables TAA on hands to avoid blurring.
+
+option.PI_SUPPORT=Pi Support
+option.PI_SUPPORT.comment=Optimizes shaders for Raspberry Pi 5 hardware.
+
+option.PENUMBRA_SHADOWS=Penumbra Shadows
+option.PENUMBRA_SHADOWS.comment=Toggles soft edge shadows (penumbra).
+
+option.PBR_REFLECTIONS=Screen Space Reflections
+option.PBR_REFLECTIONS.comment=Toggles reflections from PBR surfaces.
+
+option.PIXEL_LOCK=Pixelated Effects
+option.PIXEL_LOCK.comment=Toggles screen-space pixel lock for retro visuals.
+
+option.PIXEL_PACK=Pixel Pack
+option.PIXEL_PACK.comment=Enhances POM for low-resolution texture packs.
+
+option.RENDER_SCALE_X=Horizontal Render Scale
+option.RENDER_SCALE_X.comment=Adjusts rendering resolution horizontally.
+
+option.RENDER_SCALE_Y=Vertical Render Scale
+option.RENDER_SCALE_Y.comment=Adjusts rendering resolution vertically.
+
+option.REQUIRES_IRIS=Requires Iris 1.7+
+option.REQUIRES_IRIS.comment=Requires Iris 1.7 or newer for full compatibility.
+
+option.RSM=Global Illumination
+option.RSM.comment=Toggles global illumination via shadow maps.
+
+option.RSM_SAMPLES=GI Samples
+option.RSM_SAMPLES.comment=Sets number of samples for GI quality.
+
+option.RTAO_SAMPLES=Advanced AO Samples
+option.RTAO_SAMPLES.comment=Sets sample count for advanced ambient occlusion.
+
+option.RTAO_TRACE_SAMPLES=Advanced AO Trace Samples
+option.RTAO_TRACE_SAMPLES.comment=Sets trace samples for ambient occlusion quality.
+
+option.SATURATION=Saturation
+option.SATURATION.comment=Adjusts global color saturation.
+
+option.SHADOWS_ENABLED=Shadows Enabled
+option.SHADOWS_ENABLED.comment=Toggles overall shadow rendering.
+
+option.SHADOW_CULLING=Shadow Culling
+option.SHADOW_CULLING.comment=Skips unseen shadows for performance.
+
+option.SHADOW_DEBUG=Shadow Debug
+option.SHADOW_DEBUG.comment=Enables shadow debugging visuals.
+
+option.SHADOW_FILTERING=Shadow Filtering
+option.SHADOW_FILTERING.comment=Controls smoothness of shadow edges.
+
+option.SHADOW_SAMPLES=Shadow Samples
+option.SHADOW_SAMPLES.comment=Adjusts sampling quality for shadows.
+
+option.SHADOW_WAVE=Wavy Shadows
+option.SHADOW_WAVE.comment=Toggles animated wavy shadows.
+
+option.SHARPENING_AMOUNT=Sharpness
+option.SHARPENING_AMOUNT.comment=Adjusts image sharpening strength.
+
+option.SHIFT_AMOUNT=Shift Amount
+option.SHIFT_AMOUNT.comment=Sets horizontal/vertical shift distortion.
+
+option.SKYBLEND=Sky Fade
+option.SKYBLEND.comment=Blends the sky into the horizon more smoothly.
+
+option.SSPT=Screen Space GI
+option.SSPT.comment=Toggles screen-space global illumination.
+
+option.SSPT_MIX=SSPT Mix
+option.SSPT_MIX.comment=Blends SSPT with traditional lighting.
+
+option.SSR_ACCUMULATION=SSR Accumulation
+option.SSR_ACCUMULATION.comment=Blends screen-space reflections over time.
+
+option.SSR_QUALITY=Screen Space Reflections
+option.SSR_QUALITY.comment=Adjusts quality level of SSR.
+
+option.SSR_STEPS=SSR Steps
+option.SSR_STEPS.comment=Controls raymarching steps for SSR.
+
+option.SUNMULT=Sunset/Sunrise Multiplier
+option.SUNMULT.comment=Adjusts intensity of sunset and sunrise lighting.
+
+option.TAA=Temporal Anti-Aliasing
+option.TAA.comment=Toggles temporal anti-aliasing.
+
+option.TAA_CLIP=Clipping
+option.TAA_CLIP.comment=Adjusts clip behavior for TAA.
+
+option.TAA_FILTER=TAA Filter
+option.TAA_FILTER.comment=Refines TAA sample filtering.
+
+option.TAA_HISTORY_WEIGHT=Blend Factor
+option.TAA_HISTORY_WEIGHT.comment=Sets blend factor between TAA frames.
+
+option.TAA_OFFCENTER_REJECTION=Offcenter Rejection
+option.TAA_OFFCENTER_REJECTION.comment=Improves TAA stability on motion.
+
+option.TAA_UPSCALING=TAA Upscaling
+option.TAA_UPSCALING.comment=Toggles TAA-based image upscaling.
+
+option.TAA_USE_CLOSEST_DEPTH=Use Closest Depth
+option.TAA_USE_CLOSEST_DEPTH.comment=Improves TAA depth precision.
+
+option.TILT_ANGLE=Tilt Angle
+option.TILT_ANGLE.comment=Sets tilt angle for camera simulation.
+
+option.TILT_SHIFT=Tilt-Shift
+option.TILT_SHIFT.comment=Toggles tilt-shift photographic effect.
+
+option.TORCH_COLOR=Light Color
+option.TORCH_COLOR.comment=Sets the color of held light sources.
+
+option.VANILLA_SKY_COLOR=Vanilla Sky Color
+option.VANILLA_SKY_COLOR.comment=Toggles use of default Minecraft sky colors.
+
+option.VANILLA_WATER=Textured Water
+option.VANILLA_WATER.comment=Toggles default water textures.
+
+option.VERTEX_WAVES=Geometry Waves
+option.VERTEX_WAVES.comment=Toggles vertex animation waves.
+
+option.VIBRANCE=Vibrance
+option.VIBRANCE.comment=Boosts intensity of saturated colors.
+
+option.VL_NOISE_DENSITY=Volumetric Mist
+option.VL_NOISE_DENSITY.comment=Controls the density of volumetric mist.
+
+option.VL_SAMPLES=Volume Samples
+option.VL_SAMPLES.comment=Sets number of samples for volumetric effects.
+
+option.VL_SELF_SHADOWING=Volumetric Mist Self-Shadowing
+option.VL_SELF_SHADOWING.comment=Toggles self-shadowing inside volumetric mist.
+
+option.VOLUMETRIC_LIGHTING=Volumetric Effects
+option.VOLUMETRIC_LIGHTING.comment=Toggles volumetric light beams and fog.
+
+option.WATER_FILTER=Water Reflection Denoiser
+option.WATER_FILTER.comment=Toggles water reflection smoothing.
+
+option.WAVY_SPEED=Wavy Speed
+option.WAVY_SPEED.comment=Sets speed of wavy visual effects.
+
+option.WAVY_STRENGTH=Wavy Strength
+option.WAVY_STRENGTH.comment=Sets strength of wavy visual effects.
+
+option.WATER_PBR=PBR for Translucent Blocks
+option.WATER_PBR.comment=Toggles PBR lighting on translucent blocks.
+
+option.CONTACT_SHADOWS=Contact Shadows
+option.CONTACT_SHADOWS.comment=Toggles fine-detail shadowing near surfaces.
+
+option.COLORED_SHADOWS=Colored Shadows
+option.COLORED_SHADOWS.comment=Toggles colored lighting in shadows.
+
+option.SSAO=Ambient Occlusion
+option.SSAO.comment=Toggles screen-space ambient occlusion.
+
+option.REFLECTION_SAMPLES=Reflection samples | min
+option.REFLECTION_SAMPLES.comment=Sets minimum sample count for reflections.
+
+option.REFLECTION_SAMPLES_MAX=Reflection samples | max
+option.REFLECTION_SAMPLES_MAX.comment=Sets maximum sample count for reflections.
+
+option.REFLECTION_CUTOFF=SSR Cutoff
+option.REFLECTION_CUTOFF.comment=Controls cutoff threshold for reflections.
+
+option.REFRACTION=Refraction
+option.REFRACTION.comment=Toggles refractive effects like water distortion.
+
+
+
+
+# Value Settings
+value.CLOUD_QUALITY.1=0.5
+value.CLOUD_QUALITY.2=0.75
+value.CLOUD_QUALITY.3=1.0
+value.CLOUD_STYLE.1=Minecraft
+value.CLOUD_STYLE.2=Realistic
+value.DEBUG_MODE.0=None
+value.DEBUG_MODE.1=Ambient
+value.DEBUG_MODE.2=Reflections
+value.DEBUG_MODE.3=World Normals
+value.DEBUG_MODE.4=Shadows
+value.DEBUG_MODE.5=Torch Light
+value.DOF_MODE.0=Auto
+value.DOF_MODE.1=Manual
+value.DOF_MODE.2=Manual+
+value.EXCLUDE_MODE.0=Far and Near, with Hand
+value.EXCLUDE_MODE.1=Far, without Near and Hand
+value.EXCLUDE_MODE.2=Far and Near, without Hand
+value.LPV_NORMAL_STRENGTH.0=OFF
+value.LPV_SIZE.6=Small [64]
+value.LPV_SIZE.7=Medium [128]
+value.LPV_SIZE.8=Large [256]
+value.SHADOW_FILTERING.0=None
+value.SHADOW_FILTERING.1=Simple
+value.SHADOW_FILTERING.2=Advanced
+value.SSAO.0=Disabled
+value.SSAO.1=Simple
+value.SSAO.2=Advanced
+value.SSR_QUALITY.0=Off
+value.SSR_QUALITY.1=Sky Reflections
+value.SSR_QUALITY.2=Simple reflections
+value.SSR_QUALITY.3=Accurate Reflections
+value.shadowDistance.112.0=7 Chunks
+value.shadowDistance.128.0=8 Chunks
+value.shadowDistance.144.0=9 Chunks
+value.shadowDistance.160.0=10 Chunks
+value.shadowDistance.176.0=11 Chunks
+value.shadowDistance.192.0=12 Chunks
+value.shadowDistance.208.0=13 Chunks
+value.shadowDistance.224.0=14 Chunks
+value.shadowDistance.240.0=15 Chunks
+value.shadowDistance.256.0=16 Chunks
+value.shadowDistance.272.0=17 Chunks
+value.shadowDistance.288.0=18 Chunks
+value.shadowDistance.304.0=19 Chunks
+value.shadowDistance.320.0=20 Chunks
+value.shadowDistance.336.0=21 Chunks
+value.shadowDistance.352.0=22 Chunks
+value.shadowDistance.368.0=23 Chunks
+value.shadowDistance.384.0=24 Chunks
+value.shadowDistance.400.0=25 Chunks
+value.shadowDistance.416.0=26 Chunks
+value.shadowDistance.432.0=27 Chunks
+value.shadowDistance.448.0=28 Chunks
+value.shadowDistance.464.0=29 Chunks
+value.shadowDistance.480.0=30 Chunks
+value.shadowDistance.496.0=31 Chunks
+value.shadowDistance.64.0=4 Chunks
+value.shadowDistance.80.0=5 Chunks
+value.shadowDistance.96.0=6 Chunks
+value.shadowDistance.512.0=32 Chunks
+
+# Suffix Settings
+suffix.FOCAL=mm
+suffix.LPV_NORMAL_STRENGTH=%
+suffix.LPV_SATURATION=%
+suffix.LPV_TINT_SATURATION=%
+suffix.MANUAL_FOCUS=m
+
+# Prefix Settings
+prefix.APERTURE=f/
+
+
+
+
+
+
+
+
+
+
+
