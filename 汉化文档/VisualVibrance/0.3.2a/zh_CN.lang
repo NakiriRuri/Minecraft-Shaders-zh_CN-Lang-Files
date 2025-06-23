@@ -1,0 +1,347 @@
+option.GLIMMER_SHADERS=Visual Vibrance
+value.GLIMMER_SHADERS.1=§dBy jbritain
+value.GLIMMER_SHADERS.2=§dBy jbritain
+
+option.WEBSITE=https://
+value.WEBSITE.1=§djbritain.net
+value.WEBSITE.2=§djbritain.net
+
+screen.LIGHTING=照明 & 阴影
+screen.SHADOWS=阴影
+screen.ATMOSPHERICS=天空 & 雾气
+screen.WATER=水
+screen.POST=后处理
+screen.WORLD=世界
+screen.MATERIALS=材质
+screen.PARALLAX=视差 (POM)
+screen.DH=Distant Horizons
+screen.DEBUG=开发
+
+profile.potato=§c极低
+profile.toaster=§6烤机
+profile.igpu=§a集成图形
+profile.dgpu=§b专业图形
+
+option.DEBUG_ENABLE=调试模式
+option.DEBUG_ENABLE.comment=Renders whatever the show() function is called on to the screen.
+
+option.FREEZE_TIME=冻结时间
+option.FREEZE_TIME.comment=Disables all animations built into the shader, like water waves.
+
+option.CONTRAST=对比度
+option.CONTRAST.comment=§9No performance impact!
+option.SATURATION=饱和度
+option.SATURATION.comment=§9No performance impact!
+
+option.EXPOSURE=曝光
+option.EXPOSURE.comment=Controls the final brightness of the screen. §9No performance impact!
+value.EXPOSURE.0=0.0
+value.EXPOSURE.1=0.1
+value.EXPOSURE.2=0.2
+value.EXPOSURE.3=0.3
+value.EXPOSURE.4=0.4
+value.EXPOSURE.5=0.5
+value.EXPOSURE.6=0.6
+value.EXPOSURE.7=0.7
+value.EXPOSURE.8=0.8
+value.EXPOSURE.9=0.9
+value.EXPOSURE.10=1.0
+value.EXPOSURE.11=1.1
+value.EXPOSURE.12=1.2
+value.EXPOSURE.13=1.3
+value.EXPOSURE.14=1.4
+value.EXPOSURE.15=1.5
+value.EXPOSURE.16=1.6
+value.EXPOSURE.17=1.7
+value.EXPOSURE.18=1.8
+value.EXPOSURE.19=1.9
+value.EXPOSURE.20=2.0
+value.EXPOSURE.21=2.1
+value.EXPOSURE.22=2.2
+value.EXPOSURE.23=2.3
+value.EXPOSURE.24=2.4
+value.EXPOSURE.25=2.5
+value.EXPOSURE.26=2.6
+value.EXPOSURE.27=2.7
+value.EXPOSURE.28=2.8
+value.EXPOSURE.29=2.9
+value.EXPOSURE.30=3.0
+value.EXPOSURE.31=3.1
+value.EXPOSURE.32=3.2
+value.EXPOSURE.33=3.3
+value.EXPOSURE.34=3.4
+value.EXPOSURE.35=3.5
+value.EXPOSURE.36=3.6
+value.EXPOSURE.37=3.7
+value.EXPOSURE.38=3.8
+value.EXPOSURE.39=3.9
+value.EXPOSURE.40=4.0
+value.EXPOSURE.41=4.1
+value.EXPOSURE.42=4.2
+value.EXPOSURE.43=4.3
+value.EXPOSURE.44=4.4
+value.EXPOSURE.45=4.5
+value.EXPOSURE.46=4.6
+value.EXPOSURE.47=4.7
+value.EXPOSURE.48=4.8
+value.EXPOSURE.49=4.9
+value.EXPOSURE.50=5.0
+value.EXPOSURE.51=5.1
+value.EXPOSURE.52=5.2
+value.EXPOSURE.53=5.3
+value.EXPOSURE.54=5.4
+value.EXPOSURE.55=5.5
+value.EXPOSURE.56=5.6
+value.EXPOSURE.57=5.7
+value.EXPOSURE.58=5.8
+value.EXPOSURE.59=5.9
+value.EXPOSURE.60=6.0
+value.EXPOSURE.61=6.1
+value.EXPOSURE.62=6.2
+value.EXPOSURE.63=6.3
+value.EXPOSURE.64=6.4
+value.EXPOSURE.65=6.5
+value.EXPOSURE.66=6.6
+value.EXPOSURE.67=6.7
+value.EXPOSURE.68=6.8
+value.EXPOSURE.69=6.9
+value.EXPOSURE.70=7.0
+value.EXPOSURE.71=7.1
+value.EXPOSURE.72=7.2
+value.EXPOSURE.73=7.3
+value.EXPOSURE.74=7.4
+value.EXPOSURE.75=7.5
+value.EXPOSURE.76=7.6
+value.EXPOSURE.77=7.7
+value.EXPOSURE.78=7.8
+value.EXPOSURE.79=7.9
+value.EXPOSURE.80=8.0
+
+option.AMBIENT_STRENGTH=环境光强度
+option.AMBIENT_STRENGTH.comment=The minimum amount of light there can be in any situation. §9No performance impact!
+
+option.FLOODFILL=彩色光源
+option.FLOODFILL.comment=Makes the light emitted by blocks match their color. Requires §eshadows §fto be enabled. §6Moderate performance impact.
+
+option.EMISSION_STRENGTH=自发光强度
+option.EMISSION_STRENGTH.comment=How bright emissives are. §9No performance impact!
+
+option.BLOCKLIGHT_STRENGTH=方块光强度
+option.BLOCKLIGHT_STRENGTH.comment=How bright the light emitted by blocks is. §9No performance impact!
+
+option.ambientOcclusionLevel=环境光遮蔽强度
+option.ambientOcclusionLevel.comment=Darkens corners where blocks meet to imitate ambient shadowing. §9No performance impact! §falso affects §eDistant Horizons Ambient Occlusion.
+
+option.SHADOWS=阴影
+
+option.shadowDistance=阴影距离
+option.shadowDistance.comment=The radius around the player in which things can cast shadows. §cHigh performance impact!
+value.shadowDistance.16.0=1 区块
+value.shadowDistance.32.0=2 区块    
+value.shadowDistance.48.0=3 区块    
+value.shadowDistance.64.0=4 区块    
+value.shadowDistance.80.0=5 区块    
+value.shadowDistance.96.0=6 区块    
+value.shadowDistance.112.0=7 区块   
+value.shadowDistance.128.0=8 区块   
+value.shadowDistance.144.0=9 区块   
+value.shadowDistance.160.0=10 区块  
+value.shadowDistance.176.0=11 区块  
+value.shadowDistance.192.0=12 区块  
+value.shadowDistance.208.0=13 区块  
+value.shadowDistance.224.0=14 区块  
+value.shadowDistance.240.0=15 区块  
+value.shadowDistance.256.0=16 区块  
+value.shadowDistance.272.0=17 区块  
+value.shadowDistance.288.0=18 区块  
+value.shadowDistance.304.0=19 区块  
+value.shadowDistance.320.0=20 区块  
+value.shadowDistance.336.0=21 区块  
+value.shadowDistance.352.0=22 区块  
+value.shadowDistance.368.0=23 区块  
+value.shadowDistance.384.0=24 区块  
+value.shadowDistance.400.0=25 区块  
+value.shadowDistance.416.0=26 区块  
+value.shadowDistance.432.0=27 区块  
+value.shadowDistance.448.0=28 区块  
+value.shadowDistance.464.0=29 区块  
+value.shadowDistance.480.0=30 区块  
+value.shadowDistance.496.0=31 区块  
+value.shadowDistance.512.0=32 区块
+
+option.entityShadowDistanceMul=实体阴影距离
+option.entityShadowDistanceMul.comment=The fraction of the shadow distance within which entities will cast shadows. Setting to 0 will entirely disable entity shadows. §6Moderate performance impact.
+suffix.entityShadowDistanceMul=x
+
+option.shadowMapResolution=阴影质量
+option.shadowMapResolution.comment=The resolution of the shadow map (how pixelated it is). §cHigh performance impact!
+value.shadowMapResolution.128=128x
+value.shadowMapResolution.256=256x
+value.shadowMapResolution.512=512x
+value.shadowMapResolution.1024=1024x
+value.shadowMapResolution.2048=2048x
+value.shadowMapResolution.4096=4096x
+value.shadowMapResolution.8192=8192x
+
+option.SHADOW_SAMPLES=阴影采样值
+option.SHADOW_SAMPLES.comment=The number of shadow samples taken per pixel. Higher values reduce noise. §cHigh performance impact!
+
+option.SHADOW_SOFTNESS=阴影软化
+option.SHADOW_SOFTNESS.comment=How soft shadows will appear. Higher softness values hide pixelated shadows better at the cost of noise. §9No performance impact!
+
+option.sunPathRotation=太阳角度
+option.sunPathRotation.comment=The angle of the path the sun and moon follow through the sky. §9No performance impact!
+
+option.DIRECTIONAL_LIGHTMAPS=方向性光图
+option.DIRECTIONAL_LIGHTMAPS.comment=Attempts to guess which direction block and skylight is coming from. Works best with a resource pack that has normal maps. §2Imperceptible performance impact.
+
+option.DYNAMIC_HANDLIGHT=动态手持光源
+option.DYNAMIC_HANDLIGHT.comment=Illuminates the area around the player when a light source is held. §2Imperceptible performance impact.
+
+option.PBR_MODE=PBR 支持
+option.PBR_MODE.comment=LabPBR requires a supported resource pack. §6Moderate performance impact.
+value.PBR_MODE.0=关
+value.PBR_MODE.1=LabPBR 1.3
+
+option.CLOUDS=云层
+option.CLOUDS.comment=§aMinimal performance impact.
+
+option.CLOUD_PLANE_ALTITUDE=云层高度
+option.CLOUD_PLANE_ALTITUDE.comment=§9No performance impact!
+
+option.CLOUD_PLANE_HEIGHT=云层自身高度
+option.CLOUD_PLANE_HEIGHT.comment=§9No performance impact!
+
+option.BLOCKY_CLOUDS=方块云
+option.BLOCKY_CLOUDS.comment=Makes clouds have clearly defined square shapes in them. This was originally a bug, but people liked it, so now it's a feature! §9No performance impact!
+
+option.ATMOSPHERIC_FOG=雾气
+option.ATMOSPHERIC_FOG.comment=Makes terrain fade into the distance. §2Imperceptible performance impact.
+
+option.VANILLA_FOG_DENSITY=雾气密度
+option.VANILLA_FOG_DENSITY.comment=How much fog there is. §9No performance impact!
+
+option.CLOUDY_FOG=迷雾
+option.CLOUDY_FOG.comment=Adds a mist-like fog sitting over the ground. More obvious in the morning and when it rains. §6Moderate performance impact.
+
+option.BASE_FOG_DENSITY=基础雾气密度
+option.BASE_FOG_DENSITY.comment=The density of §efancy fog§f. §9No performance impact!
+
+option.MORNING_FOG_DENSITY=清晨雾气密度
+option.MORNING_FOG_DENSITY.comment=How much the density of §efancy fog§f increases in the morning. §9No performance impact!
+
+option.GODRAYS=光轴类型
+option.GODRAYS.comment=Makes objects appear to cast shadows through §efancy fog. §fThe §escreen-space §fmode has a §aminimal performance impact §fbut is less accurate and will disappear if the sun is not on the screen. The §evolumetric §fmode has a §6moderate performance impact, §frequires §eshadows §fto be enabled, and will look bad at lower §eshadow quality §fsettings.
+value.GODRAYS.0=关
+value.GODRAYS.1=屏幕空间
+value.GODRAYS.2=体积
+
+option.GODRAYS_SAMPLES=光轴采样值
+option.GODRAYS_SAMPLES.comment=How many samples are taken when rendering godrays. Higher values reduce noise at the cost of performance. §6Moderate performance impact.
+
+option.CLOUD_SHADOWS=云层阴影
+option.CLOUD_SHADOWS.comment=Makes clouds cast a shadow. §aMinimal performance impact.
+
+option.BORDER_FOG=边界雾
+option.BORDER_FOG.comment=Fades terrain into the sky towards the edge of the render distance. §2Imperceptible performance impact.
+
+option.REFLECTION_MODE=反射
+option.REFLECTION_MODE.comment=Adds reflections to water. The 'fast' option guesses where the reflection might be, and is often innacurate, while SSR traces through the scene to find an intersection point. §cHigh performance impact!
+value.REFLECTION_MODE.0=关
+value.REFLECTION_MODE.1=快速
+value.REFLECTION_MODE.2=屏幕空间反射 (SSR)
+
+option.ROUGH_SKY_REFLECTIONS=天空粗糙反射
+
+option.WAVE_MODE=水体法线
+option.WAVE_MODE.comment=How normals are generated for water. §eResource pack §fwill use whatever normals are provided by the resource pack. §eGenerated §fwill generate them based on the brightness of the water texture. §eRealistic §fwill create more real looking water waves that are not pixelated. §aMinimal performance impact.
+value.WAVE_MODE.0=基于资源包
+value.WAVE_MODE.1=自动生成
+value.WAVE_MODE.2=现实风格
+
+option.CUSTOM_SUN=资源包日月修复
+option.CUSTOM_SUN.comment=If this is disabled, the shaderpack attempts to remove the "bloom" around the sun and moon. This can cause issues with custom sky resource packs, so this setting disables it. §2Imperceptible performance impact.
+
+option.PIXEL_LOCKED_LIGHTING=像素锁定照明
+option.PIXEL_SIZE=像素锁定尺寸
+option.RAIN_PUDDLES=雨水坑
+
+option.SSR_STEPS=SSR 步数
+option.SSR_STEPS.comment=Higher values will reduce noise/stepping in water reflections §ewhen SSR is enabled §fat the cost of performance. §6Moderate performance impact. §7Note that each step takes 4 samples.
+
+option.FADE_REFLECTIONS=反射边缘淡化
+option.FADE_REFLECTIONS.comment=Fades reflections into the sky as they approach the edge of the screen to prevent the otherwise hard cutoff. §2Imperceptible performance impact.
+
+option.SSR_JITTER=SSR 抖动
+option.SSR_JITTER.comment=When enabled, §eSSR §freflections will appear noisy, however there will be no 'stair-stepping' effect. §2Imperceptible performance impact.
+
+option.REFRACTION=折射
+option.REFRACTION.comment=Bends light as it enters or leaves water. §aMinimal performance impact.
+
+option.SNELLS_WINDOW=斯涅尔窗
+option.SNELLS_WINDOW.comment=An approximate recreation of a real phenomena where refraction of light stops you seeing out of water at some angles. §aMinimal performance impact.
+
+option.CAUSTICS=焦散线
+option.CAUSTICS.comment=Emulates how light refracting through water appears to cast a shadow. Requires §eshadows §fto be enabled, and will look bad at lower §eshadow quality §fsettings. §aMinimal performance impact.
+
+option.BLOOM=泛光
+option.BLOOM.comment=Makes bright objects appear to glow. §6Moderate performance impact.
+
+option.BLOOM_RADIUS=泛光半径
+option.BLOOM_RADIUS.comment=How far across the screen bloom will spread out. §9No performance impact!
+
+option.BLOOM_STRENGTH=泛光强度
+option.BLOOM_STRENGTH.comment=How much effect the bloom has on the final colour of the screen. §9No performance impact!
+
+option.BLOOM_QUALITY=泛光质量
+option.BLOOM_QUALITY.comment=What percentage of the screen resolution to run bloom at. §6Moderate performance impact.
+
+option.TEMPORAL_FILTER=时间性过滤器
+option.TEMPORAL_FILTER.comment=Uses data from previous frames to reduce noise. Can result in blurriness and ghosting. §2Imperceptible performance impact. §7Please don't buy into Threat Interactive's anti TAA campaign. §7He is right that many modern games are using it as a crutch but has no credibility and does not understand graphics programming. §7The real issue is that most studios do not give developers the time necessary to properly optimise their games.
+
+option.FXAA=快速近似抗锯齿
+option.FXAA.comment=Anti-aliasing - removes jagged edges. §aMinimal performance impact.
+
+option.WAVING_BLOCKS=方块摇晃
+option.WAVING_BLOCKS.comment=Makes plants sway in the breeze. §aMinimal performance impact.
+
+option.PATCHY_LAVA=斑状熔岩
+option.PATCHY_LAVA.comment=Adds some variation to the brightness of lava. §2Imperceptible performance impact.
+
+option.INFINITE_OCEAN=无垠海
+option.INFINITE_OCEAN.comment=Adds an ocean that stretches out to infinity. §6Moderate performance impact.
+
+option.SEA_LEVEL=海平面
+option.SEA_LEVEL.comment=What altitude the infinite ocean should render at. §9No performance impact! §7If you need a sea level that isn't an option here, let me know! 
+
+option.DH_AO=环境光遮蔽
+option.DH_AO.comment=Makes edges of blocks more defined on Distant Horizons terrain. §6Moderate performance impact.
+
+option.DH_AO_SAMPLES=环境光遮蔽采样值
+option.DH_AO_SAMPLES.comment=Higher values will run worse but reduce noise. §6Moderate performance impact.
+
+option.PARALLAX=视差 (POM)
+option.PARALLAX.comment=Makes blocks and entities appear to have depth. §6Moderate performance impact.
+
+option.PARALLAX_HEIGHT=视差深度
+option.PARALLAX_HEIGHT.comment=How far into the block a depth of 1.0 should be. §9No performance impact!
+
+option.PARALLAX_DISTANCE=视差渲染距离
+option.PARALLAX_DISTANCE.comment=How far away parallax should stop rendering. §6Moderate performance impact.
+
+option.PARALLAX_SAMPLES=视差采样值
+option.PARALLAX_SAMPLES.comment=How many samples should be taken when computing parallax. Higher values reduce jagged edges but have a performance cost. §6Moderate performance impact.
+
+option.PARALLAX_SHADOW=视差自阴影
+option.PARALLAX_SHADOW.comment=Allows parallax to cast a shadow. §6Moderate performance impact.
+
+option.PARALLAX_SHADOW_SAMPLES=自阴影采样值
+option.PARALLAX_SHADOW_SAMPLES.comment=How many samples should be taken when computing parallax shadows. §6Moderate performance impact. 
+
+option.tonemap=色调操控
+option.tonemap.comment=How the final colour is graded. §2Imperceptible performance impact.
+value.tonemap.agxTonemap=AGX (Punchy)
+value.tonemap.jodieReinhardTonemap=Jodie-Reinhard
+value.tonemap.uncharted2FilmicTonemap=Hable
+value.tonemap.hejlBurgessTonemap=Hejl-Burgess
+value.tonemap.ACESTonemap=ACES Approx.

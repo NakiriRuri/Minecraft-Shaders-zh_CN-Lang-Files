@@ -1,0 +1,347 @@
+option.GLIMMER_SHADERS=Visual Vibrance
+value.GLIMMER_SHADERS.1=§dBy jbritain
+value.GLIMMER_SHADERS.2=§dBy jbritain
+
+option.WEBSITE=https://
+value.WEBSITE.1=§djbritain.net
+value.WEBSITE.2=§djbritain.net
+
+screen.LIGHTING=Lighting & Shadows
+screen.SHADOWS=Shadows
+screen.ATMOSPHERICS=Sky & Fog
+screen.WATER=Water
+screen.POST=Post-Processing
+screen.WORLD=World
+screen.MATERIALS=Materials
+screen.PARALLAX=Parallax (POM)
+screen.DH=Distant Horizons
+screen.DEBUG=Development
+
+profile.potato=§cPotato
+profile.toaster=§6Toaster
+profile.igpu=§aIntegrated Graphics
+profile.dgpu=§bDedicated Graphics
+
+option.DEBUG_ENABLE=Debug Mode
+option.DEBUG_ENABLE.comment=Renders whatever the show() function is called on to the screen.
+
+option.FREEZE_TIME=Freeze Time
+option.FREEZE_TIME.comment=Disables all animations built into the shader, like water waves.
+
+option.CONTRAST=Contrast
+option.CONTRAST.comment=§9No performance impact!
+option.SATURATION=Saturation
+option.SATURATION.comment=§9No performance impact!
+
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Controls the final brightness of the screen. §9No performance impact!
+value.EXPOSURE.0=0.0
+value.EXPOSURE.1=0.1
+value.EXPOSURE.2=0.2
+value.EXPOSURE.3=0.3
+value.EXPOSURE.4=0.4
+value.EXPOSURE.5=0.5
+value.EXPOSURE.6=0.6
+value.EXPOSURE.7=0.7
+value.EXPOSURE.8=0.8
+value.EXPOSURE.9=0.9
+value.EXPOSURE.10=1.0
+value.EXPOSURE.11=1.1
+value.EXPOSURE.12=1.2
+value.EXPOSURE.13=1.3
+value.EXPOSURE.14=1.4
+value.EXPOSURE.15=1.5
+value.EXPOSURE.16=1.6
+value.EXPOSURE.17=1.7
+value.EXPOSURE.18=1.8
+value.EXPOSURE.19=1.9
+value.EXPOSURE.20=2.0
+value.EXPOSURE.21=2.1
+value.EXPOSURE.22=2.2
+value.EXPOSURE.23=2.3
+value.EXPOSURE.24=2.4
+value.EXPOSURE.25=2.5
+value.EXPOSURE.26=2.6
+value.EXPOSURE.27=2.7
+value.EXPOSURE.28=2.8
+value.EXPOSURE.29=2.9
+value.EXPOSURE.30=3.0
+value.EXPOSURE.31=3.1
+value.EXPOSURE.32=3.2
+value.EXPOSURE.33=3.3
+value.EXPOSURE.34=3.4
+value.EXPOSURE.35=3.5
+value.EXPOSURE.36=3.6
+value.EXPOSURE.37=3.7
+value.EXPOSURE.38=3.8
+value.EXPOSURE.39=3.9
+value.EXPOSURE.40=4.0
+value.EXPOSURE.41=4.1
+value.EXPOSURE.42=4.2
+value.EXPOSURE.43=4.3
+value.EXPOSURE.44=4.4
+value.EXPOSURE.45=4.5
+value.EXPOSURE.46=4.6
+value.EXPOSURE.47=4.7
+value.EXPOSURE.48=4.8
+value.EXPOSURE.49=4.9
+value.EXPOSURE.50=5.0
+value.EXPOSURE.51=5.1
+value.EXPOSURE.52=5.2
+value.EXPOSURE.53=5.3
+value.EXPOSURE.54=5.4
+value.EXPOSURE.55=5.5
+value.EXPOSURE.56=5.6
+value.EXPOSURE.57=5.7
+value.EXPOSURE.58=5.8
+value.EXPOSURE.59=5.9
+value.EXPOSURE.60=6.0
+value.EXPOSURE.61=6.1
+value.EXPOSURE.62=6.2
+value.EXPOSURE.63=6.3
+value.EXPOSURE.64=6.4
+value.EXPOSURE.65=6.5
+value.EXPOSURE.66=6.6
+value.EXPOSURE.67=6.7
+value.EXPOSURE.68=6.8
+value.EXPOSURE.69=6.9
+value.EXPOSURE.70=7.0
+value.EXPOSURE.71=7.1
+value.EXPOSURE.72=7.2
+value.EXPOSURE.73=7.3
+value.EXPOSURE.74=7.4
+value.EXPOSURE.75=7.5
+value.EXPOSURE.76=7.6
+value.EXPOSURE.77=7.7
+value.EXPOSURE.78=7.8
+value.EXPOSURE.79=7.9
+value.EXPOSURE.80=8.0
+
+option.AMBIENT_STRENGTH=Ambient Light Strength
+option.AMBIENT_STRENGTH.comment=The minimum amount of light there can be in any situation. §9No performance impact!
+
+option.FLOODFILL=Colored Blocklight
+option.FLOODFILL.comment=Makes the light emitted by blocks match their color. Requires §eshadows §fto be enabled. §6Moderate performance impact.
+
+option.EMISSION_STRENGTH=Emissive Strength
+option.EMISSION_STRENGTH.comment=How bright emissives are. §9No performance impact!
+
+option.BLOCKLIGHT_STRENGTH=Blocklight Strength
+option.BLOCKLIGHT_STRENGTH.comment=How bright the light emitted by blocks is. §9No performance impact!
+
+option.ambientOcclusionLevel=Ambient Occlusion Strength
+option.ambientOcclusionLevel.comment=Darkens corners where blocks meet to imitate ambient shadowing. §9No performance impact! §falso affects §eDistant Horizons Ambient Occlusion.
+
+option.SHADOWS=Shadows
+
+option.shadowDistance=Shadow Distance
+option.shadowDistance.comment=The radius around the player in which things can cast shadows. §cHigh performance impact!
+value.shadowDistance.16.0=1 Chunk
+value.shadowDistance.32.0=2 Chunks    
+value.shadowDistance.48.0=3 Chunks    
+value.shadowDistance.64.0=4 Chunks    
+value.shadowDistance.80.0=5 Chunks    
+value.shadowDistance.96.0=6 Chunks    
+value.shadowDistance.112.0=7 Chunks   
+value.shadowDistance.128.0=8 Chunks   
+value.shadowDistance.144.0=9 Chunks   
+value.shadowDistance.160.0=10 Chunks  
+value.shadowDistance.176.0=11 Chunks  
+value.shadowDistance.192.0=12 Chunks  
+value.shadowDistance.208.0=13 Chunks  
+value.shadowDistance.224.0=14 Chunks  
+value.shadowDistance.240.0=15 Chunks  
+value.shadowDistance.256.0=16 Chunks  
+value.shadowDistance.272.0=17 Chunks  
+value.shadowDistance.288.0=18 Chunks  
+value.shadowDistance.304.0=19 Chunks  
+value.shadowDistance.320.0=20 Chunks  
+value.shadowDistance.336.0=21 Chunks  
+value.shadowDistance.352.0=22 Chunks  
+value.shadowDistance.368.0=23 Chunks  
+value.shadowDistance.384.0=24 Chunks  
+value.shadowDistance.400.0=25 Chunks  
+value.shadowDistance.416.0=26 Chunks  
+value.shadowDistance.432.0=27 Chunks  
+value.shadowDistance.448.0=28 Chunks  
+value.shadowDistance.464.0=29 Chunks  
+value.shadowDistance.480.0=30 Chunks  
+value.shadowDistance.496.0=31 Chunks  
+value.shadowDistance.512.0=32 Chunks
+
+option.entityShadowDistanceMul=Entity Shadow Distance
+option.entityShadowDistanceMul.comment=The fraction of the shadow distance within which entities will cast shadows. Setting to 0 will entirely disable entity shadows. §6Moderate performance impact.
+suffix.entityShadowDistanceMul=x
+
+option.shadowMapResolution=Shadow Quality
+option.shadowMapResolution.comment=The resolution of the shadow map (how pixelated it is). §cHigh performance impact!
+value.shadowMapResolution.128=128x
+value.shadowMapResolution.256=256x
+value.shadowMapResolution.512=512x
+value.shadowMapResolution.1024=1024x
+value.shadowMapResolution.2048=2048x
+value.shadowMapResolution.4096=4096x
+value.shadowMapResolution.8192=8192x
+
+option.SHADOW_SAMPLES=Shadow Samples
+option.SHADOW_SAMPLES.comment=The number of shadow samples taken per pixel. Higher values reduce noise. §cHigh performance impact!
+
+option.SHADOW_SOFTNESS=Shadow Softness
+option.SHADOW_SOFTNESS.comment=How soft shadows will appear. Higher softness values hide pixelated shadows better at the cost of noise. §9No performance impact!
+
+option.sunPathRotation=Sun Angle
+option.sunPathRotation.comment=The angle of the path the sun and moon follow through the sky. §9No performance impact!
+
+option.DIRECTIONAL_LIGHTMAPS=Directional Lightmapping
+option.DIRECTIONAL_LIGHTMAPS.comment=Attempts to guess which direction block and skylight is coming from. Works best with a resource pack that has normal maps. §2Imperceptible performance impact.
+
+option.DYNAMIC_HANDLIGHT=Dynamic Handlight
+option.DYNAMIC_HANDLIGHT.comment=Illuminates the area around the player when a light source is held. §2Imperceptible performance impact.
+
+option.PBR_MODE=PBR Support
+option.PBR_MODE.comment=LabPBR requires a supported resource pack. §6Moderate performance impact.
+value.PBR_MODE.0=Off
+value.PBR_MODE.1=LabPBR 1.3
+
+option.CLOUDS=Clouds
+option.CLOUDS.comment=§aMinimal performance impact.
+
+option.CLOUD_PLANE_ALTITUDE=Cloud Plane Altitude
+option.CLOUD_PLANE_ALTITUDE.comment=§9No performance impact!
+
+option.CLOUD_PLANE_HEIGHT=Cloud Height
+option.CLOUD_PLANE_HEIGHT.comment=§9No performance impact!
+
+option.BLOCKY_CLOUDS=Blocky Clouds
+option.BLOCKY_CLOUDS.comment=Makes clouds have clearly defined square shapes in them. This was originally a bug, but people liked it, so now it's a feature! §9No performance impact!
+
+option.ATMOSPHERIC_FOG=Fog
+option.ATMOSPHERIC_FOG.comment=Makes terrain fade into the distance. §2Imperceptible performance impact.
+
+option.VANILLA_FOG_DENSITY=Fog Density
+option.VANILLA_FOG_DENSITY.comment=How much fog there is. §9No performance impact!
+
+option.CLOUDY_FOG=Fancy Fog
+option.CLOUDY_FOG.comment=Adds a mist-like fog sitting over the ground. More obvious in the morning and when it rains. §6Moderate performance impact.
+
+option.BASE_FOG_DENSITY=Base Fog Density
+option.BASE_FOG_DENSITY.comment=The density of §efancy fog§f. §9No performance impact!
+
+option.MORNING_FOG_DENSITY=Morning Fog Density
+option.MORNING_FOG_DENSITY.comment=How much the density of §efancy fog§f increases in the morning. §9No performance impact!
+
+option.GODRAYS=Godrays (VL)
+option.GODRAYS.comment=Makes objects appear to cast shadows through §efancy fog. §fThe §escreen-space §fmode has a §aminimal performance impact §fbut is less accurate and will disappear if the sun is not on the screen. The §evolumetric §fmode has a §6moderate performance impact, §frequires §eshadows §fto be enabled, and will look bad at lower §eshadow quality §fsettings.
+value.GODRAYS.0=Off
+value.GODRAYS.1=Screen-Space
+value.GODRAYS.2=Volumetric
+
+option.GODRAYS_SAMPLES=Godray Samples
+option.GODRAYS_SAMPLES.comment=How many samples are taken when rendering godrays. Higher values reduce noise at the cost of performance. §6Moderate performance impact.
+
+option.CLOUD_SHADOWS=Cloud Shadows
+option.CLOUD_SHADOWS.comment=Makes clouds cast a shadow. §aMinimal performance impact.
+
+option.BORDER_FOG=Border Fog
+option.BORDER_FOG.comment=Fades terrain into the sky towards the edge of the render distance. §2Imperceptible performance impact.
+
+option.REFLECTION_MODE=Reflection
+option.REFLECTION_MODE.comment=Adds reflections to water. The 'fast' option guesses where the reflection might be, and is often innacurate, while SSR traces through the scene to find an intersection point. §cHigh performance impact!
+value.REFLECTION_MODE.0=Off
+value.REFLECTION_MODE.1=Fast
+value.REFLECTION_MODE.2=SSR
+
+option.ROUGH_SKY_REFLECTIONS=Rough Sky Reflections
+
+option.WAVE_MODE=Water Normals
+option.WAVE_MODE.comment=How normals are generated for water. §eResource pack §fwill use whatever normals are provided by the resource pack. §eGenerated §fwill generate them based on the brightness of the water texture. §eRealistic §fwill create more real looking water waves that are not pixelated. §aMinimal performance impact.
+value.WAVE_MODE.0=Resource Pack
+value.WAVE_MODE.1=Generated
+value.WAVE_MODE.2=Realistic
+
+option.CUSTOM_SUN=Resource Pack Sun/Moon Fix
+option.CUSTOM_SUN.comment=If this is disabled, the shaderpack attempts to remove the "bloom" around the sun and moon. This can cause issues with custom sky resource packs, so this setting disables it. §2Imperceptible performance impact.
+
+option.PIXEL_LOCKED_LIGHTING=Pixel Locked Lighting
+option.PIXEL_SIZE=Pixel Lock Size
+option.RAIN_PUDDLES=Rain Puddles
+
+option.SSR_STEPS=SSR Steps
+option.SSR_STEPS.comment=Higher values will reduce noise/stepping in water reflections §ewhen SSR is enabled §fat the cost of performance. §6Moderate performance impact. §7Note that each step takes 4 samples.
+
+option.FADE_REFLECTIONS=Reflection Edge Fade
+option.FADE_REFLECTIONS.comment=Fades reflections into the sky as they approach the edge of the screen to prevent the otherwise hard cutoff. §2Imperceptible performance impact.
+
+option.SSR_JITTER=SSR Jitter
+option.SSR_JITTER.comment=When enabled, §eSSR §freflections will appear noisy, however there will be no 'stair-stepping' effect. §2Imperceptible performance impact.
+
+option.REFRACTION=Refraction
+option.REFRACTION.comment=Bends light as it enters or leaves water. §aMinimal performance impact.
+
+option.SNELLS_WINDOW=Snell's Window
+option.SNELLS_WINDOW.comment=An approximate recreation of a real phenomena where refraction of light stops you seeing out of water at some angles. §aMinimal performance impact.
+
+option.CAUSTICS=Caustics
+option.CAUSTICS.comment=Emulates how light refracting through water appears to cast a shadow. Requires §eshadows §fto be enabled, and will look bad at lower §eshadow quality §fsettings. §aMinimal performance impact.
+
+option.BLOOM=Bloom
+option.BLOOM.comment=Makes bright objects appear to glow. §6Moderate performance impact.
+
+option.BLOOM_RADIUS=Bloom Radius
+option.BLOOM_RADIUS.comment=How far across the screen bloom will spread out. §9No performance impact!
+
+option.BLOOM_STRENGTH=Bloom Strength
+option.BLOOM_STRENGTH.comment=How much effect the bloom has on the final colour of the screen. §9No performance impact!
+
+option.BLOOM_QUALITY=Bloom Quality
+option.BLOOM_QUALITY.comment=What percentage of the screen resolution to run bloom at. §6Moderate performance impact.
+
+option.TEMPORAL_FILTER=Temporal Filtering
+option.TEMPORAL_FILTER.comment=Uses data from previous frames to reduce noise. Can result in blurriness and ghosting. §2Imperceptible performance impact. §7Please don't buy into Threat Interactive's anti TAA campaign. §7He is right that many modern games are using it as a crutch but has no credibility and does not understand graphics programming. §7The real issue is that most studios do not give developers the time necessary to properly optimise their games.
+
+option.FXAA=FXAA
+option.FXAA.comment=Anti-aliasing - removes jagged edges. §aMinimal performance impact.
+
+option.WAVING_BLOCKS=Waving Blocks
+option.WAVING_BLOCKS.comment=Makes plants sway in the breeze. §aMinimal performance impact.
+
+option.PATCHY_LAVA=Patchy Lava
+option.PATCHY_LAVA.comment=Adds some variation to the brightness of lava. §2Imperceptible performance impact.
+
+option.INFINITE_OCEAN=Infinite Ocean
+option.INFINITE_OCEAN.comment=Adds an ocean that stretches out to infinity. §6Moderate performance impact.
+
+option.SEA_LEVEL=Sea Level
+option.SEA_LEVEL.comment=What altitude the infinite ocean should render at. §9No performance impact! §7If you need a sea level that isn't an option here, let me know! 
+
+option.DH_AO=Ambient Occlusion
+option.DH_AO.comment=Makes edges of blocks more defined on Distant Horizons terrain. §6Moderate performance impact.
+
+option.DH_AO_SAMPLES=AO Samples
+option.DH_AO_SAMPLES.comment=Higher values will run worse but reduce noise. §6Moderate performance impact.
+
+option.PARALLAX=Parallax
+option.PARALLAX.comment=Makes blocks and entities appear to have depth. §6Moderate performance impact.
+
+option.PARALLAX_HEIGHT=Parallax Height
+option.PARALLAX_HEIGHT.comment=How far into the block a depth of 1.0 should be. §9No performance impact!
+
+option.PARALLAX_DISTANCE=Parallax Render Distance
+option.PARALLAX_DISTANCE.comment=How far away parallax should stop rendering. §6Moderate performance impact.
+
+option.PARALLAX_SAMPLES=Parallax Samples
+option.PARALLAX_SAMPLES.comment=How many samples should be taken when computing parallax. Higher values reduce jagged edges but have a performance cost. §6Moderate performance impact.
+
+option.PARALLAX_SHADOW=Parallax Self-Shadow
+option.PARALLAX_SHADOW.comment=Allows parallax to cast a shadow. §6Moderate performance impact.
+
+option.PARALLAX_SHADOW_SAMPLES=Self-Shadow Samples
+option.PARALLAX_SHADOW_SAMPLES.comment=How many samples should be taken when computing parallax shadows. §6Moderate performance impact. 
+
+option.tonemap=Tonemap Operator
+option.tonemap.comment=How the final colour is graded. §2Imperceptible performance impact.
+value.tonemap.agxTonemap=AGX (Punchy)
+value.tonemap.jodieReinhardTonemap=Jodie-Reinhard
+value.tonemap.uncharted2FilmicTonemap=Hable
+value.tonemap.hejlBurgessTonemap=Hejl-Burgess
+value.tonemap.ACESTonemap=ACES Approx.
