@@ -1,0 +1,331 @@
+#shaders/lang/zh_CN.lang
+#本汉化文档由Surisen提供,非专业译者,请谅解.
+#本汉化文档对应光影 Glimmer v1.3.3 版本.
+#本光影官方下载地址：https://modrinth.com/shader/glimmer-shaders
+#本汉化文档以 CC BY-NC-SA 4.0 协议进行许可.
+option.GLIMMER_SHADERS=Glimmer Shaders
+value.GLIMMER_SHADERS.1=§dBy jbritain
+value.GLIMMER_SHADERS.2=§dBy jbritain
+
+option.WEBSITE=https://
+value.WEBSITE.1=§djbritain.net
+value.WEBSITE.2=§djbritain.net
+
+screen.LIGHTING=照明 & 阴影
+screen.SHADOWS=阴影
+screen.ATMOSPHERICS=天空 & 雾气
+screen.WATER=水体
+screen.POST=后期处理
+screen.WORLD=世界
+screen.MATERIALS=材质
+screen.PARALLAX=视差 (POM)
+screen.DH=Distant Horizons
+screen.DEBUG=开发
+
+profile.potato=§c极低
+profile.toaster=§6烤机
+profile.igpu=§a集成显卡
+profile.dgpu=§b专业显卡
+
+option.DEBUG_ENABLE=调试模式
+option.DEBUG_ENABLE.comment=渲染 show() 功能中显示的任何东西到屏幕上.
+
+option.FREEZE_TIME=冻结时间
+option.FREEZE_TIME.comment=禁用光影所有的内置动画, 比如水波.
+
+option.CONTRAST=对比度
+option.CONTRAST.comment=§9不影响性能!
+option.SATURATION=饱和度
+option.SATURATION.comment=§9不影响性能!
+
+option.EXPOSURE=曝光
+option.EXPOSURE.comment=控制屏幕最终图像的亮度. §9不影响性能!
+value.EXPOSURE.0=0.0
+value.EXPOSURE.1=0.1
+value.EXPOSURE.2=0.2
+value.EXPOSURE.3=0.3
+value.EXPOSURE.4=0.4
+value.EXPOSURE.5=0.5
+value.EXPOSURE.6=0.6
+value.EXPOSURE.7=0.7
+value.EXPOSURE.8=0.8
+value.EXPOSURE.9=0.9
+value.EXPOSURE.10=1.0
+value.EXPOSURE.11=1.1
+value.EXPOSURE.12=1.2
+value.EXPOSURE.13=1.3
+value.EXPOSURE.14=1.4
+value.EXPOSURE.15=1.5
+value.EXPOSURE.16=1.6
+value.EXPOSURE.17=1.7
+value.EXPOSURE.18=1.8
+value.EXPOSURE.19=1.9
+value.EXPOSURE.20=2.0
+value.EXPOSURE.21=2.1
+value.EXPOSURE.22=2.2
+value.EXPOSURE.23=2.3
+value.EXPOSURE.24=2.4
+value.EXPOSURE.25=2.5
+value.EXPOSURE.26=2.6
+value.EXPOSURE.27=2.7
+value.EXPOSURE.28=2.8
+value.EXPOSURE.29=2.9
+value.EXPOSURE.30=3.0
+value.EXPOSURE.31=3.1
+value.EXPOSURE.32=3.2
+value.EXPOSURE.33=3.3
+value.EXPOSURE.34=3.4
+value.EXPOSURE.35=3.5
+value.EXPOSURE.36=3.6
+value.EXPOSURE.37=3.7
+value.EXPOSURE.38=3.8
+value.EXPOSURE.39=3.9
+value.EXPOSURE.40=4.0
+value.EXPOSURE.41=4.1
+value.EXPOSURE.42=4.2
+value.EXPOSURE.43=4.3
+value.EXPOSURE.44=4.4
+value.EXPOSURE.45=4.5
+value.EXPOSURE.46=4.6
+value.EXPOSURE.47=4.7
+value.EXPOSURE.48=4.8
+value.EXPOSURE.49=4.9
+value.EXPOSURE.50=5.0
+value.EXPOSURE.51=5.1
+value.EXPOSURE.52=5.2
+value.EXPOSURE.53=5.3
+value.EXPOSURE.54=5.4
+value.EXPOSURE.55=5.5
+value.EXPOSURE.56=5.6
+value.EXPOSURE.57=5.7
+value.EXPOSURE.58=5.8
+value.EXPOSURE.59=5.9
+value.EXPOSURE.60=6.0
+value.EXPOSURE.61=6.1
+value.EXPOSURE.62=6.2
+value.EXPOSURE.63=6.3
+value.EXPOSURE.64=6.4
+value.EXPOSURE.65=6.5
+value.EXPOSURE.66=6.6
+value.EXPOSURE.67=6.7
+value.EXPOSURE.68=6.8
+value.EXPOSURE.69=6.9
+value.EXPOSURE.70=7.0
+value.EXPOSURE.71=7.1
+value.EXPOSURE.72=7.2
+value.EXPOSURE.73=7.3
+value.EXPOSURE.74=7.4
+value.EXPOSURE.75=7.5
+value.EXPOSURE.76=7.6
+value.EXPOSURE.77=7.7
+value.EXPOSURE.78=7.8
+value.EXPOSURE.79=7.9
+value.EXPOSURE.80=8.0
+
+option.AMBIENT_STRENGTH=环境光强度
+option.AMBIENT_STRENGTH.comment=任何环境下的最小照明强度. §9不影响性能!
+
+option.FLOODFILL=彩色方块光
+option.FLOODFILL.comment=使方块光源照明颜色与其自身颜色匹配. 需启用 §e阴影 §f选项. §6中等性能影响.
+
+option.EMISSION_STRENGTH=发光强度
+option.EMISSION_STRENGTH.comment=自发光亮度. §9不影响性能!
+
+option.BLOCKLIGHT_STRENGTH=方块光强度
+option.BLOCKLIGHT_STRENGTH.comment=方块光照明亮度. §9不影响性能!
+
+option.ambientOcclusionLevel = 环境光遮蔽强度
+option.ambientOcclusionLevel.comment=使方块相交的角落变暗, 模拟环境阴影. §9不影响性能! §f也影响 §eDistant Horizons 环境光遮蔽.
+
+option.SHADOWS=阴影
+
+option.shadowDistance=阴影距离
+option.shadowDistance.comment=以玩家为中心的阴影投射半径. §c较大性能影响!
+value.shadowDistance.16.0=1 区块
+value.shadowDistance.32.0=2 区块    
+value.shadowDistance.48.0=3 区块    
+value.shadowDistance.64.0=4 区块    
+value.shadowDistance.80.0=5 区块    
+value.shadowDistance.96.0=6 区块    
+value.shadowDistance.112.0=7 区块   
+value.shadowDistance.128.0=8 区块   
+value.shadowDistance.144.0=9 区块   
+value.shadowDistance.160.0=10 区块  
+value.shadowDistance.176.0=11 区块  
+value.shadowDistance.192.0=12 区块  
+value.shadowDistance.208.0=13 区块  
+value.shadowDistance.224.0=14 区块  
+value.shadowDistance.240.0=15 区块  
+value.shadowDistance.256.0=16 区块  
+value.shadowDistance.272.0=17 区块  
+value.shadowDistance.288.0=18 区块  
+value.shadowDistance.304.0=19 区块  
+value.shadowDistance.320.0=20 区块  
+value.shadowDistance.336.0=21 区块  
+value.shadowDistance.352.0=22 区块  
+value.shadowDistance.368.0=23 区块  
+value.shadowDistance.384.0=24 区块  
+value.shadowDistance.400.0=25 区块  
+value.shadowDistance.416.0=26 区块  
+value.shadowDistance.432.0=27 区块  
+value.shadowDistance.448.0=28 区块  
+value.shadowDistance.464.0=29 区块  
+value.shadowDistance.480.0=30 区块  
+value.shadowDistance.496.0=31 区块  
+value.shadowDistance.512.0=32 区块
+
+option.entityShadowDistanceMul=实体阴影距离
+option.entityShadowDistanceMul.comment=实体投射阴影的距离倍率. 设为 0 会完全禁用实体阴影. §6中等性能影响.
+suffix.entityShadowDistanceMul=x
+
+option.shadowMapResolution=阴影质量
+option.shadowMapResolution.comment=阴影贴图的分辨率 (多大像素). §c较大性能影响!
+value.shadowMapResolution.128=128x
+value.shadowMapResolution.256=256x
+value.shadowMapResolution.512=512x
+value.shadowMapResolution.1024=1024x
+value.shadowMapResolution.2048=2048x
+value.shadowMapResolution.4096=4096x
+value.shadowMapResolution.8192=8192x
+
+option.SHADOW_SAMPLES=阴影采样值
+option.SHADOW_SAMPLES.comment=每像素的阴影采样数量. 值越高噪点越少. §c较大性能影响!
+
+option.SHADOW_SOFTNESS=阴影柔软度
+option.SHADOW_SOFTNESS.comment=阴影柔和程度. 设置较高的值以更多噪点为代价隐藏阴影的像素化边缘. §9不影响性能!
+
+option.sunPathRotation=日月角度
+option.sunPathRotation.comment=太阳和月亮穿过天空路径的角度. §9不影响性能!
+
+option.DIRECTIONAL_LIGHTMAPS=指向性光图
+option.DIRECTIONAL_LIGHTMAPS.comment=假定方块光和天空光的方向. 适合与含法线纹理的PBR资源包一同使用. §2微量性能影响.
+
+option.DYNAMIC_HANDLIGHT=动态手持光源
+option.DYNAMIC_HANDLIGHT.comment=手持光源时点亮玩家周围的区域. §2微量性能影响.
+
+option.PBR_MODE=PBR 支持
+option.PBR_MODE.comment=LabPBR 需要支持的资源包. §6中等性能影响.
+value.PBR_MODE.0=关
+value.PBR_MODE.1=LabPBR 1.3
+
+option.CLOUDS=云层
+option.CLOUDS.comment=§a极低性能影响.
+
+option.BLOCKY_CLOUDS=方块云层
+option.BLOCKY_CLOUDS.comment=使云层有清晰的方块形状. 原本是bug, 但是有人喜欢, 所以现在是一个功能! §9不影响性能!
+
+option.ATMOSPHERIC_FOG=大气雾
+option.ATMOSPHERIC_FOG.comment=使地形逐渐在渲染区域边缘淡出. §2微量性能影响.
+
+option.CLOUDY_FOG=云雾
+option.CLOUDY_FOG.comment=在地表添加云状的雾气. 在清晨和下雨的时候更明显. §6中等性能影响.
+
+option.BASE_FOG_DENSITY=基础雾气密度
+option.BASE_FOG_DENSITY.comment=§e云雾§f 密度. §9不影响性能!
+
+option.MORNING_FOG_DENSITY=清晨雾气密度
+option.MORNING_FOG_DENSITY.comment=§e云雾§f 密度在清晨时分的增量. §9不影响性能!
+
+option.GODRAYS=光束 (体积光)
+option.GODRAYS.comment=使得物体可以通过 §e云雾§f 投射阴影. §e屏幕空间 §f模式仅有 §a极低性能影响. §f但是不够精确, 且会在太阳不处于屏幕中的时候消失. §e体积 §f模式有 §6中等性能影响, §f需要启用 §e阴影 §f选项, 并且设置较低 §e阴影质量 §f时效果看起来较差.
+value.GODRAYS.0=关
+value.GODRAYS.1=屏幕空间
+value.GODRAYS.2=体积
+
+option.GODRAYS_SAMPLES=光束采样值
+option.GODRAYS_SAMPLES.comment=渲染光束时的采样数量. 设置较高的值以性能为代价减少噪点. §6中等性能影响.
+
+option.CLOUD_SHADOWS=云层阴影
+option.CLOUD_SHADOWS.comment=使云层可以投射阴影. §a极低性能影响.
+
+option.BORDER_FOG=边界雾
+option.BORDER_FOG.comment=使渲染距离边缘的地形淡入天空. §2微量性能影响.
+
+option.REFLECTION_MODE=反射
+option.REFLECTION_MODE.comment=为水体添加反射. '快速' 选项尝试猜测反射哪个区域, 经常不准确, SSR 选项则会根据屏幕中的场景追踪反射的交点. §c较大性能影响!
+value.REFLECTION_MODE.0=关
+value.REFLECTION_MODE.1=快速
+value.REFLECTION_MODE.2=屏幕空间反射 (SSR)
+
+option.ROUGH_SKY_REFLECTIONS=粗糙天空反射
+option.VANILLA_WATER=原版水体
+option.PIXEL_LOCKED_LIGHTING=像素锁定照明
+option.PIXEL_SIZE=像素锁定尺寸
+option.RAIN_PUDDLES=雨水坑
+
+option.SSR_STEPS=SSR 步进数
+option.SSR_STEPS.comment=在启用 §e屏幕空间反射 §f时设置较高的值以性能为代价减少水体反射的噪点和'断层阶梯'. §6中等性能影响. §7注, 每步进一次需要 4 次采样.
+
+option.FADE_REFLECTIONS=边缘反射淡出
+option.FADE_REFLECTIONS.comment=反射接近屏幕边缘时将反射淡出到天空中, 防止出现生硬的反射断层. §2微量性能影响.
+
+option.SSR_JITTER=SSR 抖动
+option.SSR_JITTER.comment=启用后 §eSSR §f会出现噪点, 但会避免 '断层阶梯' 问题. §2微量性能影响.
+
+option.REFRACTION=折射
+option.REFRACTION.comment=扭曲进入水和离开水的光线. §a极低性能影响.
+
+option.CAUSTICS=焦散线
+option.CAUSTICS.comment=模拟光线在水中折射后投射阴影. §f需要启用 §e阴影 §f选项, 并且设置较低 §e阴影质量 §f时效果看起来较差. §a极低性能影响.
+
+option.BLOOM=泛光
+option.BLOOM.comment=使得明亮的物体看起来像是在投射光线. §6中等性能影响.
+
+option.BLOOM_RADIUS=泛光半径
+option.BLOOM_RADIUS.comment=泛光在屏幕上的扩散距离. §9不影响性能!
+
+option.BLOOM_STRENGTH=泛光强度
+option.BLOOM_STRENGTH.comment=泛光对屏幕最终颜色的影响程度. §9不影响性能!
+
+option.BLOOM_QUALITY=泛光质量
+option.BLOOM_QUALITY.comment=计算泛光的屏幕分辨率百分比. §6中等性能影响.
+
+option.TEMPORAL_FILTER=时间过滤器
+option.TEMPORAL_FILTER.comment=使用前帧数据来减少噪点. 可能会导致模糊和重影. §2微量性能影响. §7不要相信 Threat Interactive 的反 TAA 言论. §7他说许多现代游戏把 TAA 当作万金油一样使用, 这一点是对的. §7但他的言论也缺少可信度, 他也不懂图形编程. §7实际情况是大多数工作室都没有给开发者足够的时间去正确优化他们的游戏.
+
+option.FXAA=FXAA
+option.FXAA.comment=快速近似抗锯齿 - 去除锯齿状边缘. §a极低性能影响.
+
+option.WAVING_BLOCKS=方块摇晃
+option.WAVING_BLOCKS.comment=使植物在风中摇晃. §a极低性能影响.
+
+option.PATCHY_LAVA=斑状熔岩
+option.PATCHY_LAVA.comment=为熔岩亮度添加变化. §2微量性能影响.
+
+option.INFINITE_OCEAN=无垠海
+option.INFINITE_OCEAN.comment=渲染无限延伸的海洋. §6中等性能影响.
+
+option.SEA_LEVEL=海平面
+option.SEA_LEVEL.comment=无垠海渲染的高度. §9不影响性能! §7如果其他高度的海平面的需求, 可以告诉我! 
+
+option.DH_AO=环境光遮蔽 (AO)
+option.DH_AO.comment=使得 DH 区域的方块边缘更清晰. §6中等性能影响.
+
+option.DH_AO_SAMPLES=AO 采样值
+option.DH_AO_SAMPLES.comment=设置较高的值会稍微卡顿但噪点更少. §6中等性能影响.
+
+option.PARALLAX=视差
+option.PARALLAX.comment=使得方块和实体表面有深度细节. §6中等性能影响.
+
+option.PARALLAX_HEIGHT=视差高度
+option.PARALLAX_HEIGHT.comment=深度为 1 时该深入方块多远. §9不影响性能!
+
+option.PARALLAX_DISTANCE=视差渲染距离
+option.PARALLAX_DISTANCE.comment=多远的距离后停止渲染视差效果. §6中等性能影响.
+
+option.PARALLAX_SAMPLES=视差采样值
+option.PARALLAX_SAMPLES.comment=计算视差使用的采样数. 设置较高的值以降低性能为代价减少边缘锯齿. §6中等性能影响.
+
+option.PARALLAX_SHADOW=视差自阴影
+option.PARALLAX_SHADOW.comment=允许视差投射阴影. §6中等性能影响.
+
+option.PARALLAX_SHADOW_SAMPLES=自阴影采样值
+option.PARALLAX_SHADOW_SAMPLES.comment=计算视差阴影使用的采样数. §6中等性能影响. 
+
+option.tonemap=色调操控
+option.tonemap.comment=最终颜色分级方法. §2微量性能影响.
+value.tonemap.agxTonemap=AGX (Punchy)
+value.tonemap.jodieReinhardTonemap=Jodie-Reinhard
+value.tonemap.uncharted2FilmicTonemap=Hable
+value.tonemap.hejlBurgessTonemap=Hejl-Burgess
+value.tonemap.ACESTonemap=ACES Approx.
