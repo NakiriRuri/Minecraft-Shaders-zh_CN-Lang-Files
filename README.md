@@ -2,7 +2,7 @@
 
 <p align = "center">Minecraft 光影汉化文件合集</p>
 
-![名片](https://raw.githubusercontent.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files/main/%E6%96%87%E6%A1%A3(DOCS)/README/README_2.png)
+![名片](https://raw.githubusercontent.com/NakiriRuri/Minecraft-Shaders-zh_CN-Lang-Files/main/%E6%96%87%E6%A1%A3(DOCS)/README/README_1.png)
 
 <p align="center">
   <a href="https://space.bilibili.com/286713864"><img src="https://img.shields.io/badge/主页-哔哩哔哩-blue" /></a>
